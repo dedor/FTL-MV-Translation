@@ -102,7 +102,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -151,7 +151,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_HARMONY">
-				<text>(Engi Crew) Have your Engi bargain with them for a drone.</text>
+				<text>(Engi 선원) Have your Engi bargain with them for a drone.</text>
 				<event>
 					<text>"Federation ship requires: drone schematic. Schematic not currently in use, logic suggests drone will serve better use on Federation vessel."</text>
 					<drone name="RANDOM"/>
@@ -199,7 +199,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_HARMONY">
-				<text>(Engi Crew) Have your Engi bargain with them for a drone.</text>
+				<text>(Engi 선원) Have your Engi bargain with them for a drone.</text>
 				<event>
 					<text>"Federation ship requires: drone schematic. Schematic not currently in use, logic suggests drone will serve better use on Federation vessel."</text>
 					<drone name="RANDOM"/>
@@ -214,7 +214,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -262,7 +262,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ZOLTAN_CAPITAL">
-				<text>(Zoltan Crew) Have your Zoltan bargain with them for a reactor upgrade.</text>
+				<text>(Zoltan 선원) Have your Zoltan bargain with them for a reactor upgrade.</text>
 				<event>
 					<text>"So you require power? Not an unreasonable request, but still an unexpected one. Yes, we can do this."</text>
 					<upgrade amount="1" system="reactor"/>
@@ -309,7 +309,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ZOLTAN_CAPITAL">
-				<text>(Zoltan Crew) Have your Zoltan bargain with them for a reactor upgrade.</text>
+				<text>(Zoltan 선원) Have your Zoltan bargain with them for a reactor upgrade.</text>
 				<event>
 					<text>"So you require power? Not an unreasonable request, but still an unexpected one. Yes, we can do this."</text>
 					<upgrade amount="1" system="reactor"/>
@@ -323,7 +323,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -371,7 +371,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ORCHID">
-				<text>(Orchid Crew) Have your Orchid bargain for a Kernel weapon.</text>
+				<text>(Orchid 선원) Have your Orchid bargain for a Kernel weapon.</text>
 				<event>
 					<text>The Federation officer relays your message to the silent Orchid, who nods. They walk into one of the storage rooms and returns with a weapon.</text>
 					<weapon name="GIFTLIST_KERNEL"/>
@@ -418,7 +418,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ORCHID">
-				<text>(Orchid Crew) Have your Orchid bargain for a Kernel weapon.</text>
+				<text>(Orchid 선원) Have your Orchid bargain for a Kernel weapon.</text>
 				<event>
 					<text>The Federation officer relays your message to the silent orchid, who nods. They walk into one of the storage rooms and returns with a weapon.</text>
 					<weapon name="GIFTLIST_KERNEL"/>
@@ -432,7 +432,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -480,7 +480,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_FREEMAN">
-				<text>(Free Mantis Crew) Suggest that the Free Mantis join your crew.</text>
+				<text>(독립 맨티스 선원) Suggest that the Free Mantis join your crew.</text>
 				<event>
 					<text>"You... you want me? Yes, YES! I come now, no need to grab things."</text>
 					<crewMember amount="1" class="freemantis"/>
@@ -527,7 +527,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_FREEMAN">
-				<text>(Free Mantis Crew) Suggest that the Free Mantis join your crew.</text>
+				<text>(독립 맨티스 선원) Suggest that the Free Mantis join your crew.</text>
 				<event>
 					<text>"You... you want me? Yes, YES! I come now, no need to grab things."</text>
 					<crewMember amount="1" class="freemantis"/>
@@ -541,7 +541,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -589,7 +589,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_CRYSTAL">
-				<text>(Crystal Crew) Request that the Crystals give you a Crystal weapon.</text>
+				<text>(Crystal 선원) Request that the Crystals give you a Crystal weapon.</text>
 				<event>
 					<text>"Yes, we can arrange this. It will arrive shortly."</text>
 					<weapon name="GIFTLIST_CRYSTAL"/>
@@ -636,7 +636,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_CRYSTAL">
-				<text>(Crystal Crew) Request that the Crystals give you a Crystal weapon.</text>
+				<text>(Crystal 선원) Request that the Crystals give you a Crystal weapon.</text>
 				<event>
 					<text>"Yes, we can arrange this. It will arrive shortly."</text>
 					<weapon name="GIFTLIST_CRYSTAL"/>
@@ -650,7 +650,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -698,7 +698,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ROCK">
-				<text>(Rock Crew) Request that the Outcasts give you a missile weapon.</text>
+				<text>(락맨 선원) Request that the Outcasts give you a missile weapon.</text>
 				<event>
 					<text>"Allow me to see what we can provide. I'm sure we have something extra in storage."</text>
 					<weapon name="GIFTLIST_MISSILES"/>
@@ -745,7 +745,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ROCK">
-				<text>(Rock Crew) Request that the Outcasts give you a missile weapon.</text>
+				<text>(락맨 선원) Request that the Outcasts give you a missile weapon.</text>
 				<event>
 					<text>"Allow me to see what we can provide. I'm sure we have something extra in storage."</text>
 					<weapon name="GIFTLIST_MISSILES"/>
@@ -759,7 +759,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -849,7 +849,7 @@
 			<text>You've decided, instead of receiving help, to attack this outpost full of friendlies...</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>

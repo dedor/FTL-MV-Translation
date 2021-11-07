@@ -4,7 +4,7 @@
 	<ship load="SHIP_REBEL_FLEET_FUEL" hostile="true"/>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -15,7 +15,7 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -64,7 +64,7 @@
 	<text load="FUEL_FLEET_DELAY_LIST"/>		
 	<modifyPursuit amount="-1"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="NO_FUEL"/>
 	</choice>
 </event>
@@ -81,11 +81,11 @@
 <event name="FUEL_NOTHING">
 	<text load="FUEL_NOTHING_LIST"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -145,11 +145,11 @@
 		<event>
 			<text>You don't want to risk anything.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -211,7 +211,7 @@
 		<text>You wander within scanning range of a small Rebel automated scout!</text>
 		<ship load="SHIP_AUTO_FUEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -228,7 +228,7 @@
 		<event load="FUEL_APPROACH_DECLINE_LIST"/>
 	</choice>  
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Advanced Sensors) Run a detailed scan with your sensors before responding.</text>
+		<text>(최고급 Sensors) Run a detailed scan with your sensors before responding.</text>
 		<event load="FUEL_APPROACH_SCAN_LIST"/>
 	</choice>    
 	<choice hidden="true" req="ADV_SCANNERS">
@@ -262,7 +262,7 @@
 		<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 		<boarders min="2" max="3" class="human"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -270,7 +270,7 @@
 		<text>As they approach, you detect their weapons powering up. It seems their intentions are hostile!</text>
 		<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -287,11 +287,11 @@
 	<event>
 		<text>"No one trusts anyone these days..." The ship jumps away.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -299,7 +299,7 @@
 		<text>They reply,"Keep our distance? Let's see if you can stop us!" They power up their weapons and advance.</text>
 		<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -319,7 +319,7 @@
 				<text>You prepare to battle the pirate.</text>
 				<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -415,7 +415,7 @@
 										<item type="missiles" min="2" max="2"/>
 									</item_modify>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>"Oh, and take some fuel friend!"</text>
 											<item_modify>
@@ -490,7 +490,7 @@
 	<text load="FUEL_FLEET_DISTRESS_LIST"/>		
 	<modifyPursuit amount="1"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="NO_FUEL"/>
 	</choice>
 </event>
@@ -507,11 +507,11 @@
 <event name="FUEL_NOTHING_DISTRESS">
 	<text load="FUEL_NOTHING_DISTRESS_LIST"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -566,7 +566,7 @@
 			<text>You prepare to attack the auto ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -694,7 +694,7 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ENGI" hidden="true">
-		<text>(Engi Crew) Negotiate a better trade.</text>
+		<text>(Engi 선원) Negotiate a better trade.</text>
 		<event>
 			<text>Your Engi analyzes scans of the extensive damage to their hull, calculating potential repair costs. The refugees grumble and protest, but in the end, they admit that their need for repairs is greater than their fuel surplus and offer a better trade.</text>
 			<choice>
@@ -774,7 +774,7 @@
 		</item_modify>
 		<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -791,7 +791,7 @@
 		<text>Taking your reluctance as weakness, the refugee ship suddenly bristles with weapons - it's a pirate ship, and it believes it's found easy prey!</text>
 		<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -799,7 +799,7 @@
 		<text>Taking your reluctance as weakness, the refugee ship suddenly bristles with weapons - it's a pirate ship, and it believes it's found easy prey!</text>
 		<ship load="SHIP_PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -814,7 +814,7 @@
 	<text load="FUEL_ON_REBEL_ATTACK"/>
 	<ship load="SHIP_REBEL_FUEL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -829,7 +829,7 @@
 	<text>A ship responding to your distress moves in. Unfortunately it turns out to be an automated Rebel scout. It immediately reverses thrust after scanning your ship.</text>
 	<ship load="SHIP_AUTO_WARNING" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>	
@@ -847,15 +847,15 @@
 		<event load="FUEL_OFF_ENGI_DUBIOUS_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>They clearly are busy because they don't notice your ship at all.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -879,7 +879,7 @@
 		<text>The Engi fail to respond, but move to intercept. You detect abnormal electromagnetic signals aboard the ship - someone has reprogrammed them to fight!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -919,7 +919,7 @@
 	<text load="FUEL_ON_MANTIS_ATTACK"/>
 	<ship load="SHIP_MANTIS_FUEL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -952,11 +952,11 @@
 		<event>
 			<text>The Rock don't take kindly to aliens picking through their belongings, no matter how decrepit they may seem, and you don't take risks in Rock territory.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1015,7 +1015,7 @@
 			<text>The Rock people are not renowned for their generosity. If it's fuel you need, it's fuel you must take!</text>
 			<ship load="SHIP_FUEL_OFF_ROCK_CURIOUS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1037,7 +1037,7 @@
 		<ship load="FUEL_OFF_ROCK_CURIOUS" hostile="true"/>	
 		<status type="limit" target="player" system="engines" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1056,7 +1056,7 @@
 		<event load="FUEL_OFF_SHELL_SCANS_QUEUE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SHELL">
-		<text>(Shell Crew) Your Shell wishes to explain something.</text>
+		<text>(Shell 선원) Your Shell wishes to explain something.</text>
 		<event>
 			<text>Your Shell explains that in their culture, it's completely ordinary to take tests on strangers, and generally seen as an insult to refuse. They confirm the tests should be completely harmless as well.</text>
 			<choice hidden="true">
@@ -1085,7 +1085,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="mind">
-		<text>(Mind Control) 'Convince' the Shells to stop early and give over the fuel.</text>
+		<text>(정신 지배l) 'Convince' the Shells to stop early and give over the fuel.</text>
 		<event>
 			<text>Fortunately, the Shells are not telepathic like their Slug cousins, and the system is very effective on them.</text>
 			<autoReward level="LOW">fuel_only</autoReward>
@@ -1097,7 +1097,7 @@
 			<text>"What? We cannot stop now, thhhhe data is inconclusive at best, completely unusable at worst! Thhhis is an insult to our deal!" Outraged, the Shells attack!</text>
 			<ship hostile="true"/>	
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1108,7 +1108,7 @@
 		<text>You attempt to decline, but the Shells won't have it. "We cannot let thhhhis opportunity pass!" They attempt to convince you one more time, but you won't have it. Looks like a fight is unavoidable!</text>
 		<ship hostile="true"/>	
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1132,17 +1132,17 @@
 		<event>
 			<text>You know better than to do business with a Slugman who seems like he knows something you don't. He jumps off with another chuckle.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Have your Slug make the purchase.</text>
+		<text>(Slug 선원) Have your Slug make the purchase.</text>
 		<event>
 			<text>As soon as he sees your crewmember the Slug stops his incessant chuckling. The exchange appears to go smoothly although you wonder what mental battles are telepathically occurring between the two Slugs.</text>
 			<item_modify>
@@ -1160,7 +1160,7 @@
 			<item type="fuel" min="5" max="5"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Everything looks secure but suddenly a number of supplies disappear! He must have planted a portable teleporter into your cargo bay somehow. Before you can react his ship is long gone.</text>
 				<item_modify steal="true">
@@ -1208,7 +1208,7 @@
 			<text>You offer a more reasonable price but the Slugman is outraged! He moves in to attack!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1218,11 +1218,11 @@
 		<event>
 			<text>The Slug captain ends all communications and jumps away, leaving you alone once again.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1242,7 +1242,7 @@
 		<event load="FUEL_ON_DYNASTY_LIE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(Ghost Crew) Yes.</text>
+		<text>(유령 선원) Yes.</text>
 		<event>
 			<text>"Good! Then, beware the heart, traveler! It bleeds, but still it beats!" You assume that's all, but the Ghosts eject a crate of fuel at you, then jump off!</text>
 			<autoReward level="MED">fuel_only</autoReward>
@@ -1262,7 +1262,7 @@
 					<text>The demon's heart, whatever that means, can wait!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1275,7 +1275,7 @@
 		<text>"Do not scoff! This is most serious. I see it in your eyes... Hark, you are but one of them, are you not? A Federation cruiser, sent to bring about the Dynasty's downfall!" The ship arms its weapons. None of this makes any sense, but you'll have to fight it out!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1289,7 +1289,7 @@
 		<text>"Lies, lies! You know nothing! The Federation has sheltered you from the heart! The demon's fingers shall grip you and show you no mercy! Consider this a favor!" The Ghost ship suddenly arms its weapons and attacks!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>

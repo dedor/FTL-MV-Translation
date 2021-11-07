@@ -237,7 +237,7 @@
 
 <achievement id="ACH_ONLY_DRONES">
 	<name>I hardly lifted a finger</name>
-	<desc>With the Engi Cruiser, destroy an enemy ship using only drones (no weapons).</desc>
+	<desc>With the Engi Cruiser, destroy an enemy ship using only drones (no 무기실).</desc>
 	<img>achievements/circle_cruiser_2.png</img>
 	<ship>PLAYER_SHIP_CIRCLE</ship>
 	<multiDifficulty>1</multiDifficulty>

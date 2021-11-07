@@ -39,7 +39,7 @@
 					<text>You deploy the buoys.</text>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ATLAS_MENU_NOEQUIPMENT"/>
 					</choice>
 				</event>
@@ -53,7 +53,7 @@
 						<item type="drones" min="-4" max="-4"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ATLAS_MENU_NOEQUIPMENT"/>
 					</choice>
 				</event>
@@ -67,7 +67,7 @@
 						<item type="drones" min="-8" max="-8"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ATLAS_MENU_NOEQUIPMENT"/>
 					</choice>
 				</event>
@@ -87,7 +87,7 @@
 			</item_modify>
 			<reveal_map/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="ATLAS_MENU_NOEQUIPMENT"/>
 			</choice>
 		</event>
@@ -100,7 +100,7 @@
 				<item type="fuel" min="2" max="2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="ATLAS_MENU_NOEQUIPMENT"/>
 			</choice>
 		</event>
@@ -113,7 +113,7 @@
 			<damage amount="6" effect="fire" system="engines"/>
 			<modifyPursuit amount="-3"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="ATLAS_MENU_NOEQUIPMENT"/>
 			</choice>
 		</event>
@@ -1018,7 +1018,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1045,7 +1045,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1073,7 +1073,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1111,7 +1111,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1150,7 +1150,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1178,7 +1178,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1217,7 +1217,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1244,7 +1244,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1283,7 +1283,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1310,7 +1310,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1349,7 +1349,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1376,7 +1376,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1415,7 +1415,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1453,7 +1453,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1480,7 +1480,7 @@
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1519,7 +1519,7 @@ These are, in fact, the second Homeworlds of the Crystals. After being forced ou
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1546,7 +1546,7 @@ These are, in fact, the second Homeworlds of the Crystals. After being forced ou
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1586,7 +1586,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1625,7 +1625,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1652,7 +1652,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1691,7 +1691,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1718,7 +1718,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1757,7 +1757,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1784,7 +1784,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1823,7 +1823,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1850,7 +1850,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1890,7 +1890,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1928,7 +1928,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1955,7 +1955,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -1994,7 +1994,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2021,7 +2021,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2059,7 +2059,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2086,7 +2086,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2125,7 +2125,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2163,7 +2163,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2201,7 +2201,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2239,7 +2239,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2266,7 +2266,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2294,7 +2294,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2333,7 +2333,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2359,7 +2359,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2394,7 +2394,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2421,7 +2421,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2457,7 +2457,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2496,7 +2496,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2523,7 +2523,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2562,7 +2562,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2588,7 +2588,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2616,7 +2616,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2642,7 +2642,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2681,7 +2681,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2719,7 +2719,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2739,7 +2739,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by an unusual advertisement; "Greetingsss valued Hektar customer! Thiss isss Billy Hektar, CEO of the Hektar Corporation speaking to you. Asss part of our new cussstomer loyalty program, I am proud to introduce our new 'Unwavering Wage Utility Points!' Each time you vissit a Hektar(tm) brand ssstore, our friendly cussstomer support vesssselss will add an extra U.W.U. point to your account! Collect enough, and you'll be able to enter our reward program! Happy ssshopping!" The advertisement concludes, and a cheerful jingle plays over your computer, followed by the motto "Satisfaction guaranteed, because you aren't getting your money back!"</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_SLUG"/>
 			</choice>
 		</event>
@@ -2750,7 +2750,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by the same advertisement as before. Looks like this is yet another Hektar market sector.</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_SLUG"/>
 			</choice>
 		</event>
@@ -2765,7 +2765,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2785,7 +2785,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by an unusual advertisement; "Greetingsss valued Hektar customer! Thiss isss Billy Hektar, CEO of the Hektar Corporation speaking to you. Asss part of our new cussstomer loyalty program, I am proud to introduce our new 'Unwavering Wage Utility Points!' Each time you vissit a Hektar(tm) brand ssstore, our friendly cussstomer support vesssselss will add an extra U.W.U. point to your account! Collect enough, and you'll be able to enter our reward program! Happy ssshopping!" The advertisement concludes, and a cheerful jingle plays over your computer, followed by the motto "Satisfaction guaranteed, because you aren't getting your money back!"</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_PIRATE"/>
 			</choice>
 		</event>
@@ -2796,7 +2796,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by the same advertisement as before. Looks like this is yet another Hektar market sector.</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_PIRATE"/>
 			</choice>
 		</event>
@@ -2811,7 +2811,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2831,7 +2831,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by an unusual advertisement; "Greetingsss valued Hektar customer! Thiss isss Billy Hektar, CEO of the Hektar Corporation speaking to you. Asss part of our new cussstomer loyalty program, I am proud to introduce our new 'Unwavering Wage Utility Points!' Each time you vissit a Hektar(tm) brand ssstore, our friendly cussstomer support vesssselss will add an extra U.W.U. point to your account! Collect enough, and you'll be able to enter our reward program! Happy ssshopping!" The advertisement concludes, and a cheerful jingle plays over your computer, followed by the motto "Satisfaction guaranteed, because you aren't getting your money back!"</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_NEBULA"/>
 			</choice>
 		</event>
@@ -2842,7 +2842,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by the same advertisement as before. Looks like this is yet another Hektar market sector.</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_NEBULA"/>
 			</choice>
 		</event>
@@ -2857,7 +2857,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2877,7 +2877,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by an unusual advertisement; "Greetingsss valued Hektar customer! Thiss isss Billy Hektar, CEO of the Hektar Corporation speaking to you. Asss part of our new cussstomer loyalty program, I am proud to introduce our new 'Unwavering Wage Utility Points!' Each time you vissit a Hektar(tm) brand ssstore, our friendly cussstomer support vesssselss will add an extra U.W.U. point to your account! Collect enough, and you'll be able to enter our reward program! Happy ssshopping!" The advertisement concludes, and a cheerful jingle plays over your computer, followed by the motto "Satisfaction guaranteed, because you aren't getting your money back!"</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_ABANDONED_LIST"/>
 			</choice>
 		</event>
@@ -2888,7 +2888,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>Before you can finish exiting Hyperspeed, you're greeted by the same advertisement as before. Looks like this is yet another Hektar market sector.</text>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_ABANDONED_LIST"/>
 			</choice>
 		</event>
@@ -2914,7 +2914,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2951,7 +2951,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -2988,7 +2988,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -3025,7 +3025,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -3051,7 +3051,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -3089,7 +3089,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 	<text load="TEXT_LIGHTSPEED"/>
 	<img back="BACKGROUND_LIGHTSPEED" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LOAD_ATLAS"/>
 	</choice>
 </event>
@@ -3168,7 +3168,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
 			<remove name="HIDDEN COORDS_SPIDER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="JUMP_TO_SPIDER"/>
 			</choice>
 		</event>
@@ -3199,7 +3199,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
 			<remove name="HIDDEN COORDS_JERRY"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="JUMP_TO_JERRY"/>
 			</choice>
 		</event>
@@ -3231,7 +3231,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
 			<remove name="HIDDEN COORDS_NIGHTS"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="JUMP_TO_NIGHTS"/>
 			</choice>
 		</event>
@@ -3263,7 +3263,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
 			<remove name="HIDDEN COORDS_HEKTAR"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="JUMP_TO_HEKTAR"/>
 			</choice>
 		</event>
@@ -3296,7 +3296,7 @@ On the very rim of Theocracy space, the so-called Badlands have become the dense
 			<text>You prepare to jump to the new co-ordinates, and change your flight path accordingly.</text>
 			<remove name="HIDDEN COORDS_HIVE"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="JUMP_TO_HIVE"/>
 			</choice>
 		</event>

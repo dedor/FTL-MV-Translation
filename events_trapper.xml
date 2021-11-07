@@ -20,7 +20,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -30,11 +30,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -62,7 +62,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -72,11 +72,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -104,7 +104,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -114,11 +114,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -150,7 +150,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -160,11 +160,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -184,7 +184,7 @@
 </ship>
 
 <event name="TRAPPER_MANTIS" unique="true">
-	<text>A Mantis Minelayer hails you. "This Hive territory. Usually, would kill Federation. However, conservation of ammo must be upheld. Consider this lucky and leave."</text>
+	<text>A Mantis Minelayer hails you. "This Hive territory. Usually, would kill Federation. However, conservation of ammo must be upheld. Consider this lucky and 떠난다."</text>
 	<ship load="SHIP_MANTIS_TRAPPER" hostile="false"/> 
 	<choice hidden="true">
 		<text>Attack, we can steal their Mine Launcher tech!</text>
@@ -192,7 +192,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -202,11 +202,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -236,7 +236,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -246,11 +246,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -282,7 +282,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -292,11 +292,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -323,7 +323,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -333,11 +333,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -375,7 +375,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -385,11 +385,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -417,7 +417,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -427,11 +427,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -461,7 +461,7 @@
 </event>
 
 <event name="TRAPPER_ORCHID" unique="true">
-	<text>An Orchid vessel laying a defensive minefield at this beacon hails you. Though they say no words, it's clear they don't approve of your presence here. However, they don't seem to want to fight so long as you leave.</text>
+	<text>An Orchid vessel laying a defensive minefield at this beacon hails you. Though they say no words, it's clear they don't approve of your presence here. However, they don't seem to want to fight so long as you 떠난다.</text>
 	<ship load="SHIP_ORCHID_TRAPPER" hostile="false"/> 
 	<choice hidden="true">
 		<text>Attack, we can steal their Mine Launcher tech!</text>
@@ -469,7 +469,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -479,11 +479,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -511,7 +511,7 @@
 			<text>You've taken the risky choice of fighting the ship. Hopefully, you can protect yourself from their salvo long enough.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -521,11 +521,11 @@
 		<event>
 			<text>Messing with a Trapper is a bad idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -557,7 +557,7 @@
 			<text>You power up your weapons and fight the Obelisk ship.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -567,11 +567,11 @@
 		<event>
 			<text>You decide not to fight the Obelisks, and fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>

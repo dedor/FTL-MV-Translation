@@ -64,11 +64,11 @@
 		<event>
 			<text>The Lost Suns do not try to hail you again. You put some distance between yourself and them just in case.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -86,11 +86,11 @@
 		<event>
 			<text>Stealing military supplies in Lost Sun territory doesn't sound like a good idea. You leave it be.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -109,7 +109,7 @@
 		<text>The cache is harder to open than you expected. You spend some time trying to open it when a Lost Sun ship spots you, and attacks! You abandon the cache and prepare to fight.</text>
 		<ship load="SHIP_LOSTSUN_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -129,7 +129,7 @@
 						<item type="missiles" min="-5" max="-5"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Reluctantly, the Lost Sun captain gives you some scrap as payment.</text>
 							<autoReward level="LOW">scrap_only</autoReward>
@@ -145,7 +145,7 @@
 						<item type="missiles" min="-15" max="-15"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Thankful for your large donation, the Lost Suns pay you back with ample scrap.</text>
 							<autoReward level="HIGH">scrap_only</autoReward>
@@ -159,7 +159,7 @@
 					<text>"Interesting technology. I have heard of it, yes, but our budget is low. This will help us considerably. Thank you, captain."</text>
 					<remove name="EXPLOSIVE_REPLICATOR"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Lost Suns repay your tech with some of their own, as well as some scrap.</text>
 							<autoReward level="LOW">scrap_only</autoReward>
@@ -173,11 +173,11 @@
 				<event>
 					<text>"As expected. Hurry along then, and hope misfortune does not follow you."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -189,11 +189,11 @@
 		<event>
 			<text>There isn't anything that concerns you here. You fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -219,7 +219,7 @@
 	<text load="TEXT_ENCOUNTER_LOSTSUN"/>
 	<ship load="SHIP_LOSTSUN_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -234,7 +234,7 @@
 	<text load="TEXT_ENCOUNTER_ROCK_LOSTSUN"/>
 	<ship load="SHIP_ROCK_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -249,7 +249,7 @@
 	<text load="TEXT_ENCOUNTER_COALITION_LOSTSUN"/>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -257,7 +257,7 @@
 	<text load="TEXT_ENCOUNTER_COALITION_LOSTSUN"/>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -276,7 +276,7 @@
 			<environment type="PDS" target="enemy"/>
 			<ship load="SHIP_ROCK_FIGHT_CHOICE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -288,7 +288,7 @@
 			<environment type="PDS" target="enemy"/>
 			<ship load="SHIP_LOSTSUN_FIGHT_CHOICE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -338,7 +338,7 @@
 	<ship load="SHIP_LOSTSUN_FIGHT" hostile="true"/> 
 	<environment type="sun"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -348,7 +348,7 @@
 	<ship load="SHIP_ROCK_FIGHT" hostile="true"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -386,7 +386,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -433,7 +433,7 @@
 		<ship load="LIST_SHIPS_PIRATE_ALL" hostile="true"/>
 		<environment type="asteroid"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>-->
@@ -447,7 +447,7 @@
 			<text>You kick your engines into high gear and chase away the Lost Sun from the civilian. Time for a fight.</text>
 			<ship load="SHIP_LOSTSUN_CIVILIAN" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -457,11 +457,11 @@
 		<event>
 			<text>The civilians continue trying to hail you. You tune them out and fly away until you're completely alone.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -476,7 +476,7 @@
 			<text>"Let the battle commence!"</text>
 			<ship load="SHIP_LOSTSUN_CHALLENGE_DEFAULT" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -490,7 +490,7 @@
 			<status type="limit" target="player" system="clonebay" amount="0"/>
 			<status type="limit" target="player" system="oxygen" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -502,7 +502,7 @@
 			<ship load="SHIP_LOSTSUN_CHALLENGE_REACTOR" hostile="true"/> 
 			<status type="divide" target="player" system="reactor" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -526,7 +526,7 @@
 			<status type="limit" target="player" system="oxygen" amount="1"/>
 			<status type="limit" target="player" system="teleporter" amount="1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -551,7 +551,7 @@
 			<status type="limit" target="player" system="teleporter" amount="1"/>
 			<status type="divide" target="player" system="reactor" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -565,7 +565,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -603,7 +603,7 @@
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Chaos erupts in the Lost Sun structure as explosions ripple across the surface. One appears to have disabled the main power to the shield keeping the civilians at bay, and they escape. The civilians spot you and, putting two and two together, decide to pay you for freeing them.</text>
 					<autoReward level="MED">scrap_only</autoReward>
@@ -627,12 +627,12 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="engines" lvl="4">
-		<text>(Upg. Engines) Use your improved engines to track them down.</text>
+		<text>(고급 Engines) Use your improved engines to track them down.</text>
 		<event>
 			<text>You manage to catch up to the Rock spy. They don't take kindly to you following them, and attack.</text>
 			<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -643,7 +643,7 @@
 		<text>You manage to catch up to the Rock spy. They don't take kindly to you following them, and attack.</text>
 		<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -664,7 +664,7 @@
 			<text>Theres no words that need be exchanged. As soon as you begin to approach it is clear that your intentions are hostile, and the Mantis prepare to defend themselves.</text>
 			<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -675,21 +675,21 @@
 			<text>The Mantis appear mildly shocked that you reached out to them. Before they can speak however, a Lost Sun ship comes flying out of nowhere and blasts the Mantis ship into oblivion. They seem to identify you as a threat as well.</text>
 			<ship load="SHIP_LOSTSUN_FIGHT_MANTIS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>Contrary to expectations, the Mantis make no attempt to follow. You distance yourself from their ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -732,7 +732,7 @@
 							<text>"The Coalition is not our enemy, only the Rock Elders and their lies! Not every enemy of the Federation is an enemy of the rest of the galaxy. Let us teach you a well-deserved lesson."</text>
 							<ship load="SHIP_LOSTSUN_FIGHT" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -743,7 +743,7 @@
 							<text>"That is not even a crime! If you cannot even be mature, then it is clear you do not belong here. Prepare to have your life extinguished."</text>
 							<ship load="SHIP_LOSTSUN_FIGHT" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -767,7 +767,7 @@
 <event name="LOSTSUN_CHALLENGE_CORRECT_1">
 	<text>"Very good, though that was a question anyone but the Rock people themselves could answer."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"We Lost Suns are devoted to our religion. Which race is the strongest and most pure of any other?"</text>
 			<choice hidden="true">
@@ -805,7 +805,7 @@
 <event name="LOSTSUN_CHALLENGE_CORRECT_2">
 	<text>"Yes, the fires that gave birth to all life are the only thing that can cleanse us of our sins!"</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"No government is free of lies or scandals. Prove to us that you see through the lies that your precious Federation has been spreading for years."</text>
 			<choice hidden="true">
@@ -856,7 +856,7 @@
 			<text>Not all Rockmen should be blamed for the antagony of their government. You block the Lost Suns and prepare to fight.</text>
 			<ship load="SHIP_LOSTSUN_SETTLEMENT" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -866,11 +866,11 @@
 		<event>
 			<text>You approach to attack the settlement but the Lost Sun ship stops you. "Federation, this is not a job for you. Leave this beacon so that we may carry out our duty." You fly a safe distance away before they can reinforce their words with weapons.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -880,11 +880,11 @@
 		<event>
 			<text>You try not to think of all the innocent lives that will be lost because of this attack, and try to focus on doing something aboard the ship instead.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -924,7 +924,7 @@
 				<item type="fuel" min="-3" max="-3"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>They don't have much scrap to spare, but decide to lend some extra missiles and perform repairs to your hull.</text>
 					<autoReward level="LOW">missiles_only</autoReward>
@@ -939,7 +939,7 @@
 			<text>In a fit of pure desperation and as a last ditch attempt to save their lives, the civilians power on their weapons and attack you.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -957,7 +957,7 @@
 	<distressBeacon/>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -998,11 +998,11 @@
 		<event>
 			<text>Once they see you too avoiding their group, the Lost Suns relax and continue their secretive discussion.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1018,11 +1018,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking">
-		<text>(Hacking) Shut down the station's systems.</text>
+		<text>(해킹) Shut down the station's systems.</text>
 		<event>
 			<text>Your hacking is able to temporarily shut down the sensor station long enough to damage their relay systems. You hail the Lost Suns, who jump in shortly after and quickly take over the settlement.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The head Lost Sun ship thanks you for your help, and pays you.</text>
 					<autoReward level="MED">standard</autoReward>
@@ -1031,11 +1031,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Have your Slug hack into their relay systems.</text>
+		<text>(Slug 선원) Have your Slug hack into their relay systems.</text>
 		<event>
 			<text>Your Slug is able to temporarily shut down the sensor station long enough to damage their relay systems. You hail the Lost Suns, who jump in shortly after and quickly take over the settlement.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The head Lost Sun ship thanks you for your help, and pays you.</text>
 					<autoReward level="MED">standard</autoReward>
@@ -1044,11 +1044,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Have your Engi hack into their relay systems.</text>
+		<text>(Engi 선원) Have your Engi hack into their relay systems.</text>
 		<event>
 			<text>Your Engi is able to temporarily shut down the sensor station long enough to damage their relay systems. You hail the Lost Suns, who jump in shortly after and quickly take over the settlement.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The head Lost Sun ship thanks you for your help, and pays you.</text>
 					<autoReward level="MED">standard</autoReward>
@@ -1061,11 +1061,11 @@
 		<event>
 			<text>It's too risky to attack the station. You hope the Lost Suns find a different way to complete their mission.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1111,7 +1111,7 @@
 	<text>You arrive at the outpost, but it is too late. A large elite Rock ship has already demolished the structure. They spot you and hardly give you a chance to assess the situation before attacking.</text>
 	<ship load="SHIP_ROCK_ESCORT_LARGE" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1120,7 +1120,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<weapon name="RANDOM"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"So, our outpost has been... destroyed. This was unexpected. Your aid is much appreciated Federation Captain, but I must ask one more favor of you. I have tried to be devoted to the Lost Sun cause, but after this tragedy... the loss of many of my friends... I see now this war of ours will lead to nothing but bloodshed. I have nothing left. May I come with you, to experience all that I would never see if I stayed here, fighting a pointless war?"</text>
 			<choice hidden="true">
@@ -1164,11 +1164,11 @@
 		<event>
 			<text>The Rockman merely grunts and flies away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1208,19 +1208,19 @@
 					<text>"You dare insult the might and grace of the Elder's holy crusades? You die here!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>This isn't a hill to die on. Leave.</text>
+				<text>This isn't a hill to die on. 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Remain silent and leave.</text>
+		<text>Remain silent and 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1228,7 +1228,7 @@
 	<text>"Yes, and it is safe to say you have passed. The Lost Suns are not sparing with their alliances. If you truly represent the Federation, then you have done a good job showing your loyalty. The Theocracy will resent ever having crossed our path with you on our side."</text>
 	<hiddenAug>ACH_BOSS_LOSTSUN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"It would be criminal to not extend aid to you as well. I will provide you with quality military supplies to assist you. I have already begun the transfer of the blueprints for this very ship to the Federation, in hopes it will be used in their fight."</text>
 			<hiddenAug>ACH_CREW_ARIADNE</hiddenAug>

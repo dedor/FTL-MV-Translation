@@ -60,7 +60,7 @@
 			<choice hidden="true">
 				<text>Reassure them about the mission's importance.</text>
 				<event>
-					<text>"I suppose you speak the truth, though that is hard to admit." They say nothing more, and you leave.</text>
+					<text>"I suppose you speak the truth, though that is hard to admit." They say nothing more, and you 떠난다.</text>
 				</event>
 			</choice>
 			<choice hidden="true">
@@ -84,7 +84,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event/>
 	</choice>
 </event>
@@ -97,7 +97,7 @@
 			<text>You gather all of the crew together in the lounge, and you all sit in a circle around your Rockman. Your Rockman is dressed in a light blue outfit and preaches to you all, telling Rock folklore and exciting adventures of mythical heros. Time ticks by, but its oddly captivating.</text>
 			<modifyPursuit amount="1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>At the end of the ceremony, it is already far into your regular sleep-cycle. As you move back to your quarters, your Rockman pulls you aside and thanks you. "I know this is a burden on our mission, but it means a lot to me. I hope you will accept this gift."</text>
 					<item_modify>
@@ -130,7 +130,7 @@
 						<item type="scrap" min="-10" max="-10"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="CREW_TALK_SLUG_GAMBLE_PLAY"/>
 					</choice>
 				</event>
@@ -160,7 +160,7 @@
 				<item type="scrap" min="-10" max="-10"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Once again, your Slug comes out on top. Scooping up another handful of scrap, it has grown a smug expression. "Oh, you can't quit yet Captain! We're having sssso much fun. Pleassse play another round."</text>
 					<choice>
@@ -171,7 +171,7 @@
 								<item type="scrap" min="-10" max="-10"/>
 							</item_modify>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Growing accustom to your Slug's play style, you learn how to predict and even trick them. At last, you draw an incredible hand, which proves to outmatch the slug! Your slug tries to hide its fury, and moodily hands over its earnings. For everyone's sanity, you call an end to the game.</text>
 									<item_modify>
@@ -194,7 +194,7 @@
 	<choice>
 		<text>Quit.</text>
 		<event>
-			<text>"Oh come on Captain, we were jussst ssssstarting to have fun!" You say you have more important things to do and leave.</text>
+			<text>"Oh come on Captain, we were jussst ssssstarting to have fun!" You say you have more important things to do and 떠난다.</text>
 		</event>
 	</choice>
 </event>
@@ -209,7 +209,7 @@
 				<item type="scrap" min="-10" max="-10"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The slug shuffles its cards, then lays 1 face down on the table and commands you to sit. "Let'ss sssee your card..."</text>
 					<choice hidden="true">

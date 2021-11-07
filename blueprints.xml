@@ -9066,7 +9066,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="NO_GHOST">
     <title>Emancipation Grid</title>
-    <desc>Makes systems extra protected from Ghost erosion, reducing their sabotage damage by 20%. If a Door Control system is present, all crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 1hp for each level of Door Control above 1.</desc>
+    <desc>Makes systems extra protected from Ghost erosion, reducing their sabotage damage by 20%. If a Door Control system is present, all crew and drones (including anaerobic 선원) will take a base damage of 4hp/s with an extra 1hp for each level of Door Control above 1.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>

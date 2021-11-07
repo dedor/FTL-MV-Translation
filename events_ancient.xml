@@ -8,7 +8,7 @@
 			<text>You move in to begin scrapping the hull, but as you approach you notice the lights sparking to life. The entire ship comes online! They hail you, and a strange box shaped alien makes strange frustrated scraping sounds. Their weapons come online next, and they attack! Maybe if you can kill its inhabitants, you can investigate further.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -18,11 +18,11 @@
 		<event>
 			<text>As curious as it is, you don't feel like scrapping the ship. You may never know what mysteries it holds, but they probably aren't important.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -64,7 +64,7 @@
 					<damage amount="3" effect="breach" system="room"/>
 					<damage amount="2" effect="breach" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -76,7 +76,7 @@
 				<event>
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger nanobots can be heard grinding into your shields. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -88,7 +88,7 @@
 				<event>
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger nanobots can be heard grinding into your shields. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -101,7 +101,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -114,7 +114,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -127,7 +127,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -135,15 +135,15 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event>
 					<text>The mystery remains unknown to you, and it shall remains that way forever.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -161,7 +161,7 @@
 					<damage amount="3" effect="breach" system="room"/>
 					<damage amount="2" effect="breach" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -173,7 +173,7 @@
 				<event>
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger nanobots can be heard grinding into your shields. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -185,7 +185,7 @@
 				<event>
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger nanobots can be heard grinding into your shields. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -198,7 +198,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -211,7 +211,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -224,7 +224,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -232,15 +232,15 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event>
 					<text>The mystery remains unknown to you, and it shall remains that way forever.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -258,7 +258,7 @@
 					<damage amount="3" effect="breach" system="room"/>
 					<damage amount="2" effect="breach" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -270,7 +270,7 @@
 				<event>
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger nanobots can be heard grinding into your shields. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -282,7 +282,7 @@
 				<event>
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger nanobots can be heard grinding into your shields. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -295,7 +295,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -308,7 +308,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -321,7 +321,7 @@
 					<text>You fly straight into it, and to your surprise the nanobots are simply pushed out of the way. As you get deeper and deeper the larger bots grind against your armor, causing some minor damage. At last you reach the center, a blinding ball of light which consumes you...</text>
 					<damage amount="2" system="random"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<secretSector/>
 						</event>
@@ -329,15 +329,15 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event>
 					<text>The mystery remains unknown to you, and it shall remains that way forever.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -349,11 +349,11 @@
 		<event>
 			<text>You have no choice but to abandon the massive structure. Maybe someone else will discover the source of this mystery.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -363,7 +363,7 @@
 <event name="ANCIENT_LORE_DUMP">
 	<text>The creature begins to speak in the same garbled way as the Auto-scout before but stops. It scans the area where your translator is located, and the device lights up. You look at your translator to find its database entries have been updated even further - expanding on the entries given to you by the Augmented.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The alien speaks again. "Language Calibration: Complete. Hello, strange creature. I have taken the liberty of updating your translator to understand our spoken language. You have done me a great service, though I know you probably had no idea what you were doing. The closest pronunciation of my name in your language is Aenwithe, but I suspect that might be a mouthful. I recommend you call me Wither, as my true dialect would make your head explode if attempted to be pronounced."</text>
 			<choice hidden="true">
@@ -375,35 +375,35 @@
 						<event>
 							<text>"Ok then, well where to start... As I have said, my name is Aenwithe. Though my species's given name would translate to something similar to 'Ancient', it's probably easier to refer to us as the Obelisks. Our race has been around for far longer than most, the only other competitors we had in our glory days were the Crystals, the Dynasty, and the Lanius."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"We have been divided culturally by centuries between the Commoners and the Royals, who are biologically much stronger than us and as such the natural leaders, a fact which most of us accept without complaint. We were not always these cubical mechanical things you see now, but the Royal's drive for perfection led to our need to perfect everything we had. Our organic bodies were left behind in favor of these, factoring out any weaknesses like disease or aging."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>"Though our new bodies struggle at repairing or construction due to a lack of limbs, we've already come to rely mostly on drone technology to serve us. Though our society might sound Utopian, it's anything but. Most of our population is sick and twisted, their egos so large they've come to believe that we are actual gods. This desire to play with life has led to some technological achievements you probably couldn't comprehend."</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>"The Engi race with which you are so familiar is merely a byproduct of an Obelisk cognitive AI, one which is truly sentient, known as the Harmony. When our civilization fell, the Harmony was released into the world and eventually became what it is today. Several other achievements of ours I've noticed have found their way into your society, such as the Zoltan's beloved Great Eye, which is merely a malfunctioning Reality Manipulator of ours. I might even had repaired it for them, had my fleet not been decimated."</text>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>"However, our biggest and grandest achievement beyond all else is none other than the Multiverse Drive themselves. See, after our exploitative nature of the universe around us started to catch up to us and we suddenly found our reality dry of the resources we had used up, we sought a way to fix it... by invading other realities for their resources instead. We didn't expect much resistance, until we found more of ourselves on the other end."</text>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
 																	<text>"Perhaps if we had been different we could have achieved some grand inter-reality civilization, but instead we followed through with our intent and waged war against ourselves. This was devastating, and within only a few decades, our species had been reduced to a shadow of its former glory. The survivors realized the futility of continuing to battle, and so we sealed ourselves away with the use of a waystone, a device which can disconnect a sector from the usual grid that FTL drives operate with."</text>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event>
 																			<text>"And so, this brings us to where we are now. We have remained locked away for centuries, slowly rebuilding our empire. The Royals have built several planet-sized vaults around some of our ruined sectors, and intend to use the supplies inside to launch a massive invasion of the reality you've deemed Universe 0, and eventually the rest of the Multiverse as well."</text>
 																			<choice hidden="true">
-																				<text>Continue...</text>
+																				<text>계속...</text>
 																				<event>
 																					<text>"I am part of a resistance group who aims to prevent the Royals from going through with their plans. To do this, we intend to use a specialized bomb called the Paragon. The force of its detonation should be so powerful it will not only decimate the Obelisk Homeworlds, but sever the connection between realities, rendering MV tech useless. That's why my fleet came here, to recover the last part we need to construct this weapon. However, the Lanius you saw destroyed it when they attacked us."</text>
 																					<choice hidden="true">
-																						<text>Continue...</text>
+																						<text>계속...</text>
 																						<event load="ANCIENT_LORE_DUMP_CHALLENGE"/>
 																					</choice>
 																				</event>
@@ -427,7 +427,7 @@
 						<event>
 							<text>"If you say so. I am part of an ancient civilization from long before any that you know of. Our species doomed ourselves to a point of near extinction after the Multiverse tech we invented led to a massive intraspecies war. We disappeared from the galactic scene ages ago, but now we've managed to crawl back. Our leaders, the Obelisk Royals, are planning to invade and retake Universe 0, and inevitably the rest of the Multiverse using massive stockpiles of supplies kept in several planet-sized vaults. I am part of a small but competent resistance group, and we are working on a prototype bomb called the Paragon. Its detonation will be so powerful that it will not only decimate the entire Obelisk Homeworlds, but collapse the Multiverse itself, shutting down MV drives everywhere. I came here to collect one of the last fragments needed, but those Lanius destroyed it along with my fleet."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="ANCIENT_LORE_DUMP_CHALLENGE"/>
 							</choice>
 						</event>
@@ -443,7 +443,7 @@
 									<hiddenAug>ACH_CREW_AENWITHE</hiddenAug>
 									<crewMember amount="1" class="traveler">Wither</crewMember> <!--its a witherbottom easter egg, wowee-->
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<secretSector/>
 										</event>
@@ -474,7 +474,7 @@
 			<hiddenAug>ACH_CREW_AENWITHE</hiddenAug>
 			<crewMember amount="1" class="traveler">Wither</crewMember> <!--its a witherbottom easter egg, wowee-->
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<secretSector/>
 				</event>
@@ -536,7 +536,7 @@
 	<text>You have arrived at the cache. You can see the Dreadnaught looming in the distance, though it is too far away to make out its features. As expected, it would be impossible to access the cache, which resembles a gigantic vault sculpted into the side of a planet, without eliminating the ship.</text>
 	<img back="BACKGROUND" planet="PLANET_ANCIENT_VAULT"/>
 	<choice req="DIFFICULTY_CASUAL" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Aenwithe observes the Dreadnaught, seemingly unafraid. "Big ship. But still nothing compared to the ones you'll see in the Homeworlds. Let this be a test to see if we're ready for what's to come. Worst case, we die. No big deal."</text>
 			<ship load="SHIP_ANCIENT_BOSS_CASUAL" hostile="false"/>
@@ -546,7 +546,7 @@
 					<text>You power up your weapons and move in to destroy the ship. Its shadow blocks out the light through your windows as it descends upon you, ready to reduce you to dust.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -554,7 +554,7 @@
 		</event>
 	</choice>
 	<choice req="DIFFICULTY_NORMAL" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Aenwithe observes the Dreadnaught, seemingly unafraid. "Big ship. But still nothing compared to the ones you'll see in the Homeworlds. Let this be a test to see if we're ready for what's to come. Worst case, we die. No big deal."</text>
 			<ship load="SHIP_ANCIENT_BOSS_NORMAL" hostile="false"/>
@@ -564,7 +564,7 @@
 					<text>You power up your weapons and move in to destroy the ship. Its shadow blocks out the light through your windows as it descends upon you, ready to reduce you to dust.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -572,7 +572,7 @@
 		</event>
 	</choice>
 	<choice req="DIFFICULTY_CHALLENGE" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Aenwithe observes the Dreadnaught, seemingly unafraid. "Big ship. But still nothing compared to the ones you'll see in the Homeworlds. Let this be a test to see if we're ready for what's to come. Worst case, we die. No big deal."</text>
 			<ship load="SHIP_ANCIENT_BOSS_CHALLENGE" hostile="false"/>
@@ -582,7 +582,7 @@
 					<text>You power up your weapons and move in to destroy the ship. Its shadow blocks out the light through your windows as it descends upon you, ready to reduce you to dust.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -590,7 +590,7 @@
 		</event>
 	</choice>
 	<choice req="DIFFICULTY_EXTREME" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Aenwithe observes the Dreadnaught, seemingly unafraid. "Big ship. But still nothing compared to the ones you'll see in the Homeworlds. Let this be a test to see if we're ready for what's to come. Worst case, we die. No big deal."</text>
 			<ship load="SHIP_ANCIENT_BOSS_EXTREME" hostile="false"/>
@@ -600,7 +600,7 @@
 					<text>You power up your weapons and move in to destroy the ship. Its shadow blocks out the light through your windows as it descends upon you, ready to reduce you to dust.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -638,15 +638,15 @@
 				<event>
 					<text>You set up many explosives around the vault to explode all at once, and exit as fast as possible. You put a safe distance between yourself and the cache, and watch the fireworks. If you can defeat the Flagship as well, you'll have saved reality twice!</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>As you're preparing to leave, a squadron of Obelisk ships approaches, drawn in by the explosion. They're led by a Royal ship, whose captain hails you. "You... You have destroyed the cache. You filthy mortal insect, you will suffer for this!" You shrug, and flick the weapons in their direction. None of the Obelisk squadron dares mess with the ship that killed the Dreadnaught, and so they quickly jump away, presumably to the homeworlds to spread the news of your approach.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Aenwithe is very pleased. "Do not worry about the fleet, the Homeworlds are already on high alert anyways. We must move quickly, we need to head to our base and construct the bomb! We will head to the Homeworlds directly. Grab hold of something again, and try not to black out."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="JUMP_TO_OBELISK"/>
 									</choice>
 								</event>
@@ -669,7 +669,7 @@
 	<changeBackground>BACK_SECTOR_ANCIENT</changeBackground>
 	<remove name="HIDDEN DUMMY"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As warned, there appears to be an Obelisk Guard here. As soon as your ship moves within proximity of it, the ship lights up and its weapons activate.</text>
 			<choice hidden="true">
@@ -678,7 +678,7 @@
 					<text>"Flesh beings, you dare enter our divine plane? This place is not meant for creatures of blood and mortal soul! Your extermination shall be swift yet merciless. May you pests be ridden of from this galaxy!" Well, so much for nonviolence, get ready for a one hell of a fight!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -714,7 +714,7 @@
 		<event>
 			<text>The protective shield around the hangar lowers automatically as you approach, then seals once again when you're inside. You step outside your ship only to realize something very strange. The room is filled with oxygen, something uncharacteristic for Obelisk structures.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>An automated language speaks to you. "Hello travelers. Welcome to the Quantum Item Replicator. Please insert items you wish to duplicate into the slot on the wall to your left."</text>
 					<choice>
@@ -757,7 +757,7 @@
 						</event>
 					</choice>
 					<choice req="LIST_CREW_PHANTOM" hidden="true">
-						<text>(Phantom Crew) Your Ghost eagerly begs to be put into the machine.</text>
+						<text>(Phantom 선원) Your Ghost eagerly begs to be put into the machine.</text>
 						<event>
 							<text>You shrug and force the Ghost into the machine. It doesn't protest as it slips into the tiny slot and falls down a large hole into the pits of the machine.</text>
 							<choice hidden="true">
@@ -770,7 +770,7 @@
 						</event>
 					</choice>
 					<choice req="LIST_CREW_GOUL" hidden="true">
-						<text>(Goul Crew) Your Phantom eagerly begs to be put into the machine.</text>
+						<text>(Goul 선원) Your Phantom eagerly begs to be put into the machine.</text>
 						<event>
 							<text>You shrug and force the Phantom into the machine. It doesn't protest as it slips into the tiny slot and falls down a large hole into the pits of the machine.</text>
 							<choice hidden="true">
@@ -783,7 +783,7 @@
 						</event>
 					</choice>
 					<choice req="LIST_CREW_MARE" hidden="true">
-						<text>(Mare Crew) Your Phantom eagerly begs to be put into the machine.</text>
+						<text>(Mare 선원) Your Phantom eagerly begs to be put into the machine.</text>
 						<event>
 							<text>You shrug and force the Phantom into the machine. It doesn't protest as it slips into the tiny slot and falls down a large hole into the pits of the machine.</text>
 							<choice hidden="true">
@@ -796,7 +796,7 @@
 						</event>
 					</choice>
 					<choice req="LIST_CREW_WRAITH" hidden="true">
-						<text>(Wraith Crew) Your Phantom eagerly begs to be put into the machine.</text>
+						<text>(Wraith 선원) Your Phantom eagerly begs to be put into the machine.</text>
 						<event>
 							<text>You shrug and force the Phantom into the machine. It doesn't protest as it slips into the tiny slot and falls down a large hole into the pits of the machine.</text>
 							<choice hidden="true">
@@ -809,15 +809,15 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Leave.</text>
+						<text>떠난다.</text>
 						<event>
-							<text>You pull away from the machine and leave.</text>
+							<text>You pull away from the machine and 떠난다.</text>
 							<choice>
-								<text>Do something onboard the ship.</text>
+								<text>함선에서 무언가를 한다.</text>
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice>
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -831,11 +831,11 @@
 		<event>
 			<text>In this sector the device could be almost anything. It's not worth the risk.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -927,11 +927,11 @@
 		<event>
 			<text>"Bah, just a useless flesh-being. Nothing significant about you."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -948,13 +948,13 @@
     <choice hidden="true">
         <text>Leave it to drift.</text>
         <event>
-            <text>The Obelisk never once stirs. For all you know, it will continue to drift powerless for centuries after you leave.</text>
+            <text>The Obelisk never once stirs. For all you know, it will continue to drift powerless for centuries after you 떠난다.</text>
             <choice>
-                <text>Do something onboard the ship.</text>
+                <text>함선에서 무언가를 한다.</text>
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -969,7 +969,7 @@
         <text>At first the Obelisk doesn't stir, and you consider stashing it in the storage for later. But as you begin to move it, it suddenly activates and fires a laser which destroys your shields! You draw your blaster, but the Obelisk has already calmed down. "Oh, my bad. Truly sorry about your equipment. I hope you don't mind if I request to join your crew? It's been terribly boring drifting in space for eternity, and I'd like some action for once."</text>
         <damage amount="8" system="shields" effect="fire"/>
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event>
                 <crewMember amount="1" class="ancient"/>
             </event>
@@ -1067,7 +1067,7 @@
 					<text>"Then you deserve all that is coming to you."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-                        <text>Continue...</text>
+                        <text>계속...</text>
                         <event load="COMBAT_CHECK"/>
                     </choice>
 				</event>
@@ -1082,7 +1082,7 @@
                     <status type="clear" target="player" system="oxygen" amount="100"/>
                     <status type="clear" target="player" system="engines" amount="100"/>
                     <choice hidden="true">
-                        <text>Continue...</text>
+                        <text>계속...</text>
                         <event load="COMBAT_CHECK"/>
                     </choice>
                 </event>
@@ -1109,7 +1109,7 @@
 	<text load="TEXT_ENCOUNTER_ANCIENT"/>
 	<ship load="SHIP_ANCIENT_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1131,7 +1131,7 @@
 	<text load="TEXT_ENCOUNTER_ANCIENT_AUTO"/>
 	<ship load="SHIP_ANCIENT_AUTO" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1148,7 +1148,7 @@
 	<text load="TEXT_ENCOUNTER_ANCIENT"/>
 	<ship load="SHIP_ANCIENT_ALL_SURRENDER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1175,7 +1175,7 @@
 	<text>The ship at this beacon is no Obelisk. An Elite Engi, presumably created much more recently by the Obelisks, protects this beacon. It sees you, and identifies you as a threat.</text>
 	<ship load="SHIP_ENGI_ELITE_FIGHT_NOSURRENDER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1195,7 +1195,7 @@
 	<ship load="SHIP_ANCIENT_ALL" hostile="true"/> 
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1206,7 +1206,7 @@
 	<ship load="SHIP_ANCIENT_ALL" hostile="true"/> 
 	<environment type="sun"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1236,7 +1236,7 @@
 			<text>You power up your weapons and fight the Obelisk ship.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1246,11 +1246,11 @@
 		<event>
 			<text>You decide not to fight the Obelisks, and fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1271,23 +1271,23 @@
 		<event load="ANCIENT_ENGI_HIDE_CHASE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Hail the ship.</text>
+		<text>(Engi 선원) Hail the ship.</text>
 		<event load="ANCIENT_ENGI_HIDE_HAIL_ENGI"/>
 	</choice>
 	<choice hidden="true">
-		<text>Hail the ship.</text>
+		<text>함선과 교신한다.</text>
 		<event load="ANCIENT_ENGI_HIDE_HAIL"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore it.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>Messing with the Obelisk's creations in their own sector doesn't sound like a good idea..</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1301,7 +1301,7 @@
 		<text>You manage to find the Engi ship, but they're running away from something. They turn hostile as soon as you approach and attack!</text>
 		<ship load="SHIP_ENGI_ELITE_FIGHT" hostile="true"/> 
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1310,11 +1310,11 @@
 	<event>
 		<text>The ship escapes before you have a chance to contact them...</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -1361,7 +1361,7 @@
 						<text>"Error: Federation ship has engaged in theft. Breach of contract, activating weapons."</text>
 						<ship hostile="true"/> 
 						<choice hidden="true">
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="COMBAT_CHECK"/>
 						</choice>
 					</event>
@@ -1399,7 +1399,7 @@
 			<text>The Obelisks were right about one thing, your intentions are anything but peaceful. You hunt down their ship, ready to fight.</text>
 			<ship load="SHIP_ANCIENT_ALL" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1410,7 +1410,7 @@
 			<text>The Crystals are surprised to see you, and at first thinks you may be harmless after all. As soon as your weapons come online they realize the truth, and prepare to defend themselves.</text>
 			<ship load="SHIP_CRYSTAL_FIGHT" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1420,11 +1420,11 @@
 		<event>
 			<text>The Obelisk and Crystal ship both fly out of sight, leaving you alone.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1441,7 +1441,7 @@
 			<text>You engage the Crystal ship, knowing if you can kill the Obelisks while they are vulnerable you'll be able to scrap both ships.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1451,11 +1451,11 @@
 		<event>
 			<text>They may not be aboard their usual ship, but Obelisks anywhere are dangerous. Neither ship notices you.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1504,7 +1504,7 @@
 			<text>"W-what? You dare use my words against me in this way? I shall kill you!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1517,12 +1517,12 @@
 	<ship load="SHIP_ANCIENT_SCULPTER" hostile="false"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Fight the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
 			<text>"No please, anywhere but here!" You cut off the ship and attack.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1539,11 +1539,11 @@
 		<event>
 			<text>The Obelisk seems pleased with you, and heads back to perfecting its rocks.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1560,7 +1560,7 @@
         </event>
     </choice>
     <choice hidden="true">
-        <text>You've done enough, leave.</text>
+        <text>You've done enough, 떠난다.</text>
         <event/>
     </choice>
 </event>
@@ -1569,7 +1569,7 @@
 	<img back="BACKGROUND" planet="PLANET_ANCIENT"/>
 	<text>To your surprise, an Auto-ship belonging to the Rebellion is powered off at this location. A looping message plays in the deep, monotone voice of an Obelisk. "This ship is under reconstruction. Do not touch."</text> 
 	<choice hidden="true">
-		<text>Attempt to scrap the ship.</text>
+		<text>Attempt to 함선을 수거한다.</text>
 		<event load="ANCIENT_REBEL_DRONE_SCRAP_BAD"/>
 	</choice>
 	<choice hidden="true">
@@ -1577,11 +1577,11 @@
 		<event>
 			<text>If an Obelisk tells you not to touch the ship, you aren't going to touch the ship. You make yourself content doing something aboard the ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1596,7 +1596,7 @@
 		<text>As you attempt to take apart the Auto-ship it comes online. To your surprise, Obelisk weapons spring from its hull!</text>
 		<ship load="SHIP_AUTO_DIVINE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1623,11 +1623,11 @@
 	<ship load="SHIP_REBEL_FLEET_S_A" hostile="true"/>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the elite.</text>
+		<text>(최고급. Engines) Try to escape the elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>
@@ -1637,7 +1637,7 @@
 	<customFleet right="true" firing="false" autoDarkening="true">CUSTOM_FLEET_ANCIENT</customFleet>
 	<changeBackground>BACK_SECTOR_ROYAL</changeBackground>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You dock with one of the nearby Obelisk ships, which Aenwithe assures you has been captured by his people already. You're introduced to several other Obelisks who look identical to each other with various names you cannot pronounce. Aenwithe looks around, as if looking for someone, but cannot seem to find them.</text>
 			<choice hidden="true">
@@ -1658,18 +1658,18 @@
 	<text>Aenwithe pauses, and you assume he would have sighed had he lungs. "E is the princess of the Obelisk Royals. Don't mind the single letter name, that's just how the Royals name themselves. For simplicity, I guess. Or maybe the memes? Anyways, doesn't matter. E is the only Royal amongst our resistance, and the only person who can build the bomb. But now she's been taken. Even worse, the Royals do in fact have an even stronger Dreadnaught, protecting Liythkyk Yuk, their capital."</text>
 	<playSound>lightspeed</playSound>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 		<customFleet right="false" firing="true" autoDarkening="false">CUSTOM_FLEET_MFK</customFleet>
 		<customFleet right="true" firing="false" autoDarkening="true">CUSTOM_FLEET_ANCIENT</customFleet>
 			<text>Suddenly, an alarm in the fleet ship goes off. A squadron of MFK fleet ships jump in, immediately opening fire on the Obelisks. Aenwithe curses, "Damn it, the Rebels got through! It was only a matter of time. We need to evacuate immediately! We'll regroup at the palace and rescue E, finish this bomb, then purge this entire sector to its core!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you're leaving, an MFK Gunboat Ace stops you. "You're that... that Multiverse Renegade that led us here! You die today, Federation scum!"</text>
 					<ship load="SHIP_MFK_GUNBOAT_ROYAL" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1681,7 +1681,7 @@
 	<text>You receive one last message from the Rebel captain as the ship dies, "God... damn you. You might survive today, but Vance will catch you soon enough, and he'll make your lives hell..." With the ship neutralized, you scrap the remains.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>With the Gunboat out of the way, there doesn't appear to be any other ships around that aren't already occupied and able to fight you. In this short grace period, Aenwithe speaks again, "Good, we must hurry to Liythkyk Yuk and rescue E. Be careful, now we don't only have the Royals to deal with, but the Rebels too."</text>
 		</event>
@@ -1719,45 +1719,45 @@
 	<text>You have arrived at Liythkyk Yuk. Below your ship is a vast cityscape with massive cruisers moving back and forth. It's so green... probably too green. But that doesn't matter, hopefully you won't be here too long.</text>
 	<img back="BACK_EVENT_ROYAL_PALACE" planet="PLANET_INVISIBLE"/>
 	<choice req="DIFFICULTY_CASUAL" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You pilot closer to the surface, and for a brief moment you almost think you can get through this without a fight. However, any hopes of this are immediately dashed when the Royal Dreadnaught Aenwithe mentioned appears from the sky, moving closer with clear intent to kill. "Mortal invaders! Your filth shall be purged from our realm!" Looks like it's time for one more battle, and hopefully the last you'll ever have.</text>
 			<ship load="SHIP_ROYAL_DREADNAUGHT_CASUAL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="DIFFICULTY_NORMAL" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You pilot closer to the surface, and for a brief moment you almost think you can get through this without a fight. However, any hopes of this are immediately dashed when the Royal Dreadnaught Aenwithe mentioned appears from the sky, moving closer with clear intent to kill. "Mortal invaders! Your filth shall be purged from our realm!" Looks like it's time for one more battle, and hopefully the last you'll ever have.</text>
 			<ship load="SHIP_ROYAL_DREADNAUGHT_NORMAL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="DIFFICULTY_CHALLENGE" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You pilot closer to the surface, and for a brief moment you almost think you can get through this without a fight. However, any hopes of this are immediately dashed when the Royal Dreadnaught Aenwithe mentioned appears from the sky, moving closer with clear intent to kill. "Mortal invaders! Your filth shall be purged from our realm!" Looks like it's time for one more battle, and hopefully the last you'll ever have.</text>
 			<ship load="SHIP_ROYAL_DREADNAUGHT_CHALLENGE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="DIFFICULTY_EXTREME" lvl="1" blue="false" max_group="0" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You pilot closer to the surface, and for a brief moment you almost think you can get through this without a fight. However, any hopes of this are immediately dashed when the Royal Dreadnaught Aenwithe mentioned appears from the sky, moving closer with clear intent to kill. "Mortal invaders! Your filth shall be purged from our realm!" Looks like it's time for one more battle, and hopefully the last you'll ever have.</text>
 			<ship load="SHIP_ROYAL_DREADNAUGHT_EXTREME" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1766,7 +1766,7 @@
 <event name="ROYAL_PALACE_SUCCESS">
 	<text>As the Dreadnaught comes crashing down into the Royal Palace, you can't help but think to yourself how nice it would be to never see one of these damn Obelisks ever again. You dismount from the ship followed by Aenwithe, who stops and says "Well, best get out your reading glasses if you need them, there's a lot of text ahead." You aren't sure what that really means, but it is probably good advice to heed.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You consider not bothering to scrap the Dreadnaught, but that's just not how you do things. With the Dreadnaught destroyed, you should have some time to clear out any remaining intruders then make your way to the palace.</text>
 			<autoReward level="HIGH">item</autoReward>
@@ -1781,7 +1781,7 @@
 <event name="ROYAL_PALACE_ENTER">
 	<text>Not a single ship bothers you as you walk into the palace. An advanced Cognitive shouts as you enter, "Hey! You can't be in her-" but you promptly silence it with a single shot. You'd be fine without seeing any more Cognitives either, quite frankly. You continue your way through the palace.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Once you've made it to the Royal Chambers, you look to Aenwithe for directions. "Yes yes, to the right we go." You follow him into E's chambers, where you find an Obelisk Royal studying several blueprints on holographic screens floating around the room. "So, you finally showed up? About time. And do be careful, the Obelisk Queen is behind you."</text>
 			<choice hidden="true">
@@ -1793,28 +1793,28 @@
 						<event>
 							<text>"What? That bomb isn't even armed! You think I'm stupid? Now, no more delays, you're going to di-" The Queen doesn't get time to finish, because a missile flies into the wall, destroying the side and sending everyone in the room backwards from the shockwave. The Paragon spins and slides towards the hole, where you can see the outline of what appears to be... another Flagship?!</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>The stocky build of a muscular and imposing man with two heavy duty blasters holstered at his hip materializes, presumably from a teleporter aboard the Flagship. You recognize him almost immediately as Admiral Vance of the Rebel fleet himself, with a smug grin on his face. "What's this about a bomb?" Vance bends over and picks up the Paragon. "I have to say, you've done me a great service putting this thing together. Sure, it's not complete just yet, but I have confidence with some scans we can figure it out."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>Vance paces the room, one hand gripping the bomb and the other reaching for his gun. "For years now, I have been searching for this damned thing. When my men first uncovered the Multiverse Drive, we didn't yet understand the scale of the cosmic goose chase we'd be stuck in for... well probably a good century or so by now! At least, from my perspective. Micro-cloning and stasis sleep can keep you ticking for years, but you better not be a vain person, because aging has its... effects. It certainly has on me."</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
-													<text>"Now then, enough monologuing." Vance quickly draws his gun and shoots the Obelisk Queen thrice, each shot piercing her chassis and disabling her completely. "There, the Queen is dead, and the Royals will fall. This bomb has a special date with an old friend of mine, so if you don't mind, I shall take my leave. Glory to the Rebellion." Vance salutes then warps away back to the Flagship, which slowly makes its ascent from the planet.</text>
+													<text>"Now then, enough monologuing." Vance quickly draws his gun and shoots the Obelisk Queen thrice, each shot piercing her chassis and disabling her completely. "There, the Queen is dead, and the Royals will fall. This bomb has a special date with an old friend of mine, so if you don't mind, I shall take my 떠난다. Glory to the Rebellion." Vance salutes then warps away back to the Flagship, which slowly makes its ascent from the planet.</text>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>You quickly regroup with your crew, whose newest member now includes E herself, back at your ship. What's most worrying isn't Vance's sudden arrival, but what he said. If he knows what the Paragon is, then it's presumable he'll know how to construct and detonate it too. Even worse, as you watch the Flagship jump away, an advanced analysis of his MV drive shows he has one particular reality in mind - Universe 0, the first reality and home to the Federation's Multiverse fleet. If Vance can get there, he can wipe out that entire reality, damning the entire Federation across all realities!</text>
 															<crewMember amount="1" all_skills="2" class="royal">E</crewMember>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
 																	<text>There's no other choice left. You must pursue Vance while you can, and put a stop to him before he can fulfill his master plans. You set your FTL drive to the same directory as him, and get ready for one hell of a fight.</text>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event>
 																			<secretSectorWarp>SHOWDOWN_BEGIN</secretSectorWarp>
 																			<secretSector/>
@@ -1847,7 +1847,7 @@
 	<text>In front of you is an MFK Ace, its formidable white hull glinting from the light of a nearby star. However, in place of the standard Rebel Eagle, there is instead a strange looking fish.</text>
 	<ship load="SHIP_REBEL_SUPERFISH" hostile="false"/>
 	<choice hidden="true" req="MARKER_SUPERFISH" max_group="0" lvl="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You brace for impact, but the ship isn't attacking. You receive a hail, and on the screen appears the rebel captain. He leans back in his chair, feet on the dashboard, chewing on a sandwich. "You're lucky you caught us on our lunch break. You don't tell anyone about this, and we won't either."</text>
 			<choice hidden="true">
@@ -1856,7 +1856,7 @@
 					<text>"Hey! This was the original design, until the idiots in command decided to stick with the eagle instead!" Enraged, the ship attacks.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1870,7 +1870,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1883,7 +1883,7 @@
 			<text>Almost immediately, the ship recognizes you. "YOU! YOU MONSTER. YOU'RE THE DIPSHIT THAT KILLED MY LITTLE BROTHER! I'M GOING TO KILL YOU!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1903,7 +1903,7 @@
 			<text>You engage the Auto-ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1917,7 +1917,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2105,7 +2105,7 @@
 							<text>"Is this some kind of stupid joke to you, mortals? It should be obvious my request was for specimens exotic to ME, not to YOU. If you are truly this braindead, then I do not wish to allow your continued existence."</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -2132,7 +2132,7 @@
 			<text>You aren't going to let some Royal poke around at your crew. Prepare for battle!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2194,29 +2194,29 @@
 		<text>"A shame. I cannot let you mortals leave while there still might be a chance for great wonders aboard your vessel. Come back here!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>"You mortals have no eye for opportunity!"</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
 		<text>"You mortals have no eye for opportunity!"</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -2236,7 +2236,7 @@
 						<item type="scrap" min="-20" max="-20"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ROYAL_AUGMENTED_JOY_SEARCH"/>
 					</choice>
 				</event>
@@ -2256,7 +2256,7 @@
 			<text>You arm the weapons and engage the nearest Augmented ship.</text>
 			<ship load="SHIP_AUGMENTED" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2270,11 +2270,11 @@
 		<event>
 			<text>If the Lanius aren't bothering you, you won't bother them either.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2290,7 +2290,7 @@
 		<autoReward level="LOW">stuff</autoReward>
 		<ship load="SHIP_AUGMENTED" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2323,7 +2323,7 @@
 		<event>
 			<text>Fortunately, it appears most of the factory is automated, so there are few ships to stop you. Compared to most Obelisk achievements, this mega-structure is probably of low priority to them anyways. You find a safe looking space to dock.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you continue to explore, a monotone voice speaks to you through a wall-mounted speaker. "Who are you? For what reasons have you docked here? Please report to section SJ-37 for check-in if you wish to proceed further into the facilities." You didn't think anyone was here, but it appears you were wrong.</text>
 					<choice hidden="true">
@@ -2333,15 +2333,15 @@
 							<choice hidden="true">
 								<text>Uh, hello?</text>
 								<event>
-									<text>The Cognitive analyzes you for a few moments, then uses its ring to push forward some strange tablet device with a place for you to sign. "Welcome to the Pandoran Factory Cluster. If you wish to proceed with supervision, please sign below. Otherwise, you will be required to leave."</text>
+									<text>The Cognitive analyzes you for a few moments, then uses its ring to push forward some strange tablet device with a place for you to sign. "Welcome to the Pandoran Factory Cluster. If you wish to proceed with supervision, please sign below. Otherwise, you will be required to 떠난다."</text>
 									<choice hidden="true">
 										<text>Sign the tablet.</text>
 										<event>
 											<text>As soon as you sign the contract, the tablet vanishes and the Cognitive moves out from the desk. "By signing this contract you agree not to-" the AI rapidly lists off a couple hundred things you can't understand, then signals with a large arrow for you to follow.</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
-													<text>"These facilities were built several centuries ago, and are the primary manufacturing plant for Pandoran Boxes, also called Karthithes in the native language. They have small reality manipulators inside them, and when opened can unleash either divine wonders or unimaginable horrors. Mainly for use in gambling, of course. However, the factory was abandoned when the Obelisks got bored of the pastime, and it was left in my control ever since. Production continues to this day, but without anyone using the boxes our storage is now almost completely filled. This concludes the tour, you may leave."</text>
+													<text>"These facilities were built several centuries ago, and are the primary manufacturing plant for Pandoran Boxes, also called Karthithes in the native language. They have small reality manipulators inside them, and when opened can unleash either divine wonders or unimaginable horrors. Mainly for use in gambling, of course. However, the factory was abandoned when the Obelisks got bored of the pastime, and it was left in my control ever since. Production continues to this day, but without anyone using the boxes our storage is now almost completely filled. This concludes the tour, you may 떠난다."</text>
 													<choice hidden="true">
 														<text>Offer to buy a box. [-20 scrap]</text>
 														<event>
@@ -2363,7 +2363,7 @@
 														</event>
 													</choice>
 													<choice hidden="true">
-														<text>Leave.</text>
+														<text>떠난다.</text>
 														<event/>
 													</choice>
 												</event>
@@ -2371,7 +2371,7 @@
 										</event>
 									</choice>
 									<choice hidden="true">
-										<text>Refuse and leave.</text>
+										<text>Refuse and 떠난다.</text>
 										<event/>
 									</choice>
 								</event>
@@ -2398,11 +2398,11 @@
 		<event>
 			<text>It's a fascinating view, but you have no further interest in the structure. There are better things to do.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2418,7 +2418,7 @@
 			<text>Right as you start to attack, the ship's camera turns on and a friendly looking Free Mantis greets you. "Hello! Translator on ship not accustom to yet. We happy to see Federation- wait what doing? No no stop!" It appears it's too late, they've already seen you as hostile and a fight is now inevitable.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2431,7 +2431,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_MANTIS">
-		<text>(Mantis Crew) That's Free Mantis dialect.</text>
+		<text>(Mantis 선원) That's Free Mantis dialect.</text>
 		<event>
 			<text>You send a hail in return to the Rebel ship, and a few moments later their camera pops on. You see the ship is now piloted by a friendly looking Free Mantis. "Hello! Yes, doing fine, Rebel translator on ship unaccustomed to clan dialect. Followed fleet, hoping capture Rebels for glorious Federation! Many succeeding, but sector scary. Big cube ships come and go, kill many. I go with you, not wanting die from cube."</text>
 			<crewMember amount="1" class="warlord" all_skills="2">Ken</crewMember>
@@ -2480,7 +2480,7 @@
 					<text>"Ugh, this is a most terrible suggestion. You have greatly displeased me. I will now remove you from my sight."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2491,7 +2491,7 @@
 					<text>"Ugh, this is a most terrible suggestion. You have greatly displeased me. I will now remove you from my sight."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2504,7 +2504,7 @@
 			<text>Though this is one of the rare times the Royals aren't itching to murder you, you've chosen to fight them yourself. Prepare for battle!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2514,11 +2514,11 @@
 		<event>
 			<text>"Fine, be that way... uh... skin creature."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2541,11 +2541,11 @@
 		<event>
 			<text>"Most unfortunate. Now I am sad. Goodbye." The ship jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2581,7 +2581,7 @@
 		<text>"This data is all nonsense! You've lied to me, skin sack! Now you die!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2607,7 +2607,7 @@
 	<text load="TEXT_ENCOUNTER_ROYAL"/>
 	<ship load="SHIP_ROYAL_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2624,7 +2624,7 @@
 	<text load="TEXT_ENCOUNTER_ROYAL_MFK"/>
 	<ship load="SHIP_REBEL_SELITEA_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2641,7 +2641,7 @@
 	<text>"AAAAAAAAAA" A pirate ship flies past, their captain screaming. "AAAAAAAAAAAAAAAAAA WHY DID WE COME HERE? THIS WAS A MISTAKE! Oh hey, a Federation ship! Alright boys, time to fight!"</text>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2650,7 +2650,7 @@
 	<text>You didn't expect to see the Augmented so far into Obelisk territory, but it seems you've run into one of their ships! Unfortunately, it is much more aggressive than many of the ones you encountered, and it has decided to attack on sight!</text>
 	<ship load="SHIP_AUGMENTED" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2689,13 +2689,13 @@
 									<text>You power up the engines and fight the MFK Ace ship.</text>
 									<ship load="SHIP_ROYAL_MFK_SOLARHARVEST" hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
 							</choice>
 							<choice hidden="true">
-								<text>Seems like a good time to leave.</text>
+								<text>Seems like a good time to 떠난다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -2703,7 +2703,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Bide his warning and leave.</text>
+				<text>Bide his warning and 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2724,7 +2724,7 @@
 			<boarders min="2" max="2" class="sentinel"/>
 			<ship load="SHIP_ROYAL_SYNTHESIZER" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2754,7 +2754,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Nevermind, let's leave.</text>
+				<text>Nevermind, let's 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2764,11 +2764,11 @@
 		<event>
 			<text>You fly past the outpost, deciding not to start more conflict in this already hostile sector.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2783,7 +2783,7 @@
 			<text>There's no time to talk things out, you'll stand by the Federation no matter what!</text>
 			<ship load="SHIP_ROYAL_SPY_ANCIENT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2794,7 +2794,7 @@
 			<text>There's no time to talk things out, you have to help the side that's of more use to you now, and that's the resistance!</text>
 			<ship load="SHIP_ROYAL_SPY_MFK" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2808,11 +2808,11 @@
 		<event>
 			<text>You fly past the outpost, deciding not to start more conflict in this already hostile sector.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2828,7 +2828,7 @@
         <text>You try to negotiate with the two ships, but it appears you were mistaken about the Rebels - these are traitors, and they have no intention on helping out anyone but themselves!</text>
         <ship load="SHIP_ROYAL_SPY_MFK" hostile="true"/>
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event load="COMBAT_CHECK"/>
         </choice>
     </event>
@@ -2843,13 +2843,13 @@
 			<text>You power up the weapons and engage the outpost.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_HUMAN">
-		<text>(Human Crew) Pretend to be a Rebel vessel.</text>
+		<text>(Human 선원) Pretend to be a Rebel vessel.</text>
 		<event load="ROYAL_MFK_OUTPOST_HUMAN"/>
 	</choice>
 	<choice hidden="true">
@@ -2857,11 +2857,11 @@
 		<event>
 			<text>You fly past the outpost, deciding not to start more conflict in this already hostile sector.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2872,7 +2872,7 @@
 		<text>"Is that so? Do you have your ID?" Your human stops, unsure of how to respond. Obviously, you don't, so it seems the only way out of this is battle!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2891,7 +2891,7 @@
 			<text>You power up the weapons and engage the attacking ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2901,11 +2901,11 @@
 		<event>
 			<text>Neither the Rebels nor the Obelisks are your allies, and you have no interest in getting further involved with either of them.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2934,7 +2934,7 @@
 		<event>
 			<text>You enter the hangar bay to find it surprisingly empty of any crew, though plenty of Obelisk vessels remain. A loud alarm rings through the ship, signifying danger, even if you can't see it.</text>
 			<choice hidden="true">
-				<text>Keep looking.</text>
+				<text>계속 찾는다.</text>
 				<event>
 					<text>It doesn't take too long to find where all of the crew has went. A massive breach in one side of the ship has sucked out a good portion of them, and vacuumed the entire northern portion of the ship! You avoid the vented area and head to the control room, where you find a Royal combating a Cognitive for control of the ship.</text>
 					<choice hidden="true">
@@ -2951,7 +2951,7 @@
 											<text>The Royal gives you the co-ordinates of the captured vessel. You find it in the nearby system, hiding behind a moon. As soon as you approach, they attack! Fortunately they aren't trying to escape, but looks like you'll have to fight them to the death now.</text>
 											<ship load="SHIP_UPRISING_COGNITIVE" hostile="true"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -2980,7 +2980,7 @@
 											<text>The Cognitive gives you the co-ordinates of the captured vessel, which is being pursued by another Royal vessel. Prepare for combat!</text>
 											<ship load="SHIP_UPRISING_ROYAL" hostile="true"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -3000,15 +3000,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>You pilot the ship outside of what you hope to be the range of fire for the fleet ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3018,7 +3018,7 @@
 	<text>The captured vessel has been defeated. You scrap the ship, hoping the Royals won't mind.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You return to the Royal and inform them the job is complete. "Good, that will send a message to the rest of them not to pull a stunt like this again. Your reward as promised."</text>
 			<weapon name="RANDOM"/>
@@ -3029,7 +3029,7 @@
 	<text>The Royal vessel has been defeated. You scrap the ship while you watch the captured vessel jump away.</text>
 	<autoReward level="HIGH">item</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You return to the Cognitive and inform them the job is complete. "Well done. You have upheld your end of the bargain, so I will uphold mine."</text>
 			<crewMember amount="1" class="avatar"/>

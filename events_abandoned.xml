@@ -52,14 +52,14 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_CRYSTAL">
-				<text>(Crystal Crew) Request access to their data storage.</text>
+				<text>(Crystal 선원) Request access to their data storage.</text>
 				<event>
 					<text>"Our maps? Why of course! These should be of use to you. Happy travels!"</text>
 					<reveal_map/>
 				</event>
 			</choice>
 			<choice hidden="true" req="INFO_MACHINE_HACKING">
-				<text>(Analyzer + Hacking) Remotely access their data storage.</text>
+				<text>(Analyzer + 해킹) Remotely access their data storage.</text>
 				<event>
 					<text>While you make small talk with the Crystals, you configure the Hacking system to get a read of their data storage while the Analyzer downloads their map data. Once the download is complete, you bid farewell and the Crystals even offer a small reward for being so pleasant.</text>
 					<autoReward level="LOW">stuff</autoReward>
@@ -69,15 +69,15 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You have no interest in the strange Crystal ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -88,7 +88,7 @@
 	<text>A very faint signal from an unidentified ship is emitting from a small moon in the local system. It's a little choppy, but you manage to make out the words "workers - great price - stop by."</text>
 	<img planet="PLANET_MOONS"/>
 	<choice hidden="true">
-		<text>Pull closer.</text>
+		<text>가까이 다가간다.</text>
 		<event>
 			<text>It seems a slave trader is selling their 'goods' on the nearby moon, knowing it's far away from the eye of the Federation out here in this sector.</text>
 			<ship load="SHIP_SLAVER_ALL" hostile="false"/>
@@ -120,13 +120,13 @@
 					<text>The Slavers might have thought they were safe here, but you've arrived and you aren't going to let their business carry on for any longer.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -136,11 +136,11 @@
 		<event>
 			<text>It's more than clear this is some sort of slave trade, and you have no interest.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -151,23 +151,23 @@
 	<text>An abandoned colony lies on the nearby planet; its surface borne defense turrets appear to be disabled due to a lack of power, but you can't be certain. You don't see any ships lurking about, but that doesn't mean they aren't hiding.</text>
 	<img planet="PLANET_POPULATED"/>
 	<choice hidden="true">
-		<text>Explore.</text>
+		<text>탐사한다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE"/>
 	</choice>
 	<choice hidden="true" req="PDS_DISABLE">
-		<text>(Signal Diluter) Make certain the defense turrets are offline.</text>
+		<text>(신호 약화기) Make certain the defense turrets are offline.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_NOTURRETS"/>
 	</choice>
 	<choice hidden="true" req="FLARE_DISTRACTION">
-		<text>(Flares) Launch some flares to distract the defense turrets while you explore.</text>
+		<text>(플레어) Launch some flares to distract the defense turrets while you 탐사한다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_NOTURRETS"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Upg. Sensors) Run some heavier scans on the colony.</text>
+		<text>(고급 Sensors) Run some heavier scans on the colony.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_SCANS"/>
 	</choice>
 	<choice hidden="true" req="ADV_SCANNERS">
-		<text>(LRS) Run some heavier scans on the colony.</text>
+		<text>(장거리 센서) Run some heavier scans on the colony.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_SCANS"/>
 	</choice>
 	<choice>
@@ -175,11 +175,11 @@
 		<event>
 			<text>You don't have time to explore every abandoned colony you come across.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -194,7 +194,7 @@
 		<text>It turns out the colony was harbouring a pirate fugitive. Now that their cover has been blown, they protect themselves and attack you.</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -208,7 +208,7 @@
 		<text>It turns out the colony was harbouring a pirate fugitive. Now that their cover has been blown, they protect themselves and attack you.</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -225,12 +225,12 @@
 		<text>Seems a known pirate fugitive is hiding in the colony, but they haven't seen you yet.</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="false"/>
 		<choice hidden="true">
-			<text>Engage the pirate.</text>
+			<text>해적과 전투한다.</text>
 			<event>
 				<text>Realizing that their cover has been blown, the pirates protect themselves and attack you.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -266,7 +266,7 @@
 	<text load="TEXT_ENCOUNTER_LANIUS_ABANDONED"/>
 	<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -283,7 +283,7 @@
 	<text load="TEXT_ENCOUNTER_PIRATE_ABANDONED"/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -300,7 +300,7 @@
 	<text load="TEXT_ENCOUNTER_GHOST_ABANDONED"/>
 	<ship load="SHIP_GHOST_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -317,7 +317,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_ABANDONED"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -334,7 +334,7 @@
 	<text>It seems a nearby Militia ship trying desperately to protect this sector has made a mistake and identified you as a scavenger. You don't have time to explain because they've muted comms and are moving in quickly.</text>
 	<ship load="SHIP_MILITIA_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -353,7 +353,7 @@
 	<ship load="SHIP_GHOST_ALL" hostile="true"/>
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -363,7 +363,7 @@
 	<ship load="SHIP_LANIUS_GENERIC" hostile="true"/>
 	<environment type="sun"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -393,16 +393,16 @@
 			<text>You approach the colony; a hostile Vagabond ship comes flying out to meet you!</text>
 			<ship load="SHIP_GHOST_LOST_ITEMS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_VAGABOND">
-				<text>(Vagabond Crew) Reason with the aggressive ship.</text>
+				<text>(Vagabond 선원) Reason with the aggressive ship.</text>
 				<event>
 					<text>Your Vagabond convinces the other Ghosts to stand down. They might be loose-cannon scavengers, but it seems they're more interested in protecting themselves than actually fighting you.</text>
 					<ship hostile="false"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="ABANDONED_CIVILIAN_LOST_ITEMS_WIN"/>
 					</choice>
 				</event>
@@ -414,11 +414,11 @@
 		<event>
 			<text>The civilians are disappointed but say they understand.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -438,17 +438,17 @@
 			<text>You charge your weapons, which quickly gets the pirate ship's attention.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="FLARE_DISTRACTION" hidden="true">
-		<text>(Flares) Use the flares to make a distraction so the Civilian ship can escape.</text>
+		<text>(플레어) Use the flares to make a distraction so the Civilian ship can escape.</text>
 		<event>
 			<text>The pirate is startled by the sudden barrage of flares but quickly realizes he isn't alone. Uncertain where the flares are coming from, the pirate flees rather than take the risk of fighting a bigger ship.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SAVE_CIVILIAN_LIST"/>
 			</choice>
 		</event>
@@ -458,11 +458,11 @@
 		<event>
 			<text>Unfortunately it is not your mission to save every person affected by this war or the Lanius invasion.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -478,18 +478,18 @@
 	<text>You come across a Lanius ship in the process of absorbing a Rebel automated scout. If you scare off the Lanius you could probably make use of it.</text>
 	<ship load="SHIP_LANIUS_AUTO" hostile="false"/>
 	<choice hidden="true">
-		<text>Fight the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
 			<text>You power up your weapons, which quickly gets the attention of the ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_LANIUS" hidden="true">
-		<text>(Lanius Crew) Request access to the Auto-ship first.</text>
+		<text>(라니우스 선원) Request access to the Auto-ship first.</text>
 		<event>
 			<text>The other Lanius at first become territorial, refusing to give up the Auto, but when you explain you only intend to download the data stores, the Lanius oblige. You find the Auto-ship still has a fully functional system to warn the fleet on your location, so you feed it false data and download the map information.</text>
 			<modifyPursuit amount="-1"/>
@@ -497,25 +497,25 @@
 		</event>
 	</choice>
 	<choice req="FLARE_DISTRACTION" hidden="true">
-		<text>(Flares) Use the flares to guide the Lanius away from the auto.</text>
+		<text>(플레어) Use the flares to guide the Lanius away from the auto.</text>
 		<event>
 			<text>You've heard stories the Lanius have poor eyesight and poor attention spans, and where that's true or not, this lanius certainly is drawn to your flares. It moves away from the auto temporarily to chase the disc, giving you just enough time to move in closer.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LANIUS_AUTO_REBEL_LIST"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave them alone.</text>
+		<text>내버려 둔다.</text>
 		<event>
 			<text>Whatever assistance the disabled scout could provide is not worth the risk of fighting another Lanius. You prepare to move on.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -541,21 +541,21 @@
 		<event load="LANIUS_GROUP_AUTO_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Leave them alone.</text>
+		<text>내버려 둔다.</text>
 		<event>
 			<text>You decide it would be better to leave them be.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Try to use them to delay the Rebels.</text>
+		<text>(라니우스 선원) Try to use them to delay the Rebels.</text>
 		<event>
 			<text>Your crewmember tells them of the approaching fleet and the number of automated ships they use to scout ahead. They thank you for the tip and prepare to jump in the direction you came. That will hopefully delay the fleet. You scrap what remains of the Rebel station.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -571,7 +571,7 @@
 		<text>You try your best to convey the notion that the approaching Rebel fleet has countless automated ships scouting for them. You're not certain if you were misunderstood but they appear to scoff at your suggestion. Most ships continue what they were doing but a single ship moves to fight you.</text>
 		<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -590,7 +590,7 @@
 			<text>There is a screech from your comm system, and the broadcast suddenly cuts off. The platform suddenly begins to move, revealing itself to be a Lanius ship!</text>
 			<ship load="SHIP_LANIUS_FUELING_STATION" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -619,11 +619,11 @@
 		<event>
 			<text>You leave the platform alone, and prepare to jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -635,7 +635,7 @@
 		<ship load="SHIP_LANIUS_FUELING_STATION" hostile="true"/>
 		<boarders breach="true" min="1" max="1" class="anaerobic"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -644,7 +644,7 @@
 		<ship load="SHIP_LANIUS_FUELING_STATION" hostile="true"/>
 		<damage amount="3" system="engines"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -654,7 +654,7 @@
 			<item type="fuel" min="3" max="5"/>
 		</item_modify>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="sensors" lvl="2" hidden="true" max_group="0">
@@ -667,7 +667,7 @@
 			</event>
 		</choice>
 		<choice req="sensors" lvl="3" hidden="true" max_group="0">
-			<text>(Advanced Sensors) Run another scan at maximum sensitivity.</text>
+			<text>(최고급 Sensors) Run another scan at maximum sensitivity.</text>
 			<event>
 				<text>You run an additional more focused scan and find one of the auxiliary refueling platforms has some unclaimed fuel and drone parts.</text>
 				<item_modify>
@@ -677,7 +677,7 @@
 			</event>
 		</choice>
 		<choice req="ADV_SCANNERS" lvl="3" hidden="true" max_group="0">
-			<text>(Advanced Sensors) Run another scan at maximum sensitivity.</text>
+			<text>(최고급 Sensors) Run another scan at maximum sensitivity.</text>
 			<event>
 				<text>You run an additional more focused scan and find one of the auxiliary refueling platforms has some unclaimed fuel and drone parts.</text>
 				<item_modify>
@@ -702,15 +702,15 @@
 		<event load="ABANDONED_WRECK_SALVAGE"/>
 	</choice>
 	<choice>
-		<text>Ignore it.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You have higher standards than the filthy Lanius, Ghosts, and pirates that swarm this sector.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -721,7 +721,7 @@
 		<text>Before you can reach the wreck, a Militia ship comes swooping in to stop you. If you want to continue with your salvage mission you'll have to take care of them first.</text>
 		<ship load="SHIP_MILITIA_WRECK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -729,7 +729,7 @@
 		<text>It seems you've made a miscalculation. The wreckage is still populated, not by its original crew but rather a bunch of angry Ghosts who aren't pleased by your attempts at breaking apart their ship.</text>
 		<ship load="SHIP_GHOST_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -754,44 +754,44 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="engineer">
-		<text>(Engineer Crew) Claim to be a Rebel ship to comfort them.</text>
+		<text>(엔지니어 선원) Claim to be a Rebel ship to comfort them.</text>
 		<event>
 			<text>The Rebels captain is completely delusional but put at ease. It becomes clear they must have PTSD of some sort. Since you can't convince them the battles already ended, you talk the captain into joining your crew instead to 'escape'.</text>
 			<crewMember amount="1" class="human" pilot="1"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="mind" lvl="1">
-		<text>(Mind Control) Convince him the battles already ended.</text>
+		<text>(정신 지배l) Convince him the battles already ended.</text>
 		<event>
 			<text>It seems these Rebels are further gone than you expected - your mind control struggles to compete with the madness that has infected his mind, and soon instead it drives the Rebel captain into rage!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="mind" lvl="2">
-		<text>(Upg. Mind Control) Convince him the battles already ended.</text>
+		<text>(고급정신 지배) Convince him the battles already ended.</text>
 		<event>
 			<text>Your mind control temporarily cancels out the Rebel captain's madness. In this newfound clarity you explain the situation to him - and his reaction surprises you. "I've been wandering this sector for weeks raving out of my mind. This Rebellion is not suited for giving one peace of mind. Perhaps it's time I leave these days behind."</text>
 			<crewMember amount="1" class="human" all_skills="1"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="medic">
-		<text>(Medic Crew) Have your medic evaluate the Rebel.</text>
+		<text>(의무병 선원) Have your medic evaluate the Rebel.</text>
 		<event>
 			<text>Your medic carefully runs a few checks on the Rebel and helps him through several mental exercizes to clear his head. In this newfound clarity you explain the situation to him - and his reaction surprises you. "I've been wandering this sector for weeks raving out of my mind. This Rebellion is not suited for giving one peace of mind. Perhaps it's time I leave these days behind."</text>
 			<crewMember amount="1" class="human" all_skills="1"/>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Fight the Rebels.</text>
+		<text>반군과 전투한다.</text>
 		<event>
 			<text>The Rebels may be delusional about the 'battles' still raging in this sector, but that doesn't mean they aren't a threat that you need to neutralize.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -801,11 +801,11 @@
 		<event>
 			<text>Luckily, the Rebels are still busy with their delusional ramblings to notice you sneaking away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -816,7 +816,7 @@
 		<text>The Rebels are too delusional to listen to you. They won't believe anything you say and eventually become so enraged they decide to attack you.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -839,13 +839,13 @@
 			<text>You power up the thrusters and approach the Lanius vessel.</text>
 			<ship load="SHIP_LANIUS_DUEL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(Ghost Crew) Talk the Vagabonds into surrendering.</text>
+		<text>(유령 선원) Talk the Vagabonds into surrendering.</text>
 		<event>
 			<text>Though they certainly wouldn't listen to anyone else, your Ghost manages to talk the reason into the Vagabonds. They jump away, and the Lanius hails you. "Impress communication, wandering towards peace conditioning. Further engaging of peace. Will share?" Seems they're offering to share the wreck that started this feud.</text>
 			<autoReward level="HIGH">item</autoReward>
@@ -857,13 +857,13 @@
 			<text>You power up the thrusters and approach the Vagabond vessel.</text>
 			<ship load="SHIP_GHOST_DUEL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Talk the Lanius into surrendering.</text>
+		<text>(라니우스 선원) Talk the Lanius into surrendering.</text>
 		<event>
 			<text>Though they certainly wouldn't listen to anyone else, your Lanius manages to reason their peers. They jump away, and the Vagabonds hails you. "Your vernacular does not cease to impress me. How have you managed to talk down the savage metal beasts? Oh, no matter. It seems this is the hour of good deeds, and it is my turn." Seems they're offering to share the wreck that started this feud.</text>
 			<autoReward level="HIGH">item</autoReward>
@@ -874,11 +874,11 @@
 		<event>
 			<text>Of all the partially aggressive, mysterious, scavenging alien races in existence, the Ghosts and Lanius are the two who deserve each other the most. You make sure to do several checks around the ship to discourage the crew from betting over which ship will win.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -940,15 +940,15 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You can't risk your ship dealing with the Ghosts.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -971,7 +971,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="shields" lvl="6">
-				<text>(Adv Shields) Deflect the asteroid with your shields.</text>
+				<text>(최고급 Shields) Deflect the asteroid with your shields.</text>
 				<event>
 					<text>Your shields take the blunt of the blow, shattering the asteroid. A few pieces manage to make their way through and scrape up the hull, but you're otherwise unharmed. The refugees are grateful for your help and offer one of the augments left behind by the old settlers, along with some supplies they don't need.</text>
 					<damage amount="2"/>
@@ -993,11 +993,11 @@
 				<event>
 					<text>You mute the comms and fly away.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1009,11 +1009,11 @@
 		<event>
 			<text>You mute the comms and fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1032,18 +1032,18 @@
 					<text>You have decided to fight the Lanius ship. If you want the schematic back, you'll have to make sure their computers aren't damaged.</text>
 					<ship load="SHIP_LANIUS_STOLEN_DRONE" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="hacking">
-				<text>(Hacking) Hack their systems and transfer the schematic.</text>
+				<text>(해킹) Hack their systems and transfer the schematic.</text>
 				<event>
 					<text>The data transfer goes without problem, but you've also alerted the Lanius of your presence, and they aren't happy.</text>
 					<ship load="SHIP_LANIUS_STOLEN_DRONE_HACK" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1059,7 +1059,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="sensors" lvl="3">
-				<text>(Adv. Sensors) Transfer the schematic over to your computer.</text>
+				<text>(최고급. Sensors) Transfer the schematic over to your computer.</text>
 				<event>
 					<text>The data transfer goes without problem, and the Lanius remain oblivious to your presence.</text>
 					<choice hidden="true">
@@ -1075,11 +1075,11 @@
 		<event>
 			<text>You power up the engines and fly far away until your computer can no longer detect the signal.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1101,7 +1101,7 @@
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The Engi are baffled, confused as to why you felt it necessary to build the drone yourself when they too could construct the drone. They let you keep it and simply take the schematic instead, and transfer over regular payment.</text>
 					<autoReward level="MED">standard</autoReward>
@@ -1147,11 +1147,11 @@
 		<event>
 			<text>You power up the engines and fly far away until your computer can no longer detect the signal.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1166,7 +1166,7 @@
 			<text>You single out the strongest of the ships, a dangerous Elite Lanius. If you can kill it, the other smaller ships likely won't be interested in sticking around.</text>
 			<ship load="SHIP_LANIUS_RAID_ELITE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1177,7 +1177,7 @@
 			<text>You single out one of the smaller Lanius ships and engage.</text>
 			<ship load="SHIP_LANIUS_RAID" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1187,11 +1187,11 @@
 		<event>
 			<text>This isn't what you expected. The pirates will have to find someone else to do the job.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>

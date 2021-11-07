@@ -173,8 +173,8 @@ ATRRIBUTES
 <text name="beam_length">Beam Length: \1</text>
 <text name="swipe_speed">Beam Speed: \1</text>
 <text name="redesigned_double_damage">2x hull damage on systemless rooms.</text>
-<text name="redesigned_damage_room">Normal Damage Per Room: \1 (x15 for crew)</text>
-<text name="redesigned_damage_shot">Normal Damage Per Shot: \1 (x15 for crew)</text>
+<text name="redesigned_damage_room">Normal Damage Per Room: \1 (x15 for 선원)</text>
+<text name="redesigned_damage_shot">Normal Damage Per Shot: \1 (x15 for 선원)</text>
 <text name="hull_damage">Base Hull Damage: \1</text>
 <text name="system_damage">Total System Damage: \1</text>
 <text name="personnel_damage">Total Crew Damage: \1</text>

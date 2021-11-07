@@ -1,7 +1,7 @@
 <FTL>
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_GENERAL"/>
 </choice>
 -->
@@ -13,7 +13,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here, justifiable or not, will likely not go over well with the Federation or Militia. Continuously perform actions like this and you might start to see negative reactions from certain guards or other Federation forces.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -26,7 +26,7 @@
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_ENGI"/>
 </choice>
 -->
@@ -38,14 +38,14 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Engi Harmony. Continuously perform actions like this and you might start to see negative reactions from Engi guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_ZOLTAN"/>
 </choice>
 -->
@@ -57,14 +57,14 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Zoltan people. Continuously perform actions like this and you might start to see negative reactions from Zoltan guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_ORCHID"/>
 </choice>
 -->
@@ -76,7 +76,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Orchid people. Continuously perform actions like this and you might start to see negative reactions from Orchid guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -89,7 +89,7 @@
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_FREEMANTIS"/>
 </choice>
 -->
@@ -101,7 +101,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Free Mantis. Continuously perform actions like this and you might start to see negative reactions from Free Mantis guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -109,7 +109,7 @@
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_CRYSTAL"/>
 </choice>
 -->
@@ -121,7 +121,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Crystalline people. Continuously perform actions like this and you might start to see negative reactions from Crystalline guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -133,7 +133,7 @@
 </event>
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_SHELL"/>
 </choice>
 -->
@@ -145,7 +145,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Shell people. Continuously perform actions like this and you might start to see negative reactions from Shell guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -158,7 +158,7 @@
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_SLUG"/>
 </choice>
 -->
@@ -170,14 +170,14 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here might not please the Slug people. Continuously perform actions like this and you might start to see negative reactions from Slug guards.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_OUTCAST_ARMS"/>
 </choice>
 -->
@@ -190,7 +190,7 @@
 	<text>The outcast forces have responded to your request. Additional fire support will be provided during the fight!</text>
 	<environment type="PDS" target="enemy"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -198,7 +198,7 @@
 
 <!--
 <choice hidden="true">
-	<text>Continue...</text>
+	<text>계속...</text>
 	<event load="MORALITY_UPDATE_JERRY"/>
 </choice>
 -->
@@ -210,7 +210,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here won't go unnoticed by Jerry. Perhaps it is not a good idea to anger Vance's nephew in his own sector?</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -223,7 +223,7 @@
 	<text>[NOTORIETY INCREASED]
 	Your actions here, justified or not, won't go unnoticed by the Sylvans. Actions like these might begin to influence the way you're treated here.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>

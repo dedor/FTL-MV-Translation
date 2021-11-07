@@ -23,7 +23,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -31,7 +31,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -45,7 +45,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -68,7 +68,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -82,7 +82,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -105,7 +105,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -113,7 +113,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -127,7 +127,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -150,7 +150,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -158,7 +158,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -172,7 +172,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -194,7 +194,7 @@
 	<text>You have rescued the store from their attackers. The store owners offer to trade.</text>
 	<store/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 	<choice hidden="true" req="MARKER_GOT_CORPSE">
@@ -243,7 +243,7 @@
 <event name="EVENT_STORE_NOTHING">
 	<text>If you desire, you have some time to do something on the ship before going to the store.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice hidden="true" req="MARKER_GOT_CORPSE">
@@ -630,7 +630,7 @@
 				<item type="scrap" min="-15" max="-15"/>
 			</item_modify>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="EVENT_STORE_BEGGAR_CONTINUE"/>
 			</choice>
 		</event>
@@ -644,7 +644,7 @@
 	<text>As you walk away from the Monk you feel lighter in your step. You feel really lucky, as if nothing could go wrong.</text>
 	<modifyPursuit amount="-2"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="EVENT_STORE_NOTHING"/>
 	</choice>
 </event>
@@ -712,7 +712,7 @@
 			<text>You'll give these Rebels hell simply cause you can. You power up the weapons and approach.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -739,7 +739,7 @@
 				<item type="scrap" min="-15" max="-20"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="EVENT_STORE_PIRATE_REACTOR_PAY"/>
 			</choice>
 		</event>
@@ -774,7 +774,7 @@
 				<item type="scrap" min="-18" max="-18"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="EVENT_STORE_PIRATE_REPAIRS_PAY"/>
 			</choice>
 		</event>
@@ -931,7 +931,7 @@
 		<text>The store owners oblige and pay you some scrap.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="LIST_STORE_EVENTS"/>
 		</choice>
 	</event>
@@ -957,7 +957,7 @@
 	<text load="TEXT_STORES"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -979,11 +979,11 @@
 <event name="EMPTY_STANDARD">
 	<text load="EMPTY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1010,7 +1010,7 @@
 	<text load="TEXT_STORES"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1022,11 +1022,11 @@
 <event name="EMPTY_START">
 	<text load="TEXT_EMPTY_START"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1049,7 +1049,7 @@
 	<fleet>fed</fleet>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1062,7 +1062,7 @@
 		<text>"You need supplies? Certainly, no need for that license. You need everything you can before that flagship."</text>
 		<autoReward level="MED">stuff</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="LIST_STORE_EVENTS"/>
 		</choice>
 	</event>
@@ -1079,7 +1079,7 @@
 	<text load="STORES_COREWORLDS"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1101,11 +1101,11 @@
 <event name="EMPTY_COREWORLDS">
 	<text load="EMPTY_COREWORLDS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1129,7 +1129,7 @@
 	<text load="STORES_MILITIA"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1146,11 +1146,11 @@
 <event name="EMPTY_MILITIA">
 	<text load="EMPTY_MILITIA"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1172,7 +1172,7 @@
 	<text load="STORES_FED"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1194,11 +1194,11 @@
 <event name="EMPTY_FED_NORMAL">
 	<text load="EMPTY_FED_NORMAL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1212,11 +1212,11 @@
 	<text>A few larger Federation ships float some distance away, but none respond to your hails.</text>
 	<fleet>fed</fleet>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1232,7 +1232,7 @@
 	<text load="STORES_ENGI"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1249,11 +1249,11 @@
 <event name="EMPTY_ENGI">
 	<text load="EMPTY_ENGI"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1281,7 +1281,7 @@
 	<text load="STORES_HARMONY"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1298,11 +1298,11 @@
 <event name="EMPTY_HARMONY">
 	<text load="EMPTY_HARMONY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1330,7 +1330,7 @@
 	<text load="STORES_SEPERATIST"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1347,11 +1347,11 @@
 <event name="EMPTY_SEPERATIST">
 	<text load="EMPTY_SEPERATIST"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1374,7 +1374,7 @@
 	<text load="STORES_ZOLTAN"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1391,11 +1391,11 @@
 <event name="EMPTY_ZOLTAN">
 	<text load="EMPTY_ZOLTAN"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1420,7 +1420,7 @@
 	<text load="STORES_CAPITAL"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1437,11 +1437,11 @@
 <event name="EMPTY_CAPITAL">
 	<text load="EMPTY_CAPITAL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1466,7 +1466,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1478,7 +1478,7 @@
 	<text load="STORES_MONK"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1497,11 +1497,11 @@
 	<text load="EMPTY_MONK"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1524,7 +1524,7 @@
 	<text load="STORES_DUSKBRINGER"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1541,11 +1541,11 @@
 <event name="EMPTY_DUSKBRINGER">
 	<text load="EMPTY_DUSKBRINGER"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1566,11 +1566,11 @@
 <event name="EMPTY_ORCHID" unique="false">
 	<text load="EMPTY_ORCHID"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1585,7 +1585,7 @@
 	<text load="STORES_ORCHID"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1611,7 +1611,7 @@
 	<text load="STORES_CRYSTAL"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1629,11 +1629,11 @@
 <event name="EMPTY_CRYSTAL">
 	<text load="EMPTY_CRYSTAL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1656,7 +1656,7 @@
 	<text load="STORES_CRYSTALHOME"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1667,7 +1667,7 @@
 <textList name="STORES_CRYSTALHOME">
 	<text>Despite the unfriendly attitude from many of the inhabitants of the sector, it appears you've happened across a trader who doesn't care about who his client is - as long as they have scrap to spend.</text>
 	<text>It appears not all Crystals are unwilling to deal with outsiders. A merchant vessel nearby opens communications and requests to trade.</text>
-	<text>You receive a hail from a Crystalline vessel. "Outsiders? Look at your tiny ship... Haha!" You roll your eyes and prepare to leave when they hail you again. "Wait, wait, don't leave. This was merely me trying to set up a trade!"</text>
+	<text>You receive a hail from a Crystalline vessel. "Outsiders? Look at your tiny ship... Haha!" You roll your eyes and prepare to leave when they hail you again. "Wait, wait, don't 떠난다. This was merely me trying to set up a trade!"</text>
 	<text>A Rock station drifts nearby, with several other ships docked outside. Their captain greets you and welcomes you aboard to shop.</text>
 </textList>
 
@@ -1682,7 +1682,7 @@
 	<text load="STORES_PIRATE"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1700,11 +1700,11 @@
 <event name="EMPTY_PIRATE">
 	<text load="EMPTY_PIRATE"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1726,7 +1726,7 @@
 	<text load="STORES_BLACKMARKET"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1744,11 +1744,11 @@
 <event name="EMPTY_BLACKMARKET">
 	<text load="EMPTY_BLACKMARKET"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1770,7 +1770,7 @@
 	<text load="STORES_HACKED"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1787,7 +1787,7 @@
 	<text>There appears to be no store here after-all! A hacker ship here hails you. "Hahaha! You absssssolute fool! You nincompoop! You fell for my trap! Prepare to die."</text>
 	<ship load="SHIP_HACKER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1795,11 +1795,11 @@
 <event name="EMPTY_HACKED">
 	<text load="EMPTY_HACKED"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1822,7 +1822,7 @@
 	<text load="STORES_REBEL"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1839,11 +1839,11 @@
 <event name="EMPTY_REBEL">
 	<text load="EMPTY_REBEL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1866,7 +1866,7 @@
 	<text load="STORES_JERRY"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1883,11 +1883,11 @@
 <event name="EMPTY_JERRY">
 	<text load="EMPTY_JERRY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1909,7 +1909,7 @@
 	<text load="STORES_REBELHOLD"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1926,11 +1926,11 @@
 <event name="EMPTY_REBELHOLD">
 	<text load="EMPTY_REBELHOLD"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1952,11 +1952,11 @@
 <event name="EMPTY_AUTO">
 	<text load="EMPTY_AUTO"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1972,7 +1972,7 @@
 	<text>An Auto-Vendor drone has been set up here. Luckily, it doesn't seem to identify you as hostile, and opens up its market to you.</text>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -1992,7 +1992,7 @@
 	<text load="STORES_MANTIS"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2011,11 +2011,11 @@
 <event name="EMPTY_MANTIS">
 	<text load="EMPTY_MANTIS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2040,7 +2040,7 @@
 	<text load="STORES_MANTIS_HIVE"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2059,11 +2059,11 @@
 <event name="EMPTY_MANTIS_HIVE">
 	<text load="EMPTY_MANTIS_HIVE"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2087,7 +2087,7 @@
 	<text load="STORES_FREEMANTIS"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2105,11 +2105,11 @@
 <event name="EMPTY_FREEMANTIS">
 	<text load="EMPTY_FREEMANTIS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2131,7 +2131,7 @@
 	<text load="STORES_ROCK"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2150,11 +2150,11 @@
 <event name="EMPTY_ROCK">
 	<text load="EMPTY_ROCK"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2179,7 +2179,7 @@
 	<text load="STORES_ROCKHOME"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2197,11 +2197,11 @@
 <event name="EMPTY_ROCKHOME">
 	<text load="EMPTY_ROCKHOME"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2225,7 +2225,7 @@
 	<text load="STORES_LOSTSUN"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2242,11 +2242,11 @@
 <event name="EMPTY_LOSTSUN">
 	<text load="EMPTY_LOSTSUN"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2267,7 +2267,7 @@
 	<text load="STORES_SLUG"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2280,7 +2280,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2300,11 +2300,11 @@
 <event name="EMPTY_SLUG">
 	<text load="EMPTY_SLUG"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2319,11 +2319,11 @@
 	<environment type="nebula"/>
 	<text load="NEBULA_EMPTY_SLUG"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2347,7 +2347,7 @@
 	<text>It seems the Guild has set up a store further away from the nebula, likely to draw in traffic from the tourists not so accustomed to the nebulous terrain.</text>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2360,7 +2360,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2385,7 +2385,7 @@
 	<text load="STORES_SHELL"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2398,7 +2398,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2416,11 +2416,11 @@
 <event name="EMPTY_SHELL">
 	<text load="EMPTY_SHELL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2434,11 +2434,11 @@
 	<environment type="nebula"/>
 	<text load="NEBULA_EMPTY_SHELL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2468,7 +2468,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -2476,7 +2476,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -2490,7 +2490,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2512,7 +2512,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2541,7 +2541,7 @@
 	<text load="STORES_COALITION"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2559,11 +2559,11 @@
 <event name="EMPTY_COALITION">
 	<text load="EMPTY_COALITION"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2578,11 +2578,11 @@
 	<text load="TEXT_NEBULA_EMPTY_COALITION"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2597,7 +2597,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2624,7 +2624,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -2632,7 +2632,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -2650,7 +2650,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2667,7 +2667,7 @@
 	<text load="STORES_SPIDER"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2685,17 +2685,17 @@
 <event name="EMPTY_SPIDER">
 	<text load="EMPTY_SPIDER"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
 <textList name="EMPTY_SPIDER">
 	<text>A Militia squadron is clearing out several civilian vessels from the beacon. They attempt to do the same to you, but when you show your ID they leave you alone.</text>
-	<text>An abandoned station has been left behind at this beacon. You briefly consider scrapping it until you realize their automated defense system is still online. Best to ignore it...</text>
+	<text>An abandoned station has been left behind at this beacon. You briefly consider scrapping it until you realize their automated defense system is still online. Best to 무시한다...</text>
 	<text>The spider infestation has done a good number on this sector. Most of the civilians have already evacuated, leaving much of the sector empty, such as this beacon.</text>
 	<text>A refugee ship flies past. You're cautious, wondering if they might be infested, but the ship makes no attempt to contact you and jumps away.</text>
 </textList>
@@ -2712,7 +2712,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2725,7 +2725,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2754,7 +2754,7 @@
 	<text>A refuge from the nebulas and other unknown horrors of this sector, a market has been set up at this beacon. Evidently, they've been having horrible business, and eagerly welcome you.</text>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2767,11 +2767,11 @@
 	<text load="NEBULA_EMPTY_GHOST_LIST"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2794,11 +2794,11 @@
 <event name="EMPTY_GHOST" unique="true">
 	<text>At last, a break from both the nebula and constant attacks from Ghosts.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2814,7 +2814,7 @@
 	<text load="STORES_LANIUS"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2832,17 +2832,17 @@
 <event name="EMPTY_LANIUS">
 	<text load="EMPTY_LANIUS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
 <textList name="EMPTY_LANIUS">	
 	<text>You pass a civilian ship that warns of the nearby Lanius. "One of them attacked a civilian transport and started to melt their hull. But then the weirdest thing happened... another metal ship actually fired on its companion until it backed off." Apparently there are disagreements among the Lanius about what should be salvaged.</text> 
-	<text>A few Lanius military ships are settled nearby, but they refuse all hails. Not wanting to mess with so many deadly ships at once, you leave them alone.</text>
+	<text>A few Lanius military ships are settled nearby, but they refuse all hails. Not wanting to mess with so many deadly ships at once, you 내버려 둔다.</text>
 	<text>The ruins of an ancient Lanius settlement drift nearby, but you don't risk scrapping it for fear of angering any potential Lanius witnesses.</text>
 	<text planet="PLANET_POPULATED">This beacon is rather peaceful. In the distance is a shiny Lanius city, a stunning sight even from orbit, but not one you care to interact with.</text>
 	<text>The raiding of this sector during the Lanius hibernation made this sector a massive site of traffic, but after the Lanius awoke and began attack civilians with reckless abandon, the number of visitors plummeted and the sector return to its original state of relative obscurity.</text>
@@ -2859,7 +2859,7 @@
 	<text load="STORES_AUG"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="EVENT_STORE_NOTHING"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2875,11 +2875,11 @@
 <event name="EMPTY_AUG">
 	<text load="EMPTY_AUG"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2899,7 +2899,7 @@
 	<text load="STORES_ABANDONED"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2923,11 +2923,11 @@
 <event name="EMPTY_ABANDONED">
 	<text load="EMPTY_ABANDONED"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2955,7 +2955,7 @@
 	<text load="STORES_NEBULA_CLEARING"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2973,7 +2973,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -2986,7 +2986,7 @@
 		<text>The store owners oblige and pay you some scrap.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="LIST_STORE_EVENTS"/>
 		</choice>
 	</event>
@@ -3004,7 +3004,7 @@
 	<environment type="nebula"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="LIST_STORE_EVENTS"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -3017,11 +3017,11 @@
 	<text load = "TEXT_NEBULA_NOTHING"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -3048,11 +3048,11 @@
 	<text load = "TEXT_ABYSS_EMPTY_NEBULA"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -3064,11 +3064,11 @@
 <event name="EMPTY_ABYSS">
 	<text load="TEXT_ABYSS_EMPTY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -3090,7 +3090,7 @@
 	<text load="STORES_ORIGINS"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="EVENT_STORE_NOTHING"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -3101,17 +3101,17 @@
 <textList name="STORES_ORIGINS">
 	<text>Surprisingly, it seems these Cultists have a considerably well established economy among each other. A busy store front is swarming with cultists, but they don't seem to mind selling to you either.</text>
 	<text>A small market run out of the skeleton of an old Crystalline vessel is in operation here.</text>
-	<text>A lost merchant ship hails you, requesting to trade so that they can pay off their debt to the Cultists and leave.</text>
+	<text>A lost merchant ship hails you, requesting to trade so that they can pay off their debt to the Cultists and 떠난다.</text>
 </textList>
 
 <event name="EMPTY_ORIGINS">
 	<text load="EMPTY_ORIGINS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -3133,7 +3133,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_ANCIENT_WIN"/>
 		</choice>
 	</destroyed>
@@ -3147,7 +3147,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3164,7 +3164,7 @@
 	<autoReward level="MED">stuff</autoReward>
 	<store/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -3174,7 +3174,7 @@
 	<text>You have found an Ancient ship who's translator is capable of speaking in your language. "Strangers, this is most unorthodox. Still, while you are at this beacon you are welcome. Come in, and shop."</text>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="EVENT_STORE_NOTHING"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">
@@ -3186,11 +3186,11 @@
 <event name="EMPTY_ANCIENT">
 	<text load="EMPTY_ANCIENT"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -3206,7 +3206,7 @@
 	<text load="STORES_ROYAL"/>
 	<store/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="EVENT_STORE_NOTHING"/>
 	</choice>
 	<choice hidden="true" req="TAX_COLLECTOR">

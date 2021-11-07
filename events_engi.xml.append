@@ -26,7 +26,7 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -55,11 +55,11 @@
 	<text>It appears you've discovered a Harmony Link. These massive planet-sized structures are made up of trillions of nanobots, and transmit a strong signal to all of the Engi in the sector.</text>
 	<img back="BACK_EVENT_HARMONYLINK" planet="NONE"/>
 	<choice hidden="true" lvl="0" req="MARKER_FOUNDANCIENT" max_group="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_LINK_EVENTS"/>
 	</choice>
 	<choice hidden="true" lvl="1" req="MARKER_FOUNDANCIENT" max_group="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_LINK_EVENTS_NOANCIENT"/>
 	</choice>
 </event>
@@ -73,11 +73,11 @@
 	<text>It appears you've discovered a Harmony Link. These massive planet-sized structures are made up of trillions of nanobots, and transmit a strong signal to all of the Engi in the sector.</text>
 	<img back="BACK_EVENT_HARMONYLINK" planet="NONE"/>
 	<choice hidden="true" lvl="0" req="MARKER_FOUNDANCIENT" max_group="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_LINK_ANCIENT"/>
 	</choice>
 	<choice hidden="true" lvl="1" req="MARKER_FOUNDANCIENT" max_group="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_LINK_EVENTS_NOANCIENT"/>
 	</choice>
 </event>
@@ -102,7 +102,7 @@
 			<text>As you approach, suddenly the Engi ship activates and its drones come online. "Multiverse-Drive equipped vessel approaching. Threat to Harmony Link: activating defensive protocols."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -117,23 +117,23 @@
 					<text>"Multiverse-Drive equipped vessel approaching. Threat to Harmony Link: activating defensive protocols."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 					</choice>
 				</event>
 			</choice>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_HARMONY">
-		<text>(Engi Crew) Request supplies.</text>
+		<text>(Engi 선원) Request supplies.</text>
 		<event>
 			<text>"Harmony unit detected. Protocol requires aid to be given."</text>
 			<autoReward level="MED">droneparts_only</autoReward>
@@ -145,11 +145,11 @@
 		<event>
 			<text>If they're no threat to you, then you'll be no threat to them.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -164,7 +164,7 @@
 			<text>"Fine. If have death wish, then let me be one to grant it!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -204,11 +204,11 @@
 		<event>
 			<text>If they're no threat to you, then you'll be no threat to them.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -223,12 +223,12 @@
 		<status type="limit" target="player" system="doors" amount="0"/>
 		<status type="divide" target="player" system="shields" amount="2"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>To make matters worse, it appears the ship's remaining systems have come online!</text>
 				<status type="clear" target="enemy" system="drones" amount="100"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
 						<status type="clear" target="enemy" system="cloaking" amount="100"/>
 					</event>
@@ -250,7 +250,7 @@
 			<ship hostile="true"/>
 			<status type="limit" target="enemy" system="drones" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -264,7 +264,7 @@
 			<status type="limit" target="enemy" system="drones" amount="0"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -283,11 +283,11 @@
 	<status type="clear" target="player" system="doors" amount="100"/>
 	<status type="clear" target="player" system="shields" amount="100"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Without the Auto-ship to disturb you, you scout out the remaining wreckage. It appears most of the hull material is unrecognized by your database, and it's too strong to easily be stripped for scrap. Whoever made these ships must have been highly advanced, or from a completely different galaxy...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Inside one of the larger cruisers you're surprised to find what appears to be a robot of some sorts, entirely cubical in craft just like the ships. The room around it has been partially dissolved and strange looking Lanius corpses are scattered around. You bring back the robot to the ship out of curiosity, but without any obvious way to activate it, it'll have to remain in the back corners of the storage bay for now. Along with it, you find some strange coords that you mark on your map.</text>
 					<quest event="AUGMENTED_DISCOVERY"/>
@@ -314,11 +314,11 @@
 	<text load="ENGI_GIFT"/>
 	<autoReward level="RANDOM">standard</autoReward>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -386,7 +386,7 @@
 			<text>The Engi obediently transfer over the goods and get on their way. Money for nothing.</text>
 			<autoReward level="RANDOM">standard</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI"/>
 			</choice>
 		</event>
@@ -397,7 +397,7 @@
 			<text>The Engi were right to assume you're hostile! You attack the ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI"/>
 			</choice>
 		</event>
@@ -440,7 +440,7 @@
 	<text load="ENGI_MANTIS_FIGHT"/>
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -455,7 +455,7 @@
 	<text>The Rebel fighter here would seem to suggest elements of the Rebel fleet are already making incursions on Engi space. You move to engage.</text>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -464,7 +464,7 @@
 	<text>There must have been rich pickings for pirates around here up until war broke out. The pirate you encounter here looks worn down, but hungry. You'll have to fight!</text>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -503,7 +503,7 @@
 			<text>To your surprise, one of the Engi vessels attacks! One ship detaches itself, surprisingly still quite whole, and opens fire - it looks like it's somehow identified you as hostile!</text>
 			<ship load="SHIP_ENGI_SEX" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -513,21 +513,21 @@
 		<event>
 			<text>This isn't your business.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Have your Engi crewmember hail the vessel and assess the damage.</text>
+		<text>(Engi 선원) Have your Engi crewmember hail the vessel and assess the damage.</text>
 		<event>
 			<text>Your Engi crewmember refuses. In a halting use of adjectives and nouns, followed by some animated holographic aids, the Engi explains the ships are... using each other to, loosely translated, "achieve a union." For some reason, this consolidation of ship matter sounds embarrassing and personal.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You elect to leave the two Engi ships... to their "business." After questioning your Engi crewmember, however, you do manage to salvage what scrap parts you can from the perimeter, even though you feel slightly dirty for doing so.</text>
 					<autoReward level="MEDIUM">stuff</autoReward>
@@ -557,7 +557,7 @@
 		<ship load="SHIP_ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<boarders min="1" max="2" class="mantis"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -565,7 +565,7 @@
 		<text>You approach to find a Mantis ship assaulting a small Engi space station. You prepare for a fight!</text>
 		<ship load="SHIP_MANTIS_ENGI_STATION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -575,7 +575,7 @@
 		<text>The Engi station is stripped bare and there are signs of a fierce battle. The Mantis must have left the distress call active to lure other ships into a trap.</text>
 	</event>
 	<event>
-		<text>The station was in the process of being evacuated. A number of civilian Engi offer their gratitude as they finalize their preparations to leave. They offer some fuel as a reward.</text>
+		<text>The station was in the process of being evacuated. A number of civilian Engi offer their gratitude as they finalize their preparations to 떠난다. They offer some fuel as a reward.</text>
 		<autoReward level="MED">fuel_only</autoReward>
 	</event>
 	<event>
@@ -602,7 +602,7 @@
 			</event>
 		</choice>
 		<choice req="LIST_CREW_ENGI" hidden="true">
-			<text>(Engi Crew) Threat unresolved. Current mission imperative: Protocol 52.34.</text>
+			<text>(Engi 선원) Threat unresolved. Current mission imperative: Protocol 52.34.</text>
 			<event>
 				<text>They respond, "Understood. Re-establishment of Federation highest importance. Transmitting hidden base coordinates. Repairing hull and attaching ship to ship ordnance."</text>
 				<autoReward level="LOW">weapon</autoReward>
@@ -661,7 +661,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ORCHID">
-				<text>(Orchid Crew) Have your Orchid work some magic on them.</text>
+				<text>(Orchid 선원) Have your Orchid work some magic on them.</text>
 				<event>	
 					<text>The Orchids have a unique ability to put others in a... "daze". The effect is visible on the Slugs and Engi who begin to act very strangely. They pay you for your "assistance."</text>
 					<autoReward level="MED">scrap_only</autoReward>
@@ -674,15 +674,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The threat must have already disappeared, and the Engi simply have not yet switched off their distress beacon. You move on.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -693,7 +693,7 @@
 		<text>As you start to leave, one of the Slugs pushes the Engi out of the way. "Not cool dudessss, you really jussst gonna bail on usss like that?" Scans show their weapons have come online!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event> 
@@ -705,7 +705,7 @@
 	<distressBeacon/>
 	<ship load="SHIP_DISTRESS_ENGI_REBEL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -766,15 +766,15 @@
 		<event load="DISTRESS_ENGI_REACTOR_LIST1"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore it.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The place looks in bad state, probably nothing of use there. Time to move on.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -819,7 +819,7 @@
 			<text>The brave crewmember's clone strides from the Clone Bay, rather full of themself after such a heroic act.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The Engi who was saved offers to join your crew.</text>
 				<crewMember amount="1" class="engi"/>  
@@ -895,7 +895,7 @@
 <event name="FINISH_BEACON_HARMONY">
 	<text>You've arrived at the Long-Range Beacon. When the FTL Drive is charged you can jump to the next Sector.</text>
 	<choice hidden="true" req="turzil" lvl="0" max_group="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You now have some time on your hands.</text>
 			<choice hidden="true">
@@ -907,13 +907,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="turzil" lvl="1" max_group="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_FUGITIVE"/>
 	</choice>
 </event>
@@ -983,7 +983,7 @@
 					<text>Communicating further is pointless. The only way to do this is through combat.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -991,15 +991,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The Lanius ship continues to ignore you as you slink away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1017,7 +1017,7 @@
 		<text>Your attempts at communicating with the Lanius go in vain. Tired of your incomprehensible yapping, the Lanius decide to destroy you next!</text>
 		<ship hostile="true"/> 
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1072,7 +1072,7 @@
 	<text load="TEXT_ENCOUNTER_ENGI_HARMONY"/>
 	<ship load="SHIP_ENGI_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1086,7 +1086,7 @@
 	<text>The Engi Defenders are usually non-confrontational, but as their name suggests, their key purpose is to defend the Harmony. One way or another, they have decided your ship poses a threat and move in to neutralize you.</text>
 	<ship load="SHIP_ENGI_ELITE_FIGHT_NOSURRENDER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1095,7 +1095,7 @@
 	<text>A Separatist refugee hiding from the Engi patrols is laying low at this beacon. When they see a Federation ship jumping in nearby, they assume you've come for them, and attack!</text>
 	<ship load="SHIP_SEPERATIST_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1103,7 +1103,7 @@
 <event name="ENGI_VIRUS" unique="true">
 	<text>The Engi are awaiting you at the beacon, with their weapons online! They explain a computer virus that is wanted for hostile acts against the Engi (multiple counts of binary scrambling, nano-dissolution, and variable interference) is aboard your vessel.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>They insist they must destroy your ship to prevent the virus from escaping!</text>
 			<choice hidden="true">
@@ -1114,7 +1114,7 @@
 					<status type="divide" target="player" system="engines" amount="2"/>
 					<ship load="SHIP_ENGI_VIRUS" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1125,7 +1125,7 @@
 					<text>The Engi be damned, no one threatens your ship. You prepare for a fight!</text>
 					<ship load="SHIP_ENGI_VIRUS" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 					</choice>
 				</event>
@@ -1135,7 +1135,7 @@
 				<event>
 					<text>It takes some time, and the virus is slippery, but you eventually confine it to a useless sub-system prison where it frantically begins calculating insults at you. You eject the system from the ship and then silence the little binary criminal with your weapons.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Engi thank you for deleting the virus, and jump away. They offer am augmentation as a reward.</text>
 							<autoReward level="LOW">standard</autoReward>
@@ -1145,17 +1145,17 @@
 				</event>
 			</choice>
 			<choice req="hacking" lvl="2" max_group="0" hidden="true">
-				<text>(Improved Hacking) Reprogram the virus.</text>
+				<text>(Improved 해킹) Reprogram the virus.</text>
 				<event>
 					<text>You proceed to interface with the virus and optimize its repair and benevolence routines.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>After a few minutes, the virus "sees the light" and integrates itself in a positive manner with the computer society on your ship, repairing your hull and attempting to optimize your reactor.</text>
 							<damage amount="-15"/>
 							<upgrade amount="1" system="reactor"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>The Engi thank you for deleting the virus, and jump away. They offer an augmentation as a reward.</text>
 									<augment name="RANDOM"/>
@@ -1166,17 +1166,17 @@
 				</event>
 			</choice>
 			<choice req="hacking" lvl="3" max_group="0" hidden="true">
-				<text>(Advanced Hacking) Reprogram the virus.</text>
+				<text>(최고급 해킹) Reprogram the virus.</text>
 				<event>
 					<text>You proceed to interface with the virus and optimize its repair and benevolence routines.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>After a few minutes, the virus "sees the light" and integrates itself in a positive manner with the computer society on your ship, repairing your hull and attempting to optimize your reactor.</text>
 							<damage amount="-30"/>
 							<upgrade amount="1" system="reactor"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>The Engi thank you for deleting the virus, and jump away. They offer an augmentation as a reward.</text>
 									<augment name="RANDOM"/>
@@ -1191,7 +1191,7 @@
 				<event>
 					<text>Your Anti-Virus makes quick work, finding the hostile code and erasing it from existence.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Engi thank you for deleting the virus, and jump away. They offer an augmentation as a reward.</text>
 							<augment name="RANDOM"/>
@@ -1200,7 +1200,7 @@
 				</event>
 			</choice>
 			<choice req="LIST_CREW_LANIUS" hidden="true">
-				<text>(Lanius Crew) Your Lanius crewmember gestures frantically.</text>
+				<text>(라니우스 선원) Your Lanius crewmember gestures frantically.</text>
 				<event>
 					<text>Oddly enough, the Lanius seems aware of which computer the virus is present in, and proceeds to... digest the terminal. There is a burst of O2, and the Engi ship powers down its weapons, no longer sensing the virus on board. The Engi send some parts over to repair your damaged computer, along with an augmentation as a reward for terminating the virus.</text>
 					<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -1208,7 +1208,7 @@
 				</event>
 			</choice>
 			<choice req="engi" hidden="true">
-				<text>(Engi Crew) Have your Engi crewmember negotiate with the Engi ship.</text>
+				<text>(Engi 선원) Have your Engi crewmember negotiate with the Engi ship.</text>
 				<event>
 					<text>As the Engi attempts to contact the vessel and negotiate, your Engi crewmember suddenly dissolves into nanites - the virus has murdered again! Detecting activity on board your ship, the Engi vessel opens fire!</text>
 					<ship load="SHIP_ENGI_VIRUS_ALT" hostile="true"/>
@@ -1217,7 +1217,7 @@
 						<text>The virus appears to have disrupted your clone bay's capability to revive the lost crewmember!</text>
 					</removeCrew>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1231,7 +1231,7 @@
 				</event>
 			</choice>
 			<choice req="LIST_CREW_COGNITIVE_ALL" hidden="true">
-				<text>(Cognitive Crew) Have your Cognitive negotiate with the virus.</text>
+				<text>(Cognitive 선원) Have your Cognitive negotiate with the virus.</text>
 				<event>
 					<text>You explain to the Engi that you might have a solution, then wait for your Cognitive to do its job. Not too long after, the Cognitive comes back online. "Negotiation attempts have failed, resorted to alternative methods. I instead convinced the virus that life is pointless. Once it had adopted the same nihilistic philosophies that plague my databanks, it decided to end its life rather than continue to suffer." Satisfied, the Engi ship rewards you for deleting the virus.</text>
 					<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -1273,13 +1273,13 @@
 			<text>Whatever secrets this station holds, you want them. Best way to get what you want? Through the distribution of violence.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Upg. Sensors) Scan the station.</text>
+		<text>(고급 Sensors) Scan the station.</text>
 		<event>
 			<text>Scans show the station is some sort of Engi production facility! Maybe if you can kill the crew, you can find a way to produce an Engi crew.</text>
 			<choice hidden="true">
@@ -1288,7 +1288,7 @@
 					<text>You decide to try and take over the facility. You power up your weapons and engage.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1296,13 +1296,13 @@
 			<choice>
 				<text>Ignore the station.</text>
 				<event>
-					<text>Attacking a well armed Engi Station in Harmony space is practically suicide. You decide it's best to ignore it.</text>
+					<text>Attacking a well armed Engi Station in Harmony space is practically suicide. You decide it's best to 무시한다.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1312,13 +1312,13 @@
 	<choice>
 		<text>Ignore the station.</text>
 		<event>
-			<text>Attacking a well armed Engi Station in Harmony space is practically suicide. You decide it's best to ignore it.</text>
+			<text>Attacking a well armed Engi Station in Harmony space is practically suicide. You decide it's best to 무시한다.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1349,7 +1349,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI"> <!--should include separatists-->
-		<text>(Engi Crew) Reprogram one of the Engis to serve you.</text>
+		<text>(Engi 선원) Reprogram one of the Engis to serve you.</text>
 		<event>
 			<text>You pick one of the better looking Engis and reprogram it to serve you faithfully. While the Engi is produced, you collect some of the supplies around the station.</text>
 			<autoReward level="MED">stuff</autoReward>
@@ -1357,7 +1357,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking">
-		<text>(Hacking) Reprogram one of the Engis to serve you.</text>
+		<text>(해킹) Reprogram one of the Engis to serve you.</text>
 		<event>
 			<text>You pick one of the better looking Engis and reprogram it to serve you faithfully. While the Engi is produced, you collect some of the supplies around the station.</text>
 			<autoReward level="MED">stuff</autoReward>
@@ -1365,7 +1365,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking" lvl="3">
-		<text>(Adv. Hacking) Reprogram one of the Engis to serve you.</text>
+		<text>(최고급. 해킹) Reprogram one of the Engis to serve you.</text>
 		<event>
 			<text>With your hacking you're able to access one of the higher security areas, which appears to contain Engi Defenders! You reprogram one of them to serve you loyally, and quickly grab some supplies on your way out.</text>
 			<autoReward level="MED">stuff</autoReward>
@@ -1373,7 +1373,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ANCIENT">
-		<text>(Obelisk Crew) Your Obelisk knows how to manufacture Engi.</text>
+		<text>(Obelisk 선원) Your Obelisk knows how to manufacture Engi.</text>
 		<event>
 			<text>As the Obelisks were responsible for the creation of the Engi, it's no surprise they know how to operate the machinery. It sets one of the machines to create an Engi Defender while you grab some supplies.</text>
 			<autoReward level="MED">stuff</autoReward>
@@ -1402,7 +1402,7 @@
 	<ship load="SHIP_AUTO_HACK_HARMONY" hostile="true"/>
 	<boarders min="2" max="2" class="engi"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1436,7 +1436,7 @@
 					</item_modify>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>It's quite a lot, but you know you're supposed to give it back to the Engi ship.</text>
 							<choice hidden="true">
@@ -1459,7 +1459,7 @@
 													<text>You aren't about to put up with this garbage. You power up the weapons and prepare to engage the Engi head-on.</text>
 													<ship load="SHIP_ENGI_SALVAGE_HELP" hostile="true"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event load="COMBAT_CHECK"/>
 													</choice>
 												</event>
@@ -1480,13 +1480,13 @@
 									<text>You've spent too long collecting all this salvage, you aren't going to just hand it over willingly.</text>
 									<ship load="SHIP_ENGI_ELITE_FIGHT" hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 									</choice>
 								</event>
 							</choice>
 							<choice hidden="true" req="LIST_CREW_HARMONY">
-								<text>(Engi Crew) Request you split the supplies.</text>
+								<text>(Engi 선원) Request you split the supplies.</text>
 								<event>
 									<text>"This compromise... fair." There's some argument on who gets the larger half, but eventually you reach an agreement.</text>
 									<item_modify>
@@ -1498,7 +1498,7 @@
 								</event>
 							</choice>
 							<choice hidden="true" req="cloaking">
-								<text>(Cloaking) Cloak and leave.</text>
+								<text>(Cloaking) Cloak and 떠난다.</text>
 								<event load="DISTRESS_HARMONY_SALVAGE_CLOAK"/>
 							</choice>
 						</event>
@@ -1510,11 +1510,11 @@
 				<event>
 					<text>The Engi end communication and go back to salvaging the wreck. They don't respond to further hails.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1528,21 +1528,21 @@
 			<autoReward level="LOW">standard</autoReward>
 			<ship load="SHIP_ENGI_ELITE_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You avoid the Engi ship and the wreckage.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1577,7 +1577,7 @@
 		<ship load="SHIP_ENGI_ELITE_FIGHT" hostile="true"/> 
 		<status type="limit" target="player" system="cloaking" amount="0"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 		<choice hidden="true" req="ANTI_VIRUS">
@@ -1586,7 +1586,7 @@
 				<text>Your cloaking system is restored to full power.</text>
 				<status type="clear" target="player" system="cloaking" amount="100"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -1618,11 +1618,11 @@
 				<event>
 					<text>"Expected. This was the second reason I joined the Rebellion..."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1635,7 +1635,7 @@
 			<text>It doesn't matter if the Engineers didn't kill the Engi, they've no doubt killed plenty others.</text>
 			<ship load="SHIP_ENGINEER" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1645,11 +1645,11 @@
 		<event>
 			<text>The Engineer continues to inspect the Engi wreck and ignores your ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1831,7 +1831,7 @@
 							<environment type="PDS" target="enemy"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1859,7 +1859,7 @@
 							<environment type="PDS" target="enemy"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1887,7 +1887,7 @@
 							<environment type="PDS" target="enemy"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1915,7 +1915,7 @@
 							<environment type="PDS" target="enemy"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1947,7 +1947,7 @@
 							<text>The Mantis ship is confused, but they're agitated from you accusing them and attack!</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1974,7 +1974,7 @@
 							<text>The Rock ship is confused, but they're agitated from you accusing them and attack!</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -2001,7 +2001,7 @@
 							<text>The Separatist ship is confused, but they're agitated from you accusing them and attack!</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -2028,7 +2028,7 @@
 							<text>The Lanius ship is confused, but they're agitated from you accusing them and attack!</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -2061,11 +2061,11 @@
 				<event>
 					<text>"Pah, Federation ship so boring. Don't come back."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2077,11 +2077,11 @@
 		<event>
 			<text>"Pah, Federation ship so boring. Don't come back."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2096,7 +2096,7 @@
 			<text>You prepare to engage the station. Completely unable to flee, the Engi have no choice but to fight back.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 			</choice>
 		</event>
@@ -2107,7 +2107,7 @@
 			<text>Your crew's attempts at boarding the ship go in vain. The Engi security system is too good and detects your crew almost immediately. You beam them back and prepare to fight.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 			</choice>
 		</event>
@@ -2117,11 +2117,11 @@
 		<event>
 			<text>You aren't going to go stealing Engi slaves for a Mantis, especially not in the Harmony sector.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2183,7 +2183,7 @@
 			<text>"Ah crap it's the Feds! We gotta get outta here!" The Smugglers power up their engines and attempt to flee! You'll have to defeat them before they can escape.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2193,11 +2193,11 @@
 		<event>
 			<text>You have no interest in whatever the Smugglers are carrying.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2211,7 +2211,7 @@
 			<text>The smugglers eject a lifepod from their ship and jump away. You pull it open to find a strangely colored Engi Defender.</text>
 			<ship hostile="false"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"You have eliminated primary source of transport out of sector. Request: you transport my person out of Harmony. Will pay."</text>
 					<choice>
@@ -2247,7 +2247,7 @@
 			<text>You open the cargo to find a strangely colored Engi Defender sitting in the corner staring at the ceiling. They wear no chains or anything else to suggest they might be a slave. The only other possibility is they're hitching a ride with the smugglers.</text>
 			<ship hostile="false"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"You have eliminated primary source of transport out of sector. Request: you transport my person out of Harmony. Will pay."</text>
 					<choice>
@@ -2271,7 +2271,7 @@
 	<text>You prepare to charge the FTL drive when you notice an Engi Cruiser approaching you! This can't be good...</text>
 	<ship load="SHIP_HARMONY_CRUISER" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hello. This is HA-34U representing the Engi Harmony. We are aware that you are carrying fugitive TRZ-1L. We request you hand over the fugitive, and we will provide high payment. It is unwise to challenge the Harmony."</text>
 			<choice>
@@ -2284,7 +2284,7 @@
 					<text>You don't intend on handing over your crew! You prepare to fight the cruiser.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 					</choice>
 				</event>
@@ -2325,13 +2325,13 @@
 	<hiddenAug>ACH_BOSS_HARMONY</hiddenAug>
 	<autoReward level="HIGH">drone</autoReward>
 	<choice req="turzil" lvl="0" max_group="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Despite your efforts it appears the fugitive did not survive the fight. You'll have to carry on without them.</text>
 		</event>
 	</choice>
 	<choice req="turzil" lvl="1" max_group="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You turn to face the Engi fugitive who caused this problem in the first place. "Apologies, this conflict should have been predicted. It is important that my identity be provided. I am: General Turzil. My mission: escape capture of Harmony. I have achieved status of wanted fugitive for disobeying Harmony-Rebel non-aggression pact during Federation Civil War, and assisting Separatist movements in dismantling of Harmony. It is my quest that you take me with you to avoid death and protection of underground Separatist movements."</text>
 			<hiddenAug>ACH_CREW_TURZIL</hiddenAug>
@@ -2344,7 +2344,7 @@
 	<text load="TEXT_TURZIL_REINFORCEMENTS"/>
 	<ship load="SHIP_ENGI_ELITE_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>

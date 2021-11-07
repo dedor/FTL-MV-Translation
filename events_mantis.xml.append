@@ -38,17 +38,17 @@
 		<event load="MANTIS_CAPTURE_COMMANDO_KILL"/>
 	</choice>
 	<choice req="LIST_CREW_MANTIS" hidden="true">
-		<text>(Mantis Crew) Interrogate him.</text>
+		<text>(Mantis 선원) Interrogate him.</text>
 		<event load="MANTIS_CAPTURE_COMMANDO_TALK"/>
 	</choice>
 	<choice req="mind" hidden="true"> <!--DLC-->
-		<text>(Mind Control) Interrogate him.</text>
+		<text>(정신 지배l) Interrogate him.</text>
 		<event>
 			<text>Your mind control device allows you to quickly get his story without resistance. It appears the boarding party was attempting to steal an weapon that the Engi ship was transporting. However their team was wiped out by drones.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
-					<text>You find the weapon in a hidden storage hold and decide to patch the ship up enough to let the Mantis leave.</text>
+					<text>You find the weapon in a hidden storage hold and decide to patch the ship up enough to let the Mantis 떠난다.</text>
 					<autoReward level="LOW">weapon</autoReward>
 				</event>
 			</choice>
@@ -96,11 +96,11 @@
 		<event>
 			<text>Better not to get involved in what's going on in there.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -113,7 +113,7 @@
 				<item type="scrap" min="-50" max="-50"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MANTIS_GAMBLE_BLUE"/>
 			</choice>
 		</event>
@@ -126,7 +126,7 @@
 				<item type="scrap" min="-50" max="-50"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MANTIS_GAMBLE_RED"/>
 			</choice>
 		</event>
@@ -148,7 +148,7 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="4" hidden="true">
-			<text>(Adv. Engines) Dodge the debt and power up the engines.</text>
+			<text>(최고급. Engines) Dodge the debt and power up the engines.</text>
 			<event>
 				<text>You are able to get out of firing range of the cruiser before they can react. However, a smaller ship breaks off from a patrol and moves in to engage.</text>
 				<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
@@ -156,7 +156,7 @@
 					<item type="scrap" min="50" max="50"/>
 				</item_modify>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -179,7 +179,7 @@
 			</event>
 		</choice>
 		<choice req="engines" lvl="4" hidden="true">
-			<text>(Adv. Engines) Dodge the debt and power up the engines.</text>
+			<text>(최고급. Engines) Dodge the debt and power up the engines.</text>
 			<event>
 				<text>You recall the scrap you prepared to send and are able to get out of the cruiser's firing range before they can react. However, a smaller ship breaks off from a patrol and moves in to engage.</text>
 				<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
@@ -187,7 +187,7 @@
 					<item type="scrap" min="50" max="50"/>
 				</item_modify>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -221,7 +221,7 @@
 	<text load="TEXT_ENCOUNTER_MANTIS"/>
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -252,7 +252,7 @@
 	<text>You are immediately hailed by an impressive looking Mantis ship, "Ship make a mighty fine prize. Prepare for battle!"</text>
 	<ship load="SHIP_MANTIS_CHASE1" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -260,11 +260,11 @@
 	<text>You catch up with the Mantis ship that escaped before, only to see them transferring their crew into an even bigger ship!</text>
 	<ship load="SHIP_MANTIS_CHASE2" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Not YOU again! You know how much repairs going to cost me? Time to take the big guns."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -281,7 +281,7 @@
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 	<environment type="sun"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -312,7 +312,7 @@
 		<event load="MANTIS_BROKEN_TELEPORTER_YES"/>
 	</choice>
 	<choice hidden="true" req="doors" lvl="2">
-		<text>(Upg. Doors) Agree, but lock your doors tight in case of a trap.</text>
+		<text>(고급 Doors) Agree, but lock your doors tight in case of a trap.</text>
 		<event load="MANTIS_BROKEN_TELEPORTER_YES_DOORS"/>
 	</choice>
 	<choice hidden="true" req="REPAIR">
@@ -334,7 +334,7 @@
 		<ship hostile="true"/>
 		<boarders min="2" max="2" class="mantis"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -348,7 +348,7 @@
 		<text>As you dock your ship with the Mantis, they immediately come charging for your doors. Luckily they aren't able to break their way through, but you still have to deal with their ship.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -365,7 +365,7 @@
 		</item_modify>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -385,7 +385,7 @@
 		</item_modify>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -402,18 +402,18 @@
 		<text>"Fine. Tell truth, we lie. Now, we take supplies from you and make even better teleporter!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>The Mantis don't attempt to push further.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -428,7 +428,7 @@
 			<text>You make it clear to the pirate that you have no interest in giving them anything but death. You both hurry to prepare for battle.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -463,7 +463,7 @@
 			<text>The Slug points at the Mantis and laughs, but is cut off when the Mantis becomes enraged and powers up its weapons and attacks!</text>
 			<ship load="SHIP_MANTIS_TAUNT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -474,7 +474,7 @@
 			<text>The Slug grumbles as the Mantis gloats. Furious at your shot at their ego, the Slug activates its weapon barrels towards you!</text>
 			<ship load="SHIP_SLUG_TAUNT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -501,7 +501,7 @@
 <event name="ALISON_MANTIS_CREW" unique="true">
 	<text>You arrive just in time to see an unusually well-armed Engi ship destroying a small pirate craft. A teleporter signal is detected...intruder on deck!</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>A young Mantis in a charred uniform has teleported onto the deck. He begs for sanctuary from the Engi, and offers to serve in exchange for your protection. The Engi have already traced the teleporter signal and are offering a deal in exchange for the prisoner.</text>
 			<choice hidden="true">
@@ -513,7 +513,7 @@
 				<event load="ALISON_MANTIS_CREW_REJECT"/>
 			</choice>
 			<choice hidden="true" req="mind">
-				<text>(Mind Control) Ensure the Mantis is passive before you make a decision.</text>
+				<text>(정신 지배l) Ensure the Mantis is passive before you make a decision.</text>
 				<event>
 					<text>Thanks to the Mantis's simple mind, it is quickly subdued by the effects of your mind control.</text>
 					<choice hidden="true">
@@ -535,7 +535,7 @@
 		<ship load="SHIP_ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<status type="divide" target="player" system="engines" amount="2"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -544,7 +544,7 @@
 		<ship load="SHIP_ENGI_FIGHT" hostile="true"/>
 		<crewMember amount="1" class="mantis"/>	
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -565,7 +565,7 @@
 		<boarders min="1" max="1" class="mantis"/>
 		<ship load="SHIP_ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -575,7 +575,7 @@
 		<text>Seems this was meant to be a trap! However, with the Mantis still under the spell, they're unable to do any damage and you take them down quickly. Seems a fight is still inevitable.</text>
 		<ship load="SHIP_ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -584,7 +584,7 @@
 		<ship load="SHIP_ENGI_FIGHT" hostile="true"/>
 		<crewMember amount="1" class="mantis"/>	
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -602,7 +602,7 @@
 		<text>The pursuing ship responds with a completely unintelligible message. It becomes clear this was a trap, but fortunately because of the mind control you're able to take down the Mantis and move onto fighting the hijacked ship immediately.</text>
 		<ship load="SHIP_ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -617,7 +617,7 @@
 			<text>You prepare for combat</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -647,7 +647,7 @@
 		<text>Before you have a chance to slink away the Mantis ship notices you and powers up their weapons.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -655,7 +655,7 @@
 		<text>You power down non-essential systems in an attempt to remain unnoticed. It looks like they are about to leave when suddenly they turn and set course toward you, weapons powered.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -671,7 +671,7 @@
 		<text>You quickly cloak the ship, but not quickly enough. They spot you and move in to engage.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -686,7 +686,7 @@
 			<text>You frown, power up the weapons and prepare to engage the Mantis ship. Not today.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -718,11 +718,11 @@
 		<event>
 			<text>You send the pod back out the airlock. You're not stupid.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -732,19 +732,19 @@
 		<event load="MANTIS_CREW_LIST"/>
 	</choice>
 	<choice hidden="true" req="INFO_MACHINE">
-		<text>(Analyzer) Access the interior footage of the pod.</text>
+		<text>(기록 분석기) Access the interior footage of the pod.</text>
 		<event load="MANTIS_CREW_LIST_ANALYZER"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SHELL">
-		<text>(Shell Crew) Have your Shell open the pod.</text>
+		<text>(Shell 선원) Have your Shell open the pod.</text>
 		<event load="MANTIS_CREW_LIST_SHELL"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ROCK">
-		<text>(Rock Crew) Have your Rock open the pod.</text>
+		<text>(락맨 선원) Have your Rock open the pod.</text>
 		<event load="MANTIS_CREW_LIST_ROCK"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ANCIENT">
-		<text>(Obelisk Crew) Have your Obelisk open the pod.</text>
+		<text>(Obelisk 선원) Have your Obelisk open the pod.</text>
 		<event load="MANTIS_CREW_LIST_ANCIENT"/>
 	</choice>
 </event>
@@ -882,7 +882,7 @@
 	<text load="TEXT_ENCOUNTER_MANTIS_HIVE"/>
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -907,7 +907,7 @@
 	<text load="TEXT_ENCOUNTER_SUZERAIN"/>
 	<ship load="SHIP_SUZERAIN_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -915,7 +915,7 @@
 	<text load="TEXT_ENCOUNTER_SUZERAIN"/>
 	<ship load="SHIP_SUZERAIN_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -938,7 +938,7 @@
 			<text>You've decided to take a huge risk here and fight the Bishop vessel. Let's hope it pays off.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -953,7 +953,7 @@
 	<text>As the Coalition receives the backing of the Mantis Hive, their ships can often be found here. Not the kind to miss out on the opportunity to destroy a Federation ship, they attack.</text>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -962,7 +962,7 @@
 	<text>You're hailed by a Mantis, who frantically moves around the room in circles before facing you. "The Hive's security compromised, your fault! Death is only way. I die, so that the Hive may live!"</text>
 	<ship load="SHIP_MANTIS_KAMIKAZE" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -971,7 +971,7 @@
 	<text>A Mantis station appears to be positioned here. For what reason you don't know, but the station deems you a threat and fires in your direction, leaving you with no choice but to fight back.</text>
 	<ship load="SHIP_MANTIS_STATION" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -980,7 +980,7 @@
 	<text>A Clansman ship is already at this beacon. They hail you, their captain snickering. "Oh goodnesss, a Federation ssship here? I come here often to harrasss thessse freaksss for entertainment, but thisss isss too good a chance to missss!"</text>
 	<ship load="SHIP_CLAN_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1019,13 +1019,13 @@
 			<text>"Ha, what did expect? Let us fight, so that he who dies here may go to bliss."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_MANTIS">
-		<text>(Mantis Crew) Convince the Suzerain to join you.</text>
+		<text>(Mantis 선원) Convince the Suzerain to join you.</text>
 		<event>
 			<text>"You wish to form frienship? One, what, which lasts years come? Yes, accept I do."</text>
 			<crewMember amount="1" class="suzerain"/>
@@ -1036,11 +1036,11 @@
 		<event>
 			<text>The Suzerain keeps true to their word and doesn't chase after you.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1054,12 +1054,12 @@
 		<event>
 			<text>The Mantis are shocked that you have the courage to hail them, but seem open to your offer. They explain that the ship in question is actually an automated Rebel ship that is lost and has begun to attack Mantis settlements, and that they have been dispatched to handle the issue. "You need something special if want to kill living ship. Do so and we are grateful, and pay you. Better accept help from enemy, than decapitated by Suzerain Karazawaka."</text>
 			<choice hidden="true" req="hacking">
-				<text>(Hacking) We have hacking.</text>
+				<text>(해킹) We have hacking.</text>
 				<event>
 					<text>"Good, yes this might work. Come, we show you to ship." They lead you to the Auto-ship, which is in the middle of tormenting a civilian Mantis ship. You prepare to fight.</text>
 					<ship load="SHIP_HIVE_AUTO_SITUATION" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1070,29 +1070,29 @@
 					<text>"Good, yes this might work. Come, we show you to ship." They lead you to the Auto-ship, which is in the middle of tormenting a civilian Mantis ship. You prepare to fight.</text>
 					<ship load="SHIP_HIVE_AUTO_SITUATION" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="weapons" lvl="5">
-				<text>(Adv. Weapons) We have a superior weapon system.</text>
+				<text>(최고급. 무기실) We have a superior weapon system.</text>
 				<event>
 					<text>"Good, yes this might work. Come, we show you to ship." They lead you to the Auto-ship, which is in the middle of tormenting a civilian Mantis ship. You prepare to fight.</text>
 					<ship load="SHIP_HIVE_AUTO_SITUATION" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="BLUELIST_CREW_NO2">
-				<text>(Anaerobic Crew) We have crew capable of surviving in no-oxygen environments.</text>
+				<text>(Anaerobic 선원) We have crew capable of surviving in no-oxygen environments.</text>
 				<event>
 					<text>"Good, yes this might work. Come, we show you to ship." They lead you to the Auto-ship, which is in the middle of tormenting a civilian Mantis ship. You prepare to fight.</text>
 					<ship load="SHIP_HIVE_AUTO_SITUATION" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1103,7 +1103,7 @@
 					<text>"Good, yes this might work. Come, we show you to ship." They lead you to the Auto-ship, which is in the middle of tormenting a civilian Mantis ship. You prepare to fight.</text>
 					<ship load="SHIP_HIVE_AUTO_SITUATION" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1114,7 +1114,7 @@
 					<text>"No no! You not understand, this ship kill you if you not be prepare. You useless. Maybe Karazawaka spare us if we bring in dead Federation ship..."</text>
 					<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1127,7 +1127,7 @@
 			<text>You have no interest but to kill the Mantis ship. You power up the weapons and engage.</text>
 			<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1137,11 +1137,11 @@
 		<event>
 			<text>You suspect the Mantis ship must have seen you, but they make no attempt to pursue.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1168,7 +1168,7 @@
 			<text>You move in to destroy the Jailer, knowing that you'll have to kill their crew if you want the prisoners to live.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1185,11 +1185,11 @@
 		<event>
 			<text>The Jailer doesn't seem to notice as you slip away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1214,7 +1214,7 @@
 			<text>As to be expected, your weapons can barely even dent their defenses. The minute you start shooting, you alert them to your presence, and one of their finest guards is dispatched to destroy you.</text>
 			<ship load="SHIP_SUZERAIN_COMPLEX_GUARD" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1228,18 +1228,18 @@
 		<event>
 			<text>You have more important things to do than go raiding important Mantis structures.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 </event>
 <event name="HIVE_SUZERAIN_COMPLEX_WIN_STUPID">
-	<text>You've defeated the guard, but you know more are no doubt on their way. You quickly scrap what you can and leave.</text>
+	<text>You've defeated the guard, but you know more are no doubt on their way. You quickly scrap what you can and 떠난다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice req="MAGNET_ARM" hidden="true">
 		<text>(Magnet Arm) Use the magnet to draw in some extra supplies.</text>
@@ -1248,7 +1248,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -1261,7 +1261,7 @@
 			<text>Your recently murdered crew stumbles out of the Clone Bay, still clutching their throat. Once they're sure their head is still firmly attached to their body, they rush to help defend against the guard.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1297,15 +1297,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>Though you doubt the ship poses a threat, you have no interest in communicating.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1320,7 +1320,7 @@
 			<ship load="SHIP_MANTIS_HUNTER_CAMP" hostile="true"/> 
 			<environment type="PDS" target="player"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1330,22 +1330,22 @@
 		<event load="QUEST_HIVE_FREEMANTIS_HUNTER_CAMP_CLOAK"/>
 	</choice>
 	<choice hidden="true" req="cloaking" lvl="3">
-		<text>(Adv. Cloaking) Sabotage the station while hidden by your cloak.</text>
+		<text>(최고급. Cloaking) Sabotage the station while hidden by your cloak.</text>
 		<event>
 			<text>Hidden by your cloak, you successfully manage to deal massive damage to hull, compromising the station. The explosions send the docked Mantis ships flying away, leaving you alone with the wreck.</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>You would have to be suicidal to attack any sort of Mantis camp, regardless of size. You fly away until you're certain you're out of their sight.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1360,7 +1360,7 @@
 		<text>You attempt to destroy the station, but your cloak gives out before you can successfully demolish the hull. The attack sends most of the docked ships flying away, but the station itself is still standing and not about to surrender itself to you.</text>
 		<ship load="SHIP_MANTIS_STATION" hostile="true"/> 
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1397,7 +1397,7 @@
 					<text>Whatever the Mantis has in store, it can't be good. You prepare for combat.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1414,21 +1414,21 @@
 			<text>Whatever the Mantis has to say, you aren't interested. You prepare for combat.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>You have no interest in the Mantis ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1437,7 +1437,7 @@
 <event name="QUEST_MANTIS_CULTURE_ARRIVAL">
 	<text>You find nothing at this beacon. You suspect it may be a trap, but quickly realize the co-ordinates must have been correct. You switch the co-ordiantes to the correct positions and continue exploring until you find a small Mantis station, with bloostains partly washed from the hull.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Ah, Federation ship arrived! I hope you prepared for delectable Mantis cuisine!"</text>
 			<choice hidden="true">
@@ -1453,7 +1453,7 @@
 								<event>
 									<text>You exit the kitchen and return to your seat.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="QUEST_MANTIS_CULTURE_CONVERSATION"/>
 									</choice>
 								</event>
@@ -1463,7 +1463,7 @@
 								<event>
 									<text>You try to flex on the microwave. You and the Mantis have a few moments moments of awkward silence before you return back to your seat.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="QUEST_MANTIS_CULTURE_CONVERSATION"/>
 									</choice>
 								</event>
@@ -1478,15 +1478,15 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>This is getting really strange, we should leave.</text>
+						<text>This is getting really strange, we should 떠난다.</text>
 						<event>
 							<text>You quickly leave the station and fly away as far as possible before the Mantis can return.</text>
 							<choice>
-								<text>Do something onboard the ship.</text>
+								<text>함선에서 무언가를 한다.</text>
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice>
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -1549,7 +1549,7 @@
 												</event>
 											</choice>
 											<choice hidden="true">
-												<text>You've kept us here long enough. It's time we leave.</text>
+												<text>You've kept us here long enough. It's time we 떠난다.</text>
 												<event>
 													<text>You gather up your crew and march out of the burning station.</text>
 												</event>
@@ -1592,7 +1592,7 @@
 				<event>
 					<text>"Disappointing stance, but I haven't time to protest. If you will not assist then it would be my recommendation you leave Hive quickly before Leikonpliiinakra's forces discover you."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<instantEscape/>
 						</event>
@@ -1607,7 +1607,7 @@
 			<text>You're no man of patience, and even though this was likely something important, you've forgone that possibility entirely by making the first strike!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1643,7 +1643,7 @@
 			<text>The Suzerain cruiser seems to have several Bishops on it as well. That messenger wasn't lying, this Hatchery must be important to deserve this much security. Time for a colossal fight!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1653,11 +1653,11 @@
 		<event>
 			<text>Without the other Bishop, you can't be certain what the plan is. It's better not to take the risk and leave while you're still alive.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1715,7 +1715,7 @@
 									<text>"Huh? You are serious? I do not know what you are hoping to achieve, but it is certainly better than a certain death at hands of the Episcopacy. I will have my crew transport eggs on their own. They are capable. I shall be with you momentarily, captain."</text>
 									<crewMember amount="1" all_skills="2" class="bishop">Laiiikarkapi</crewMember>
 									<choice hidden="true" req="kaz">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>With Laiiikarkapi's directions and Kaz's plans, you should now be able to track down the Mantis Queen herself. This won't be easy, but who knows what you might able to accomplish if you pull this off. Make sure you keep Laiiikarkapi and Kazaaak around, as without them, you won't be able to find your way.</text>
 											<quest event="HIVE"/>
@@ -1765,7 +1765,7 @@
 								<event>
 									<text>The next location you find yourself in is a long dining hall, its tables decorated in Mantis cuisine. At last, Leikonpliiinakra speaks to your group as a whole, and strangely well spoken for a Mantis at that. "As soon as I heard my darling Kaz had returned, I knew you would come here. Sit, and feast as much as you like. We will discuss whatever business you have come here for after."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>You spend most of the feast in awkward silence, with only occasional conversation between Kazaaak and Leik. Eventually, things turn more serious. "I am not oblivious to Kaz's recent movements in Coalition space, but I have chosen to turn a blind eye to them. I can only expect that you have come here to negotiate the Hive's withdrawal from the alliance."</text>
 											<choice hidden="true">
@@ -1778,7 +1778,7 @@
 															<text>With that conclusion made, Leik turns back to Kazaaak. "My apologies dear, but in your absence the Hive has not grown fond of you. But traveling in-arms with another traitor to the Episcopacy and a Federation Captain has not helped your image. I love you, but my role as queen means I must place the safety of the Hive first. It is clear where your line in the sand has been drawn, so this must mark the end of us. And I'm afraid there is another reason I have allowed you here. The capture of the fugitive you have brought with you, Laiiikarkapi. I apologize my dear, for it was my fault appointing you to this role. But such things cannot go unpunished. This is the last stop for all of you. I can at least promise you your funerals will be held with honor." Leikonpliiinakra stands up, and her guards draw their weapons. You hurry out of the palace just in time to witness a massive cruiser approaching to stop you! Seems it's time to fight your way out of here.</text>
 															<ship load="SHIP_BISHOP_BOSS" hostile="true"/>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event load="COMBAT_CHECK"/>
 															</choice>
 														</event>
@@ -1800,11 +1800,11 @@
 		<event>
 			<text>You are not prepared for this mission. Better to turn back now than risk going any further.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1825,7 +1825,7 @@
 				<event load="HIVE_DESTROY"/>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event load="HIVE_LEAVE"/>
 			</choice>
 		</event>
@@ -1835,7 +1835,7 @@
 		<event load="HIVE_DESTROY"/>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event load="HIVE_LEAVE"/>
 	</choice>
 </event>
@@ -1844,7 +1844,7 @@
 	<text>With its Bishop forces scattered and defenses damaged from the impact of the cruiser, the destruction of the palace does not take long. It's almost certain the queen was killed during the attack. You aren't certain what will become of the Hive now or its involvement in the Coalition, but your work here is done. More or less.</text>
 </event>
 <event name="HIVE_LEAVE">
-	<text>This is not the day for genocide. Killing the Queen like this would lead to the collapse of the Hive, and for all its done the Mantis don't deserve that fate. No more ships attempt to stop you as you leave.</text>
+	<text>This is not the day for genocide. Killing the Queen like this would lead to the collapse of the Hive, and for all its done the Mantis don't deserve that fate. No more ships attempt to stop you as you 떠난다.</text>
 </event>
 
 <!--<event name="MANTIS_NAMED_THIEF" unique="true">
@@ -1893,7 +1893,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="medbay" lvl="2">
-				<text>(Adv. Medbay) Quickly teleport him back to the medbay.</text>
+				<text>(최고급. Medbay) Quickly teleport him back to the medbay.</text>
 				<event>
 					<text>Your haste has paid off and you are able to bring him back from the brink of death. When his senses return he says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</text>
 					<choice hidden="true">
@@ -1909,7 +1909,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="clonebay" lvl="2">
-				<text>(Adv. Clone Bay) Quickly configure the Clone Bay to save him.</text>
+				<text>(최고급. Clone Bay) Quickly configure the Clone Bay to save him.</text>
 				<event>
 					<text>Your haste has paid off and you register him into the Clone Bay's database. After he passes away he is quickly reconstructed on board your ship. When his senses return he says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</text>
 					<choice hidden="true">
@@ -1946,7 +1946,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="medbay" lvl="2">
-				<text>(Adv. Medbay) Dock and quickly take him back to the medbay.</text>
+				<text>(최고급. Medbay) Dock and quickly take him back to the medbay.</text>
 				<event>
 					<text>Your haste has paid off and you are able to bring him back from the brink of death. When his senses return he says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</text>
 					<choice hidden="true">
@@ -1962,7 +1962,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="clonebay" lvl="2">
-				<text>(Adv. Clone Bay) Quickly configure the Clone Bay to save him.</text>
+				<text>(최고급. Clone Bay) Quickly configure the Clone Bay to save him.</text>
 				<event>
 					<text>Your haste has paid off and you register him into the Clone Bay's database. After he passes away he is quickly reconstructed on board your ship. When his senses return he says, "I never thought I would see this day, but... I am willing to devote myself and my ships to your cause."</text>
 					<choice hidden="true">

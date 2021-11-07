@@ -71,7 +71,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -112,7 +112,7 @@
 		<event load="STORAGE_CHECK_AUG_BATTERY_BOOSTER"/>
 	</choice>
 	<choice req="REPAIR_ARM">
-		<text>(Repair Arm) Repair your hull using some of the scrap onboard.</text>
+		<text>(수리 로봇 팔) Repair your hull using some of the scrap onboard.</text>
 		<event load="STORAGE_CHECK_AUG_REPAIR_ARM"/>
 	</choice>
 	<choice req="ADV_SCANNERS">
@@ -124,7 +124,7 @@
 		<event load="STORAGE_CHECK_AUG_FLEET_DISTRACTION"/>
 	</choice>
 	<choice req="ROCK_ARMOR">
-		<text>(Rock Armor) Take apart part of the hull and use some scrap to craft another layer of plating.</text>
+		<text>(락맨 Armor) Take apart part of the hull and use some scrap to craft another layer of plating.</text>
 		<event load="STORAGE_CHECK_AUG_ROCK_ARMOR"/>
 	</choice>
 	<choice req="CRYSTAL_SHARDS">
@@ -156,7 +156,7 @@
 		<event load="STORAGE_CHECK_AUG_GHOST_DUPLICATOR"/>
 	</choice>
 	<choice req="GHOST_SELLER">
-		<text>(Proton Pack) Convert a ghost to fuel (requires ghost crew)</text>
+		<text>(Proton Pack) Convert a ghost to fuel (requires ghost 선원)</text>
 		<event load="STORAGE_CHECK_AUG_GHOST_SELLER"/>
 	</choice>
 	<choice req="GHOST_SPAWNER">
@@ -554,7 +554,7 @@
 		<text>Your Rockman punches the machine so hard it spits out a fresh new weapon!</text>
 		<weapon name="RANDOM"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Unfortunately, it appears your Rockman also caused irrepareable damage to the machine. Oops.</text>
 				<remove name="GAMBLING_MACHINE"/>
@@ -1101,7 +1101,7 @@
 			<text>You press a switch on the back of the box, and a hissing noise escapes as the walls of the box expand outwards...</text>
 			<remove name="RANDOM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORAGE_CHECK_AUG_PANDORA_OPEN"/>
 			</choice>
 		</event>
@@ -1169,7 +1169,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_1"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_2"/>
@@ -1186,7 +1186,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_2"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_3"/>
@@ -1203,7 +1203,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_3"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_4"/>
@@ -1220,7 +1220,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_4"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_5"/>
@@ -1237,7 +1237,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_5"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_6"/>
@@ -1254,7 +1254,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_6"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_7"/>
@@ -1271,7 +1271,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_7"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_8"/>
@@ -1288,7 +1288,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_8"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_9"/>
@@ -1305,7 +1305,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_9"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_10"/>
@@ -1322,7 +1322,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_10"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_11"/>
@@ -1339,7 +1339,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_11"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_12"/>
@@ -1356,7 +1356,7 @@
 			</item_modify>
 			<remove name="OBSIDIAN_ARMOR_12"/>
 			<choice hidden="true">
-				<text>Continue....</text>
+				<text>계속....</text>
 				<event>
 					<text>Success!</text>
 					<augment name="OBSIDIAN_ARMOR_13"/>
@@ -1377,7 +1377,7 @@
 					</item_modify>
 					<remove name="OBSIDIAN_ARMOR_13"/>
 					<choice hidden="true">
-						<text>Continue....</text>
+						<text>계속....</text>
 						<event>
 							<text>Success!</text>
 							<augment name="OBSIDIAN_ARMOR_ION"/>
@@ -1394,7 +1394,7 @@
 					</item_modify>
 					<remove name="OBSIDIAN_ARMOR_13"/>
 					<choice hidden="true">
-						<text>Continue....</text>
+						<text>계속....</text>
 						<event>
 							<text>Success!</text>
 							<augment name="OBSIDIAN_ARMOR_BREACH"/>
@@ -1411,7 +1411,7 @@
 					</item_modify>
 					<remove name="OBSIDIAN_ARMOR_13"/>
 					<choice hidden="true">
-						<text>Continue....</text>
+						<text>계속....</text>
 						<event>
 							<text>Success!</text>
 							<augment name="OBSIDIAN_ARMOR_SHARD"/>
@@ -1740,7 +1740,7 @@
 			<text>Weapon dismantled...</text>
 			<remove name="BOMB_FREE"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<augment name="EXPLOSIVE_REPLICATOR"/>
@@ -1754,7 +1754,7 @@
 			<text>Weapon dismantled...</text>
 			<remove name="MISSILES_FREE"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<augment name="EXPLOSIVE_REPLICATOR"/>
@@ -1768,7 +1768,7 @@
 			<text>Weapon dismantled...</text>
 			<remove name="MINELAUNCHER_FREE"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<augment name="EXPLOSIVE_REPLICATOR"/>
@@ -1885,7 +1885,7 @@
 			<text>You give the drone a few good smacks.</text>
 			<remove name="COMBAT_RANDOM_LASER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>A little buzz and the sound of metal being crushed indicates that the weapon has been changed.</text>
 					<drone name="LIST_DRONES_RANDOM"/>
@@ -1899,7 +1899,7 @@
 			<text>You give the drone a few good smacks.</text>
 			<remove name="COMBAT_RANDOM_MISSILE"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>A little buzz and the sound of metal being crushed indicates that the weapon has been changed.</text>
 					<drone name="LIST_DRONES_RANDOM"/>
@@ -1913,7 +1913,7 @@
 			<text>You give the drone a few good smacks.</text>
 			<remove name="COMBAT_RANDOM_ION"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>A little buzz and the sound of metal being crushed indicates that the weapon has been changed.</text>
 					<drone name="LIST_DRONES_RANDOM"/>
@@ -1927,7 +1927,7 @@
 			<text>You give the drone a few good smacks.</text>
 			<remove name="COMBAT_RANDOM_BEAM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>A little buzz and the sound of metal being crushed indicates that the weapon has been changed.</text>
 					<drone name="LIST_DRONES_RANDOM"/>
@@ -2086,7 +2086,7 @@
 		<event load="COMBAT_CHECK_GENERIC"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2162,7 +2162,7 @@
 		<event load="COMBAT_CHECK_GENERIC"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event>
 			<status type="clear" target="enemy" system="teleporter" amount="100"/>
 		</event>
@@ -2269,7 +2269,7 @@
 			<text>You start calibrating the drone...</text>
 			<remove name="TOGGLE_DEFAULT"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish calibrating the drone successfully, and prepare to fight.</text>
 					<drone name="TOGGLE_BOARDER"/>
@@ -2284,7 +2284,7 @@
 			<text>You start calibrating the drone...</text>
 			<remove name="TOGGLE_DEFAULT"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish calibrating the drone successfully, and prepare to fight.</text>
 					<drone name="TOGGLE_BATTLE"/>
@@ -2309,7 +2309,7 @@
 			<text>You start calibrating the drone...</text>
 			<remove name="TOGGLE_BATTLE"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish calibrating the drone successfully, and prepare to fight.</text>
 					<drone name="TOGGLE_BOARDER"/>
@@ -2334,7 +2334,7 @@
 			<text>You start calibrating the drone...</text>
 			<remove name="TOGGLE_BOARDER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish calibrating the drone successfully, and prepare to fight.</text>
 					<drone name="TOGGLE_BATTLE"/>
@@ -2361,12 +2361,12 @@
 			<text>You give the drone a few good smacks.</text>
 			<remove name="COMBAT_RANDOM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>A little buzz and the sound of metal being crushed indicates that the weapon has been changed.</text>
 					<drone name="COMBAT_RANDOM"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Now that the drone has been "callibrated", you ready for combat.</text>
 							<status type="clear" target="enemy" system="teleporter" amount="100"/>
@@ -2519,7 +2519,7 @@
 			<text>You activate the combat augment...</text>
 			<status type="loss" target="player" system="reactor" amount="2"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="loss" target="enemy" system="weapons" amount="2"/>
@@ -2563,7 +2563,7 @@
 			<text>You activate the combat augment...</text>
 			<status type="loss" target="player" system="reactor" amount="2"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="loss" target="enemy" system="shields" amount="2"/>
@@ -2607,7 +2607,7 @@
 			<text>You activate the combat augment...</text>
 			<status type="loss" target="player" system="reactor" amount="2"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="loss" target="enemy" system="engines" amount="2"/>
@@ -2651,7 +2651,7 @@
 			<text>You activate the combat augment...</text>
 			<status type="loss" target="player" system="reactor" amount="2"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="limit" target="enemy" system="hacking" amount="0"/>
@@ -2695,7 +2695,7 @@
 			<text>You activate the combat augment...</text>
 			<status type="loss" target="player" system="reactor" amount="2"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="limit" target="enemy" system="cloaking" amount="0"/>
@@ -2742,7 +2742,7 @@
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="divide" target="enemy" system="reactor" amount="3"/>
@@ -2768,7 +2768,7 @@
 						<item type="fuel" min="-2" max="-2"/>
 					</item_modify>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Success!</text>
 							<status type="divide" target="enemy" system="reactor" amount="3"/>
@@ -2809,7 +2809,7 @@
 			<text>You activate the combat augment...</text>
 			<status type="loss" target="player" system="reactor" amount="2"/>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Success!</text>
 					<status type="loss" target="enemy" system="oxygen" amount="2"/>
@@ -2864,7 +2864,7 @@
 		<text>You activate the combat augment...</text>
 		<status type="loss" target="enemy" system="oxygen" amount="2"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>It looks like the augment hasn't compromised your oxygen system. All systems are in order for combat.</text>
 				<status type="clear" target="enemy" system="teleporter" amount="100"/>
@@ -2879,7 +2879,7 @@
 		<text>You activate the combat augment...</text>
 		<status type="loss" target="enemy" system="oxygen" amount="2"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>It looks like the augment hasn't compromised your oxygen system. All systems are in order for combat.</text>
 				<status type="clear" target="enemy" system="teleporter" amount="100"/>
@@ -2894,7 +2894,7 @@
 		<text>You activate the combat augment...</text>
 		<status type="loss" target="enemy" system="oxygen" amount="2"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>It looks like the augment hasn't compromised your oxygen system. All systems are in order for combat.</text>
 				<status type="clear" target="enemy" system="teleporter" amount="100"/>
@@ -2909,7 +2909,7 @@
 		<text>You activate the combat augment...</text>
 		<status type="loss" target="enemy" system="oxygen" amount="2"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Unfortuantely, it seems that the augment has compromised your own oxygen system as well.</text>
 				<status type="clear" target="enemy" system="teleporter" amount="100"/>
@@ -2993,7 +2993,7 @@
 				<text>You cannot clone your crew, as they are still alive.</text>
 			</removeCrew>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Your ghost comes back out of the machine, fully healed.</text>
 					<crewMember amount="1" class="ghosty"/>
@@ -3116,7 +3116,7 @@
 		<event load="COMBAT_CHECK_GENERIC"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event>
 			<status type="clear" target="enemy" system="teleporter" amount="100"/>
 		</event>
@@ -3991,7 +3991,7 @@ ENGI
 	<text>Your Engi appears to be watering a small alien plant. It cautiously orders you not to approach, in fear that you might step on the plant.</text>
 	<text>Your Engi advises that you invest more into drone technology.</text>
 	<text>Your Engi doesn't understand the concept of conversation.</text>
-	<text>You take a seat and watch as your Engi makes repairs on its own body. It's rather interesting to watch, but after a while you get bored and leave.</text>
+	<text>You take a seat and watch as your Engi makes repairs on its own body. It's rather interesting to watch, but after a while you get bored and 떠난다.</text>
 	<text>Your Engi tells you that the Harmony does not encourage emotions. The Engi isn't sure how it feels about this.</text>
 	<text>You look around for your Engi but struggle to find them. You look around their quarters but find absolutely nothing. In fact, their quarters are exactly the same way they came when you first got this ship.</text>
 	<text>The Engi explains that the Harmony has mixed opinions on the Federation. It allows the involvement of the Engi in Federation buiseness only for its own potential gain.</text>
@@ -4974,7 +4974,7 @@ DEVOTEE
 			<choice hidden="true">
 				<text>Reassure them about the mission's importance.</text>
 				<event>
-					<text>"I suppose you speak the truth, though that is hard to admit." They say nothing more, and you leave.</text>
+					<text>"I suppose you speak the truth, though that is hard to admit." They say nothing more, and you 떠난다.</text>
 				</event>
 			</choice>
 			<choice hidden="true">
@@ -4998,7 +4998,7 @@ DEVOTEE
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event/>
 	</choice>
 </event>
@@ -5506,7 +5506,7 @@ ROCKMAN
 			<text>You gather all of the crew together in the lounge, and you all sit in a circle around your Rockman. Your Rockman is dressed in a light blue outfit and preaches to you all, telling Rock folklore and exciting aventures of mythical heros. Time ticks by, but its oddly captivating.</text>
 			<modifyPursuit amount="1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>At the end of the cerimony, it is already far into your regular sleep-cycle. As you move back to your quarters, your Rockman pulls you aside and thanks you. "I know this is a burden on our mission, but it means a lot to me. I hope you will accept this gift."</text>
 					<item_modify>
@@ -6229,7 +6229,7 @@ LOSTSUN COMMANDO
 	<text>As you pass by your Commando pulls you aside to tell you that the life support needs more attention. He doesn't want to end up nearly choking to death like the last ship he served on.</text>
 	<text>Your Commando refuses to talk to you about anything other than possible combat optimizations for the ship, none of which you agree with.</text>
 	<text>Your Commando lets you know Rockmen are a superior species, but some of the other aliens are pretty neat he supposes.</text>
-	<text>Your Commando is playing with a lighter in his quarters. You reprimand him, but he gives you a murderous glare and you leave.</text>
+	<text>Your Commando is playing with a lighter in his quarters. You reprimand him, but he gives you a murderous glare and you 떠난다.</text>
 	<text>Your Commando thinks the intercom needs to be louder.</text>
 	<text>Your Commando thinks you need to have a uniform for all of the crew to wear.</text>
 	<text>You complement your Commando's hat. He scowls back.</text>
@@ -6404,7 +6404,7 @@ SLUG
 						<item type="scrap" min="-10" max="-10"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="CREW_TALK_SLUG_GAMBLE_PLAY"/>
 					</choice>
 				</event>
@@ -6434,7 +6434,7 @@ SLUG
 				<item type="scrap" min="-10" max="-10"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Once again, your Slug comes out on top. Scooping up another handful of scrap, it has grown a smug expression. "Oh, you can't quit yet Captain! We're having sssso much fun. Pleassse play another round."</text>
 					<choice>
@@ -6445,7 +6445,7 @@ SLUG
 								<item type="scrap" min="-10" max="-10"/>
 							</item_modify>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Growing accustom to your Slug's play style, you learn how to predict and even trick them. At last, you draw an incredible hand, which proves to outmatch the slug! Your slug tries to hide its fury, and moodily hands over its earnings. For everyone's sanity, you call an end to the game.</text>
 									<item_modify>
@@ -6468,7 +6468,7 @@ SLUG
 	<choice>
 		<text>Quit.</text>
 		<event>
-			<text>"Oh come on Captain, we were jussst ssssstarting to have fun!" You say you have more important things to do and leave.</text>
+			<text>"Oh come on Captain, we were jussst ssssstarting to have fun!" You say you have more important things to do and 떠난다.</text>
 		</event>
 	</choice>
 </event>
@@ -6662,7 +6662,7 @@ SABOTEUR
 				<item type="scrap" min="-10" max="-10"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The slug shuffles its cards, then lays 1 face down on the table and commands you to sit. "Let'ss sssee your card..."</text>
 					<choice hidden="true">
@@ -7474,7 +7474,7 @@ CRYSTAL
 <textList name="TEXT_CREW_TALK_CRYSTAL">
 	<text>Your Crystal hopes you visit more Rock Sectors so that it may see more of its cousins.</text>
 	<text>Your Crystal is facinated by geology. It has collected several rocks and crystals from foreign planets throughout its journeys.</text>
-	<text>Your Crystal knows many of its friends decided to stay behind in the old Crystal homeworlds. It left after being unable to tollerate the persistant waves of pioneers coming to explore.</text>
+	<text>Your Crystal knows many of its friends decided to stay behind in the old Crystal homeworlds. It left after being unable to tollerate the persistant waves of pioneers coming to 탐사한다.</text>
 	<text>Your Crystal thinks the war between the Federation and Rebellion is pointless, and doesn't understand why humans don't just isolate themselves before they start more wars.</text>
 	<text>Your Crystal encourages you to install more layers of protection on the hull.</text>
 	<text>Your Crystal advises you to avoid using missiles due to their cost inneficiency.</text>
@@ -8158,7 +8158,7 @@ SCRAP JOBS
 		<event load="STORAGE_CHECK_DRONE_LASTSTAND"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -8207,7 +8207,7 @@ SCRAP JOBS
 		<event load="STORAGE_CHECK_AUG_BATTERY_BOOSTER"/>
 	</choice>
 	<choice req="REPAIR_ARM">
-		<text>(Repair Arm) Repair your hull using some of the scrap onboard.</text>
+		<text>(수리 로봇 팔) Repair your hull using some of the scrap onboard.</text>
 		<event load="STORAGE_CHECK_AUG_REPAIR_ARM"/>
 	</choice>
 	<choice req="ADV_SCANNERS" hidden="true">
@@ -8235,7 +8235,7 @@ SCRAP JOBS
 		</event>
 	</choice>
 	<choice req="ROCK_ARMOR">
-		<text>(Rock Armor) Take apart part of the hull and use some scrap to craft another layer of plating.</text>
+		<text>(락맨 Armor) Take apart part of the hull and use some scrap to craft another layer of plating.</text>
 		<event load="STORAGE_CHECK_AUG_ROCK_ARMOR"/>
 	</choice>
 	<choice req="CRYSTAL_SHARDS">
@@ -8267,7 +8267,7 @@ SCRAP JOBS
 		<event load="STORAGE_CHECK_AUG_GHOST_DUPLICATOR_LASTSTAND"/>
 	</choice>
 	<choice req="GHOST_SELLER">
-		<text>(Proton Pack) Convert a ghost to fuel (requires ghost crew)</text>
+		<text>(Proton Pack) Convert a ghost to fuel (requires ghost 선원)</text>
 		<event load="STORAGE_CHECK_AUG_GHOST_SELLER"/>
 	</choice>
 	<choice req="GHOST_SPAWNER">
@@ -10974,12 +10974,12 @@ COMBAT DRONES
 	<text>You ready the exoskeleton...</text>
 	<remove name="STORAGE_DRONE_FRAME_COMBAT"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You attach the mount...</text>
 			<remove name="STORAGE_DRONE_MOUNT_LASER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish creating the combat drone.</text>
 					<drone name="COMBAT_1"/>
@@ -10992,12 +10992,12 @@ COMBAT DRONES
 	<text>You ready the exoskeleton...</text>
 	<remove name="STORAGE_DRONE_FRAME_COMBAT"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You attach the mount...</text>
 			<remove name="STORAGE_DRONE_MOUNT_BEAM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish creating the combat drone.</text>
 					<drone name="COMBAT_BEAM"/>
@@ -11010,12 +11010,12 @@ COMBAT DRONES
 	<text>You ready the exoskeleton...</text>
 	<remove name="STORAGE_DRONE_FRAME_COMBAT"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You attach the mount...</text>
 			<remove name="STORAGE_DRONE_MOUNT_ION"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish creating the combat drone.</text>
 					<drone name="COMBAT_ION"/>
@@ -11028,12 +11028,12 @@ COMBAT DRONES
 	<text>You ready the exoskeleton...</text>
 	<remove name="STORAGE_DRONE_FRAME_COMBAT"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You attach the mount...</text>
 			<remove name="STORAGE_DRONE_MOUNT_MISSILE"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You finish creating the combat drone.</text>
 					<drone name="COMBAT_MISSILE"/>

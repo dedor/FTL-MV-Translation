@@ -69,7 +69,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -83,7 +83,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 </event>
@@ -167,7 +167,7 @@
 	<text>Killing Militia ships is no worse than killing Civilians, but at the very least they voluntarily signed up to risk their lives.</text>
 	<text>You've destroyed another ship, but this time it was staffed by Militia officers. You're a monster, but at least you got some scrap out of it.</text>
 	<text>You try not to think of how counterintuitive it is to be killing the Militia when the goal of your mission is to save the Civilians of the galaxy.</text>
-	<text>If the road to heaven was paved with bad intentions, you'd be on that path. You try not to think about your horrible deeds and scrap the ship.</text>
+	<text>If the road to heaven was paved with bad intentions, you'd be on that path. You try not to think about your horrible deeds and 함선을 수거한다.</text>
 	<text>Every Militia ship you kill counteracts every Civilian you save. At the very least, your crew aren't going to turn on you.</text>
 	<text>You can't help but feel sorry for these brave Militiamen who died trying to do their job as you move in to scrap their ship.</text>
 	<text>You decide to leave this Militia ship's fate out of your captain's log as you move in to scrap it.</text>
@@ -182,7 +182,7 @@
 	<text>Killing the crew of Militia ships is no worse than killing Civilians, but at the very least they voluntarily signed up to risk their lives.</text>
 	<text>You've killed another ship's crew, but this time it was staffed by Militia officers. You're a monster, but at least you got some scrap out of it.</text>
 	<text>You try not to think of how counterintuitive it is to be killing the Militia when the goal of your mission is to save the Civilians of the galaxy.</text>
-	<text>If the road to heaven was paved with bad intentions, you'd be on that path. You try not to think about your horrible deeds and scrap the ship.</text>
+	<text>If the road to heaven was paved with bad intentions, you'd be on that path. You try not to think about your horrible deeds and 함선을 수거한다.</text>
 	<text>Every Militia ship crew you kill counteracts every Civilian you save. At the very least, your crew aren't going to turn on you.</text>
 </textList>
 
@@ -331,7 +331,7 @@
 	<autoReward level="MED">standard</autoReward>
 </event>
 <textList name="TEXT_DESTROYED_REBEL">
-	<text>The fiery red of the explosions complements the orange hull of the Rebel ship. Satisfied with your handiwork, you scrap the ship.</text>
+	<text>The fiery red of the explosions complements the orange hull of the Rebel ship. Satisfied with your handiwork, you 함선을 수거한다.</text>
 	<text>The Rebel ship is engulfed in fire, which is extinguished almost immediately as the hull cracks apart and exposes the internals to the vacuum of space. Once the corpses have been cleared of the vessel, you scrap the remains.</text>
 	<text>The Rebel ship explodes, its many vital systems reduced to mere scrap material. Scrap material for you to take, that is.</text>
 	<text>Every ship full of Rebel scum that you destroy means a slightly safer galaxy. It's not much, but it's honest work.</text>
@@ -349,7 +349,7 @@
 		<event load="DESTROYED_REBEL_POD_ACCEPT"/>
 	</choice>
 	<choice hidden="true" req="mind">
-		<text>(Mind Control) Keep the mind control online in-case he does anything bad.</text>
+		<text>(정신 지배l) Keep the mind control online in-case he does anything bad.</text>
 		<event load="DESTROYED_REBEL_POD_MIND"/>
 	</choice>
 	<choice hidden="true" req="BIRDMAN_PACIFIST">
@@ -532,7 +532,7 @@
 	<autoReward level="RANDOM">standard</autoReward>
 </event>
 <textList name="TEXT_DESTROYED_AUTO">
-	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to scrap the ship.</text>
+	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to 함선을 수거한다.</text>
 	<text>Destroying Auto-ships will be one of the few things you miss when the Rebellion is gone. If they are ever gone, that is.</text>
 	<text>The Auto-ship explodes into multiple pieces, its complicated AI brain shattered into mere scrap matter.</text>
 	<text>It's hard to make out the shape of what was once the Auto-ship from the remains of your destruction. You like it better this way.</text>
@@ -554,7 +554,7 @@
 	</choice>
 </event>
 <textList name="TEXT_DESTROYED_AUTO_FUEL"> <!-- The auto-ship appears to have an excess of fuel left behind in the wreckage.-->
-	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to scrap the ship. The Auto-ship appears to have an excess of fuel left behind in the wreckage.</text>
+	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to 함선을 수거한다. The Auto-ship appears to have an excess of fuel left behind in the wreckage.</text>
 	<text>Destroying Auto-ships will be one of the few things you miss when the Rebellion is gone. If they are ever gone, that is. The Auto-ship appears to have an excess of fuel left behind in the wreckage.</text>
 	<text>The Auto-ship explodes into multiple pieces, its complicated AI brain shattered into mere scrap matter. The Auto-ship appears to have an excess of fuel left behind in the wreckage.</text>
 	<text>It's hard to make out the shape of what was once the Auto-ship from the remains of your destruction. You like it better this way. The Auto-ship appears to have an excess of fuel left behind in the wreckage.</text>
@@ -576,7 +576,7 @@
 	</choice>
 </event>
 <textList name="TEXT_DESTROYED_AUTO_MISSILES"> <!-- The auto-ship appears to have an excess of ammunition left behind in the wreckage.-->
-	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to scrap the ship. The Auto-ship appears to have an excess of ammunition left behind in the wreckage.</text>
+	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to 함선을 수거한다. The Auto-ship appears to have an excess of ammunition left behind in the wreckage.</text>
 	<text>Destroying Auto-ships will be one of the few things you miss when the Rebellion is gone. If they are ever gone, that is. The Auto-ship appears to have an excess of ammunition left behind in the wreckage.</text>
 	<text>The Auto-ship explodes into multiple pieces, its complicated AI brain shattered into mere scrap matter. The Auto-ship appears to have an excess of ammunition left behind in the wreckage.</text>
 	<text>It's hard to make out the shape of what was once the Auto-ship from the remains of your destruction. You like it better this way. The Auto-ship appears to have an excess of ammunition left behind in the wreckage.</text>
@@ -598,7 +598,7 @@
 	</choice>
 </event>
 <textList name="TEXT_DESTROYED_AUTO_DRONES"> <!-- The auto-ship appears to have an excess of drone parts left behind in the wreckage.-->
-	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to scrap the ship. The Auto-ship appears to have an excess of drone parts left behind in the wreckage.</text>
+	<text>The best part about killing Auto-ships is there's no guilt involved. You lean back in your chair and give the orders to 함선을 수거한다. The Auto-ship appears to have an excess of drone parts left behind in the wreckage.</text>
 	<text>Destroying Auto-ships will be one of the few things you miss when the Rebellion is gone. If they are ever gone, that is. The Auto-ship appears to have an excess of drone parts left behind in the wreckage.</text>
 	<text>The Auto-ship explodes into multiple pieces, its complicated AI brain shattered into mere scrap matter. The Auto-ship appears to have an excess of drone parts left behind in the wreckage.</text>
 	<text>It's hard to make out the shape of what was once the Auto-ship from the remains of your destruction. You like it better this way. The Auto-ship appears to have an excess of drone parts left behind in the wreckage.</text>
@@ -777,7 +777,7 @@
 		</event>
 	</choice>
 	<choice req="engi">
-		<text>(Engi Crew) Negotiate a different deal.</text>
+		<text>(Engi 선원) Negotiate a different deal.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="RANDOM">stuff</autoReward>
@@ -1057,7 +1057,7 @@
 	<autoReward level="MED">standard</autoReward>
 </event>
 <textList name="TEXT_DEAD_CREW_ORCHID">
-	<text>The scent from the Orchids makes your crew dizzy. You try not to breathe as you scrap the ship.</text>
+	<text>The scent from the Orchids makes your crew dizzy. You try not to breathe as you 함선을 수거한다.</text>
 	<text>For a species of fragile plants, the Orchids are remarkably adequate at fighting. Still, they stood no chance against your crew.</text>
 	<text>Partway through the salvage mission you have to send half of your crew back to the ship after they fall into a strange blissful state. Luckily, you're still able to finish salvaging in a reasonable amount of time.</text>
 </textList>
@@ -1140,7 +1140,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 </event>
 <textList name="TEXT_DEAD_CREW_CRYSTAL">
-	<text>With all their fancy abilities, the Crystals are still just as easy a kill for your crew as any other. You scrap the ship.</text>
+	<text>With all their fancy abilities, the Crystals are still just as easy a kill for your crew as any other. You 함선을 수거한다.</text>
 	<text>You wonder why the Rockmen worshipped the Crystals as gods when you can kill them with such ease.</text>
 	<text>The Crystal ship has been neutralized successfully. You scrap the remains.</text>
 </textList>
@@ -1168,7 +1168,7 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_CRYSTAL">
-		<text>(Crystalline Crew) Negotiate a better surrender.</text>
+		<text>(Crystalline 선원) Negotiate a better surrender.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="HIGH">standard</autoReward>
@@ -1188,7 +1188,7 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_CRYSTAL">
-		<text>(Crystalline Crew) Have your Crystal demand payment from them.</text>
+		<text>(Crystalline 선원) Have your Crystal demand payment from them.</text>
 		<event>
 			<ship hostile="false"/>
 			<autoReward level="MED">standard</autoReward>
@@ -1769,7 +1769,7 @@
 </event>
 <textList name="TEXT_DEAD_CREW_MANTIS">
 	<text>The Mantis threat aboard the ship has been exterminated. Pleased with your work, you treat yourself to the remains of their ship.</text>
-	<text>The corpses of the Mantis crew litter the halls, and the stench of pheromones hangs in the air. You try not to breathe as you scrap the ship.</text>
+	<text>The corpses of the Mantis crew litter the halls, and the stench of pheromones hangs in the air. You try not to breathe as you 함선을 수거한다.</text>
 	<text>Despite the Mantis being fearsome warriors, they were no match for your ship.</text>
 </textList>
 <event name="DEAD_CREW_MANTIS_SLAVE">
@@ -1827,7 +1827,7 @@
 <textList name="TEXT_DEAD_CREW_FREEMANTIS">
 	<text>As you step around the inside of the Free Mantis ship you can still see the looks of terror on their dead, insectoid faces. It's an image that will likely haunt you for a long time.</text>
 	<text>The corpses of the former Free Mantis crew will continue to rot in the husk of their ship, the only evidence to the injustice you have committed here.</text>
-	<text>The green blood of the Free Mantis stains the floor of their ship. You try to ignore the mess you have created as you scrap the ship.</text>
+	<text>The green blood of the Free Mantis stains the floor of their ship. You try to ignore the mess you have created as you 함선을 수거한다.</text>
 </textList>
 
 <event name="SURRENDER_FREEMANTIS">
@@ -2049,7 +2049,7 @@
 <textList name="TEXT_DESTROYED_SLUG">
 	<text>For all the Slugs' efforts, they were not able to defeat you. The victor of this battle, you indulge yourself by scrapping their ship.</text>
 	<text>The Slug ship is no more. You scrap the wreckage.</text>
-	<text>At last, the traitorous nebula-dwellers have been silenced. You scrap the ship.</text>
+	<text>At last, the traitorous nebula-dwellers have been silenced. You 함선을 수거한다.</text>
 </textList>
 
 <event name="DEAD_CREW_SLUG">
@@ -2114,7 +2114,7 @@
 			<ship hostile="false"/>
 			<autoReward level="HIGH">missiles</autoReward>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Suddenly, just as you are about to leave, the Slug ship reactivates its weapons and fires a shot off! It doesn't get past your defenses, but the cargo crate they gave you explodes in an ion blast which partially disables your shields.</text>
 					<ship hostile="true"/>
@@ -2142,7 +2142,7 @@
 </event>
 <textList name="TEXT_DESTROYED_CLAN">
 	<text>The proud Clansmen and their ship have been destroyed. Though their many trophies have been purged along with them, at least you can salvage the scrap from their ship.</text>
-	<text>The Guild probably won't appreciate you killing off their members, but what are they going to do about it? You scrap the ship.</text>
+	<text>The Guild probably won't appreciate you killing off their members, but what are they going to do about it? You 함선을 수거한다.</text>
 	<text>You've no doubt avenged the souls of many innocent lives who were hunted down by these Clansmen. Plus, you get some scrap out of it.</text>
 	<text>While the ship explodes, you try to think of a clever bit of wordplay to describe the situation. You decide to go with "The hunters become the hunted" before you snap out of it and give orders to scrap the wreckage.</text>
 </textList>
@@ -2164,7 +2164,7 @@
 <textList name="TEXT_DEAD_CREW_CLAN">
 	<text>The captain of the Slug vessel coughs as he bleeds out on the floor. He looks you in the eyes one last time, mouths the words "Damn you," and dies.</text>
 	<text>You've taken out the crew of the Slug vessel. These Clansmen might make good fighters, but they didn't stand a chance against you.</text>
-	<text>The Guild probably won't appreciate you killing off their members, but what are they going to do about it? You scrap the ship.</text>
+	<text>The Guild probably won't appreciate you killing off their members, but what are they going to do about it? You 함선을 수거한다.</text>
 	<text>You try to think of a clever bit of word play to describe the situation. You decide to go with "The hunters become the hunted" before you snap out of it and give orders to scrap the wreckage.</text>
 </textList>
 
@@ -2172,7 +2172,7 @@
 	<text load="TEXT_DEAD_CREW_CLAN"/>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As you inspect the interior of the vessel, you find a small trophy room containing the corpses of several alien creatures. Further inspection leads you to a prison hold, where one living prisoner remains.</text>
 			<crewMember amount="1"/>
@@ -2218,7 +2218,7 @@
 			<ship hostile="false"/>
 			<autoReward level="HIGH">missiles</autoReward>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Suddenly, just as you are about to leave, the Slug ship reactivates its weapons and fires a shot off! It doesn't get past your defenses, but the cargo crate they gave you explodes in an ion blast which partially disables your shields.</text>
 					<ship hostile="true"/>
@@ -2331,7 +2331,7 @@
     <text>The scene left from the massacre here is far from a pretty one. The diced up bits of Leech flesh let off a repugnant odor so foul you almost consider leaving the wreck behind entirely. Almost.</text>
 	<text>You've heard the disturbing stories of the haunting post-mortem smiles of Leech crew. Now, you're experiencing them yourself. This'll probably take some amount of therapy to get over.</text>
 	<text>Expecting the ship to be empty, you step aboard, only to see that one of the Leech crew is still alive! However, instead of fighting back, the Leech only curls up into a ball and bites hard into his own body, killing himself instantly. How morbid.</text>
-	<text>Walking among the corpses of these parasites is nothing short of eerie. Their wide gaping mouths seem as if they could reach out at any moment and strike you. You keep your hand near your blaster at all times as you scrap the ship.</text>
+	<text>Walking among the corpses of these parasites is nothing short of eerie. Their wide gaping mouths seem as if they could reach out at any moment and strike you. You keep your hand near your blaster at all times as you 함선을 수거한다.</text>
 	<text>Apparently, shortly after death, the corpse of a Leech will drain itself slowly of all the built up electricity it has stored over its life. With this many bodies, it could be catastrophic in close quarters. You make sure to hurry and scrap the ship before you can get caught in a mine field of electrified bodies.</text>
 </textList>
 
@@ -2445,7 +2445,7 @@
 </event>
 <textList name="TEXT_DEAD_CREW_SHELL">
 	<text>Fighting Shells is dangerous considering how well protected they are, but you've cleared the ship of crew. Their scrap is yours.</text>
-	<text>The Shell ship has been neutralized. You scrap the ship.</text>
+	<text>The Shell ship has been neutralized. You 함선을 수거한다.</text>
 </textList>
 
 <event name="SURRENDER_SHELL">
@@ -2524,7 +2524,7 @@
 		<event load="DESTROYED_MORPH_EXTRA_SALVAGE"/>
 	</choice>
 	<choice hidden="true">	
-		<text>Ignore it.</text>
+		<text>무시한다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2711,7 +2711,7 @@
 	<text load="TEXT_DESTROYED_LANIUS"/>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the destruction of the Lanius ship was not enough to kill off all of its crew. A single Lanius managed to escape the inferno and has now attached itself to the ship!</text>
 			<boarders min="1" max="1" class="anaerobic"/>
@@ -2769,7 +2769,7 @@
     <text>The crew of the mysterious vessel is dead. You scrap its smooth white hull while the rainbow lights continue to flicker in and out of life.</text>
     <autoReward level="MED">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>To your surprise, you find another person stuffed into the storage of the alien ship. They appear to be under some strange trance that has now begun to slowly wear off. Once they're safe, they agree to join your crew.</text>
             <crewMember amount="1"/>
@@ -2809,7 +2809,7 @@
 	<text load="TEXT_DESTROYED_AUGMENTED"/>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the destruction of the Lanius ship was not enough to kill off all of its crew. A single Lanius managed to escape the inferno and has now attached itself to the ship!</text>
 			<boarders min="1" max="1" class="augmented"/>
@@ -2852,7 +2852,7 @@
 <textList name="TEXT_DEAD_CREW_ANCIENT">
 	<text>As the last Obelisk collapses, it lets out two last words. "Screw... you..."</text>
 	<text>You've made quick work of these cubical aliens. You don't feel the pang of guilt that usually accompanies these murders. For the most part.</text>
-	<text>The interior of the Obelisk ship is littered with the dust of the fallen crew. You call it a job well done and give the orders to scrap the ship.</text>
+	<text>The interior of the Obelisk ship is littered with the dust of the fallen crew. You call it a job well done and give the orders to 함선을 수거한다.</text>
 	<text>The death of the Obelisk ship and its crew means good news for the rest of the galaxy. You just hope they don't have any families to grieve them.</text>
 </textList>
 
@@ -2879,7 +2879,7 @@
 	<text>You've defeated the Rebel Elite, which is no easy task. It's not enough to impact the fleet, but it's still a great victory.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Rebel ship survived the fight. Inside is a weapon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_REBEL"/>
@@ -2898,7 +2898,7 @@
 	<text>Eliminating allied Federation personnel, especially Elite ones, is highly contrary to your mission, but that doesn't mean you're beyond salvaging the remains.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Federation ship survived the fight. Inside is a weapon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_FEDERATION"/>
@@ -2917,7 +2917,7 @@
 	<text>With the death of the Engi Defenders there are now fewer ships to protect the Harmony from true threats, but you can't run away from every fight. You salvage the remains of the ship.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Engi ship survived the fight. Inside is a drone, which you bring back on board.</text>
 			<drone name="GIFTLIST_ENGI"/>
@@ -2936,7 +2936,7 @@
 	<text>So much for peacekeeping. The Ministry struggles to keep its peacekeeper task force up to par with all of the disorder in the Multiverse, and this certainly won't help that.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Zoltan ship survived the fight. Inside is a drone, which you bring back on board.</text>
 			<weapon name="GIFTLIST_ZOLTAN"/>
@@ -2955,7 +2955,7 @@
 	<text>The CDEG is one of the few forces capable of defending civilian sectors, and they aren't exactly common. The loss of this ship will certainly have negative results on the Militia.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Militia ship survived the fight. Inside is a drone, which you bring back on board.</text>
 			<weapon name="GIFTLIST_CIVILIAN"/>
@@ -2973,7 +2973,7 @@
     <text>You've managed to take down a powerful Orchid Chieftain and their ship, and now the remains are yours to scrap.</text>
     <autoReward level="HIGH">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>It seems the cargo of the Elite Orchid ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
             <weapon name="GIFTLIST_KERNEL_ELITE"/>
@@ -2992,7 +2992,7 @@
     <text>The bright red shards of the Sentinel vessel fly off into the abyss as the mighty elite vessel comes to a halt.</text>
     <autoReward level="HIGH">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>It seems the cargo of the Elite Crystal ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
             <weapon name="GIFTLIST_CRYSTAL_ELITE"/>
@@ -3011,7 +3011,7 @@
     <text>The Inquisition was once one of the most feared forces in the entire galaxy, but they've fallen from glory. This victory only adds insult to injury.</text>
     <autoReward level="HIGH">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>It seems the cargo of the Elite Rock ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
             <weapon name="GIFTLIST_ROCK"/>
@@ -3035,7 +3035,7 @@
 	<text>The Warlord ship has been neutralized. You scrap what is left over from the ship.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It appears one of the Warlords managed to survive the conflict, though injured. It seems they're healthy enough to shamble out of their hiding spot to meet you. "Oh noble Federation, you are glorious fighter! Bring me mercy, and allow me to serve you!"</text>
 			<crewMember amount="1" class="warlord"/>
@@ -3054,7 +3054,7 @@
     <text>You've managed to take down a powerful Suzerain and their ship, and now the remains are yours to scrap.</text>
     <autoReward level="HIGH">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>It seems the cargo of the Suzerain ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
             <weapon name="GIFTLIST_MANTIS"/>
@@ -3073,7 +3073,7 @@
 	<text>Today you've shown the Duskbringers you don't mess around. No vessel, not even the most extreme, can defeat you.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Duskbringer ship survived the fight. Inside is an Energy Cannon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_DUSK"/>
@@ -3092,7 +3092,7 @@
 	<text>If the original Clairvoyants of centuries ago could see their descendents now, falling to a ship like yours, they'd weep. Which, frankly, you don't mind.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Slug ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_SLUG"/>
@@ -3111,7 +3111,7 @@
 	<text>A Radiant vessel has fallen to your ship. It might make Shell space less safe in the long run, but for now it means you'll live to see another day.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Elite Shell ship survived the fight. Inside is an Anti-Hull weapon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_SHELL"/>
@@ -3130,7 +3130,7 @@
 	<text>The Amperes are trained explicitely by the Coalition itself, and are far deadlier than normal Leeches. By killing this ship, you've probably crippled a good percentage of the Kraterocracy's only able soldiers.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Leech ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_LEECH"/>
@@ -3149,7 +3149,7 @@
     <text>As you watch the Coalition vessel break apart, you reflect on what a stupid acronym "R.U.E.S." is. Like seriously, who even came up with that?</text>
     <autoReward level="HIGH">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>It seems the cargo of the Elite Coalition ship survived the fight. Inside is a functional weapon, which you bring back on board.</text>
             <weapon name="GIFTLIST_COALITION"/>
@@ -3168,7 +3168,7 @@
 	<text>The defeat of the Lanius Elites is nothing to scoff at, and neither is the amount of salvage left behind.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Lanius ship survived the fight. Inside is a Flak cannon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_LANIUS"/>
@@ -3187,7 +3187,7 @@
 	<text>Reaper ships are no idle threat, but the Dynasty should know better than to throw punches at you.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It seems the cargo of the Dynasty ship survived the fight. Inside is a weapon, which you bring back on board.</text>
 			<weapon name="GIFTLIST_DYNASTY"/>

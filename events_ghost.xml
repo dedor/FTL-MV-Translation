@@ -40,7 +40,7 @@
 			<text>If the Dynasty is watching this sector, chances are they've already collected a ton of data... and data in any form is valuable to you!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -54,7 +54,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -70,7 +70,7 @@
 			<text>If the Dynasty is watching this sector, chances are they've already collected a ton of data... and data in any form is valuable to you!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -84,7 +84,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -95,7 +95,7 @@
 	<text>The outpost has fallen. This definitely won't please the Dynasty, but what are they going to do about it?</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Looks like one of the station's terminals survived, a black box of sorts. In it contains heavily detailed map data for this sector, and predictions of the Rebel fleet progress. This will help greatly!</text>
 			<reveal_map/>
@@ -123,13 +123,13 @@
 	<text>This beacon provides quite the break from the bland purple clouds elsewhere in this sector. In the distance is also what looks to be the Dynasty Capitol, and the Prime Reaper's palace. You're surprised the Ghosts have so little protection for this important structure...</text>
 	<img back="BACK_EVENT_DYNASTYCAP" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As you approach, it suddenly becomes apparent something is deathly awry. Blaring sirens fill the air as distant blots of color scurry about on the surface. Distant laser fire can be heard as the shadow of a massive black object moves closer to the distant palace, trailed by the ruins of what was once the Dynasty's finest fleet.</text>
 			<choice hidden="true">
 				<text>Approach the ship.</text>
 				<event>
-					<text>Looks like it's an Auto-ship... and far larger than usual. As soon as you enter its scanning range, it speaks. "It is advisable you leave. I do not aim to kill you. Not today. My batteries are better spent testing out my chassis on some easy targets. Leave, and I will kill you another day instead. That is my promise." Oddly well spoken for a robot...</text>
+					<text>Looks like it's an Auto-ship... and far larger than usual. As soon as you enter its scanning range, it speaks. "It is advisable you 떠난다. I do not aim to kill you. Not today. My batteries are better spent testing out my chassis on some easy targets. Leave, and I will kill you another day instead. That is my promise." Oddly well spoken for a robot...</text>
 					<ship load="SHIP_AUTO_DREADNAUGHT" hostile="false"/>
 					<choice hidden="true">
 						<text>Let's teach this hunk of metal some manners.</text>
@@ -137,13 +137,13 @@
 							<text>"Unadvisable decision. Your failure will be my pleasure. You are aware the odds are massively against you? Regardless... you will die here."</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Bide this peculiar warning and leave.</text>
+						<text>Bide this peculiar warning and 떠난다.</text>
 						<event>
 							<text>"A wise decision. If only my superiors could listen to me in such a manner."</text>
 						</event>
@@ -151,7 +151,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>This is as good a time as any to leave.</text>
+				<text>This is as good a time as any to 떠난다.</text>
 				<event>
 					<text>This isn't a good place for a Federation ship to be. You owe nothing to the Dynasty - you aren't going to waste valuable time saving them from whatever latest monstrosity the Rebellion has cooked up.</text>
 					<choice hidden="true">
@@ -159,7 +159,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -171,7 +171,7 @@
 	<text>You land on the planet's surface, briefly considering salvaging some of the Dynasty wrecks before a massive Dynasty cruiser flies by and lands next to yours. Out of it steps several Alphas and a pink Ghost wearing armor and wielding a massive sword. If you had to take a guess, this would be the Prime Reaper, the ancestral leader of the Dynasty.</text>
 	<hiddenAug>ACH_BOSS_AUTODREAD</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Reaper begins to speak, but you can't understand a word he says. You realize you left your translator back on the ship, but before you can run and get it the Reaper waves you back and presses a button on his armor. "The demon's heart is perished! Who art thou, and for what reasonings have you come to bless us with this?"</text>
 			<choice hidden="true">
@@ -189,7 +189,7 @@
 									<hiddenAug>ACH_CREW_DESSIUS</hiddenAug>
 									<crewMember amount="1" all_skills="1" class="reaper">Dessius</crewMember>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="DYNASTY_DREADNAUGHT_REWARD"/>
 									</choice>
 								</event>
@@ -218,7 +218,7 @@
 	<text>You've heard that the Dynasty's territory is littered with ruins from days past. But the wrecks in the distance... well, those don't look like Dynasty ships to you.</text>
 	<img back="BACK_EVENT_DYNASTYRUIN" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>A massive Dynasty ship lurches towards you. "Wastes of days past are not those which require the temperment of modern day's impacts. What shift in the cosmic balance has lead to your sudden appearance to this location? Do thou seek to stir a ruckus? Or just make the days of mine less enjoyable for the forseable future? Should I even continue to persist in this reality after?"</text>
 			<ship load="SHIP_DYNASTY_SCAVENGER_BOSS" hostile="false"/>
@@ -232,24 +232,24 @@
 							<text>"Ooh, you are a foul creature! How the anger and thoughts of violence twist your face into an unpleasant swirl of unconditional hatred. Erasing you shall do all but yourself a favor."</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_ANCIENT_ALL">
-						<text>(Obelisk Crew) "These ruins belong to us!"</text>
+						<text>(Obelisk 선원) "These ruins belong to us!"</text>
 						<event>
 							<text>The Phantom lets out the loudest scream you've ever heard. "EEEK! DO MY EYES DECEIVE ME? THE OBELISK HAVE RETURNED?! Oh by the Reaper's name shall I fight to make certain your disease of a species may never return in forces of such volume ever again!"</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Alright, we'll leave.</text>
+						<text>Alright, we'll 떠난다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -261,23 +261,23 @@
 	<text>"Ruination! It comes! Oh how the foul blackness consumes my sight. I weaken, and I fade. Exit, stage right..." The Dynasty vessel has fallen, and you scrap the wreck.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true" req="reaper" max_group="0" lvl="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>With the Dynasty out of the way, you pull apart the ancient wreckage, and find a unique weapon unlike any you've seen!</text>
 			<weapon name="ANCIENT_HAVOC"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DYNASTY_SPECIALRUIN_LOG"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="reaper" max_group="0" lvl="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You catch Dessius giving you a disapproving look, but you figure he'll get over it eventually. If he really cared, he would have stepped in beforehand. You pull apart the ancient wreckage, and find a unique weapon unlike any you've seen!</text>
 			<weapon name="ANCIENT_HAVOC"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DYNASTY_SPECIALRUIN_LOG"/>
 			</choice>
 		</event>
@@ -312,7 +312,7 @@
 				<event>
 					<text>"Then let the bidding begin!"</text>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Slug begins to call off numbers, and eventually the Dynasty raises the price.
 							Current Price: 15 scrap.</text>
@@ -340,13 +340,13 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Decline and leave.</text>
+				<text>Decline and 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The sounds of numbers being rapidly listed off quickly fades as you distance yourself from the auction.</text>
 			<choice hidden="true">
@@ -354,7 +354,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -486,7 +486,7 @@
 				<text>The Slugs are furious, and immediately engage! Looks like you aren't getting that augment...</text>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -619,7 +619,7 @@
 				<text>The Slugs are furious, and immediately engage! Looks like you aren't getting that augment...</text>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -716,7 +716,7 @@
 				<text>The Slugs are furious, and immediately engage! Looks like you aren't getting that augment...</text>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -789,7 +789,7 @@
 				<text>The Slugs are furious, and immediately engage! Looks like you aren't getting that augment...</text>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -838,7 +838,7 @@
 				<text>The Slugs are furious, and immediately engage! Looks like you aren't getting that augment...</text>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -862,7 +862,7 @@
 			<text>The Slugs are furious, and immediately engage! Looks like you aren't getting that augment...</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -878,7 +878,7 @@
 		<event load="DYNCAP_GRANDFATHER_BELIEVE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Check the thoughts of the Ghost.</text>
+		<text>(Slug 선원) Check the thoughts of the Ghost.</text>
 		<event>
 			<text>"It issss obvioussss he isss not really the grandfather of thisss sssupposssed Dessssiusss. Neverthelessss, he ssseemss to TRULY believe it himssself. Hilariousssly sssad."</text>
 			<choice hidden="true">
@@ -891,7 +891,7 @@
 					<text>"You question me? I am in outrage!" The Ghost suddenly attacks!</text>
 					<ship load="SHIP_GHOST_ELITE" hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -904,7 +904,7 @@
 			<text>"You question me? I am in outrage!" The Ghost suddenly attacks!</text>
 			<ship load="SHIP_GHOST_ELITE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -915,7 +915,7 @@
 			<text>"Hahahah! Then I bet you are not even that of the real Dessius! Do not lie to me!" The ship suddenly attacks!</text>
 			<ship load="SHIP_GHOST_ELITE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -929,7 +929,7 @@
 			<text>"You're working with the old prune? That ass-wad has never ceased to annoy me. Didn't know the Federation employs ass-wad sympathizers, breather!"</text>
 			<ship load="SHIP_DYNASTY_HECKLER" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1001,7 +1001,7 @@
 	<environment type="nebula"/>
 	<ship load="SHIP_DYNASTY_ELITE_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1052,7 +1052,7 @@
 		<event load="DYNASTY_CACHE_OPEN"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ROCK">
-		<text>(Rock Crew) Smash open the cache.</text>
+		<text>(락맨 선원) Smash open the cache.</text>
 		<event>
 			<text>Your crew successfully smashes open the cache. Inside looks to be some ancient, decayed weapon. It's nothing fancy either, just an older model of any modern weapon. Still, it's a weapon, and its accompanied by some scrap too!</text>
 			<autoReward level="MED">scrap_only</autoReward>
@@ -1060,7 +1060,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="weapons" lvl="5">
-		<text>(Upg. Weapons) Blast open the cache.</text>
+		<text>(고급 무기실) Blast open the cache.</text>
 		<event>
 			<text>You blast open the cache with your weapons. Inside looks to be some ancient, decayed weapon. It's nothing fancy either, just an older model of any modern weapon. Still, it's a weapon, and its accompanied by some scrap too!</text>
 			<autoReward level="MED">scrap_only</autoReward>
@@ -1076,7 +1076,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1090,7 +1090,7 @@
 		<text>No matter how much you try, you simply can't open the cache. Even worse, you've been spotted by a Dynasty ship, which moves in to attack!</text>
 		<ship load="SHIP_DYNASTY_GENERIC" hostile="false"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1114,7 +1114,7 @@
 					<text>You raise your weapons and attack one of the Slug vessels in the colony.</text>
 					<ship load="SHIP_DYNASTY_SLUGOCC" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1130,7 +1130,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1145,7 +1145,7 @@
 			<text>You prepare to fight the Dynasty ship.</text>
 			<ship load="SHIP_GHOST_DYNASTY_DUEL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1156,7 +1156,7 @@
 			<text>You prepare to fight the Rebel ship.</text>
 			<ship load="SHIP_GHOST_REBEL_DUEL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1170,7 +1170,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1264,7 +1264,7 @@
 					<text>"Oh, oh! Oh how they warned me of this day! You musn't linger, Orbitious, you musn't linger! Now the men of villainous pursuits come to strike you! Fear the reaper, devil men!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1280,7 +1280,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1305,20 +1305,20 @@
 					<crewMember amount="1" class="phantomalpha"/>
 					<ship load="SHIP_DYNASTY_ELITE_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="mind">
-				<text>(Mind Control) Subdue the Alpha.</text>
+				<text>(정신 지배l) Subdue the Alpha.</text>
 				<event>
 					<text>Under the influence of the mind control, the Ghost Alpha is subdued long enough for the Dynasty medical staff to inject them full of a blue liquid that apparently begins the splitting process involuntarily. They thank you for your efficient problem solving and offer a reward.</text>
 					<autoReward level="MED">drone</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="mind" lvl="2">
-				<text>(Upg. Mind Control) Force the Alpha to split.</text>
+				<text>(고급정신 지배) Force the Alpha to split.</text>
 				<event>
 					<text>The Alpha begins to shake more violently, and suddenly erupts into a fine mist, slowly reforming into two separate Ghosts. The twins look at each other and begin to scream, but are subdued by the confused medical staff. "What in the great nebula has occured? This is not how the process is intended to go about! I-I truly am uncertain of what to consider of this situation. These ones are not... uh... we would rather not have them in the field of battle. Have them instead."</text>
 					<crewMember amount="2" class="phantom"/>
@@ -1346,7 +1346,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1396,7 +1396,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1440,14 +1440,14 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="engineer">
-				<text>(Engineer Crew) Interface with the Auto and "make it speak".</text>
+				<text>(엔지니어 선원) Interface with the Auto and "make it speak".</text>
 				<event>
 					<text>Your engineer remotely access the Auto-ship and powers it online. Fortunately, its vocal module is still active. "OooOooOoOoh! You have captured me. You are now cursed! If you do not give the Federation all of your scrap, your children will be stillborn and your crops will be plagued. OooOoOoOoooOh!" The Ghosts suddenly go into panic, scrambling for a weapon, until they realize you're a Federation ship. Desperate not to be cursed, they give you all of their scrap.</text>
 					<autoReward level="MED">scrap_only</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="hacking" lvl="2">
-				<text>(Upg. Hacking) Interface with the Auto and "make it speak".</text>
+				<text>(고급 해킹) Interface with the Auto and "make it speak".</text>
 				<event>
 					<text>You stealthily deploy your hacking module onto the Auto-ship and power it up. Fortunately, its vocal module is still active. "OooOooOoOoh! You have captured me. You are now cursed! If you do not give the Federation all of your scrap, your children will be stillborn and your crops will be plagued. OooOoOoOoooOh!" The Ghosts suddenly go into panic, scrambling for a weapon, until they realize you're a Federation ship. Desperate not to be cursed, they give you all of their scrap.</text>
 					<autoReward level="MED">scrap_only</autoReward>
@@ -1477,7 +1477,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1491,7 +1491,7 @@
 		<text>Before the Ghosts can respond, suddenly the Auto-ship powers on. Looks like the Ghosts didn't do a good job of disabling it... and you'll have to help them or run!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1527,7 +1527,7 @@
 					<text>The most reliable way to help the smugglers is simply to blow these Ghosts up. Hopefully should be easy enough.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1540,7 +1540,7 @@
 						<item type="scrap" min="-25" max="-30"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>You hail the smugglers, letting them know it's safe. "A bribe? How boring, I was looking for some damn fireworks! But, I'm a man of my word. Sometimes. Right now I am. But not always. Here you go."</text>
 							<weapon name="RANDOM"/>
@@ -1560,7 +1560,7 @@
 				<event>
 					<text>"Oh the gods bestow upon me an honor like I never knew! An embarassment, I am, for not having recognized the savior of our lands! Yes, yes, we will do anything!" You kindly ask them to allow your smuggler 'friends' through, and they oblige without hesitation.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>You hail the smugglers, letting them know it's safe. "Hah, what was that? I was looking for some damn fireworks! But, I'm a man of my word. Sometimes. Right now I am. But not always. Here you go."</text>
 							<weapon name="RANDOM"/>
@@ -1576,7 +1576,7 @@
 			<text>You don't make deals with pirates, but you'll gladly fight them instead!</text>
 			<ship load="SHIP_SMUGGLER_ALL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1590,7 +1590,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1606,7 +1606,7 @@
 			<text>It feels weird working for the Rebellion, but you can't think of anything more satisfyingly ironic than using their own weapon against them. Assuming you succeed, of course. As you approach the colony, one of their vessels rises to face you.</text>
 			<ship load="SHIP_DYNASTY_AUTOQUEST" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1617,7 +1617,7 @@
 			<text>It means you won't get the weapon, but it's much easier just to kill this Auto-station than to go fight a Dynasty colony. Plus, it means not working for the Rebellion!</text>
 			<ship load="SHIP_AUTO_STATION" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1631,7 +1631,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1642,7 +1642,7 @@
 	<text>You notice the shadow of a ship slipping through the nebulas behind you, and begin to fear it might be following you, until it comes bursting out of the clouds, revealing itself to be a Dynasty vessel. Their weapons are off however, and their comms are open for communication.</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"We have identified you as a Multiverse Renegade vessel. Does this statement hold true? If so, we suspect you are not opposed to matters of mercenary work. A ship of automated nature but Zoltan origins has been spotted dangerously close to a loyal Dynasty colony. While these do not pose the same threat as a Rebel vessel, it could create hysteria of immense proportions amongst our citizens. Could you disable it?"</text>
 			<choice hidden="true">
@@ -1662,7 +1662,7 @@
 		<text>"Then you are of no use to us. Furthermore, you are trespassing on Dynasty territory, and must be removed."</text>
 		<ship load="SHIP_DYNASTY_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1672,7 +1672,7 @@
 		<text>"Federation vessel registered entering combat proximity. Forwarding data collection to Ministry." Guess your crime won't go unnoticed by the Zoltan, but they're too far away right now to do anything about it. First, you have to take out this auto.</text>
 		<ship load="SHIP_ZOLTAUTO_DYNASTY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 		</choice>
 	</event>
@@ -1682,11 +1682,11 @@
 	<event>
 		<text>"Your methods are efficient, I shall give you that. Do not expect a reward however, for thou still are trespassing in a realm which is most displeased to host you."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5">
-			<text>(Upg. Weapons) Threaten them.</text>
+			<text>(고급 무기실) Threaten them.</text>
 			<event>
 				<text>"You put up a convincing argument. Is it common for individuals like you to speak volumes louder with actions rather than words? I would scoff had I not a gun pointed to my head. Take this money, you barbarian."</text>
 				<autoReward level="MED">scrap_only</autoReward>
@@ -1696,11 +1696,11 @@
 	<event>
 		<text>"Your methods are efficient, I shall give you that. Do not expect a reward however, for thou still are trespassing in a realm which is most displeased to host you."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="weapons" lvl="5">
-			<text>(Upg. Weapons) Threaten them.</text>
+			<text>(고급 무기실) Threaten them.</text>
 			<event>
 				<text>"You put up a convincing argument. Is it common for individuals like you to speak volumes louder with actions rather than words? I would scoff had I not a gun pointed to my head. Take this money, you barbarian."</text>
 				<autoReward level="MED">scrap_only</autoReward>
@@ -1733,7 +1733,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1744,7 +1744,7 @@
 		<text>As soon as it's clear that your intentions are anything but helping them, the Dynasty ship turns hostile, trying to fight their way past! For some reason, the other ship isn't helping you, but instead sits back to watch the battle. Cowards.</text>
 		<ship load="SHIP_GHOST_DYNASTY_DESERTER_TURNIN" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1758,7 +1758,7 @@
 		<text>As soon as it's clear that your intentions are anything but helping them, the Dynasty ship turns hostile, trying to fight their way past! For some reason, the other ship isn't helping you, but instead sits back to watch the battle. Cowards.</text>
 		<ship load="SHIP_GHOST_DYNASTY_DESERTER_ACCEPT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1778,13 +1778,13 @@
 			<text>"Oh, Reaper's sweet travesty, you are Federation! We shall take no 'help' from you, fiend!" This wasn't the reaction you expected, but if you can force them into surrendering perhaps they'll finally be willing to take your help?</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(Ghost Crew) Offer to escort them.</text>
+		<text>(유령 선원) Offer to escort them.</text>
 		<event>
 			<text>"Oh, but speak not further! For it seems a fellow is offering us their most charitable aid. Many thanks, good friend. We shan't let this favor go forgotten."</text>
 			<autoReward level="MED">standard</autoReward>
@@ -1799,7 +1799,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1834,7 +1834,7 @@
 							<text>You pilot further into the nebula, preparing yourself mentally for whatever monstrous ship lies ahead. At last, you lay eyes on it... and it's not really what you expected.</text>
 							<ship load="SHIP_AUTO_DYNASTY_MONSTER" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1848,7 +1848,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Take this warning and leave.</text>
+		<text>Take this warning and 떠난다.</text>
 		<event>
 			<text>Sounds like there's something bad going on here - it's only safe to turn tail and run.</text>
 			<choice hidden="true">
@@ -1856,7 +1856,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1879,13 +1879,13 @@
 					<boarders min="2" max="3" class="phantom"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>We aren't helping Rebels. Leave.</text>
+				<text>We aren't helping Rebels. 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1900,7 +1900,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1934,7 +1934,7 @@
 	<ship load="SHIP_DYNASTY_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1956,7 +1956,7 @@
 	<ship load="SHIP_GHOST_ALL" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1972,7 +1972,7 @@
 	<ship load="SHIP_ENGINEER" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1989,7 +1989,7 @@
 	<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2007,7 +2007,7 @@
 	<ship load="SHIP_DYNASTY_HOSTAGE" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2097,7 +2097,7 @@
 </event>
 <textList name ="TEXT_GHOST_DEADSHIP">	
 	<text>You jump out of your seat, prepared to fight the wreck drifting at this beacon, but it's no Ghost ship. You scrap whats left.</text>	
-	<text>You're ready to fight, but the wreck here is silent. Its crew are dead, and their attacker long gone. You cautiously scrap the ship.</text>	
+	<text>You're ready to fight, but the wreck here is silent. Its crew are dead, and their attacker long gone. You cautiously 함선을 수거한다.</text>	
 	<text>A wrecked ship inhabits this beacon. You scan it for Ghosts, but all results show the ship is empty. You figure it's safe to salvage what you can.</text>	
 	<text>Whoever destroyed the ship at this beacon doesn't matter, but it must not have been the Ghosts. Empty of all crew, you move in to scrap it.</text>	
 </textList>
@@ -2130,13 +2130,13 @@
 					<autoReward level="LOW">standard</autoReward>
 					<ship load="SHIP_GHOST_ELITE" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Decline and leave.</text>
+				<text>Decline and 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2150,7 +2150,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2166,7 +2166,7 @@
 		<autoReward level="LOW">standard</autoReward>
 		<ship load="SHIP_GHOST_ELITE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2189,7 +2189,7 @@
 						<event load="VAGABOND_ACID_LIE"/>
 					</choice>
 					<choice hidden="true" req="mind">
-						<text>(Mind Control) Give him a very 'convincing' lie.</text>
+						<text>(정신 지배l) Give him a very 'convincing' lie.</text>
 						<event>
 							<text>"Ooooh, ooooh! I must head there at once! Thank you for your assistance, oh seer of those things which beg of being seen!"</text>
 							<autoReward level="MED">stuff</autoReward>
@@ -2205,7 +2205,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="sensors" lvl="3">
-				<text>(Adv Sensors) Offer him your detailed map data.</text>
+				<text>(최고급 Sensors) Offer him your detailed map data.</text>
 				<event>
 					<text>Domodius takes a look at the data you've given him. "Hmmm. Inconclusive. Still, this proves you are a purveyor of fine knowledge and a keen explorer with an eye for discovery! If I join you, our combined intellect should be unrivaled!"</text>
 					<crewMember amount="1" class="wraith">Domodius</crewMember>
@@ -2243,7 +2243,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2254,7 +2254,7 @@
 		<text>"Huh? But I have already been there! I've laid sight on all that system has to offer, but there is no acid nebula to be seen. Had you simply said no there would have been no harm, but lying to me? Unforgivable, I shall not live with such an insult going unmatched!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2269,7 +2269,7 @@
 	<environment type="nebula"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"BOO!" The word flashes on the screen, shortly followed by the text, "have I caused you fear?"</text>
 			<choice hidden="true">
@@ -2303,7 +2303,7 @@
             <status type="limit" target="enemy" system="engines" amount="1"/>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -2313,7 +2313,7 @@
         <event load="GHOST_DONATION_CREW"/>
     </choice>
     <choice hidden="true">
-        <text>Ignore the ship.</text>
+        <text>함선을 무시한다.</text>
         <event>
             <text>The Ghosts make no attempt to communicate with you, and eventually slip back into the clouds, leaving you all alone.</text>
             <choice hidden="true">
@@ -2321,7 +2321,7 @@
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice hidden="true">
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -2363,11 +2363,11 @@
 				<event load="GHOST_BREEDER_PURCHASE"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_GHOST">
-				<text>(Ghost Crew) Have your Ghost explain Ghost reproduction.</text>
+				<text>(유령 선원) Have your Ghost explain Ghost reproduction.</text>
 				<event>
 					<text>Your Ghost types out its response on a small tablet so that the Slug can understand. According to them, the Ghosts 'age' through the collection of natural gasses they assimilate into their body. Once they reach a maximum size, they become known as an alpha. Once in the alpha stage, they can divide to create a new ghost.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"What?! Thissss doesssn't even make sssenssse! Ugh... this busssinessss issssn't the right place for me. You're sssaying thessse big guysss are important? Fine, take one. What point issss there to it anywayssss..."</text>
 							<crewMember amount="1" class="goulalpha"/>
@@ -2406,7 +2406,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2422,7 +2422,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2479,7 +2479,7 @@
 	<ship load="SHIP_GHOST_ALL" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2499,7 +2499,7 @@
 	<ship load="SHIP_CLAN_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2509,7 +2509,7 @@
 	<ship load="SHIP_AUTO_GHOST_ESCAPE" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2519,7 +2519,7 @@
 	<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2552,7 +2552,7 @@
 					<text>Looks like the 'demon' in question is... a rebel Auto-ship? Well, you'll have to kill this thing either way, get ready to fight!</text>
 					<ship load="SHIP_GASGIANT_AUTO" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2563,7 +2563,7 @@
 					<text>Fortunately, there's a Rebel ship not too far from here. You can pick these guys off pretty easily, you hope.</text>
 					<ship load="SHIP_GASGIANT_REBEL" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2577,7 +2577,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2611,7 +2611,7 @@
 									<text>As you move in to attack the Vagabonds, you watch as the other ships move to fight the Federation vessel. Hopefully you can both pull through.</text>
 									<ship load="SHIP_GHOST_FEDMORALITY_MANTIS" hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -2622,7 +2622,7 @@
 									<text>As you move in to attack the Vagabonds, you watch as the other ships move to fight the Federation vessel. Hopefully you can both pull through.</text>
 									<ship load="SHIP_GHOST_FEDMORALITY_ENGI" hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -2633,7 +2633,7 @@
 									<text>As you move in to attack the Vagabonds, you watch as the other ships move to fight the Federation vessel. Hopefully you can both pull through.</text>
 									<ship load="SHIP_GHOST_FEDMORALITY_ZOLTAN" hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -2646,7 +2646,7 @@
 							<text>"Gah! What the hell are you doing?" You mute the vessel and attack.</text>
 							<ship load="SHIP_FED_FIGHT" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 							</choice>
 						</event>
@@ -2656,7 +2656,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>The Federation vessel looks to be too preoccupied to notice or care about you.</text>
 			<choice hidden="true">
@@ -2664,7 +2664,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2698,7 +2698,7 @@
 			<text>"Sssshould have known you'd try thisss. Better I desssstroy your ssship than the Ghossstsss claim it themssselvesss."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2712,7 +2712,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2734,7 +2734,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event load="NEBULA_DRIFTER_CHOICE_GHOST_IGNORE"/>
 	</choice>
 </event>
@@ -2744,7 +2744,7 @@
 		<autoReward level="LOW">standard</autoReward>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2758,7 +2758,7 @@
 		<text>You intend to ignore the wreck, but it appears the Ghosts aboard intend to fight you! The ship stirs to life and its weapons come online, leaving you with only one choice; to fight.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2769,7 +2769,7 @@
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice hidden="true">
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -2788,7 +2788,7 @@
 		<event load="NEBULA_GHOST_INSANE_ROCKMEN_NO"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(Ghost Crew) Show them your Ghost crew.</text>
+		<text>(유령 선원) Show them your Ghost crew.</text>
 		<event load="NEBULA_GHOST_INSANE_ROCKMEN_GHOST"/>
 	</choice>
 </event>
@@ -2797,7 +2797,7 @@
 		<text>The Rockman begins shrieking and smashes the camera. It doesn't take long until their weapons are live and the insane Rock crew is ready to destroy you.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2809,7 +2809,7 @@
 				<text>The Rockman begins to cry. "No no no no, no, NO!" He slams his fist on the table in front of him and orders his psychotic crew to pull themselves together and attack.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2827,7 +2827,7 @@
 		<text>"You... You are not Ghosts? I do not believe it! We have encountered only hell-spawn here, so it is clear that only demons inhabit this sector!" You don't bother explaining that by their logic they would be Ghosts as well, because their weapons are live.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2838,7 +2838,7 @@
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice hidden="true">
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -2898,7 +2898,7 @@
 					<text>The Vagabonds direct you to a Dynasty vessel not too far. Prepare for battle!</text>
 					<ship load="SHIP_VAGABOND_ORCHID_DYNASTY" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2909,13 +2909,13 @@
 					<text>"Predictable as always! Don't expect the life of this Orchid to persist much longer after this battle!"</text>
 					<ship load="SHIP_VAGABOND_ORCHID_VAGABOND" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_GOUL">
-				<text>(Goul Crew) Negotiate with them.</text>
+				<text>(Goul 선원) Negotiate with them.</text>
 				<event>
 					<text>The two Gouls speak back and forth for some time, but finally reach a consensus. Having frightened them with foreboding warnings of a potential Orchid invasion in collaboration with the Dynasty, the Gouls don't seem eager to keep the Orchid hostage any longer. Once safely returned, the Orchids pay you for your assistance.</text>
 					<autoReward level="LOW">standard</autoReward>
@@ -2933,7 +2933,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2960,7 +2960,7 @@
 			<text>The civilians are surprised by your sudden hostility, but have no choice but to fight.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -2974,7 +2974,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2985,7 +2985,7 @@
 		<text>You arrive at your desination, but a Ghost ship is already here. You signal for the civilians to stand back while you eliminate the threat.</text>
 		<ship load="SHIP_GHOST_ESCORT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -3030,7 +3030,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3044,7 +3044,7 @@
 			<text>If you remember correctly, you were told by the Engi not to kill these guys if you can. You'll have to wait for the Engi to arrive or force them to surrender!</text>
 			<ship load="SHIP_VAGABOND_OUTLAWS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3059,7 +3059,7 @@
 					<text>If you remember correctly, you were told by the Engi not to kill these guys if you can. You'll have to wait for the Engi to arrive or force them to surrender!</text>
 					<ship load="SHIP_VAGABOND_OUTLAWS" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3086,7 +3086,7 @@
 									<text>You've heard the stories of the way the Harmony treats the Separatists. The Engi might be the Federation's allies, but that doesn't mean you can't stand against them.</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 									</choice>
 								</event>
@@ -3104,7 +3104,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>They're onto us. Leave.</text>
+		<text>They're onto us. 떠난다.</text>
 		<event>
 			<text>It's not a good idea to go through with this when they've already called you out. You slink away into the distant nebulas far away from the beacon.</text>
 			<environment type="nebula"/>
@@ -3113,7 +3113,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3132,7 +3132,7 @@
 				<event>
 					<text>"Do not tell us you have not caught word of the trash king's rule!" When their cry is met by a blank stare on your end, the Ghost seems to deflate. "Alright. Follow me." The Ghost leads you to a massive castle built entirely out of garbage, and into a grand throne room.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>You are met by a large mare alpha wearing a paper mache crown that barely manages to stay on his gaseous 'head'. "I, am the trash king! Bow before me breathers!"</text>
 							<choice hidden="true">
@@ -3145,7 +3145,7 @@
 											<text>"A challenge! So let it be! Call forth my champions!" The trash king ushers for one of his strongest ships to fight you.</text>
 											<ship load="SHIP_GHOST_TRASHKING_ELITE" hostile="true"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -3156,7 +3156,7 @@
 											<text>"A challenge! So let it be!" The trash king ushers for one of his vessels to fight you.</text>
 											<ship load="SHIP_GHOST_TRASHKING_NORMAL" hostile="true"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -3181,7 +3181,7 @@
 													<text>"A challenge! So let it be! Call forth my champions!" The trash king ushers for one of his strongest ships to fight you.</text>
 													<ship load="SHIP_GHOST_TRASHKING_ELITE" hostile="true"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event load="COMBAT_CHECK"/>
 													</choice>
 												</event>
@@ -3192,7 +3192,7 @@
 													<text>"A challenge! So let it be!" The trash king ushers for one of his vessels to fight you.</text>
 													<ship load="SHIP_GHOST_TRASHKING_NORMAL" hostile="true"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event load="COMBAT_CHECK"/>
 													</choice>
 												</event>
@@ -3215,7 +3215,7 @@
 					<text>You arm the weapons and attack the Ghosts.</text>
 					<ship load="SHIP_GHOST_TRASHKING_BORING" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3225,13 +3225,13 @@
 	<choice hidden="true">
 		<text>Avoid the debris.</text>
 		<event>
-			<text>You content yourself with watching the Ghosts scurry about as you do something onboard the ship. You can't help but notice, however, that the clouds in the distance seem to be approaching fast...</text>
+			<text>You content yourself with watching the Ghosts scurry about as you 함선에서 무언가를 한다. You can't help but notice, however, that the clouds in the distance seem to be approaching fast...</text>
 			<choice hidden="true">
 				<text>Check the storage.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3246,7 +3246,7 @@
 		<event>
 			<text>You're undisturbed by the Ghosts as you land on the planet, but as you approach the camp one of them stops you. "Why have you come? The great northern storm drifts closer every minute! Their electric fields will decimate our computers. We advise you leave at once!"</text>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event/>
 			</choice>
 			<choice hidden="true">
@@ -3267,7 +3267,7 @@
 							<text>You order the crew to keep working, even as most of the Ghosts retreat inside. By the time the clouds consume the planet, trapping you in total darkness, you stumble your way into the shelter but notice one of your crew is missing! You're stuck inside for almost a day with the Ghosts, who at least prove to be charismatic hosts.</text>
 							<modifyPursuit amount="2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>When you're finally free, you search everywhere for your crew but can't find them. Looks like they're gone for good. Their sacrifice wasn't entirely in vain however, as your efforts saved the Ghosts most of their vital equipment. Knowing the toll the day has had on you, they offer a large amount of scrap and one of their finest weapons.</text>
 									<removeCrew>
@@ -3288,7 +3288,7 @@
 							<damage amount="3" system="engines" effect="fire"/>
 							<ship load="SHIP_DYNASTY_FIGHT" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -3306,7 +3306,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3314,13 +3314,13 @@
 	<choice hidden="true">
 		<text>Stay away.</text>
 		<event>
-			<text>You content yourself with watching the Ghosts scurry about as you do something onboard the ship. You can't help but notice, however, that the clouds in the distance seem to be approaching fast...</text>
+			<text>You content yourself with watching the Ghosts scurry about as you 함선에서 무언가를 한다. You can't help but notice, however, that the clouds in the distance seem to be approaching fast...</text>
 			<choice hidden="true">
 				<text>Check the storage.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3331,7 +3331,7 @@
 	<text>A Rebel ship already occupies this beacon, but surprisingly they hail you instead of fighting. "I should attack you... but this sector is littered with Ghosts and we've finally caught a break from the clouds."</text>
 	<ship load="SHIP_REBEL_GENERIC" hostile="false"/>
 	<choice hidden="true">
-		<text>Agree to leave them alone.</text>
+		<text>Agree to 내버려 둔다.</text>
 		<event>
 			<text>"Good, glad to see we can both agree on something." You sense it's awkward for the both of you to be here, but you decide to take your mind off it by doing something else.</text>
 			<choice hidden="true">
@@ -3339,7 +3339,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3350,7 +3350,7 @@
 			<text>The Rebel captain yells at you as you both prepare for combat, "This is why the Federation must fall!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3381,7 +3381,7 @@
 		<event>
 			<text>"Maybe you've heard of the Dynasty's scuffle with the Rebellion? Well, it all went down when they took out one of the Rebels' first Flagship prototypes! This instigated a large scale war, and bla bla bla... Thing is, that Flagship is still around! In fact, it's in this very sector!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Now, you're probably thinking we're some Rebels. Wrong! Used to roll with that pack, but we ain't any more. We're mercenaries, and we were sent by the Federation to take out this goliath. Turns out it's in the hands of the Vagabonds now - more specifically a clan called the Haunts, led by some jackass who calls himself Goziodeon. Help us take out these sons o' bitches, and we'll split the bounty half and half. Deal?"</text>
 					<choice hidden="true">
@@ -3407,13 +3407,13 @@
 			<text>The only good Rebel is a dead Rebel. You prepare to attack.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You don't care to deal with wackos, especially out here. You hear the captain sigh as you end the call.</text>
 			<choice hidden="true">
@@ -3421,7 +3421,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3449,7 +3449,7 @@
 					<text>You're no coward. If you want to have any hope of defeating a real, multiverse traveling Flagship at the end of this mission, you should be able to take this one out as well.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3465,7 +3465,7 @@
 	<text>The gargantuan ship, for which you've heard so many legends about, finally gives one last quake before an explosion in the engines causes it to erupt into flames and explode. The Flagship, and the Vagabonds with it, is dead... yet again.</text>
 	<hiddenAug>ACH_BOSS_GHOSTFLAG</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Ghost Hunter hails you. "That. Was. LEGENDARY! Do you know how rich we're gonna be? Wait, yes yes. Your payment. Considering the bounty from this will be enough for us to buy an entire moon, maybe even a small planet, I suppose it doesn't hurt to give you something extra-special. We have a new cruiser that we've been working on, and I couldn't think of anyone else more worthy of piloting it than you."</text>
 			<unlockCustomShip silent="false">PLAYER_SHIP_GHOST</unlockCustomShip>
@@ -3477,7 +3477,7 @@
 				<item type="drones" min="5" max="9"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Oh, oh! One last thing. With this we'll never have to work another day in our lives. It does me no harm to pass this onto you now. More members of the haunt still roam this galaxy, and you're as good a choice as any to take the rest of them out!"</text>
 					<augment name="PROTON_PACK"/>

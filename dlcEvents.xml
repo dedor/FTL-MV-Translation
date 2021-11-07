@@ -31,7 +31,7 @@ HOSTILE ENVIRONMENT!
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -46,7 +46,7 @@ HOSTILE ENVIRONMENT!
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -65,7 +65,7 @@ HOSTILE ENVIRONMENT!
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="hacking" lvl="1">
-		<text>(Simple Hacking) Confuse the Anti-Ship Battery's targets.</text>
+		<text>(Simple 해킹) Confuse the Anti-Ship Battery's targets.</text>
 		<event>
 			<text>You spot a weakness in the targeting satellites. Your crew is able to launch a hacking drone to confuse the Anti-Ship Battery's targeting matrix. It should also fire on the Rebel ship now.</text>
 			<environment type="PDS" target="all"/>
@@ -73,13 +73,13 @@ HOSTILE ENVIRONMENT!
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="hacking" lvl="3">
-		<text>(Advanced Hacking) Overwrite the Anti-Ship Battery's target.</text>
+		<text>(최고급 해킹) Overwrite the Anti-Ship Battery's target.</text>
 		<event>
 			<text>You spot a weakness in the targeting satellites. Your crew is able to launch an improved hacking drone to overwrite the Anti-Ship Battery's targeting matrix. It will fire on the Rebel ship instead!</text>
 			<environment type="PDS" target="enemy"/>
@@ -87,7 +87,7 @@ HOSTILE ENVIRONMENT!
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -107,7 +107,7 @@ HOSTILE ENVIRONMENT!
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="hacking" lvl="1">
-		<text>(Simple Hacking) Confuse the Anti-Ship Battery's targets.</text>
+		<text>(Simple 해킹) Confuse the Anti-Ship Battery's targets.</text>
 		<event>
 			<text>You spot a weakness in the targeting satellites. Your crew is able to launch a hacking drone to periodically confuse the ASB's lock signal. It should sometimes fire on the Rebel ship now.</text>
 			<environment type="PDS" target="all"/>
@@ -117,7 +117,7 @@ HOSTILE ENVIRONMENT!
 		</event>
 	</choice>
 	<choice req="hacking" lvl="3">
-		<text>(Advanced Hacking) Override the ASB's target.</text>
+		<text>(최고급 해킹) Override the ASB's target.</text>
 		<event>
 			<text>You spot a weakness in the targeting satellites. Your crew is able to launch an improved hacking drone to overwrite the ASB's target locks. It will fire on the Rebel ship instead!</text>
 			<environment type="PDS" target="enemy"/>

@@ -74,11 +74,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -100,11 +100,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -127,11 +127,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -154,11 +154,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -178,14 +178,14 @@
 	<event>
 		<text>You are unsuccessful in escaping the Elite. You prepare for battle.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>You are unsuccessful in escaping the Elite. You prepare for battle.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -208,7 +208,7 @@
 <event name="FLEET_TRICK_BAD">
 	<text>As expected, the Elite fails to be tricked by your rudimentary attempt.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -284,11 +284,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -313,11 +313,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -403,11 +403,11 @@
 	<environment type="PDS" target="both"/>
 	<fleet>rebel</fleet>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -431,11 +431,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="both"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -459,11 +459,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="both"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -486,11 +486,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="both"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -520,7 +520,7 @@
 			<item type="fuel" min="1" max="1"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="MAGNET_ARM">
@@ -538,11 +538,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Auto.</text>
+		<text>(최고급. Engines) Try to escape the Auto.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>
@@ -553,11 +553,11 @@
 	<fleet>rebel</fleet>
 	<environment type="PDS" target="player"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Auto.</text>
+		<text>(최고급. Engines) Try to escape the Auto.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>
@@ -569,11 +569,11 @@
 	<fleet>rebel</fleet>
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<text>(최고급. Engines) Try to escape the Elite.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>

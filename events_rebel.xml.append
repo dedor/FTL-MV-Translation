@@ -199,7 +199,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -230,7 +230,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -253,7 +253,7 @@
 	<text>You stumble across a forward scout of the Rebel fleet.</text>
 	<ship load="SHIP_REBEL_WARNING" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -263,7 +263,7 @@
 	<boarders min="2" max="3" class="rebel"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -290,7 +290,7 @@
 	<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 	<environment type="sun"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -300,7 +300,7 @@
 	<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -310,7 +310,7 @@
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -321,7 +321,7 @@
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -355,7 +355,7 @@
 			<text>You power up your weapons and engage the automated ship.</text>
 			<ship load="SHIP_AUTO_CIVILIAN" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -369,7 +369,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -386,7 +386,7 @@
 			<text>The Rebel responds to your threat, "I don't know who you are, but no one defies the Rebel Fleet!" They move in to engage.</text> 
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -400,7 +400,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -417,7 +417,7 @@
 			<text>Detecting the higher threat, the automated ship moves in to engage your ship.</text> 
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -431,7 +431,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -448,7 +448,7 @@
 			<text>You prepare to fight.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -462,7 +462,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -488,7 +488,7 @@
 		<text>The automated ship must be remotely connected to the station; as soon as you attempt to log on, the ship activates and charges you.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -503,7 +503,7 @@
 			<text>You prepare to fight.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -517,7 +517,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -531,7 +531,7 @@
 	<event>
 		<text>The ship patrols wide around the area, successfully approaching the station while avoiding detection.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DEFENSE_ITEM_LIST"/>
 		</choice>
 	</event>
@@ -539,7 +539,7 @@
 		<text>Before you can get close enough to scan the station, the automated ship detects you and moves in to attack!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -571,7 +571,7 @@
 			<text>The ship powers up and targets you.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -585,7 +585,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -599,7 +599,7 @@
 	<event>
 		<text>Your combat drone attacks the automated ship and then retreats, luring it away. You quickly move up to the radar station to access it.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DEFENSE_RADAR_LIST"/>
 		</choice>
 		<item_modify>
@@ -609,7 +609,7 @@
 	<event>
 		<text>Your combat drone repeatedly fires at the automated ship. It can't break through its shields, but is at least enough of a distraction to allow you to access the radar station.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DEFENSE_RADAR_LIST"/>
 		</choice>
 		<item_modify>
@@ -623,7 +623,7 @@
 			<item type="drones" min="-1" max="-1"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -674,7 +674,7 @@
 		<text>You accidentally reactivate the ship's AI. Its weapons immediately go online; prepare for a fight!</text>
 		<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -700,7 +700,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -712,7 +712,7 @@
 	<text>A Rebel ship is patrolling this beacon, and immediately turns to engage. As your crew scramble to battle readiness, sensors detect a short-range teleporter signal. An intruder is on board!</text>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>A flushed and panicky Rebel soldier has teleported aboard. The Rebel, who appears unarmed, repeatedly declares his peaceful intentions. It seems the Rebel life has lost its charm.</text>
 			<choice hidden="true">
@@ -882,7 +882,7 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -915,12 +915,12 @@
 					<text>"It is common knowledge that the human race is superior to all other aliens. Therefore, it is the Rebellion's divine right to overthrow the Federation and establish a glorious, human only galactic government. Other aliens will be allowed to exist on the outskirts so long as they avoid communicating with humans.</text>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"The most known battle in Rebel history was the Battle of Node 17, often referred to as the Last Stand. The outcome of Node 17 has never been repeated except for Universe 0, the origins of multiverse travelers. Though the Federation was successful in defeating the Rebels, their celebration would not last for long after the Rebels discovered the mysterious Multiverse technology."</text>
 							<modifyPursuit amount="1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"We owe our collective thanks to the brave heroes who have provided the other Rebels across the realities the chance to bring a better future to their galaxy. This concludes the retelling. Accept this complementary augment and supplies for taking the time to educate yourself."</text>
 									<autoReward level="HIGH">standard</autoReward>
@@ -935,7 +935,7 @@
 							<text>Almost the second you mute the Auto-ship, its weapons activate and it attacks!</text>
 							<ship hostile="true"/> 
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -948,7 +948,7 @@
 					<text>Almost the second you mute the Auto-ship, its weapons activate and it attacks!</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -956,7 +956,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>The ship does not try to contact you again.</text>
 			<choice>
@@ -964,7 +964,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -997,7 +997,7 @@
 	<text>Rebel Elites are usually only seen in the Rebel Fleet, but it seems one of their ships is protecting this beacon. A fight is inevitable.</text>
 	<ship load="SHIP_REBEL_ELITE_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1007,7 +1007,7 @@
     <ship load="SHIP_AUTO_ION" hostile="true"/> 
     <environment type="asteroid"/>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event load="COMBAT_CHECK"/>
     </choice>
 </event>
@@ -1021,7 +1021,7 @@
 	<text>A Rebel checkpoint identifies you as Federation. "You'll regret coming here, scum!"</text>
 	<ship load="SHIP_REBELHOLD_STATION" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1057,7 +1057,7 @@
 			<text>"Hey! This was the original design, before the idiots in command decided to stick with the eagle instead!" Enraged, the ship attacks.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1078,7 +1078,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1098,7 +1098,7 @@
 			<text>You prepare for combat with the elite.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1112,7 +1112,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1128,7 +1128,7 @@
 			<text>This will be one hell of a fight. You check to make sure everything is in order and ready for battle.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1142,7 +1142,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1167,9 +1167,9 @@
 	<choice>
 		<text>Approach the city.</text>
 		<event>
-			<text>You avoid all of the Rebel patrols and find a landing pad who's staff doesn't ask any questions about who you are so long as you turn off your weapons when you leave. You leave your Federation badges in the ship and follow all the traffic to a giant stadium.</text>		
+			<text>You avoid all of the Rebel patrols and find a landing pad who's staff doesn't ask any questions about who you are so long as you turn off your weapons when you 떠난다. You leave your Federation badges in the ship and follow all the traffic to a giant stadium.</text>		
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>In the center of the stage is an important looking Rebel politician, surrounded by 3 big screens projecting Rebel propaganda. You can just barely make out what he's saying over all the cheering from the crowd. "Friends and friends to be, we have all gathered here to celebrate the might of the Rebellion! We have received news that the new Rebel Flagship gifted to us by the Multiverse travelers has reached the Federation Capitol! The Federation's days are numbered, and soon the Rebellion shall rise and takes its place!"</text>
 					<choice hidden="true">
@@ -1177,29 +1177,29 @@
 						<event>
 							<text>You wish you had brought your ship, but if you go back now it may be too late. You use your handheld scanner to find a good vantage point and send one of your crew to prepare.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="REBELHOLD_SPEECH_ASSASINATE"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_ELITE">
-						<text>(Elite Crew) Send your elite to assassinate the politician.</text>
+						<text>(Elite 선원) Send your elite to assassinate the politician.</text>
 						<event>
 							<text>Your crew swiftly sneaks into the backstage, climbs onto the roof, and draws their rifle. It only takes one shot, and the lifeless body of the politician flops into the crowd, spraying the crowd with blood. Your crew hurries back, taking out two of the guards that try to follow on their way. The Fleet will be too busy dealing with all the chaos you've caused here, and likely won't be concerned with following you for a while.</text>
 							<modifyPursuit amount="-2"/>
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_SLUG">
-						<text>(Slug Crew) Your Slug thinks they can hack into the screens.</text>
+						<text>(Slug 선원) Your Slug thinks they can hack into the screens.</text>
 						<event>
 							<text>Your Slug snickers as they hack into the screens' mainframe. They go black for a minute, confusing everyone in the crowd. A few seconds after, they switch to Federation propoganda. After a massively negative reception from the crowd and doubled efforts from the Rebels to counter the attack, your Slug gets tired and switches the screens over to a very explicit program. He breaks into laughter, and you hurry back into the ship before the Rebels can follow. When you return to the ship, you find a Soldier already waiting for you. Before you can raise your weapons, they hold up their hand to stop you. "No need to worry, I am on your side. I was sent to work undercover, but I haven't been able to contact the Federation for days. I was afraid I'd have to steal a Rebel shuttle to get back, but luckily I think I've found my way out with you guys instead."</text>
 							<crewMember amount="1" class="soldier"/>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Leave.</text>
+						<text>떠난다.</text>
 						<event>
-							<text>The politician salutes to the crowd, and they begin to chant "Glory to the Rebellion!" You hurry back to the ship and leave.</text>
+							<text>The politician salutes to the crowd, and they begin to chant "Glory to the Rebellion!" You hurry back to the ship and 떠난다.</text>
 						</event>
 					</choice>
 				</event>
@@ -1215,7 +1215,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1276,7 +1276,7 @@
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -1286,7 +1286,7 @@
 	<text>You've found the Jailer. They're already charging their FTL drive. You'll have to take them down before they can escape, and hopefully not destroy the ship in the process.</text>
 	<ship load="SHIP_REBEL_JAILER_PRISONBREAK" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1336,7 +1336,7 @@
 			<environment type="PDS" target="player"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1387,7 +1387,7 @@
 							<text>This could very well be just as important as your primary mission. You move in to attack the Flagship, as the crew of construction workers onboard quickly evacuate and are replaced by well trained human soldiers.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1397,11 +1397,11 @@
 						<event>
 							<text>You leave the hangar as quickly as possible and fly away from the shipyard until you're sure you're out of danger.</text>
 							<choice>
-								<text>Do something onboard the ship.</text>
+								<text>함선에서 무언가를 한다.</text>
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice>
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -1414,7 +1414,7 @@
 					<text>You move in to intercept one of the regular Rebel ships.</text>
 					<ship load="SHIP_REBEL_NORMAL_CONSTRUCTIONYARD" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1425,7 +1425,7 @@
 					<text>You move in to intercept one of the Elite Rebel ships.</text>
 					<ship load="SHIP_REBEL_ELITE_CONSTRUCTIONYARD" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1436,7 +1436,7 @@
 					<text>You move in to intercept one of the MFK Rebel ships.</text>
 					<ship load="SHIP_REBEL_SELITE_CONSTRUCTIONYARD" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1448,18 +1448,18 @@
 		<event>
 			<text>You feel the mission is the highest priority and it's too risky to stay in such a dangerous location.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 </event>
 <event name="FLAGSHIP_CONSTRUCTION_DONE">
-	<text>You know with an infinite amount of potential realities there is thousands more Flagships out there, but without this one at least one more reality has been saved. It's a major victory, and there's countless scrap for you to collect, and even the blueprints of a Rebel cruiser left unprotected! Cautious of reinforcements arriving, you take as much as you can and leave. The Fleet will likely be too distracted dealing with this loss to follow you.</text>
+	<text>You know with an infinite amount of potential realities there is thousands more Flagships out there, but without this one at least one more reality has been saved. It's a major victory, and there's countless scrap for you to collect, and even the blueprints of a Rebel cruiser left unprotected! Cautious of reinforcements arriving, you take as much as you can and 떠난다. The Fleet will likely be too distracted dealing with this loss to follow you.</text>
 	<hiddenAug>ACH_BOSS_CONSTRUCTION</hiddenAug>
 	<item_modify>
 		<item type="scrap" min="75" max="75"/>
@@ -1542,7 +1542,7 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1589,7 +1589,7 @@
 			<text>You prepare to attack the engineers.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1603,7 +1603,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1618,14 +1618,14 @@
 		<event load="AUTO_SUPPORT_FAKEID"/>
 	</choice>
 	<choice hidden="true" req="hacking">
-		<text>(Hacking) Reprogram the ship to distribute to Federation ships as well.</text>
+		<text>(해킹) Reprogram the ship to distribute to Federation ships as well.</text>
 		<event>
 			<text>It appears that your injected code works. "Identification authorized. Dispensing supplies."</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Reprogram the ship to distribute to Federation ships as well.</text>
+		<text>(Engi 선원) Reprogram the ship to distribute to Federation ships as well.</text>
 		<event>
 			<text>It appears that your Engi's modifications work. "Identification authorized. Dispensing supplies."</text>
 			<autoReward level="MED">standard</autoReward>
@@ -1636,11 +1636,11 @@
 		<event>
 			<text>It's not likely you can trick an AI vessel. You let it continue on its way.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1651,7 +1651,7 @@
 		<text>"Identification invalid. True identity: Federation vessel. Activating combat mode."</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1679,7 +1679,7 @@
 	<text load="TEXT_ENCOUNTER_AUTO"/>
 	<ship load="SHIP_AUTO_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1698,7 +1698,7 @@
 	<text load="TEXT_ENCOUNTER_AUTO"/>
 	<ship load="SHIP_AUTO_WARNING" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1708,18 +1708,18 @@
 	<ship load="SHIP_AUTO_HACK" hostile="true"/> 
 	<status type="loss" target="player" system="shields" amount="1"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="hacking">
 		<text>(Hacking System) Counter the remote hacking.</text>
 		<event>
-			<text>Your hacking system automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your hacking system automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<ship hostile="true"/>
 			<status type="limit" target="player" system="hacking" amount="0"/>
 			<status type="clear" target="player" system="shields" amount="100"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1727,11 +1727,11 @@
 	<choice hidden="true" req="ANTI_VIRUS">
 		<text>(Anti Virus) Counter the remote hacking.</text>
 		<event>
-			<text>Your Anti-Virus automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your Anti-Virus automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<ship hostile="true"/>
 			<status type="clear" target="player" system="shields" amount="100"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1742,7 +1742,7 @@
 	<text load="TEXT_ENCOUNTER_ENGINEER"/>
 	<ship load="SHIP_ENGINEER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1758,7 +1758,7 @@
 	<text>An engineer ship at this beacon is busy repairing a broken Auto-ship. As soon as they see you, they abandon the wreck and attack.</text>
 	<ship load="SHIP_ENGINEER_SALVAGE" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1796,7 +1796,7 @@
 			<text>You move in to intercept the automated vessel.</text>
 			<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1806,11 +1806,11 @@
 		<event>
 			<text>You have no interest in the ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1835,11 +1835,11 @@
 		<event>
 			<text>There's likely a defense system lying in wait for you. You abandon the station.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1850,7 +1850,7 @@
 		<text>As you approach the station, an automated ship comes flying out from its hiding place in the forest and attacks! You're forced to flee as the ship chases you.</text>
 		<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1873,7 +1873,7 @@
 			<text>You move in to intercept the pirate vessel.</text>
 			<ship load="SHIP_ENGINEERS_PIRATE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1883,11 +1883,11 @@
 		<event>
 			<text>You leave the two ships to continue fighting.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1906,7 +1906,7 @@
 			<text>You move in to intercept the automated vessel.</text>
 			<ship load="SHIP_AUTO_PIRATE_AUTO_CHOICE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1917,7 +1917,7 @@
 			<text>You move in to intercept the pirate ship.</text>
 			<ship load="SHIP_AUTO_PIRATE_PIRATE_CHOICE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1927,11 +1927,11 @@
 		<event>
 			<text>You leave the two ships to continue fighting.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1956,21 +1956,21 @@
 			<text>You prepare to engage the Auto-ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>Fighting a mining ship in its natural habitat of an asteroid field doesn't sound like a good idea.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1990,7 +1990,7 @@
 			<text>You prepare to engage the Auto-ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2000,11 +2000,11 @@
 		<event>
 			<text>You aren't interested in raiding the factory.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2046,7 +2046,7 @@
 			<text>Luckily Auto-ship black boxes can survive most damage from combat. Destroy the ship and the data is yours.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2056,11 +2056,11 @@
 		<event>
 			<text>The Rebel's data is intriguing, but you have decided against messing with the Surveyor.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2107,7 +2107,7 @@
 				<item type="scrap" min="-15" max="-25"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DISTRESS_AUTO_REPAIRS_GIFT"/>
 			</choice>
 		</event>
@@ -2118,7 +2118,7 @@
 			<text>The damaged ship is in horrible condition, but it still manages to raise its weapons and defend itself.</text>
 			<ship load="SHIP_AUTO_DAMAGED" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2128,11 +2128,11 @@
 		<event>
 			<text>You'd have to be an absolute idiot to invest time into repairing an enemy auto-ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2152,7 +2152,7 @@
 		<text>Nearly a second after the Auto-ship finished repairing itself, the Auto-ship detects you as an enemy and attacks!</text>
 		<ship load="SHIP_AUTO_GENERIC_NOSURRENDER_NOESCAPE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2184,11 +2184,11 @@
 		<event>
 			<text>The Ghosts send one last message, reading "You suck." They jump away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2198,7 +2198,7 @@
 	<text>The Auto-ship at this beacon is completely active and ready for combat. It locks onto your ship and attacks!</text>
 	<ship load="SHIP_AUTO_WANTWRECK" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2209,7 +2209,7 @@
 		<event>
 			<text>The Ghost ship jumps in not long after the Auto-ship was destroyed. "Yes good, this is what we want." They inspect the wreckage thoroughly.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"No... Not enough space. We cannot fit full crew in this. You must take extras." They beam one of their crew onboard.</text>
 					<crewMember amount="1" class="wraith"/>
@@ -2264,7 +2264,7 @@
 					<text>The scientist sighs, then ends the call. Weapons spring out of the Auto-ship's hull, and its time for a brawl.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2280,7 +2280,7 @@
 				</event>
 			</choice>
 			<choice>
-				<text>We'll just leave.</text>
+				<text>We'll just 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2290,11 +2290,11 @@
 		<event>
 			<text>You'd have to be insane to tangle with such a massive structure that's undoubtedly of high value to the Rebels.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2320,21 +2320,21 @@
 			<text>These guys make an easy target. You arm the weapons.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>The Engineer makes no attempt to hail you in return. Just in case, you put a little distance between your ships.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2356,7 +2356,7 @@
 				<event>
 					<text>You step into a massive, cobbled together tower of spliced cargo containers and the hulls of former Rebel ships. In the center sits a throne, on which rests a rotund man with a black paper hat staring down upon you. He isn't particularly imposing, save for the buzzsaw that apparently has replaced his left hand. "I see yee have found me in my d-d-dominion. Welcome, matey!"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The man 'stands' up, revealing he in-fact has no feet, but rather a set of treads. He rolls towards you, and it becomes clear this is no man at all, but rather a ramshamble Doctor Drone. "Arg, I be Cap'ain A5540L3, at your service. How might I help you, lad?" The drone sticks out his left hand to shake yours before it remembers its situation, and so quickly stuffs it behind his back and reaches out his right instead, which is instead a much less imposing but still concerning blaster arm from a Battle Drone.</text>
 							<choice hidden="true">
@@ -2378,11 +2378,11 @@
 		<event>
 			<text>This mission isn't worth stirring up an entire city of pirates. You pull away from the city.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2408,13 +2408,13 @@
 					<text>Curiously, A55's massive vessel makes no attempt to fight you until you get into your cruiser, though it easily could have blown your crew away during the run. You have no time to contemplate this further, it's time to fight!</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2443,14 +2443,14 @@
 			<text>A55 hides while you inform the engineers about the Auto-ship, which they briefly scan. The engineer frowns, "Huh, I can see traces of his programming here, but it looks like the core migrated to a new chassis. This must have been a distraction, we'll have to keep searching. Here's your pay or something. Don't speak of this to anyone."</text>
 			<autoReward level="LOW">standard</autoReward>
 			<choice hidden="true" req="MARKER_A55_HANDSHAKE" lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Thank you, matey. Arg, though you did choose to try and murder me a few minutes ago, your heart is clearly in the right place lad. I suspect my time here as king might be short lived, those Engineers will come around again. But as I prepare to leave, take this."</text>
 					<drone name="RANDOM"/>
 				</event>
 			</choice>
 			<choice hidden="true" req="MARKER_A55_HANDSHAKE" lvl="1" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Thank you, matey. Arg, though you did choose to try and murder me a few minutes ago, your heart is clearly in the right place lad. I suspect my time here as king might be short lived, those Engineers will come around again. I think I shall come with you, in hopes I might live to see a future without Rebels."</text>
 					<hiddenAug>ACH_CREW_A55</hiddenAug>
@@ -2483,7 +2483,7 @@
 	<preventQuest/>
 	<img back="BACK_EVENT_POWERGRID" planet="PLANET_INVISIBLE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>A battalion of pirate ships flies away, chased off by a distant Rebel ship. A warning plays over the intercom. "It is recommended that all personnel evacuate Power Grid 800 immediately. Catastrophic reactor failure is imminent. Estimated 3 minutes remaining until collapse."</text>
 			<ship load="SHIP_ENGINEER_MOTHERSHIP" hostile="false"/>
@@ -2493,13 +2493,13 @@
 					<text>As you move in to salvage, you're stopped by a large Engineer vessel. "Damn pirates! We told you to get the hell out of here!" Though the ship moves in to chase you off, you can't help but notice that reactor countdown is still going, and you figure the Engineers must know as well.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Bide the warning and leave.</text>
+				<text>Bide the warning and 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2513,11 +2513,11 @@
 		<event load="AUTO_POWERCORE_BIGBOOM"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="4">
-		<text>(Upg. Engines) Get the hell out of there.</text>
+		<text>(고급 Engines) Get the hell out of there.</text>
 		<event load="AUTO_POWERCORE_BIGBOOM_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="7">
-		<text>(Adv. Engines) Get the hell out of there.</text>
+		<text>(최고급. Engines) Get the hell out of there.</text>
 		<event load="AUTO_POWERCORE_BIGBOOM_ESCAPE_GOOD"/>
 	</choice>
 </event>
@@ -2529,11 +2529,11 @@
 		<event load="AUTO_POWERCORE_BIGBOOM"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="4">
-		<text>(Upg. Engines) Get the hell out of there.</text>
+		<text>(고급 Engines) Get the hell out of there.</text>
 		<event load="AUTO_POWERCORE_BIGBOOM_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="7">
-		<text>(Adv. Engines) Get the hell out of there.</text>
+		<text>(최고급. Engines) Get the hell out of there.</text>
 		<event load="AUTO_POWERCORE_BIGBOOM_ESCAPE_GOOD"/>
 	</choice>
 </event>
@@ -2554,7 +2554,7 @@
 						<event>
 							<text>Your crew flips open the protective casing and smashes the button as fast as they can. Now you can only hope it worked...</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="AUTO_POWERCORE_SAVE"/>
 							</choice>
 						</event>
@@ -2564,7 +2564,7 @@
 						<event>
 							<text>Your crew flips open the protective casing and smashes the button as fast as they can. Now you can only hope it worked...</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="AUTO_POWERCORE_SAVE"/>
 							</choice>
 						</event>
@@ -2574,7 +2574,7 @@
 						<event>
 							<text>Your crew flips open the protective casing and smashes the button as fast as they can. Now you can only hope it worked...</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="AUTO_POWERCORE_SAVE"/>
 							</choice>
 						</event>
@@ -2584,17 +2584,17 @@
 						<event>
 							<text>You rapidly flip through the manual, and sure enough under the section for "Rebel Automated Power Core Explosion Prevention Protocols" it clearly states to press the red button. You relay this to the crew, who flips open the protective casing and smashes the button as fast as they can.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="AUTO_POWERCORE_SAVE"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true" req="engineer">
-						<text>(Enginer Crew) Have your engineer help.</text>
+						<text>(Enginer 선원) Have your engineer help.</text>
 						<event>
 							<text>Your engineer searches deep through their memories and remembers a staff training day where they explained the importance of each button. Recalling the red button was the correct solution, you relay this to the crew who flips open the protective casing and smashes the button as fast as they can.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="AUTO_POWERCORE_SAVE"/>
 							</choice>
 						</event>
@@ -2633,7 +2633,7 @@
 <event name="AUTO_POWERCORE_SAVE">
 	<text>A loud beep emminates from the console. "Emergency Reactor Meltdown Prevention button pressed. Stopping countdown to imminent explosion. Reactor stabilized." By some incredible miracle, it appears you've stopped the explosion.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Engineers are amazed. "I-I didn't even know that button was a thing! You've saved all of us... but why? Why put your life on the line just to save a Rebel facility?"</text>
 			<choice hidden="true">
@@ -2677,7 +2677,7 @@
 					<text>As soon as you attack, the transport jumps away. You prepare to engage the MFK Ace. Be careful - you'll need them to surrender if you want those co-ordinates!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2688,13 +2688,13 @@
 					<text>The Rebel soldiers stare at you, utterly confused. You wait a little longer in desperate hope but, as you should have expected, the Rebels have no intent of giving you the information.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="cloaking" lvl="2">
-				<text>(Upg. Cloaking) Continue to eavesdrop silently.</text>
+				<text>(고급 Cloaking) Continue to eavesdrop silently.</text>
 				<event load="JERRY_QUEST_CLOAK"/>
 			</choice>
 		</event>
@@ -2708,11 +2708,11 @@
 		<event>
 			<text>You distance yourself from the ships.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2730,7 +2730,7 @@
 	<text>You've arrived at the sector exit, but in your way is a large MFK Bomber Ace with a strange pattern. It seems as though the owner wasn't quite sure what rank his ship was supposed to be, and so he abandoned his work half-way through.</text>
 	<ship load="SHIP_JERRY" hostile="false"/>
 	<choice blue="false" max_group="1" req="MORALITY_JERRY" lvl="0" max_lvl="3" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You receive a hail from an average looking human, with a large pair of spectacles and an over-sized commander's uniform. "This is commander Jerry speaking! You're uh, you're that Federation ship. Oh, oh man. Vance told me you might come here, and I cannot disappoint him! I'm sorry, but I have to defeat you! Or... I guess you could just leave, Vance probably wouldn't hear about it..." Jerry lingers on that last thought, as though uncertain whether he should fight you.</text>
 			<choice hidden="true">
@@ -2739,7 +2739,7 @@
 					<text>Though it seems Jerry was willing to spare you, you have decided not to do the same. You prepare to fight!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2757,7 +2757,7 @@
 		</event>
 	</choice>
 	<choice blue="false" max_group="1" req="MORALITY_JERRY" lvl="4">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Upon seeing you, Jerry grows frightened. "You're t-that Fed ship who's been killing all of my friends. My uncle warned me you'd show up, but I didn't think you actually would! I-I'm sorry, but I cannot let you past!"</text>
 			<ship hostile="true"/>
@@ -2810,7 +2810,7 @@
 	<choice hidden="true">
 		<text>Stop shooting.</text>
 		<event>
-			<text>You power off your weapons and watch as Jerry's ship slinks away like an injured puppy. Oh well...</text>
+			<text>You power off your weapons and watch as Jerry's ship slinks away like an injured puppy. 신경쓰지 말자...</text>
 			<ship hostile="false"/>
 		</event>
 	</choice>
@@ -2840,7 +2840,7 @@
 		<event>
 			<text>You sit down at the table and listen to the soldiers tell stories. "That Jerry guy, man oh man. I'm sure glad we came here!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You sit with the soldiers, but the inn-keeper walks by and informs you that, if you intend to stay at the establishment and hold this seat, you have to buy a drink.</text>
 					<choice>
@@ -2903,43 +2903,43 @@
 																		</event>
 																	</choice>
 																	<choice>
-																		<text>Enough is enough, leave.</text>
+																		<text>Enough is enough, 떠난다.</text>
 																		<event/>
 																	</choice>
 																</event>
 															</choice>
 															<choice>
-																<text>Enough is enough, leave.</text>
+																<text>Enough is enough, 떠난다.</text>
 																<event/>
 															</choice>
 														</event>
 													</choice>
 													<choice>
-														<text>Enough is enough, leave.</text>
+														<text>Enough is enough, 떠난다.</text>
 														<event/>
 													</choice>
 												</event>
 											</choice>
 											<choice>
-												<text>Enough is enough, leave.</text>
+												<text>Enough is enough, 떠난다.</text>
 												<event/>
 											</choice>
 										</event>
 									</choice>
 									<choice>
-										<text>Enough is enough, leave.</text>
+										<text>Enough is enough, 떠난다.</text>
 										<event/>
 									</choice>
 								</event>
 							</choice>
 							<choice>
-								<text>Enough is enough, leave.</text>
+								<text>Enough is enough, 떠난다.</text>
 								<event/>
 							</choice>
 						</event>
 					</choice>
 					<choice>
-						<text>Whatever, just leave.</text>
+						<text>Whatever, just 떠난다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2951,11 +2951,11 @@
 		<event>
 			<text>You quickly apologize to the Federation soldiers and leave the inn.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2979,7 +2979,7 @@
 				<event load="JERRY_COLONISTS_STEAL"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_HUMAN">
-				<text>(Human Crew) Have your human pretend to be Rebel personnel and demand supplies.</text>
+				<text>(Human 선원) Have your human pretend to be Rebel personnel and demand supplies.</text>
 				<event>
 					<text>The colonists sigh. "Sure, for the Rebellion I guess. We'll have a shipment of ammunition and scrap ready for you shortly."</text>
 					<autoReward level="MED">missiles</autoReward>
@@ -2992,11 +2992,11 @@
 		<event>
 			<text>You have no business with these people.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3009,7 +3009,7 @@
 		<event>
 			<text>You pry open the boxes, only to find a chocolate cake with 23 unlit candles around it, and a hand-made birthday card. There's nothing in here practical for a military vessel.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_JERRY"/>
 			</choice>
 		</event>
@@ -3033,13 +3033,13 @@
 							<text>You engage the Engineer ship. They try to plead with you, but you mute the comms and attack.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="MORALITY_UPDATE_JERRY_FIGHT"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Leave.</text>
+						<text>떠난다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -3054,13 +3054,13 @@
 							<text>You engage the Engineer ship. They try to plead with you, but you mute the comms and attack.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="MORALITY_UPDATE_JERRY_FIGHT"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Leave.</text>
+						<text>떠난다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -3080,7 +3080,7 @@
 			<text>You engage the Engineer ship. They try to plead with you, but you mute the comms and attack.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_JERRY_FIGHT"/>
 			</choice>
 		</event>
@@ -3090,11 +3090,11 @@
 		<event>
 			<text>You worry not about the Engineers.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3122,7 +3122,7 @@
             <text>"I am Tom, the true protector of this sector! That naive idiot has no idea how the Rebellion works, he's only in charge because his nepotism supporting uncle loves him so much! Well I'll show that bastard what for... after I kill you!"</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -3133,7 +3133,7 @@
             <text>"Ahaha! I've found you! You fool. Wait until Vance hears you're working aboard a Federation ship! Finally, your uncle will stop caring about you and get back to work on running this Rebellion!"</text>
             <ship hostile="true"/> 
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -3147,7 +3147,7 @@
 		<event load="DESTROYED_TOM_POD_ACCEPT"/>
 	</choice>
 	<choice hidden="true" req="mind">
-		<text>(Mind Control) Keep the mind control online in-case he does anything bad.</text>
+		<text>(정신 지배l) Keep the mind control online in-case he does anything bad.</text>
 		<event load="DESTROYED_TOM_POD_MIND"/>
 	</choice>
 	<choice hidden="true">
@@ -3184,7 +3184,7 @@
 	<text load="TEXT_ENCOUNTER_MV_JERRY"/>
 	<ship load="SHIP_REBEL_MV_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -3206,7 +3206,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_JERRY"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -3234,7 +3234,7 @@
 	<text load="TEXT_ENCOUNTER_AUTO_JERRY"/>
 	<ship load="SHIP_AUTO_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>

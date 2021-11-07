@@ -49,11 +49,11 @@
 		<event>
 			<text>You've decided to use this beacon to do something aboard the ship instead.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -83,12 +83,12 @@
 		<event>
 			<text>"Mental health is no laughing matter. Depression can be tough to go through, but just remember that you aren't alone. No matter where you are in life, you can't give up. Your family and friends are here for you. If you or a loved one is struggling with depression or suicidal thoughts, seek help and don't let it go untreated."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You wait for some dramatic twist or punchline, but nothing comes. Turns out, mental health is serious business. The Leeches offer you some scrap as thanks for listening, and hope you'll take this advice to heart.</text>
 					<autoReward level="LOW">scrap_only</autoReward>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event/>
 					</choice>
 					<choice hidden="true" req="clonebay">
@@ -103,15 +103,15 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>Important message, important shmessage. It probably isn't that important enough for you to care.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -125,7 +125,7 @@
 	<environment type="asteroid"/>
 	<ship load="SHIP_LEECH_SMALL" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Please help! I have been drafted into the military, but I know it is nothing but a death sentence. I still have my whole life ahead of me! Please take me with you!"</text>
 			<choice>
@@ -140,7 +140,7 @@
 					<text>The Leech apparently won't take no for an answer. After a few more refusals and insults he eventually turns hostile and attacks!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -178,7 +178,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ROCK_FAITHFUL">
-				<text>(Theocracy Crew) Request repairs and supplies.</text>
+				<text>(Theocracy 선원) Request repairs and supplies.</text>
 				<event>
 					<text>The spiritual always seem to provide help for those of their own kind, though you don't suppose they would be so generous if your Rockman revealed he no longer served the Theocracy.</text>
 					<autoReward level="MED">standard</autoReward>
@@ -197,7 +197,7 @@
 			<text>You draw your weapons and engage.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -207,11 +207,11 @@
 		<event>
 			<text>The Theocracy isn't exactly friends with the Federation, and you can never know how their clergy might respond to your presence.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -230,15 +230,15 @@
 		<event load="LEECH_MINERS_HAIL"/>
 	</choice>
 	<choice>
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>Whatever this settlement has to offer isn't worth enduring the already present asteroid hazard. You prepare the next jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -257,7 +257,7 @@
 		<text>In response to your attack approach, the settlement has dispatched a ship to retaliate!</text>
 		<ship load="SHIP_LEECH_SETTLEMENT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -306,13 +306,13 @@
 			<text>The minute you approach the outpost, a Vampweed ship detaches and attacks! You know they can be territorial, but this is quite an extreme reaction! Maybe you can reason with these guys after roughing them up a bit.</text>
 			<ship load="SHIP_VAMPWEED_LEECH_GARDEN" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_VAMPWEED">
-		<text>(Vampweed Crew) Request access to the outpost.</text>
+		<text>(Vampweed 선원) Request access to the outpost.</text>
 		<event load="LEECH_GARDEN_VISIT"/>
 	</choice>
 	<choice>
@@ -320,11 +320,11 @@
 		<event>
 			<text>It might be a stunning garden for sure, but make no mistake that the Vampweeds are your ally. If they have any reason to attack you, chances are they will.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -352,7 +352,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -369,7 +369,7 @@
 					<text>The revolutionaries are outraged. "You have no place in this, Federation captain! These morons support a leader so incompetent he gave the corpses of dead children to the admiral of one of the strongest military powers as part of a show of 'peace'!" Furious, a band of fellow revolutionary Leeches gather and attack your ship!</text>
 					<ship load="SHIP_LEECH_TAVERN_REVOLUTIONARY" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -380,7 +380,7 @@
 					<text>The loyalists are outraged. "So the Federation's decided to support these morons? Don't you realize this revolution is only going to perpetuate the same miserable cycle we've been stuck in for centuries?" Furious, a band of fellow loyalist Leeches gather and attack your ship!</text>
 					<ship load="SHIP_LEECH_TAVERN" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -399,11 +399,11 @@
 		<event>
 			<text>No need to go visiting random taverns. Place probably smells like hell too if it's full of Leeches.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -422,7 +422,7 @@
 					<text>This'll make a good target. Hopefully the Coalition will be satisfied with this kill.</text>
 					<ship load="SHIP_LEECH_FEDUP_NORMAL" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -433,7 +433,7 @@
 					<text>This'll make a good target. Hopefully the Coalition will be satisfied with this kill.</text>
 					<ship load="SHIP_LEECH_FEDUP_REVOLUTIONARY" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -444,17 +444,17 @@
 					<text>This'll make a good target. Hopefully the Coalition will be satisfied with this kill.</text>
 					<ship load="SHIP_LEECH_FEDUP_AMPERE" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_LEECH">
-				<text>(Leech Crew) Your Leech knows the location of the nearest standing orphanage.</text>
+				<text>(Leech 선원) Your Leech knows the location of the nearest standing orphanage.</text>
 				<event>
 					<text>Your Leech leads you to the location of one the last few standing orphanages. They seem surprisingly okay with the notion of destroying it, so you hesitate no longer to burn it to the ground. The Coalition captain launches into a fit of uncontrollable laughter.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"You actually did it? Ohhhh man, that felt sssso good to watch. I think I peed a little... or at leasssst I hope that'sss pee. Doesn't matter. You are an elite sssslayer of Leechesss! I think I will come with you in hopesss we can do thisss more often..."</text>
 							<crewMember amount="1" class="sabo"/>
@@ -476,7 +476,7 @@
 			<text>"Oh crap, forgot you were a Fed. Oh well, guessss I can take sssolace in blowing you up. Jusssst pretend you're an orphan, alright?"</text>
 			<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -486,11 +486,11 @@
 		<event>
 			<text>Apparently the Slug is so caught up in his ranting he doesn't even notice you flying away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -512,7 +512,7 @@
 					<text>You power the weapons and attack the Slug ship.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -538,11 +538,11 @@
 		<event>
 			<text>This "business" is disgusting, but it's also none of your business either. If these Leeches want to go end their lives on that rock, then let them.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -581,7 +581,7 @@
 				<event>
 					<text>"O-oh that won't be necessary... Er, actually. You know what, go ahead." The Leech ship quickly jumps away.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="LEECH_LITTERING_WIN"/>
 					</choice>
 				</event>
@@ -592,13 +592,13 @@
 					<text>The Leech ship panicks, frightened by the responsibility now placed on them. They power up their weapons!</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_ORCHID_CREW">
-				<text>(Orchid Crew) Lecture the Leeches.</text>
+				<text>(Orchid 선원) Lecture the Leeches.</text>
 				<event>
 					<text>"Okay, okay. You know what, we're sorry, we're sorry. Please just stop talking to us. You're the police or something? You know we gotta dispose of these bodies somehow! Oh... I said too much..." The Leeches offer you a bribe if you don't tell anyone what they're up to. Your Orchid disapproves, but what are they going to do about it?</text>
 					<autoReward level="MED">standard</autoReward>
@@ -607,15 +607,15 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>Littering is despicable, but you aren't willing to say anything about it. Way to contribute to the problem...</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -669,7 +669,7 @@
 	<img back="BACK_EVENT_LIGHTNEBULA"/>
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -678,7 +678,7 @@
 	<ship load="SHIP_LEECH_FIGHT" hostile="true"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -696,7 +696,7 @@
 	<ship load="SHIP_LEECH_FIGHT" hostile="true"/> 
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -707,7 +707,7 @@
 	<img back="BACK_EVENT_LIGHTNEBULA"/>
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -716,7 +716,7 @@
 	<ship load="SHIP_ALKRAM_FIGHT" hostile="true"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -733,7 +733,7 @@
 	<ship load="SHIP_ROCK_FIGHT" hostile="true"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -750,7 +750,7 @@
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -759,7 +759,7 @@
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -774,7 +774,7 @@
 	<text>According to the stories, Tyrdeo pissed off the Vampweed Admiral so much by handing him a handpicked bouquet of flowers during a diplomatic meeting, that he outright declared war on their entire species. Hilarious story yes, but unfortunately the Vampweeds are the exact opposite of their Floral brethren and aren't quite so hesitant to attack passerbys like yourself!</text>
 	<ship load="SHIP_VAMPWEED_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -814,11 +814,11 @@
 		<event>
 			<text>The Zoltan can deal with their own problems. Traveling through Leech space is dangerous enough.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -833,17 +833,17 @@
 			<text>You've seen enough - time to put a stop to this!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="weapons" lvl="6">
-		<text>(Upg. Weapons) Threaten the slavers.</text>
+		<text>(고급 무기실) Threaten the slavers.</text>
 		<event>
 			<text>Apparently, the slavers weren't prepared to see a well armed Federation ship out here. They quickly hurry back to their ship and take off.</text> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LEECH_DELIGATE_CAMP_WIN"/>
 			</choice>
 		</event>
@@ -863,11 +863,11 @@
 		<event>
 			<text>It's risky getting involved with slavers. Tiiikaka isn't known for showing mercy, and you don't want to get caught on their bad side.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -907,7 +907,7 @@
 							<text>"Hey! I said not to do that! Alright, now you're in for it!" You detect a distress signal being broadcast from the shuttle, and moments later an Ampere ship jumps in. "You been touching my son? I'm going carve out your skull and use it to drink my regurgitated bile!"</text>
 							<ship load="SHIP_LEECH_GRAPHITI_DAD" hostile="true"/> 
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -922,7 +922,7 @@
 									<text>"Wait crap, please don't! He'll be super mad! I'll kill you!" The Leech ship attacks!</text>
 									<ship load="SHIP_LEECH_GRAPHITI" hostile="true"/> 
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -930,7 +930,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="mind">
-						<text>(Mind Control) Give us the cargo.</text>
+						<text>(정신 지배l) Give us the cargo.</text>
 						<event>
 							<text>The Leech struggles for a few moments, the uncontained power of teenaged angst rivaling that of one of the most sophisticated manipulative technologies in the galaxy. Inevitably, he gives in. "I think I will give you the cargo. And, I will learn to respect my elders."</text>
 							<choice hidden="true">
@@ -940,7 +940,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="weapons" lvl="6">
-						<text>(Upg. Weapons) Pull a trick shot and start blasting up all the asteroids.</text>
+						<text>(고급 무기실) Pull a trick shot and start blasting up all the asteroids.</text>
 						<event>
 							<text>Losing all self control and embracing your inner wild-side, you spin the ship around in circles, blasting up countless hundreds of asteroids. The Leeches are not longer quite so unphazed. "Dude, I think this guy is a psychopath. What the actual hell even WAS that?" The Leeches hand over the cargo, afraid you might snap at any moment and kill them too.</text>
 							<choice hidden="true">
@@ -958,11 +958,11 @@
 		<event>
 			<text>You aren't an errand-man. They might not have their cargo, but this ship is more than capable of handling some teenagers.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1043,7 +1043,7 @@
 	<status type="loss" target="player" system="sensors" amount="1"/>
 	<ship load="SHIP_LEECH_ELITE_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1067,7 +1067,7 @@
 		<text>The Ampere vessel has been defeated.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ALKRAM_MEET_WIN"/>
 		</choice>
 	</destroyed>
@@ -1075,7 +1075,7 @@
 		<text>The Ampere vessel has been defeated.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ALKRAM_MEET_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1094,21 +1094,21 @@
 			<text>The strange vessel seems to be a battleship of some sort, bearing the paint of a Leech general. You can't look at it for long however, because an Ampere vessel has spotted you and assumes you're hostile!</text>
 			<ship load="SHIP_AMPERE_ALKRAM" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>It's far too risky to get any closer to the conflict. You put as much distance from yourself to the other fleet ships as possible.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1151,7 +1151,7 @@
 		<text>The mighty vessel has been defeated - not even the strongest ship in the Eargen military could withstand your power.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="TYRDEO_PALACE_ENTER"/>
 		</choice>
 	</destroyed>
@@ -1159,7 +1159,7 @@
 		<text>The mighty vessel has been defeated - not even the strongest ship in the Eargen military could withstand your power.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="TYRDEO_PALACE_ENTER"/>
 		</choice>
 	</deadCrew>
@@ -1184,7 +1184,7 @@
 	<img back="BACK_EVENT_LEECHCAP" planet="NONE"/>
 	<text>This is the location Alkram described for certain - it's impossible to mistake the giant palace with its blinding beacon of light. With how run down the rest of Leech space is, it seems impossible something so well constructed could be here, but then again if it wasn't maybe the place wouldn't be the way it is.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>A fleet of revolutionary vessels have gathered around the palace, matched in equal force by the few remaining Eargen loyalists, as well as Inquisition and Coalition vessels. No one's managed to breach the mansion's security, and you can see why. A massive Ampere Dreadnaught protects the barrier around the structure, and it's no small threat. When you hear the stories of ancient massive Leech vessels, this is what they're talking about.</text>
 			<ship load="SHIP_LEECH_DREADNAUGHT" hostile="false"/> 
@@ -1194,7 +1194,7 @@
 					<text>The massive war vessel lurches towards you as you approach. Time to put the myths to the test.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1212,7 +1212,7 @@
 	<text>With the Dreadnaught downed, the barrier falls in a matter of minutes and revolutionaries swarm the palace grounds. In the heat of the conflict you manage to slip past the rest of the defenses and enter the mansion.</text>
 	<hiddenAug>ACH_BOSS_LEECHDREAD</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Few guards remain inside, all occupied handling the invaders on the exterior. You manage to break your way into Tyrdeo's bedchambers where you see the sickly purple worm nervously watching the conflict from his window. This is Tyrdeo.</text>
 			<choice hidden="true">
@@ -1226,11 +1226,11 @@
 							<unlockCustomShip silent="false">PLAYER_SHIP_LEECH</unlockCustomShip>
 							<autoReward level="HIGH">stuff</autoReward>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Tyrdeo is dragged out to the courtyard where you see most of the fighting has already stopped. Seeing the president captured, the last of the loyalists surrender. Tyrdeo is strung up in front of the crowd of jeering Leeches as he continues to sob. Even some of the Coalition and Inquisition officers join in. Tyrdeo pleads, "Heavens, is this really necessary? You were the ones that put me in charge, I only tried to help!" Tyrdeo lets out a giant sob. "I know it was stupid to give the Vampweeds flowers, but I was only trying to make friends! Joining the Coalition seemed the best way to stabilize the nation! What was I to do? I was a landscaper before this! And a bad one! Why did you put me in charge?!"</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>Alkram cuts Tyrdeo off and stands before the crowd. "Enough of your crying. Be a man. I faced down Engi war machines and Zoltan peacekeepers in that war, while you were busy trimming hedges! You had your chance, but it's time the Eargen Republic had a competent leader for once!" The crowd joins in, chanting and practically drooling at the mouth for the prospect of killing the former President. In one final effort, Tyrdeo turns to you, pleading. "Please, I know I made mistakes, I know the Coalition is your enemy, but you can't let them do this! I don't want to be president anymore, I never did! I just want to live!"</text>
 											<choice hidden="true">
@@ -1238,11 +1238,11 @@
 												<event>
 													<text>Tyrdeo squeals in fear as his fate is sealed. He is cut free and flung into the crowd, where he is torn to shreds by his former disciples. A gruesome end beyond all doubt. Alkram watches in what you assume is disgust. Ironic considering he played the hand of fate there, but perhaps he's envisioning himself in that position if he screws up himself.</text>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>With Tyrdeo dead, the remaining Coalition and Inquisition forces flee, leaving only you and the Leeches. Alkram begins to make a speech, "For too long the Republic has been stifled by incompetency. It's time a TRUE leader takes the crown, and I could think of no one better than mysel-" Alkram is cut off by the crowd, who begins to boo again. Seems the Leeches have finally caught onto their situation. Cycles and cycles of the same thing over and over, and they're done with it. Alkram backs down, terrified that he's about to meet the same fate.</text>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
 																	<text>"Uh, did I say myself? Sorry, I didn't mean that. What I meant to say was that I think it's time the Republic finally elect a president for the first time since it was founded! But I'm afraid I musn't take part. I've gotten old. It's time I retire. Goodbye." Alkram slithers off the stage over to you. "This has been a disaster. But I've done my part. At least the Republic might finally see better days. Are you in need of a fighter? I have gotten older, but I'm still more than competent."</text>
 																	<hiddenAug>ACH_CREW_ALKRAM</hiddenAug>
@@ -1311,7 +1311,7 @@
 							<text>"Then you are a waste of my time... I see no reason to keep you alive any longer."</text>
 							<ship hostile="true"/> 
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1324,7 +1324,7 @@
 					<text>"Then you are a waste of my time... I see no reason to keep you alive any longer."</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1337,7 +1337,7 @@
 			<text>There's no point in waiting for the inevitable, you better attack first and attack fast!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1347,11 +1347,11 @@
 		<event>
 			<text>The ship seems too slow to follow even if it had noticed you, so you quickly slip away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1387,21 +1387,21 @@
 			<text>Get ready for a rough fight - if the Inquisition needs you to take care of it then it must be no ordinary threat.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>Inquisition be damned, there's no reason to go risking life over limb for some Rockmen who'll probably stab you in the back anyways.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>

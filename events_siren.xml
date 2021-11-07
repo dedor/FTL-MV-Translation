@@ -3,7 +3,7 @@
 	<text>Before you even have time to react, a foreign vessel comes barreling towards you! You've never seen or heard of a ship like this, but you don't have time to question it, get ready to fight!</text>
 	<ship load="SHIP_SIREN_UNKNOWN" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
