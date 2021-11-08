@@ -506,7 +506,7 @@
 	<powerList>
 		<power>산소를 느리게 공급 [산소 공급실이 없는 함선에서는 기능하지 않음]</power>
 		<power>화재로부터 75%의 피해를 더 받음</power>
-		<power>같은 선실에 있는 적 선원이 최대체력을 15% 잃고 환경으로부터 10%의 피해를 더 받음 Enemy crew in the same room lose 15% health and take 10% more damage from hazards</power>
+		<power>같은 선실에 있는 적 선원이 최대체력을 15% 잃고 환경으로부터 10%의 피해를 더 받음</power>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - Leaves -->
@@ -541,14 +541,14 @@
 <crewBlueprint name="shell">
 	<title>셸</title>
 	<short>Shell</short>
-	<desc>슬러그의 먼 사촌인 셸은 특유의 폭발하는 특성을 가지고 있지만 산소에 크게 의존합니다.</desc>
+	<desc>슬러그의 먼 사촌인 셸은 특유의 폭발하는 특성을 가지고 있으며 많은 양의 산소를 필요로 합니다.</desc>
 	<cost>45</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.9배의 피해만을 받음</power>
-		<power>활성화 능력: 격렬하게 연소하여 스스로 큰 피해를 입지만 주변의 적 선원과 시스템에 피해를 주고 이후 체력을 느리게 회복합니다.</power>
+		<power>활성화 능력: 격렬하게 연소하여 스스로 큰 피해를 입지만, 주변의 적 선원과 시스템에 피해를 주고 잠시동안 체력을 느리게 회복합니다.</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -572,14 +572,14 @@
 <crewBlueprint name="shellmedic">
 	<title>셸 과학자</title>
 	<short>Scientist</short>
-	<desc>셸 과학자들은 주변의 아군에게 의료 지원을 제공하기 위해 유전적으로 조작되었으며, 자유시간에는 생명의 비밀을 밝히기 위해 열심히 연구합니다.</desc>
+	<desc>셸 과학자들은 주변의 아군에게 의료 지원을 제공하기 위해 유전적으로 조작되었으며, 자유시간에는 생명의 비밀을 밝히기 위해 연구에 열중합니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.9배의 피해만을 받음</power>
-		<power>활성화 능력: 연소하여 스스로 큰 피해를 입지만 주변의 아군 선원을 완전히 회복시키고 이후 체력을 느리게 회복합니다.</power>
+		<power>활성화 능력: 연소하여 스스로 큰 피해를 입지만, 주변의 아군 선원을 완전히 회복시키고 잠시동안 체력을 느리게 회복합니다.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="shellrepair">
@@ -592,7 +592,7 @@
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.9배의 피해만을 받음, 평범하게 수리할 수 없음</power>
-		<power>활성화 능력: 연소하여 스스로 큰 피해를 입지만 배치된 선실을 완전히 수리하고 이후 체력을 느리게 회복.</power>
+		<power>활성화 능력: 연소하여 스스로 큰 피해를 입지만, 배치된 선실을 완전히 수리하고 잠시동안 체력을 느리게 회복합니다.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="shellguardian">
@@ -605,7 +605,7 @@
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.7배의 피해만을 받음</power>
-		<power>활성화 능력: 스스로 더 큰 피해를 입지만 적에게 30의 선원 피해와 2의 시스템 피해를 주며, 이후 체력을 회복하는 대신 자신을 일시적으로 요새화하여 능력 발동 시간동안 0.3배의 피해만을 받습니다.</power>
+		<power>활성화 능력: 스스로 큰 피해를 입지만 적에게 30의 선원 피해와 2의 시스템 피해를 주며, 체력을 회복하는 대신 자신을 일시적으로 요새화하여 잠시동안 0.3배의 피해만을 받습니다.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -750,7 +750,7 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="commando">
-	<desc>평화적인 방법으로는 잘 알려지지 않았지만 로스트 선 특공대는 전투에 늘 진심입니다.</desc>
+	<desc>평화적인 방법으로는 잘 알려져 있지 않지만, 로스트 선 특공대는 전투에 늘 진심입니다.</desc>
 	<title>로스트 선 특공대</title>
 	<short>Commando</short>
 	<cost>60</cost>
@@ -892,7 +892,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>체력이 낮을 때 박스에 숨어 전투로부터 10%의 피해만을 받지만 체력을 절반 회복하여 다시 박스에서 나올 때까지 아무것도 할 수 없게 됨</power>
+		<power>체력이 낮을 때 박스에 숨어 전투로부터 10%의 피해만을 받게 됨. 단, 체력을 절반까지 회복하여 다시 박스에서 나올 때까지 아무것도 할 수 없음.</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -915,7 +915,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>체력이 낮을 때 박스에 숨어 전투로부터 10%의 피해만을 받지만 체력을 절반 회복하여 다시 박스에서 나올 때까지 아무것도 할 수 없게 됨</power>
+		<power>체력이 낮을 때 박스에 숨어 전투로부터 10%의 피해만을 받음. 단, 체력을 절반까지 회복하여 다시 박스에서 나올 때까지 아무것도 할 수 없게 됨</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -981,8 +981,8 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>위치한 선실의 적 시스템으로부터 파워 바를 1칸 제한함 [조타실은 제한할 수 없음]</power>
-		<power>일정 시간 피해를 받지 않을 시 체력을 회복함</power>
+		<power>위치한 선실의 적 시스템으로부터 파워 바를 1칸 제한 [조타실은 제한할 수 없음]</power>
+		<power>일정 시간 피해를 받지 않을 시 체력을 회복</power>
 		<power>최대체력 90, 기절 시간이 50% 증가</power>
 	</powerList>
 	<colorList>
@@ -1012,7 +1012,7 @@
 
 <!--SIRENS-->
 <crewBlueprint name="siren">
-	<desc>세이렌은 신비하지만 치명적인 종족으로 주변 존재의 생명력을 흡수합니다.</desc>
+	<desc>세이렌은 신비하고 치명적인 종족으로 주변 존재의 생명력을 흡수합니다.</desc>
 	<title>세이렌</title>
 	<short>Siren</short>
 	<cost>50</cost>
@@ -1048,14 +1048,14 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 선체의 일부를 흡수하여 약간의 선체 피해를 주지만 체력을 회복하고 일시적으로 능력치가 강화됩니다.</power>
+		<power>활성화 능력: 선체의 일부를 흡수하여 약간의 선체 피해를 주지만, 체력을 회복하고 일시적으로 능력치가 강화됩니다.</power>
 		<power>최대 체력 110, 최대 체력이 아닐시 서서히 부식됨</power>
 		<power>배치된 시스템에 전력을 공급, 시스템 파괴 속도 1.2배</power>
 	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="spider">
-	<desc>거대 외계 거미는 농담이 아니에요! 위버로 성장할 수 있습니다.</desc>
+	<desc>거대 외계 거미는 농담이 아니에요! 직공 거미로 성장할 수 있습니다.</desc>
 	<title>거대 외계 거미</title>
 	<short>G.A.S.</short>
 	<cost>30</cost>
@@ -1293,7 +1293,7 @@
 		<power>정신 지배에 면역이고 인접한 선실을 볼 수 있음</power>
 		<power>질식에 면역이며 화재로부터 받는 피해가 감소함</power>
 		<power>전투중이지 않을 때 체력을 회복함, 최대 체력 70, 대인 공격력 1.25배</power>
-		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
+		<power>통제 모드와 해방 모드를 설정할 수 있음. 해방 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="avatara"> <!--automated, should not be sold-->
@@ -1307,7 +1307,7 @@
 		<power>정신 지배에 면역이고 인접한 선실을 볼 수 있음</power>
 		<power>질식에 면역, 화재로부터 받는 피해가 감소함</power>
 		<power>전투중이지 않을 때 체력을 회복, 최대 체력 70, 대인 공격력 1.25배</power>
-		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
+		<power>통제 모드와 해방 모드를 설정할 수 있음. 해방 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1337,7 +1337,7 @@
 -->
 <!--PHANTOMS-->
 <crewBlueprint name="phantom">
-	<desc>이 신비한 가스로 이루어진 존재들은 초자연적인 것처럼 보이는 이상한 특성을 보이지만 실제로 언데드인 것은 아닙니다.</desc>
+	<desc>이 가스로 이루어진 신비한 존재들은 초자연적인 것처럼 보이는 이상한 특성을 가졌지만 실제로 언데드인 것은 아닙니다.</desc>
 	<cost>40</cost>
 	<bp>2</bp>
 	<title>팬텀</title>
@@ -2107,7 +2107,7 @@
 -->
 
 <crewBlueprint name="tully">
-	<desc>이 자가 바로 연방의 제독 툴리입니다. 당신이 알고 있는 거의 모든 기술을 연마한 그는 당신의 가장 강력한 아군입니다.</desc>
+	<desc>이 자가 바로 연방의 제독 툴리입니다. 당신이 알고 있는 거의 모든 기술을 연마한 그는 가장 강력한 아군입니다.</desc>
 	<cost>500</cost>
 	<title>제독</title>
 	<short>Admiral</short>
@@ -2136,7 +2136,7 @@
     <short>Defender</short>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 자신을 포함한 같은 선실에 있는 모든 선원에게 방어막 부여하여 10%의 피해만을 입도록 하고 수리 속도를 4배로 만듭니다.</power>
+        <power>활성화 능력: 자신을 포함한 같은 선실의 모든 선원에게 방어막을 부여하여 10%의 피해만을 입도록 하고 수리 속도를 4배로 만듭니다.</power>
         <power>최대 체력 115, 같은 선실에 있는 선원의 수리 속도를 50% 증가시킴</power>
         <power>수리속도 0.1배, 대인 공격력 0.8배</power>
         <power>모든 스킬을 20% 빠르게 익힘</power>
@@ -2312,7 +2312,7 @@
     <bp>4</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>같은 선실 안에 있는 적 선원마다 따라 대인 공격력이 증가하지만 이동속도가 감소함</power>
+        <power>같은 선실 안에 있는 적 선원마다 대인 공격력이 증가하지만 이동속도가 감소함</power>
 		<power>전투 중이지 않을 시 정상 속도로 이동</power>
 		<power>함내의 모든 아군 망명자는 전투와 수리에 20%의 보너스를 얻음</power>
     </powerList>
@@ -2379,7 +2379,7 @@
 	<rarity>0</rarity>
 	<powerList>
 		<power>일반 거미보다 큰 값의 대인 공격력, 최대 체력, 수리속도를 가짐</power>
-		<power>빈 신호소에서 새끼를 낳을 수 있고 같은 함선에 있는 모든 거미를 상시 조종할 수 있게 만듦</power>
+		<power>빈 송신소에서 새끼를 낳을 수 있고, 같은 함선에 있는 모든 거미를 상시 조종할 수 있게 만듦</power>
 		<power>활성화 능력: 같은 선실에 있는 모든 거미 선원의 체력을 회복시키고 이동 속도를 증가시킵니다.</power>
 	</powerList>
 	<colorList>
@@ -2430,7 +2430,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="emperor">
-	<desc>겉으로 잘 들어나지는 않지만, 크리스탈들이 충성을 바치는 여제입니다.</desc>
+	<desc>겉으로 잘 드러나지는 않지만, 크리스탈들이 충성을 바치는 여제입니다.</desc>
 	<title>크리스탈 여제</title>
 	<short>Empress</short>
 	<cost>120</cost>
@@ -2533,7 +2533,7 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="freddy">
-	<desc>자유 맨티스 운동의 선구자중 한명이며, 평범한 사람처럼 행동할 수 있는 몇 안되는 맨티스중 하나입니다.</desc>
+	<desc>독립 맨티스 운동의 선구자중 한명이며, 평범한 사람처럼 행동할 수 있는 몇 안되는 맨티스중 하나입니다.</desc>
 	<title>프레디</title>
 	<short>Freddy</short>
 	<cost>95</cost>
@@ -2660,7 +2660,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="nights">
-	<desc>악명 높은 나이트 대장. 그는 아마도 여기가 아닌 다른곳을 원하지만 아직 여기에 있습니다.</desc>
+	<desc>악명 높은 나이트 대장. 그는 아마도 여기가 아닌 다른곳을 원할 테지만 아직 여기에 있습니다.</desc>
 	<title>캡틴 나이트</title>
 	<short>Nights</short>
 	<cost>150</cost>
@@ -2880,7 +2880,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="sylvanleah">
-    <desc>이런, 낯썬 썅놈! Beyatch, ssstranger!</desc>
+    <desc>이런 썅, 낯선놈! Beyatch, ssstranger!</desc>
     <title>Traveling Nuisance</title>
     <short>Traveling Nuisance</short>
     <cost>999</cost>
@@ -3011,7 +3011,7 @@
     <tip>tip_toggle_crew</tip>
     <title>가나</title>
     <short>Gana</short>
-    <desc>[현재 모드: 선원] 아카이브 주식회사에서 만든 유용한 보조 드론. 약간의 오작동을 보이고 끊임없이 "시스템"에 대해 불평하는것 같습니다. 아마 이것이 가나가 당신에게 주어진 이유겠죠.A helpful assistant drone created by Archive Inc. Seems to be slightly malfunctioning and constantly complaining about "systems", which is probably why he was given to you.
+    <desc>[현재 모드: 선원] 아카이브 주식회사에서 만든 유용한 보조 드론. 약간의 오작동을 보이며 "시스템"에 대해 끊임없이 불평하는것 같습니다. 아마 이것이 가나가 당신에게 주어진 이유겠죠.A helpful assistant drone created by Archive Inc. Seems to be slightly malfunctioning and constantly complaining about "systems", which is probably why he was given to you.
     
 -대인 공격력 2배, 이동속도 1.75배
 -화재와 기절에 면역
@@ -3028,7 +3028,7 @@
     <locked>1</locked>
     <title>가나</title>
     <short>Gana</short>
-    <desc>[현재 모드: 강습] 아카이브 주식회사에서 만든 유용한 보조 드론. 약간의 오작동을 보이고 끊임없이 "시스템"에 대해 불평하는것 같습니다. 아마 이것이 가나가 당신에게 주어진 이유겠죠.
+    <desc>[현재 모드: 강습] 아카이브 주식회사에서 만든 유용한 보조 드론. 약간의 오작동을 보이며 "시스템"에 대해 끊임없이 불평하는것 같습니다. 아마 이것이 가나가 당신에게 주어진 이유겠죠.
     
 -대인 공격력 2배, 이동속도 1.75배
 -화재와 기절에 면역
@@ -3057,7 +3057,7 @@
     <tip>tip_toggle_crew</tip>
     <title>A5540L3</title>
     <short>A5540L3</short>
-    <desc>[현재 모드: 선원] 잘못된 껍데기에 갇혀버린 인공 지능, 해적 선장 A5540L3은 자유를 원하며 어쩌면 초차원간의 영웅이 될 수도 있습니다.
+    <desc>[현재 모드: 선원] 잘못된 껍데기에 갇혀버린 인공 지능, 해적 선장 A5540L3은 자유를 갈구하며 어쩌면 초차원간의 영웅이 될 수도 있습니다.
     
 -최대 체력 150, 대인 공격력 1.5배
 -아군 선원을 초당 2의 속도로 회복시킴
@@ -3074,7 +3074,7 @@
     <locked>1</locked>
     <title>A5540L3</title>
     <short>A5540L3</short>
-    <desc>[현재 모드: 강습] 잘못된 껍데기에 갇혀버린 인공 지능, 해적 선장 A5540L3은 자유를 원하며 어쩌면 초차원간의 영웅이 될 수도 있습니다. Pirate captain A5540L3, a cognitive trapped in a mismatched shell who just wants to be free, and maybe be an interdimensional hero too.
+    <desc>[현재 모드: 강습] 잘못된 껍데기에 갇혀버린 인공 지능, 해적 선장 A5540L3은 자유를 갈구하며 어쩌면 초차원간의 영웅이 될 수도 있습니다. Pirate captain A5540L3, a cognitive trapped in a mismatched shell who just wants to be free, and maybe be an interdimensional hero too.
     
 -최대 체력 150, 대인 공격력 1.5배
 -아군 선원을 초당 2의 속도로 회복시킴
