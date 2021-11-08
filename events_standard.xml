@@ -35,7 +35,7 @@
 		<item type="fuel" min="5" max="5"/>
 	</item_modify>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STORE_LOAD_GENERIC"/>
 	</choice>
 </event>
@@ -777,11 +777,11 @@
 	<store>STORE_STANDARD</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -789,11 +789,11 @@
 	<store>STORE_NOSYS</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -801,11 +801,11 @@
 	<store>STORE_NOCREW</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -813,11 +813,11 @@
 	<store>STORE_ENGI</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -825,11 +825,11 @@
 	<store>STORE_ZOLTAN</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -837,11 +837,11 @@
 	<store>STORE_ORCHID</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -849,11 +849,11 @@
 	<store>STORE_CRYSTAL</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -861,11 +861,11 @@
 	<store>STORE_CRYSTAL_MORECRYSTAL</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -873,11 +873,11 @@
 	<store>STORE_FREEMANTIS</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -886,11 +886,11 @@
 	<store>STORE_ROCK</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -898,11 +898,11 @@
 	<store>STORE_MANTIS</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -910,11 +910,11 @@
 	<store>STORE_DUSK</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -922,11 +922,11 @@
 	<store>STORE_REBEL</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -934,11 +934,11 @@
 	<store>STORE_AUTO</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -946,11 +946,11 @@
 	<store>STORE_COALITION</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -958,11 +958,11 @@
 	<store>STORE_DYNASTY</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -970,11 +970,11 @@
 	<store>STORE_CULTIST</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -982,11 +982,11 @@
 	<store>STORE_ANCIENT</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -995,11 +995,11 @@
 	<store>STORE_PIRATE</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1007,11 +1007,11 @@
 	<store>STORE_SLUG</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1019,11 +1019,11 @@
 	<store>STORE_LEECH</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1031,11 +1031,11 @@
 	<store>STORE_SHELL</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1043,11 +1043,11 @@
 	<store>STORE_LANIUS</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1055,11 +1055,11 @@
 	<store>STORE_AUGMENTED</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1075,7 +1075,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1083,7 +1083,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1097,7 +1097,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1120,7 +1120,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1134,7 +1134,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1157,7 +1157,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1165,7 +1165,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1179,7 +1179,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1202,7 +1202,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1210,7 +1210,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1224,7 +1224,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1247,7 +1247,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1255,7 +1255,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1269,7 +1269,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1292,7 +1292,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1300,7 +1300,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1318,7 +1318,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1336,7 +1336,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</destroyed>
@@ -1344,7 +1344,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1358,7 +1358,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1376,7 +1376,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_CUTLIST_WIN"/>
 		</choice>
 	</destroyed>
@@ -1384,7 +1384,7 @@
 		<text>With the crew dead you quickly salvage what you can.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_CUTLIST_WIN"/>
 		</choice>
 	</deadCrew>
@@ -1398,7 +1398,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1414,7 +1414,7 @@
 	<text>You have rescued the store from their attackers. The store owners offer to trade.</text>
 	<store>STORE_CULTIST</store>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -1424,7 +1424,7 @@
 		<text>The ship breaks apart and you quickly salvage what you can.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_HOSTILE_ANCIENT_WIN"/>
 		</choice>
 	</destroyed>
@@ -1438,7 +1438,7 @@
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1455,7 +1455,7 @@
 	<autoReward level="MED">stuff</autoReward>
 	<store>STORE_ANCIENT</store>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -1464,7 +1464,7 @@
 	<text>You have rescued the store from their attackers. The store owners offer to trade.</text>
 	<store>STORE_STANDARD</store>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -1497,7 +1497,7 @@
 					<text>Your sudden attack sends the other ships running. They probably won't be too willing to trade with you any longer.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 					</choice>
 				</event>
@@ -1519,7 +1519,7 @@
 					<text>Your sudden attack sends the other ships running. They probably won't be too willing to trade with you any longer.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ORCHID_FIGHT"/>
 					</choice>
 				</event>
@@ -1541,7 +1541,7 @@
 					<text>Your sudden attack sends the other ships running. They probably won't be too willing to trade with you any longer.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 					</choice>
 				</event>
@@ -1558,7 +1558,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_OUTPOST"/>
 	</choice>
 </event>
@@ -1580,7 +1580,7 @@
 			<text>There's not much that can be said here to justify your actions, so why bother? Let's keep it short - these civilians are going to die and there's little they can do about it.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -1632,7 +1632,7 @@
 		</event>
 	</choice>
 	<choice req="mind" max_lvl="1" hidden="true">
-		<text>(Mind Control) "Negotiate" an even lower price. [-10~ -> 5{]</text>
+		<text>(정신 지배l) "Negotiate" an even lower price. [-10~ -> 5{]</text>
 		<event>
 			<text>You stock up on fuel then check out the store.</text>
 			<item_modify>
@@ -1646,7 +1646,7 @@
 		</event>
 	</choice>
 	<choice req="mind" lvl="3" hidden="true">
-		<text>(Mind Control) "Negotiate" a free refueling. [5{]</text>
+		<text>(정신 지배l) "Negotiate" a free refueling. [5{]</text>
 		<event>
 			<text>You stock up on fuel then check out the store.</text>
 			<item_modify>
@@ -1659,7 +1659,7 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ENGI" hidden="true">
-		<text>(Engi Crew) Negotiate an alternative payment method. [-3| -> 7{]</text>
+		<text>(Engi 선원) Negotiate an alternative payment method. [-3| -> 7{]</text>
 		<event>
 			<text>You stock up on fuel then check out the store.</text>
 			<item_modify>
@@ -1678,7 +1678,7 @@
 			<text>It's highly unlikely the market will want to trade with you after this, but that won't stop you from harassing random civilians.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -1697,7 +1697,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_MERCHANTS"/>
 	</choice>
 </event>
@@ -1705,11 +1705,11 @@
 	<store>STORE_MERCHANTS_LASERS</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1717,11 +1717,11 @@
 	<store>STORE_MERCHANTS_MISSILES</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1729,11 +1729,11 @@
 	<store>STORE_MERCHANTS_IONS</store>
 	<text>Before you shop, you still have some time to do something else aboard the ship.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1766,7 +1766,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_DAMAGED"/>
 	</choice>
 </event>
@@ -1788,13 +1788,13 @@
 			<text>Despite this ship's friendliness, you've decided to open fire. Hopefully, it's worth it.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="SHIP_REPAIR">
-		<text>(Hull Repair) Fix up their hull. [-1|]</text>
+		<text>(함체 수리 드론) Fix up their hull. [-1|]</text>
 		<event>
 			<text>The ship thanks you for your help, and offers to trade.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -1808,7 +1808,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="REPAIR_ARM">
-		<text>(Repair Arm) Fix up their hull. [-15~]</text>
+		<text>(수리 로봇 팔) Fix up their hull. [-15~]</text>
 		<event>
 			<text>The ship thanks you for your help, and offers to trade.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -2029,7 +2029,7 @@
 							<text>As you look through the store, a dark cloud descends on the planet. An asteroid storm has engulfed the moon, but luckily the bigger ones burn up before they hit the surface. Regardless, there is no option of leaving yet. You wait, and lose a considerable amount of time.</text>
 							<modifyPursuit amount="1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="STORE_LOAD_GENERIC"/>
 							</choice>
 						</event>
@@ -2041,12 +2041,12 @@
 				<event>
 					<text>You look at little and quickly find a market, though business seems to be poor. The shopkeeper seems to be in a rush to lock up for the night, but he lets you look around briefly.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>As you look through the store, a dark cloud descends on the planet. An asteroid storm has engulfed the moon, but luckily the bigger ones burn up before they hit the surface. Regardless, there is no option of leaving yet. You wait, and lose a considerable amount of time.</text>
 							<modifyPursuit amount="1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="STORE_LOAD_GENERIC"/>
 							</choice>
 						</event>
@@ -2054,11 +2054,11 @@
 				</event>
 			</choice>
 			<choice req="LIST_CREW_SLUG" hidden="true">
-				<text>(Slug Crew) The Slug senses distress among the citizens. He advises we hurry.</text>
+				<text>(Slug 선원) The Slug senses distress among the citizens. He advises we hurry.</text>
 				<event>
 					<text>With the knowledge your Slug provides, you're able to gauge that an asteroid storm will strike soon. You quickly hurry into the store and get what you need and leave before the storm hits.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_GENERIC"/>
 					</choice>
 				</event>
@@ -2074,7 +2074,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2097,7 +2097,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_FED_AUTO"/>
 	</choice>
 </event>
@@ -2118,15 +2118,15 @@
 				<event/>
 			</choice>
 			<choice req="LIST_CREW_HARMONY">
-				<text>(Engi Crew) Access an additional Drone offer.</text>
+				<text>(Engi 선원) Access an additional Drone offer.</text>
 				<event load="TRADELIST_DEFENSE_COMMON"/>
 			</choice>
 			<choice req="LIST_CREW_ZOLTAN_CAPITAL">
-				<text>(Zoltan Crew) Access an additional Beam offer.</text>
+				<text>(Zoltan 선원) Access an additional Beam offer.</text>
 				<event load="TRADELIST_BEAM_COMMON"/>
 			</choice>
 			<choice req="LIST_CREW_ORCHID">
-				<text>(Orchid Crew) Access an additional Missile offer.</text>
+				<text>(Orchid 선원) Access an additional Missile offer.</text>
 				<event load="TRADELIST_MISSILE_COMMON"/>
 			</choice>
 		</event>
@@ -2137,7 +2137,7 @@
             <text>As long as it's not full of Federation crew, nothing is going to stop you from ravaging this ship. Honestly, maybe even if it was full of crew, it wouldn't stop you.</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
             </choice>
         </event>
@@ -2168,20 +2168,20 @@
 </event>
 <eventList name="STOREEVENT_FED_MARKET_WAIT">
 	<event>
-		<text>Fortunately for you, no pirates or Rebels make a surprise visit during your shift. You collect your pay and prepare to leave.</text>
+		<text>Fortunately for you, no pirates or Rebels make a surprise visit during your shift. You collect your pay and prepare to 떠난다.</text>
 		<store>STORE_STANDARD</store>
 		<modifyPursuit amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_GENERIC"/>
 		</choice>
 	</event>
 	<event>
-		<text>Fortunately for you, no pirates or Rebels make a surprise visit during your shift. You collect your pay and prepare to leave.</text>
+		<text>Fortunately for you, no pirates or Rebels make a surprise visit during your shift. You collect your pay and prepare to 떠난다.</text>
 		<store>STORE_STANDARD</store>
 		<modifyPursuit amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_GENERIC"/>
 		</choice>
 	</event>
@@ -2191,7 +2191,7 @@
 		<modifyPursuit amount="1"/>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2201,7 +2201,7 @@
 		<modifyPursuit amount="1"/>
 		<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2215,7 +2215,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_FED_OUTPOSTDAMAGE"/>
 	</choice>
 </event>
@@ -2231,7 +2231,7 @@
 		<event load="STORE_LOAD_GENERIC"/>
 	</choice>
 	<choice hidden="true" req="SHIP_REPAIR">
-		<text>(Hull Repair) Fix up their hull. [-1|]</text>
+		<text>(함체 수리 드론) Fix up their hull. [-1|]</text>
 		<event>
 			<text>"That was awfully kind of you. Well now we don't need to worry about repairs, but more scrap never hurts regardless, right?"</text>
 			<store>STORE_STANDARD</store>
@@ -2242,7 +2242,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="REPAIR_ARM">
-		<text>(Repair Arm) Fix up their hull. [-15~]</text>
+		<text>(수리 로봇 팔) Fix up their hull. [-15~]</text>
 		<event>
 			<text>"That was awfully kind of you. Well now we don't need to worry about repairs, but more scrap never hurts regardless, right?"</text>
 			<store>STORE_STANDARD</store>
@@ -2258,7 +2258,7 @@
 			<text>Nothing will stop you from being a merciless ravager of all you come across. Pity the next poor soul to come across you with anything less than an entire armada to protect themselves.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -2281,7 +2281,7 @@
 		<event>
 			<text>The owner of the station glares at you. "I don't know if you've noticed, but we're in the middle of a war. Nothing is free. No one gets special treatment. Best I can offer is a discount on fuel.</text>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="TRADELIST_RESOURCES_FUEL_GENERIC"/>
 			</choice>
 			<choice hidden="true">
@@ -2290,7 +2290,7 @@
 					<text>Your greed has no bounds. Another innocent life for the slaughter block in your unrelenting quest for wealth.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
@@ -2324,7 +2324,7 @@
 			<text>You power up your weapons in response, and the Engi springs into action. Prepare for battle!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 			</choice>
 		</event>
@@ -2335,11 +2335,11 @@
 			<text>The Engi holds back for a few moments, then powers down their weapons. "Apologies if Federation vessel was concerned. Early show of aggression critical for deterrence of pirate vessels." The Engi explain that they are merchants and offer to trade.</text>
 			<store>STORE_ENGI</store>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2353,7 +2353,7 @@
 	</beaconType>
 	<text>The Engi can do remarkable things with just a pile of scrap. The Engi dronesmith at the small market nearby is offering to craft Drone schematics for anyone willing to pay.</text>
 	<choice req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Ask for some free drone parts.</text>
+		<text>(Engi 선원) Ask for some free drone parts.</text>
 		<event>
 			<store>STORE_ENGI_MOREDRONES</store>
 			<item_modify>
@@ -2367,11 +2367,11 @@
 			<text>You ignore the dronesmith and visit the market.</text>
 			<store>STORE_ENGI_MOREDRONES</store>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2396,18 +2396,18 @@
 			<text>Unfortunately for these Engi, they won't be going home without going through you first.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="engines" lvl="5">
-		<text>(Adv. Engines) Allow them to scan your engines to better optimize theirs.</text>
+		<text>(최고급. Engines) Allow them to scan your engines to better optimize theirs.</text>
 		<event>
 			<text>"Gratitude. Upgrades will be cheaper: necessity of scrap still present. Purchasing items of merit to your vessel will provide further benefit to Engi cause."</text>
 			<drone name="RANDOM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_ENGI"/>
 			</choice>
 		</event>
@@ -2418,7 +2418,7 @@
 			<text>"Gratitude. Upgrades will be cheaper: necessity of scrap still present. Purchasing items of merit to your vessel will provide further benefit to Engi cause."</text>
 			<drone name="RANDOM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_ENGI"/>
 			</choice>
 		</event>
@@ -2429,7 +2429,7 @@
 			<text>"Gratitude. Upgrades will be cheaper: necessity of scrap still present. Purchasing items of merit to your vessel will provide further benefit to Engi cause."</text>
 			<drone name="RANDOM"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_ENGI"/>
 			</choice>
 		</event>
@@ -2459,7 +2459,7 @@
                             <environment type="PDS" target="enemy"/>
                             <ship load="SHIP_SEPERATIST_FIGHT" hostile="true"/>
                             <choice hidden="true">
-                                <text>Continue...</text>
+                                <text>계속...</text>
                                 <event load="COMBAT_CHECK"/>
                             </choice>
                         </event>
@@ -2469,17 +2469,17 @@
                         <event load="STOREEVENT_ENGI_PESTER_LIE"/>
                     </choice>
                     <choice hidden="true" req="LIST_CREW_HARMONY">
-                        <text>(Harmony Crew) Convince the Engi these are not Separatists.</text>
+                        <text>(Harmony 선원) Convince the Engi these are not Separatists.</text>
                         <event>
                             <text>"Confirmation suggests prior theory was incorrect. Thank you for your evaluation." Now satisfied, the Engi allow the "not Separatists" in to trade. Realizing you must have vouched for them, the Separatists discreetly offer you a gift while browsing the marketplace.</text>
                             <store>STORE_ENGI</store>
                             <autoReward level="MED">stuff</autoReward>
                             <choice>
-                                <text>Do something onboard the ship.</text>
+                                <text>함선에서 무언가를 한다.</text>
                                 <event load="STORAGE_CHECK"/>
                             </choice>
                             <choice>
-                                <text>Do nothing.</text>
+                                <text>아무것도 하지 않는다.</text>
                                 <event/>
                             </choice>
                         </event>
@@ -2492,11 +2492,11 @@
                     <text>The owners of the store turn their lack-of-attention away from the vessel and focus on you. They briefly welcome you and show you where the goods are, then go back to ignoring the other ship.</text>
                     <store>STORE_ENGI</store>
                     <choice>
-                        <text>Do something onboard the ship.</text>
+                        <text>함선에서 무언가를 한다.</text>
                         <event load="STORAGE_CHECK"/>
                     </choice>
                     <choice>
-                        <text>Do nothing.</text>
+                        <text>아무것도 하지 않는다.</text>
                         <event/>
                     </choice>
                 </event>
@@ -2509,11 +2509,11 @@
             <text>The owners of the store turn their lack-of-attention away from the vessel and focus on you. They briefly welcome you and show you where the goods are, then go back to ignoring the other ship.</text>
             <store>STORE_ENGI</store>
             <choice>
-                <text>Do something onboard the ship.</text>
+                <text>함선에서 무언가를 한다.</text>
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -2524,7 +2524,7 @@
 		<text>"Confirmation suggests prior theory was incorrect. Thank you for your evaluation." Now satisfied, the Engi allow the "not Separatists" in to trade. Realizing you must have vouched for them, the Separatists discreetly offer you a gift while browsing the marketplace.</text>
 		<autoReward level="MED">stuff</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ENGI"/>
 		</choice>
 	</event>
@@ -2534,7 +2534,7 @@
 		<environment type="PDS" target="player"/>
 		<ship load="SHIP_ENGI_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2555,7 +2555,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_ZOLTAN_MERCHANT"/>
 	</choice>
 </event>
@@ -2571,14 +2571,14 @@
 		<event load="STORE_LOAD_ZOLTAN"/>
 	</choice>
 	<choice req="LIST_CREW_ZOLTAN_CAPITAL" hidden="false">
-		<text>(Zoltan Crew) "Under military requisition act 84-B, we possess the right to collect a small tribute from all Ministry merchant vessels."</text>
+		<text>(Zoltan 선원) "Under military requisition act 84-B, we possess the right to collect a small tribute from all Ministry merchant vessels."</text>
 		<event>
 			<text>The merchant glares at your crew. "Yes, yes... 84-B..." The ship transfers over some supplies, but doesn't seem all too willing to trade anymore.</text>
 			<autoReward level="HIGH">item</autoReward>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_DUSK" hidden="true">
-		<text>(Duskbringer Crew) Antagonize the merchant for goods.</text>
+		<text>(Duskbringer 선원) Antagonize the merchant for goods.</text>
 		<event load="STOREEVENT_ZOLTAN_MERCHANT_THREAT"/>
 	</choice>
 </event>
@@ -2587,7 +2587,7 @@
 		<text>Unfortunately for you, the stereotype of Zoltans taking crap from noone applies to this ship as well. No one's getting anything out of them without a fight!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 		</choice>
 	</event>
@@ -2595,7 +2595,7 @@
 		<text>"Fascist scum, working aboard a Federation vessel. Oh the number of protocols this violates, not to mention the ethical quandries! Fine, take my goods. But the Ministry will hear of this!"</text>
 		<autoReward level="MED">weapon</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="MORALITY_UPDATE_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2621,18 +2621,18 @@
 					<text>The Engi go to work on your hull. It's enough to keep you going for a while longer.</text>
 					<damage amount="-7"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ENGI"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_HARMONY">
-				<text>(Harmony Crew) Request more free repairs. [10$]</text>
+				<text>(Harmony 선원) Request more free repairs. [10$]</text>
 				<event>
 					<text>The Engi go to work on your hull. It's enough to keep you going for a while longer.</text>
 					<damage amount="-10"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ENGI"/>
 					</choice>
 				</event>
@@ -2646,7 +2646,7 @@
 						<item type="scrap" min="-35" max="-45"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ENGI"/>
 					</choice>
 				</event>
@@ -2670,7 +2670,7 @@
 						<item type="drones" min="2" max="2"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ZOLTAN"/>
 					</choice>
 				</event>
@@ -2685,13 +2685,13 @@
                         <item type="scrap" min="-35" max="-35"/>
                     </item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ZOLTAN"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ZOLTAN_CAPITAL">
-				<text>(Ministry Crew) Request a larger restock. [+4}, +3|]</text>
+				<text>(Ministry 선원) Request a larger restock. [+4}, +3|]</text>
 				<event>
 					<text>An automated Zoltan supply vessel comes by and delivers the resources.</text>
 					<item_modify>
@@ -2699,7 +2699,7 @@
 						<item type="drones" min="3" max="3"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ZOLTAN"/>
 					</choice>
 				</event>
@@ -2720,7 +2720,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_ZOLTAN_MONK"/>
 	</choice>
 </event>
@@ -2747,7 +2747,7 @@
 						<item type="scrap" min="-3" max="-3"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ZOLTAN"/>
 					</choice>
 				</event>
@@ -2757,7 +2757,7 @@
 				<event load="STOREEVENT_ZOLTAN_MONK_DONATE"/>
 			</choice>
 			<choice hidden="true" req="monk">
-				<text>(Monk Crew) "We are monks, just as you. There is nothing to be shared but good feelings."</text>
+				<text>(Monk 선원) "We are monks, just as you. There is nothing to be shared but good feelings."</text>
 				<event load="STOREEVENT_ZOLTAN_MONK_CREW"/>
 			</choice>
 			<choice>
@@ -2773,7 +2773,7 @@
 			<environment type="PDS" target="player"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 			</choice>
 		</event>
@@ -2786,7 +2786,7 @@
 			<item type="scrap" min="-15" max="-15"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2797,7 +2797,7 @@
 			<item type="scrap" min="-15" max="-15"/>
 		</item_modify>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2806,7 +2806,7 @@
 	<event>
 		<text>The Monk gives you a nasty look and folds his robed arms, but says nothing. You move past and visit the store.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2814,7 +2814,7 @@
 		<text>"Gah, curse you! You show no kindness to others. May your journeys be filled with ruin!" You brush the Monk's harsh words off as nonsense, but you notice you feel much gloomier as you approach the market...</text>
 		<modifyPursuit amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2823,7 +2823,7 @@
 	<event>
 		<text>The other Monk looks disappointed, but nods. "Yes, yes. Safe travels, brother."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2831,7 +2831,7 @@
 		<text>"I was not aware we so openly joined Federation vessels. Perhaps it should allow our teachings to spread further than before? I think I shall come with you, a change of scenery could do me good, and I don't wish to return to those awful nebulas for much longer."</text>
 		<crewMember amount="1" class="monk"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2845,7 +2845,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_ZOLTAN_GUARDS"/>
 	</choice>
 </event>
@@ -2871,7 +2871,7 @@
 					<boarders min="2" max="3" class="energy"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2883,11 +2883,11 @@
 		<event>
 			<text>You don't have anything to buy from them today.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2897,14 +2897,14 @@
 	<event>
 		<text>The guards pull back satisfied. "Apologies captain. An increase in pirate activity in these sectors warrants suspicion. Your crew have been cleared, you will be permitted to shop here."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
 	<event>
 		<text>The guards pull back satisfied. "Apologies captain. An increase in pirate activity in these sectors warrants suspicion. Your crew have been cleared, you will be permitted to shop here."</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ZOLTAN"/>
 		</choice>
 	</event>
@@ -2915,7 +2915,7 @@
 			<event>
 				<text>The Zoltan drag off your crew. "Against my better judgement, you will still be permitted to shop here. Do not let us catch you harboring fugitives again, understand?"</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="STORE_LOAD_ZOLTAN"/>
 				</choice>
 				<removeCrew>
@@ -2931,17 +2931,17 @@
 				<boarders min="2" max="3" class="energy"/>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
 		</choice>
 		<choice hidden="true" req="LIST_CREW_ZOLTAN_CAPITAL">
-			<text>(Ministry Crew) Reason with them.</text>
+			<text>(Ministry 선원) Reason with them.</text>
 			<event>
 				<text>Your Zoltan slowly puts down their gun and speaks to the guards. At first their arguments don't seem to have an effect, but explaining the Federation needs all the help it can get - ANY kind of help - they seem to relent.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="STORE_LOAD_ZOLTAN"/>
 				</choice>
 			</event>
@@ -2969,7 +2969,7 @@
 		<event>
 			<text>Multiple Orchids wave to customers, trying to get their attention, while curious shoppers of various species look about.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_ORCHID"/>
 			</choice>
 		</event>
@@ -2991,7 +2991,7 @@
 				<event>
 					<text>Multiple Orchids wave to customers, trying to get their attention, while curious shoppers of various species look about.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
@@ -2999,13 +2999,13 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ORCHID" hidden="true">
-		<text>(Orchid Crew) Request assistance.</text>
+		<text>(Orchid 선원) Request assistance.</text>
 		<event>
 			<text>With the help of your crew, it doesn't take long to find another friendly Orchid ship who's willing to help out. He offers some missiles and repairs while you shop. Never underestimate the kindness of the plant-folk.</text>
 			<damage amount="-5"/>
 			<autoReward level="MED">missiles_only</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_ORCHID"/>
 			</choice>
 		</event>
@@ -3016,7 +3016,7 @@
 			<text>Looks like no one's eager in helping out the Orchids, though your attack sends the market into lockdown. No time to worry about that, you need to focus your sights on your new prey.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ORCHID_FIGHT"/>
 			</choice>
 		</event>
@@ -3041,18 +3041,18 @@
 					<modifyPursuit amount="1"/>
 					<crewMember amount="1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="LIST_CREW_ORCHID" hidden="true">
-				<text>(Orchid Crew) Request help from the station owners with the fleet.</text>
+				<text>(Orchid 선원) Request help from the station owners with the fleet.</text>
 				<event>
 					<text>The Orchid in charge gruffly nods. He must know the implications of what going up against the fleet will mean - but it's a sacrifice for the good of the Federation and he's willing.</text>
 					<modifyPursuit amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
@@ -3062,7 +3062,7 @@
 				<event>
 					<text>You'll have all the time to rest once your mission is over or the giant Rebel death fleet behind you is gone. For now, you have things to do.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
@@ -3076,7 +3076,7 @@
 			<environment type="PDS" target="player"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ORCHID_FIGHT"/>
 			</choice>
 		</event>
@@ -3104,18 +3104,18 @@
 					<text>Fortunately, your tech proves to be opportune in this situation. You manage to keep the fire contained to a smaller area of the market so the Orchids can take care of it. They pay you in thanks, and of course the marketplace is still open to be visited.</text>
 					<autoReward level="HIGH">standard</autoReward>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="BLUELIST_CREW_NOFIRE" hidden="true">
-				<text>(Fireproof Crew) Send in your crew.</text>
+				<text>(Fireproof 선원) Send in your crew.</text>
 				<event>
 					<text>Fortunately, your crew proves to be opportune in this situation. You manage to keep the fire contained to a smaller area of the market so the Orchids can take care of it. They pay you in thanks, and of course the marketplace is still open to be visited.</text>
 					<autoReward level="HIGH">standard</autoReward>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
@@ -3126,13 +3126,13 @@
 					<text>Fortunately, your drone proves to be opportune in this situation. You manage to keep the fire contained to a smaller area of the market so the Orchids can take care of it. They pay you in thanks, and of course the marketplace is still open to be visited.</text>
 					<autoReward level="HIGH">standard</autoReward>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="orchid" hidden="true">
-				<text>(Orchid Crew) Send in your Orchid crew to put out the fire.</text>
+				<text>(Orchid 선원) Send in your Orchid crew to put out the fire.</text>
 				<event>
 					<text>You wait for a while, but your Orchid crew never returns. You receive another hail; "It uh... looks like your friend just walked into the blaze and died within seconds. I'm sorry, best I can offer is a small consolation."</text>
 					<autoReward level="LOW">standard</autoReward>
@@ -3141,13 +3141,13 @@
 						<text>Fortunately, the Clone Bay has already revived your floral friend. Whether he'll stay a friend is debatable, because he's currently scowling at you for your stupidity.</text>
 					</removeCrew>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="chieftain" hidden="true">
-				<text>(Chieftain Crew) Send in your Orchid crew to put out the fire.</text>
+				<text>(Chieftain 선원) Send in your Orchid crew to put out the fire.</text>
 				<event>
 					<text>You wait for a while, but your Orchid crew never returns. You receive another hail; "It uh... looks like your friend just walked into the blaze and died within seconds. I'm sorry, best I can offer is a small consolation."</text>
 					<autoReward level="HIGH">standard</autoReward>
@@ -3156,7 +3156,7 @@
 						<text>Fortunately, the Clone Bay has already revived your floral friend. Whether he'll stay a friend is debatable, because he's currently scowling at you for your stupidity.</text>
 					</removeCrew>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_ORCHID"/>
 					</choice>
 				</event>
@@ -3166,15 +3166,15 @@
 				<event load="STOREEVENT_ORCHID_FIRE_SHOP"/>
 			</choice>
 			<choice hidden="true">
-				<text>Nevermind, we'll just leave.</text>
+				<text>Nevermind, we'll just 떠난다.</text>
 				<event>
 					<text>Looks like you can't help after all. Best to stay out of this.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -3182,15 +3182,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>Docking with a burning marketplace doesn't sound like a good idea for anyone who doesn't like being on fire.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3200,7 +3200,7 @@
 	<event>
 		<text>Nervously, you land as far away from the fire as possible and visit the store. Fortunately, when you return the fire has been contained to only two-thirds of the market place and your ship is fine.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ORCHID"/>
 		</choice>
 	</event>
@@ -3209,7 +3209,7 @@
 		<damage amount="3" effect="fire" system="room"/>
 		<damage amount="0" effect="fire" system="room"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_ORCHID"/>
 		</choice>
 	</event>
@@ -3247,11 +3247,11 @@
 			<text>You have no need for any of their special offers, you'll stick to shopping.</text>
 			<store>STORE_ORCHID</store>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3273,7 +3273,7 @@
 	</beaconType>
 	<text>A rotund Crystalline being appears on the vid screen. "Aliens! A grand opportunity. I am a collector of the strange artifacts you call "scrap" and would love to trade!"</text>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event load="STORE_LOAD_CRYSTAL"/>
     </choice>
     <choice hidden="true">
@@ -3285,7 +3285,7 @@
             </item_modify>
             <weapon name="LIST_WEAPONS_CRYSTAL_A_PLAYER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_CRYSTAL"/>
 			</choice>
         </event>
@@ -3296,7 +3296,7 @@
             <text>"A device solely for the collection of precious metal material? Magnificent! I cannot let this go unpaid! An exchange for a piece from my own heritage will do."</text>
             <weapon name="LIST_WEAPONS_CRYSTAL_A_PLAYER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_CRYSTAL"/>
 			</choice>
         </event>
@@ -3307,7 +3307,7 @@
             <text>"A device solely for the collection of precious metal material? Magnificent! I cannot let this go unpaid! An exchange for a piece from my own heritage will do."</text>
             <weapon name="LIST_WEAPONS_CRYSTAL_A_PLAYER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_CRYSTAL"/>
 			</choice>
         </event>
@@ -3319,7 +3319,7 @@
             <weapon name="LIST_WEAPONS_CRYSTAL_B"/>
             <remove name="ORCHID_KIDS"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_CRYSTAL"/>
 			</choice>
         </event>
@@ -3334,7 +3334,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_CRYSTAL_TRANSLATOR"/>
 	</choice>
 </event>
@@ -3350,19 +3350,19 @@
 		<event>
 			<text>You try for a while to decipher his message, but during the silence the Crystal pops back on, now speaking perfectly normal. "Apologies, I'm still accustomed to not having to use my translator. I'm a merchant vessel, would you care to trade?"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_CRYSTAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_CRYSTAL">
-		<text>(Crystal Crew) Decipher the message.</text>
+		<text>(Crystal 선원) Decipher the message.</text>
 		<event>
 			<text>The two Crystals speak with each other, and the other one speaks again, now completely normal. "Apologies, I'm still accustomed to not having to use my translator. I was not expecting to see more of our kind aboard a Federation vessel! Well, I suppose it's not that strange. But still quite pleasant! I'm a merchant vessel, would you care to trade?" On top of the offer, he also throws in a show of good will because of your crew.</text>
 			<autoReward level="MED">standard</autoReward>
 			<store>STORE_CRYSTAL</store>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_CRYSTAL"/>
 			</choice>
 		</event>
@@ -3373,7 +3373,7 @@
 			<text>Miscommunication shmiscommunication. If you can't understand what they're saying, then everything they say could and probably is a threat. Best to just murder them without further questions.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_CRYSTAL"/>
 			</choice>
 		</event>
@@ -3397,7 +3397,7 @@
 			<text>Apparently, the rampant savagery of the pirates and Rebels around you have gotten to you, driving you so far off the edge you've decided to open fire on a harmless Crystal station for next to no reason.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_CRYSTAL"/>
 			</choice>
 		</event>
@@ -3412,7 +3412,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_CRYSTAL_PIRATES"/>
 	</choice>
 </event>
@@ -3456,15 +3456,15 @@
 		<event load="STOREEVENT_CRYSTAL_PIRATES_DOCK"/>
 	</choice>
 	<choice hidden="true">
-		<text>This is suspicious. Leave.</text>
+		<text>This is suspicious. 떠난다.</text>
 		<event>
 			<text>Hopefully the station's crew are all okay and you've just missed something, but you aren't willing to risk your own crew to find out.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3474,7 +3474,7 @@
 	<event>
 		<text>You dock with the station and step aboard, and an alarm starts ringing almost immediately! A set of Crystal guards come to face you, but fortunately they're level headed enough to listen to your explanation. Looks like this is an ordinary market after-all!</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_CRYSTAL"/>
 		</choice>
 	</event>
@@ -3489,7 +3489,7 @@
 					<event>
 						<text>"Ew, you're one of them ethical folk. Whatever, as long as I have scrap in my heap I'm not complaining."</text>
 						<choice>
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="STORE_LOAD_CRYSTAL"/>
 						</choice>
 					</event>
@@ -3503,7 +3503,7 @@
 							<item type="scrap" min="-45" max="-55"/>
 						</item_modify>
 						<choice>
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="STORE_LOAD_CRYSTAL"/>
 						</choice>
 					</event>
@@ -3516,7 +3516,7 @@
 				<text>You won't stand for this! You open fire on the station.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -3539,7 +3539,7 @@
 	<text>A Free Mantis vessel is here; always a pleasant sight for any Federation captain. Looks to be a merchant - what might he have in store?</text>
 	<ship load="SHIP_FREEMANTIS_GENERIC" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Oh captain captain! Shining skies bringing great blessings in our meeting here! You must accept gift, if you are wanting trade!"</text>
 			<choice>
@@ -3548,18 +3548,18 @@
 					<text>"And now, buying of things may commence!"</text>
 					<autoReward level="LOW">standard</autoReward>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_FREEMANTIS"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="LIST_CREW_FREEMAN">
-				<text>(Free Mantis Crew) Request an even greater gift.</text>
+				<text>(독립 맨티스 선원) Request an even greater gift.</text>
 				<event>
 					<text>"And now, buying of things may commence!"</text>
 					<autoReward level="MED">standard</autoReward>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_FREEMANTIS"/>
 					</choice>
 				</event>
@@ -3570,7 +3570,7 @@
 					<text>"Awful awful captain! You anger me. You not accepting gift of friendship, then you are not friend nor living much longer!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 					</choice>
 				</event>
@@ -3598,7 +3598,7 @@
 						<item type="scrap" min="-75" max="-75"/>
 					</item_modify>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_FREEMANTIS"/>
 					</choice>
 				</event>
@@ -3612,7 +3612,7 @@
 						<item type="scrap" min="-150" max="-150"/>
 					</item_modify>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="STORE_LOAD_FREEMANTIS"/>
 					</choice>
 				</event>
@@ -3634,7 +3634,7 @@
 										<item type="scrap" min="-12" max="-12"/>
 									</item_modify>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="STORE_LOAD_FREEMANTIS"/>
 									</choice>
 								</event>
@@ -3648,7 +3648,7 @@
 										<item type="scrap" min="-150" max="-150"/>
 									</item_modify>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="STORE_LOAD_FREEMANTIS"/>
 									</choice>
 								</event>
@@ -3658,7 +3658,7 @@
 								<event>
 									<text>"Oh, alright then. You are having wonderful day!" You bid farewell to the Mantis and head to the market.</text>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="STORE_LOAD_FREEMANTIS"/>
 									</choice>
 								</event>
@@ -3678,7 +3678,7 @@
 										<item type="scrap" min="-75" max="-75"/>
 									</item_modify>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="STORE_LOAD_FREEMANTIS"/>
 									</choice>
 								</event>
@@ -3692,7 +3692,7 @@
 										<item type="scrap" min="-25" max="-25"/>
 									</item_modify>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="STORE_LOAD_FREEMANTIS"/>
 									</choice>
 								</event>
@@ -3702,7 +3702,7 @@
 								<event>
 									<text>"Oh, alright then. You are having wonderful day!" You bid farewell to the Mantis and head to the market.</text>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="STORE_LOAD_FREEMANTIS"/>
 									</choice>
 								</event>
@@ -3710,12 +3710,12 @@
 						</event>
 					</choice>
 					<choice req="LIST_CREW_FREEMAN" hidden="true">
-						<text>(Free Mantis Crew) Have your Free Mantis explain.</text>
+						<text>(독립 맨티스 선원) Have your Free Mantis explain.</text>
 						<event>
 							<text>Unconfident in your own ability to talk "reason" with the Free Mantis, you send your own crew instead. Unfortunately, he just gets confused too. Eventually they deliberate the price of fuel to be somewhere around 300 scrap. You'd protest, but the vendor is so happy for your help, he offers you a crate of resources for free!</text>
 							<autoReward level="HIGH">stuff</autoReward>
 							<choice>
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="STORE_LOAD_FREEMANTIS"/>
 							</choice>
 						</event>
@@ -3729,7 +3729,7 @@
 		<event>
 			<text>None of the Mantis seem bothered by your presence, though they don't break out into crazed idolization either. Honestly, it's a relief.</text>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_FREEMANTIS"/>
 			</choice>
 		</event>
@@ -3748,7 +3748,7 @@
 		<event>
 			<text>A Free Mantis mechanic eagerly waves at you to come in. Looks like they're selling some things on the side. To browse them though, you have to buy a repair job of some kind.</text>
 			<choice req="LIST_CREW_FREEMAN" hidden="true">
-				<text>(Free Mantis Crew) Request a free repair. [7$]</text>
+				<text>(독립 맨티스 선원) Request a free repair. [7$]</text>
 				<event>
 					<text>"Anything for brother and friend of Federation! Enjoying store!"</text>
 					<choice hidden="true">
@@ -3758,7 +3758,7 @@
 				</event>
 			</choice>
 			<choice req="LIST_CREW_HUMAN" hidden="true">
-				<text>(Human Crew) Request a free repair. [7$]</text>
+				<text>(Human 선원) Request a free repair. [7$]</text>
 				<event>
 					<text>"Anything for Federation officer! Enjoying store!"</text>
 					<choice hidden="true">
@@ -3805,7 +3805,7 @@
 			<text>Like any rational person, you have decided today is a good day for needless murder. Have fun.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 			</choice>
 		</event>
@@ -3816,7 +3816,7 @@
 		<text>You come back from the store to find the Mantis have already finished. Fortunately, they've done better than you expected. "Making sure you are giving us 5 star review, and seeing you next time!"</text>
 		<damage amount="-7"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_FREEMANTIS"/>
 		</choice>
 	</event>
@@ -3824,7 +3824,7 @@
 		<text>You come back from the store to find the Mantis have already finished. Fortunately, they've done better than you expected. "Making sure you are giving us 5 star review, and seeing you next time!"</text>
 		<damage amount="-7"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_FREEMANTIS"/>
 		</choice>
 	</event>
@@ -3832,7 +3832,7 @@
 		<text>You come back from the store to find the Mantis have already finished. Fortunately, they've done better than you expected. "Making sure you are giving us 5 star review, and seeing you next time!"</text>
 		<damage amount="-7"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_FREEMANTIS"/>
 		</choice>
 	</event>
@@ -3858,7 +3858,7 @@
 							<item type="scrap" min="8" max="8"/>
 						</item_modify>
 						<choice>
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="STORE_LOAD_FREEMANTIS"/>
 						</choice>
 					</event>
@@ -3869,7 +3869,7 @@
 						<text>It very well may be a drastic overreaction, but you won't take this kind of incompetence when handling a military ship lightly.</text>
 						<ship hostile="true"/>
 						<choice hidden="true">
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 						</choice>
 					</event>
@@ -3882,7 +3882,7 @@
 				<text>It very well may be a drastic overreaction, but you won't take this kind of incompetence when handling a military ship lightly.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 				</choice>
 			</event>
@@ -3894,7 +3894,7 @@
 		<text>You come back from the store to find the Mantis have already finished. Fortunately, they've done better than you expected. "Making sure you are giving us 5 star review, and seeing you next time!"</text>
 		<damage amount="-15"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_FREEMANTIS"/>
 		</choice>
 	</event>
@@ -3902,7 +3902,7 @@
 		<text>You come back from the store to find the Mantis have already finished. Fortunately, they've done better than you expected. "Making sure you are giving us 5 star review, and seeing you next time!"</text>
 		<damage amount="-15"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_FREEMANTIS"/>
 		</choice>
 	</event>
@@ -3910,7 +3910,7 @@
 		<text>You come back from the store to find the Mantis have already finished. Fortunately, they've done better than you expected. "Making sure you are giving us 5 star review, and seeing you next time!"</text>
 		<damage amount="-15"/>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_FREEMANTIS"/>
 		</choice>
 	</event>
@@ -3938,7 +3938,7 @@
 							<item type="scrap" min="8" max="8"/>
 						</item_modify>
 						<choice>
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="STORE_LOAD_FREEMANTIS"/>
 						</choice>
 					</event>
@@ -3949,7 +3949,7 @@
 						<text>It very well may be a drastic overreaction, but you won't take this kind of incompetence when handling a military ship lightly.</text>
 						<ship hostile="true"/>
 						<choice hidden="true">
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 						</choice>
 					</event>
@@ -3962,7 +3962,7 @@
 				<text>It very well may be a drastic overreaction, but you won't take this kind of incompetence when handling a military ship lightly.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 				</choice>
 			</event>
@@ -3989,11 +3989,11 @@
 		<event load="STOREEVENT_MANTIS_RARE_DOCK"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_HIVE">
-		<text>(Hive Crew) Request to dock safely.</text>
+		<text>(맨티스 하이브 선원) Request to dock safely.</text>
 		<event>
 			<text>"Hmmmh, you are seeming ally. Okay, I am trading with you. Making profit, rewarding as killing prey! Well, not as much. Death is very fun."</text>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORE_LOAD_MANTIS"/>
 			</choice>
 		</event>
@@ -4007,7 +4007,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4018,21 +4018,21 @@
 		<text>"Heheh, you falling for trap! There not store here, only death!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>"You are in lucking day! Market open to all sorts! Come, participate in grand gesture of capitalistic adventure! Me am making profit today!"</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_MANTIS"/>
 		</choice>
 	</event>
 	<event>
 		<text>"You are in lucking day! Market open to all sorts! Come, participate in grand gesture of capitalistic adventure! Me am making profit today!"</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_MANTIS"/>
 		</choice>
 	</event>
@@ -4046,7 +4046,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_MANTIS_WHALE"/>
 	</choice>
 </event>
@@ -4067,7 +4067,7 @@
 				<event load="STOREEVENT_MANTIS_WHALE_TALK"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_HIVE">
-				<text>(Hive Mantis) We wish to shop here.</text>
+				<text>(맨티스 하이브 Mantis) We wish to shop here.</text>
 				<event load="STOREEVENT_MANTIS_WHALE_CONVINCE"/>
 			</choice>
 			<choice hidden="true">
@@ -4076,7 +4076,7 @@
 					<text>"We is not tolerating of this! We steal goods and sell goods fair and rectangle! Federation not take away right!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -4098,7 +4098,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4109,7 +4109,7 @@
 		<text>"Lying! I am knowing of it. For you, this earns disembowlment!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4132,7 +4132,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4177,7 +4177,7 @@
 			<text>"Federation wanting trade!? Haha, I laugh! You wanting earn right to trade, then we fight to death!" The Mantis doesn't even give you time to explain that you can't trade if you're dead and attacks! Maybe if you beat them up a little, they'll listen?</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4191,7 +4191,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4202,11 +4202,11 @@
 	<ship hostile="false"/>
 	<store>STORE_MANTIS</store>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_HIVE">
-		<text>(Hive Crew) Request a repair.</text>
+		<text>(맨티스 하이브 선원) Request a repair.</text>
 		<event>
 			<text>"Yes, only fair. Am sending Engi to fix hull."</text>
 			<damage amount="-7"/>
@@ -4266,7 +4266,7 @@
 			<text>You arm the guns and attack the Rebels, but on the other end all you hear is angry clicking... Looks like the Mantis are now in control of this ship!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4280,7 +4280,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4310,11 +4310,11 @@
 				<item type="missiles" min="-3" max="-5"/>
 			</item_modify>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4325,7 +4325,7 @@
 			<text>You sure as hell aren't paying a fee to trade with some racist Rockmen. You'll just take what you want from their lifeless bodies instead!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4335,47 +4335,47 @@
 		<event>
 			<text>The Rockman says nothing and flies away. A waste of a jump...</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ROCK_FAITHFUL">
-		<text>(Faithful Rock Crew) Request to skip the fee.</text>
+		<text>(Faithful Rock 선원) Request to skip the fee.</text>
 		<event>
 			<text>"Ah, a fellow Rockman! Peculiar to see one of us aboard a Federation vessel... but I'm willing to be more generous to one of our own."</text>
 			<store>STORE_ROCK</store>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ZOLTAN">
-		<text>(Zoltan Crew) Request to skip the fee.</text>
+		<text>(Zoltan 선원) Request to skip the fee.</text>
 		<event>
 			<text>"Ah, a Zoltan! I am intrigued to see what curiosities you might have to offer! Come in, browse my wares!"</text>
 			<store>STORE_ROCK</store>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="mind" hidden="true">
-		<text>(Mind Control) Change the trader's mind.</text>
+		<text>(정신 지배l) Change the trader's mind.</text>
 		<event>
 			<text>Entering a hypnotic state, the Rockman welcomes you onboard and even pays you some scrap out of "kindness".</text>
 			<store>STORE_ROCK</store>
@@ -4405,7 +4405,7 @@
 			<text>"Oh good, oh good! Visitors at last! Have you come to purchase a Mine Launcher? Oh please, my stock is expansive, endless even!"</text>
 			<store>STORE_ROCK_MINELAUNCHER</store>
 			<choice hidden="true" req="LIST_CREW_ROCK">
-				<text>(Rock Crew) "Do you offer anything better?"</text>
+				<text>(락맨 선원) "Do you offer anything better?"</text>
 				<event>
 					<text>You expect the Rockman to get offended, but instead he gets even more excited. "I found this a long time ago. I've been holding on to it for someone special. You're the first person to show any interest, so here you go!"</text>
 					<choice>
@@ -4440,7 +4440,7 @@
 			<text>Why are so many people adamant on selling these things still? They won't for much longer if you have a say in it!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4450,11 +4450,11 @@
 		<event>
 			<text>The station continues to target you with a slue of enthusiastic advertisements, but you simply fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4477,7 +4477,7 @@
                 <event load="STOREEVENT_ROCK_CRYSTALS_TRADE"/>
             </choice>
             <choice hidden="true" req="LIST_CREW_ROCK_FAITHFUL">
-                <text>(Theocracy Crew) "We were hoping to trade".</text>
+                <text>(Theocracy 선원) "We were hoping to trade".</text>
                 <event>
                     <text>"Brother! Welcome! Come, take a look at all we have to offer. We have many holy items on sale!"</text>
                     <store>STORE_ROCK</store>
@@ -4494,13 +4494,13 @@
                         <event load="STORAGE_CHECK"/>
                     </choice>
                     <choice>
-                        <text>Do nothing.</text>
+                        <text>아무것도 하지 않는다.</text>
                         <event/>
                     </choice>
                 </event>
             </choice>
             <choice hidden="true" req="LIST_CREW_CRYSTAL">
-                <text>(Crystal Crew) "We were hoping to trade".</text>
+                <text>(Crystal 선원) "We were hoping to trade".</text>
                 <event>
                     <text>"Oh sweet lord, oh heavens, ohhhhhhhhh" The Rockman nearly collapses as he seems to enter some sort of state of prayer. The Rockmen shower you in gifts and offer to trade.</text>
                     <autoReward level="MED">standard</autoReward>
@@ -4518,13 +4518,13 @@
                         <event load="STORAGE_CHECK"/>
                     </choice>
                     <choice>
-                        <text>Do nothing.</text>
+                        <text>아무것도 하지 않는다.</text>
                         <event/>
                     </choice>
                 </event>
             </choice>
             <choice hidden="true">
-                <text>Apologies, we'll leave.</text>
+                <text>Apologies, we'll 떠난다.</text>
                 <event load="STOREEVENT_ROCK_CRYSTALS_LEAVE"/>
             </choice>
         </event>
@@ -4534,11 +4534,11 @@
         <event>
             <text>Intruding on the business of multiple Rock ships sounds like suicide. Better to not get involved.</text>
             <choice>
-                <text>Do something onboard the ship.</text>
+                <text>함선에서 무언가를 한다.</text>
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -4549,7 +4549,7 @@
 		<text>"You expect us to hand over the shards of the holy Crystals to some... some common Federation filth? Unthinkable!" One of the Rock ships rises up to face you.</text>
 		<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4564,7 +4564,7 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -4573,7 +4573,7 @@
 		<text>Apparently, the Rocks aren't having it. While most just ignore you, one particularly agitated vessel breaks off from the group to chase you!</text>
 		<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4604,13 +4604,13 @@
 							<boarders min="2" max="3" class="rock"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_ROCK_FAITHFUL">
-						<text>(Theocracy Crew) Your Rockman knows.</text>
+						<text>(Theocracy 선원) Your Rockman knows.</text>
 						<event>
 							<text>Your Rockmen pauses, then lets out a massive release of flatulence, filling the room with an unbearable stench. You assume the missionary will be insulted, but instead he cheers. "You are a talented scholar of the holy texts! I am proud to have you aboard my station. Please, accept this gift."</text>
 							<weapon name="GIFTLIST_CRYSTAL"/>
@@ -4618,7 +4618,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_CRYSTAL">
-						<text>(Crystal Crew) "We are the holy ones!"</text>
+						<text>(Crystal 선원) "We are the holy ones!"</text>
 						<event>
 							<text>Your Crystal giggles a little while he's lying, but the missionary doesn't seem to notice. Stricken by fear, he sends one of his fellow priests to join you while you're let into the market.</text>
 							<crewMember amount="1" class="rock"/>
@@ -4628,7 +4628,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ROCK_UNFAITHFUL">
-				<text>(Unfaithful Rock Crew) "Your holy text are lies!"</text>
+				<text>(Unfaithful Rock 선원) "Your holy text are lies!"</text>
 				<event>
 					<text>The Rockman breaks into laughter. "HAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAH... Hah... heh... hoooo... You are an ignorant idiot. Yet, you could be helped. I can reeducate you. Make you loyal to the Theocracy! I demand this if you want to access our market peacefully."</text>
 					<choice hidden="true" req="cultist">
@@ -4661,7 +4661,7 @@
 							<text>"Then perish!" Only two words, but their intent is clear as the station suddenly turns hostile.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -4690,13 +4690,13 @@
 					<text>"Bahahaha! You think the Theocracy cares what the Federation demands of us? You hold no authority over our holy work! Get lost!" The station turns hostile!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>I think we'll just leave.</text>
+				<text>I think we'll just 떠난다.</text>
 				<event>
 					<text>The missionary chases after you, shouting. Unfortunately for him, as a Rockman, he's far too slow. However, a team of security officers have made their way onto your ship, and you'll have to take care of them before you can leave!</text>
 					<boarders min="2" max="3" class="rock"/>
@@ -4710,7 +4710,7 @@
 			<text>There's little moral quandry here, for Rock fanatics are feared across the galaxy for their brutal methods. You're only helping make this galaxy a safer place.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4720,11 +4720,11 @@
 		<event>
 			<text>Rock fanatics are infamous for their brutality and merciless ways of forcing their religion on others. This isn't the kind of place you want to be shopping at.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4749,27 +4749,27 @@
 		<event load="STOREEVENT_REBEL_ANNOUNCER_SEARCH"/>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>You decide it's better to not push your luck and move on.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="engineer">
-		<text>(Engineer Crew) Pass yourself off as Rebels.</text>
+		<text>(엔지니어 선원) Pass yourself off as Rebels.</text>
 		<event>
 			<text>As a former Rebel themselves, your engineer has a few tricks up their sleeve for getting you into the market safely. You find a vendor willing to sell to you, though you can tell they have their suspicions.</text>
 			<store>STORE_REBEL</store>
 		</event>
 	</choice>
 	<choice hidden="true" req="mind" lvl="1" max_group="0">
-		<text>(Mind Control) Alter the announcer's opinions.</text>
+		<text>(정신 지배l) Alter the announcer's opinions.</text>
 		<event>
 			<text>You locate the source of the announcement and 'convince' the speaker to rescind his previous statement. Hopefully you will have enough time to shop before he can figure out what just happened.</text>
 			<store>STORE_REBEL</store>
 		</event>
 	</choice>
 	<choice hidden="true" req="mind" lvl="2" max_group="0">
-		<text>(Improved Mind Control) Alter the announcer's opinions.</text>
+		<text>(Improved정신 지배) Alter the announcer's opinions.</text>
 		<event>
 			<text>You locate the source of the announcement and 'convince' the speaker to rescind his previous statement. In addition he apologizes by offering complimentary supplies. Hopefully you will have enough time to shop before he can figure out what just happened.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -4777,7 +4777,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="mind" lvl="3" max_group="0">
-		<text>(Advanced Mind Control) Alter the announcer's opinions.</text>
+		<text>(최고급정신 지배) Alter the announcer's opinions.</text>
 		<event>
 			<text>You locate the source of the announcement and 'convince' the speaker to rescind his previous statement. In addition he apologizes by offering considerable complimentary supplies. Hopefully you will have enough time to shop before he can figure out what just happened.</text>
 			<autoReward level="HIGH">standard</autoReward>
@@ -4803,7 +4803,7 @@
 		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
 		<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4811,7 +4811,7 @@
 		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
 		<ship load="SHIP_AUTO_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4834,7 +4834,7 @@
 		<event load="STOREEVENT_REBEL_XENOPHOBE_STUPID"/>
 	</choice>
 	<choice hidden="true" max_group="1" req="LIST_CREW_PETS" blue="true">
-		<text>(Non-Sapient Crew) Pass off your alien crew as pets.</text>
+		<text>(Non-Sapient 선원) Pass off your alien crew as pets.</text>
 		<event>
 			<text>The store-owners consider for a bit, but seem to accept this, and allow you inside.</text>
 			<store>STORE_REBEL</store>
@@ -4849,7 +4849,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4860,7 +4860,7 @@
 		<text>Your approach doesn't go well. As soon as you get too close, a Rebel ship flies out from a hangar at the market and attacks!</text>
 		<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4868,7 +4868,7 @@
 		<text>Your approach doesn't go well. As soon as you get too close, a Rebel ship flies out from a hangar at the market and attacks!</text>
 		<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4901,7 +4901,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4913,7 +4913,7 @@
 		<ship load="SHIP_REBEL_STOREEVENT_FRIENDLYESCORT" hostile="true"/>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4999,7 +4999,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_AUTO_VENDER"/>
 	</choice>
 </event>
@@ -5032,21 +5032,21 @@
 		<event load="STOREEVENT_AUTO_VENDER_SCAN"/>
 	</choice>
 	<choice hidden="true" req="engineer">
-		<text>(Engineer Crew) Rewire the Auto-ship to trade with you.</text>
+		<text>(엔지니어 선원) Rewire the Auto-ship to trade with you.</text>
 		<event>
 			<text>Fortunately, you're able to hack into the Auto-ship and reconfigure it to accept your Federation ID.</text>
 			<store>STORE_AUTO</store>
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking" lvl="1">
-		<text>(Hacking) Rewire the Auto-ship to trade with you.</text>
+		<text>(해킹) Rewire the Auto-ship to trade with you.</text>
 		<event>
 			<text>Fortunately, you're able to hack into the Auto-ship and reconfigure it to accept your Federation ID.</text>
 			<store>STORE_AUTO</store>
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking" lvl="3">
-		<text>(Adv. Hacking) Rewire the Auto-ship to trade with you.</text>
+		<text>(최고급. 해킹) Rewire the Auto-ship to trade with you.</text>
 		<event>
 			<text>Fortunately, you're able to hack into the Auto-ship and reconfigure it to accept your Federation ID. You also leave a little present for the fleet, by setting the ship to explode when a Rebel ship communicates with it.</text>
 			<modifyPursuit amount="-2"/>
@@ -5059,7 +5059,7 @@
 			<text>It's not worth the risk to try and trick an AI, you might as well get some scrap from it.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5067,13 +5067,13 @@
 	<choice hidden="true">
 		<text>Ignore the Auto.</text>
 		<event>
-			<text>You have no interest in this Auto-vessel, so you decide to ignore it.</text>
+			<text>You have no interest in this Auto-vessel, so you decide to 무시한다.</text>
 			<choice>
 				<text>Do something on-board the ship.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5084,7 +5084,7 @@
 		<text>Looks like the Auto-ship isn't falling for it. As soon as you transmit your ID, the ship scans your own vessel instead, recognizes it as Federation, and attacks!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5114,7 +5114,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_DUSK_FRIENDLYISH"/>
 	</choice>
 </event>
@@ -5126,7 +5126,7 @@
 	<text>As Zoltan supremacists, the Duskbringers aren't keen on trading with anyone outside their species. Usually they don't get along with Ministry citizens either, but the ship here seems alright with dealing with any Zoltan, just not other races.</text>
 	<ship load="SHIP_DUSK_GENERIC" hostile="false"/>
 	<choice hidden="true" req="LIST_CREW_ZOLTAN">
-		<text>(Zoltan Crew) Request to trade.</text>
+		<text>(Zoltan 선원) Request to trade.</text>
 		<event>
 			<text>The Duskbringer captain seems pleased to see your crewmate, and ignores the rest of your crew.</text>
 			<store>STORE_DUSK</store>
@@ -5145,7 +5145,7 @@
 			<text>The Duskbringers are your enemies. It doesn't matter if they're open to other Zoltan or not - they're still fascists and xenophobes, and that's enough in your book to warrant their death.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5163,7 +5163,7 @@
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -5174,7 +5174,7 @@
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -5182,7 +5182,7 @@
 		<text>Looks like you didn't get away unnoticed - the Duskbringer vessel turns hostile and attacks!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5196,7 +5196,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_DUSK_PROTOCOL"/>
 	</choice>
 </event>
@@ -5220,7 +5220,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ZOLTAN">
-		<text>(Zoltan Crew) Your crew understand the rules.</text>
+		<text>(Zoltan 선원) Your crew understand the rules.</text>
 		<event>
 			<text>The Zoltan are raised to understand these kinds of things quickly. It only takes a minute of skimming the hundred page list of rules to understand everything you need to do, and fortunately their knowledge pays off.</text>
 			<store>STORE_DUSK</store>
@@ -5232,7 +5232,7 @@
 			<text>You could care less if they don't mind trading with Feds. They're your enemies, and you'll be doing everyone but themselves a favor by killing them!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5246,7 +5246,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5261,7 +5261,7 @@
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -5284,7 +5284,7 @@
 				<boarders min="2" max="2" class="bomber"/>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5294,7 +5294,7 @@
 		<text>It appears in your approach, you accidentally comitted a major felony. According the station's security, your angle of approach went over by exactly 2 degrees, rounded up. This being an unforgiveable crime, they sentence you to death immediately. This is unusually strict, even for the Zoltan, so you assume it's only made up to get you in a fight!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5305,11 +5305,11 @@
 		<text>"Critical failure. Orphan cryo-transport vessel; crippled. You are a monster." The Auto-vessel explodes, and various broken stasis chambers are ejected out into the abyss. Uhhhhh....</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>When you return to the Duskbringer, he's in a fit of laughter. "Oh, ohhhh, you should have seen your face! Hahahah! Those orphans, hahahahahah! Hah... but anyways, a deal is a deal."</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="STORE_LOAD_DUSK"/>
 				</choice>
 			</event>
@@ -5328,7 +5328,7 @@
 			<text>Looks like this "tax collector" is a lot deadlier than you expected. You aren't even sure this thing IS a tax collector, but you want that store, so you'll do what you must.</text>
 			<ship load="SHIP_AUTO_STOREEVENT_TAXES" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5342,7 +5342,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5364,7 +5364,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_COALITION_MYSTERYRACE"/>
 	</choice>
 </event>
@@ -5388,7 +5388,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5408,7 +5408,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5419,7 +5419,7 @@
 				<text>"The life of a warrior isssn't the life of a Ssslug! HAH! You're asss ignorant asss the resst of the Federation. Now, it'sss time I ssstop sslacking and do my job."</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5430,7 +5430,7 @@
 				<text>"A puppet? Of the Kleptocracccy? Clearly, you know nothing about our sssociety. You're asss ignorant asss the resst of the Federation. Now, it'sss time I ssstop sslacking and do my job."</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5441,7 +5441,7 @@
 				<text>"Oh, sssso we got an edgelord over here. Pisss off! No one thinksss you're cool!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5456,7 +5456,7 @@
 				<text>"Haha, life of coward for Mantis? Ignorant meatsack know nothing of Mantis! You are dumb as other Federation meatsack, robots, green freaks, and rest! It time I do job, and disembowel you!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5471,7 +5471,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5482,7 +5482,7 @@
 				<text>"Puppet of Hive? Ignorant meatsack know nothing of Mantis! You are dumb as other Federation meatsack, robots, green freaks, and rest! It time I do job, and disembowel you!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5493,7 +5493,7 @@
 				<text>"Hahahah, you are speaking like edgy teenager! Pessimism mindset of loser, not fine Mantis warrior!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5508,7 +5508,7 @@
 				<text>"You expect me to turn my back to the holy texts, and go hide in a nebula? We Rockmen know more honor than that! You are foolish and naive, just like all the rest of the Federation. It is time we put you in your place."</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5519,7 +5519,7 @@
 				<text>"A bounty hunter, a mercenary? You suggest I become a pirate?! We Rockmen know more honor than that! You are foolish and naive, just like all the rest of the Federation. It is time we put you in your place."</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5534,7 +5534,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5545,7 +5545,7 @@
 				<text>"Misery is a fact of life, we must suffer to appease the gods. What do you gain for making aimless statements like this? Hah, nothing! You are a coward who shelters himself in pity. Stupid Federation."</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5560,7 +5560,7 @@
 				<text>"I am no coward. We Crystals do not run from battle out of fear! Your ignorance is insulting, and it is time I did my job and put you in your place!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5571,7 +5571,7 @@
 				<text>"Crystals do not engage in acts of piracy! Well, some do, but not me! Your ignorance is insulting, and it is time I did my job and put you in your place!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5582,7 +5582,7 @@
 				<text>"The Empire is far more forgiving and free than your own Federation. Your ignorance is insulting, and it is time I did my job and put you in your place!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5597,7 +5597,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5613,7 +5613,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_COALITION_RACES"/>
 	</choice>
 </event>
@@ -5624,7 +5624,7 @@
 	</beaconType>
 	<text>Looks like a trade-hub between the different races of the Coalition was set up here. You might be able to sneak in if you have any of the appropriate crew.</text>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Gain access.</text>
+		<text>(Slug 선원) Gain access.</text>
 		<event>
 			<text>Thanks to your crew, it's not hard to gain access. You're even given a fresh Anti-Bio weapon on your way in!</text>
 			<weapon name="GIFTLIST_ANTIBIO"/>
@@ -5634,13 +5634,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ROCK">
-		<text>(Rock Crew) Gain access.</text>
+		<text>(락맨 선원) Gain access.</text>
 		<event>
 			<text>Thanks to your crew, it's not hard to gain access. You're even given a fresh Missile weapon on your way in!</text>
 			<weapon name="GIFTLIST_MISSILES"/>
@@ -5650,13 +5650,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_HIVE">
-		<text>(Mantis Crew) Gain access.</text>
+		<text>(Mantis 선원) Gain access.</text>
 		<event>
 			<text>Thanks to your crew, it's not hard to gain access. You're even given a fresh Bomb weapon on your way in!</text>
 			<weapon name="GIFTLIST_BOMBS"/>
@@ -5666,13 +5666,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LEECH">
-		<text>(Leech Crew) Gain access.</text>
+		<text>(Leech 선원) Gain access.</text>
 		<event>
 			<text>Thanks to your crew, it's not hard to gain access. You're even given a fresh Flak weapon on your way in!</text>
 			<weapon name="GIFTLIST_FLAK"/>
@@ -5682,7 +5682,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5696,7 +5696,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5711,7 +5711,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_COALITION_FORCE"/>
 	</choice>
 </event>
@@ -5725,7 +5725,7 @@
 				<ship hostile="false"/>
 				<autoReward level="MED">stuff</autoReward>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="STORE_LOAD_COALITION"/>
 				</choice>
 			</event>
@@ -5751,7 +5751,7 @@
             <text>You hail the station, but before you can even get a word out, their Slug captain bursts out laughing. "HAHAHAHAHAH! No."</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -5762,7 +5762,7 @@
             <text>If you can do enough damage to the station, you might be able to convince them to sell to you.</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -5776,7 +5776,7 @@
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -5798,7 +5798,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_DYNASTY_NOAIR"/>
 	</choice>
 </event>
@@ -5809,7 +5809,7 @@
 	</beaconType>
 	<text>It appears a small rogue planet is drifting through the system here. To you, it looks uninhabitable, but it looks like the Dynasty has set up a market on the surface. There's only one catch... there's nothing to support aerobic crew here.</text>
 	<choice hidden="true" req="BLUELIST_CREW_NO2">
-		<text>(Anaerobic Crew) Send down your crew.</text>
+		<text>(Anaerobic 선원) Send down your crew.</text>
 		<event>
 			<text>Fortunately, your crew has come to save the day. You send them down to check out the market.</text>
 			<store>STORE_DYNASTY</store>
@@ -5818,7 +5818,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5833,13 +5833,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ORCHID">
-		<text>(Orchid Crew) Send down your crew.</text>
+		<text>(Orchid 선원) Send down your crew.</text>
 		<event>
 			<text>Fortunately, your crew has come to save the day. You send them down to check out the market. They got some odd looks, but no one protests.</text>
 			<store>STORE_DYNASTY</store>
@@ -5848,13 +5848,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_CRYSTAL">
-		<text>(Crystal Crew) Send down your crew.</text>
+		<text>(Crystal 선원) Send down your crew.</text>
 		<event>
 			<text>Fortunately, your crew has come to save the day. You send them down to check out the market. They'll have to hurry, but you can't stick around too long anyways.</text>
 			<store>STORE_DYNASTY</store>
@@ -5863,13 +5863,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Send down your crew.</text>
+		<text>(Engi 선원) Send down your crew.</text>
 		<event>
 			<text>Fortunately, your crew has come to save the day. You send them down to check out the market. They'll have to hurry, but you can't stick around too long anyways.</text>
 			<store>STORE_DYNASTY</store>
@@ -5878,7 +5878,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5892,7 +5892,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5907,7 +5907,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_DYNASTY_DOOMSDAY"/>
 	</choice>
 </event>
@@ -5945,13 +5945,13 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_PHANTOM">
-				<text>(Phantom Crew) Request that he help you with the fleet.</text>
+				<text>(Phantom 선원) Request that he help you with the fleet.</text>
 				<event>
 					<text>To your surprise, Yethredi is more than willing, despite the implications. "Doomsday approaches everfast. I fought the demons on the frontlines once, and many of my brothers I witnessed fall. When the time came, it was going to be my honor to stand one final fight against them. So yes, traveler, I will help you. I will help all of us. Reaper have mercy on our metaphorical souls."</text>
 					<modifyPursuit amount="-2"/>
@@ -5965,7 +5965,7 @@
 			<text>Unfortunately for Ol' Yethredi, he's about to become the next victim in your unending spree of murders.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5979,7 +5979,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5994,7 +5994,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_DYNASTY_CREWKILL"/>
 	</choice>
 </event>
@@ -6007,7 +6007,7 @@
 		<text>The Vagabonds are now dead. True to their word, once back aboard their station the Phantoms reward you and offer to trade.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORE_LOAD_DYNASTY"/>
 		</choice>
 	</deadCrew>
@@ -6034,13 +6034,13 @@
 					<text>"Exercise caution - we will not be pleased if there is no station for us to return to after this."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_VAGABOND">
-				<text>(Vagabond Crew) Make a deal to trade with the vagabonds instead.</text>
+				<text>(Vagabond 선원) Make a deal to trade with the vagabonds instead.</text>
 				<event>
 					<text>You decline the Dynasty ship's offer, then secretly dock with the station. The Vagabonds aboard are happy to see one of their own and offer to trade.</text>
 					<store>STORE_DYNASTY</store>
@@ -6053,7 +6053,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You have no idea what the offer is, but you have no business dealing with Ghosts.</text>
 			<choice>
@@ -6061,7 +6061,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6083,7 +6083,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_SLUG_TRAP"/>
 	</choice>
 </event>
@@ -6097,7 +6097,7 @@
 	<choice hidden="true">
 		<text>Decline.</text>
 		<event>
-			<text>"Oh well... We ssshall wait here then." You cautiously put distance between your ships before preparing to jump.</text>
+			<text>"신경쓰지 말자... We ssshall wait here then." You cautiously put distance between your ships before preparing to jump.</text>
 		</event>
 	</choice>
 	<choice hidden="true">
@@ -6129,7 +6129,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_SLUG">
-						<text>(Slug Crew) Our Slug senses someone aboard the ship. Investigate it.</text>
+						<text>(Slug 선원) Our Slug senses someone aboard the ship. Investigate it.</text>
 						<event>
 							<text>It looks like the merchant was trying to stall you while someone teleported on board. You catch him before he could finish and he teleports away. You expect a battle, but the merchant seems frightened more than anything. "I wasssn't doing anything! I was uh... bringing you a gift! Yessss! Please don't kill me, who'sss going to hoard my money otherwissse?"</text>
 							<store>STORE_SLUG</store>
@@ -6162,7 +6162,7 @@
 		<boarders min="1" max="1" class="slug"/>
 		<status type="limit" target="player" system="weapons" amount="0"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 		<choice hidden="true" req="ANTI_VIRUS">
@@ -6171,7 +6171,7 @@
 				<text>Your weapon system is restored to full power.</text>
 				<status type="clear" target="player" system="weapons" amount="100"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -6182,7 +6182,7 @@
 		<ship hostile="true"/>
 		<boarders min="2" max="2" class="slug"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -6196,7 +6196,7 @@
 		<ship hostile="true"/>
 		<boarders min="1" max="1" class="slug"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -6210,7 +6210,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_SLUG_HYPNO"/>
 	</choice>
 </event>
@@ -6237,7 +6237,7 @@
 								<event load="STOREEVENT_SLUG_HYPNO_FAIL"/>
 							</choice>
 							<choice hidden="true" req="mind">
-								<text>(Mind Control) Explain to him that hypnosis doesn't work with a watch.</text>
+								<text>(정신 지배l) Explain to him that hypnosis doesn't work with a watch.</text>
 								<event>
 									<text>"Oh. I need a machine for thisss? Well that'ssss lame. I need ssscrap to afford that... You have ssscrap, right? I have thingsss! We can trade!"</text>
 									<store>STORE_SLUG</store>
@@ -6250,7 +6250,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Check his intentions.</text>
+		<text>(Slug 선원) Check his intentions.</text>
 		<event>
 			<text>It seems like this Slug is some kind of hypnotist. It's not your Slug that told you that, it's the fact he is now brandishing an old pocket-watch and is waving it in front of you. When he realizes it's futile, he gives up and offers to trade.</text>
 			<store>STORE_SLUG</store>
@@ -6259,7 +6259,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6274,7 +6274,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6294,7 +6294,7 @@
 		<boarders min="1" max="1" class="slug"/>
 		<ship load="SHIP_SLUG_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -6311,7 +6311,7 @@
 		<event load="STOREEVENT_SLUG_ASTEROIDS_APPROACH"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Hail the colony and see if they can send a merchant to you.</text>
+		<text>(Slug 선원) Hail the colony and see if they can send a merchant to you.</text>
 		<event>
 			<text>Fortunately, the colony's managers are more agreeable than you would have thought. A ship is dispatched to trade with you.</text>
 			<store>STORE_SLUG</store>
@@ -6320,13 +6320,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="shields" lvl="6">
-		<text>(Upg. Shields) Make your way through safely.</text>
+		<text>(고급 Shields) Make your way through safely.</text>
 		<event>
 			<text>As the saying goes, it takes a brave person to set foot on a Slug colony - it can take weeks to get the mucus out of your clothes - but there's business to be done.</text>
 			<store>STORE_SLUG</store>
@@ -6335,13 +6335,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="engines" lvl="5">
-		<text>(Upg. Engines) Make your way through safely.</text>
+		<text>(고급 Engines) Make your way through safely.</text>
 		<event>
 			<text>As the saying goes, it takes a brave person to set foot on a Slug colony - it can take weeks to get the mucus out of your clothes - but there's business to be done.</text>
 			<store>STORE_SLUG</store>
@@ -6350,7 +6350,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6365,13 +6365,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="2">
-		<text>(Upg. Autopilot) Make your way through safely.</text>
+		<text>(고급 Autopilot) Make your way through safely.</text>
 		<event>
 			<text>As the saying goes, it takes a brave person to set foot on a Slug colony - it can take weeks to get the mucus out of your clothes - but there's business to be done.</text>
 			<store>STORE_SLUG</store>
@@ -6380,7 +6380,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6394,7 +6394,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6425,7 +6425,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_SLUG_SHADY"/>
 	</choice>
 </event>
@@ -6441,7 +6441,7 @@
 		<event load="STOREEVENT_SLUG_SHADY_DOCK"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Make all of your deals through your Slug.</text>
+		<text>(Slug 선원) Make all of your deals through your Slug.</text>
 		<event>
 			<text>Through the entire transaction, everything goes completely normal. Guess it was all a false alarm, though you're still cautiously poking through the cargo looking for stowaways or stolen goods.</text>
 			<store>STORE_SLUG</store>
@@ -6450,13 +6450,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Adv. Sensors) Keep and eye on the ship while you shop.</text>
+		<text>(최고급. Sensors) Keep and eye on the ship while you shop.</text>
 		<event>
 			<text>Despite your enhanced security through the entire transaction, everything goes completely normal. Guess it was all a false alarm, though you're still cautiously poking through the cargo looking for stowaways or stolen goods.</text>
 			<store>STORE_SLUG</store>
@@ -6465,13 +6465,13 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="doors" lvl="2">
-		<text>(Upg. Doors) Lock down the ship while you shop.</text>
+		<text>(고급 Doors) Lock down the ship while you shop.</text>
 		<event>
 			<text>Despite your enhanced security through the entire transaction, everything goes completely normal. Guess it was all a false alarm, though you're still cautiously poking through the cargo looking for stowaways or stolen goods.</text>
 			<store>STORE_SLUG</store>
@@ -6480,7 +6480,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6491,7 +6491,7 @@
 			<text>You're the shoot first, ask questions later kind of guy. No questions will follow this time of course, it's just a metaphor. Happy murdering!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6505,7 +6505,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6516,7 +6516,7 @@
 		<text>To your surprise, everything goes smoothly! No tricks, no traps, nothing! You're let into the store and take your time.</text>
 		<store>STORE_SLUG</store>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 	</event>
@@ -6524,7 +6524,7 @@
 		<text>To your surprise, everything goes smoothly! No tricks, no traps, nothing! You're let into the store and take your time.</text>
 		<store>STORE_SLUG</store>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<jumpEvent>STOREEVENT_SLUG_SHADY_DOCK_LEAVE</jumpEvent>
 			</event>
@@ -6535,7 +6535,7 @@
 	<text>As you attempt to leave, the station suddenly turns hostile! Seems about right that it actually was a trap after all.</text>
 	<ship hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -6575,7 +6575,7 @@
 			<text>The asteroid field might be deadly, but that won't stop you from being a public menace to everyone you come across!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6590,7 +6590,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_LEECH_SCAVENGER"/>
 	</choice>
 </event>
@@ -6613,7 +6613,7 @@
 				<event load="LEECH_SCAVENGER_LIST"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_LANIUS">
-				<text>(Lanius Crew) Have your Lanius use their abilities on the metal.</text>
+				<text>(라니우스 선원) Have your Lanius use their abilities on the metal.</text>
 				<event>
 					<text>Your Lanius melts the metal down and reforms it into individual components. Thanks to this, you're able to get a much larger yield of scrap than you spent here!</text>
 					<item_modify>
@@ -6632,7 +6632,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6680,7 +6680,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_PIRATE_ODDSHOP"/>
 	</choice>
 </event>
@@ -6712,7 +6712,7 @@
 						<event load="PIRATE_ODDSHOP_SLAVE_ELITE"/>
 					</choice>
 					<choice hidden="true">
-						<text>Nothing here is of interest. Leave.</text>
+						<text>Nothing here is of interest. 떠난다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -6749,13 +6749,13 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Nothing here is of interest. Leave.</text>
+						<text>Nothing here is of interest. 떠난다.</text>
 						<event/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Nothing here is of interest. Leave.</text>
+				<text>Nothing here is of interest. 떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6769,7 +6769,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6784,7 +6784,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_PIRATE_AWKWARD"/>
 	</choice>
 </event>
@@ -6871,7 +6871,7 @@
 			<text>These scum are still outlaws, regardless if they're running a market or not. Time to bring their villainy to an end.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6885,7 +6885,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6896,11 +6896,11 @@
 		<text>"Oh uh uh er uhm uh uhhh uh er uhm uhhhh..." the pirate takes off and runs into another room, slamming the door behind him. You can't figure out a way in, so you head to the market instead.</text>
 		<store>STORE_PIRATE</store>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="hacking">
-			<text>(Hacking) Open up the doors.</text>
+			<text>(해킹) Open up the doors.</text>
 			<event>
 				<text>Your hacking module opens up the doors, revealing the pirate inside. He surrenders almost immediately.</text>
 				<autoReward level="LOW">item</autoReward>
@@ -6916,7 +6916,7 @@
 		<text>"You know damn well where we got them! And now, you'll be our next!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -6942,7 +6942,7 @@
 		<event load="STOREEVENT_PIRATE_REFUELING_LIST"/>
 	</choice>
 	<choice hidden="true" req="weapons" lvl="5">
-		<text>(Upg. Weapons) Approach with your weapons armed. Make it clear you aren't messing around.</text>
+		<text>(고급 무기실) Approach with your weapons armed. Make it clear you aren't messing around.</text>
 		<event>
 			<text>Your show of force makes it clear you aren't going to take any funny stuff from these pirates. They open their store for you almost immediately, but don't offer any extra fuel...</text>
 			<store>STORE_PIRATE</store>
@@ -6958,29 +6958,29 @@
 		<text>As you prepare to leave the system, the station suddenly turns aggressive - apparently, pirates don't take well to being ignored!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>You ignore the refueling platform.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
 		<text>You ignore the refueling platform.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -7016,7 +7016,7 @@
 				</item_modify>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -7097,7 +7097,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking" lvl="3">
-		<text>(Adv. Hacking) Hold the market hostage with their own turrets.</text>
+		<text>(최고급. 해킹) Hold the market hostage with their own turrets.</text>
 		<event>
 			<text>You remotely take control of all of the smuggler's turrets, and start firing on their ships. Once their entire fleet is crippled, they give in to all of your demands.</text>
 			<autoReward level="HIGH">weapon</autoReward>
@@ -7119,7 +7119,7 @@
 			<environment type="PDS" target="player"/>
 			<ship load="SHIP_SMUGGLER_ALL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -7163,7 +7163,7 @@
 			<text>You flick on your weapons and engage the Shell station. Pffft, who even likes bowling anyways?</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_SHELL_FIGHT"/>
 			</choice>
 		</event>
@@ -7177,7 +7177,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7210,7 +7210,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_SHELL_BIOLOGIST"/>
 	</choice>
 </event>
@@ -7245,7 +7245,7 @@
 				</event>
 			</choice>
 			<choice req="LIST_CHECKCREW_SHELL">
-				<text>(Shell Crew) Offer to hire the scientist.</text>
+				<text>(Shell 선원) Offer to hire the scientist.</text>
 				<event>
 					<text>Realizing this is his chance to finally go somewhere in his career, the Shell is more than willing.</text>
 					<crewMember amount="1" class="shellmedic" all_skills="1"/>
@@ -7274,7 +7274,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7289,7 +7289,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_SHELL_MEDICAL"/>
 	</choice>
 </event>
@@ -7325,7 +7325,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7355,7 +7355,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7368,7 +7368,7 @@
 				<item type="scrap" min="-25" max="-25"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STOREEVENT_LANIUS_METAL_GIFT"/>
 			</choice>
 		</event>
@@ -7379,7 +7379,7 @@
 			<text>Despite the unprecedented friendliness of these Lanius, you've turned on them and are now attacking!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -7436,7 +7436,7 @@
 	<text id="store_in_nebula"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="STOREEVENT_TONY"/>
 	</choice>
 </event>
@@ -7453,7 +7453,7 @@
 		<event load="STOREEVENT_TONY_EXPLORE"/>
 	</choice>
 	<choice hidden="true">
-		<text>Just get what we need and leave.</text>
+		<text>Just get what we need and 떠난다.</text>
 		<event>
 			<text>You're only here for military supplies and nothing else. Let's just shop and get it over with.</text>
 			<choice>
@@ -7461,7 +7461,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7502,7 +7502,7 @@ slug karen fighting for last item on shelf
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -7531,11 +7531,11 @@ slug karen fighting for last item on shelf
 							<text>You find the Leech has been laughing the entire time, but now that you're done he cold stares at you in pity. When he makes no motion to so much as even thank you for your actions, you storm over to the trashcans and grab as much junk you can find that might be worth anything.</text>
 							<autoReward level="LOW">scrap_only</autoReward>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event/>
 							</choice>
 							<choice hidden="true" req="weapons" lvl="5">
-								<text>(Upg. Weapons) Show that ungrateful asshole what for.</text>
+								<text>(고급 무기실) Show that ungrateful asshole what for.</text>
 								<event>
 									<text>Out of pure spite for all the time you wasted, you power up your guns and lay fire down upon the store. You make certain not to hit anyone but completely destroy their stock. Terrified, the manager suddenly changes his mind and gives you a giant reward.</text>
 									<autoReward level="MED">standard</autoReward>
@@ -7559,7 +7559,7 @@ slug karen fighting for last item on shelf
 				<item type="scrap" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 		</event>
@@ -7573,7 +7573,7 @@ slug karen fighting for last item on shelf
 				<item type="scrap" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 		</event>
@@ -7587,7 +7587,7 @@ slug karen fighting for last item on shelf
 				<item type="scrap" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 		</event>
@@ -7604,12 +7604,12 @@ slug karen fighting for last item on shelf
 		<event>
 			<text>"Uhm I uh, I just meant uh... well... yes? If you have a better solution I'm all ears, but as long as you shut that woman and her screaming infant up we'll pay you."</text>
 			<choice hidden="true" req="LIST_CREW_ELITE">
-				<text>(Elite Crew) Eliminate the child.</text>
+				<text>(Elite 선원) Eliminate the child.</text>
 				<event>
 					<text>Your crew rushes into action, quickly tracking down the child. They quickly snap its neck and return to you to confirm the kill. Your entire crew looks on in horror at what you just did, but the store owners don't seem to care at all. They grab one of the nearby Hektar modules and toss it to you as a reward for your manslaughter.</text>
 					<weapon name="GIFTLIST_MODULES"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL"/>
 					</choice>
 				</event>
@@ -7620,7 +7620,7 @@ slug karen fighting for last item on shelf
 					<text>You power up your weapon and lock onto the position of the child, quickly eliminating it. Your entire crew looks on in horror at what you just did, but the store owners don't seem to care at all. They grab one of the nearby Hektar modules and toss it to you as a reward for your manslaughter.</text>
 					<weapon name="GIFTLIST_MODULES"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL"/>
 					</choice>
 				</event>
@@ -7631,21 +7631,21 @@ slug karen fighting for last item on shelf
 					<text>Your drone stirs to life and immediately seeks out the child and terminates it immediately with a lethal injection. It returns to you and confirms the kill. Your entire crew looks on in horror at what you just did, but the store owners don't seem to care at all. They grab one of the nearby Hektar modules and toss it to you as a reward for your manslaughter.</text>
 					<weapon name="GIFTLIST_MODULES"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="sensors" lvl="2">
-				<text>(Upg. Sensors) Track down the child.</text>
+				<text>(고급 Sensors) Track down the child.</text>
 				<event load="TONY_CHILD_FOUND"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_SLUG">
-				<text>(Slug Crew) Track down the child.</text>
+				<text>(Slug 선원) Track down the child.</text>
 				<event load="TONY_CHILD_FOUND"/>
 			</choice>
 			<choice hidden="true" req="ADV_SCANNERS">
-				<text>(LRS) Track down the child.</text>
+				<text>(장거리 센서) Track down the child.</text>
 				<event load="TONY_CHILD_FOUND"/>
 			</choice>
 			<choice hidden="true" req="LIFE_SCANNER">
@@ -7661,7 +7661,7 @@ slug karen fighting for last item on shelf
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -7696,7 +7696,7 @@ slug karen fighting for last item on shelf
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -7712,7 +7712,7 @@ slug karen fighting for last item on shelf
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7769,11 +7769,11 @@ slug karen fighting for last item on shelf
 		<event>
 			<text>You're on an important mission, you can't waste time investigating crimes in a city-sized shopping mall.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7796,13 +7796,13 @@ slug karen fighting for last item on shelf
 			<text>"Welp, then don't say I didn't warn you!" The ship turns its weapons on you and attacks!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Good point, let's leave.</text>
+		<text>Good point, let's 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -7810,11 +7810,11 @@ slug karen fighting for last item on shelf
 	<text>The strange pirate ship is defeated. You scrap its remains.</text>
 	<autoReward level="HIGH">item</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>With the ship out of the way you enter the command tower, where you find a large vault door, protected by a security code. Taking one wild guess, you try typing in 'password' and it immediately grants you access.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Inside the vault is a sorry sight. A greasy couch sits in the center of mounds of wrappers and soda cans and faces a massive widescreen TV playing a rather raunchy episode from the infamously awful Leech soap opera 'Orfaces of Rilla'. A pathetically overweight creature lays before you, mindlessly absorbing the show and not paying you any mind.</text>
 					<choice hidden="true">
@@ -7910,7 +7910,7 @@ slug karen fighting for last item on shelf
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7921,7 +7921,7 @@ slug karen fighting for last item on shelf
 			<text>You arm the weapons and attack the Hektar ship running the store.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -7938,7 +7938,7 @@ slug karen fighting for last item on shelf
 						<item type="scrap" min="-700" max="-700"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="UWU_POINT_RICH"/>
 					</choice>
 				</event>
@@ -7948,7 +7948,7 @@ slug karen fighting for last item on shelf
 				<event>
 					<text>"Awwww man... Worth a sssshot. Anywayssss, the account isss actually free. By sssetting up your account, you get one U.W.U. point for free. Every time you visssit a Hektar marketplacccce, make ssssure to collect your U.W.U. point before you sssshop. Collect 5 pointssss and you'll be entered into our cusssstomer reward program." The Slug transfers over an U.W.U. point to your account. "Now, go buy ssssomething or get losssst."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="UWU_POINT"/>
 					</choice>
 				</event>
@@ -7987,7 +7987,7 @@ slug karen fighting for last item on shelf
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -7998,7 +7998,7 @@ slug karen fighting for last item on shelf
 			<text>You arm the weapons and attack the Hektar ship running the store.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -8015,7 +8015,7 @@ slug karen fighting for last item on shelf
 						<item type="scrap" min="-700" max="-700"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="UWU_POINT_RICH"/>
 					</choice>
 				</event>
@@ -8025,7 +8025,7 @@ slug karen fighting for last item on shelf
 				<event>
 					<text>"Awwww man... Worth a sssshot. Anywayssss, the account isss actually free. By sssetting up your account, you get one U.W.U. point for free. Every time you visssit a Hektar marketplacccce, make ssssure to collect your U.W.U. point before you sssshop. Collect 5 pointssss and you'll be entered into our cusssstomer reward program." The Slug transfers over an U.W.U. point to your account. "Now, go buy ssssomething or get losssst."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="UWU_POINT"/>
 					</choice>
 				</event>
@@ -8054,7 +8054,7 @@ slug karen fighting for last item on shelf
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -8068,14 +8068,14 @@ slug karen fighting for last item on shelf
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
 <event name="HEKTAR_COORDS_GET_1">
 	<text>The Hektar employee goes to add your point, when he stops in surprise. "Huh? You actually reached 5 pointssss... Do you have brain damage? Why would you visssit sssso many sssstores. Eh, whatever. Congratulationssss. Here's the sssshiny key to the Hektar Mega-Market(tm). Ssssomething sssomething we wave all liability or whatever." Looks like they've sent some special coords for your Atlas. You can travel there during any sector jump before the Federation Capital.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HEKTAR_COORDS_GET_2"/>
 	</choice>
 </event>
@@ -8087,7 +8087,7 @@ slug karen fighting for last item on shelf
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -8111,7 +8111,7 @@ slug karen fighting for last item on shelf
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -8122,7 +8122,7 @@ slug karen fighting for last item on shelf
 			<text>You arm the weapons and attack the Hektar ship running the store.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -8147,7 +8147,7 @@ slug karen fighting for last item on shelf
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -8158,7 +8158,7 @@ slug karen fighting for last item on shelf
 			<text>You arm the weapons and attack the Hektar ship running the store.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -8594,7 +8594,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
                 </event>
             </choice>
             <choice hidden="true" req="LIST_CREW_FREEMAN">
-                <text>(Free Mantis Crew) Request some loot from the Zoltan merchant first.</text>
+                <text>(독립 맨티스 선원) Request some loot from the Zoltan merchant first.</text>
                 <event>
                     <text>"You are wanting Zoltan gun? You lucking, for are having Zoltan gun! Take it, yours it is now!"</text>
                     <weapon name="LIST_LOOT_ZOLTAN"/>
@@ -8609,13 +8609,13 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
             <text>You're the shoot first, ask questions later kind of guy. Not that there's any reason to shoot here at all yet, but you're doing it anyways.</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
             </choice>
         </event>
     </choice>
     <choice>
-        <text>Ignore the ship.</text>
+        <text>함선을 무시한다.</text>
         <event>
             <text>No reason to bother these guys, there must have been a mistake. Eventually, the Free Mantis jump away.</text>
             <choice>
@@ -8623,7 +8623,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -9463,7 +9463,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
     <text>Despite the utter chaos going on in this sector, the Federation fleet appears to have quarantined off this system, and are selling supplies to passing Federation ships.</text>
     <customFleet right="true" firing="false" autoDarkening="false">CUSTOM_FLEET_FED</customFleet>
     <choice>
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <store>STORE_STANDARD</store>
         </event>
@@ -9479,7 +9479,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 		<autoReward level="MED">stuff</autoReward>
 		<store>STORE_STANDARD</store>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 	</event>
@@ -9496,7 +9496,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<text load="STORES_HACKED"/>
 	<store>STORE_STANDARD</store>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -9515,7 +9515,7 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<text>There appears to be no store here after-all! A hacker ship here hails you. "Hahaha! You absssssolute fool! You nincompoop! You fell for my trap! Prepare to die."</text>
 	<ship load="SHIP_HACKER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -9530,16 +9530,16 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="STORES_AUG">
 	<text load="STORES_AUG"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<store>STORE_AUGMENTED</store>
 			<text>Looks like you now have some time to do something aboard the ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -9559,11 +9559,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_STANDARD">
 	<text load="EMPTY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9582,11 +9582,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_START">
 	<text load="TEXT_EMPTY_START"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9602,11 +9602,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<environment type="nebula"/>
 	<text load="NEBULA_NOTHING_LIST"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9625,11 +9625,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_COREWORLDS">
 	<text load="EMPTY_COREWORLDS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9645,11 +9645,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_MILITIA">
 	<text load="EMPTY_MILITIA"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9667,11 +9667,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_FED_NORMAL">
 	<text load="EMPTY_FED_NORMAL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9685,11 +9685,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<text>A few larger Federation ships float some distance away, but none respond to your hails.</text>
 	<fleet>fed</fleet>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9697,11 +9697,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ENGI">
 	<text load="EMPTY_ENGI"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9721,11 +9721,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_HARMONY">
 	<text load="EMPTY_HARMONY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9745,11 +9745,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_SEPERATIST">
 	<text load="EMPTY_SEPERATIST"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9764,11 +9764,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ZOLTAN">
 	<text load="EMPTY_ZOLTAN"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9785,11 +9785,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_CAPITAL">
 	<text load="EMPTY_CAPITAL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9806,11 +9806,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<text load="EMPTY_MONK"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9825,11 +9825,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_DUSKBRINGER">
 	<text load="EMPTY_DUSKBRINGER"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9843,11 +9843,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ORCHID" unique="false">
 	<text load="EMPTY_ORCHID"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9861,11 +9861,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_CRYSTAL">
 	<text load="EMPTY_CRYSTAL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9880,11 +9880,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_PIRATE">
 	<text load="EMPTY_PIRATE"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9898,11 +9898,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_BLACKMARKET">
 	<text load="EMPTY_BLACKMARKET"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9916,11 +9916,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_HACKED">
 	<text load="EMPTY_HACKED"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9935,11 +9935,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_REBEL">
 	<text load="EMPTY_REBEL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9954,11 +9954,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_JERRY">
 	<text load="EMPTY_JERRY"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9972,11 +9972,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_REBELHOLD">
 	<text load="EMPTY_REBELHOLD"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -9991,11 +9991,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_AUTO">
 	<text load="EMPTY_AUTO"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10010,11 +10010,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_MANTIS">
 	<text load="EMPTY_MANTIS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10030,11 +10030,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_FREEMANTIS">
 	<text load="EMPTY_FREEMANTIS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10048,11 +10048,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ROCK">
 	<text load="EMPTY_ROCK"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10069,11 +10069,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ROCKHOME">
 	<text load="EMPTY_ROCKHOME"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10089,11 +10089,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_LOSTSUN">
 	<text load="EMPTY_LOSTSUN"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10106,11 +10106,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_SLUG">
 	<text load="EMPTY_SLUG"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10125,11 +10125,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<environment type="nebula"/>
 	<text load="NEBULA_EMPTY_SLUG"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10145,11 +10145,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_SHELL">
 	<text load="EMPTY_SHELL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10163,11 +10163,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<environment type="nebula"/>
 	<text load="NEBULA_EMPTY_SHELL"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10182,11 +10182,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_COALITION">
 	<text load="EMPTY_COALITION"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10200,11 +10200,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<text load="TEXT_NEBULA_EMPTY_COALITION"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10217,17 +10217,17 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_SPIDER">
 	<text load="EMPTY_SPIDER"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
 <textList name="EMPTY_SPIDER">
 	<text>A Militia squadron is clearing out several civilian vessels from the beacon. They attempt to do the same to you, but when you show your ID they leave you alone.</text>
-	<text>An abandoned station has been left behind at this beacon. You briefly consider scrapping it until you realize their automated defense system is still online. Best to ignore it...</text>
+	<text>An abandoned station has been left behind at this beacon. You briefly consider scrapping it until you realize their automated defense system is still online. Best to 무시한다...</text>
 	<text>The spider infestation has done a good number on this sector. Most of the civilians have already evacuated, leaving much of the sector empty, such as this beacon.</text>
 	<text>A refugee ship flies past. You're cautious, wondering if they might be infested, but the ship makes no attempt to contact you and jumps away.</text>
 </textList>
@@ -10236,11 +10236,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 	<text load="NEBULA_EMPTY_GHOST_LIST"/>
 	<environment type="nebula"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10262,11 +10262,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_GHOST" unique="true">
 	<text>At last, a break from both the nebula and constant attacks from Ghosts.</text>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10274,17 +10274,17 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_LANIUS">
 	<text load="EMPTY_LANIUS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
 <textList name="EMPTY_LANIUS">	
 	<text>You pass a civilian ship that warns of the nearby Lanius. "One of them attacked a civilian transport and started to melt their hull. But then the weirdest thing happened... another metal ship actually fired on its companion until it backed off." Apparently there are disagreements among the Lanius about what should be salvaged.</text> 
-	<text>A few Lanius military ships are settled nearby, but they refuse all hails. Not wanting to mess with so many deadly ships at once, you leave them alone.</text>
+	<text>A few Lanius military ships are settled nearby, but they refuse all hails. Not wanting to mess with so many deadly ships at once, you 내버려 둔다.</text>
 	<text>The ruins of an ancient Lanius settlement drift nearby, but you don't risk scrapping it for fear of angering any potential Lanius witnesses.</text>
 	<text planet="PLANET_POPULATED">This beacon is rather peaceful. In the distance is a shiny Lanius city, a stunning sight even from orbit, but not one you care to interact with.</text>
 	<text>The raiding of this sector during the Lanius hibernation made this sector a massive site of traffic, but after the Lanius awoke and began attack civilians with reckless abandon, the number of visitors plummeted and the sector returned to its original state of relative obscurity.</text>
@@ -10293,11 +10293,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_AUG">
 	<text load="EMPTY_AUG"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10309,11 +10309,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ABANDONED">
 	<text load="EMPTY_ABANDONED"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10333,11 +10333,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ORIGINS">
 	<text load="EMPTY_ORIGINS"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -10350,11 +10350,11 @@ NEBULA_STOREEVENT_SHELL_MEDICAL-->
 <event name="EMPTY_ANCIENT">
 	<text load="EMPTY_ANCIENT"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>

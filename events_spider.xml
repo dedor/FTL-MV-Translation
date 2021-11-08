@@ -14,7 +14,7 @@
 					<text>The Militiamen give you clearance to engage the station, but give two last warnings. "We aren't sure what these things are, but they seem to be able to keep the station's systems functional. If you have to cause some damage that's understandable, but please do not cause very much, we can't go around destroying civilian property."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -36,7 +36,7 @@
 					<text>The Militiamen give you clearance to engage the station, but give two last warnings. "Just as before, please try and be careful! We can't go around blowing up civilian property!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -48,15 +48,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Agree to leave.</text>
+		<text>Agree to 떠난다.</text>
 		<event>
 			<text>You navigate away from the station, but you stay in the system long enough to do something on the ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -149,12 +149,12 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Fight the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
 			<text>Last thing the Militia needs to deal with is slavers selling spiders to other ships. You'll take care of these pirates for them!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -164,11 +164,11 @@
 		<event>
 			<text>"Your loss son!" The slaver hangs up.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -200,7 +200,7 @@
 							<choice hidden="true">
 								<text>Offer to take Wilbur with you.</text>
 								<event>
-									<text>"You would take me away? I haven't been off this planet in years! Just, let me say goodbye!" The Rockman runs over to the spider and give it a large hug, then runs over to join you. As you leave the cave, you turn back to see the spider watch you leave. If you had known better, you'd even have said it looked sad.</text>
+									<text>"You would take me away? I haven't been off this planet in years! Just, let me say goodbye!" The Rockman runs over to the spider and give it a large hug, then runs over to join you. As you leave the cave, you turn back to see the spider watch you 떠난다. If you had known better, you'd even have said it looked sad.</text>
 									<crewMember amount="1" class="rock">Wilbur</crewMember>
 								</event>
 							</choice>
@@ -237,11 +237,11 @@
 		<event>
 			<text>Best not to go spelunking in a sector infested with giant alien spiders.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -270,7 +270,7 @@
 			<text>You power up your weapons and engage the pirate ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -280,11 +280,11 @@
 		<event>
 			<text>The fight brings them out of your immediate scanning range. After a time the distress calls stop.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -300,7 +300,7 @@
 			<text>You power up your weapons and engage the infested ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -310,11 +310,11 @@
 		<event>
 			<text>The fight brings them out of your immediate scanning range. After a time the distress calls stop.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -343,11 +343,11 @@
 		<event>
 			<text>"Understandable. Not everyone has a taste in science."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -379,7 +379,7 @@
 		<text>"Thhhank you... this will help the Brood greatly!" Their weapons come online, a sure sign that this was a trap!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -392,7 +392,7 @@
 		<event>
 			<text>You step aboard to find a large variety of races of all shapes and sizes walking about. The interior is lined in a crimson wallpaper and the floor a velvet carpet. It looks like some kind of weird hotel... and a strangely well armed one like that.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you continue deeper into the yacht you notice two doors. One marked "Night Club", and the other "High Grade Military Explosives [Off Access!!!]"</text>
 					<choice hidden="true">
@@ -418,11 +418,11 @@
 		<event>
 			<text>You fly away from the battle.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -436,12 +436,12 @@
 			<text>Your crew grab as much ammunition as they can carry, until a Duskbringer in bright red armor bursts into the room, holding a small bomb. "Feds, in my territory? Oh, now you've really made me mad!"</text>
 			<autoReward level="HIGH">missiles_only</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you run to leave, you're chased down by the Duskbringer and several other Brood members. Even when you undock from the yacht, you're followed by an unusually colored Duskbringer pirate.</text>
 					<ship load="SHIP_CHERRI" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -458,7 +458,7 @@
 		<text>As you run to exit the yacht you are spotted by several pirates. You make it back to your ship in time, but a Brood vessel is in hot pursuit!</text>
 		<ship load="SHIP_BROOD" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -483,7 +483,7 @@
 						<item type="scrap" min="-999" max="-999"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SCAM_UNLOCK"/>
 					</choice>
 				</event>
@@ -495,7 +495,7 @@
 					<status type="divide" target="player" system="engines" amount="2"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -512,18 +512,18 @@
 		<text>As you're about to leave, you receive another message. "Oh, don't be stingy! Come back here, dearie.." The Brood ship arms its weapons.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>You don't do business with pirates.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -542,7 +542,7 @@
 					<text>You can't let these civilians keep murdering other ships. You'll have to take out their Auto-ship to stop them.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -552,11 +552,11 @@
 				<event>
 					<text>You aren't particularly interested in messing with that Auto-ship. You avoid the station.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -569,7 +569,7 @@
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="BEAM_FIRE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"AAAAH, THE SPIDERS, THEY'RE EVOLVING!" The civilians mute the comms and several large, expensive laser cannons extend from their hull. These guys mean business, and it's probably best to leave them alone now. Fortunately, that leaves you further time to investigate the Auto-ship, where you discover a special Laser weapon!</text>
 			<weapon name="LASER_FIRE_SPECIAL"/>
@@ -592,7 +592,7 @@
 	<text load="TEXT_ENCOUNTER_INFESTED"/>
 	<ship load="SHIP_INFESTED" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -613,7 +613,7 @@
 	<text>It's an unusual surprise seeing an Engi ship so deep in such a dangerous sector. You attempt to hail them, but only get back a garbled response followed by hissing. The ship must be infested with spiders!</text>
 	<ship load="SHIP_INFESTED_ENGI" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -622,7 +622,7 @@
 	<text load="TEXT_ENCOUNTER_BROOD"/>
 	<ship load="SHIP_BROOD" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -645,7 +645,7 @@
 	<text load="TEXT_ENCOUNTER_CLANSMEN_INFESTATION"/>
 	<ship load="SHIP_CLAN_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -681,11 +681,11 @@
 		<event>
 			<text>The wreckage continues to drift past you, seemingly lifeless.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -695,7 +695,7 @@
 		<event load="INFESTED_WRECKAGE_SCAN"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Upg. Sensors) Scan the wreckage.</text>
+		<text>(고급 Sensors) Scan the wreckage.</text>
 		<event load="INFESTED_WRECKAGE_SCAN"/>
 	</choice>
 </event>
@@ -750,7 +750,7 @@
 			<text>You power up your weapons and engage the pirate ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -760,11 +760,11 @@
 		<event>
 			<text>The fight brings them out of your immediate scanning range. After a time the distress calls stop.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -781,7 +781,7 @@
 			<text>You power up your weapons and engage the infested ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -791,11 +791,11 @@
 		<event>
 			<text>The fight brings them out of your immediate scanning range. After a time the distress calls stop.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -811,7 +811,7 @@
 		<event>
 			<text>You pilot closer to the surface, where you spot a wrecked Operative Militia ship stuck between two trees. Two Militiamen, one with bright orange hair, and the other with a long scar down his face and a pair of round glasses, are bunkered down, rifles drawn, facing towards a hill.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You exit the vehicle and walk towards the Militiamen, who quickly shush you before you can speak. In a slow whisper, the red head says "Be very very quiet, or these spiders will hear us. There's a massive hive here, and we have to get out." The one with glasses shakes his head an disagreement, "No, we heard a supply cache was taken by the spiders. We have to get it back!"</text>
 					<choice hidden="true">
@@ -839,11 +839,11 @@
 		<event>
 			<text>You don't know what's down there, but you can't trust anything in this sector.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -873,11 +873,11 @@
 		<event>
 			<text>You leave the civilian ship alone.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -887,7 +887,7 @@
 	<text>You've arrived at the co-ordinates given by the civilians. A terrestrial planet, though with few signs of civilization, is located within the system limits. This must be the place...</text>
 	<img planet="PLANET_UNPOPULATED_TERRA"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It doesn't take long to find the photographer. A human so thin his ribcage looks like it's about to escape his chest stands triumphant over a horde of spiders, who crawl around him in submission. He shouts to your ship. "Fear me, for I am the spider man! King of the spiders, and soon to be king of man!"</text>
 			<choice hidden="true">
@@ -896,7 +896,7 @@
 					<text>From the ground rises a beaten but still functional Federation ship, staffed mostly by spiders. The "spider man" jumps aboard the ship, and rises to fight you!</text>
 					<ship load="SHIP_SPIDERMAN" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -908,7 +908,7 @@
 	<text>The wrecked ship falls back down the ground, crushing several hundred spiders and sending many more flying. With the horde dispersed, you land as well and quickly gather some salvage.</text>
 	<autoReward level="MED">standard</autoReward> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Unfortunately, this means the photographer is dead. There's no reason to report back to the civilian ship now.</text>
 		</event>
@@ -918,7 +918,7 @@
 	<text>The now crewless vessel falls back down the ground, crushing several hundred spiders and sending many more flying. With the horde dispersed, you land as well and quickly gather some salvage.</text>
 	<autoReward level="HIGH">standard</autoReward> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Unfortunately, this means the photographer is dead. There's no reason to report back to the civilian ship now.</text>
 		</event>
@@ -979,16 +979,16 @@
 	<text>These are the last known co-ordinates of the renegade hired by the Militia. Some strange facility has been constructed here, and a massive civilian transport ship is in the process of leaving the planet. You spot a distant, strangely shaped vessel parked outside the entrance.</text>
 	<img back="BACK_EVENT_SPIDERLAB" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You pull closer, careful not to be spotted. It seems you failed to spot a second ship, a large Mantis cruiser in Brood colors. You land behind one of the massive solar panels and tune into the conversation between the two ships. It seems Irwin is speaking with an unusually well-dressed Brood member in what seems to be a painted Ace uniform.</text>
 			<ship load="SHIP_BROOD_CRUISER" hostile="false"/>
 			<choice hidden="true" req="MARKER_BEENTONEST" blue="false" lvl="0" max_group="0">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Heheh, hey there Virgo. Look, I know thisss looksss bad but..." Irwin is cut off by the imposing figure. "I do not have time for your shit anymore Irwin. Vael is getting tired. You had ONE job, to recover the DNA. And what happened? You come slithering back to me with nothing. Now, they're about to blow the whole nest to hell. You expect me to TOLERATE this?"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"Well... yessss? Look, it wasssn't easy convincccing the C.D.E.G. to hire me after the Vek dissssassster ruined the reputation of renegadessss!" Irwin continues to protest but is cut off once more. "It doesn't matter. Too much time has passed. The window of opportunity is slim. Vael has cut a deal with the Brood, they will recover the DNA for us. We have no more use for you, Irwin. You are nothing but a loose end." Virgo draws his laser and aims it right at Irwin.</text>
 							<choice hidden="true">
@@ -997,13 +997,13 @@
 									<text>Seems this Irwin fellow might have information of use. You jump out from your cover and draw your own weapon. Virgo shows no signs of disturbance but merely retracts his weapon and hurries back to the Brood ship, which immediately powers up its weapons! Irwin, to no surprise, rushes back to his ship but is stopped by a missile from the pirates, destroying his engines.</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
 							</choice>
 							<choice hidden="true">
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event>
 									<text>You watch as the Slug desperately pleads for his life, but the assassin pays him no attention. He shoots only once and the Clansman falls to the ground in a puddle of his own green blood. Virgo orders the pirates behind him to destroy Irwin's ship before they go. Seems this is your cue to leave as well.</text>
 									<instantEscape/>
@@ -1014,11 +1014,11 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="MARKER_BEENTONEST" blue="false" lvl="1" max_group="0">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Heheh, hey there Virgo. Look, I know thisss looksss bad but..." Irwin is cut off by the imposing figure. "I do not have time for your shit anymore Irwin. Vael is getting tired. You had ONE job, to recover the DNA. And what happened? You come slithering back to me with nothing. Now, they've blown that nest to hell and we have no way of recovering the samples! You expect me to TOLERATE this?"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"Well... yessss? Look, it wasssn't easy convincccing the C.D.E.G. to hire me after the Vek dissssassster ruined the reputation of renegadessss!" Irwin continues to protest but is cut off once more. "It doesn't matter. Too much time has passed. The window of opportunity is gone. We have no more use for you, Irwin. You are nothing but a loose end." Virgo draws his laser and aims it right at Irwin.</text>
 							<choice hidden="true">
@@ -1027,13 +1027,13 @@
 									<text>Seems this Irwin fellow might have information of use. You jump out from your cover and draw your own weapon. Virgo shows no signs of disturbance but merely retracts his weapon and hurries back to the Brood ship, which immediately powers up its weapons! Irwin, to no surprise, rushes back to his ship but is stopped by a missile from the pirates, destroying his engines.</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
 							</choice>
 							<choice hidden="true">
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event>
 									<text>You watch as the Slug desperately pleads for his life, but the assassin pays him no attention. He shoots only once and the Clansman falls to the ground in a puddle of his own green blood. Virgo orders the pirates behind him to destroy Irwin's ship before they go. Seems this is your cue to leave as well.</text>
 									<instantEscape/>
@@ -1108,7 +1108,7 @@
 	<text>You've arrived at the Spider Hive. The planet is appropriately spooky for what you're dealing with. In the skies, the Militia and Brood forces fight for control over the planet, but you're able to slip through the chaos and land on the surface near a giant cavern.</text>
 	<img back="BACK_EVENT_NEST" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You receive a distant hail from Montgomery, though it cuts in and out. "You made - delivery ship damaged - bombs are lost in cavern - need you - find them and - destroy the nest - Brood inside - careful!"</text>
 			<choice hidden="true">
@@ -1124,7 +1124,7 @@
 								<event>
 									<text>Your crew rush to wire the bombs without waking up the spiders. From what you remember, these are the same design as the ones used against the Vek on Earth. Just one of those was capable of creating an explosion visible from space and caused massive earthquakes across the planet, so you can only imagine what kind of impact three of them will have. And you sure as hell don't want to stick around to see it.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>While wiring the third and final bomb, one of your crew trips and drops a metal plate from the bomb on the ground. At once, it seem as though every spider in the entire cavern lets out a cry. In a matter of seconds a massive roar silences them and a monstrous creature the size of three men erupts from the ground. This must be the queen, and she sure isn't happy. All 8 of her eyes lock onto you, but she doesn't attack. It almost seems as if she's giving you a warning.</text>
 											<choice hidden="true">
@@ -1145,9 +1145,9 @@
 																	You know what you have to do, Oscar. Do not fail the Rebellion again.
 																	Sincerely, Dr. E.W."</text>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event>
-																			<text>You aren't sure what to make of this, but you don't have much time. Montgomery calls out from behind you, ordering that you drop the letter. "Turn around slowly, captain. Put that paper down and come with me. We need to detonate the bombs and leave."</text>
+																			<text>You aren't sure what to make of this, but you don't have much time. Montgomery calls out from behind you, ordering that you drop the letter. "Turn around slowly, captain. Put that paper down and come with me. We need to detonate the bombs and 떠난다."</text>
 																			<ship load="SHIP_MILITIA_CRUISER" hostile="false"/>
 																			<choice hidden="true">
 																				<text>Confront Montgomery about the letter.</text>
@@ -1155,13 +1155,13 @@
 																					<text>Montgomery cuts you off before you can finish. "What reason do you think the C.D.E.G. is here? Did you really think the Brood was behind all of this? That some stupid pirates could just breach the security of the Union's Coreworlds? No, but the Federation has been concerningly ignorant to the Senator's intentions. The Brood is real, yes, but they were nothing before this. We gave them the insectoids to release. We planted the Vek on Earth. It was an awful decision in hindsight, yes, and that's why we're here. The experiment was a failure. We cannot risk exposing the Senator's ties to the Rebellion. I'm afraid you're now a liability. But disposing of liabilities is what I'm best at."</text>
 																					<ship hostile="true"/>
 																					<choice hidden="true">
-																						<text>Continue...</text>
+																						<text>계속...</text>
 																						<event load="COMBAT_CHECK"/>
 																					</choice>
 																				</event>
 																			</choice>
 																			<choice hidden="true">
-																				<text>Abandon the lab and the spiders and leave.</text>
+																				<text>Abandon the lab and the spiders and 떠난다.</text>
 																				<event>
 																					<text>You take one last look at the queen and hurry out of the lab. You spot a massive CDEG Cruiser which Montgomery boards. In the distance the horde of spiders chase after you, but you're too fast. Both of your ships escape just in time as the bombs fill your ship with a blinding light. Once it finally subsides, Montgomery hails you one last time. "You saw nothing down there, understand?" You nod your head. "Good. You will be rewarded for your assistance, but I hope you understand that it would be a poor decision to speak of what was down there to anyone else."</text>
 																					<autoReward level="HIGH">weapon</autoReward>
@@ -1219,7 +1219,7 @@
 	<hiddenAug>ACH_BOSS_MILCRUISER</hiddenAug>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>While scrapping the crashed wreckage, you hear the moan of a dying man and find Montgomery, impaled by part of the debris. He turns to you, and with his final breath he mutters, "No evidence. An Ace... never fails." He raises his hand, still holding the detonator, and flips the switch. Instantly, the nearby Reinfield bombs activate and the countdown to decimation begins.</text>
 			<choice hidden="true">
@@ -1229,7 +1229,7 @@
 					<crewMember amount="1" class="queen" combat="2">The Queen</crewMember>
 					<hiddenAug>ACH_CREW_QUEEN</hiddenAug>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>So many different questions are left running through your head. Why was the Rebellion testing the spiders and the Vek? What is the 'new candidate'? Who is Dr E.W.? You arent sure if any of these questions will be answered, but you can't linger for too much longer. The queen, while safe, is obviously disturbed by the loss of her children. Had you not saved her, the entire species would have likely gone extinct. All you can do now is be glad another Ace is dead and carry on with your mission. Maybe some day, whether it's you or another captain, someone will get to the bottom of this. You pull out the dongle from earlier and download the blueprint data onto your ship for later.</text>
 							<unlockCustomShip silent="false">PLAYER_SHIP_BROOD</unlockCustomShip>

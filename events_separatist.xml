@@ -25,11 +25,11 @@
 	<text>It appears you've discovered a Harmony Link. These massive planet-sized structures are made up of trillions of nanobots, and transmit a strong signal to all of the Engi in the sector. However, it appears this one is no longer functional, likely sabotaged by the Separatists when they took control of this sector.</text>
 	<img back="BACK_EVENT_HARMONYLINK" planet="NONE"/>
 	<choice hidden="true" lvl="0" req="MARKER_FOUNDANCIENT" max_group="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_LINK_SEP_EVENTS"/>
 	</choice>
 	<choice hidden="true" lvl="1" req="MARKER_FOUNDANCIENT" max_group="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HARMONY_LINK_EVENTS_SEP_NOANCIENT"/>
 	</choice>
 </event>
@@ -60,7 +60,7 @@
 						<item type="missiles" min="-5" max="-5"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"Wow. This is quite -unhelpful-. We cannot even use these. I suppose this is worth about, 5 scrap."</text>
 							<item_modify>
@@ -78,7 +78,7 @@
 						<item type="missiles" min="-15" max="-15"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Separatists load the missiles, then fire them directly into the Harmony link. It shatters the exterior, sending nanobots flying, only for them to reform again without any noticeable damage. "Well, at least now we [know]. Accept this payment."</text>
 							<autoReward level="LOW">standard</autoReward>
@@ -99,7 +99,7 @@
 			<text>The Separatists speak no words, but evidently won't go down without a fight!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -109,11 +109,11 @@
 		<event>
 			<text>If they're no threat to you, then you'll be no threat to them.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -150,11 +150,11 @@
         <event>
             <text>"I see you have no interest in taking avantage of great [opportunities]".</text>
             <choice>
-                <text>Do something onboard the ship.</text>
+                <text>함선에서 무언가를 한다.</text>
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -169,7 +169,7 @@
         <text>You begin the transfer of the information. You watch as the data loads. Most of it is random junk, such as a recipe for fish shaped ethyl benzene cake and an article on the importance of honesty. However before the map data begins to download, an error occurs, and your computer shuts down. You wait but it stays offline, and you realize you've been tricked! The Separatist ship raises its weapons and moves in to attack!</text>
         <ship load="SHIP_SEPERATIST_SCAN" hostile="true"/> 
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event load="COMBAT_CHECK"/>
         </choice>
     </event>
@@ -203,7 +203,7 @@
 		<event load="SEPERATIST_BODY_SCAN_SOLDIER"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SUZERAIN">
-        <text>(Hive Elite) Entice him with your Mantis Elite.</text>
+        <text>(맨티스 하이브 Elite) Entice him with your Mantis Elite.</text>
         <event load="SEPERATIST_BODY_SCAN_SUZERAIN"/>
     </choice>
 	<choice hidden="true" req="sabo">
@@ -454,7 +454,7 @@
 	<text load="TEXT_ENCOUNTER_SEPERATIST"/>
 	<ship load="SHIP_SEPERATIST_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -471,7 +471,7 @@
 	<text>A Separatist ship orbits the beacon, but before you can contact them they jump away and an Engi ship approaches. "Federation assisting enemies of Harmony? Dilemma... Federation ship: must be eliminated."</text>
 	<ship load="SHIP_ENGI_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -480,7 +480,7 @@
 	<text load="TEXT_ENCOUNTER_MANTIS_SEPERATIST"/>
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -496,7 +496,7 @@
 	<text>"We suggest you avoid the Auto-ship. It is broken." You notice the Separatist ship that hailed you hiding behind some large asteroids, as well as the Zoltan made Auto-ship barreling towards you!</text>
 	<ship load="SHIP_ZOLTAN_AUTO_FIGHT_SEPERATIST" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -532,7 +532,7 @@
 					<text>Neither ship seems particularly disturbed at you getting involved, and the Separatist continues to fight as if nothing had changed.</text>
 					<ship load="SHIP_SEPERATIST_CHOICE" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -543,7 +543,7 @@
 					<text>"Impossible. Failure to honor truce. Federation has broken promise. Fight imminent."</text>
 					<ship load="SHIP_ENGI_CHOICE" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 					</choice>
 				</event>
@@ -555,11 +555,11 @@
 		<event>
 			<text>You can hear the shots of the two ships echoing through your comms until you're a safe distance away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -585,7 +585,7 @@
 			<text>The mystery of the ship doesn't matter to you. The only thing on your mind is the reward of blowing it up.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -600,21 +600,21 @@
 					<text>The mystery of the ship doesn't matter to you. The only thing on your mind is the reward of blowing it up.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ignore the ship.</text>
+				<text>함선을 무시한다.</text>
 				<event>
 					<text>You've lost interest in the mystery, and prepare to move on.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -622,7 +622,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Try to detect life signs.</text>
+		<text>(Slug 선원) Try to detect life signs.</text>
 		<event>
 			<text>Your Slug tries to sense some form of intelligence aboard the enemy ship. They detect faint signs of potential life, but it's near impossible for them to tell.</text>
 			<choice hidden="true">
@@ -631,21 +631,21 @@
 					<text>The mystery of the ship doesn't matter to you. The only thing on your mind is the reward of blowing it up.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ignore the ship.</text>
+				<text>함선을 무시한다.</text>
 				<event>
 					<text>You've lost interest in the mystery, and prepare to move on.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -653,15 +653,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event>
 			<text>You have no desire to deal with the ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -671,7 +671,7 @@
 	<text>The strange Separatist ship is dead, and you scrap its remains.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You prepare to move on when a squeaky, high pitched voice speaks from behind you. You turn around to see a grey cloud of nanobots floating in random directions around the room. "Outcome: Wonderful. Appreciation: Maximum. Sarcasm: 100%. You have destroyed my ship. Now I have no choice but to integrate myself with yours."</text>
 			<augment name="NANOBOT_DEFENSE_SYSTEM"/>
@@ -691,7 +691,7 @@
 					<text>The Separatists lead you to the location of the Auto-ship.</text>
 					<ship load="SHIP_AUTO_SEPERATIST" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -701,11 +701,11 @@
 				<event>
 					<text>"I am -dissatisfied- with your response, but I will tolerate it. Good day Captain."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -717,11 +717,11 @@
 		<event>
 			<text>"Fair = fair. Try not to die."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -755,12 +755,12 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Contact them and ask to negotiate further.</text>
+		<text>(Engi 선원) Contact them and ask to negotiate further.</text>
 		<event>
 			<text>Your Engi requests to communicate with them. The Engi ship doesn't respond, and after continuous hails, their weapons go online!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -771,7 +771,7 @@
 			<text>"Need for supplies unfulfilled. Decisive action required... Screw this voice, we'll just take everything we want."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -798,7 +798,7 @@
 				<text>The Separatist pleads for you to spare them, but you have no intentions on letting them live.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -812,7 +812,7 @@
 				<text>"Wait, what are you doing? No, no, stop. Wait. This is a [bad] idea!"</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -860,7 +860,7 @@
 						<item type="drones" min="-4" max="-4"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Separatists have nothing to offer as far as a physical reward goes, but they are able to repair your hull.</text>
 							<damage amount="-10"/>
@@ -869,7 +869,7 @@
 				</event>
 			</choice>
 			<choice req="hacking">
-				<text>(Hacking) Use your hacking to isolate the virus.</text>
+				<text>(해킹) Use your hacking to isolate the virus.</text>
 				<event>
 					<text>Your hacking is surprisingly effective, and you're able to remove all instances of the virus's code from several Separatists. With how effective your hacking has been, they request that you stay behind a little longer to cure even more of them.</text>
 					<item_modify>
@@ -893,15 +893,15 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="engi">
-				<text>(Engi Crew) Send your Engi down to help.</text>
+				<text>(Engi 선원) Send your Engi down to help.</text>
 				<event load="DISTRESS_SEPERATIST_COMMUNITY_VIRUS_ENGI"/>
 			</choice>
 			<choice hidden="true" req="separatist">
-				<text>(Separatist Crew) Send your Separatist down to help.</text>
+				<text>(Separatist 선원) Send your Separatist down to help.</text>
 				<event load="DISTRESS_SEPERATIST_COMMUNITY_VIRUS_SEPARATIST"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_DEFENDER">
-				<text>(Engi Defender Crew) Send your Defender down to help.</text>
+				<text>(Engi Defender 선원) Send your Defender down to help.</text>
 				<event load="DISTRESS_SEPERATIST_COMMUNITY_VIRUS_DEFENDER"/>
 			</choice>
 			<choice hidden="true">
@@ -909,11 +909,11 @@
 				<event>
 					<text>"-ERROR: Logic not present- Infection is not biological, we are machi-" you end the call. They do not attempt to communicate again.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -925,11 +925,11 @@
 		<event>
 			<text>Too far away for them to notice you, you're left undisturbed in your current location.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -996,15 +996,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
-			<text>The Engi ships don't appear to be disturbed by your presence, and you leave them alone.</text>
+			<text>The Engi ships don't appear to be disturbed by your presence, and you 내버려 둔다.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1014,7 +1014,7 @@
 	<text>It doesn't take long for the Separatists to notice you. "So, you have come to kill me? Then prepare for a battle, Federation." You remember the Engi's orders to capture the ship without destroying it, knowing you'll have to kill their crew to do so.</text>
 	<ship load="SHIP_SEPERATIST_BOUNTY" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>

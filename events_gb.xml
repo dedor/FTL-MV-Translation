@@ -23,7 +23,7 @@
 	<ship load="SHIP_DYNASTY_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -39,7 +39,7 @@
 	<ship load="SHIP_GHOST_ALL" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -63,7 +63,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</destroyed>
@@ -71,7 +71,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</deadCrew>
@@ -86,7 +86,7 @@
 	<ship load="SHIP_HAUNT_ELEANOR" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -96,7 +96,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</destroyed>
@@ -104,7 +104,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</deadCrew>
@@ -119,7 +119,7 @@
 	<ship load="SHIP_HAUNT_PSYCH" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -129,7 +129,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</destroyed>
@@ -137,7 +137,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</deadCrew>
@@ -152,7 +152,7 @@
 	<ship load="SHIP_HAUNT_SCOLERI" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -162,7 +162,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</destroyed>
@@ -170,7 +170,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</deadCrew>
@@ -185,7 +185,7 @@
 	<ship load="SHIP_HAUNT_SLIMER" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -195,7 +195,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</destroyed>
@@ -203,7 +203,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</deadCrew>
@@ -218,7 +218,7 @@
 	<ship load="SHIP_HAUNT_VINZ" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -228,7 +228,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</destroyed>
@@ -236,7 +236,7 @@
 		<text>The haunted vessel has been eliminated. Another to check off the list this time. That is, assuming they don't pop up again from across the Multiverse looking for revenge.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PROTON_HAUNT_DEFEAT"/>
 		</choice>
 	</deadCrew>
@@ -251,7 +251,7 @@
 	<ship load="SHIP_HAUNT_ZUUL" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>

@@ -187,7 +187,7 @@
 
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_text">A distress signal is coming from an Orchid ship, drifting far away from common interstellar routes. You try to communicate but there is no answer.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_c1_choice">Board the ship.</text>
-<text name="event_ORCHID_DISTRESS_EMPTY_SHIP_c2_choice">Ignore it.</text>
+<text name="event_ORCHID_DISTRESS_EMPTY_SHIP_c2_choice">무시한다.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_LIST_1_text">You board the ship to find the aftermath of explosion and fire. You can only guess what was the reason of the accident. Most of equipment is burnt, and there is no one alive, but you still manage to find some useful scrap and resources.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_LIST_2_text">The only person alive on the ship is a dehydrated Orchid. The ship ran out of water and life support systems broke down. The whole crew is dead except one resilient Orchid who was reanimated after irrigation.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_LIST_3_text">The boarding team went into the ship to look for survivors. After a while, your crew went into uncontrollable rage. They were returned back to the ship as soon as possible, but one of the crewmembers was affected so strongly that went mad upon coming back to the ship.</text>
@@ -200,7 +200,7 @@
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c3_text">The Fire Suppression system is deployed in the colony and helps tremendously holding wildfires in key points back while all living Orchids evacuate. One of the Orchids is so impressed by your performance that they ask to join your crew.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c4_choice">(Mantis Pheromones) Use the augmentation to speed up evacuation.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c4_text">Affected by pheromones, your crew and Orchid civilians move a lot faster, leaving no one behind. After the colony is evacuated, one of the Orchids is so impressed by your performance that they ask to join your crew.</text>
-<text name="event_ORCHID_DISTRESS_COLONY_FIRE_c5_choice">(Crystal Crew) Block wildfire spreading to buy some time.</text>
+<text name="event_ORCHID_DISTRESS_COLONY_FIRE_c5_choice">(Crystal 선원) Block wildfire spreading to buy some time.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c5_text">Your crewmember erects giant crystalline walls in mere seconds. The flames are slowed down and all of the colony manages to escape to safety. One of the Orchids is so impressed by your performance that they ask to join your crew.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c6_choice">(Lockdown Bomb) Block wildfire spreading to buy some time.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c6_text">The bomb is used to erect giant crystalline walls in mere seconds. The flames are slowed down and all of the colony manages to escape to safety. One of the Orchids is so impressed by your performance that they ask to join your crew.</text>

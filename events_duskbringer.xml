@@ -41,7 +41,7 @@
 						<item type="scrap" min="-15" max="-25"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>They offer you a gift as thanks for your generous donation.</text>
 							<autoReward level="LOW">missiles_only</autoReward>
@@ -56,7 +56,7 @@
 					<text>The Escort isn't about to let you get away with your attack. The Transport is unable to fight back and watches the battle in despair.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
@@ -69,7 +69,7 @@
 						<item type="drones" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>They offer you a gift as thanks for your generous donation.</text>
 							<autoReward level="LOW">missiles_only</autoReward>
@@ -79,14 +79,14 @@
 				</event>
 			</choice>
 			<choice req="REPAIR_ARM">
-				<text>(Repair Arm) Offer to use the arm to fix up their hull.</text>
+				<text>(수리 로봇 팔) Offer to use the arm to fix up their hull.</text>
 				<event>
 					<text>The Militiamen are surprised by your offer, but they gratiously accept.</text>
 					<item_modify>
 						<item type="scrap" min="-5" max="-5"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>They offer you a gift as thanks for your generous donation.</text>
 							<autoReward level="LOW">missiles_only</autoReward>
@@ -96,15 +96,15 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ignore them.</text>
+				<text>무시한다.</text>
 				<event>
 					<text>The caravan doesn't bother you, and eventually the ships jump away.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -112,15 +112,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The Militiamen don't bother you, and eventually the ships jump away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -175,7 +175,7 @@
 			<text>"Shame, I was hoping you might be different... Men, arm the guns!"</text>
 			<ship load="SHIP_SLAVER_ALL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -186,7 +186,7 @@
 			<text>"Yes yes, to be expected. Have fun dealing with the Duskys!" They jump away, and a Duskbringer ship jumps in almost immediately after. The slavers must have been followed!</text>
 			<ship load="SHIP_DUSK_FIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -197,7 +197,7 @@
 		<text>Before you can express your interest a Duskbringer, hot in pursuit of the slaver ship, jumps in and destroys the pirates. They waste no time moving in to destroy you as well!</text>
 		<ship load="SHIP_DUSK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event> 
@@ -242,7 +242,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>"Ah what a shame. If you ever need some extra hands, you can always find us again!" You quickly leave before they can consider taking you captive as well.</text>
 		</event>
@@ -259,21 +259,21 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Reprogram the machine to spread lies about your location.</text>
+		<text>(Engi 선원) Reprogram the machine to spread lies about your location.</text>
 		<event>
 			<text>The Rebels and Duskbringers have worked together on occasion but wouldn't normally take advice from propaganda like this. Still - the location of your ship is information they wouldn't want to pass up and they wouldn't expect the Duskbringers to have any reason to lie.</text>
 			<modifyPursuit amount="-3"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="engineer">
-		<text>(Engineer Crew) Reprogram the machine to spread lies about your location.</text>
+		<text>(엔지니어 선원) Reprogram the machine to spread lies about your location.</text>
 		<event>
 			<text>The Rebels and Duskbringers have worked together on occasion but wouldn't normally take advice from propaganda like this. Still - the location of your ship is information they wouldn't want to pass up and they wouldn't expect the Duskbringers to have any reason to lie.</text>
 			<modifyPursuit amount="-3"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="hacking">
-		<text>(Hacking) Reprogram the machine to spread lies about your location.</text>
+		<text>(해킹) Reprogram the machine to spread lies about your location.</text>
 		<event>
 			<text>The Rebels and Duskbringers have worked together on occasion but wouldn't normally take advice from propaganda like this. Still - the location of your ship is information they wouldn't want to pass up and they wouldn't expect the Duskbringers to have any reason to lie.</text>
 			<modifyPursuit amount="-3"/>
@@ -298,13 +298,13 @@
 					<text>"You haven't? Man... Well, fun chat! Best I kill you now."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_HUMAN">
-				<text>(Human Crew) Your human knows who it is.</text>
+				<text>(Human 선원) Your human knows who it is.</text>
 				<event>
 					<text>Your human coughs, and briefly explains that the man in the photo was no hero, and most of the people of Old Earth resented him for years after he died. "O-oh. I assumed he must have been a famous human warrior! I guess in a sense I was right... but not like that. You know so much more than I do! Oh, command will be so mad at me... but I can't pass up this opportunity!"</text>
 					<crewMember amount="1" class="bomber"/>
@@ -322,7 +322,7 @@
 		<text>You quickly regret your decision when the Duskbringer asks a series of questions about the man that you have no idea how to answer. Eventually he starts to see through your ruse and orders the ship to attack!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -347,7 +347,7 @@
 	<text load="TEXT_ENCOUNTER_DUSKBRINGER"/>
 	<ship load="SHIP_DUSK_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -364,7 +364,7 @@
 	<text load="TEXT_ENCOUNTER_DUSKBRINGER_STATION"/>
 	<ship load="SHIP_DUSK_STATION" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -377,7 +377,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_DUSKBRINGER"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -393,7 +393,7 @@
 	<text load="TEXT_ENCOUNTER_PIRATE_DUSKBRINGER"/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -409,7 +409,7 @@
     <text>The Rockmen have always had a fascination with Zoltan culture, so it's not too far of a stretch for some to align with Duskbringer views. The Rock ship here clearly takes their devotion to the Duskbringer cause seriously, and are eager to take you down.</text>
     <ship load="SHIP_ROCK_DUSKBRINGER" hostile="true"/>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event load="COMBAT_CHECK"/>
     </choice>
 </event>
@@ -421,7 +421,7 @@
 	<text>Two ships inhabit this beacon, a Duskbringer and a Pirate. You notice something isn't right, the two aren't attacking. Then you realise that the Duskbringer ship is empty, and the original crew is aboard the pirate ship. You catch their chatter on the comms. "Damn it! - Federation ship, no time to get back - we'll have to fight them from in here!"</text>
 	<ship load="SHIP_DUSK_PIRATE_CAPTURE" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -446,7 +446,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -478,7 +478,7 @@
 			<ship load="SHIP_REBEL_TEAMUP" hostile="true"/>
 			<environment type="PDS" target="all"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -490,7 +490,7 @@
 			<ship load="SHIP_DUSKBRINGER_TEAMUP" hostile="true"/>
 			<environment type="PDS" target="all"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -502,7 +502,7 @@
 			<ship load="SHIP_ZOLTAN_TEAMUP" hostile="true"/>
 			<environment type="PDS" target="all"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 			</choice>
 		</event>
@@ -514,7 +514,7 @@
 			<ship load="SHIP_ROCK_TEAMUP" hostile="true"/>
 			<environment type="PDS" target="all"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -570,13 +570,13 @@
         </event>
     </choice>
     <choice req="LIST_CREW_ZOLTAN">
-        <text>(Zoltan Crew) Preach to the Zoltans and convince them you know the ways of peace.</text>
+        <text>(Zoltan 선원) Preach to the Zoltans and convince them you know the ways of peace.</text>
         <event>
             <text>Your Zoltan launches into a long, incredibly boring lecture about nonviolence and pacifist ideals. Though it almost puts you into a coma from boredom, it appears to have emotionally moved the crew of the other Zoltan ship. Thoroughly convinced you are different from the other militarized Federation ships, they let you pass.</text>
         </event>
     </choice>
     <choice req="mind">
-        <text>(Mind Control) "Convince" the Zoltans to let you pass.</text>
+        <text>(정신 지배l) "Convince" the Zoltans to let you pass.</text>
         <event>
             <text>The Mind Control works wonders on the Zoltans, and they believe every word you tell them. They "willingly" let you pass.</text>
         </event>
@@ -587,7 +587,7 @@
             <text>"I was suspecting you might say that. I'm afraid we cannot simply let you continue to destroy our ways of life by growing the divide in our government even wider."</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -602,15 +602,15 @@
 		<event load="DUSK_PIRATES_HIDING_CONTACT"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The pirates don't move from their hiding place. You figure it's safe to do something else, but keep an eye on them just in case.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -621,7 +621,7 @@
 		<text>The rest of the pirates flee, scattering away in different directions as soon as they spot you, but one particularly irate pirate hails you. "A Fed? Get lost! It's hard enough survivin' out here with them explosive nazi freaks, I don't need to deal with you too!"</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event> 
@@ -633,7 +633,7 @@
 				<text>Most of the pirates flee, not wanting to take on a full sized cruiser. One however stays behind, confident in their ability to destroy you.</text>
 				<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -657,7 +657,7 @@
 			<text>"Great! This is my chance to prove myself after my last mistake! Devorak will be so happy!" He powers up his weapons and attacks.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -667,11 +667,11 @@
 		<event>
 			<text>"Oh, my bad sir. Have a wonderful day!" He ends comms, and jumps away. You suspect there might be some sort of trick, but nothing happens. What a moron.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -686,7 +686,7 @@
 			<text>Your intervention appears to spark chaos, and soon both pirates and Duskbringers are swarming at each other. You take on the nearest ship.</text>
 			<ship load="SHIP_DUSK_MONASTERY" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -697,7 +697,7 @@
 			<text>You swoop into the scene, weapons blasting at the nearest pirate ship. The Duskbringers are confused but realize there's no option but to fight, and soon both sides are engulfed in combat.</text>
 			<ship load="SHIP_PIRATE_MONASTERY" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -707,11 +707,11 @@
 		<event>
 			<text>No need to get involved in things like this, especially when neither side is your friend. You slip away unnoticed.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -780,7 +780,7 @@
 				<event load="DISTRESS_DUSK_DAMAGEDFLEET_DISPATCH"/>
 			</choice>
 			<choice hidden="true" req="BLUELIST_CREW_NO2">
-				<text>(Anaerobic Crew) Send your crew to repair the life support.</text>
+				<text>(Anaerobic 선원) Send your crew to repair the life support.</text>
 				<event>
 					<text>Without a need for oxygen, your crew doesn't struggle at all with repairing the systems. Once the oxygen levels are stable enough, the remaining Zoltan crew seek out any Duskbringers who may be onboard and dispose of them. Once all is clear the Zoltan captain thanks you for your assistance and pays you a large reward.</text>
 					<autoReward level="HIGH">standard</autoReward>
@@ -800,11 +800,11 @@
 		<event>
 			<text>A ship of such size doesn't come to hostile territory such as this without being accompanied by at least a small fleet. Reinforcements will likely arrive soon.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -836,7 +836,7 @@
 				<item type="fuel" min="-2" max="-3"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Here, have this as thanks. We were going to sell this to buy more fuel anyways."</text>
 					<augment name="RANDOM"/>
@@ -852,7 +852,7 @@
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Here, have this as thanks. We were going to sell this to buy more fuel anyways."</text>
 					<augment name="RANDOM"/>
@@ -861,14 +861,14 @@
 		</event>
 	</choice>
 	<choice req="BLUELIST_BOMB_REPAIR">
-		<text>(Repair Bomb) Use the bomb to repair their engines.</text>
+		<text>(함체 수리 폭탄) Use the bomb to repair their engines.</text>
 		<event>
 			<text>The bomb works perfectly, sealing up the breach.</text>
 			<item_modify>
 				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Here, have this as thanks. We were going to sell this to buy more fuel anyways."</text>
 					<augment name="RANDOM"/>
@@ -881,7 +881,7 @@
 		<event>
 			<text>The nanobots make quick work, sealing up the breach. It doesn't take long before you can hardly make out the area of damage.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Here, have this as thanks. We were going to sell this to buy more fuel anyways."</text>
 					<augment name="RANDOM"/>
@@ -894,11 +894,11 @@
 		<event>
 			<text>"So, you're just going to leave us here?" The Federation captain calms himself before speaking again. "Ok. I understand. Best of luck with your mission, captain." He ends the transmission.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -943,7 +943,7 @@
 	<ship load="SHIP_DUSK_FIGHT" hostile="true"/> 
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -973,7 +973,7 @@
 			<text>You approach the ship only for it to activate, and the weapon powers on. A Duskbringer, clad in their usual armor, peeks out from the gun before hurtling harmlessly past your ship and exploding into the vacuum of space. A few seconds later, and the same Zoltan pops out of the gun again. Weird...</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -983,11 +983,11 @@
 		<event>
 			<text>Tempting as it is, there's no way you could retrieve anything from the Auto-ship without alerting it. You leave the ship behind.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1025,7 +1025,7 @@
 <event name="DUSKCAP_PISSED" unique="true">
 	<text>A small fleet of Duskbringer ships has blockaded this beacon. You attempt to sneak past but a squadron of Duskbringer ships fly down to stop you. You assume a fight is imminent, but instead you receive a hail. "A Federation ship? It's unorthodox, but I have a favor to ask of you..."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You are greeted into a large meeting room furnished very strangely. Antique maps and weaponry line the walls, and a Duskbringer Radical sits on a leather armchair sipping from a cup of tea. "Yes, hello. I know our political alignments have made us enemies, but today I think we can reach a mutually beneficial agreement. As you have surely noticed, the Rebels are quite the issue for us since Vance ordered them to betray our pact. Now, my men and I have been assigned to keeping this... filth out of our sector. There is a particularly slippery and obnoxious Rebel commander around these parts who has been giving me trouble. Give me your service and kill him, and I will give you mine in return. Is this a fair deal?"</text>
 			<choice hidden="true">
@@ -1041,7 +1041,7 @@
 					<text>"A pity. Alright men, you know how to handle this one." The Duskbringer soldiers grab their weapons and chase you off the ship. An elite vessel is dispatched to destroy you.</text>
 					<ship load="SHIP_DUSK_ELITE_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1062,7 +1062,7 @@
                     <text>You briefly unmute Kyle, but after a long string of explicit insults you mute him for the remainder of the fight and prepare to attack.</text>
                     <ship hostile="true"/>
                     <choice hidden="true">
-                        <text>Continue...</text>
+                        <text>계속...</text>
                         <event load="COMBAT_CHECK"/>
                     </choice>
                 </event>
@@ -1080,11 +1080,11 @@
 	<text>The Rebel ship has been neutralized. You scrap the remains of what was once Kyle's ship.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>While scrapping the Rebel ship, you notice a small pod eject from the vessel. Due to being on a different comm system, you have not yet muted it. Kyle appears on the screen, his over-sized melon of a face red and sweaty. "YOU HAVEN'T HEARD THE LAST OF ME, YOU FEDERATION DIPSH-" Kyle doesn't get to finish this last insult before a Duskbringer carrier jumps into the system and annihilates the pod in a single shot.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You receive a hail from the same Duskbringer as before. "Very good. It is most unfortunate I did not arrive earlier to partake in the fight, but I see you did sufficient work, and now this neanderthal is dead. You upheld your job... for the most part... and so I shall uphold mine."</text>
 					<crewMember amount="1" class="radical" all_skills="1">Reginald</crewMember>
@@ -1114,11 +1114,11 @@
 		<event>
 			<text>Tempting as it is, there's no way you could pull something like that off. You leave the prison behind.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1133,7 +1133,7 @@
 	<event>
 		<text>It's risky, but you manage to brute force your way past the security and make it inside the building.</text>
 		<choice hidden="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DUSKCAP_PRISONERS_SUCCESS"/>
 		</choice>
 	</event>
@@ -1189,7 +1189,7 @@
 	<text>As you're leaving the prison behind, a Dusk ship swoops in. It's an elite Jailer, and they aren't pleased. Prepare for combat!</text>
 	<ship load="SHIP_DUSK_ELITE_JAILER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1214,11 +1214,11 @@
 				<event load="DUSKCAP_DNA_INSIDE"/>
 			</choice>
 			<choice hidden="true" req="monk">
-				<text>(Monk Crew) Have your monk stun the guards.</text>
+				<text>(Monk 선원) Have your monk stun the guards.</text>
 				<event load="DUSKCAP_DNA_INSIDE"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_DUSK">
-				<text>(Duskbringer Crew) Talk your way past the guards.</text>
+				<text>(Duskbringer 선원) Talk your way past the guards.</text>
 				<event load="DUSKCAP_DNA_INSIDE"/>
 			</choice>
 		</event>
@@ -1228,11 +1228,11 @@
 		<event>
 			<text>You're on no suicide mission, and dropping by a Duskbringer megastructure isn't on your to-do list. You fly past the planet.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1246,14 +1246,14 @@
 			<text>Fortunately, your crew is revived back at the ship and hurries back to meet up with you.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DUSKCAP_DNA_INSIDE"/>
 		</choice>
 	</event>
 	<event>
 		<text>Your crew manage to subdue the Duskbringer soldiers silently. You proceed into the building...</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DUSKCAP_DNA_INSIDE"/>
 		</choice>
 	</event>
@@ -1263,10 +1263,10 @@
 		<text>This may go down as the quickest reconsideration in Federation history, but it's better safe than sorry.</text>
 	</event>
 	<event>
-		<text>You order the crew back to the ship, only to find a Duskbringer patrol ship surveying it! Looks like you'll have to take care of these guys before you can leave.</text>
+		<text>You order the crew back to the ship, only to find a Duskbringer patrol ship surveying it! Looks like you'll have to take care of these guys before you can 떠난다.</text>
 		<ship load="SHIP_DUSK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1284,7 +1284,7 @@
 					<augment name="EX_BACKUP_DNA"/>
 					<upgrade amount="1" system="clonebay"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DUSKCAP_DNA_FIGHT"/>
 					</choice>
 				</event>
@@ -1292,10 +1292,10 @@
 			<choice hidden="true">
 				<text>Clone a Duskbringer. [Gives Duskbringer Radical]</text>
 				<event>
-					<text>You quickly grab a random vial for a Duskbringer Radical and make sure to wipe all personal memories but not skills or training. Once your new crew is birthed from the machine, utterly confused on their whereabouts, you inform them about the Federation that they now serve and prepare to leave.</text>
+					<text>You quickly grab a random vial for a Duskbringer Radical and make sure to wipe all personal memories but not skills or training. Once your new crew is birthed from the machine, utterly confused on their whereabouts, you inform them about the Federation that they now serve and prepare to 떠난다.</text>
 					<crewMember amount="1" class="radical"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DUSKCAP_DNA_FIGHT"/>
 					</choice>
 				</event>
@@ -1307,7 +1307,7 @@
 	<text>As you leave the facility, an elite Duskbringer vessel approaches you, and an alarm sounds. Looks like you weren't as unnoticed as you thought!</text>
 	<ship load="SHIP_DUSK_ELITE_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1342,7 +1342,7 @@
 	<text>The Duskbringer Extremists are only the most devoted members of the Duskbringer organization. Nothing will stop them from bringing down the Federation, not even death. An extremist ship swoops in, guns blazing and ready to destroy you. Looks like you'll have to do the same.</text>
 	<ship load="SHIP_DUSK_ELITE_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1351,7 +1351,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_DUSKBRINGER_CAPITOL"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1390,7 +1390,7 @@
 			<text>You move in to destroy the Jailer, knowing that you'll have to kill their crew if you want the prisoners to live.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1407,11 +1407,11 @@
 		<event>
 			<text>The Jailer doesn't seem to notice as you slip away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1460,11 +1460,11 @@
 		<event>
 			<text>Neither the Duskbringers nor the Rebels are your allies. You have no reason to get involved.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1474,7 +1474,7 @@
 <event name="DUSKCAP_CAPITOLRAID_DUSK" unique="true">
 	<text>You pilot toward a platform where several Duskbringer soldiers are under fire from an armored Rebel ground vehicle. However, when the Rebels see your massive cruiser landing, they quickly retreat.</text>
 	<choice>	
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>In command of the Dusk battalion is a specially clothed Duskbringer Radical. Your Federation database detects his identity almost automatically, informing you that he is a famous Zoltan war hero known as Devorak the Deathless. He has been cloned so many times that they say he can no longer feel pain. The Duskbringers are skeptical of your approach and raise their weapons.</text>
 			<choice>	
@@ -1488,7 +1488,7 @@
 							<text>"Don't make me regret this." You power up the weapons and attack the cruiser. The Rebels spot you and engage.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1509,7 +1509,7 @@
 	<hiddenAug>ACH_BOSS_MFKCRUISER</hiddenAug>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">	
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Though the Rebel ship has been destroyed, the fleet does not surrender. Devorak and his men attempt to infiltrate it, only for nearly half of the squadron to get massacred by a hacked defense turret.</text>
 			<choice hidden="true">	
@@ -1517,7 +1517,7 @@
 				<event>
 					<text>You made a promise to help Devorak and that's a promise you intend to keep. You land the ship down next to him and dismount, firing your blaster at the turret. As you should have expected, it does practically nothing, but you manage to save Devorak and bring him back aboard your ship.</text>
 					<choice hidden="true">	
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>In the distance the battle rages on, but Devorak will live. "You... you've saved me. Though this failure does not bode well for the survival of my cause, you have proven your dedication. It is only fair that I accompany you now. But first, stop by that spot." Devorak points roughly to an area on the ground nearby. "There is a secret augment cache here. It should help on your- our mission."</text>
 							<unlockCustomShip silent="false">PLAYER_SHIP_DUSKBRINGER</unlockCustomShip>
@@ -1542,7 +1542,7 @@
 <event name="DUSKCAP_CAPITOLRAID_REBEL" unique="true">
 	<text>You navigate towards a small patch of Rebel vessels who are treating injured soldiers and planning out their next move. You nearly get shot out of the air, but you broadcast a surrender signal and are allowed to land.</text>
 	<choice>	
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>In the center of the group is General Alban of the Rebel fleet, a slender but well built man with an imposing glare and long face. "You have come to surrender? Make it quick, I am very busy."</text>
 			<choice>	
@@ -1556,7 +1556,7 @@
 							<text>Alban merely grunts and waves you on, then goes back to discussing with his fellow Rebels. You head back to the ship and prepare to attack the Duskbringer cruiser.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1577,11 +1577,11 @@
 	<hiddenAug>ACH_BOSS_DUSKCRUISER</hiddenAug>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">	
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Without the cruiser to stop them, a swarm of ships enter the system and eradicate the remaining Duskbringer forces. It's terribly lucky you chose to side with the Rebels - otherwise you'd no doubt have been killed as well.</text>
 			<choice hidden="true">	
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You look for Alban again and land. He frowns, "Oh yes, you. You have upheld your word, and to show the Rebels are no cowards I will do the same. I will ensure the fleet does not bother you for a while. You may also help yourself to our left over ammunition and weapon supplies.</text>
 					<modifyPursuit amount="-3"/>

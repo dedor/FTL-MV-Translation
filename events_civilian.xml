@@ -26,7 +26,7 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -41,7 +41,7 @@
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -105,7 +105,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -144,7 +144,7 @@
 		<event>
 			<text id="database_vek_incident"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -206,7 +206,7 @@
 			<text>Remember - you need these guys to surrender to find the location of the 'Kasparov', so try not to kill them!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -220,7 +220,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -230,7 +230,7 @@
 		<event>
 			<text id="database_brood"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -254,7 +254,7 @@
 		<event>
 			<text id="database_hideo"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>KESTREL_UNLOCK_QUEST_2</loadEvent>
 				</event>
@@ -268,7 +268,7 @@
 		<text>It seems the Hephaestus staff weren't kidding - they'd rather fight to the death than face the wrath of their boss.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="KESTREL_UNLOCK_QUEST_3"/>
 		</choice>
 	</destroyed>
@@ -276,7 +276,7 @@
 		<text>It seems the Hephaestus staff weren't kidding - they'd rather fight to the death than face the wrath of their boss.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="KESTREL_UNLOCK_QUEST_3"/>
 		</choice>
 	</deadCrew>
@@ -314,7 +314,7 @@
 							<text>"Crap, we actually doing this? I shoulda known not to mention combat in front of a mercenary!"</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -336,7 +336,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -345,14 +345,14 @@
 <event name="KESTREL_UNLOCK_QUEST_3">
 	<text>It seems most of the other ships were just automated construction drones. The depot's skeleton crew surrender, allowing you to secure the Kasparov and contact Dewey.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Incredible! I shall see to it that your efforts do not go unpaid! I shall forward those Kestrel blueprints to you immediately. Oh, and if you still have Gana on you, feel free to keep him. He's better suited to a military vessel anyways. Before you go though, who did end up being the culprit?"</text>
 			<unlockCustomShip silent="false">PLAYER_SHIP_KESTREL</unlockCustomShip>
 			<choice hidden="true">
 				<text>Hideo Tanaka hired pirates to steal your ship for his collection.</text>
 				<event>
-					<text>"That old assbucket. I should have known. Hideo takes whatever he wants from anyone he wants, even a fellow Union megacorp. Oh well. As Grandfather would say... well Grandfather didn't say much. He mostly just talked about satellites. Anyways, I thank you for your services. Best of luck on the rest of your mission."</text>
+					<text>"That old assbucket. I should have known. Hideo takes whatever he wants from anyone he wants, even a fellow Union megacorp. 신경쓰지 말자. As Grandfather would say... well Grandfather didn't say much. He mostly just talked about satellites. Anyways, I thank you for your services. Best of luck on the rest of your mission."</text>
 					<autoReward level="LOW">stuff</autoReward>
 				</event>
 			</choice>
@@ -387,11 +387,11 @@
 	<img back="BACKGROUND_TRAFFIC" planet="PLANET_INVISIBLE"/>
 	<modifyPursuit amount="-1"/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -427,15 +427,15 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_HEKTAR" hidden="true">
-		<text>(Hektar Crew) Negotiate with the civilians.</text>
+		<text>(Hektar 선원) Negotiate with the civilians.</text>
 		<event load="COREWORLDS_FUEL_RIDICULOUS_LOW"/>
 	</choice>
 	<choice req="mind" lvl="1" hidden="true">
-		<text>(Mind Control) Convince them to lower the prices.</text>
+		<text>(정신 지배l) Convince them to lower the prices.</text>
 		<event load="COREWORLDS_FUEL_RIDICULOUS_LOW"/>
 	</choice>
 	<choice req="mind" lvl="3" hidden="true">
-		<text>(Adv Mind Control) Convince them to lower the prices.</text>
+		<text>(최고급정신 지배) Convince them to lower the prices.</text>
 		<event>
 			<text>You notice the prices marked on the holoscreen built into the store going down rapidly. You stop once you've reached prices that you prefer. Completely free.</text>
 			<item_modify>
@@ -451,7 +451,7 @@
 			<text>These prices are practically theft. You attack the station.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -465,7 +465,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -509,7 +509,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -525,15 +525,15 @@
 		<event load="COREWORLDS_FREE_CREW_BOARD"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ROCK">
-		<text>(Rock Crew) Let them aboard but station your Rock as extra security.</text>
+		<text>(락맨 선원) Let them aboard but station your Rock as extra security.</text>
 		<event load="COREWORLDS_FREE_CREW_SECURITY"/>
 	</choice>
 	<choice hidden="true" req="BLUELIST_DRONES_BOARDING">
-		<text>(Boarding Crew) Let them aboard but station your drone as extra security.</text>
+		<text>(Boarding 선원) Let them aboard but station your drone as extra security.</text>
 		<event load="COREWORLDS_FREE_CREW_SECURITY"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Adv Sensors) Let them aboard but keep constant scans running on them.</text>
+		<text>(최고급 Sensors) Let them aboard but keep constant scans running on them.</text>
 		<event load="COREWORLDS_FREE_CREW_SECURITY"/>
 	</choice>
 	<choice hidden="true">
@@ -545,7 +545,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -629,18 +629,18 @@
 							<text>The Militia ship is bound to cave in if you can do enough damage to their hull. You ready the weapons.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_FREEMAN">
-						<text>(Free Mantis) Talk to the Militiamen.</text>
+						<text>(독립 맨티스) Talk to the Militiamen.</text>
 						<event>
 							<text>Your Free Mantis walks onto the camera, waving with a big goofy grin. The Militiamen however, are not quite so pleased. "Ugh, you have one of the insectoid freaks on your SHIP?! That's repulsive! For what did all those men and women die for in the Fed-Mantis war if we're just letting the Mantis work alongside us now? You are the reason this galaxy, hell, this Multiverse has gone to shit." They end the call immediately and attack!</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -689,7 +689,7 @@
 					<text>If you've learned anything on your mission, it's that the best way to deal with problems is through brutal murder. You power up the weapons and prepare to destroy the Militia ship.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -705,7 +705,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -720,7 +720,7 @@
 			<text>"You... you kill them? W-why? That unnecessary. We not want dead civilians. We just want safe travels. Still... you save us. I pay you as thanks, but hope you not do this in future."</text>
 			<autoReward level="MED">standard</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL"/>
 			</choice>
 		</event>
@@ -790,7 +790,7 @@
 	<text load="TEXT_ENCOUNTER_MILITIA_COREWORLDS"/>
 	<ship load="SHIP_MILITIA_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -805,7 +805,7 @@
 	<text>The Civilian station is no friend of yours. Now inhabited by pirates, it's aiming its entire arsenal straight at you.</text>
 	<ship load="SHIP_PIRATE_CIVILIAN_STATION" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -814,7 +814,7 @@
 	<text>A Coalition ship is slinking around the area, no doubt hunting for civilians. Spotting you instead, it decides you'll be a nice challenge for it and attacks.</text>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -858,7 +858,7 @@
 					<text>You move in to attack the mining ship.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
@@ -870,7 +870,7 @@
 					<autoReward level="MED">fuel</autoReward>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
@@ -885,7 +885,7 @@
 					</item_modify>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
@@ -897,19 +897,19 @@
 					<autoReward level="MED">fuel</autoReward>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ignore them.</text>
+				<text>무시한다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You have no interest in the mining operation.</text>
 			<choice>
@@ -917,7 +917,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -941,7 +941,7 @@
 			<text>You prepare to attack the Militia ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -962,7 +962,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -993,7 +993,7 @@
 			<text>You prepare to attack the Suzerain ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1006,15 +1006,15 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SUZERAIN">
-		<text>(Hive Elite) Demand the Suzerain ship stand down.</text>
+		<text>(맨티스 하이브 Elite) Demand the Suzerain ship stand down.</text>
 		<event>
-			<text>Your Mantis berates the Suzerain captain for leaving their territory unprotected to do silly things like "robbing meatsacks." Despite the irony of this, the Suzerain aboard the enemy ship seems ashamed and jumps away. The Militia ships offer a reward, but one of their guards offers his services to you, afraid the Suzerains might return and attack the caravan after you leave.</text>
+			<text>Your Mantis berates the Suzerain captain for leaving their territory unprotected to do silly things like "robbing meatsacks." Despite the irony of this, the Suzerain aboard the enemy ship seems ashamed and jumps away. The Militia ships offer a reward, but one of their guards offers his services to you, afraid the Suzerains might return and attack the caravan after you 떠난다.</text>
 			<crewMember amount="1" combat="1"/>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="FLARE_DISTRACTION">
-		<text>(Flares) Use the flares to lure the Suzerain away from the caravan.</text>
+		<text>(플레어) Use the flares to lure the Suzerain away from the caravan.</text>
 		<event>
 			<text>The Suzerain almost immediately spots the flares and diverts, assuming it's a distress call sent to another nearby vessel. While they're distracted, you escort the Militia ships away. Seems they took quite the hit from the attack, and along with their reward one of the Militia guards offers his services to you, not wanting to risk facing the Suzerains again on the remainder of the trip.</text>
 			<crewMember amount="1" combat="1"/>
@@ -1030,7 +1030,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1055,7 +1055,7 @@
 	<text>You've discovered a planet all too familiar. It's Antiquum Terrae, more often referred to as Old Earth, the homeworlds and origin of the Human race! Though most of the planet has flooded, a few large and densely populated cities remain.</text>
 	<img back="BACKGROUND_EARTH" planet="PLANET_INVISIBLE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>On the planet's surface is a museum and large memorial park. The ship computer informs you the subject matter involves the Mantis invasion of Earth. Attendance is free but it'll likely take a lot of time to browse the place.</text>
 			<choice hidden="true">
@@ -1068,7 +1068,7 @@
 						<event>
 							<text>"It all looked bleak for the citizens of Earth until the creation of the very first Pre-Igniter tech, invented by Jackson Newman. This augment was then merged with a powerful laser model developed by Zulfiqar Armaments, a busy corporation that has since grown to be very wealthy and powerful in modern times. Though the weapon was once considered a super-weapon so long ago, it is likely it would still stand the test of time and be very efficient in modern combat."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>As you keep reading, you notice a section describing the locations of the parts of the weapon. "After the war was over the weapon was dismantled and many of the parts were repossessed." Maybe if you can track down their locations, you can re-assemble the gun!</text>
 									<choice hidden="true">
@@ -1087,7 +1087,7 @@
 															<text>"The final part, the Pre-Igniter was stolen by a Smuggler. It has been circulating the black market for many years, repossessed many times. Though it would serve as a valuable collectors item, the augment itself is told to no longer function as intended due to years of misuse by pirates."</text>
 															<quest event="QUEST_GATLING_AUGMENT"/>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
 																	<text>With all of the information you need to collect the parts, you hurry back to the ship.</text>
 																</event>
@@ -1119,11 +1119,11 @@
 				<event>
 					<text>You don't have time to go learning history. You pull away from the planet.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1162,7 +1162,7 @@
 							<text>The Mantis shrieks and ends the call, and the Suzerain ship comes to life. It rises to meet you. If you had to guess, the 'spinny stick' is kept on that ship and you'll have to empty it of crew to get it.</text>
 							<ship load="SHIP_MANTIS_BARREL" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1170,7 +1170,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_MANTIS">
-				<text>(Mantis Crew) Negotiate for the Barrel.</text>
+				<text>(Mantis 선원) Negotiate for the Barrel.</text>
 				<event>
 					<text>"No! No! No! Not care who are! Shoo! Not welcome here." Despite the Mantis's tantrum, the only option that remains is to take it from him.</text>
 					<choice hidden="true">
@@ -1179,7 +1179,7 @@
 							<text>The Mantis shrieks and ends the call, and the Suzerain ship comes to life. It rises to meet you. If you had to guess, the 'spinny stick' is kept on that ship and you'll have to empty it of crew to get it.</text>
 							<ship load="SHIP_MANTIS_BARREL" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1189,15 +1189,15 @@
 		</event>
 	</choice>
 	<choice>
-		<text>This is risky, we should leave.</text>
+		<text>This is risky, we should 떠난다.</text>
 		<event>
 			<text>You decide against pulling closer to the camp and stay far away from the moon.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1226,7 +1226,7 @@
 					<text>You start digging, but all you find inside is a rotting corpse. Disgusted and disappointed, you prepare to leave, when an Elite Federation ship swings by and spots you in the act. "Assholes! You'd dare dishonour the heroes buried here?" They raise their weapons and attack!</text>
 					<ship load="SHIP_FED_ELITE_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1237,12 +1237,12 @@
 					<text>You start digging to find that you were correct! Inside the grave is the Gatling Base! You have your crew haul it back to the ship.</text>
 					<weapon name="PART_GATLING_BASE"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>As you're leaving, a Federation Elite flies past, spotting you in the process! "Assholes! You'd dare dishonour the heroes buried here?" They raise their weapons and attack!</text>
 							<ship load="SHIP_FED_ELITE_FIGHT" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1255,7 +1255,7 @@
 					<text>You start digging, but all you find inside is a rotting corpse. Disgusted and disappointed, you prepare to leave, when an Elite Federation ship swings by and spots you in the act. "Assholes! You'd dare dishonour the heroes buried here?" They raise their weapons and attack!</text>
 					<ship load="SHIP_FED_ELITE_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1266,7 +1266,7 @@
 					<text>You start digging, but all you find inside is a rotting corpse. Disgusted and disappointed, you prepare to leave, when an Elite Federation ship swings by and spots you in the act. "Assholes! You'd dare dishonour the heroes buried here?" They raise their weapons and attack!</text>
 					<ship load="SHIP_FED_ELITE_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1278,11 +1278,11 @@
 		<event>
 			<text>You ignore the graveyard and fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1337,7 +1337,7 @@
 					<text>You aren't going to pat these smugglers anything! You raise the weapons and attack. The other few ships shopping scatter as you approach the station.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1347,11 +1347,11 @@
 				<event>
 					<text>You ignore the station and fly away.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1390,11 +1390,11 @@
 	<text load="MILITIA_FREE_AMMO"/>
 	<autoReward level="MED">missiles_only</autoReward>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1408,7 +1408,7 @@
 	<text>You receive a hail from a Slug ship hiding behind a small moon. Upon closer inspection, it's clear the ship is staffed by Slug Clansmen, belonging to the Exotic Hunter's Guild.</text>
 	<ship load="SHIP_CLAN_FIGHT" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"A fine sssship for a Multiverssse Traveller! When we heard the Militia accepted any sssspeciesss among their ranksss, I realizzzed what an excccellent opportunity it would be to go hunting! But sssince you're here, perhapsss you have some sssspecimenss to donate? We will pay very well!"</text>
 			<choice>
@@ -1423,7 +1423,7 @@
 				</event>
 			</choice>
 			<choice req="LIST_CREW_CLAN">
-				<text>(Clansman Crew) Claim to be hunters yourself.</text>
+				<text>(Clansman 선원) Claim to be hunters yourself.</text>
 				<event>
 					<text>"Ahh, another hunter? To think I thought I wasss the firsssst with thisss idea... Oooh, your sssship isss ssso much larger than mine. You probably have ssso much more ssssuccesss!" The Slug offers his services. Hopefully he doesn't mind hunting Rebels.</text>
 					<crewMember amount="1" class="snail"/>
@@ -1442,7 +1442,7 @@
 					<text>You engage the Clansmen.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1459,7 +1459,7 @@
 		<text>"A ssshame. I alwayssss try to be polite firssst, but people rarely agree. Oh well, thissss will be a lot more fun now!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1504,11 +1504,11 @@
 		<event>
 			<text>You fly past the planet.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1519,7 +1519,7 @@
 	<text>A Zoltan Peacekeeper is stationed nearby, speaking with several Militia ships. Eventually, all of the ships but the Zoltan jump away, and you receive a hail.</text>
 	<ship load="SHIP_ZOLTAN_ELITE_GENERIC" hostile="false"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Oh, hello. I am Bolin, a Zoltan soldier for the Militia Corps. I've been working hard on a speech that I intend to share during the next meeting of the Galactic Union, but no one wants to listen to it or give me feedback. Would you mind if I shared them with you?"</text>
 			<choice hidden="true">
@@ -1527,7 +1527,7 @@
 				<event>
 					<text>"Wonderful! I shall now begin." Bolin pulls out a massive book, slamming it down on the desk in front of him and pulls open the cover. He clears his throat, and begins to read...</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MILITIA_TEXTWALL_LOAD"/>
 					</choice>
 				</event>
@@ -1537,11 +1537,11 @@
 				<event>
 					<text>"As I expected... carry on then..."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1555,31 +1555,31 @@
 <event name="MILITIA_TEXTWALL_TEXT">
 	<text>"My fellow citizens of the Galactic Union, subsidiary of the United Federation and regulator of laws in Union territory, I have come to speak with you about a very important matter. Since the dawn of civilization we have been creatures bound to our weapons of war. Every race, Human, Zoltan, Aquarian, Rockman, Mantis, even Engi or Orchid, we have all waged wars not just against each other, but ourselves. It is beyond many of us, unthinkable even, to surrender these tools of destruction... nay, these evil and wicked thoughts that plague our civilizations. We say we wish to evolve, learn and grow, but how can we do this when we still hold so dear to us the ideas of revenge and hatred?"</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"To emphasize my point, let me tell you all a story. Back during the infamous Mantis - Human war, a time when the seeds of thought that would grow to be the Federation had only just barely been planted, the Human people were in dire straits. The far more dangerous and warrior-like creatures that were the Mantis caused havoc among the unprepared human colonies. The Humans turned to the only allies they had at the time, the Engi, hoping for assistance. The Engi reluctantly accepted, but only in turn if the humans would liberate the slaves from the Mantis war camps. The two forces fought for years and years for control over the neighbouring planet Mars, which the Mantis had managed to secure as a stronghold and key point for planning their invasion. Rather than negotiating for a ceasefire, or surrendering, the human people continued to fight the Mantis to near extinction. The Mantis would show the humans no mercy either, and would not stop until humanity had been eradicated."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Bolin clears his thought, and flips through a few pages, confused. "The uh... The Mantis are not the only violent race known to have staged such terrible wars. The Rock Inquisitions are perhaps some of the worst battles known to the galaxy. Believing themselves to be superior, the Rockmen sent forth battalions of armored ships staffed by trained soldiers known as the Crusaders to claim other territory in the name of the holy Rock Theocracy. The Chrysolic Faith that drove the Rockmen to such violence was the very same used by the Rock Elders to enslave their population through tactics of fear. Clearly an immoral action, it is known to many that the Rock dictatorship is perhaps one of the most violent and unforgiving forces in the galaxy."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"The religious persecution of the Rockmen government is not the only example of uh... of barbarianism leading to unjust treatment of other races. Going back to the Mantis, the Mantis race has for many years enslaved the Engi race for usage of their excellency at repairs. The Mantis race, due to their anatomy, are often incapable of performing precise work with electronics, though their claws have been known to function in place of screwdrivers or other tools from time to time. It is interesting to compare the differences between the two functionally opposite races. Similar duality is not often seen, though some have commented on the benefits of mixing Orchid and Rockmen crew together, due to the fire-proof nature of the Rockmen because of their hard, though not actually rock, exterior."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"However, it also stands to say that the Orchids may actually function better with the Shells, who's reliance on oxygen naturally would pair them with the plant beings. It is a scientific wonder how a single Orchid is capable of effectively replacing a life support system for extended periods of time. Many biologists, many of which coincidentally also happen to be Shells, have attempted to study Orchid biology. For those of you who might not be aware, the Shell race has placed a heavy focus on scientific study, even occasionally abducting tourists or visiting ships to run quick, albeit painless, tests. This has led to many cultural misunderstandings with the less understanding species, such as the Rockmen or Mantis. The Slugs also have a particular interest in the Shells, though not for any innocent reasons. A clan of Slug hobbyists known as the Exotic Hunters Guild has formed, whose specific purpose is to hunt rare or sapient creatures. The Shells are their prime targets, because of their armored abilities."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>"Frighteningly, the attacks lead by the EHG, that being the aforementioned Exotic Hunters Guild for any of those not paying attention, are near synonymous with the earlier but still relatively recent series of conflicts known as the Slug Expansion Wars. I'm sure many of you here are already aware of the history of the Slug Expansion Wars, but I will share a brief summary of the conflicts for those of you who aren't."</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>Bolin licks the page and flips to the next. He coughs slightly, pounds on his chest, and continues to read. "Starting after the Rebellion's rise to power, the Federation forces were dedicated to clearing out Rebel ships from their territory. This left much of space unprotected from invaders. The Slugs, who had previously been shunned from the Federation for their traitorous nature, took notice to this pattern and began planning a mass migration to new territory. Though they started with nebulous sectors, they soon found themselves courageous enough to attack clear sectors, sometimes even already occupied space. This came to cause issues when the Slugs dared invade Mantis and Rock space, much to the reasonable displeasure of those governments. Both the Hive and Elders declared war on the Slugs, and so they fought for several years. Eventually, the Slugs surrendered and offered back territory. They didn't stop there however, and even offered some of their original territory up as well. This eventually evolved into an alliance that we have come to know as the Coalition."</text>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>"This lack of Federation protection over Union space also led to the rise of the Militia. However, I will spare you all this tale, as I know everyone here is for certain familiar with the story."</text>
 															<choice hidden="true">
@@ -1587,15 +1587,15 @@
 																<event>
 																	<text>"I WILL however tell the story of the Coalition, in case you might not be aware. The Coalition is a truce between the Sethnian Kleptocracy, the Urtharean Theocracy, the Yeitiiik Hive, and the Eargen Kraterocracy... oh my notes aren't really sure what the Leech government is called. Seems it's actually the Eargen Republic, but that's not relevant to the history. These 4 races are perhaps some of the most hostile and deadly in the galaxy, and this alliance has caused fear for both the Federation and Rebellion. The Coalition continues to grow in power, and even occupies several of its own sectors. The Coalition has also taken usage of Slug Cealaforming tech, a method of transporting nebulous gases to create artificial nebulas. Though these fake clouds are incapable of forming into stars, they still cause sensors to malfunction and can even generate the same electrical currents as ion storms, a deepspace hazard I'm sure any pilots here are definitely familiar with if you've ever been to a nebula sector."</text>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event>
 																			<text>"Cealaforming is not the only unique tech developed by the Slugs however. Many Slugs take use of Anti-Bio weaponry, which often used to be confused with Particle tech because of their similar orange colors, at least before Anti-Bio weaponry was transitioned to pink. Particle tech was actually developed by the Zoltan race on accident in junction with The Zufquair Corporation. Uh... wait no, that's spelled wrong."</text>
 																			<choice hidden="true">
-																				<text>Continue...</text>
+																				<text>계속...</text>
 																				<event>
 																					<text>"Wait... is it Zluficar? Zultifigar? I know it starts with a Z..." Bolin flips back through his text, searching for something. "Ah, I spelled it right here. Zulfiqar, thats it. Now, where was I... Oh, damn I lost my page. Do you uh, do you want me to start again?"</text>
 																					<choice hidden="true">
-																						<text>Continue...</text>
+																						<text>계속...</text>
 																						<event>
 																							<text>Bolin awaits your response.</text>
 																							<choice hidden="true">
@@ -1603,7 +1603,7 @@
 																								<event>
 																									<text>"Ok, if you say so!" Bolin flips back to page one. "From the top then."</text>
 																									<choice hidden="true">
-																										<text>Continue...</text>
+																										<text>계속...</text>
 																										<event load="MILITIA_TEXTWALL_LOAD"/>
 																									</choice>
 																								</event>
@@ -1671,7 +1671,7 @@
 	<text load="TEXT_ENCOUNTER_MILITIA"/>
 	<ship load="SHIP_MILITIA_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1685,12 +1685,12 @@
 	<text>You run into a Militia station near this beacon, who refuses to let you past. Apparently this beacon requires a toll to pass through.</text>
 	<ship load="SHIP_MILITIA_STATION" hostile="false"/>
 	<choice>
-		<text>Refuse to pay.</text>
+		<text>거절한다.</text>
 		<event>
 			<text>The Militia station wastes no time with conversation - the second you refuse their weapons come online!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1710,7 +1710,7 @@
 	<text>Operative vessels are some of the deadliest in the Militia fleet, and for good reason. Boasting highly trained crew, these ships don't mess around in combat. Unfortunately for you, the ship here deems you a threat and attacks!</text>
 	<ship load="SHIP_MILITIA_ELITE_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1719,7 +1719,7 @@
 	<text load="TEXT_ENCOUNTER_PIRATE_MILITIA"/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1735,7 +1735,7 @@
 	<text load="TEXT_ENCOUNTER_PIRATE_MILITIA_ONLY"/>
 	<ship load="SHIP_PIRATE_MILITIA" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1749,7 +1749,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_MILITIA"/>
 	<ship load="SHIP_REBEL_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1764,7 +1764,7 @@
 	<text>The ruins of what was once a Militia transport drift nearby. A Militia escort, their crew confused and afraid, mistake you for the attackers and prepare to defend themselves! You try to hail them but they won't respond, and it looks like the only way out of this is with a fight.</text>
 	<ship load="SHIP_MILITIA_ESCORTFIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1796,7 +1796,7 @@
 			<text>You power up the weapons and attack the Militiamen.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -1806,11 +1806,11 @@
 		<event>
 			<text>You fly past the Militia vessel.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1832,13 +1832,13 @@
 		</event>
 	</choice>
 	<choice req="soldier">
-		<text>(Soldier Crew) Request more supplies.</text>
+		<text>(Soldier 선원) Request more supplies.</text>
 		<event>
 			<autoReward level="HIGH">stuff</autoReward>
 		</event>
 	</choice>
 	<choice req="medic">
-		<text>(Medic Crew) Request medical supplies.</text>
+		<text>(의무병 선원) Request medical supplies.</text>
 		<event>
 			<autoReward level="MED">missiles_only</autoReward>
 			<weapon name="BOMB_HEAL"/>
@@ -1850,7 +1850,7 @@
 			<text>You power up the weapons and attack the Militiamen.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -1860,11 +1860,11 @@
 		<event>
 			<text>You ignore the Militia station.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1879,7 +1879,7 @@
 			<text>The leading commander of the squad responds. "You want to participate in the training? Go ahead, damaging the hull is fine but just be careful you don't kill anyone! We'll end the exercise after 60 seconds."</text>
 			<ship load="SHIP_MILITIA_TRAINING" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<triggeredEvent event="MILITIA_TRAINIES_WIN" thisFight="true" clearOnJump="true" time="60.0">
@@ -1896,11 +1896,11 @@
 		<event>
 			<text>You ignore the Militia station.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1926,7 +1926,7 @@
 			<text>You power up the weapons and attack the Rebels.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1943,7 +1943,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="monk">
-		<text>(Monk Crew) Shame the Rebels for their violent ways.</text>
+		<text>(Monk 선원) Shame the Rebels for their violent ways.</text>
 		<event>
 			<text>Your Monk spends the next 30 minutes insulting the Rebels for their barbaric ways, attacking men only doing their duty by defending civilians. The Rebels are so ashamed of themselves several crumple to the floor sobbing. One particularly moved individual offers to join your crew, and the rest agree to leave the Militiamen alone.</text>
 			<crewMember amount="1" class="human"/>
@@ -1968,11 +1968,11 @@
 		<event>
 			<text>You fly past the Militia center. Hopefully, the situation will be resolved... No thanks to you.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1984,7 +1984,7 @@
 		<boarders min="2" max="3" class="rebel"/>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2015,7 +2015,7 @@
 			<text>You power up the weapons and engage the pirate vessel.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2025,11 +2025,11 @@
 		<event>
 			<text>Orchid ships are considerably well armed, so you hope that they'll be able to save themselves.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2050,13 +2050,13 @@
 			<text>You power up the weapons and engage the pirate vessel.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="weapons" lvl="5">
-		<text>(Upg. Weapons) Threaten the pirates.</text>
+		<text>(고급 무기실) Threaten the pirates.</text>
 		<event>
 			<text>"Hey, who the hell do you think you are- oh crap. Okay okay you win, have fun!" The pirate jumps away. The fatigued Militia station seems defenseless against anything you might try.</text>
 			<choice hidden="true">
@@ -2072,7 +2072,7 @@
 					<text>The Militiamen have few option but to give in to your demands.</text>
 					<crewMember amount="1" class="random"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL"/>
 					</choice>
 				</event>
@@ -2083,7 +2083,7 @@
 					<text>As you expected, the Militia outpost barely defends itself and is destroyed quickly.</text>
 					<autoReward level="MED">standard</autoReward>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL"/>
 					</choice>
 				</event>
@@ -2095,11 +2095,11 @@
 		<event>
 			<text>You decide not to fight the pirates.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2136,7 +2136,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="engineer">
-				<text>(Engineer) Have your engineer transfer Auto-ship data.</text>
+				<text>(엔지니어) Have your engineer transfer Auto-ship data.</text>
 				<event>
 					<text>"Oh my, this is marvelous! This will help speed up our development greatly."</text>
 					<autoReward level="MED">augment</autoReward>
@@ -2162,11 +2162,11 @@
 		<event>
 			<text>Whatever they're talking about, it doesn't matter to you. You ignore the Militia ships.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2176,21 +2176,21 @@
 	<text>You've discovered the Automated vessel mentioned by the Militiamen. In the distance you can see the ASB satellite swerving towards you.</text>
 	<ship load="SHIP_MILITIA_AUTOSEARCH" hostile="true"/>
 	<choice hidden="true" req="PDS_DISABLE">
-		<text>(Signal Diluter) Disable the Satellite's targeting systems.</text>
+		<text>(신호 약화기) Disable the Satellite's targeting systems.</text>
 		<event>
 			<text>The satellite stops turning immediately, unable to detect your location anymore. You'll still have to lure away the Auto, but now you can do so without the added risk of the ASB.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="FLARE_DISTRACTION">
-		<text>(Flares) Confuse the ASB system.</text>
+		<text>(플레어) Confuse the ASB system.</text>
 		<event>
 			<text>You launch several flares close to the satellite, confusing its targeting system. Considering how small the discs are you doubt the satellite will be able to destroy them easily, giving you enough time to lure away this ship.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2201,7 +2201,7 @@
 			<text>Just as the militiamen warned, the ASB locks onto your precise location and begins firing immediately. Hopefully we don't take too much damage before the Auto flees.</text>
 			<environment type="PDS" target="player"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2220,16 +2220,16 @@
 			<text>"Ah, very good job. The ship is still in working condition, marvelous! Here is your pay, of course."</text>
 			<autoReward level="MED">stuff</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you prepare to leave, you overhear shouting from the Militiamen. You turn around to see the Auto-ship has activated once again, and blasts one of the Militia ships to destruction! It moves on to attack you next.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 					<choice hidden="true" req="hacking" lvl="2">
-						<text>(Upg. Hacking) Disable the Auto-ship before it can cause more damage.</text>
+						<text>(고급 해킹) Disable the Auto-ship before it can cause more damage.</text>
 						<event>
 							<text>You shut down the Auto-ship immediately. The crew of the destroyed ship evacuate immediately, and only a few lives are lost. The Militiamen thank you.</text>
 							<autoReward level="MED">standard</autoReward>
@@ -2267,7 +2267,7 @@
 								<event>
 									<text>"Ah, most excellent! I haven't done much digging yet, but if you need any help just come and talk with me. Here are the three suspects, Mr. Thom Nicholson, Ms. Amy Sheppard, and Dr. Daniel Browne. I look forward to your hypothesis!"</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 									</choice>
 								</event>
@@ -2289,11 +2289,11 @@
 		<event>
 			<text>Clearly something important has happened here, but it does not pertain to you.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2399,7 +2399,7 @@
 				<event>
 					<text>Sherlock chuckles. "Well alright then. Take your time, one can never be too careful about something like this."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2411,7 +2411,7 @@
 	<text>You walk over to Henry's corpse. You notice no obvious cuts on the body, though there is a large burn mark on his back. This must have been from blaster fire, but the radius of the wound is too large to have been from a standard hand-held blaster.</text>
 	<hiddenAug>MARKER_EVIDENCE_BURNS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -2435,7 +2435,7 @@
 		<event>
 			<text>Daniel looks shocked that you blamed this on him. Sherlock nods. "Yes, Dr. Browne is the head engineer here, which would make him an excellent suspect. HOWEVER, he could not have done it! If you checked the oxygen system, then interviewed Daniel about it, you would know he was busy last night performing upgrades. He would not have been able to murder Henry AND upgrade the system at the same time, the oxygen upgrade simply takes too long."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_WRONG"/>
 			</choice>
 		</event>
@@ -2456,7 +2456,7 @@
 		<event>
 			<text>Amy's scowl grows even darker. Sherlock shakes his head. "No, Ms. Sheppard could not have done it. She has no experience with the drone system, it is too unlikely that she would have been capable of operating a drone long enough to kill Henry."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_WRONG"/>
 			</choice>
 		</event>
@@ -2470,17 +2470,17 @@
 				<event>
 					<text>Sherlock cocks his head. You explain how Thom actually got lessons from Daniel on how to operate drones, not too long before the murder as well. Sherlock contemplates this for a moment. "You're right. Goodness, even I did not catch that!"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_CORRECT"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Sherlock nods. "Yes, Mr. Thom is right. It was Daniel who was the head engineer on this facility, not Thom. It is too unlikely that Thom would have been able to operate the drone long enough to kill Henry."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_WRONG"/>
 					</choice>
 				</event>
@@ -2490,9 +2490,9 @@
 	<choice hidden="true">
 		<text>Uh, I don't know.</text>
 		<event>
-			<text>Sherlock scowls. "You can't come in here making wild theories if you can't even say who did it! Keep looking."</text>
+			<text>Sherlock scowls. "You can't come in here making wild theories if you can't even say who did it! 계속 찾는다."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2501,21 +2501,21 @@
 <event name="DETECTIVE_ACCUSE_THOM">
 	<text>Thom's eyes go wide at your accusation. Sherlock gets up from his spot and walks over to you. "An interesting hypothesis indeed. However, if you inspected the wounds on Henry you would notice a blaster could not have been the weapon used. Mr. Nicholson only owns a standard grade defense pistol.The only thing on this station capable of leaving such a mark was the Anti-Personnel drone, and Mr. Nicholson has no experience with operating drone systems."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_WRONG"/>
 	</choice>
 </event>
 <event name="DETECTIVE_ACCUSE_AMY">
 	<text>Amy glares at you. Sherlock gets up from his spot and walks over to you. "An interesting hypothesis indeed. However, if you inspected the wounds on Henry you would notice a blaster could not have been the weapon used. Ms. Sheppard only owns a standard grade defense pistol. The only thing on this station capable of leaving such a mark was the Anti-Personnel drone, and Ms. Sheppard has no experience with operating drone systems."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_WRONG"/>
 	</choice>
 </event>
 <event name="DETECTIVE_ACCUSE_DANIEL">
 	<text>Daniel looks offended that you would accuse him. Sherlock gets up from his spot and walks over to you. "An interesting hypothesis indeed. However, Daniel was busy on the night of the murder. If you inspected the oxygen, then interviewed Dr. Browne, you would know that he was busy all night long upgrading the system. This would not have left him with enough time to also have overriden the drone control and killed Henry."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_WRONG"/>
 	</choice>
 </event>
@@ -2555,7 +2555,7 @@
 	<hiddenAug>MARKER_EVIDENCE_SHERLOCK</hiddenAug>
 	<text load="TEXT_SHERLOCK_TALK"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -2567,7 +2567,7 @@
 		<event>
 			<text>Thom explains some basic details about his life. He used to be a farmhand on a small terrestrial planet before a Rock Crusader set fire to his town. With nowhere else to go, he decided to join the Militia and protect civilian space so such a thing could never happen to anyone else.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2577,7 +2577,7 @@
 		<event>
 			<text>Thom shakes his head. "N-no sir. I've met plenty of Rebels in my time, but I've never been friends with any. I've always been a Federation citizen, and a loyal one at that."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2587,7 +2587,7 @@
 		<event>
 			<text>"I manage the essential systems. Back on the farm I had to learn how to operate various equipment, and it's incredible how much that knowledge translates to managing a station! I help with upkeep for the shields and life support, and I buy new parts at the store whenever something is broken."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2597,7 +2597,7 @@
 		<event>
 			<text>"I've never actually talked with Henry much. He was always so quiet and reserved. Still, it's so strange to think he's dead..."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2611,7 +2611,7 @@
 				<event>
 					<text>"Amy? She's uh, she's something I guess. She's always yapping at us, and she has the shortest temper I've ever seen. She does a good job though, and I wouldn't ever think she'd be capable of murder! Though, she never did like Henry."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2621,7 +2621,7 @@
 				<event>
 					<text>"Dr. Browne? Oh he's such a kind old man, and dedicated to his work too. I can imagine he's quite shocked about the murder, he was always so close to poor Henry..."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2633,7 +2633,7 @@
 		<event>
 			<text>For no reason in particular, you decide to spit at Thom. Sherlock glares at you but says nothing.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2652,7 +2652,7 @@
 						<event load="DETECTIVE_TALK_THOM_LIE"/>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2662,7 +2662,7 @@
                 <event>
                     <text>"No recordings? That sounds problematic. You are a detective though, so surely you can figure this out without them, right?"</text>
                     <choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2672,7 +2672,7 @@
 				<event>
 					<text>"Oh, that's rather odd. That wasn't me who upgraded the system. I was busy last night during the murder, and I haven't had time to check it since. But I do know it was only level 1 the day before."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2688,7 +2688,7 @@
 	<text>You point out Daniel's mention to Thom learning about how to operate the drones. Thom stutters, not sure what to say. You don't push further but take note of this.</text>
 	<hiddenAug>MARKER_EVIDENCE_THOMCATCH</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -2700,7 +2700,7 @@
 		<event>
 			<text>Amy doesn't have a lot to share about why she joined the Militia. She thought it would be a good way to escape from her home planet and maybe kill some pirates.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2710,7 +2710,7 @@
 		<event>
 			<text>Amy looks as if she's about to slap you, and probably would if it wouldn't end with her dead. "How dare you associate me with those crapstains! I ain't never been a Rebel, and I never will be. End of story."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2720,7 +2720,7 @@
 		<event>
 			<text>"Used to work as border patrol, until we got that god damn Anti-Personnel drone. I used to kick pirates in the teeth almost daily, but now I've been resigned to that damn weapons room pressing buttons all day long!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2730,7 +2730,7 @@
 		<event>
 			<text>"Henry? Hah, half the time I didn't even realize he was here. What a weirdo, always spending so much time resigned to that room of his, only coming out for food or water. Him being dead won't change nothin' about life on this station, which is a shame. It's so god damn boring here."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2744,7 +2744,7 @@
 				<event>
 					<text>"Thom's such a pushover. He's always blabbering on about how nice life is here. There ain't nothing good about living on this station, I tell you! Still... Thom killing someone? Unthinkable... unless he's a really good actor, at least."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2754,7 +2754,7 @@
 				<event>
 					<text>"That old man? He looks like he's about to turn to dust any second! I always thought he was as lacking a personality as the drones he works on. Maybe that's why he got along so well with Henry."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2766,7 +2766,7 @@
 		<event>
 			<text>For no reason in particular, you decide to spit at Amy. Sherlock glares at you but says nothing.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2781,7 +2781,7 @@
                 <event>
                     <text>"The drones? Never touched them. That damn robot stole my job at killing pirates. If I WAS a murderer, I would have gone for the Anti-Person drone instead of Henry. Damn robots can't feel pain anyways..."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2791,7 +2791,7 @@
 				<event>
 					<text>"Guess you got no recordings then, or whatever. Aren't detectives supposed to be able to figure things out without recordings anyways? I don't know what you want me to tell you about it."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2801,7 +2801,7 @@
 				<event>
 					<text>"I don't know nothin' about the life support. That's all Thom's doing, not mine."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2821,7 +2821,7 @@
 		<event>
 			<text>"Me? I'm just an old fart. Studied drone tech for several years, got a job at Arcadia as an Engineer until I eventually retired. But... I guess retirement just isn't for me, so I signed up for the Militia instead of wasting away in some beach home."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2831,7 +2831,7 @@
 		<event>
 			<text>Daniel looks down at his feet. "Never been a Rebel, but I did have an experience with them. Back when I worked at Arcadia, I was put in charge of the CICA project. That's the Central Intelligence Combat Assistant, though it's more often referred to as the Free Roamer accident. This was the AI used by the Rebels to construct their automated fleet, but we never expected that they would use it for such evil. After I realized how my tech had been used, I resigned immediately."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2841,7 +2841,7 @@
 		<event>
 			<text>"I'm the shipboard Engineer. After I finally talked the others into installing a dronebay and Anti-Person drone, I've been running maintenance on them ever since."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2851,7 +2851,7 @@
 		<event>
 			<text>"Oh, poor old Henry. He was such a nice man. I used to eat lunch in his quarters. It's a shame the others never got to know him, because Henry was always so reserved. Oh Henry, how could this have happened to you..."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2865,7 +2865,7 @@
 				<event>
 					<text>"Thom is a nice man. I was never as close to him as Henry, but we talked quite a bit, and he has always been a happy fellow. Recently, Thom took a particular interest in the drone system and asked me for help with operating the drones! He's learning pretty quick, but I think he might just be learning to give me something to do. I always wanted to have a student..."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2875,7 +2875,7 @@
 				<event>
 					<text>"I wish I had her energy, I was never that amped up even when I was younger. Shame she wastes it all on shouting at us. Thank goodness she spends most of her time complaining to herself while she mans the weapons. I don't like to point fingers, but if any of us 3 were to go so low as to kill someone, I'd say she would probably be my guess..."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2887,7 +2887,7 @@
 		<event>
 			<text>For no reason in particular, you decide to spit at Daniel. Sherlock glares at you but says nothing.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2906,7 +2906,7 @@
 				<event>
 					<text>"The sensors are no longer functional? Oh dear, that's quite unfortunate. Surely even without the recordings though, there is some way to catch the person behind this!"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 					</choice>
 				</event>
@@ -2926,7 +2926,7 @@
 	<text>"Oh yes, that was my doing actually! Thom normally works on the essential systems, but last night he was busy working with the drones and I had nothing to do. So, I decided to put my old bones to use and upgrade the oxygen. H..Henry was always complaining about the bad ventilation..."</text>
 	<hiddenAug>MARKER_EVIDENCE_OXYGENDANIEL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -2934,14 +2934,14 @@
 	<text>"Oh yes, of course! No ship or station is complete until its been outfitted with drone tech. I spend most of my time working with the system, though Thom has also been spending a fair bit of time in there as well after he asked me for lessons with operating the drones."</text>
 	<hiddenAug>MARKER_EVIDENCE_THOMLIE</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
 <event name="DETECTIVE_SYSTEM_DOORS">
 	<text>You inspect the door system. It appears some work has been done on the blast doors to improve them, though it matters little in this case. All of the suspects and the victim are registered in the system database, so any of them can go wherever they please.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -2953,7 +2953,7 @@
 		<event>
 			<text>The combat schematic appears to only have been used a total of 3 times since the system was purchased. Further data suggests it merely came with the system purchase.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2967,7 +2967,7 @@
 				<event load="DETECTIVE_DRONE_CANNON"/>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 			</choice>
 		</event>
@@ -2981,14 +2981,14 @@
 	<text>You inspect the Anti-Personnel Drone's laser. To your surprise, the arm-mounted cannon appears to be much stronger than a standard defense blaster, and certainly capable of leaving a burn mark the same size as the one on Henry's corpse!</text>
 	<hiddenAug>MARKER_EVIDENCE_DRONEKILLER</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
 <event name="DETECTIVE_SYSTEM_SHIELDS">
 	<text>You inspect the shields system. Everything here seems to be perfectly functional, and nothing is out of the ordinary.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -2996,7 +2996,7 @@
 	<text>You inspect the oxygen system. The system appears to be running at a higher level than usual, and is in pristine condition. From the looks of it, the system was upgraded very recently.</text>
 	<hiddenAug>MARKER_EVIDENCE_OXYGEN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -3004,14 +3004,14 @@
 	<text>You inspect the sensors system. It appears someone has sabotaged the computers, and deleted all of the recordings from the night of the murder! There's nothing else here of use, but someone had to have done this...</text>
 	<hiddenAug>MARKER_EVIDENCE_SENSORS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
 <event name="DETECTIVE_SYSTEM_WEAPONS">
 	<text>You inspect the weapons system. Several trinkets lay around the room, as well as a small bag with Amy's name on it. This must be her usual station.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DETECTIVE_EVIDENCE_MENU_LOAD"/>
 	</choice>
 </event>
@@ -3019,15 +3019,15 @@
 <event name="DETECTIVE_CORRECT">
 	<text>Thom realizes he's been caught. Desperately, he fumbles to grab his blaster but is shot in the knee by Sherlock. The other Militiamen run to handcuff him and escort Amy and Daniel to safety. Sherlock holsters his gun and thanks you. "Good work! Now, time we learn what this is all about."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Thom is tied up to a chair in an empty room aboard Sherlock's ship. Sherlock paces back and forth. "So, you're the Rebel spy?" Thom shakes in his chair, trying to loosen the ropes. Eventually, he gives up. "You don't understand! Everyone I knew, my family, my friends, they were all killed by the Rockmen! Is there any better proof that alien life is a threat to mankind? And during that attack, where was the Federation? Is the Federation really that great when they can't even protect their own citizens!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Sherlock sits down in the chair on the opposite side of the room and crosses his legs. "So, you joined the Rebellion for revenge?" Thom nods. "The Rebellion offers a chance at the galaxy that the Federation could never give us! The galaxy that humanity deserves!"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Sherlock scoffs. "Alright, hold on the manifesto. All we care about is the information you tried so hard to prevent from getting out." Thom gulps. "I won't tell!"</text>
 							<choice hidden="true">
@@ -3035,7 +3035,7 @@
 								<event>
 									<text>You slap Thom across the face. "O-ok I'll talk! I was just a dormant agent sent to watch the sector. For a while now the Rebellion has been planning to invade this sector and siege the Militia's hangars and armories, and today that plan is about to carry out! Aboard the same station I was stationed at was Henry, another undercover Rebel spy. However, he grew too attached to that old man Browne, and when he learned the invasion would put everyone here - even the doctor - at risk, he got weak and was going to snitch. I secured the safety of the Rebellion by killing that coward!"</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>"Yeah, a real job securing them you did just now, blabbering all their secrets." Sherlock motions for one of the Militia guards to gag Thom and remove him from the room. "Damn it, if his intel's any good then we have a serious situation on our hands. We need to head to the central hangar and alert the General about this, quickly! Your ship seems a lot faster than mine, so I hope you don't mind if I catch a ride."</text>
 											<hiddenAug>ACH_CREW_HAYNES</hiddenAug>
@@ -3065,7 +3065,7 @@
 		<text>The Dreadnaught explodes, scattering the area below in debris, even taking out a few ships on the way down. Fortunately, the generator takes little damage from the explosion.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DETECTIVE_HANGARATTACK_DESTROY"/>    
 		</choice>
 	</destroyed>
@@ -3073,7 +3073,7 @@
 		<text>The Dreadnaught has been emptied of crew. The ship falls back down to the surface of the planet, taking out several ship on its way. Fortunately, the generator takes little damage from the impact.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>	
+			<text>계속...</text>	
 			<event load="DETECTIVE_HANGARATTACK_DEADCREW"/>    
 		</choice>
 	</deadCrew>
@@ -3108,7 +3108,7 @@
 					<text>You power up the thrusters and intercept the ship as it fires on the generator. Better make this quick!</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3126,11 +3126,11 @@
 		<event>
 			<text>No way in hell you're fighting that thing. You evacuate as soon as possible.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3158,7 +3158,7 @@
 			<weapon name="LASER_BURST_8"/>
 			<unlockCustomShip silent="false">PLAYER_SHIP_MILITIA</unlockCustomShip>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_REMOVE_GENERAL"/>
 			</choice>
 		</event>
@@ -3175,7 +3175,7 @@
 			<weapon name="LASER_BURST_8"/>
 			<unlockCustomShip silent="false">PLAYER_SHIP_MILITIA</unlockCustomShip>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_REMOVE_GENERAL"/>
 			</choice>
 		</event>

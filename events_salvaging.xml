@@ -126,7 +126,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Disable the drones first.</text>
+		<text>(Engi 선원) Disable the drones first.</text>
 		<event>
 			<text>Fortunately, your Engi is able to disable the drones before scanning them.</text>
 			<drone name="BATTLETOG_DEFEND"/>
@@ -145,7 +145,7 @@
 		<event load="SALVAGE_DEFAULT_PIRATES_SCRAP"/>
 	</choice>
 	<choice hidden="false">
-		<text>Ignore the ship.</text>
+		<text>함선을 무시한다.</text>
 		<event/>
 	</choice>
 </event>
@@ -176,7 +176,7 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="BLUELIST_CREW_NODOORS">
-			<text>(Phasing Crew) Sneak inside.</text>
+			<text>(Phasing 선원) Sneak inside.</text>
 			<event>
 				<text>Your crew is able to slip easily past the door and get inside, where they find a trap that they quickly defuse. Now that it's safe to enter, the rest of the crew follow and take all that they can.</text>
 				<autoReward level="HIGH">standard</autoReward>
@@ -194,7 +194,7 @@
 </eventList>
 <eventList name="SALVAGE_DEFAULT_PIRATES_SCRAP">
 	<event>
-		<text>You are undisturbed as you scrap the ship.</text>
+		<text>You are undisturbed as you 함선을 수거한다.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 </eventList>

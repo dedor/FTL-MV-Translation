@@ -53,7 +53,7 @@
 		<text>The Slug ship has been destroyed. You scrap the remains.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="BUTT_BUDDIES_REVENGE"/>
 		</choice>
 	</destroyed>
@@ -61,7 +61,7 @@
 		<text>The Slug ship has been dealt with. You scrap the remains.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="BUTT_BUDDIES_REVENGE"/>
 		</choice>
 	</deadCrew>
@@ -87,7 +87,7 @@
 							<text>No one's going to miss these assholes. Hopefully this should prove to be quite cathartic.</text>
 							<ship hostile="true"/> 
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -109,11 +109,11 @@
 		<event>
 			<text>It was dumb to come all the way out here for something as petty as revenge.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -126,7 +126,7 @@
 		<event>
 			<text>Rig grabs one of the Slugs by the tail as Tony holds the other in place, and together they force one Slug down the gullet of the other. One screams as the other chokes, and the two roll on the floor in agony until the pain becomes unbearable and you finally put them out of their misery. You can see Tony and Rig aren't quite as satisfied with this as they had hoped, but they're glad to finally have laid them to rest.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="BUTT_BUDDIES_REWARD"/>
 			</choice>
 		</event>
@@ -136,7 +136,7 @@
 		<event>
 			<text>Torturing the Slugs like that will do no one any good. Instead, you grant them a quick and painless death. You can tell Tony and Rig aren't quite as satisfied, but the death of the Slugs satisfies them nonetheless.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="BUTT_BUDDIES_REWARD"/>
 			</choice>
 		</event>
@@ -174,7 +174,7 @@
 	<text>Looks like a Rebel ship is here, waiting for you. You can't quite make out what the ship is though at first.</text>
 	<ship load="SHIP_NEMESIS_DROPPOINT" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="NEMESIS_FIRST"/>
 	</choice>
 </event>
@@ -188,7 +188,7 @@
             <text>The Rebel captain stutters. "H-huh? You don't remember me? It is I, your arch-nemesis, Leah, the infamous BEAM MASTER! Mwahahahah! You think you're so clever, always coming in to ruin my day. But I'm getting smarter. You won't beat me this time, beyatch!"</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -198,11 +198,11 @@
 <event name="NEMESIS_ENCOUNTER" unique="true">
 	<text>Looks like a Rebel ship is here, waiting for you. You can't quite make out what the ship is though at first.</text>
 	<choice hidden="true" req="MARKER_NEMESIS" max_group="1" lvl="1" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="NEMESIS_ENCOUNTER_LIST"/>
 	</choice>
 	<choice hidden="true" req="MARKER_NEMESIS" max_group="1" lvl="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="NEMESIS_FIRST"/>
 	</choice>
 </event>
@@ -394,7 +394,7 @@
 				<event>
 					<text>"Today is the day you die. Today, I, Leah, shall finally teach you a lesson. I shall take the throne. Mwahahahahah. MWAHAHAHAHA- wait shit. I didn't mean to press that!"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Suddenly. Leah's engines flare up and her FTL drive activates. "Nononono-this can't be happening. God damn it! I'll get you next time, beyaaaaatcccchhhh-"</text>
 							<instantEscape/>
@@ -403,7 +403,7 @@
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice hidden="true">
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -438,7 +438,7 @@
 	<text>It seems as though this is the end of Sylvan, but suddenly a teleporter signal registers - you've been boarded, again? Sylvan reappears on your deck. "Sssstranger, it'ssss not sssso eassssy to get rid of me!"</text>
 	<boarders min="1" max="1" class="sylvan"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As if that wasn't enough, even more Slugs beam aboard! Where are these guys coming from?</text>
 			<boarders min="2" max="3" class="slug"/>
@@ -451,7 +451,7 @@
 	<unlockCustomShip shipReq="PLAYER_SHIP_SYLVAN" silent="false">PLAYER_SHIP_SYLVAN_3</unlockCustomShip>
 	<hiddenAug>MARKER_KILLED_SYLVAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="SYLVAN_DESTRUCTION_2"/>
 	</choice>
 </event> 
@@ -468,62 +468,62 @@
 			<text>You scoop up the first cargo box, and empty out all of the scrap inside.</text>
 			<autoReward level="HIGH">scrap_only</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You open another cargo box, finding even more scrap.</text>
 					<autoReward level="HIGH">scrap_only</autoReward>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>You open another cargo box, finding a weapon and more supplies!</text>
 							<autoReward level="HIGH">weapon</autoReward>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>You open another cargo box, finding a drone among the supplies!</text>
 									<autoReward level="HIGH">drone</autoReward>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>You open another cargo box, finding a ton of fuel and scrap inside.</text>
 											<autoReward level="HIGH">fuel</autoReward>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>You open another cargo box, finding a ton of missiles and scrap inside.</text>
 													<autoReward level="HIGH">missiles</autoReward>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>You open another cargo box, finding a ton of drone parts and scrap inside.</text>
 															<autoReward level="HIGH">droneparts</autoReward>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
 																	<text>You open another cargo box, finding a brand new augment and some supplies inside!</text>
 																	<autoReward level="HIGH">augment</autoReward>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event>
 																			<text>You open another cargo box, finding even more supplies!</text>
 																			<autoReward level="HIGH">stuff</autoReward>
 																			<choice hidden="true">
-																				<text>Continue...</text>
+																				<text>계속...</text>
 																				<event>
 																					<text>You open another cargo box, finding a ton of missiles!</text>
 																					<autoReward level="HIGH">missiles_only</autoReward>
 																					<choice hidden="true">
-																						<text>Continue...</text>
+																						<text>계속...</text>
 																						<event>
 																							<text>You open another cargo box, finding a ton of drone parts!</text>
 																							<autoReward level="HIGH">droneparts_only</autoReward>
 																							<choice hidden="true">
-																								<text>Continue...</text>
+																								<text>계속...</text>
 																								<event>
 																									<text>You open another cargo box, finding even more scrap.</text>
 																									<autoReward level="HIGH">scrap_only</autoReward>
 																									<choice hidden="true">
-																										<text>Continue...</text>
+																										<text>계속...</text>
 																										<event>
 																											<text>You open the final box and, to no surprise, you find even more scrap!</text>
 																											<autoReward level="HIGH">scrap_only</autoReward>
@@ -565,7 +565,7 @@
 			<boarders min="3" max="3" class="snail"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -587,11 +587,11 @@
 				<event>
 					<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -693,7 +693,7 @@
 	<ship load="SHIP_TRAVELING_MERCHANT" hostile="false"/>
 	<autoReward level="MED">item</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="SYLVAN_STANDARD"/>
 	</choice>
 </event> 
@@ -702,7 +702,7 @@
 	<ship load="SHIP_TRAVELING_MERCHANT" hostile="false"/>
 	<autoReward level="MED">item</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="SYLVAN_STANDARD"/>
 	</choice>
 </event> 
@@ -713,7 +713,7 @@
 	<jumpEvent>SYLVAN_RUN</jumpEvent>
 	<boarders min="3" max="3" class="snail"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event> 
@@ -752,7 +752,7 @@
 		<event>
 			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_DROPPOINT_NOGIFT</loadEvent>
 				</event>
@@ -776,11 +776,11 @@
 		<event>
 			<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -794,7 +794,7 @@
 		<event>
 			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_DROPPOINT_NOGIFT</loadEvent>
 				</event>
@@ -818,11 +818,11 @@
 		<event>
 			<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -837,7 +837,7 @@
 		<event>
 			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_STANDARD</loadEvent>
 				</event>
@@ -877,11 +877,11 @@
 		<event>
 			<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -917,25 +917,25 @@
 <event name="SYLVAN_PREIGNITER_STORY">
 	<text>"Alright ssstranger! Have you ever heard the tale... of the Weapon Pre-Igniter? It wassss a powerful augment firssst built by Jackssson Newman, a cccitizen of Antiquum Terrae during the Human-Mantisss war..."</text>
 	<choice hidden="true" req="MARKER_PREIGNITER_QUEST" lvl="0" blue="false" max_group="0">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"But not too long after the Multiverssse Warsss, thisss tech wasss banned for being too powerful, too unssstable, too deadly. It'sss nigh imposssible to find one anymore, and trussst me I've tried..."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"But you sssee ssstranger, Jackson Newman didn't actually invent thisss... he ssstole it! And from who? Why, a mysssteriousss and ancccient raccce. I know little about them, but from the legendsss they were called the Obelisssk, and usssed to rule the galaxiesss abroad. Exccciting ssstuff, eh?"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"Don't know whatever happened to thessse 'Obelisssk' fellowsss, but I do know that remnantssss of them remain around the galaxy. I heard a man in the pub sssay sssomething about a ruin not too far from here that could even contain the Pre-Igniter tech I'm lookin for!"</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Now I tell you what ssstranger. Jussst before thisss, I wasss 'boutta head there and grab it for myssself, but then you ssshowed up. If you take jussst one glanccce at my ssship, you know well I don't need that sssilly augment. Ssso I'll give you here thessse coordinatesss, and wisssh you besst of luck. And that'sss all ssstranger. Now, want to trade?"</text>
 									<quest event="SYLVAN_PREIGNITER"/>
 									<hiddenAug>MARKER_PREIGNITER_QUEST</hiddenAug>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<loadEvent>SYLVAN_STANDARD</loadEvent>
 										</event>
@@ -953,7 +953,7 @@
 		<event>
 			<text>"Then why'd you assssk me to hear it again ssstranger? I'm afraid I don't have time to repeat mysssself..."</text>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_STANDARD</loadEvent>
 				</event>
@@ -986,7 +986,7 @@
 					<text>"No soul ever live after challenging Tremor! I show Sylvan what I make of sending mercenary after Tremor stuff!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1000,7 +1000,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1008,7 +1008,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We can't be the only ones looking for this. Leave.</text>
+		<text>We can't be the only ones looking for this. 떠난다.</text>
 		<event>
 			<text>You might never see that tech that Sylvan promised, but it's better than being dead.</text>
 			<choice>
@@ -1016,7 +1016,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1026,15 +1026,15 @@
 	<text>"AAAAH! AAAAAAH! TREMOR DYING! TREMOR DYI- Gaaaaaaah!" Tremor and his mighty ship have fallen. You scrap its remains.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Tremor might be dead, but your job here isn't finished. As you approach the alien structure, it becomes apparent that the sheer size of the colossal fleet ship is enough to fit a thousand-fold of your cruiser...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You traverse the interior of the ship as sparking electronics jut out of the walls, sometimes scraping against your hull in the tighter areas. Inevitably, you find a room resembling the Weapon Control, but you're forced to travel forward on foot.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Your crew come across a massive cubical power source plugged into the wall, which they assume to be the Pre-Igniter. However, it's uncertain whether pulling it out will trigger any sort of alarm, since the ship itself still seems to have power in a few locations. How much faith are you willing to put into the ancient alien security?</text>
 							<choice hidden="true">
@@ -1070,11 +1070,11 @@
 <event name="SYLVAN_LIZARD_STORY">
 	<text>"Alright ssstranger! Have you ever heard the tale... of the furry, one-eyed tree lizard thingssss? Ssstupid, I know, but it'sss all true I promissse. I've ssseen them with my own eyesssstalksss!"</text>
 	<choice hidden="true" req="MARKER_LIZARD_QUEST" lvl="0" blue="false" max_group="0">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Sylvan chuckles. "But in all ssseriousssnesss, there'sss a colony of friendly yet primitive creaturesss nearby. However, they've been through tough timesss lately. Hektar Indussstriesss, perhapsss you've heard of them, have been taking advantage of them for ssseveral yearsss, ssstealing them away for lessss-than-willing labor." You take note at the particular emphasis of disdain when Sylvan mentions "Hektar."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"When I caught word of thisss, I ssstepped in. I can't watch over them forever, ssso I had a friend of mine, a Zoltan monk named Anurak, ssstand guard. However, I haven't heard from him in weeksss. I'm getting worried, but I'm kind of held up with thisss merchant busssinesss. Could you be a friend, sssstranger, and take a quick look? It would mean a lot."</text>
 					<choice hidden="true">
@@ -1084,7 +1084,7 @@
 							<quest event="SYLVAN_LIZARDS"/>
 							<hiddenAug>MARKER_LIZARD_QUEST</hiddenAug>
 							<choice>
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<loadEvent>SYLVAN_STANDARD</loadEvent>
 								</event>
@@ -1096,7 +1096,7 @@
 						<event>
 							<text>"That'ssss alright, ssstranger. No hard feelingssss."</text>
 							<choice>
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<loadEvent>SYLVAN_STANDARD</loadEvent>
 								</event>
@@ -1112,7 +1112,7 @@
 		<event>
 			<text>"Then why'd you assssk me to hear it again ssstranger? I'm afraid I don't have time to repeat mysssself..."</text>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_STANDARD</loadEvent>
 				</event>
@@ -1173,7 +1173,7 @@
 													<text>You aren't some corrupt Zoltan politician looking to be bought off with some scrap. You have morals (probably) and you'll do all you can to defend these lizards!</text>
 													<ship hostile="true"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event load="COMBAT_CHECK"/>
 													</choice>
 												</event>
@@ -1183,7 +1183,7 @@
 								</event>
 							</choice>
 							<choice hidden="true">
-								<text>Refuse and leave.</text>
+								<text>Refuse and 떠난다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -1201,7 +1201,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1225,11 +1225,11 @@
 				<event>
 					<text>The lizards quickly gather to discuss, but when another Hektar ship jumps in behind them and sends an entire neighborhood plummeting off of its tree, they quickly scurry aboard your vessel. You fly away, unnoticed by the approaching Hektar fleet.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>It doesn't take too long until you encounter a Zoltan trading hub willing to take the refugees. It's only a small subset of their people, but it's enough to keep their species alive for now. All but Guntput remains, who lingers on your ship.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Federation. You have done good service for my people. I do not foresee... good future for them. But still better than in Hektar labor camp for rest of days. I will not go with them. I have failed them as leader. I will serve you instead, in efforts to save reality and someday free rest of my people."</text>
 									<hiddenAug>ACH_CREW_GUNTPUT</hiddenAug>
@@ -1243,7 +1243,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We've done what we can, but we must leave.</text>
+		<text>We've done what we can, but we must 떠난다.</text>
 		<event>
 			<text>Unfortunately, the lizards are too disorganized to offer any sort of a reward, so you're forced to leave empty handed save for the scrap from the Hektar wreck.</text>
 		</event>
@@ -1258,25 +1258,25 @@
 <event name="SYLVAN_MORPH_STORY">
 	<text>"Alright ssstranger! Have you ever heard the tale... of the triple headed planet eating ssssnake monssster? No?! Haha of courssse not. I made it up. Ahhh I don't got a ssstory to tell thisss time, but I did sssee sssomething pretty cool! Doesss that count asss a ssstory? I think it doesss, ssstranger..."</text>
 	<choice hidden="true" req="MARKER_MORPH_QUEST" lvl="0" blue="false" max_group="0">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Now, I'm ssssure by now you've become acquaintanced with the Morphsss, yess? Perhapsss what you didn't know however issss their ssshipss are made up'a many Morphssss all bunched together cosssier than two loversss after a full night of... ah well, nevermind. Anywaysss, thessse ssshipss tend to resssemble that of exisssting Ssshell design, but I happened to catch ssssight of one that ssstood out to me..."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"A cruissser! Bet you're familiar with thossse, ssstranger! Didn't come here looking for an unlock from ol' Ssssylvan now, did you? Now, it ain't gonna be peachesss and rosssess. It don't take no geniusss to reckon you gotta recover that ssship unharmed ssssomehow. Now, I hypothesssize there'sss a couple waysss to pull thisss off..."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"The firsst, and most obvioussss of courssse is killing off all the Morphsss. Sssshould be sssimple enough... excccept for the fact that thing'ssss bound to be teeming with all ssssortsss of them. No oxygen either, makesss it real tricky. The sssecond, you find sssome miracle and learn how to underssstand thessse thingsss and convinccce them to give you their ssship. Good luck with that. Three, and my persssonal favorite, you bring them sssomeone they will lisssten to. Heard there'ssss sssome big one called OOJ MAJOO, you gotta ssshout it like that you ssssee, whossse ssstill around thessse partsss. Sssomewhere around Site Alpha, I think."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Now, I'll give you the coordinatessss to thisss cruissser. I believe in you, ssstranger! Anywayssss, now that'sss out of the way... wanna trade?"</text>
 									<quest event="SYLVAN_MORPHUNLOCK"/>
 									<hiddenAug>MARKER_MORPH_QUEST</hiddenAug>
 									<choice>
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<loadEvent>SYLVAN_STANDARD</loadEvent>
 										</event>
@@ -1294,7 +1294,7 @@
 		<event>
 			<text>"Then why'd you assssk me to hear it again ssstranger? I'm afraid I don't have time to repeat mysssself..."</text>
 			<choice>
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_STANDARD</loadEvent>
 				</event>
@@ -1333,7 +1333,7 @@
 						<event>
 							<text>"POO ROO! POO ROO! POO ROO!" shouts the Morphs, who begin to wiggle in unison, then rotating around in a circular fashion. "POO ROO! POO ROO! POO ROO!"</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Kur kur tig." The Morphs stop circling, then go back to working aboard their ship. Looks like this was all a waste of time.</text>
 									<choice hidden="true">
@@ -1342,13 +1342,13 @@
 											<text>"Atoo atoo! Yrill took took!" The Morphs prepare for combat, and you should do the same.</text>
 											<ship hostile="true"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
 									</choice>
 									<choice hidden="true">
-										<text>Leave them alone.</text>
+										<text>내버려 둔다.</text>
 										<event/>
 									</choice>
 								</event>
@@ -1367,7 +1367,7 @@
 					<text>"Atoo atoo! Yrill took took!" The Morphs prepare for combat, and you should do the same.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1381,7 +1381,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1397,7 +1397,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1407,7 +1407,7 @@
 	<text>As soon as they hear the voice of OOJ MAJOO, their leader, all of the Morphs stop. After some more gibberish back and forth, the Morphs transfer over some data for the ship blueprints. It looks like... genetic code... but you aren't one to question.</text>
 	<hiddenAug>ACH_BOSS_MORPH</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Before you leave, the Morphs offer you a gift of good faith.</text>
 			<autoReward level="HIGH">item</autoReward>
@@ -1418,7 +1418,7 @@
 	<text>The Morph cruiser has been emptied of crew. It feels... unusual, walking around in the squishy, semi-organic interior as you head to the cockpit and reprogram the ship to head back to the Federation hangar. You wonder what the Federation will think when it gets there...</text>
 	<hiddenAug>ACH_BOSS_MORPH</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Before you leave, you stop by the cargo bay of the Morph ship. Inside you find a ton of scrap, and a strange Morph that you scoop up and bring onto the ship.</text>
 			<autoReward level="HIGH">standard</autoReward>
@@ -1514,11 +1514,11 @@
 		<event>
 			<text>You fly away, hoping you never have to encounter the ship responsible for this.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1528,7 +1528,7 @@
 	<text>"Oh shut up. You aren't sorry for anything. I thought we had something going. Like, one of those cool rivalries you see in movies. But all this time, you didn't give a single shit about me. Well guess what! I've learned a thing or two from our past encounters. See, the reason I could never beat you was because time after time I specialized in only one thing. But those days are over. New ship, new guns, new armor. I've already killed your little Slug friend. And now, it's time I finally put an end to this little facade of mine by killing you."</text>
 	<ship hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event> 
@@ -1601,7 +1601,7 @@
 	<text>"Oh shut up. You aren't sorry for anything. I thought we had something going. Like, one of those cool rivalries you see in movies. But all this time, you didn't give a single shit about me. Well guess what! I've learned a thing or two from our past encounters. See, the reason I could never beat you was because time after time I specialized in only one thing. But those days are over. New ship, new guns, new armor. Now, it's time I finally put an end to this little facade of mine by killing you."</text>
 	<ship hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event> 
@@ -1629,7 +1629,7 @@
 				<event>
 					<text>"You weren't wrong Obyn... we did ssssee each other again..." Sylvan puts his hand to his chest, as if feeling if he still has a pulse. His face shows a look of disappointment at what he feels. "I don't have much longer, Obyn. Do you remember that sssship we sssaid we would build together? Well... I finisssshed it. The blueprints in my cargo bay. If there'ssss one thing I can trussst about my ssship, it'sss that the cargo bay alwaysss survivesss the fight..."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"Thank you sssstranger, for reuniting me with Obyn one lassst time. It hassss been an honor. There'sss a little extra sssomething in that cargo bay for you." Sylvan turns to Obyn one last time. "Obyn... I love you. Goodbye." And with that, the traveling merchant slumps over unconscious. Obyn's tears mark stains on his robes, and you aren't sure if you can do anything to save him.</text>
 							<choice hidden="true">
@@ -1637,7 +1637,7 @@
 								<event load="SYLVAN_DIES"/>
 							</choice>
 							<choice hidden="true" req="medbay" lvl="3">
-								<text>(Adv. Medbay) Save him.</text>
+								<text>(최고급. Medbay) Save him.</text>
 								<event>
 									<text>You rush Sylvan to the Medbay to be healed. Once he's in a stable condition, he thanks you. Sylvan and Obyn have another one of their awkward distant hugs, and then Sylvan turns to you. "Well, ssstranger. Guessss we better check on that cargo, then go sssave reality, eh?"</text>
 									<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1648,7 +1648,7 @@
 								</event>
 							</choice>
 							<choice hidden="true" req="clonebay" lvl="3">
-								<text>(Adv. Clone Bay) Save him.</text>
+								<text>(최고급. Clone Bay) Save him.</text>
 								<event>
 									<text>You rush to register Sylvan in your Clone Bay. Once his clone emerges from it, he thanks you. Sylvan and Obyn have another one of their awkward distant hugs, and then Sylvan turns to you. "Well, ssstranger. Guessss we better check on that cargo, then go sssave reality, eh?"</text>
 									<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1659,7 +1659,7 @@
 								</event>
 							</choice>
 							<choice hidden="true" req="RECON_AND_TELEPORT">
-								<text>(Adv. TP + Recon Tele) Save him.</text>
+								<text>(최고급. TP + Recon Tele) Save him.</text>
 								<event>
 									<text>You quickly beam back Sylvan and allow the regenerative effects of the teleporter to kick in. Sylvan and Obyn have another one of their awkward distant hugs, and then Sylvan turns to you. "Well, ssstranger. Guessss we better check on that cargo, then go sssave reality, eh?"</text>
 									<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1678,15 +1678,15 @@
 				<event>
 					<text>Billy rushes over to Sylvan, shaking him, trying to lift him off the floor. "Come on brother, don't die here! Oh, how could I let ussss grow ssso apart, I'm ssssuch a fool. An assshole... Pleassse Sssylvan, don't let our sssaga end here before I had a chanccce to redeem myssself."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Sylvan tries to sit up, but groans in pain. "Even to the lassst minute, you care more about yourssself. You drove me away from Hektar jussst ssso you could keep up your little sssslave trade with that bassstard Irwin. And look where that got both of you."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Billy starts sobbing uncontrollably. "I know, I know. Pleasssse Sssylvan, I can't watch you die. I don't want to lossse my brother, you're the only perssson who ever wasss by my ssside."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>Sylvan puts a tentacle on Billy's suit, pulling him closer. "It'ssss far too late to apologizzze for the passst. You want to make up for your passsst? Acccept you're a sssshit person, move forward, and help the sssstranger blow thessse Rebelsss and cube freakssss to kingdom come." Sylvan slumps over, unconcious. Billy begs for you to do something - anything.</text>
 											<choice hidden="true">
@@ -1697,7 +1697,7 @@
 												</event>
 											</choice>
 											<choice hidden="true" req="medbay" lvl="3">
-												<text>(Adv. Medbay) Save him.</text>
+												<text>(최고급. Medbay) Save him.</text>
 												<event>
 													<text>You rush Sylvan to the Medbay to be healed. Once he's in a stable condition, he thanks you. Billy and Sylvan stare at each other awkwardly for a few moments, until Sylvan finally says, "Right now, we have more important thingsss to do. Let'ssss go sssave reality, and talk about family drama later."</text>
 													<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1705,7 +1705,7 @@
 												</event>
 											</choice>
 											<choice hidden="true" req="clonebay" lvl="3">
-												<text>(Adv. Clone Bay) Save him.</text>
+												<text>(최고급. Clone Bay) Save him.</text>
 												<event>
 													<text>You rush to register Sylvan in your Clone Bay. Once his clone emerges from it, he thanks you. Billy and Sylvan stare at each other awkwardly for a few moments, until Sylvan finally says, "Right now, we have more important thingsss to do. Let'ssss go sssave reality, and talk about family drama later."</text>
 													<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1713,7 +1713,7 @@
 												</event>
 											</choice>
 											<choice hidden="true" req="RECON_AND_TELEPORT">
-												<text>(Adv. TP + Recon Tele) Save him.</text>
+												<text>(최고급. TP + Recon Tele) Save him.</text>
 												<event>
 													<text>You quickly beam back Sylvan and allow the regenerative effects of the teleporter to kick in. Billy and Sylvan stare at each other awkwardly for a few moments, until Sylvan finally says, "Right now, we have more important thingsss to do. Let'ssss go sssave reality, and talk about family drama later."</text>
 													<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1729,7 +1729,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="medbay" lvl="3">
-				<text>(Adv. Medbay) Save him.</text>
+				<text>(최고급. Medbay) Save him.</text>
 				<event>
 					<text>You rush Sylvan to the medbay to be healed. Once he's in a stable condition, he thanks you. "Way to sssshow the Rebellion we don't messss around! Ssstranger, you have done me a great ssserviccce. I shall now be at yourssss."</text>
 					<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1737,7 +1737,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="clonebay" lvl="3">
-				<text>(Adv. Clone Bay) Save him.</text>
+				<text>(최고급. Clone Bay) Save him.</text>
 				<event>
 					<text>You rush to register Sylvan in your Clone Bay. Once his clone emerges from it, he thanks you. "Way to sssshow the Rebellion we don't messss around! Ssstranger, you have done me a great ssserviccce. I shall now be at yourssss."</text>
 					<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1745,7 +1745,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="RECON_AND_TELEPORT">
-				<text>(Adv. TP + Recon Tele) Save him.</text>
+				<text>(최고급. TP + Recon Tele) Save him.</text>
 				<event>
 					<text>You quickly beam back Sylvan and allow the regenerative effects of the teleporter to kick in. "Way to sssshow the Rebellion we don't messss around! Ssstranger, you have done me a great ssserviccce. I shall now be at yourssss."</text>
 					<crewMember amount="1" class="sylvan">Sylvan</crewMember>
@@ -1780,11 +1780,11 @@
 		<event>
 			<text>"To explain, I think I'll have to tell you a ssstory. You like thossse, right? Well, I've heard the Guild issss keeping a rare statue of an equinoid carved entirely out of diamond. Issssn't that great?"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Naturally when I heard of thissss, I knew I had to get it. Normally I would have ssssold it, but it'll make a great wedding gift inssstead! The Guild will be sssso furiousss, and who doesn't love pissssing them off?"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"I'll give you the coordinates for this cache. Try and sssstop by it if you can, and grab it for me. I would be mossst apprecccciative ssstranger!"</text>
 							<quest event="SYLVAN_CRYSTALPONY_1"/>
@@ -1801,11 +1801,11 @@
 								<event>
 									<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 									<choice>
-										<text>Do something onboard the ship.</text>
+										<text>함선에서 무언가를 한다.</text>
 										<event load="STORAGE_CHECK"/>
 									</choice>
 									<choice>
-										<text>Do nothing.</text>
+										<text>아무것도 하지 않는다.</text>
 										<event/>
 									</choice>
 								</event>
@@ -1826,7 +1826,7 @@
 	<text>It seems as though this is the end of Sylvan, but suddenly a teleporter signal registers - you've been boarded, again? Sylvan reappears on your deck. "Friend, it'ssss not sssso eassssy to get rid of me!"</text>
 	<boarders min="1" max="1" class="sylvan"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As if that wasn't enough, even more Slugs beam aboard! Where are these guys coming from?</text>
 			<boarders min="2" max="3" class="slug"/>
@@ -1851,7 +1851,7 @@
 							<text>"Then let the battle commenssse, eh friendo?"</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1873,7 +1873,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1889,7 +1889,7 @@
 		<item type="drones" min="25" max="25"/>
 	</item_modify>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You open the cache, and find the pony statue tucked away in a corner. However, you jump back in surprise when the creature suddenly comes to life and runs a lap around the room. You aren't sure this is what Sylvan intended - but you try and hail him anyways. He seems surprised to see the pony is a living creature too. "Huh, how peculiar. Well, I'm not ssssure that'sss quite what I need. Well, come by and visssit me again ssstranger, and I'll think of sssomething elssse. Feel free to take the pony with you if you want."</text>
 			<crewMember amount="1" class="ponyc">Crystal</crewMember>
@@ -1902,7 +1902,7 @@
 	<text>You've returned to Sylvan, who looks fairly peeved, though you suspect not towards you in particular. "No, no. Thisss won't do... Taking care of an equinoid on thisss sship isss too risssky. I'll have to think of ssssomething elssse...</text>
 	<ship load="SHIP_TRAVELING_MERCHANT" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Oh, that'ssss it! Sssstranger, I got a new favor to asssk of you. But thisss time, there'ssss more in it for you than jussst some sssilly payment from me. I'm talking the kind of richesss you wouldn't believe! But it comes at a massssive risssk, ssstranger."</text>
 			<choice hidden="true">
@@ -1910,11 +1910,11 @@
 				<event>
 					<text>"Ever heard of the Nexussss, ssstranger? Well, it'sss the cccenter of the Multiverssse they sssasy. A vassst region of ssspace easssily accessssed by any Multiversssse. Usually only realitiesss that are very sssimilar in nature can reach each other, but the Nexussss is where you might jusssst find anything!"</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"Naturally, ssstranger, I wanted to sssee it for myssself. I went there - only to find millions, nay, billionssss of fellow Ssssylvanss all making their way there too. It wassss an opportunity like no other! A brilliant trade hub of Sylvans of all kindssss interacting with each other!"</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"I'm ssssure SSSSOMEONE there hasss what we're looking for. You'll probably be able to make a fortune too, or maybe ssssome new friendsss! Sssso what do you sssay, ssstranger ssstranger?"</text>
 									<choice hidden="true">
@@ -1922,7 +1922,7 @@
 										<event>
 											<text>"Then off you go! Bessst of luck, ssstranger! And try and bring me a crystalline pony sssstatue, would you? Or sssomething elssse of equal worth."</text>
 											<choice>
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="WARP_TO_NEXUS"/>
 											</choice>
 										</event>
@@ -2001,19 +2001,19 @@
 				<item type="scrap" min="10" max="10"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2029,19 +2029,19 @@
 				<item type="scrap" min="7" max="7"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2058,19 +2058,19 @@
 				<item type="scrap" min="20" max="20"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2086,19 +2086,19 @@
 				<item type="scrap" min="15" max="15"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2115,19 +2115,19 @@
 				<item type="scrap" min="30" max="30"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2143,19 +2143,19 @@
 				<item type="scrap" min="22" max="22"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2188,19 +2188,19 @@
 				<item type="scrap" min="15" max="15"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2216,19 +2216,19 @@
 				<item type="scrap" min="11" max="11"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2245,19 +2245,19 @@
 				<item type="scrap" min="30" max="30"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2273,19 +2273,19 @@
 				<item type="scrap" min="22" max="22"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2302,19 +2302,19 @@
 				<item type="scrap" min="45" max="45"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2330,19 +2330,19 @@
 				<item type="scrap" min="33" max="33"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2375,19 +2375,19 @@
 				<item type="scrap" min="25" max="25"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2403,19 +2403,19 @@
 				<item type="scrap" min="20" max="20"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2432,19 +2432,19 @@
 				<item type="scrap" min="50" max="50"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2460,19 +2460,19 @@
 				<item type="scrap" min="40" max="40"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2489,19 +2489,19 @@
 				<item type="scrap" min="75" max="75"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2517,19 +2517,19 @@
 				<item type="scrap" min="60" max="60"/>
 			</item_modify>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="0" max_lvl="0" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_DROPPOINT</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="7" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES_LASTSTAND</loadEvent>
 				</event>
 			</choice>
 			<choice hidden="true" req="SECTOR_COUNT" lvl="1" max_lvl="6" max_group="0" blue="false">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<loadEvent>SYLVAN_TRADES</loadEvent>
 				</event>
@@ -2889,7 +2889,7 @@
 	<text load="CALLIE_WRONG"/>
 	<ship hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2911,7 +2911,7 @@
 	<text load="CALLIE_DEAD"/>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CALLIE_SALVAGE"/>
 	</choice>
 </event>
@@ -3286,7 +3286,7 @@
 	<text load="TEXT_ENCOUNTER_MV_REBEL"/>
 	<ship load="SHIP_REBEL_MULTIVERSE" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -3299,15 +3299,15 @@
 <event name="MV_TRAVELER_SPAWN">
 	<text>You've arrived at a seemingly ordinary beacon, but scans show a particularly large slip-tunnel opening nearby. Someone with an MV drive is jumping in nearby!</text>
 	<choice req="SECTOR_COUNT" lvl="0" max_lvl="3" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_SECTORS14"/>
 	</choice>
 	<choice req="SECTOR_COUNT" lvl="4" max_lvl="5" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_SECTORS56"/>
 	</choice>
 	<choice req="SECTOR_COUNT" lvl="6" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_SECTORS7"/>
 	</choice>
 </event>
@@ -3322,7 +3322,7 @@
 	<text load="TEXT_DEFEAT_MULTIVERSE_TRAVELER"/>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="DEFEAT_MULTIVERSE_TRAVELER_LIST"/>
 	</choice>
 </event>
@@ -3489,7 +3489,7 @@
 	<text load="TEXT_FIGHT_MULTIVERSE_TRAVELER"/>
 	<ship load="SHIP_MULTIVERSE_TRAVELER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -3526,7 +3526,7 @@
 			<text>You aren't paying these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3549,7 +3549,7 @@
 			<text>You aren't paying these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3572,7 +3572,7 @@
 			<text>You aren't paying these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3595,7 +3595,7 @@
 			<text>You aren't paying these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3618,7 +3618,7 @@
 			<text>You aren't paying these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3643,7 +3643,7 @@
 			<text>You aren't paying these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3664,7 +3664,7 @@
 			<text>You aren't giving these guys anything. Prepare for battle!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3674,19 +3674,19 @@
 <event name="MV_TRAVELER_BOSS">
 	<text>You wait in apprehension, but the tunnel only continues to get bigger.</text>
 	<choice req="DIFFICULTY_CASUAL" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_BOSS_CASUAL"/>
 	</choice>
 	<choice req="DIFFICULTY_NORMAL" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_BOSS_NORMAL"/>
 	</choice>
 	<choice req="DIFFICULTY_CHALLENGE" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_BOSS_CHALLENGE"/>
 	</choice>
 	<choice req="DIFFICULTY_EXTREME" lvl="1" max_group="0" blue="false" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MV_TRAVELER_BOSS_EXTREME"/>
 	</choice>
 </event>
@@ -3694,7 +3694,7 @@
 	<text>You expect a massive vessel to come out, but instead it's just a standard Multiverse traveler. Still a threat, but far less than you expected.</text>
 	<ship load="SHIP_MULTIVERSE_TRAVELER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -3785,7 +3785,7 @@
 			<text>"Ah, a fine hunt! Don't fret, Federation vessssel, you will make wonderful prey from my men! I hope you won't go down too easssy, I could usssse a challenge for oncccce..."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3809,7 +3809,7 @@
 			<text>"Ah, a fine hunt! Don't fret, Federation vessssel, you will make wonderful prey from my men! I hope you won't go down too easssy, I could usssse a challenge for oncccce..."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3834,7 +3834,7 @@
 			<text>"Ah, a fine hunt! Don't fret, Federation vessssel, you will make wonderful prey from my men! I hope you won't go down too easssy, I could usssse a challenge for oncccce..."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3845,7 +3845,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_CLAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_CLANB_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -3861,7 +3861,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_CLAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_CLANB_DROP"/>
 	</choice>
 </event>
@@ -3888,12 +3888,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Duskbringer design! The steel exterior of the ship shines from the nearest star, but your attention is drawn to their large crew of Zoltan soldiers.</text>
 	<ship load="SHIP_MTBOSS_DUSKBRINGER_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Ugh, another repugnant Federation pig in our way. I carry the Duskbringer message to new realities, cleansing the evils I see in my path. You will be my next target. I suggest you prepare whatever pitiful defenses you might own, though I doubt they'll be enough against me."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3912,12 +3912,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Duskbringer design! The steel exterior of the ship shines from the nearest star, but your attention is drawn to their large crew of Zoltan soldiers.</text>
 	<ship load="SHIP_MTBOSS_DUSKBRINGER_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Ugh, another repugnant Federation pig in our way. I carry the Duskbringer message to new realities, cleansing the evils I see in my path. You will be my next target. I suggest you prepare whatever pitiful defenses you might own, though I doubt they'll be enough against me."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3937,12 +3937,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Duskbringer design! The steel exterior of the ship shines from the nearest star, but your attention is drawn to their large crew of Zoltan soldiers.</text>
 	<ship load="SHIP_MTBOSS_DUSKBRINGER_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Ugh, another repugnant Federation pig in our way. I carry the Duskbringer message to new realities, cleansing the evils I see in my path. You will be my next target. I suggest you prepare whatever pitiful defenses you might own, though I doubt they'll be enough against me."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3953,7 +3953,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_DUSK</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_DUSKB_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -3969,7 +3969,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_DUSK</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_DUSKB_DROP"/>
 	</choice>
 </event>
@@ -3996,12 +3996,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Engi design! The ship appears to be made of of various parts from different styles of Engi ships, an odd amalgam unlike anything you've seen.</text>
 	<ship load="SHIP_MTBOSS_ENGI_C_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"I can sense... a presence. Federation-Federation! The agitation in my nanites... it [drives] me to kill. The lust for blood is-is-is overwhelming. Apoligiz-ing, death must come."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4020,12 +4020,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Engi design! The ship appears to be made of of various parts from different styles of Engi ships, an odd amalgam unlike anything you've seen.</text>
 	<ship load="SHIP_MTBOSS_ENGI_C_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"I can sense... a presence. Federation-Federation! The agitation in my nanites... it [drives] me to kill. The lust for blood is-is-is overwhelming. Apoligiz-ing, death must come."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4045,12 +4045,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Engi design! The ship appears to be made of of various parts from different styles of Engi ships, an odd amalgam unlike anything you've seen.</text>
 	<ship load="SHIP_MTBOSS_ENGI_C_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"I can sense... a presence. Federation-Federation! The agitation in my nanites... it [drives] me to kill. The lust for blood is-is-is overwhelming. Apoligiz-ing, death must come."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4061,7 +4061,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ENGI</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ENGIC_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -4077,7 +4077,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ENGI</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ENGIC_DROP"/>
 	</choice>
 </event>
@@ -4104,12 +4104,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Free Mantis design! It appears to be stealth oriented, but still capable of both a strong offense and teleportation!</text>
 	<ship load="SHIP_MTBOSS_FREEMANTIS_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Your heads will be mine! For the glory of the Kurkataka clan!" It seems these Free Mantis aren't quite as friendly as most...</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4128,12 +4128,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Free Mantis design! It appears to be stealth oriented, but still capable of both a strong offense and teleportation!</text>
 	<ship load="SHIP_MTBOSS_FREEMANTIS_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Your heads will be mine! For the glory of the Kurkataka clan!" It seems these Free Mantis aren't quite as friendly as most...</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4153,12 +4153,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Free Mantis design! It appears to be stealth oriented, but still capable of both a strong offense and teleportation!</text>
 	<ship load="SHIP_MTBOSS_FREEMANTIS_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Your heads will be mine! For the glory of the Kurkataka clan!" It seems these Free Mantis aren't quite as friendly as most...</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4169,7 +4169,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_FREEMAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_FREEMANTISB_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -4185,7 +4185,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_FREEMAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_FREEMANTISB_DROP"/>
 	</choice>
 </event>
@@ -4212,12 +4212,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Lost Sun design! The ship seems to be armored with a thick layer of ice, and it wields an impressive arsenal of Frost weapons!</text>
 	<ship load="SHIP_MTBOSS_LOSTSUN_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Lost Sun captain grunts. "Hmmph. Wasn't expecting to see a Federation vessel so far out... Well, considering that whole 'Found Moons' gig didn't work out, guess I'll have to resort to plan B and be a bounty hunter. Unlucky for you, the bounty on your ship is quite high."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4236,12 +4236,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Lost Sun design! The ship seems to be armored with a thick layer of ice, and it wields an impressive arsenal of Frost weapons!</text>
 	<ship load="SHIP_MTBOSS_LOSTSUN_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Lost Sun captain grunts. "Hmmph. Wasn't expecting to see a Federation vessel so far out... Well, considering that whole 'Found Moons' gig didn't work out, guess I'll have to resort to plan B and be a bounty hunter. Unlucky for you, the bounty on your ship is quite high."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4261,12 +4261,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Lost Sun design! The ship seems to be armored with a thick layer of ice, and it wields an impressive arsenal of Frost weapons!</text>
 	<ship load="SHIP_MTBOSS_LOSTSUN_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Lost Sun captain grunts. "Hmmph. Wasn't expecting to see a Federation vessel so far out... Well, considering that whole 'Found Moons' gig didn't work out, guess I'll have to resort to plan B and be a bounty hunter. Unlucky for you, the bounty on your ship is quite high."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4277,7 +4277,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_LS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_LOSTSUNB_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -4293,7 +4293,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_LS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_LOSTSUNB_DROP"/>
 	</choice>
 </event>
@@ -4320,12 +4320,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Mantis design! The ship sports a massive array of bombs, but little ability to damage your hull outside of a simple beam drone.</text>
 	<ship load="SHIP_MTBOSS_MANTIS_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hahahah! Explosions, death, violent shaking of metal ships as warheads detonate in starry night sky! I bring pride to Hive by igniting fiery inferno aboard this Federation ship!" These Mantis are certifiably insane, but you have little option but to fight.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4344,12 +4344,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Mantis design! The ship sports a massive array of bombs, but little ability to damage your hull outside of a simple beam drone.</text>
 	<ship load="SHIP_MTBOSS_MANTIS_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hahahah! Explosions, death, violent shaking of metal ships as warheads detonate in starry night sky! I bring pride to Hive by igniting fiery inferno aboard this Federation ship!" These Mantis are certifiably insane, but you have little option but to fight.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4369,12 +4369,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Mantis design! The ship sports a massive array of bombs, but little ability to damage your hull outside of a simple beam drone.</text>
 	<ship load="SHIP_MTBOSS_MANTIS_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hahahah! Explosions, death, violent shaking of metal ships as warheads detonate in starry night sky! I bring pride to Hive by igniting fiery inferno aboard this Federation ship!" These Mantis are certifiably insane, but you have little option but to fight.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4385,7 +4385,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_MANTIS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_MANTISB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -4401,7 +4401,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_MANTIS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_MANTISB_DROP"/>
 	</choice>
 </event>
@@ -4428,12 +4428,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Monk design! It's uncharacteristic of Zoltan Monk ships to be so well armed, though it seems most of their weaponry is Ion related!</text>
 	<ship load="SHIP_MTBOSS_MONK_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Though my oath of nonviolence myself might be a burden upon my pirate lifestyle, I hope you'll understand I'm only doing what I must to survive in this harsh multiverse. Though I may not kill you, my men can."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4452,12 +4452,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Monk design! It's uncharacteristic of Zoltan Monk ships to be so well armed, though it seems most of their weaponry is Ion related!</text>
 	<ship load="SHIP_MTBOSS_MONK_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Though my oath of nonviolence myself might be a burden upon my pirate lifestyle, I hope you'll understand I'm only doing what I must to survive in this harsh multiverse. Though I may not kill you, my men can."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4477,12 +4477,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Monk design! It's uncharacteristic of Zoltan Monk ships to be so well armed, though it seems most of their weaponry is Ion related!</text>
 	<ship load="SHIP_MTBOSS_MONK_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Though my oath of nonviolence myself might be a burden upon my pirate lifestyle, I hope you'll understand I'm only doing what I must to survive in this harsh multiverse. Though I may not kill you, my men can."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4493,7 +4493,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_MONK</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_MONKB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -4509,7 +4509,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_MONK</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_MONKB_DROP"/>
 	</choice>
 </event>
@@ -4536,12 +4536,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Rock design! The tough obsidian hull of the cruiser looks as though it could take quite a beating, and you suspect they might have especially well protected primary systems.</text>
 	<ship load="SHIP_MTBOSS_ROCK_C_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Frightened are you, soft skinned one? I think you shall find your weapons will do little against my tech!" The ship moves in to attack. While they might be right about your weapons, you suspect boarding or even fire might be enough to damage their tech.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4560,12 +4560,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Rock design! The tough obsidian hull of the cruiser looks as though it could take quite a beating, and you suspect they might have especially well protected primary systems.</text>
 	<ship load="SHIP_MTBOSS_ROCK_C_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Frightened are you, soft skinned one? I think you shall find your weapons will do little against my tech!" The ship moves in to attack. While they might be right about your weapons, you suspect boarding or even fire might be enough to damage their tech.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4585,12 +4585,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Rock design! The tough obsidian hull of the cruiser looks as though it could take quite a beating, and you suspect they might have especially well protected primary systems.</text>
 	<ship load="SHIP_MTBOSS_ROCK_C_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Frightened are you, soft skinned one? I think you shall find your weapons will do little against my tech!" The ship moves in to attack. While they might be right about your weapons, you suspect boarding or even fire might be enough to damage their tech.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4601,7 +4601,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ROCK</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ROCKC_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -4617,7 +4617,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ROCK</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ROCKC_DROP"/>
 	</choice>
 </event>
@@ -4644,12 +4644,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Separatist design! The ship appears to be split in two halves, and resembles some sort of old Earth symbolism...</text>
 	<ship load="SHIP_MTBOSS_SEPARATIST_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"There are [two] sides to every man. The -white-, and the -black-. The duality of man. The depth of a person's character. I'm sure it all [means] something. However, I am an AI construct, and my -left- arm has just stopped functioning. I would like to kill you quickly, before the rest of my [body] shuts down as well."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4668,12 +4668,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Separatist design! The ship appears to be split in two halves, and resembles some sort of old Earth symbolism...</text>
 	<ship load="SHIP_MTBOSS_SEPARATIST_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"There are [two] sides to every man. The -white-, and the -black-. The duality of man. The depth of a person's character. I'm sure it all [means] something. However, I am an AI construct, and my -left- arm has just stopped functioning. I would like to kill you quickly, before the rest of my [body] shuts down as well."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4693,12 +4693,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Separatist design! The ship appears to be split in two halves, and resembles some sort of old Earth symbolism...</text>
 	<ship load="SHIP_MTBOSS_SEPARATIST_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"There are [two] sides to every man. The -white-, and the -black-. The duality of man. The depth of a person's character. I'm sure it all [means] something. However, I am an AI construct, and my -left- arm has just stopped functioning. I would like to kill you quickly, before the rest of my [body] shuts down as well."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4709,7 +4709,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_SEPARATIST</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_SEPARATISTB_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -4725,7 +4725,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_SEPARATIST</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_SEPARATISTB_DROP"/>
 	</choice>
 </event>
@@ -4752,12 +4752,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Slug design! The bright hull of the cruiser draws your attention, though the arsenal its pointing straight at you is quite distracting as well.</text>
 	<ship load="SHIP_MTBOSS_SLUG_C_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Slug captain appears on screen, wearing a large hat and humming. "Had not cleared leather 'fore a... Oh, well howdy there partner. Didn't seem to see you there. That's a mighty fine ship you got. Shame I gotta rough it up a little but the bounty on your head is high as noon!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4776,12 +4776,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Slug design! The bright hull of the cruiser draws your attention, though the arsenal its pointing straight at you is quite distracting as well.</text>
 	<ship load="SHIP_MTBOSS_SLUG_C_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Slug captain appears on screen, wearing a large hat and humming. "Had not cleared leather 'fore a... Oh, well howdy there partner. Didn't seem to see you there. That's a mighty fine ship you got. Shame I gotta rough it up a little but the bounty on your head is high as noon!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4801,12 +4801,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Slug design! The bright hull of the cruiser draws your attention, though the arsenal its pointing straight at you is quite distracting as well.</text>
 	<ship load="SHIP_MTBOSS_SLUG_C_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Slug captain appears on screen, wearing a large hat and humming. "Had not cleared leather 'fore a... Oh, well howdy there partner. Didn't seem to see you there. That's a mighty fine ship you got. Shame I gotta rough it up a little but the bounty on your head is high as noon!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4817,7 +4817,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_SLUG</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_SLUGC_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -4833,7 +4833,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_SLUG</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_SLUGC_DROP"/>
 	</choice>
 </event>
@@ -4860,12 +4860,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Stealth design! The ship seems to bear camouflage similar to ones you've seen used on terrestrial planets, but seems rather inefficient in space.</text>
 	<ship load="SHIP_MTBOSS_STEALTH_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Though the ship says nothing, your database recognizes it as a prototype the Federation was working on. Seeing it so far out here, it must be run by pirates now. No other options but to kill them and hope something good is left.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4884,12 +4884,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Stealth design! The ship seems to bear camouflage similar to ones you've seen used on terrestrial planets, but seems rather inefficient in space.</text>
 	<ship load="SHIP_MTBOSS_STEALTH_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Though the ship says nothing, your database recognizes it as a prototype the Federation was working on. Seeing it so far out here, it must be run by pirates now. No other options but to kill them and hope something good is left.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4909,12 +4909,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Stealth design! The ship seems to bear camouflage similar to ones you've seen used on terrestrial planets, but seems rather inefficient in space.</text>
 	<ship load="SHIP_MTBOSS_STEALTH_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Though the ship says nothing, your database recognizes it as a prototype the Federation was working on. Seeing it so far out here, it must be run by pirates now. No other options but to kill them and hope something good is left.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4925,7 +4925,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_STEALTH</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_STEALTHB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -4941,7 +4941,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_STEALTH</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_STEALTHB_DROP"/>
 	</choice>
 </event>
@@ -4968,12 +4968,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Zoltan design! The ship glows with energy, and it's safe to say the Zoltan crew aboard have kept their reactor well supplied.</text>
 	<ship load="SHIP_MTBOSS_ZOLTAN_C_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Federation vessel, this is CFB-31. Your head is currently wanted by several inter-dimensional governments. However, this is not why we have come here. We have found you in violation of protocol-S14-W, which states clearly that military vessels exceeding the maximum hull vibrancy allocated for this system are to be destroyed. I'm sorry, but this is the law."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4992,12 +4992,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Zoltan design! The ship glows with energy, and it's safe to say the Zoltan crew aboard have kept their reactor well supplied.</text>
 	<ship load="SHIP_MTBOSS_ZOLTAN_C_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Federation vessel, this is CFB-31. Your head is currently wanted by several inter-dimensional governments. However, this is not why we have come here. We have found you in violation of protocol-S14-W, which states clearly that military vessels exceeding the maximum hull vibrancy allocated for this system are to be destroyed. I'm sorry, but this is the law."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5017,12 +5017,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Zoltan design! The ship glows with energy, and it's safe to say the Zoltan crew aboard have kept their reactor well supplied.</text>
 	<ship load="SHIP_MTBOSS_ZOLTAN_C_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Federation vessel, this is CFB-31. Your head is currently wanted by several inter-dimensional governments. However, this is not why we have come here. We have found you in violation of protocol-S14-W, which states clearly that military vessels exceeding the maximum hull vibrancy allocated for this system are to be destroyed. I'm sorry, but this is the law."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5033,7 +5033,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ZOLTAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ZOTLANC_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5049,7 +5049,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ZOLTAN</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ZOTLANC_DROP"/>
 	</choice>
 </event>
@@ -5076,12 +5076,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Shell design! A bright light shines through the cracks on the ship, pulsing the colors of the rainbow.</text>
 	<ship load="SHIP_MTBOSS_SHELL_C_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Unfortunately, ever since I injected the DNA of a hallucinogenic melon plant into my bloodstream, I have begun to see visions of the future. So far, not a single one has come true. Nevertheless, in one of them I vividly remember a ship like yours killing me. Well not exactly, but it was close enough. I'm afraid I'm going to have to kill you instead to prevent this fate."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5100,12 +5100,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Shell design! A bright light shines through the cracks on the ship, pulsing the colors of the rainbow.</text>
 	<ship load="SHIP_MTBOSS_SHELL_C_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Unfortunately, ever since I injected the DNA of a hallucinogenic melon plant into my bloodstream, I have begun to see visions of the future. So far, not a single one has come true. Nevertheless, in one of them I vividly remember a ship like yours killing me. Well not exactly, but it was close enough. I'm afraid I'm going to have to kill you instead to prevent this fate."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5125,12 +5125,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Shell design! A bright light shines through the cracks on the ship, pulsing the colors of the rainbow.</text>
 	<ship load="SHIP_MTBOSS_SHELL_C_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Unfortunately, ever since I injected the DNA of a hallucinogenic melon plant into my bloodstream, I have begun to see visions of the future. So far, not a single one has come true. Nevertheless, in one of them I vividly remember a ship like yours killing me. Well not exactly, but it was close enough. I'm afraid I'm going to have to kill you instead to prevent this fate."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5141,7 +5141,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_SHELL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_SHELLC_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5157,7 +5157,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_SHELL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_SHELLC_DROP"/>
 	</choice>
 </event>
@@ -5184,12 +5184,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Rebel Engineer design! It looks like a medical vessel, though it's armed just as well as any standard Rebel military ship.</text>
 	<ship load="SHIP_MTBOSS_ENGINEER_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hmmm, vhat do vwe have 'ere? Oooooh, zah Federation vessel? Zis should be fun! Please, die quickly, I z'am tired of holding zis stupid accent."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5208,12 +5208,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Rebel Engineer design! It looks like a medical vessel, though it's armed just as well as any standard Rebel military ship.</text>
 	<ship load="SHIP_MTBOSS_ENGINEER_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hmmm, vhat do vwe have 'ere? Oooooh, zah Federation vessel? Zis should be fun! Please, die quickly, I z'am tired of holding zis stupid accent."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5233,12 +5233,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Rebel Engineer design! It looks like a medical vessel, though it's armed just as well as any standard Rebel military ship.</text>
 	<ship load="SHIP_MTBOSS_ENGINEER_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hmmm, vhat do vwe have 'ere? Oooooh, zah Federation vessel? Zis should be fun! Please, die quickly, I z'am tired of holding zis stupid accent."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5249,7 +5249,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ENGINEER</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ENGINEERB_DROP_CHANCE"/>
 	</choice>
 </event>
@@ -5265,7 +5265,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ENGINEER</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ENGINEERB_DROP"/>
 	</choice>
 </event>
@@ -5292,12 +5292,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Lanius design! The ship glitters in the light of the nearby star, as its scarlet hull and sharp spikes lurch towards you.</text>
 	<ship load="SHIP_MTBOSS_LANIUS_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"The swarm, food needing from boat of yours! Imminent death, becoming of you! Are going cry, infant man?" You're pretty sure that's supposed to be an insult, though your translator is struggling. Guess you'll have to prove you aren't an 'infant man.'</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5316,12 +5316,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Lanius design! The ship glitters in the light of the nearby star, as its scarlet hull and sharp spikes lurch towards you.</text>
 	<ship load="SHIP_MTBOSS_LANIUS_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"The swarm, food needing from boat of yours! Imminent death, becoming of you! Are going cry, infant man?" You're pretty sure that's supposed to be an insult, though your translator is struggling. Guess you'll have to prove you aren't an 'infant man.'</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5341,12 +5341,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Lanius design! The ship glitters in the light of the nearby star, as its scarlet hull and sharp spikes lurch towards you.</text>
 	<ship load="SHIP_MTBOSS_LANIUS_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"The swarm, food needing from boat of yours! Imminent death, becoming of you! Are going cry, infant man?" You're pretty sure that's supposed to be an insult, though your translator is struggling. Guess you'll have to prove you aren't an 'infant man.'</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5357,7 +5357,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_LANIUS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_LANIUSB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5373,7 +5373,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_LANIUS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_LANIUSB_DROP"/>
 	</choice>
 </event>
@@ -5400,12 +5400,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of an older Kestrel model! The fresh white coat suggests it has been outfitted with a more up to date arsenal recently.</text>
 	<ship load="SHIP_MTBOSS_KESTREL_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Do you read us captain? This is Egret 5, heading from Universe 17 to provide support for this Universe's Federation. Are you familiar with the location of Node 17 in this reality?" You explain to the ship that you're also part of the Multiverse fleet. "Wait, you mean you're ALSO trying to stop the Rebellion here? No fair, that's OUR job! There can only be one savior of this galaxy, and that's going to be me! Piss off!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5424,12 +5424,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of an older Kestrel model! The fresh white coat suggests it has been outfitted with a more up to date arsenal recently.</text>
 	<ship load="SHIP_MTBOSS_KESTREL_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Do you read us captain? This is Egret 5, heading from Universe 17 to provide support for this Universe's Federation. Are you familiar with the location of Node 17 in this reality?" You explain to the ship that you're also part of the Multiverse fleet. "Wait, you mean you're ALSO trying to stop the Rebellion here? No fair, that's OUR job! There can only be one savior of this galaxy, and that's going to be me! Piss off!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5449,12 +5449,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of an older Kestrel model! The fresh white coat suggests it has been outfitted with a more up to date arsenal recently.</text>
 	<ship load="SHIP_MTBOSS_KESTREL_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Do you read us captain? This is Egret 5, heading from Universe 17 to provide support for this Universe's Federation. Are you familiar with the location of Node 17 in this reality?" You explain to the ship that you're also part of the Multiverse fleet. "Wait, you mean you're ALSO trying to stop the Rebellion here? No fair, that's OUR job! There can only be one savior of this galaxy, and that's going to be me! Piss off!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5465,7 +5465,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_KESTREL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_KESTRELB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5481,7 +5481,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_KESTREL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_KESTRELB_DROP"/>
 	</choice>
 </event>
@@ -5508,12 +5508,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Federation design! However, judging from the rusting hull and crude pirate paint, it's safe to assume the Federation is no longer the owner of this vessel.</text>
 	<ship load="SHIP_MTBOSS_FED_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Stop right where you are! We are the Mine Launcher police, we enforce the supreme authority of Mine Launchers in this galaxy! We're supposed to beat up people who badmouth Mine Launchers, but I realized pretty quickly there's not really a good way to keep track of that. So uh, we kind of just beat people up randomly now and pretend they were saying bad things. Like you, you filthy Mine Launcher hating scum stain. (Please just play along)."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5532,12 +5532,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Federation design! However, judging from the rusting hull and crude pirate paint, it's safe to assume the Federation is no longer the owner of this vessel.</text>
 	<ship load="SHIP_MTBOSS_FED_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Stop right where you are! We are the Mine Launcher police, we enforce the supreme authority of Mine Launchers in this galaxy! We're supposed to beat up people who badmouth Mine Launchers, but I realized pretty quickly there's not really a good way to keep track of that. So uh, we kind of just beat people up randomly now and pretend they were saying bad things. Like you, you filthy Mine Launcher hating scum stain. (Please just play along)."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5557,12 +5557,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Federation design! However, judging from the rusting hull and crude pirate paint, it's safe to assume the Federation is no longer the owner of this vessel.</text>
 	<ship load="SHIP_MTBOSS_FED_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Stop right where you are! We are the Mine Launcher police, we enforce the supreme authority of Mine Launchers in this galaxy! We're supposed to beat up people who badmouth Mine Launchers, but I realized pretty quickly there's not really a good way to keep track of that. So uh, we kind of just beat people up randomly now and pretend they were saying bad things. Like you, you filthy Mine Launcher hating scum stain. (Please just play along)."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5573,7 +5573,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_FED</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_FEDB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5589,7 +5589,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_FED</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_FEDB_DROP"/>
 	</choice>
 </event>
@@ -5616,12 +5616,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Orchid design! The ship here seems to bear an unusual resemblance to an Earth fruit known as the "strawberry", though that's probably a coincidence.</text>
 	<ship load="SHIP_MTBOSS_ORCHID_B_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"I don't know if you're aware, but we're kind of a big-dill here, and I don't meant to be corny, but if you don't make like a tree and leaf it's gonna be beet-down-thyme. Lettuce hope you have some aloe vera for those wounds after we... uh... crap I'm out of puns. Men, attack!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5640,12 +5640,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Orchid design! The ship here seems to bear an unusual resemblance to an Earth fruit known as the "strawberry", though that's probably a coincidence.</text>
 	<ship load="SHIP_MTBOSS_ORCHID_B_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"I don't know if you're aware, but we're kind of a big-dill here, and I don't meant to be corny, but if you don't make like a tree and leaf it's gonna be beet-down-thyme. Lettuce hope you have some aloe vera for those wounds after we... uh... crap I'm out of puns. Men, attack!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5665,12 +5665,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Orchid design! The ship here seems to bear an unusual resemblance to an Earth fruit known as the "strawberry", though that's probably a coincidence.</text>
 	<ship load="SHIP_MTBOSS_ORCHID_B_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"I don't know if you're aware, but we're kind of a big-dill here, and I don't meant to be corny, but if you don't make like a tree and leaf it's gonna be beet-down-thyme. Lettuce hope you have some aloe vera for those wounds after we... uh... crap I'm out of puns. Men, attack!"</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5681,7 +5681,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ORCHID</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ORCHIDB_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5697,7 +5697,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_ORCHID</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_ORCHIDB_DROP"/>
 	</choice>
 </event>
@@ -5724,12 +5724,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Crystal design! If your days as a Multiverse Traveler have told you anything, the orange hull of this ship suggests their crew probably have some affixation with fire.</text>
 	<ship load="SHIP_MTBOSS_CRYSTAL_C_NORMAL" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Yo yo yo, what is UP my bros! This is DJ fyre on the beat, yo! You wanna know somethin cool, dog? Yo mama so dense, her crystal skin is already bordering on coal! Yo mama so dumb she wears herself on her wedding ring! Yo mama is so fat, she is anahedral! Alright alright, one last one. Yo mama so dumb she thought diamonds were made of silicone oxide!" The Crystal pauses while the crew in the background cheer with load harmonious shouts of "OOOOOOOOH." "Yo yo yo, was that a sick burn or what? Aight dog, enough foolin. We gonna steal your shit now."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5748,12 +5748,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Crystal design! If your days as a Multiverse Traveler have told you anything, the orange hull of this ship suggests their crew probably have some affixation with fire.</text>
 	<ship load="SHIP_MTBOSS_CRYSTAL_C_CHALLENGE" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Yo yo yo, what is UP my bros! This is DJ fyre on the beat, yo! You wanna know somethin cool, dog? Yo mama so dense, her crystal skin is already bordering on coal! Yo mama so dumb she wears herself on her wedding ring! Yo mama is so fat, she is anahedral! Alright alright, one last one. Yo mama so dumb she thought diamonds were made of silicone oxide!" The Crystal pauses while the crew in the background cheer with load harmonious shouts of "OOOOOOOOH." "Yo yo yo, was that a sick burn or what? Aight dog, enough foolin. We gonna steal your shit now."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5773,12 +5773,12 @@
 	<text>From out of the tunnel comes a massive cruiser vessel, of Crystal design! If your days as a Multiverse Traveler have told you anything, the orange hull of this ship suggests their crew probably have some affixation with fire.</text>
 	<ship load="SHIP_MTBOSS_CRYSTAL_C_EXTREME" hostile="false"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Yo yo yo, what is UP my bros! This is DJ fyre on the beat, yo! You wanna know somethin cool, dog? Yo mama so dense, her crystal skin is already bordering on coal! Yo mama so dumb she wears herself on her wedding ring! Yo mama is so fat, she is anahedral! Alright alright, one last one. Yo mama so dumb she thought diamonds were made of silicone oxide!" The Crystal pauses while the crew in the background cheer with load harmonious shouts of "OOOOOOOOH." "Yo yo yo, was that a sick burn or what? Aight dog, enough foolin. We gonna steal your shit now."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5789,7 +5789,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_CRYSTAL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_CRYSTALC_DROP_CHANCE"/>
 	</choice>
 </event> 
@@ -5805,7 +5805,7 @@
 	<autoReward level="HIGH">standard</autoReward>
 	<hiddenAug>ACH_MV_CRYSTAL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MTBOSS_CRYSTALC_DROP"/>
 	</choice>
 </event>

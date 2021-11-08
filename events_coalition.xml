@@ -36,7 +36,7 @@
 		</event>
 	</choice>
 	<choice req="INFO_MACHINE" hidden="true">
-		<text>(Analyzer) Disable the Auto and download its data stores.</text>
+		<text>(기록 분석기) Disable the Auto and download its data stores.</text>
 		<event>
 			<text>You power down the Auto-ship then download all of the data onboard. Seems it has already mapped most of this sector, which is very helpful for you!</text>
 			<autoReward level="LOW">standard</autoReward>
@@ -49,7 +49,7 @@
 			<text>"Treachery detected. Activating combat procedures."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -63,7 +63,7 @@
 		<event load="COALITION_FED_AUTO_WIN_OPEN"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ELITE">
-		<text>(Elite Crew) Have your elite carefully open the door.</text>
+		<text>(Elite 선원) Have your elite carefully open the door.</text>
 		<event>
 			<text>Your crew approaches the storage bay, taking note of a subtle explosive trap to deter pirates. Your crew disables the trap and enters.</text>
 			<autoReward level="HIGH">stuff</autoReward>
@@ -100,7 +100,7 @@
 		<event>
 			<text id="database_hektar"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -108,12 +108,12 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_HEKTAR">
-		<text>(Hektar Crew) Request an employee discount.</text>
+		<text>(Hektar 선원) Request an employee discount.</text>
 		<event>
 			<text>"AHAHAHAHAHAHHAHAHAH! HAH! AHAH! Hah... oh boy. An employee dissscount? Are you ssstupid? Hektar doesssn't give employee dissscountsss, it gives employee markupsss! How dare you try and sssteal money from me, you leech!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -124,7 +124,7 @@
 			<text>Hektar, for as good as their products might be, is a villainous corporation. If they're selling to the Coalition now, then it's your duty to shut them down.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -135,7 +135,7 @@
 			<text>"Hey! Where do you think you're going? I sssaid I DEMAND you come in and sssshop! Damn it, you WILL SSSHOP OR DIE!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -189,7 +189,7 @@
 							<choice hidden="true">
 								<text>Accept their gracious offer.</text>
 								<event>
-									<text>You take the supplies from them and prepare to leave.</text>
+									<text>You take the supplies from them and prepare to 떠난다.</text>
 									<autoReward level="HIGH">standard</autoReward>
 								</event>
 							</choice>
@@ -209,7 +209,7 @@
 					<text>With no engines to run away, the Rebel ship is forced to fight you completely stationary.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -222,7 +222,7 @@
 			<text>With no engines to run away, the Rebel ship is forced to fight you completely stationary.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -232,11 +232,11 @@
 		<event>
 			<text>You don't have time to mess with the Rebels too in this dangerous sector. You fly away, and as expected the Rebel ship is powerless to follow.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -276,13 +276,13 @@
 	<choice hidden="true">
 		<text>We aren't interested in slaves.</text>
 		<event>
-			<text>"Oh! Federation so kind, so forgiving. You are true hero!" You thank the Free Mantis and leave.</text>
+			<text>"Oh! Federation so kind, so forgiving. You are true hero!" You thank the Free Mantis and 떠난다.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -309,7 +309,7 @@
 	<text load="TEXT_ENCOUNTER_COALITION"/>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -329,7 +329,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_COALITION"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -349,7 +349,7 @@
 			<text>You prepare to fight the checkpoint.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -359,17 +359,17 @@
 		<event load="COALITION_CHECKPOINT_CLOAK"/>
 	</choice>
 	<choice hidden="true" req="cloaking" lvl="3">
-		<text>(Adv. Cloaking) Try to sneak past.</text>
+		<text>(최고급. Cloaking) Try to sneak past.</text>
 		<event>
 			<text>The Coalition station stands no chance at detecting you with your superior cloaking. You slip past completely unnoticed.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="engines" lvl="3">
-		<text>(Upg. Engines) Try to sneak past.</text>
+		<text>(고급 Engines) Try to sneak past.</text>
 		<event load="COALITION_CHECKPOINT_ENGINES"/>
 	</choice>
 	<choice hidden="true" req="cloaking" lvl="5">
-		<text>(Adv. Engines) Try to sneak past.</text>
+		<text>(최고급. Engines) Try to sneak past.</text>
 		<event>
 			<text>With the station completely immobile, you easily speed past them.</text>
 		</event>
@@ -384,7 +384,7 @@
         <status type="limit" target="player" system="cloaking" amount="0"/>
         <ship hostile="true"/>
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event load="COMBAT_CHECK"/>
         </choice>
     </event>
@@ -398,7 +398,7 @@
 		<status type="limit" target="player" system="engines" amount="1"/>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 		<choice hidden="true" req="ANTI_VIRUS">
@@ -407,7 +407,7 @@
 				<text>Your engine system is restored to full power.</text>
 				<status type="clear" target="player" system="engines" amount="100"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -419,7 +419,7 @@
 	<text>An eager Mantis contacts you. "Yes! This is chance to prove myself! Your blood is path to leading glorious Coalition ship of own!"</text>
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -428,7 +428,7 @@
 	<text>A Leech revolutionary flies past. "Are you even aware of what the Coalition has done to Eargen space? The Federation has done nothing to prevent this chaos! Nothing! It's all YOUR fault! GAAAH! Like, specifically yours. Don't ask me why, just accept your responsibility and die!"</text>
 	<ship load="SHIP_ALKRAM_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -447,7 +447,7 @@
 	<text>The nearby Coalition's Rock soldier appears on the vid-screen, noticeably upset. "Bro, why you in my rock patch? Bro, you don't know how hard it was to convince the Coalition to let me have this. Bro. Not cool."</text>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -457,7 +457,7 @@
 	<text>The Pulsar isn't the only obstacle this beacon has. A Coalition ship wastes no time to attack.</text>
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -488,17 +488,17 @@
 			<text>You engage the Coalition ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="FLARE_DISTRACTION" hidden="true">
-		<text>(Flares) Use the flares to make a distraction so the Civilian ship can escape.</text>
+		<text>(플레어) Use the flares to make a distraction so the Civilian ship can escape.</text>
 		<event>
 			<text>The Coalition ship notices the flares and redirects its weapons towards them. Even though it quickly realizes it's a trick, the Civilian ship has already flown far away.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SAVE_CIVILIAN_LIST"/>
 			</choice>
 		</event>
@@ -512,7 +512,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -533,7 +533,7 @@
 			<text>You power up your weapons and engage the Coalition vessel.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -554,7 +554,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -574,24 +574,24 @@
 </event>
 <eventList name="COALITION_JAILER_KILL_SLAVES">
 	<event>
-		<text>It appears the prisoners did not survive the fight. There's nothing left for you to do except leave.</text>
+		<text>It appears the prisoners did not survive the fight. There's nothing left for you to do except 떠난다.</text>
 	</event>
 	<event>
 		<text>It appears most of the prisoners died or were severely injured during the fight. One lone survivor stumbles out of his cell, and with some help is healthy enough to work aboard your ship.</text>
 		<crewMember amount="1" class="soldier"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="clonebay" lvl="2">
-			<text>(Upg. Clone Bay) Try to save some of the prisoners.</text>
+			<text>(고급 Clone Bay) Try to save some of the prisoners.</text>
 			<event>
 				<text>You manage to get DNA samples from a few of the injured prisoners and enter them into the Clone Bay. After reviving them, they thank you and pay you with what little they managed to sneak with them.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event>
 		</choice>
 		<choice hidden="true" req="BLUELIST_DRONES_MEDICAL">
-			<text>(Medical Drone) Try to save some of the prisoners.</text>
+			<text>(의무병al Drone) Try to save some of the prisoners.</text>
 			<event>
 				<text>Your medical drone is deployed onto the scene, healing many of the other prisoners. After reviving them, they thank you and pay you with what little they managed to sneak with them.</text>
 				<autoReward level="MED">scrap_only</autoReward>
@@ -633,7 +633,7 @@
 			<text>As expected, the Coalition isn't going to just let you steal from them without a fight. One of their military vessels is deployed to stop you!</text>
 			<ship load="SHIP_COALITION_CONSTRUCTION" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -645,13 +645,13 @@
 			<modifyPursuit amount="-2"/>
 			<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="FLARE_DISTRACTION">
-		<text>(Flares) Launch the flares to distract the Coalition guards.</text>
+		<text>(플레어) Launch the flares to distract the Coalition guards.</text>
 		<event load="COALITION_CONSTRUCTION_YARD_WIN"/>
 	</choice>
 	<choice hidden="true">	
@@ -663,7 +663,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -671,7 +671,7 @@
 </event>
 <eventList name="COALITION_CONSTRUCTION_YARD_SCRAP">
 	<event>
-		<text>No one spots you as you scrap the ship. You finish up.</text>
+		<text>No one spots you as you 함선을 수거한다. You finish up.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -679,7 +679,7 @@
 		<autoReward level="LOW">scrap_only</autoReward>
 		<ship hostile="true"/> 
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -708,7 +708,7 @@
 			<text>You power up your weapons and engage the Coalition vessel.</text>
 			<ship load="SHIP_COALITION_COALITION_CHOICE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -719,7 +719,7 @@
 			<text>You power up your weapons and engage the Lost Sun vessel.</text>
 			<ship load="SHIP_COALITION_LOSTSUN_CHOICE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -729,7 +729,7 @@
 		<event>
 			<text id="database_lsversuscoal"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -745,7 +745,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -783,7 +783,7 @@
 			<text>"Great. We come here to esscape from the Kleptocracccy ssshithole and inssstead we run into an angry Fed pig in the middle of Coalition ssspaccce. What the hell, man."</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -793,7 +793,7 @@
 		<event load="COALITION_SLUG_PEACEFUL_TRADE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Request their flight maps.</text>
+		<text>(Slug 선원) Request their flight maps.</text>
 		<event>
 			<text>"Sssure, a deal can be made... It would be cussstomary to charge for thessse, but I'll be niccce..."</text>
 			<reveal_map/>
@@ -808,7 +808,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -823,7 +823,7 @@
 				<text>"Great. We come here to esscape from the Kleptocracccy ssshithole and inssstead we run into an angry Fed pig in the middle of Coalition ssspaccce. What the hell, man."</text>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -837,7 +837,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice hidden="true">
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -872,7 +872,7 @@
 			<text>You have no sympathy for the pirates. You raise your weapons and attack.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -886,7 +886,7 @@
 				<item type="scrap" min="-20" max="-20"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>The pirates are shocked that you were willing to help them. They gift you a weapon that they "borrowed" from a previous victim.</text>
 					<weapon name="RANDOM"/>
@@ -907,7 +907,7 @@
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice hidden="true">
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -915,7 +915,7 @@
 		<text>The pirate stops crying for a moment to glare at you. "Well if you won't be charitable, we'll just take your ship and supplies ourselves!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -927,7 +927,7 @@
 	<status type="limit" target="player" system="oxygen" amount="0"/>
 	<distressBeacon/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="ANTI_VIRUS">
@@ -936,7 +936,7 @@
 			<text>Your Oxygen system is restored to full power.</text>
 			<status type="clear" target="player" system="oxygen" amount="100"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -953,7 +953,7 @@
 			<text>You engage the Coalition ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -967,7 +967,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1028,7 +1028,7 @@
 	<ship load="SHIP_COALITION_FIGHT" hostile="true"/> 
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1086,13 +1086,13 @@
 			<text>"So you wish to taste the bitter end at the end of our guns? What a great choice!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="weapons" lvl="6">
-		<text>(Upg. Weapons) Neither.</text>
+		<text>(고급 무기실) Neither.</text>
 		<event>
 			<text>"Ah yes yes, you are a skilled negotiator. Silly of me to think such tricks would work on you. Heheh..."</text>
 			<autoReward level="MED">standard</autoReward>
@@ -1117,7 +1117,7 @@
 			<text>You prepare to fight the checkpoint.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1127,17 +1127,17 @@
 		<event load="COALITION_CHECKPOINT_CLOAK"/>
 	</choice>
 	<choice hidden="true" req="cloaking" lvl="3">
-		<text>(Adv. Cloaking) Try to sneak past.</text>
+		<text>(최고급. Cloaking) Try to sneak past.</text>
 		<event>
 			<text>The Coalition station stands no chance at detecting you with your superior cloaking. You slip past completely unnoticed.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="engines" lvl="3">
-		<text>(Upg. Engines) Try to sneak past.</text>
+		<text>(고급 Engines) Try to sneak past.</text>
 		<event load="COALITION_CHECKPOINT_ENGINES"/>
 	</choice>
 	<choice hidden="true" req="cloaking" lvl="5">
-		<text>(Adv. Engines) Try to sneak past.</text>
+		<text>(최고급. Engines) Try to sneak past.</text>
 		<event>
 			<text>With the station completely immobile, you easily speed past them.</text>
 		</event>
@@ -1171,7 +1171,7 @@
 			<text>You engage the Coalition ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1185,7 +1185,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1207,7 +1207,7 @@
 			<text>You raise your weapons and attack the suzerain ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1221,7 +1221,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1238,7 +1238,7 @@
 			<ship load="SHIP_COALITION_SQUABBLING_NOSLUG" hostile="true"/>
 			<crewMember amount="1" class="sabo">Irsssnar</crewMember>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1250,7 +1250,7 @@
 			<ship load="SHIP_COALITION_SQUABBLING_NOMANTIS" hostile="true"/>
 			<crewMember amount="1" class="suzerain">Kackalacknak</crewMember>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1262,7 +1262,7 @@
 			<ship load="SHIP_COALITION_SQUABBLING_NOROCK" hostile="true"/>
 			<crewMember amount="1" class="crusader">Ockraban</crewMember>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1274,13 +1274,13 @@
 			<ship load="SHIP_COALITION_SQUABBLING_NOLEECH" hostile="true"/>
 			<crewMember amount="1" class="ampere">Carlos</crewMember>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You distance yourself from the arguing Coalition ship.</text>
 			<choice hidden="true">
@@ -1288,7 +1288,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1313,7 +1313,7 @@
 		<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 		<boarders min="1" max="1" class="sabo"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1343,7 +1343,7 @@
 		<text>"Ah crap, they found me out!" The saboteur teleports away and a Coalition ship uncloaks, weapons ready!</text>
 		<ship load="SHIP_COALITION_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1359,13 +1359,13 @@
 			<text>You engage the Coalition ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You watch the curious process a little longer before moving deeper into the nebula to hide.</text>
 			<choice hidden="true">
@@ -1373,7 +1373,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1411,7 +1411,7 @@
 		<event>
 			<text>At first you assume the red smears on the wall are blood, but the Slug inhabitants of this colony would only have bled green. Settling that it's paint, you notice the marking of a claw and a cutlass, painted large and boastfully on the side of the town-hall, which is now less of a hall and more a single wall and some rubble. It's strangely familiar, but you can't remember where you've seen it...</text>
 			<choice hidden="true">
-				<text>Keep looking.</text>
+				<text>계속 찾는다.</text>
 				<event>
 					<text>You continue to look through the wastes, until you come across a lone survivor. A young Slug, missing one of his eyestalks, is elated to see you. Or at least, as elated as the sole survivor of a genocidal rampage could be. "You- you have to help. The Mantissss, they did thisss... a pirate, but with the banner of the Hive. Pleassse, don't leave me here..."</text>
 					<choice hidden="true">
@@ -1441,7 +1441,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1463,7 +1463,7 @@
 	<text>Looks like you've found the right location, because the ship in front of you is most certainly a pirate. Just... a very well equipped one.</text>
 	<ship load="SHIP_KAZAAAK" hostile="false"/>
 	<choice hidden="true">
-		<text>Hail the ship.</text>
+		<text>함선과 교신한다.</text>
 		<event load="KAZ_HAIL"/>
 	</choice>
 	<choice hidden="true">
@@ -1475,7 +1475,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1501,7 +1501,7 @@
 <event name="KAZ_HAIL">
 	<text>As soon as the Mantis appears on the screen, the memories come flooding back. This is no ordinary pirate, this is Kazaaakplethkilik. Perhaps the most infamous warrior in the galaxy, if not the Multiverse. The only question is, why is Kazaaakplethkilik here so deep in Coalition space? It seems you're about to find out...</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>A muscular Mantis in red armor flexes his sharp appendages in from of the camera. "You are not of Coalition, but you carry boldness to approach me. It would seem neither of us meant to be here... What is Federation ship doing in Coalition space? It has been longest time since I have drawn arms against your people."</text>
 			<choice hidden="true">
@@ -1515,13 +1515,13 @@
 							<boarders min="2" max="2" class="mantis"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Don't antagonize him further - leave.</text>
+						<text>Don't antagonize him further - 떠난다.</text>
 						<event>
 							<text>"Yes, yes. Leave like the cowards you all are. You know what I say is true, and you have not even heart to refute it. I spit in faces of men and women like you."</text>
 						</event>
@@ -1535,7 +1535,7 @@
 		<event>
 			<text id="database_kazaaak"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -1560,7 +1560,7 @@
 						<event>
 							<text>"Hmmm, Rebellion. You know, I fight Vance once, long ago. Much slimmer then, but human not fare well after months of concentration camps. Perhaps... perhaps you are right. The Hive and I's approach, while more direct, could be to blame for this Rebellion. Perhaps if we had been more patient and trusting of humanity, Vance never would have turned to genocide."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"You have teaching me, Federation captain. Or at least, I think. Perhaps I have lessons yet to learn, as I'm sure you do as well. But now that my crew has been slaughtered and I am without purpose, maybe it's time I repent for my mistakes. I have no need for this ship of mine any longer. Perhaps it will service you better."</text>
 									<hiddenAug>ACH_BOSS_KAZAAAK</hiddenAug>
@@ -1569,14 +1569,14 @@
 									<unlockCustomShip silent="false">PLAYER_SHIP_HIVE</unlockCustomShip>
 									<crewMember amount="1" all_skills="2" class="kaz">Kazaaakplethkilik</crewMember>
 									<choice hidden="true" req="MARKER_BEENTOHIVE" lvl="0" max_group="0" blue="false">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>"Asking one more favor of you, captain, if you are not minding. I wish to return to Hive, speak with queen. I am giving you coordinates now, in case we are not finding it on journeys."</text>
 											<hiddenAug>COORDS_HIVE</hiddenAug>
 										</event>
 									</choice>
 									<choice hidden="true" req="MARKER_BEENTOHIVE" lvl="1" max_group="0" blue="false">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event/>
 									</choice>
 								</event>
@@ -1627,14 +1627,14 @@
 <event name="NEBULA_COALITIONHOLD_CEALAFORMER_2">
 	<text>The ship's speedy retreat has left you very confused.</text>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Upg. Sensors) Lock onto their jump signature and follow them.</text>
+		<text>(고급 Sensors) Lock onto their jump signature and follow them.</text>
 		<event>
 			<text>Luckily, you're able to pick up their jump signature. You enter their new co-ordinates into your database.</text>
 			<quest event="COALITIONHOLD_CEALAFORMER_3"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Have your Slug track their ship.</text>
+		<text>(Slug 선원) Have your Slug track their ship.</text>
 		<event>
 			<text>Luckily, your Slug is able to detect their jump signature. You enter their new co-ordinates into your database.</text>
 			<quest event="COALITIONHOLD_CEALAFORMER_3"/>
@@ -1648,14 +1648,14 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="FTL_JUMPER">
-		<text>(Adv. Navigation) Track their ship.</text>
+		<text>(최고급. Navigation) Track their ship.</text>
 		<event>
 			<text>Luckily, you're able to pick up their jump signature. You enter their new co-ordinates into your database.</text>
 			<quest event="COALITIONHOLD_CEALAFORMER_3"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="INFO_MACHINE">
-		<text>(Analyzer) Track their ship.</text>
+		<text>(기록 분석기) Track their ship.</text>
 		<event>
 			<text>You grab the beacon's logs and determine the direction in which the ship is heading. You enter their new co-ordinates into your database.</text>
 			<quest event="COALITIONHOLD_CEALAFORMER_3"/>
@@ -1670,7 +1670,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1713,13 +1713,13 @@
 			<text>As you move closer to the spire, you're stopped by an approaching ship - the same as you saw earlier! Now that you have time to scan it properly, it seems its using tech similar to the cealaforming stations deployed by the Kleptocracy - except mobile! This must be where the artificial nebulas in this sector came from! To figure out the mystery behind the giant structure in the distance you'll have to destroy this ship first.</text>
 			<ship load="SHIP_COALITION_CEALAFORMER_2" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>This must be some kind of secret Coalition facility - far too risky to even consider approaching armed the way you are.</text>
 			<choice hidden="true">
@@ -1727,7 +1727,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>

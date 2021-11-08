@@ -494,7 +494,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text load="TEXT_ENCOUNTER_PIRATE"/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -514,7 +514,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You spot a Rebel ship making an offer with a mercenary ship. As soon as you approach, the Rebel jumps away. The mercenary hails you, their weapons already charging.</text>
 	<ship load="SHIP_MERCENARY_ALL" hostile="false"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text load="TEXT_MERCENARY_REBEL_OFFER"/>
 			<choice>
@@ -532,7 +532,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>"Alrighty then, time for a fight!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -545,12 +545,12 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>Once you arrive, your screen lights up with warnings. A nearby pirate seems to have advanced hacking tools and they have tried to shut down your Engines. Your crew manages to keep them barely operational and you move into attack.</text>
 	<ship load="SHIP_PIRATE_NO_ESCAPE" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Your Engines are down, and you prepare for combat</text>
 			<status type="limit" target="player" system="engines" amount="1"/>	
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>	
 			<choice hidden="true" req="ANTI_VIRUS">
@@ -559,7 +559,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>Your engine system is restored to full power.</text>
 					<status type="clear" target="player" system="engines" amount="100"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -569,10 +569,10 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<choice hidden="true" req="hacking"> <!-- CHANGED - added -->
 		<text>(Hacking System) Counter the remote hacking.</text>
 		<event>
-			<text>Your Hacking System automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your Hacking System automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<status type="limit" target="player" system="hacking" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -598,13 +598,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>"Too bad... You will regret this decision!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="weapons" lvl="5">
-		<text>(Adv Weapons) Threaten the pirates to let you go.</text>
+		<text>(최고급 무기실) Threaten the pirates to let you go.</text>
 		<event load="PIRATE_CHOICE_THREAT"/>
 	</choice>
 </event>
@@ -613,7 +613,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>The pirates aren't fazed by your threats, and instead power up their weapons as well!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -637,7 +637,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<environment type="sun"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -665,7 +665,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>Despite some fancy flying, the pirate catches up to you before you can leave the asteroid field. You have no choice but to fight.</text>
 		<environment type="asteroid"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -690,17 +690,17 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You leave the cargo alone and prepare to jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="sensors" lvl="2" hidden="true">
-		<text>(Advanced Sensors) Run an advanced scan on the boxes.</text>
+		<text>(최고급 Sensors) Run an advanced scan on the boxes.</text>
 		<event load="FLOATING_CARGO_SCAN_LIST"/>
 	</choice>
 	<choice req="ADV_SCANNERS" hidden="true">
@@ -708,7 +708,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event load="FLOATING_CARGO_SCAN_LIST"/>
 	</choice>
 	<choice req="LIST_CREW_SLUG" hidden="true">
-		<text>(Slug Crew) Have your Slug check the boxes.</text>
+		<text>(Slug 선원) Have your Slug check the boxes.</text>
 		<event load="FLOATING_CARGO_SCAN_LIST"/>
 	</choice>
 </event>
@@ -730,7 +730,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<boarders min="2" max="4" class="human"/>
 		<ship load="SHIP_PIRATE_WITHBOARDERS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -754,7 +754,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<text>You fire on the crates, breaking them open and scattering the pirates into empty space. A pirate ship appears out of nowhere with a message, "You will pay for that!"</text>
 				<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -764,11 +764,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<event>
 				<text>It would be stupid to try anything.</text>
 				<choice>
-					<text>Do something onboard the ship.</text>
+					<text>함선에서 무언가를 한다.</text>
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -817,7 +817,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>As you hail the refugee ship, a pirate ship jumps into the system... it was using the refugee ship as bait!</text>
 		<ship load="SHIP_PIRATE_REFUGEE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -832,7 +832,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You power up your weapons and engage the pirate ship.</text>
 			<ship load="SHIP_PIRATE_RESCUE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -842,11 +842,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>The fight brings them out of your immediate scanning range. After a time the distress calls stop.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -877,7 +877,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>The pirate ship stops its pursuit and locks weapons onto your ship.</text> 
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -947,12 +947,12 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		</event>
 	</choice>
 	<choice>
-		<text>Fight the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
 			<text>Mercenaries are worse than Rebels. The only honorable course is to engage the mercenary in battle.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -962,11 +962,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>The mercenary doesn't bother you.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1097,11 +1097,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You leave the pirates to their squabbling.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1145,7 +1145,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>"Not only was that the worst name I have ever had the disgrace of hearing, but you have physically made my ears bleed just by listening to it. My second mate just went into cardiac arrest, and a fire almost started in our engines. It was so bad that I actually feel like vomiting right now. It was so tremendously horrible that I could feel a higher power literally die in disgrace that they created a creature as pathetic as you. I have no choice but to arm my weapons and obliterate you horrible mongrels, so that you cannot pollute and destroy this plane of reality any further.</text>
 	<ship hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1225,13 +1225,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to fight the slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="spider" hidden="true">
-		<text>(Spider Crew) "Give" them your spider and let them cause havoc.</text>
+		<text>(Spider 선원) "Give" them your spider and let them cause havoc.</text>
 		<event>
 			<text>"Wait, what is thi- OH GOD AHGHWHAHAGGHHAHHH" The slaver falls to the floor as the spider tears out his throat, and moves on to consume the rest of the crew. While it might have killed everyone aboard, including the slaves, the hull of the ship remains intact for you to scrap.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -1247,7 +1247,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>You quickly fire up your Engines and make a break for it. However, it seems to be in vain. They catch up to you effortlessly and power up their weapons.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1285,21 +1285,21 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>"Alright alright! They're all dead, we're selling dead slaves, now let us go!" Unfortunately for them, you don't have any intentions of letting them off the hook.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>This is shady, let's leave.</text>
+				<text>This is shady, let's 떠난다.</text>
 				<event>
 					<text>The Slaver ship continues to advertise their "products", so you simply mute all hails coming from their ship.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1307,7 +1307,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		</event>
 	</choice>
 	<choice req="LIST_CREW_SLUG" hidden="true">
-		<text>(Slug Crew) Have your Slug check their intentions.</text>
+		<text>(Slug 선원) Have your Slug check their intentions.</text>
 		<event>
 			<text>"It sssseemsss thessse sssslaverss are ssselling dead ssslaves! Hah, what a racket. Gotta admire their gusssto. Ssstill, you ssshouldn't buy anything."</text>
 			<choice hidden="true">
@@ -1316,21 +1316,21 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>You prepare to attack the slaver ship, ready to make sure they don't scam anyone else.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Follow your Slug's advice and leave.</text>
+				<text>Follow your Slug's advice and 떠난다.</text>
 				<event>
 					<text>The Slaver ship continues to advertise their "products", so you simply mute all hails coming from their ship.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1338,15 +1338,15 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>The Slaver ship continues to advertise their "products", so you simply mute all hails coming from their ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1363,7 +1363,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the slaver ship, furious that they tricked you.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1386,13 +1386,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>You prepare to attack the slaver ship, furious that they tricked you.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="weapons" lvl="5">
-				<text>(Upg. Weapons) Threaten them to give you all of your money back.</text>
+				<text>(고급 무기실) Threaten them to give you all of your money back.</text>
 				<event>
 					<text>"Okay! Okay! Here, we'll even throw in some extra fuel because we're so kind!"</text>
 					<item_modify>
@@ -1448,7 +1448,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
             <text>You prepare to attack the slaver.</text>
             <ship hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -1458,11 +1458,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
         <event>
             <text>You're not interested in their line of trade.</text>
             <choice>
-                <text>Do something onboard the ship.</text>
+                <text>함선에서 무언가를 한다.</text>
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice>
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -1478,7 +1478,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
         <crewMember amount="1"/>
         <ship hostile="true"/>
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event load="COMBAT_CHECK"/>
         </choice>
     </event>
@@ -1487,7 +1487,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
         <crewMember amount="1"/>
         <ship hostile="true"/>
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event load="COMBAT_CHECK"/>
         </choice>
     </event>
@@ -1495,7 +1495,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
         <text>You beam a team onto their ship. However, your estimations of the location of their prisoners was off. By the time they get their bearings the slavers spot them. You beam them back to the ship and prepare for a fight.</text>
         <ship hostile="true"/>
         <choice hidden="true">
-            <text>Continue...</text>
+            <text>계속...</text>
             <event load="COMBAT_CHECK"/>
         </choice>
     </event>
@@ -1514,7 +1514,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1524,17 +1524,17 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_SLUG" hidden="true">
-		<text>(Slug Crew) Have your Slug check their intentions.</text>
+		<text>(Slug 선원) Have your Slug check their intentions.</text>
 		<event load="SLAVER_BETRAYAL_SLUG"/>
 	</choice>
 </event>
@@ -1547,7 +1547,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		</item_modify>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1582,21 +1582,21 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice>
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>"Why suddenly so adverse to business? Oh well, maybe we'll find someone more eager to get the deal of a lifetime at the next beacon!"</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1619,7 +1619,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1629,11 +1629,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1656,7 +1656,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1666,11 +1666,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1693,7 +1693,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1703,11 +1703,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1730,7 +1730,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1740,11 +1740,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1767,7 +1767,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1777,11 +1777,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1804,7 +1804,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare to attack the treacherous slaver.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1814,11 +1814,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ah, so we do got a couple of idiots over here!" The slaver hangs up and jumps away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1881,13 +1881,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>Still, even now, as you move in to attack one of their own ships, no other ships approach even just to spectate. Regardless, it appears that this will be no easy fight.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event>
 					<text>This place is dangerous, we have no reason to go messing around with the Smuggler clan.</text>
 					<choice>
@@ -1895,7 +1895,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1911,7 +1911,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1922,7 +1922,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<hiddenAug>ACH_BOSS_SMUGGUN</hiddenAug>
 	<autoReward level="HIGH">item</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As you approach the cruiser, a much larger Smuggler vessel uncloaks nearby, and hails you. A tall, slender Slug appears on the vidscreen. "I ssssee you have come for our new prototype cruissser, eh?" The Slug chuckles. "In cassse you aren't aware, that cruissser right there was being built ssspecificaly for the boss, Ocym. But, sssseeing how well you dessstroyed that vesssel of oursss I'd say the ssship isss better in your hands. Heheheh..."</text>
 			<choice hidden="true">
@@ -2001,7 +2001,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>"Damn it, we got another angry one! Arm the weapons..."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2009,13 +2009,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<choice hidden="true">
 		<text>We aren't interested.</text>
 		<event>
-			<text>"Aw, that's too bad." You cut comms and leave.</text>
+			<text>"Aw, that's too bad." You cut comms and 떠난다.</text>
 			<choice>
 				<text>Do something on-board the ship.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2036,13 +2036,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<choice hidden="true">
 			<text>No thanks.</text>
 			<event>
-				<text>"Aw, that's too bad." You cut comms and leave.</text>
+				<text>"Aw, that's too bad." You cut comms and 떠난다.</text>
 				<choice>
 					<text>Do something on-board the ship.</text>
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -2052,7 +2052,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>"You dare insult us? This is an excellent price for an outstanding drone!" The Smugglers raise their weapons, furious.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2082,7 +2082,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2263,7 +2263,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 																	<text>The Slug screams in pure rage and ends the call. Next thing you know, his weapons are up and you should do the same!</text>
 																	<ship hostile="true"/>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event load="COMBAT_CHECK"/>
 																	</choice>
 																</event>
@@ -2287,11 +2287,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You ignore the Slug and hide behind a nearby moon so he won't try to contact you next.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2338,7 +2338,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 							<text>"What?! Hey, who do you think you are?" You lie to them, saying you're here to enforce Federation law on the sector. "Really, enforcers now are you? My ass." Next thing you know their weapons are armed and you've found yourself in a brawl!</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 							</choice>
 						</event>
@@ -2358,11 +2358,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>The ship slinks away from you and jumps away after a couple minutes, leaving you alone.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2428,11 +2428,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>No need to get involved in other people's business.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2497,7 +2497,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>"Really? Is there no good will left in this whole place?"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2507,11 +2507,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event>
 					<text>The captain thanks you and ends the call. Now you have some free time on your hands.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2523,11 +2523,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You have no desire to trade with the station.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2555,7 +2555,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>Out of nowhere, a smuggler jumps in, guns blazing. You don't know why they're attacking, but you have no choice but to engage.</text>
 	<ship load="SHIP_SMUGGLER_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2565,7 +2565,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You spot a small market at this beacon, but as you approach it a mercenary ship swings around and attacks. "Hah! What luck of ours. Our clients came here to hire us to scout you out, and here you are in the very same sector!"</text>
 	<ship load="SHIP_MERCENARY_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2574,7 +2574,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You hardly have time to react before a Rebel ship observing the ongoings spots you and rushes in to attack.</text>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2584,7 +2584,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<ship load="SHIP_FED_FIGHT" hostile="true"/> 
 	<customFleet right="true" firing="true" autoDarkening="false">CUSTOM_FLEET_FED</customFleet>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2594,7 +2594,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<ship load="SHIP_FED_AUTO" hostile="true"/> 
 	<fleet>fed</fleet>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2607,7 +2607,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You ready yourself for combat.</text>
 			<ship load="SHIP_PIRATE_LECTURE_MARKET" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2618,7 +2618,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You ready yourself for combat.</text>
 			<ship load="SHIP_ZOLTAN_LECTURE_MARKET" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2663,7 +2663,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<ship load="SHIP_SMUGGLER_ALL" hostile="true"/> 
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2673,7 +2673,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<ship load="SHIP_ZOLTAN_FIGHT" hostile="true"/> 
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2721,33 +2721,33 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>As you engage, the ship quickly undocks from the station and prepares to fight back.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ignore the ship.</text>
+				<text>함선을 무시한다.</text>
 				<event>
 					<text>You put some distance between you and the slaver. Once you're sure they won't bother you anymore, you consider doing something aboard the ship.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="mind" hidden="true">
-				<text>(Mind control) Convince them to donate the Lanius.</text>
+				<text>(정신 지배l) Convince them to donate the Lanius.</text>
 				<event>
 					<text>Your mind control system is able to easily convince the slaver captain that she should give you the Lanius for free so that they may depart for a more profitable beacon. The Lanius is quickly ejected towards your ship in a small shuttle before the effects of the mind control wear off. Realizing they've been tricked, the slaver separates from the station and powers up its weapons.</text>
 					<crewMember amount="1" class="anaerobic">Laythe</crewMember>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2776,11 +2776,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>No need risking the ship or the mission over a ghost ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2790,13 +2790,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<event>
 		<text>The ship remains completely unresponsive. You aren't sure if there's any life left on the ship.</text>
 		<choice hidden="true">
-			<text>Scrap the ship.</text>
+			<text>함선을 수거한다.</text>
 			<event>
 				<text>Confident the former crew is dead, you start scraping the outer hull. However, mid-way through the process the weapons mysteriously come online, and you can hear lethargic shuffling inside the ship.</text>
 				<autoReward level="LOW">standard</autoReward>
 				<ship hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2810,7 +2810,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>To your surprise, your hail is answered almost immediately. Instead of comprehensible speech however, the response is garbled and mixed with static. Next thing you know, the ship's weapons come online and attacks you!</text>
 		<ship hostile="true"/> 
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2823,7 +2823,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>You're surprised to see your crew member stumbling out of the Clone Bay. They tell you something about Ghosts, but you don't have much time to listen due to the impending assault.</text>
 	</removeCrew>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2838,7 +2838,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You try to pull in closer to recover the drone, but the ship comes online!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2866,7 +2866,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You prepare for combat.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2892,7 +2892,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 							<text>You prepare for combat.</text>
 							<ship hostile="true"/> 
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -2914,11 +2914,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event>
 					<text>"Impossible. Payment delivered as requested. Transaction completed successfully."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Zoltan reply; "You have been caught purchasing illegal drugs from a Mantis vendor. This is a violation of both Federation, Zoltan, and Free-Space law."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Negative. Goods purchased = production amplifiers. Nothing stolen, no illegal actions performed." The two ships continue arguing back and forth.</text>
 									<choice hidden="true">
@@ -2931,7 +2931,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 											<text>You quickly explain the Zoltan that you intend to help. "Fine, we will accept your assistance. But do not kill the Engi. This is a peaceful operation."</text>
 											<ship load="SHIP_ENGI_ILLEGAL_ARREST" hostile="true"/> 
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 											</choice>
 										</event>
@@ -2942,13 +2942,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 											<text>The Zoltan huff when you position your ship between them and the Engi. "You're aiding these criminals? Fine, then expect no mercy."</text>
 											<ship load="SHIP_ENGI_ILLEGAL_ZOLTAN" hostile="true"/> 
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 											</choice>
 										</event>
 									</choice>
 									<choice hidden="true" req="Engi">
-										<text>(Engi Crew) Explain to the Engi that they purchased illegal drugs.</text>
+										<text>(Engi 선원) Explain to the Engi that they purchased illegal drugs.</text>
 										<event>
 											<text>Your Engi is successfully able to explain the situation to the ship. You explain to the Zoltan the misunderstanding and the Engi transfer the drugs over to the Zoltan. Satisfied, the Zoltan ship jumps away. The Engi offer you some droneparts and a drone in thanks.</text>
 											<autoReward level="HIGH">droneparts_only</autoReward>
@@ -2968,11 +2968,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>The Zoltan's business isn't your business, no need to get involved in their matters.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2987,7 +2987,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<text>You quickly explain the Zoltan that you intend to help. "Fine, we will accept your assistance. But do not kill the Engi. This is a peaceful operation."</text>
 				<ship load="SHIP_ENGI_ILLEGAL_ARREST" hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 				</choice>
 			</event>
@@ -2998,7 +2998,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<text>The Zoltan huff when you position your ship between them and the Engi. "You're aiding these criminals? Fine, then expect no mercy."</text>
 				<ship load="SHIP_ENGI_ILLEGAL_ZOLTAN" hostile="true"/> 
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 				</choice>
 			</event>
@@ -3062,7 +3062,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 							<text>"Fine! Death is your fate then. We tear you open first!"</text>
 							<ship load="SHIP_MANTIS_OFFEND" hostile="true"/>  
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -3073,7 +3073,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 							<text>"Pah! You think we will cower in fear at a lowly Federation ship? The Federation's days are numbered, and so are yours."</text>
 							<ship load="SHIP_ROCK_OFFEND" hostile="true"/> 
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>							
 						</event>
@@ -3096,7 +3096,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 							<text>"Fine! Death is your fate then. We tear you open first!"</text>
 							<ship load="SHIP_MANTIS_OFFEND" hostile="true"/>  
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -3107,7 +3107,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 							<text>"Pah! You think we will cower in fear at a lowly Federation ship? The Federation's days are numbered, and so are yours."</text>
 							<ship load="SHIP_ROCK_OFFEND" hostile="true"/>  
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -3127,11 +3127,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>No need to get involved in alien conflicts. You fly a safe distance away.</text> 
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3199,11 +3199,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You aren't about to go selling yourself as mercenaries. You have standards.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3217,7 +3217,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You arm the weapons and prepare to fight.</text>
 			<ship load="SHIP_ZOLTAN_SMUGGLER_RAID" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3481,19 +3481,19 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 								</event>
 							</choice>
 							<choice>
-								<text>Leave.</text>
+								<text>떠난다.</text>
 								<event/>
 							</choice>
 						</event>
 					</choice>
 					<choice>
-						<text>Leave.</text>
+						<text>떠난다.</text>
 						<event/>
 					</choice>
 				</event>
 			</choice>
 			<choice>
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3503,11 +3503,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You have no business with the station.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3552,7 +3552,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 						<item type="scrap" min="-20" max="-20"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="CASINO_GAMBLE"/>
 					</choice>
 				</event>
@@ -3560,15 +3560,15 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>This isn't what we expected. Leave.</text>
+		<text>This isn't what we expected. 떠난다.</text>
 		<event>
 			<text>Whatever you had hoped to do here is pointless now.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3626,7 +3626,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>You power up your weapons and attack one of the enforcers head on. It looks suspiciously like a Rebel transport that was painted over again, but that doesn't matter.</text>
 					<ship load="SHIP_CASINO" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3637,7 +3637,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>You're sure the casino will have a reward for you if you save them from Tuco's attack.</text>
 					<ship load="SHIP_TUCO" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3647,11 +3647,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event>
 					<text>Whatever you had hoped to do here is pointless now. You leave before the fight can catch up to you.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -3659,15 +3659,15 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Oh well, let's leave.</text>
+		<text>Oh well, let's 떠난다.</text>
 		<event>
 			<text>Whatever you had hoped to do here is pointless now.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3678,7 +3678,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
     <hiddenAug>ACH_BOSS_CASINO</hiddenAug>
 	<autoReward level="HIGH">standard</autoReward>
     <choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
         <event>
             <text>Tuco chuckles as he brings the scrap back to his ship. "Good fightin' there kid. Couldn't have done it better myself. SO, I'll tell you what; this hunk o' junk that I'm disgraced to call my personal cruiser has seen much better days. So how 'bout I hitch a ride on that pretty ship o' yours, and you do whatever you'd like with mine."</text>
 			<unlockCustomShip silent="false">PLAYER_SHIP_TUCO</unlockCustomShip>
@@ -3691,7 +3691,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>The remains of Tuco's cruiser crashes into the ground, shattering into debris that probably kills a few people. Regardless, it's scrap for you to take.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Despite all the damage caused in the fight, the yacht owners are extremely grateful for your help. "That idiot has been a regular for years, and he's always causing issues. It's about time he got what was coming to him. Pffft, dread pirate my ass. As generous payment, please accept this scrap and a few of our slot machines!" You aren't sure what you think about the unusual reward, but you aren't going to turn it down.</text>
 			<unlockCustomShip silent="false">PLAYER_SHIP_TUCO_2</unlockCustomShip>
@@ -3737,7 +3737,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<status type="loss" target="player" system="engines" amount="2"/>
 			<status type="divide" target="player" system="doors" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="ANTI_VIRUS">
@@ -3748,13 +3748,13 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<status type="clear" target="player" system="engines" amount="100"/>
 				<status type="clear" target="player" system="doors" amount="100"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
 		</choice>
 		<choice hidden="true" req="hacking">
-			<text>(Hacking) Prevent their hacking.</text>
+			<text>(해킹) Prevent their hacking.</text>
 			<event>
 				<text>The Hacker ship's virus is much harder to purge than you expected, and you have to overclock the hacking system. Your systems return to normal, but your hacking has taken a huge loss.</text>
 				<status type="clear" target="player" system="sensors" amount="100"/>
@@ -3762,7 +3762,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<status type="clear" target="player" system="doors" amount="100"/>
 				<status type="loss" target="player" system="hacking" amount="2"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -3778,7 +3778,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3792,7 +3792,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<status type="clear" target="player" system="doors" amount="100"/>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You're about to leave when you notice a small platform and a cache nearby the wreck of the broadcast station.</text>
 			<choice hidden="true">
@@ -3807,11 +3807,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>The cache is rather underwhelming. You find a small amount of droneparts and nothing else.</text>
 		<autoReward level="LOW">droneparts_only</autoReward>
 		<choice hidden="true" req="MARKER_HACKER_STATION" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="MARKER_HACKER_STATION" lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="HACKER_CACHE_QUEST"/>
 		</choice>
 	</event>
@@ -3819,11 +3819,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>Inside the cache is a brand new Ion weapon! You take it on-board.</text>
 		<weapon name="GIFTLIST_ION"/>
 		<choice hidden="true" req="MARKER_HACKER_STATION" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="MARKER_HACKER_STATION" lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="HACKER_CACHE_QUEST"/>
 		</choice>
 	</event>
@@ -3831,11 +3831,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>The cache appears to be storage for various supplies, which you help yourself to.</text>
 		<autoReward level="MED">stuff</autoReward>
 		<choice hidden="true" req="MARKER_HACKER_STATION" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="MARKER_HACKER_STATION" lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="HACKER_CACHE_QUEST"/>
 		</choice>
 	</event>
@@ -3843,11 +3843,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>Inside the cache is a de-activated Engi, likely kept as a slave. You provide it with power back on your ship, and it re-activates, ready to serve on your crew.</text>
 		<crewMember amount="1" class="engi"/>
 		<choice hidden="true" req="MARKER_HACKER_STATION" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="MARKER_HACKER_STATION" lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="HACKER_CACHE_QUEST"/>
 		</choice>
 	</event>
@@ -3855,11 +3855,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>The cache was trapped! Explosions rock the walls and you jump for cover. However, as you get back to your feet, nothing appears to have been damaged. The trap wasn't a trap after all, instead several Repair Bursts had been set off by accident!</text>
 		<damage amount="-7"/>
 		<choice hidden="true" req="MARKER_HACKER_STATION" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="MARKER_HACKER_STATION" lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="HACKER_CACHE_QUEST"/>
 		</choice>
 	</event>
@@ -3867,11 +3867,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>You open the cache, and a screeching noise pierces the air. You run back to the ship and find a stream of garbled data streaming down your computer. Luckily you're able to shut it off in time, but you suspect it may confuse the Rebels for a while.</text>
 		<modifyPursuit amount="-1"/>
 		<choice hidden="true" req="MARKER_HACKER_STATION" max_lvl="2" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="MARKER_HACKER_STATION" lvl="3" max_group="0" blue="false">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="HACKER_CACHE_QUEST"/>
 		</choice>
 	</event>
@@ -3884,7 +3884,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You've arrived at the location of the Federation distress call... except there's no Federation ship here. Instead, there's a massive Hacker cruiser waiting for you! "You think you're clever? Do you even know how long it took to sssset up all thossse ssstationss? Well, it doesssn't matter now. Thisss isss what you get for crossssing the Hacker clan'ssss path!"</text>
 	<ship load="SHIP_HACKER_CRUISER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -3892,7 +3892,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>Right as you finish off the hackers, a life pod detaches from the ship and spirals out into space... only for you to scoop it up and bring it aboard. Inside, you can see the surviving Slug quivering in fear.</text>
 	<hiddenAug>ACH_BOSS_HACKER</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You pry open the lifepod, and the Slug slides out slowly, hands in the air. "Ok, I sssurrender! You fight well. Too well... I'll give you anything and everything you want! Data, labor, scrap, all I assssk isss you don't kill me!"</text>
 			<autoReward level="HIGH">standard</autoReward>
@@ -3913,12 +3913,12 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>It appears the exit beacon was being hidden here by the Hackers! Your Atlas won't connect, but it appears something is blocking the signal...</text>
 	<ship load="SHIP_HACKER_BROADCAST_FAKE" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Suddenly, you receive a hail from a broadcast station hidden behind a small moon. "What'ssss thisss? The ssssilly little Fed ssship isss trying to LEAVE? I'm afraid I can't allow that!"</text>	
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3934,12 +3934,12 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>It appears the exit beacon was being hidden here by the Hackers! Your Atlas won't connect, but it appears something is blocking the signal...</text>
 	<ship load="SHIP_HACKER_BROADCAST_FAKE" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Suddenly, you receive a hail from a broadcast station hidden behind a small moon. "What'ssss thisss? The ssssilly little Fed ssship isss trying to LEAVE? I'm afraid I can't allow that!"</text>	
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3976,11 +3976,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You apologize to the civilians and carry on your mission.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3998,7 +3998,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<item type="fuel" min="-8" max="-8"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="HACKER_CIVILIAN_STATION_THANK"/>
 			</choice>
 		</event>
@@ -4011,7 +4011,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<item type="missiles" min="-5" max="-5"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="HACKER_CIVILIAN_STATION_THANK"/>
 			</choice>
 		</event>
@@ -4023,7 +4023,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<item type="drones" min="-3" max="-3"/>
 				</item_modify>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="HACKER_CIVILIAN_STATION_THANK"/>
 				</choice>
 			</event>
@@ -4034,11 +4034,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You apologize to the civilians and cut comms..</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4096,7 +4096,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>Morals are obviously not of importance to you, as you have decided to attack the militia ship.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 					</choice>
 				</event>
@@ -4108,11 +4108,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You don't disturb the ship and instead do something on-board.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4170,11 +4170,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event>
 					<text>"Ssssshame. Try not to get killed..."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -4187,7 +4187,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>These Slug bastards are holding the civilians of this sector hostage. There's no way you're going to let them go so easily.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4197,11 +4197,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>"Ssssshame. Try not to get killed..."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4225,7 +4225,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text load="TEXT_ENCOUNTER_HACKER"/>
 	<ship load="SHIP_HACKER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4241,7 +4241,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text load="TEXT_ENCOUNTER_HACKER_PIRATE"/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4255,7 +4255,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>A Rebel ship comes speeding towards you. "Damn it! The hackers took control of this sector while we were stationed here, and we have to find our way out! Now a Federation ship is here too? Hell, we gotta get to the fleet..."</text>
 	<ship load="SHIP_REBEL_HACKER_FLEET" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4264,7 +4264,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>A Rebel Auto-ship, painted in hacker blue, sends you a message. "This is U-578-694. I have been repurposed to serve my new masters and destroy all intruders. Enjoy the rest of your miserable existence."</text>
 	<ship load="SHIP_HACKER_AUTO" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4293,7 +4293,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>"Poor decccissssion... hope you won't be needing it any time sssoon!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4305,7 +4305,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<status type="clear" target="player" system="oxygen" amount="100"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4335,7 +4335,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You aren't going to let some corrupt filthy Slugs hold innocent civilians hostage when you can help it. You engage the hackers.</text>
 			<ship load="SHIP_HACKER_HOSTAGES" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4358,11 +4358,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>Either the hackers don't notice you, or they simply don't care to deal with your ship. You ignore the colony and carry on your way.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4372,7 +4372,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You've defeated the hacker ship. The rest of the hackers, afraid of you now that you've defeated their colleague, flee from the system.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="HACKED_HOSTAGES_PAY"/>
 	</choice>
 </event>
@@ -4390,23 +4390,23 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 <event name="HACKER_CIVILIAN_WRECK_TRAP" unique="true">
 	<text>The wreckage of a civilian ship drifts nearby. It's unfortunate that the civilians had to die in such a way, but there's likely some supplies on-board that you can salvage.</text>
 	<choice hidden="true">
-		<text>Scrap the ship.</text>
+		<text>함선을 수거한다.</text>
 		<event load="HACKER_CIVILIAN_WRECK_TRAP_SALVAGE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Have your Slug check the wreckage first.</text>
+		<text>(Slug 선원) Have your Slug check the wreckage first.</text>
 		<event load="HACKER_CIVILIAN_WRECK_TRAP_SLUG"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You aren't a gang of pirates or filthy hackers. Professionals have standards.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4421,7 +4421,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>Luckily your Clone Bay is always ready for whenever the crew may be blown up.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4434,7 +4434,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<crewMember amount="1"/>
 		<ship load="SHIP_HACKER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4444,7 +4444,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>Your Slug detects a trap on-board the wreckage. A hacker ship hiding nearby, disappointed that you didn't fall for their tricks, moves in to attack!</text>
 		<ship load="SHIP_HACKER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4476,7 +4476,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>You can't risk having the hackers leak your location to the fleet. You have to destroy them.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4484,14 +4484,14 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<choice hidden="true">
 		<text>We aren't paying you anything.</text>
 		<event>
-			<text>"Oh well. Hope you have ssssome fun with the Rebelssss then!" The hackers jump away.</text>
+			<text>"신경쓰지 말자. Hope you have ssssome fun with the Rebelssss then!" The hackers jump away.</text>
 			<modifyPursuit amount="2"/>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4510,7 +4510,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>You've decided to defend the Slugs and fight the Hacker vessel. Prepare for combat!</text>
 					<ship load="SHIP_HACKER_FANCY_CLASS" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -4521,7 +4521,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 					<text>You've decided to defend the Hackers and fight the Slug vessel. Prepare for combat!</text>
 					<ship load="SHIP_SLUG_FANCY_CLASS" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -4531,11 +4531,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 				<event>
 					<text>You'll stay out of a duel between two Slug ships. Mutual destruction would be a fitting end for them both.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -4547,11 +4547,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You'll stay out of a duel between two Slug ships. Mutual destruction would be a fitting end for them both.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4561,7 +4561,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You've defeated the Hacker vessel. You salvage the remains.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"An interesssting turn of eventsss... but not one that I'm going to complain about. Ssssome ssscrap is in order for you."</text>
 			<autoReward level="HIGH">scrap_only</autoReward>
@@ -4572,7 +4572,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<text>You've defeated the Slug vessel. You salvage the remains.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"That wasss... unexpected. Moralssss my assss, I know you're looking for a reward. I don't ssssuppose you'd find usssse in a little delay in the Rebel fleet..."</text>
 			<modifyPursuit amount="-2"/>
@@ -4597,7 +4597,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 	<distressBeacon/>
 	<ship load="SHIP_HACKER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4617,31 +4617,31 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 			<text>This sector needs all of the Militiamen that it can, and you aren't going to let the Hackers kill any more of them.</text>
 			<ship load="SHIP_HACKER_MILITIA_RESCUE" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You can't risk your mission by rescuing the Militia ship. You carry on.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 </event>
 <event name="DISTRESS_HACKER_MILITIA_WIN">
-	<text>The hacker ship has been defeated. You scrap the ship.</text>
+	<text>The hacker ship has been defeated. You 함선을 수거한다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It appears most of the Militiamen did not survive the attack. The lone survivor, their captain, offers to join your crew.</text>
 			<crewMember amount="1" class="human" pilot="1"/>
@@ -4669,11 +4669,11 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<event>
 			<text>You decide not to chase after the feds.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4700,7 +4700,7 @@ NOTE TO FUTURE ME; DON'T DELETE THESE IDIOT OTHER EVENTS USE THEM-->
 		<text>While searching fruitlessly through the nebula, you stumble upon the Hacker ship which the Federation loyalists were likely hiding from. You prepare for a fight.</text>
 		<ship load="SHIP_HACKER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>

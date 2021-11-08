@@ -23,7 +23,7 @@
 					<text>Your attempt at entry is met by alarms, which activate security turrets that fire upon your ship! Fortunately, you're able to shut them down and gain access afterwards, but your ship has taken a beating.</text>
 					<damage amount="5"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="BILLY"/>
 					</choice>
 				</event>
@@ -33,11 +33,11 @@
 				<event load="BILLY"/>
 			</choice>
 			<choice hidden="true" req="hacking" lvl="2">
-				<text>(Upg. Hacking) Attempt to gain access.</text>
+				<text>(고급 해킹) Attempt to gain access.</text>
 				<event load="BILLY"/>
 			</choice>
 			<choice hidden="true" req="BLUELIST_CREW_NODOORS">
-				<text>(Phasing Crew) Attempt to gain access.</text>
+				<text>(Phasing 선원) Attempt to gain access.</text>
 				<event load="BILLY"/>
 			</choice>
 			<choice hidden="true" req="traitor">
@@ -53,13 +53,13 @@
 	<choice hidden="true">
 		<text>Let this one go - could be a trap.</text>
 		<event>
-			<text>Very strange for such a signal to be so far out here. It has to be a trap, there's no other explanation, right? You prepare to leave.</text>
+			<text>Very strange for such a signal to be so far out here. It has to be a trap, there's no other explanation, right? You prepare to 떠난다.</text>
 			<choice hidden="true">
 				<text>Check the storage.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -68,7 +68,7 @@
 <event name="BILLY">
 	<text>Looks like your attempt to enter was successful. You carry on throughout the building, but it's clear things aren't too good in here. Faint blood stains decorate the walls, mostly the bright green sludge known to spill out of dead Slugs. It's weeks old though, a forboding omen of the state of what you might find deeper inside.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>At last, you come across an open office door. Stepping inside, you find a blue Slug slumped over a desk, silently sobbing to himself. He perks up when he sees you, and his demeanor quickly changes between shock, terror, anger, and finally defeat. "Sssso, you've finally come to kill me? I knew the deadline would arrive... Well, you have me now. I give up. Jusssst kill me."</text>
 			<choice hidden="true">
@@ -110,7 +110,7 @@
 																	<crewMember amount="1" class="billy" all_skills="2">Billy</crewMember>
 																	<ship hostile="true"/>
 																	<choice hidden="true">
-																		<text>Continue...</text>
+																		<text>계속...</text>
 																		<event load="COMBAT_CHECK"/>
 																	</choice>
 																</event>
@@ -141,7 +141,7 @@
 	<weapon name="LIST_WEAPONS_NEWGEN"/>
 	<hiddenAug>ACH_BOSS_ANGEL</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Billy seems to be making himself comfortable in your ship's lounge. "I think nowsss asss good of a time asss any for old Billy to take a relaxing vacation from all of thisss chaossss. And taxesss. Sssay, ssstranger, where you headed?"</text>
 			<choice hidden="true">
@@ -162,7 +162,7 @@
 <event name="BILLY_DEAD">
 	<text>You look around the ship to see where Billy went, but it dawns on you - he didn't survive the fight. Looks like you won't be clearing off that debt any time soon then...</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You make one last trip back to the Angel's ship, and see what you might find inside. To your surprise, you dig out what appears to be a highly advanced weapon powered by bizzarely foreign yet similar tech. You aren't sure where it's from, but you'll take it.</text>
 			<weapon name="LIST_WEAPONS_NEWGEN"/>
@@ -175,7 +175,7 @@
 	<text>At first this beacon seems rather unassuming, until you spot the massive spherical shipyard hovering above the ground. Upon further inspection, beneath it appears to be a rural village of some sort, definitely not one of a space-faring species at least...</text>
 	<img back="BACK_EVENT_HEKTARSHIPYARD" planet="NONE"/>
 	<choice hidden="true">
-		<text>Pull closer.</text>
+		<text>가까이 다가간다.</text>
 		<event>
 			<text>The village below is bustling with what looks to be lizard creatures. You've noticed these guys working aboard Hektar ships before, but this must be where they live. Very strange, but as you approach the shipyard, it becomes apparent there's more here than you first observed. An orange spectacled lizard with a suit and backwards tie is screaming into a megaphone trying to calm down a crowd of irate lizards with picket signs and armed weapons.</text>
 			<choice hidden="true">
@@ -193,7 +193,7 @@
 									<text>"What are you doing? Have you gone mad?" You step down from the pedestal and begin chanting with the protestors. Seeing the support of a Federation captain, the lizards go wild, and the Hektar ship moves in to attack. In the fray, you swear you catch Metyunt calling for the ship not to open fire, but they don't listen. Looks like you'll have to step in and defend them!</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -228,7 +228,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -260,7 +260,7 @@
 						<event>
 							<text>The lizards groan, but they aren't going to question you after how much you helped them. Metyunt seems shocked he hasn't been torn limb from limb yet. "Well uh, I uh, I guess there's a moral in here somewhere. Don't sell your entire species into slavery? Yeah that sounds good..."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="METYUNT_UNLOCK"/>
 							</choice>
 						</event>
@@ -287,7 +287,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We can't risk it. Take what you've got and leave.</text>
+		<text>We can't risk it. Take what you've got and 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -300,7 +300,7 @@
 <event name="EXIT_HEKTAR">
 	<text>You've finally found the exit to this dreadful sector.</text>
 	<choice req="MARKER_HEKTAREXIT" lvl="0" max_group="0" hidden="true" blue="false"> <!--theoretically you can never get this except in the fleet so Im just going to make it that for simplisities sake-->
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You're stopped before you can leave by a massive Hektar vessel. "Sssorry, but you may not leave thisss sssector! You sssstill owe Hektar Indusssstriessss a lot of money!"</text>
 			<ship load="SHIP_HEKTAR_EXIT_BOSS" hostile="false"/>
@@ -310,7 +310,7 @@
 					<text>The only way out now is to fight! You power up your weapons and prepare to engage.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -318,7 +318,7 @@
 			<choice hidden="true" req="billy">
 				<text>(Billy) Have Billy clear you for leaving.</text>
 				<event>
-					<text>Fortunately, it only takes a few minutes before Billy returns, and you're allowed to leave. Guess it pays to have the CEO of a major corporation aboard your ship.</text>
+					<text>Fortunately, it only takes a few minutes before Billy returns, and you're allowed to 떠난다. Guess it pays to have the CEO of a major corporation aboard your ship.</text>
 					<autoReward level="HIGH">standard</autoReward>
 					<weapon name="HEKTAR_MODULAR_WEAPONS"/>
 				</event>
@@ -326,7 +326,7 @@
 			<choice hidden="true" req="traitor">
 				<text>(Metyunt) Have Metyunt clear you for leaving.</text>
 				<event>
-					<text>Fortunately, it only takes a few minutes before Metyunt returns, and you're allowed to leave. Guess it pays to have the staff manager of a major corporation aboard your ship.</text>
+					<text>Fortunately, it only takes a few minutes before Metyunt returns, and you're allowed to 떠난다. Guess it pays to have the staff manager of a major corporation aboard your ship.</text>
 					<autoReward level="HIGH">standard</autoReward>
 					<weapon name="HEKTAR_MODULAR_WEAPONS"/>
 				</event>
@@ -334,18 +334,18 @@
 		</event>
 	</choice>
 	<choice req="MARKER_HEKTAREXIT" lvl="1" max_group="0" hidden="true" blue="false"> <!--theoretically you can never get this except in the fleet so Im just going to make it that for simplisities sake-->
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Looks like the Rebel fleet has taken control of the beacon! You'll have to fight your way out!</text>
 			<customFleet right="false" firing="true" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
 			<environment type="PDS" target="player"/>
 			<ship load="SHIP_REBEL_FLEET_S" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="engines" lvl="6">
-				<text>(Adv. Engines) Try to escape the Elite.</text>
+				<text>(최고급. Engines) Try to escape the Elite.</text>
 				<event load="FLEET_ESCAPE"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_JERRY">
@@ -368,7 +368,7 @@
 			<text>The only way out now is to fight! You power up your weapons and prepare to engage.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -376,7 +376,7 @@
 	<choice hidden="true" req="billy">
 		<text>(Billy) Have Billy clear you for leaving.</text>
 		<event>
-			<text>Fortunately, it only takes a few minutes before Billy returns, and you're allowed to leave. Guess it pays to have the CEO of a major corporation aboard your ship.</text>
+			<text>Fortunately, it only takes a few minutes before Billy returns, and you're allowed to 떠난다. Guess it pays to have the CEO of a major corporation aboard your ship.</text>
 			<autoReward level="HIGH">standard</autoReward>
 			<weapon name="HEKTAR_MODULAR_WEAPONS"/>
 		</event>
@@ -384,7 +384,7 @@
 	<choice hidden="true" req="traitor">
 		<text>(Metyunt) Have Metyunt clear you for leaving.</text>
 		<event>
-			<text>Fortunately, it only takes a few minutes before Metyunt returns, and you're allowed to leave. Guess it pays to have the staff manager of a major corporation aboard your ship.</text>
+			<text>Fortunately, it only takes a few minutes before Metyunt returns, and you're allowed to 떠난다. Guess it pays to have the staff manager of a major corporation aboard your ship.</text>
 			<autoReward level="HIGH">standard</autoReward>
 			<weapon name="HEKTAR_MODULAR_WEAPONS"/>
 		</event>
@@ -461,7 +461,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -479,7 +479,7 @@
 			<text>You prepare to fight the pirate ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -493,7 +493,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -512,7 +512,7 @@
 					<text>The lizards show you where their boss is located and reinforce that you must not kill him.</text>
 					<ship load="SHIP_HEKTAR_UNION" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -539,7 +539,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -554,21 +554,21 @@
 		<event>
 			<text>The Suzerain responds, flailing his arms in several grand motions. "Greetings! You are hearing of the great Billy Hektar, yes? He is man of fewest ethics, leader of greatest and most morally bankrupt corporation in WHOLE Multiverse! I come to learn from him and master ways of becoming living scum myself! Have you heard his teachings?"</text>
 			<choice hidden="true" req="slug">
-				<text>(Slug Crew) We have.</text>
+				<text>(Slug 선원) We have.</text>
 				<event>
 					<text>"I see you are having Slug one aboard your ship! Squishy men, but most natural commers of retched living! Honored I am, and giving you things."</text>
 					<autoReward level="MED">standard</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="snail">
-				<text>(Clansman Crew) We have.</text>
+				<text>(Clansman 선원) We have.</text>
 				<event>
 					<text>"I see you are having Guild man aboard your ship! Hunter and poacher of sentient things, skinner of the living! Oh how I envy your nerves of steel and torturous methods of mutilation! Honored I am, and giving you things."</text>
 					<autoReward level="HIGH">standard</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="sabo">
-				<text>(Saboteur Crew) We have.</text>
+				<text>(Saboteur 선원) We have.</text>
 				<event>
 					<text>"I see you are having stealthy cloaking Slug aboard your ship! Cunning master of silent assassinations and devilish trickery! Oh, oh, how I hoping to learn! Yes, I coming with to learn from you!"</text>
 					<autoReward level="LOW">standard</autoReward>
@@ -576,7 +576,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="ranger">
-				<text>(Ranger Crew) We have.</text>
+				<text>(Ranger 선원) We have.</text>
 				<event>
 					<text>"I see you are having evilest taxidermy man aboard your ship! Master of sniping and knowledgeable in all forms of unethical biological weapons! Oh, oh, how I hoping to learn! Yes, I coming with to learn from you!"</text>
 					<autoReward level="MED">standard</autoReward>
@@ -584,7 +584,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="hektar">
-				<text>(Hektar Crew) We have.</text>
+				<text>(Hektar 선원) We have.</text>
 				<event>
 					<text>"You are having one of Billy's own disciples! You are seeing oh great Billy in the flesh! I honored, truly! Please, allowing me to come and learn!"</text>
 					<crewMember amount="1" class="suzerain"/>
@@ -604,7 +604,7 @@
 					<text>"Hah! Then you are stupid idiot! Biggest of fools, ethically driven and morally abundant! Hahahahah! The galaxy needing less of you, so I doing that."</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -620,7 +620,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -666,14 +666,14 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="monk">
-				<text>(Monk Crew) Life is a cycle yes - but which cycle you follow is up to you.</text>
+				<text>(Monk 선원) Life is a cycle yes - but which cycle you follow is up to you.</text>
 				<event>
 					<text>"I have a choice? I thought Hektar was all there was. That's what they told me - the rest of the galaxy was a barren wasteland and this was the last sector alive. But wait... you're from out there! I must come with you and taste freedom at long last!"</text>
 					<crewMember amount="1" repair="2" class="worker"/>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_FREEMAN">
-				<text>(Free Mantis Crew) Status Quo is only what big man upstair wanting you to follow!</text>
+				<text>(독립 맨티스 선원) Status Quo is only what big man upstair wanting you to follow!</text>
 				<event>
 					<text>"I have a choice? I thought Hektar was all there was. That's what they told me - the rest of the galaxy was a barren wasteland and this was the last sector alive. But wait... you're from out there! I must come with you and taste freedom at long last!"</text>
 					<crewMember amount="1" repair="2" class="worker"/>
@@ -682,13 +682,13 @@
 			<choice hidden="true">
 				<text>I'm not a philosopher.</text>
 				<event>
-					<text>The lizard has already broken out into full on sobbing and barely hears your lame excuse to leave.</text>
+					<text>The lizard has already broken out into full on sobbing and barely hears your lame excuse to 떠난다.</text>
 					<choice hidden="true">
 						<text>Check the storage.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -730,7 +730,7 @@
 			<text>You raise your weapons and attack the ship.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -744,7 +744,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -769,7 +769,7 @@
 					<text>You power up your weapons and attack the Hektar factory. A ship arrives to stop you.</text>
 					<ship load="SHIP_HEKTAR_CHILDREN" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -788,7 +788,7 @@
 						</event>
 					</choice>
 					<choice hidden="false">
-						<text>Ignore their gift, take one of the children, and quickly leave.</text>
+						<text>Ignore their gift, take one of the children, and quickly 떠난다.</text>
 						<event>
 							<crewMember amount="1" class="slug">Timmy</crewMember>
 						</event>
@@ -796,7 +796,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -810,7 +810,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -865,7 +865,7 @@
 								<item type="scrap" min="-90" max="-90"/>
 							</item_modify>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Oh man, I don't have anything to give... wait, no! I do! Thissss isss very valuable to me, but I'm sssure you'll get a lot more ussse out of it than me. Pleasssse take good care of it though."</text>
 									<weapon name="LASER_CHAINGUN_GOLD"/>
@@ -900,7 +900,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -936,7 +936,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_HUMAN">
-						<text>(Human Crew) Offer your feedback.</text>
+						<text>(Human 선원) Offer your feedback.</text>
 						<event>
 							<text>Your crew explains their opinions on the toy. The Slug thoughtfully contemplates this advice, and seems grateful. "Thank you ssso much for your input! Here, have thisss!"</text>
 							<autoReward level="MED">stuff</autoReward>
@@ -966,7 +966,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_MANTIS">
-						<text>(Mantis Crew) Offer your feedback.</text>
+						<text>(Mantis 선원) Offer your feedback.</text>
 						<event>
 							<text>Your crew explains their opinions on the toy. The Slug thoughtfully contemplates this advice, and seems grateful. "Thank you ssso much for your input! Here, have thisss!"</text>
 							<autoReward level="MED">stuff</autoReward>
@@ -996,7 +996,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_SHELL">
-						<text>(Shell Crew) Offer your feedback.</text>
+						<text>(Shell 선원) Offer your feedback.</text>
 						<event>
 							<text>Your crew explains their opinions on the toy. The Slug thoughtfully contemplates this advice, and seems grateful. "Thank you ssso much for your input! Here, have thisss!"</text>
 							<autoReward level="MED">stuff</autoReward>
@@ -1015,7 +1015,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1038,7 +1038,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="soldier">
-		<text>(Soldier Crew) We did not come here to stop Hektar - but we will do our best now that we are here.</text>
+		<text>(Soldier 선원) We did not come here to stop Hektar - but we will do our best now that we are here.</text>
 		<event>
 			<text>"Wow! So noble! But, for you to do anything you'll have to make it out of here alive. Let me see if I can help you with that!" The civilian ship patches up some of the damage to your hull.</text>
 			<damage amount="-30"/>
@@ -1083,7 +1083,7 @@
 				<event>
 					<text>"YEEEEESSSSS! YEEEEEEESSSSS! ONE OF US, ONE OF US, ONE OF US!!! WOOOOOOOO!" This guy is obviously a massive nutjob and probably has Stockholm syndrome of some sort, but he seems to welcome you amongst his ranks and leads you inside the building where the civilians are trapped.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>"These are the heretics whom I have captured, and shall SACRIFICE IN THE NAME OF HEKTAR! They actually want to LEAVE! There shall be no LEAVING this place. We must stay, and dedicate our lives and our wallets to HEKTAR!"</text>
 							<choice hidden="true">
@@ -1093,7 +1093,7 @@
 									<boarders min="2" max="3" class="human"/>
 									<ship load="SHIP_HEKTAR_FANATIC" hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -1123,7 +1123,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1147,7 +1147,7 @@
 							<text>If this guy won't listen to logic, then he'll have to listen to the sound of your guns!</text>
 							<ship load="SHIP_HEKTAR_POWERPLANT_HEKTAR" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1158,7 +1158,7 @@
 							<text>These Orchids are just being nosy, getting involved in business that doesn't concern them. Best you take them out.</text>
 							<ship load="SHIP_HEKTAR_POWERPLANT_ORCHIDS" hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="MORALITY_UPDATE_ORCHID_FIGHT"/>
 							</choice>
 						</event>
@@ -1171,7 +1171,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_ORCHID">
-						<text>(Orchid Crew) Explain the importance of not harming ecosystems, regardless of where or what they are.</text>
+						<text>(Orchid 선원) Explain the importance of not harming ecosystems, regardless of where or what they are.</text>
 						<event>
 							<text>Your Orchid's speech only seems to confuse the Slug. "I don't underssstand a damn word you jussst sssaid, but it sssure wasss annoying asss hell. If you're sssaying there'sss more weirdosss like you that're going to bug me about thissss, then I'll ssstop jussst to shut you up."</text>
 							<choice hidden="true">
@@ -1192,7 +1192,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ion storms suck, just leave.</text>
+		<text>Ion storms suck, just 떠난다.</text>
 		<event>
 			<text>You don't want to linger any longer than you have to in an ion storm. These Orchids can keep doing whatever it is they're doing, you're out of here.</text>
 			<choice hidden="true">
@@ -1200,7 +1200,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1217,7 +1217,7 @@
 			<text>To your utter shock, the station welcomes you in and actually refuels your ship! You lean back in comfort, impressed by these Slugs.</text>
 			<autoReward level="HIGH">fuel_only</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you attempt to leave, you're stopped by the Slugs. "Sssorry cussstomer, but you can't leave! You appear to be in debt to Hektar Indussstriesss, and thusss the free dissscount on thisss fuel hassss been rendered void. Assss such, your price now totalssss to around... all of your ssscrap. Pay up."</text>
 					<choice hidden="true">
@@ -1226,7 +1226,7 @@
 							<text>You aren't paying them all of your scrap! You'll have to fight your way out now.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -1241,13 +1241,13 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="engines" lvl="5">
-						<text>(Upg. Engines) Hightail it out of there.</text>
+						<text>(고급 Engines) Hightail it out of there.</text>
 						<event>
 							<text>You power up your engines and fly away as fast as possible before the Slugs can even react.</text>
 						</event>
 					</choice>
 					<choice hidden="true" req="cloaking" lvl="2">
-						<text>(Upg. Cloaking) Cloak and sneak away.</text>
+						<text>(고급 Cloaking) Cloak and sneak away.</text>
 						<event>
 							<text>You activate your cloaking system and sneak away from the Slugs.</text>
 						</event>
@@ -1265,7 +1265,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1276,7 +1276,7 @@
 	<text>A brightly colored civilian ship is stealthily hidden away near a Hektar platform. When you jump in, they seem to spot you quickly and hail.</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>"Hello, Federation captain! I am Astrid Kamprad. For many centuries my family has run a prominent furniture corporation in the Galactic Union, but to my horror when I heard news of Hektar, it would appear my family business's core idea has been shamelessly STOLEN by these devilish Hektars. I am certain there is proof of this locked away in a vault in that platform, but I need your help to get it. A station protects the vault, and I need it destroyed!"</text>
 			<choice hidden="true">
@@ -1285,7 +1285,7 @@
 					<text>As Astrid claimed, to access the platform, you'll first have to take out a Hektar station. Get ready to fight!</text>
 					<ship load="SHIP_HEKTAR_IKEA" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1304,11 +1304,11 @@
         <event>
             <text>After a little bit of a struggle, you get the vault open and enter. Inside are various documents and messily written letters, signed by a "Carle Hektar." Astrid explains Carle was the original founder of Hektar many many years ago before the Federation had even been founded.</text>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event>
                     <text>At last, Astrid finds what he is looking for. A journal entry, which reads; "Today I visited Earth! I've always loved human culture. On my trip, I met this lovely gentleman who owned a furniture corporation. When I told him Slugs rarely furnished their homes, he was shocked! And then, the lad gave me a most brillant idea I'll never forget. He said I should start a furniture company myself! I owe everything to that man."</text>
                     <choice hidden="true">
-                        <text>Continue...</text>
+                        <text>계속...</text>
                         <event>
                             <text>Astrid seems at a loss for words. "I... uh..." He clears his throat. "Well, I guess I better pay you for your help. I'm going to go cry in a bathroom now."</text>
                             <weapon name="RANDOM"/>
@@ -1329,7 +1329,7 @@
 			<text>You engage the Zoltan ship.</text>
 			<ship load="SHIP_HEKTAR_PATENT_ZOLTAN" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1340,7 +1340,7 @@
 			<text>You engage the Hektar ship.</text>
 			<ship load="SHIP_HEKTAR_PATENT_HEKTAR" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1354,7 +1354,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1374,7 +1374,7 @@
 	<text load="TEXT_ENCOUNTER_HEKTAR"/>
 	<ship load="SHIP_HEKTAR_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1417,7 +1417,7 @@
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice hidden="true">
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -1433,7 +1433,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1449,7 +1449,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1466,7 +1466,7 @@
 				<event>
 					<text>Obyn places the necklace back where it was carefully. "A gift, from an old friend of ours." He stops, and looks around the room. "I know what this place is. Sylvan told me about it. Whenever he needed to escape from his parents and later on his brother, he would come here. This became his home away from home. He would continue to visit from time to time. After our showdown with the EHG, he brought me here once." Obyn glances at the bed and a strange hazmat suit tailored for a Slug next to it. "Hmph. Good memories."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>You walk around the room, looking for nothing in particular, until you find a map pinned to the wall, showing a star system unlike anything you've ever seen. All kinds of strange labels are scattered around, and a single sticky-note carries coordinates which you mark on your own map. Nothing else here seems to be of any use to you, so you do one more once over and close the door behind you.</text>
 							<quest event="NEXUS_PORTAL"/>

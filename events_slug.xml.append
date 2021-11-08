@@ -36,7 +36,7 @@
 	<text>It's rare for the Slugs to stay exposed in open space for long periods - the ship here may be lost, or just passing through, but either way he moves in to attack!</text>
 	<ship load="SHIP_SLUG_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -45,7 +45,7 @@
 	<text load="TEXT_SLUG_PIRATE_CLEARING"/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -59,7 +59,7 @@
 	<text load="TEXT_SLUG_REBEL_CLEARING"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -73,7 +73,7 @@
 	<text>You intercept comm chatter from an incoming Mantis ship. "Look. This ship appears not to be owned by the squishy ones. Maybe they won't smell so bad when we cut them open." They move in on your position.</text>
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event> 
@@ -98,11 +98,11 @@
 		<event>
 			<text>The refugees pay you no mind, and eventually jump away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -115,7 +115,7 @@
 		<text>As you hail the refugee ship, a Slug ship jumps into the system... it was hunting the refugee ship for sport and now they've found you instead!</text>
 		<ship load="SHIP_SLUG_REFUGEE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -129,7 +129,7 @@
 			<text>You lock onto the Mantis ship and engage.</text>
 			<ship load="SHIP_SLUG_DISTRESS_MANTIS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -140,7 +140,7 @@
 			<text>You move to finish what the Mantis have started.</text>
 			<ship load="SHIP_SLUG_DISTRESS_MANTIS_SLUG" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -184,7 +184,7 @@
 				<item type="scrap" min="-100" max="-100"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SCAM_UNLOCK"/>
 			</choice>
 		</event>
@@ -202,7 +202,7 @@
 						<item type="scrap" min="-99" max="-99"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SCAM_UNLOCK"/>
 					</choice>
 				</event>
@@ -220,7 +220,7 @@
 								<item type="scrap" min="-98" max="-98"/>
 							</item_modify>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="SCAM_UNLOCK"/>
 							</choice>
 						</event>
@@ -238,7 +238,7 @@
 										<item type="scrap" min="-97" max="-97"/>
 									</item_modify>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="SCAM_UNLOCK"/>
 									</choice>
 								</event>
@@ -256,7 +256,7 @@
 												<item type="scrap" min="-96" max="-96"/>
 											</item_modify>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="SCAM_UNLOCK"/>
 											</choice>
 										</event>
@@ -274,7 +274,7 @@
 												<event load="STORAGE_CHECK"/>
 											</choice>
 											<choice>
-												<text>Do nothing.</text>
+												<text>아무것도 하지 않는다.</text>
 												<event/>
 											</choice>
 										</event>
@@ -290,7 +290,7 @@
 										<event load="STORAGE_CHECK"/>
 									</choice>
 									<choice>
-										<text>Do nothing.</text>
+										<text>아무것도 하지 않는다.</text>
 										<event/>
 									</choice>
 								</event>
@@ -306,7 +306,7 @@
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice>
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -322,7 +322,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -338,7 +338,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -349,7 +349,7 @@
 		<text>The Slugs are enraged that you dare insult them by negotiating another time, and open fire!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -379,7 +379,7 @@
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -399,11 +399,11 @@
 		<event load="NEBULA_SLUG_BIOLAB_INVESTIGATE"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Upg. Sensors) Scan the station.</text>
+		<text>(고급 Sensors) Scan the station.</text>
 		<event load="NEBULA_SLUG_BIOLAB_SCANS"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Adv. Sensors) Scan the station.</text>
+		<text>(최고급. Sensors) Scan the station.</text>
 		<event load="NEBULA_SLUG_BIOLAB_SCANS_GOOD"/>
 	</choice>
 	<choice hidden="true" req="BLUELIST_DRONES_BOARDER">
@@ -419,7 +419,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -429,7 +429,7 @@
 	<event>
 		<text>The inside of the station is a gruesome sight. All around are dead bodies of Slugs, their skin a ghostly white. There doesn't appear to be any signs of struggle or a fight...</text>
 		<choice hidden="true">
-			<text>Keep looking.</text>
+			<text>계속 찾는다.</text>
 			<event>
 				<text>As you explore the labs, you find several broken test tubes. It looks to be that the Slugs were creating some sort of bioweapon, but it escaped and killed all of the scientists!</text>
 				<choice hidden="true">
@@ -450,7 +450,7 @@
 			<event load="NEBULA_SLUG_BIOLAB_INVESTIGATE_CLOSET"/>
 		</choice>
 		<choice hidden="true">
-			<text>Ignore the closet and leave.</text>
+			<text>Ignore the closet and 떠난다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -458,7 +458,7 @@
 		<text>To your surprise, the crew of the station is still alive, and not pleased with you boarding them! Prepare for a fight.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -475,7 +475,7 @@
 </eventList>
 <eventList name="NEBULA_SLUG_BIOLAB_INVESTIGATE_CLOSET">
 	<event>
-		<text>Inside the closet, you find one of the Slug scientists, still alive. They explain that the station was in the middle of developing a bioengineered virus, but an accident caused the crew to become infected and promptly die. With all of the hosts dead, it's not likely the virus is still around, but the Slug advises you leave. You grab their tech before you leave.</text>
+		<text>Inside the closet, you find one of the Slug scientists, still alive. They explain that the station was in the middle of developing a bioengineered virus, but an accident caused the crew to become infected and promptly die. With all of the hosts dead, it's not likely the virus is still around, but the Slug advises you 떠난다. You grab their tech before you 떠난다.</text>
 		<crewMember amount="1" class="slug"/>
 		<augment name="COMBAT_OXYGEN_UNSTABLE"/>
 	</event>
@@ -515,7 +515,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -742,7 +742,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -770,7 +770,7 @@
 	<ship load="SHIP_SLUG_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -787,7 +787,7 @@
 	<ship load="SHIP_MANTIS_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -802,7 +802,7 @@
 			<text>You prepare for combat</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -829,7 +829,7 @@
 			<text>You hurry to man the weapons and take back the antidote from the Slugs.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -845,7 +845,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="medbay" lvl="2">
-		<text>(Upg. Medbay) Cure your crew.</text>
+		<text>(고급 Medbay) Cure your crew.</text>
 		<event>
 			<text>Luckily you're able to treat your crew. The Slugs are annoyed, but now that they have no leverage they're helpless and pay you some scrap to let them go in peace.</text>
 			<clearTriggeredEvent name="TIMER_SLUG_INFECTOR_POISON"/>
@@ -865,13 +865,13 @@
 	<text>There are few more vicious beasts in the galaxy than a Slug with his back to the wall. The faltering ship armed with fire-weapons uses a remote hacking tool to try and disable your door system - they're going to burn you out!</text>
 	<environment type="nebula"/>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You'll have to kill this Slug ship quickly if you don't want to meet a painful death by fire.</text>
 			<status type="limit" target="player" system="doors" amount="0"/>
 			<ship load="SHIP_SLUG_STATUS_DOORS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -879,11 +879,11 @@
 	<choice hidden="true" req="hacking">
 		<text>(Hacking System) Counter the remote hacking.</text>
 		<event>
-			<text>Your hacking system automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your hacking system automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<ship load="SHIP_SLUG_STATUS_HACKING" hostile="true"/>
 			<status type="limit" target="player" system="hacking" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -891,9 +891,9 @@
 	<choice hidden="true" req="ANTI_VIRUS">
 		<text>(Anti-Virus) Counter the remote hacking.</text>
 		<event>
-			<text>Your Anti-virus module automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your Anti-virus module automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -905,7 +905,7 @@
 	<ship load="SHIP_SLUG_STATUS_OXYGEN_FIRE" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="oxygen" lvl="2">
@@ -914,7 +914,7 @@
 			<text>Thankfully your improved subsystem is able to counter their hacking enough to keep the life support barely functional. That should keep you alive at least...</text>
 			<status type="divide" target="player" system="oxygen" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -922,11 +922,11 @@
 	<choice hidden="true" req="hacking">
 		<text>(Hacking System) Counter the remote hacking.</text>
 		<event>
-			<text>Your hacking system automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your hacking system automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<status type="limit" target="player" system="hacking" amount="0"/>
 			<status type="clear" target="player" system="oxygen" amount="100"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -934,9 +934,9 @@
 	<choice hidden="true" req="ANTI_VIRUS">
 		<text>(Anti-Virus) Counter the remote hacking.</text>
 		<event>
-			<text>Your Anti-virus module automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your Anti-virus module automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -948,13 +948,13 @@
 	<boarders min="2" max="2" class="slug"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Your medical system shuts off. You prepare to defend your ship</text>
 			<status type="limit" target="player" system="medbay" amount="0"/>
 			<status type="limit" target="player" system="clonebay" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -965,7 +965,7 @@
 			<text>Fearing the imminent battle you desperately try to get the medbay working again. Its lights flicker back on and you turn to face the intruders.</text>
 			<status type="divide" target="player" system="medbay" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -976,7 +976,7 @@
 			<text>You are able to undo the damage of their remote hacking satellite but it's taking everything your hacking system has. Time to take out the enemy the old fashioned way.</text>
 			<status type="limit" target="player" system="hacking" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -984,9 +984,9 @@
 	<choice hidden="true" req="ANTI_VIRUS">
 		<text>(Anti-Virus) Counter the remote hacking.</text>
 		<event>
-			<text>Your Anti-virus module automatically counters the digital assault and you move in to fight the ship.</text>
+			<text>Your Anti-virus module automatically counters the digital assault and you move in to 함선과 전투한다.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1009,7 +1009,7 @@
 	<ship load="SHIP_SLUG_FIGHT" hostile="true"/>
 	<environment type="storm"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1050,7 +1050,7 @@
 		<event>
 			<text>The Slugs welcome you onboard, giving you a tour of their ship. It's actually rather nice, and you don't see any illegal contraband either. They offer you a glass of juice from some alien fruit, have a toast for your new friendship, and then return back to your ship.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="NEBULA_SLUG_DRUGS_LEAVE"/>
 			</choice>
 		</event>
@@ -1065,7 +1065,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1080,7 +1080,7 @@
 		<text>As you arrive on your ship you notice your head is feeling very light. You stumble around, almost falling over. A blaring siren blasts through your ship, and you run to the bridge. A giant menacing Rock ship is moving in to attack! Your crew look at you strangely as you give orders to defend the ship from the Rockmen, but they don't argue.</text>
 		<ship load="SHIP_ROCK_DRUGS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK_FAIL"/>
 		</choice>
 	</event>
@@ -1088,7 +1088,7 @@
 		<text>As you arrive on your ship you notice your head is feeling very light. You stumble around, almost falling over. A blaring siren blasts through your ship, and you run to the bridge. A giant menacing Rock ship is moving in to attack! Your crew look at you strangely as you give orders to defend the ship from the Rockmen, but they don't argue.</text>
 		<ship load="SHIP_ROCK_DRUGS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK_FAIL"/>
 		</choice>
 	</event>
@@ -1097,7 +1097,7 @@
 	<text>Your confused stupor wears off, and you suddenly come to the realization that the ship you were fighting was no Rock Picket at all. Instead, it was simply a few asteroids that had drifted dead into the nebulae. Luckily, the damage you dealt to them exposed some harvestable fuel.</text>
 	<autoReward level="HIGH">fuel_only</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="NEBULA_SLUG_DRUGS_WIN"/>
 	</choice>
 </event>
@@ -1177,7 +1177,7 @@
 			<text>You power up your weapons and engage the Slug vessel.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1198,7 +1198,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1233,17 +1233,17 @@
 </event>
 <eventList name="SLUG_JAILER_KILL_SLAVES">
 	<event>
-		<text>It appears the prisoners did not survive the fight. There's nothing left for you to do except leave.</text>
+		<text>It appears the prisoners did not survive the fight. There's nothing left for you to do except 떠난다.</text>
 	</event>
 	<event>
 		<text>It appears most of the prisoners died or were severaly injured during the fight. One lone survivor stumbles out of his cell, and with some help is healthy enough to work aboard your ship.</text>
 		<crewMember amount="1" class="human"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice hidden="true" req="clonebay" lvl="2">
-			<text>(Upg. Clone Bay) Try to save some of the prisoners.</text>
+			<text>(고급 Clone Bay) Try to save some of the prisoners.</text>
 			<event>
 				<text>You manage to get DNA samples from a few of the injured prisoners and enter them into the Clone Bay. After reviving them, they thank you and pay you with what little they managed to sneak with them.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
@@ -1289,11 +1289,11 @@
 		<event>
 			<text>The refugees pay you no mind and eventually jump away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1314,21 +1314,21 @@
 			<text>The Slug feigns offense at your refusal, but you sense that he respects your caution. This does not, however, prevent him from returning to his ship and opening fire.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ROCK">
-		<text>(Rock Crew) Have your Rockman pose as captain.</text>
+		<text>(락맨 선원) Have your Rockman pose as captain.</text>
 		<event load="SLUG_DRINK_ROCK"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SHELL">
-		<text>(Shell Crew) Have your Shell pose as captain.</text>
+		<text>(Shell 선원) Have your Shell pose as captain.</text>
 		<event load="SLUG_DRINK_SHELL"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(Ghost Crew) Have your Ghost pose as captain.</text>
+		<text>(유령 선원) Have your Ghost pose as captain.</text>
 		<event load="SLUG_DRINK_GHOST"/>
 	</choice>
 </event>
@@ -1355,7 +1355,7 @@
 		<text>Your crewmember is able to identify a heavy anesthetic contained in the flask when he feels slightly drowsy (the Rock digestion system is very robust). His ruse discovered, the Slug immediately returns to his ship and opens fire.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1370,7 +1370,7 @@
 		<text>Your Shell takes a taste of the drink... and immediately proceeds to spit it back right on the Slug's face. "Sssslimy rotten ball... I'll sssell your carcassss to the Clanssm-" The Shell seemingly wasn't interested in hearing the rest of their threat and opened fire with their blaster to silence them. You hope the Shell's reaction to the drink was necessary and not just because it tasted bad to them... One less con artist Slug to deal with, but you still have to deal with an incoming hostile ship, full of just as bad offenders.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1385,7 +1385,7 @@
 		<text>As soon as your Ghost goes aboard, the Slug captain curses. "You insssult me by ssending crew who cannot even drink? Sssure I wasss going to betray you anywaysss, but thisss isss jussst rude!"</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1401,7 +1401,7 @@
 			<ship load="SHIP_SLUG_STATUS_SHIELDS" hostile="true"/>
 			<status type="divide" target="player" system="shields" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="ANTI_VIRUS">
@@ -1410,7 +1410,7 @@
 					<text>Your shield system is restored to full power.</text>
 					<status type="clear" target="player" system="shields" amount="100"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1424,7 +1424,7 @@
 			<ship load="SHIP_SLUG_STATUS_OXYGEN" hostile="true"/>
 			<status type="divide" target="player" system="oxygen" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="ANTI_VIRUS">
@@ -1433,7 +1433,7 @@
 					<text>Your oxygen system is restored to full power.</text>
 					<status type="clear" target="player" system="oxygen" amount="100"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1447,7 +1447,7 @@
 			<ship load="SHIP_SLUG_STATUS_WEAPONS" hostile="true"/>
 			<status type="divide" target="player" system="weapons" amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="ANTI_VIRUS">
@@ -1456,7 +1456,7 @@
 					<text>Your weapon system is restored to full power.</text>
 					<status type="clear" target="player" system="weapons" amount="100"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1466,7 +1466,7 @@
 	<choice hidden="true">
 		<text>Offer 35 scrap to leave you alone.</text>
 		<event>
-			<text>"I really am feeling generousss..." They take the scrap and leave.</text>
+			<text>"I really am feeling generousss..." They take the scrap and 떠난다.</text>
 			<item_modify>
 				<item type="scrap" min="-35" max="-35"/>
 			</item_modify>
@@ -1479,7 +1479,7 @@
 			<ship load="SHIP_SLUG_STATUS_HACKING" hostile="true"/>
 			<status type="limit" target="player" system="hacking" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1494,11 +1494,11 @@
 		<event>
 			<text>"Too bad! Trussst iss a rare commodity these days." You prepare to jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1535,7 +1535,7 @@
 		<ship load="SHIP_SLUG_STATUS_ENGINES" hostile="true"/>
 		<status type="limit" target="player" system="engines" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1560,7 +1560,7 @@
 				<damage amount="4"/>
 				<damage amount="1" system="random"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -1584,7 +1584,7 @@
 				<ship load="SHIP_SLUG_STATUS_WEAPONS" hostile="true"/>
 				<status type="divide" target="player" system="weapons" amount="2"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -1609,11 +1609,11 @@
 			<event>
 				<text>"Too bad. Farewell, traveller." Their mobile station slips into the clouds.</text>
 				<choice>
-					<text>Do something onboard the ship.</text>
+					<text>함선에서 무언가를 한다.</text>
 					<event load="STORAGE_CHECK"/>
 				</choice>
 				<choice>
-					<text>Do nothing.</text>
+					<text>아무것도 하지 않는다.</text>
 					<event/>
 				</choice>
 			</event>
@@ -1623,7 +1623,7 @@
 		<text>Just before the transmission is cut you hear, "They're not falling for it. Just kill the crew and we can ssstrip..." Looks like you're not getting out of here without a fight.</text>
 		<ship load="SHIP_SLUG_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1649,13 +1649,13 @@
 		<event load="SLUG_DISTRESS_TRICK_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You know better than to trust the Slugs. You cut communications and prepare to jump.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="mantis">
-		<text>(Mantis Crew) Have your Mantis oversee the repairs.</text>
+		<text>(Mantis 선원) Have your Mantis oversee the repairs.</text>
 		<event>
 			<text>Once on board, it becomes clear that nothing is wrong with their O2 system. Almost expecting this, your Mantis calmly responds to the trap. Once a couple of the Slugs have been spread across the walls of their ship, the rest surrender.</text>
 			<autoReward level="HIGH">scrap_only</autoReward>
@@ -1668,7 +1668,7 @@
 		<ship hostile="true"/>
 		<boarders min="1" max="3" class="slug"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1680,7 +1680,7 @@
 			<text>Fortunately, your crewmember was immediately revived by the Clone Bay.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1699,7 +1699,7 @@
 		<event load="SLUG_DISTRESS_ROCK_FIGHT"/>
 	</choice>
 	<choice>
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event load="SLUG_DISTRESS_ROCK_AVOID"/>
 	</choice>
 </event>
@@ -1711,31 +1711,31 @@
 		<text>You charge weapons and the Slugs quickly change course to meet your charge.</text>
 		<ship load="SHIP_SLUG_DISTRESS_ROCK" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 </eventList>
 <eventList name="SLUG_DISTRESS_ROCK_AVOID">
 	<event>
-		<text>You have no desire to provoke Slugs in their own territory. You leave them alone.</text>
+		<text>You have no desire to provoke Slugs in their own territory. You 내버려 둔다.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>You have no desire to provoke the Slugs in their own territory. You leave them alone.</text>
+		<text>You have no desire to provoke the Slugs in their own territory. You 내버려 둔다.</text>
 		<choice>
-			<text>Do something onboard the ship.</text>
+			<text>함선에서 무언가를 한다.</text>
 			<event load="STORAGE_CHECK"/>
 		</choice>
 		<choice>
-			<text>Do nothing.</text>
+			<text>아무것도 하지 않는다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -1743,7 +1743,7 @@
 		<text>After the Slugs board the ship, you are surprised to see the Rock ship spring to life and decimate the other ship. They message you, "Pathetic. You are either a coward or an ally of the Slugs. Either way, you don't deserve to live."</text>
 		<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1905,7 +1905,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore them.</text>
+		<text>무시한다.</text>
 		<event>
 			<text>You have no interest in anything the Slugs could make business out of. Time to move on.</text>
 		</event>
@@ -1915,11 +1915,11 @@
 	<environment type="nebula"/>
 	<text>You catch up with the two Slug ships and they're already carrying out their raid! One is in close combat with the pirate, the other seems to be heading for a small space cache the pirate was protecting.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Suddenly the first ship bursts into flames, and an urgent call arrives from the remaining Slugs. "We sssugest you distract the pirate vesssel while we retrieve the valuables. Fifty fifty sssplit."</text>
 			<choice hidden="true">
-				<text>Engage the pirate.</text>
+				<text>해적과 전투한다.</text>
 				<event>
 					<text>There's money to be made here. The Slugs know that. You turn on the pirate and intercept just before he can reach the cache!</text>
 					<ship load="SHIP_QUEST_SLUG_PIRATE_TRAP1" hostile="true"/>
@@ -1960,7 +1960,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -1968,12 +1968,12 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Fight the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
 			<text>For some reason you have decided to tangle with the Rock Elite. You hurry to combat positions.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1981,13 +1981,13 @@
 	<choice hidden="true">
 		<text>We should get the hell out of here.</text>
 		<event>
-			<text>Tangling with a Rock Elite is the worst thing you could do. You leave the ship alone.</text>
+			<text>Tangling with a Rock Elite is the worst thing you could do. You 함선을 내버려 둔다.</text>
 			<choice>
 				<text>Do something on-board the ship.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2007,7 +2007,7 @@
 					<text>You aren't letting the Slugs go without a fight.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2023,7 +2023,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Forget this, let's leave.</text>
+		<text>Forget this, let's 떠난다.</text>
 		<event>
 			<text>You've lost interest in the reward, and decide not to chase down the Slugs.</text>
 			<choice>
@@ -2031,7 +2031,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2064,7 +2064,7 @@
 	<ship load="SHIP_SLUG_UNLOCK_1" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2106,13 +2106,13 @@
 			<text>You'll be damned if you came all this way just to flake out. You raise the weapons and attack the station.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Seems like a wise idea to leave.</text>
+		<text>Seems like a wise idea to 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2170,7 +2170,7 @@
 	<text>Deep in the nebula here is perhaps the last thing you expected to ever see...</text>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>It's a busy casino! Ships come and go, and while most are Slugs, there are those of other sorts as well.</text>
 			<choice hidden="true">
@@ -2217,7 +2217,7 @@
 						</event>
 					</choice>
 					<choice>
-						<text>Nevermind, lets leave.</text>
+						<text>Nevermind, lets 떠난다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2231,7 +2231,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -2287,7 +2287,7 @@
 				<event load="SLUGHOME_CASINO_STAFF"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ZOLTAN">
-				<text>(Zoltan Crew) Convince them to reach a peaceful solution.</text>
+				<text>(Zoltan 선원) Convince them to reach a peaceful solution.</text>
 				<event>
 					<text>Your Zoltan lectures the two groups about peaceful resolution and the necessity of pacifism... but all it accomplishes is putting the entire crowd to sleep. You take advantage of the situation and salvage some supplies laying around the casino and head back to the ship.</text>
 					<autoReward level="MED">stuff</autoReward>
@@ -2511,7 +2511,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2529,7 +2529,7 @@
 			<text>The Jailer ship slinks back while the much stronger Elite moves to fight you.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2543,7 +2543,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2560,7 +2560,7 @@
 			<text>As you approach the gravesite, an Elite Slug vessel moves in to protect the planet!</text>
 			<ship load="SHIP_SLUG_GRAVE_ELITE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2574,7 +2574,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2647,7 +2647,7 @@
 					<text>These people need to be rescued! You power up the engines and engage the Cealaforming Station.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -2667,7 +2667,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2696,25 +2696,25 @@
 			</event>
 		</choice>
 		<choice req="mind" hidden="true">
-			<text>(Mind Control) Reverse the effects.</text>
+			<text>(정신 지배l) Reverse the effects.</text>
 			<event>
 				<text>Luckily the system is able to restore your crew to normal, and you escape quickly.</text>
 			</event>
 		</choice>
 		<choice req="hacking" hidden="true">
-			<text>(Hacking) Reverse the effects.</text>
+			<text>(해킹) Reverse the effects.</text>
 			<event>
 				<text>Luckily the system is able to restore your crew to normal, and you escape quickly.</text>
 			</event>
 		</choice>
 		<choice req="LIST_CREW_SLUG" hidden="true">
-			<text>(Slug Crew) Have your slug speak to them telepathically.</text>
+			<text>(Slug 선원) Have your slug speak to them telepathically.</text>
 			<event>
 				<text>Luckily your Slug is able to help your crew keep sane long enough, and you escape quickly.</text>
 			</event>
 		</choice>
 		<choice req="engines" lvl="4" hidden="true">
-			<text>(Upg. Engines) Escape from the range of the station as fast as possible.</text>
+			<text>(고급 Engines) Escape from the range of the station as fast as possible.</text>
 			<event>
 				<text>You pilot away from the station quickly, and your crew turns to normal.</text>
 			</event>
@@ -2754,7 +2754,7 @@
 	<ship load="SHIP_SLUG_ELITE_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2763,7 +2763,7 @@
 	<text>The Slug Hackers are surprisingly rare, even in Slug territory. Despite this, you seem to have had the misfortune to have encountered one at this beacon.</text>
 	<ship load="SHIP_HACKER" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -2786,7 +2786,7 @@
 			<text>For some reason you have decided to attack the Slugs. Though the facility is unarmed, one of their vessels rises to meet you and defend them.</text>
 			<ship load="SHIP_SLUG_POWERPLANT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2810,7 +2810,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2866,7 +2866,7 @@
 			<text>As you move in to attack, a smaller ship escorting the barge moves in to defend. You must have missed them from behind the immense size of the barge, but a fight is now unavoidable.</text>
 			<ship load="SHIP_PLEASURE_ESCORT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2880,7 +2880,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -2897,14 +2897,14 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Adv. Sensors) Track their jump signatures.</text>
+		<text>(최고급. Sensors) Track their jump signatures.</text>
 		<event>
 			<text>You might not be able to fight it here, but you're able to lock onto the ship's jump signatures. You'll be able to follow it with ease now.</text>
 			<quest event="SLUGHOME_PLEASURE_2"/>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SLUG">
-		<text>(Slug Crew) Track their jump signatures.</text>
+		<text>(Slug 선원) Track their jump signatures.</text>
 		<event>
 			<text>You might not be able to fight it here, but your Slug is able to lock onto the ship's jump signatures. You'll be able to follow it with ease now.</text>
 			<quest event="SLUGHOME_PLEASURE_2"/>
@@ -2928,7 +2928,7 @@
 	<status type="divide" target="player" system="sensors" amount="2"/>
 	<ship load="SHIP_PLEASURE_BARGE" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="SLUGHOME_PLEASURE_2"/>
 	</choice>
 </event>
@@ -2944,13 +2944,13 @@
 			<text>You approach the barge and prepare to finish it off once and for all.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>You've done enough. Leave them alone.</text>
+		<text>You've done enough. 내버려 둔다.</text>
 		<event>
 			<text>You've already needlessly scared the Slugs on-board, there's no reason to continue your attack.</text>
 			<choice hidden="true">
@@ -2958,7 +2958,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3005,7 +3005,7 @@
 				<ship hostile="false"/>
 				<autoReward level="HIGH">standard</autoReward>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="SLUGHOME_PLEASURE_HIDDENAUG"/>
 				</choice>
 			</event>
@@ -3021,7 +3021,7 @@
 						<ship hostile="false"/>
 						<crewMember amount="1" pilot="2" class="sabo"/>
 						<choice hidden="true">
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="SLUGHOME_PLEASURE_HIDDENAUG"/>
 						</choice>
 					</event>
@@ -3038,7 +3038,7 @@
 								<drone name="BUTLER_DEFENSE"/>
 								<autoReward level="HIGH">stuff</autoReward>
 								<choice hidden="true">
-									<text>Continue...</text>
+									<text>계속...</text>
 									<event load="SLUGHOME_PLEASURE_HIDDENAUG"/>
 								</choice>
 							</event>
@@ -3056,12 +3056,12 @@
 		<text>The Pleasure Barge explodes, scattering debris and the corpses of dozens of civilian Slug corpses. You salvage the debris, of which there is quite a decent portion of.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>As you fly away, you spot a single life-pod that survived the explosion. Inside is a slave who was forced to work aboard the barge. Now free, they join your crew.</text>
 				<crewMember amount="1"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="SLUGHOME_PLEASURE_HIDDENAUG"/>
 				</choice>
 			</event>
@@ -3072,11 +3072,11 @@
 		<autoReward level="HIGH">stuff</autoReward>
 		<drone name="BUTLER_DEFENSE"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>The ship is eerily quiet. You've done a proficient job of clearing out the crew, and it would be a shame to let it go to waste. You reprogram the ship's FTL drive to direct the ship back to the nearest Federation base, where it will be scanned and rebuilt for future Multiverse travelers.</text>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="SLUGHOME_PLEASURE_HIDDENAUG"/>
 				</choice>
 			</event>
@@ -3121,23 +3121,23 @@
 						<event>
 							<text>You take a seat next to the grazing ponies, and one wanders over and plants its muzzle on your shoulder. The clouds move around you in seemingly patternless motions as he begins his story. "Once, many years ago, there was a boy who would come here with his uncle. His father was gone, and his mother dead. His uncle was a proud man, but the boy was meek. These trips were unusual and not an easy liberty, but his uncle wanted so desperately to earn the boy's affection."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"At first they came and simply watched the wildlife, but they never got too close. His uncle forbade it. One day, his uncle brought a gun. He showed the boy how to use it, and shot a bird from the sky. But all the boy did was cry. His uncle did not understand, and every day this would repeat itself. The pair would come, an animal would die, the boy would cry. The boy wielded the gun several times, and he fired it with deadly accuracy, but never once would he hit an animal. Instead, he would shoot cans and stones."</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>"One day, his uncle simply gave up. He stayed in his ship and let the boy free. He hoped he would learn to grow cold once he saw the equinoids did not share the same love for him as he did for them. But the boy would eagerly spend every day feeding the equinoids in bliss. The equinoids treated them as one of their own foals. The boy and the equinoids had more in common than the boy's own uncle. Bastardized and left without a home, forced into a new purpose by a master who did not understand their true nature."</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>"Every day the boy would beg his uncle to travel here, and every day his uncle's jealousy grew. How could the boy love a mindless alien more than his own flesh and blood? One day, the equinoids roamed further than they had before, and the boy followed. Soon, he even left the sight of his uncle, who in a panic realized he had lost track of the precious child and rushed after him. The boy wandered aimlessly but never afraid until he found a wreck. Mossy and rusted the ship lay in a state of disrepair, piloted by a lost Engi."</text>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>"The Engi was wounded, having been shot down by a Clansman who had seen through the disguise of his stolen craft. The Engi, too, had befriended the equinoids, and the equinoids thought it was time the boy meet the Engi. Good friends the two became, and for hours they talked of nothing in particular. The Engi had seen many things in his travels but understood little, while the boy had been so sheltered yet understood everything he had seen. The boy taught the Engi many things, and the Engi amused the boy with many stories."</text>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
 																	<text>"As night fell, the boy grew tired and bid the Engi goodnight. He walked away, guided once again by the equinoids. The boy never returned. We do not know what happened to him. We miss his voice. The equinoids make good company, but they do not understand our stories..."</text>
 																	<choice hidden="true">
@@ -3145,7 +3145,7 @@
 																		<event>
 																			<text>"Yes. But we are that Engi no more. We have been separated from the Harmony for so long we can hardly remember what it was like. We are nothing but guardians of this place. Many ships come and go. We do not mind them, as long as they do not disturb the equinoids..."</text>
 																			<choice hidden="true">
-																				<text>Continue...</text>
+																				<text>계속...</text>
 																				<event load="PONY_WORLD_HUNTERS"/>
 																			</choice>
 																		</event>
@@ -3167,7 +3167,7 @@
 						<event>
 							<text>"Good. It is rare someone takes the time to admire the beauty of foreign lands like these. Visitors come often, but they merely come and go in a hurry. We do not mind them, as long as they do not disturb the equinoids..."</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="PONY_WORLD_HUNTERS"/>
 							</choice>
 						</event>
@@ -3191,7 +3191,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3206,13 +3206,13 @@
 			<text>As expected, the Slugs don't take kindly to you interupting them. "Why'sss a Federation ssship here anywayssss? Thissss isss Guild territory! Looksss like you jussst became our next hunt!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Seems trouble is brewing. Best we leave.</text>
+		<text>Seems trouble is brewing. Best we 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -3228,17 +3228,17 @@
 	<text>The Slug vessel has been destroyed. Unfortunately the wreckage damages the landscape, but none of the animals are hit. While you are scrapping the wreckage you notice several Slugs are still on the ground tormenting the equinoids.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Before you can do anything, the grey cloud suddenly grows larger and conceals the Slugs in a curtain of grey. You hear a blood curtling scream and suddenly the cloud dissipates, leaving nothing but puddle of lacerated flesh and blood. "We warned them not to disturb the equinoids... Some people simply do not listen..."</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>You watch as the Story Teller floats back to his ship, where it waits for you. "It is unusual that you chose to assist us. It is true you found this place because of our vessel, correct? Then take it. We have no need for it any more."</text>
 					<unlockCustomShip silent="false">PLAYER_SHIP_CLAN</unlockCustomShip>
 					<autoReward level="HIGH">standard</autoReward>
 					<choice hidden="true">
-						<text>Accept the ship and leave.</text>
+						<text>Accept the ship and 떠난다.</text>
 						<event>
 							<text>"Goodbye, friend. We will make sure your story does not go untold..."</text>
 						</event>
@@ -3332,7 +3332,7 @@
 					<text>It seems much like your previous asteroid theory, the empty ship theory is also untrue. A skeleton crew of various races rises to meet you. "Crap, looks like one of the Guild's bounty hunters found us while the boss is out! Rally up men, we'll put these mercs in their place!" You can probably get out of this without killing them, but you doubt they'll be willing to talk until you rough up their hull a bit.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3352,7 +3352,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3395,11 +3395,11 @@
 								<event>
 									<text>"What? The hell are you-" The Clansman is cut off by one of his friends. "He's right Percccy, DO you know the guild motto?" The Clansman stutters. "W-well... I uh- Well I bet you don't know it either!" The other Clansman brings his tentacle up to the back of his head and scratches nervously. "Yeah... I guessss you're right. Does anyone here know?" All of the other Clansmen in the room look at each other and shake their heads.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>The Clansman apparently known as Percy turns to you again. "Ah, well. I guessss we gotta find a better interview quessstion for the future. You get a passs for now."</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="SALT_QUEST_2_SUCCESS"/>
 											</choice>
 										</event>
@@ -3409,22 +3409,22 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="mind">
-						<text>(Mind Control) Of course!</text>
+						<text>(정신 지배l) Of course!</text>
 						<event>
 							<text>Somehow, you had the most brilliant idea of mind controlling... telepathic Slugs. The cannon blasts a hole in your ship, and you're forced to land, drawing in an angry team of guards to meet you.</text>
 							<damage amount="5" system="random" effect="breach"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="SALT_QUEST_2_STUPID"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true" req="LIST_CREW_CLAN">
-						<text>(Clansman Crew) Of course!</text>
+						<text>(Clansman 선원) Of course!</text>
 						<event>
 							<text>Your Clansman crew flashes a smile and pulls out his membership card. It always pays to have connections in the right places. Or... wrong places.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="SALT_QUEST_2_SUCCESS"/>
 							</choice>
 						</event>
@@ -3435,7 +3435,7 @@
 							<text>Somehow, you had the most brilliant idea of cloaking... indoors. Though your ship vanishes from sight, there's literally nowhere for you to go. The cannon blasts a hole in your ship, and you're forced to uncloak and land where an angry team of guards meet you.</text>
 							<damage amount="5" system="random" effect="breach"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="SALT_QUEST_2_STUPID"/>
 							</choice>
 						</event>
@@ -3445,7 +3445,7 @@
 						<event>
 							<text>The Clansman sighs. "Well, atleassst you're honessst." A team of Clansmen guards storm aboard your ship.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="SALT_QUEST_2_STUPID"/>
 							</choice>
 						</event>
@@ -3482,7 +3482,7 @@
 						<item type="scrap" min="-25" max="-25"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SALT_QUEST_2_SUCCESS"/>
 					</choice>
 				</event>
@@ -3500,7 +3500,7 @@
 <event name="SALT_QUEST_2_SUCCESS">
 	<text>You've finally made your way to the prison hold, labeled "Exotic Creature Containment." You shoot a couple guards on the way, picking up a keycard from one of them, which you use to unlock the Salt Man's cell.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You open the cell door, where you find a massive gray creature leaning against a wall as if waiting for you. "I'm going to take a shot in the dark and say you aren't with the Guild, considering that green ooze all over your chest seems like it belongs to a Slug." He sticks out his massive hand. "Name's Obyn, though most just call me 'Salt Man'."</text>
 			<choice hidden="true">
@@ -3520,17 +3520,17 @@
 										<event>
 											<text>"They'd be smart not to, it's unwise to challenge the orders of their captain, though I would be a little disappointed... Now, let's hurry out of here before the Guild sends in some tougher firepower to stop you."</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>Obyn follows you through the corridors of the facility, where you make your way back to the hangar where your ship is held. You hurry inside and take off from the massive facility and make your way back down to the market.</text>
 													<crewMember amount="1" class="salt">Obyn</crewMember>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
 															<text>You begin to think you might actually make it out of here without a fight, when a Clansman cruiser jumps in out of nowhere! "Ah, there you are you little fecal droppingsss! Ssstealing from the Guild only endssss you up in one ssspot! A shallow grave!"</text>
 															<ship load="SHIP_CLAN_CRUISER" hostile="true"/>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event load="COMBAT_CHECK"/>
 															</choice>
 														</event>
@@ -3557,15 +3557,15 @@
 		<event>
 			<text>"Oi! Lad, you don't have to be rude! Anywaysss, you've made your choiccce mate. Time to sssuffer the consssequencc-" The Clansman doesn't get a chance to finish his sentence when an 18 burst salvo takes out his shields then engines, causing him to spiral into a nearby ship and crash into the market below in a fiery ball of destruction!</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>From the sky descends Sylvan's ship, followed by the Salt Man's own cruiser, firing away into the fleet. "Crap crap crap it'sssss Ssssylvan! RUN!" The Clansmen scatter. You knew Sylvan had a particularly... well armed ship, but you didn't think he was strong enough to scare away an entire fleet. Evidently, his departure from the Guild left quite the impression.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>You watch as Sylvan and the Salt cruiser land in front of you. "Sssstranger ssstranger, I knew I could count on you!" Sylvan laughs nervously, then faces Obyn, but before he can speak he's cut off. "If you dare address me as 'stranger' I'll crack open your skull." "Heheh, I wouldn't dream of it Obyn. It'ssss been a long time. How'ssss life?"</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Oh you know, just wandering this scum infested sector and being held captive in labs where they mutilate people for the fun of it." "Ah, I think they call that taxidermy. I did alwayssss find it dissstasssteful..." Sylvan pauses. "I'm ssssorry Obyn, for leaving. I didn't think I could bear to sssee you again, after ssso much time, but when I heard you might be in trouble, I came. But I... I wassss sstill too much of a coward, ssso I sssent thessse friendssss of mine inssstead."</text>
 									<choice hidden="true">
@@ -3573,7 +3573,7 @@
 										<event>
 											<text>Obyn sighs. "You know, I can't blame you. The life of a ruthless killer and the life of a merchant are... well not that different in this climate, but I'm sure there's some differences somewhere. Now, come here." The two lean in for a hug, though Sylvan keeps enough distance away from their bodies to prevent his flesh from being singed from Obyn's salty exterior. This is quite the ironic relationship, you realize.</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="SYLVAN_SALT_REWARD"/>
 											</choice>
 										</event>
@@ -3583,7 +3583,7 @@
 										<event>
 											<text>The two glare at you for a moment, but then Sylvan chuckles. "Ah yesss, I got lossst in the moment again. You have my mossst sssincere thanksss ssstranger! What kind of man would I be if I didn't give you a reward for your efforts!</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="SYLVAN_SALT_REWARD"/>
 											</choice>
 										</event>
@@ -3612,7 +3612,7 @@
 	<unlockCustomShip silent="false">PLAYER_SHIP_SALT</unlockCustomShip>
 	<autoReward level="HIGH">scrap_only</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Sylvan faces Obyn again. "Sssomething wrong Obyn? You look like you've got a Calthorian brain parasssite. Again." Obyn shrugs. "I've got three choices of ships. To be honest... I'm not sure where my journeys should go next."</text>
 			<choice hidden="true">
@@ -3625,7 +3625,7 @@
 						<text>The Salt Man cannot be cloned as he is no longer part of your crew, nor dead.</text>
 					</removeCrew>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SALT_CHOICE_SYLVAN"/>
 					</choice>
 				</event>
@@ -3636,7 +3636,7 @@
 					<text>"A hero of the Federation? You know how to win me over... I've tried being a bounty hunter, but things obviously didn't work well, and the life of a merchant isn't for me. I'm sure we'll see each other again Sylvan. As for you, Garter." Obyn turns to face the Rockman you spoke with earlier. "I'm trusting you with my ship. Take good care of it." Obyn turns to you. "Now, shall we go? I see adventure on the horizon!"</text>
 					<hiddenAug>ACH_CREW_OBYN</hiddenAug>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SALT_CHOICE_SELF"/>
 					</choice>
 				</event>
@@ -3651,7 +3651,7 @@
 						<text>The Salt Man cannot be cloned as he is no longer part of your crew, nor dead.</text>
 					</removeCrew>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SALT_CHOICE_CREW"/>
 					</choice>
 				</event>
@@ -3689,27 +3689,27 @@
 			<text>You arm the weapons and engage the crystalline tourists.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_CLAN">
-		<text>(Guild Crew) Offer them a list of destinations.</text>
+		<text>(Guild 선원) Offer them a list of destinations.</text>
 		<event>
 			<text>"Oh, you're one of them! I greatly appreciate your offer, but there's no need. We already bought a map earlier, we can give you a copy if you'd like!"</text>
 			<reveal_map/>
 		</event>
 	</choice>
 	<choice hidden="true" req="weapons" lvl="5">
-		<text>(Upg. Weapons) Give me everything you have or die.</text>
+		<text>(고급 무기실) Give me everything you have or die.</text>
 		<event>
 			<text>"Jeez! No need to be so hostile! We'll give you anything you want!" The Crystals send over some supplies.</text>
 			<autoReward level="LOW">stuff</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_CRYSTAL">
-		<text>(Crystal Crew) Request supplies.</text>
+		<text>(Crystal 선원) Request supplies.</text>
 		<event>
 			<text>"Oh, hello friend! I assume there's some lovely souvenir you're dying to buy but short on cash, and I'm happy to help!" The Crystals send over some scrap, and you don't bother mentioning you're a military vessel.</text>
 			<autoReward level="MED">scrap_only</autoReward>
@@ -3720,11 +3720,11 @@
 		<event>
 			<text>You leave the tourists be and fly away.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3749,7 +3749,7 @@
 					<status type="limit" target="enemy" system="mind" amount="0"/>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -3765,11 +3765,11 @@
 		<event>
 			<text>For all you know, this could be a trap. You ignore the Clansman.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3784,7 +3784,7 @@
 			<text>You arm the weapons and attack the strange Slug ship.</text>
 			<ship load="SHIP_CLAN_SPICES_KNIGHT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3795,21 +3795,21 @@
 			<text>To do this you'll have to kill the Clansmen without destroying their station. Be careful!</text>
 			<ship load="SHIP_CLAN_SPICES_CLAN" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>The origin of this new Slug vessel will have to go unknown. It's too risky to get involved when there's more important things at hand.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3851,7 +3851,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="soldier">
-						<text>(Soldier Crew) Your Soldier has some training in mounted combat. Send him.</text>
+						<text>(Soldier 선원) Your Soldier has some training in mounted combat. Send him.</text>
 						<event>
 							<text>Your crew steps up to the competitors' chamber amongst some other aliens. Some Clansmen finish up preparing, and then usher in the first few contestants...</text>
 							<choice hidden="true">
@@ -3871,7 +3871,7 @@
 						</event>
 					</choice>
 					<choice hidden="true" req="lizard">
-						<text>(Lizard Crew) Your Lizard has ridden Equinoids before. Send him.</text>
+						<text>(Lizard 선원) Your Lizard has ridden Equinoids before. Send him.</text>
 						<event>
 							<text>Your crew steps up to the competitors' chamber amongst some other aliens. Some Clansmen finish up preparing, and then usher in the first few contestants...</text>
 							<choice hidden="true">
@@ -3917,15 +3917,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>Apparently, you aren't interested in the prospect of riding alien horses. You're pretty boring, all in all.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -3957,7 +3957,7 @@
 	<text>As soon as Jerry mounts the wild beast, the Equinoid is immediately calmed, standing passively while Jerry gently strokes its mane. There's an outroar from the crowd calling you a cheater, but after a quick drug test to verify you didn't subdue the horse you're declared the winner and the prize is brought out!</text>
 	<weapon name="GIFTLIST_BIG_BEAM"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As you prepare to leave the rodeo, you see an Equinoid running towards you dragging the Ranger by its lead. "Woah, woah! Ssstop!" The Clansmen brings the Equinoid to a halt, but only because the horse has stopped right before Jerry. "Thisss one broke out of containment and chasssed you all the way out here. Guesss ssshe really likesss your friend. Might asss well keep her, we got plenty more."</text>
 			<crewMember amount="1" combat="2" class="ponyt"/>
@@ -4005,7 +4005,7 @@
 													<text>"Oh pissss off Federation! You can't judge me!" The Clansman scurries away and sounds the alarm. Looks like we have to fight!</text>
 													<ship load="SHIP_CLAN_PHEROMONES" hostile="true"/> 
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event load="COMBAT_CHECK"/>
 													</choice>
 												</event>
@@ -4036,11 +4036,11 @@
 		<event>
 			<text>If you don't want to risk ending up like these Mantis, you probably shouldn't get any closer.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4071,7 +4071,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ZOLTAN">
-		<text>(Zoltan Crew) Carry out this arrest in an official manner.</text>
+		<text>(Zoltan 선원) Carry out this arrest in an official manner.</text>
 		<event>
 			<text>Your Zoltan breaks out a pair of handcuffs from somewhere and cuffs the Clansmen one by one. They order the facility shut down, citing various codes if you hadn't known better would have assumed were made up, then ushers the Clansmen aboard your ship and confiscated several crates of supplies. When you ask what happens next, your Zoltan shrugs and figures you might as well make use of all this.</text>
 			<autoReward level="HIGH">standard</autoReward>
@@ -4095,32 +4095,32 @@
 						<item type="scrap" min="-500" max="-500"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>While you don't have much use for the ship itself, you might as well scrap all that you can. You start with the weapons...</text>
 							<weapon name="LIST_WEAPONS_ALL_CRAPBUCKET"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>You pull another weapon off of the hull.</text>
 									<weapon name="LIST_WEAPONS_ALL_CRAPBUCKET"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>You pull another weapon off of the hull.</text>
 											<weapon name="LIST_WEAPONS_ALL_CRAPBUCKET"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>You pull another weapon off of the hull.</text>
 													<weapon name="LIST_WEAPONS_ALL_CRAPBUCKET"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
-															<text>Now that you've taken all of the weapons, you grab one of the augments installed on the ship then prepare to leave.</text>
+															<text>Now that you've taken all of the weapons, you grab one of the augments installed on the ship then prepare to 떠난다.</text>
 															<augment name="LIST_WEAPONS_ALL_CRAPBUCKET"/>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event load="BOUGHT_THE_GHOST_SHIP"/>
 															</choice>
 														</event>
@@ -4141,7 +4141,7 @@
 					<text>You arm the weapons and attack the Ghost ship.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -4157,11 +4157,11 @@
 		<event>
 			<text>This is too much, even for you. Some things just aren't meant to be known, seen, or interacted with. This is one of those you reckon, and steer course as far away as possible.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4178,7 +4178,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Don't take the risk and leave.</text>
+		<text>Don't take the risk and 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -4220,7 +4220,7 @@
 										</event>
 									</choice>
 									<choice hidden="true">
-										<text>Leave.</text>
+										<text>떠난다.</text>
 										<event>
 											<text>"Well, goodbye then. Thanksss for making my day, traveler!"</text>
 										</event>
@@ -4230,7 +4230,7 @@
 							<choice hidden="true">
 								<text>Decline.</text>
 								<event>
-									<text>"Ah, oh well. Thanksss for atleassst entertaining the idea..."</text>
+									<text>"Ah, 신경쓰지 말자. Thanksss for atleassst entertaining the idea..."</text>
 								</event>
 							</choice>
 						</event>
@@ -4257,7 +4257,7 @@
 										</event>
 									</choice>
 									<choice hidden="true">
-										<text>Leave.</text>
+										<text>떠난다.</text>
 										<event>
 											<text>"Well, goodbye then. Thanksss for making my day, traveler!"</text>
 										</event>
@@ -4267,7 +4267,7 @@
 							<choice hidden="true">
 								<text>Decline.</text>
 								<event>
-									<text>"Ah, oh well. Thanksss for atleassst entertaining the idea..."</text>
+									<text>"Ah, 신경쓰지 말자. Thanksss for atleassst entertaining the idea..."</text>
 								</event>
 							</choice>
 						</event>
@@ -4294,7 +4294,7 @@
 										</event>
 									</choice>
 									<choice hidden="true">
-										<text>Leave.</text>
+										<text>떠난다.</text>
 										<event>
 											<text>"Well, good bye then. Thanksss for making my day, traveler!"</text>
 										</event>
@@ -4304,7 +4304,7 @@
 							<choice hidden="true">
 								<text>Decline.</text>
 								<event>
-									<text>"Ah, oh well. Thanksss for at leassst entertaining the idea..."</text>
+									<text>"Ah, 신경쓰지 말자. Thanksss for at leassst entertaining the idea..."</text>
 								</event>
 							</choice>
 						</event>
@@ -4319,7 +4319,7 @@
 			<text>Once again, your murderous tendencies have taken the spotlight, and you are now attacking more people.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4329,11 +4329,11 @@
 		<event>
 			<text>You have better things to do than visiting random tourist traps.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4361,13 +4361,13 @@
 			<text>You try not to think about how you're proving the Shell's point and prepare to defend yourself... through violent murder.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_SHELL">
-		<text>(Shell Crew) Reason with them.</text>
+		<text>(Shell 선원) Reason with them.</text>
 		<event>
 			<text>Your Shell reasons with the others, explaining you're only going through this sector to get to Node 17 on your mission. Luckily, the Shells are reasonable and apologize, and offer some fuel and scrap to aid you.</text>
 			<autoReward level="MED">fuel</autoReward>
@@ -4396,7 +4396,7 @@
 		<text>In the end, it seems your reasoning doesn't work. The Shells still accuse you of being a murderer (of which you technically are) and attack!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4416,7 +4416,7 @@
 					<text>You aren't quite sure how to justify your actions, but you're sure you can think of something convincing later. For now, time to fight!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -4452,7 +4452,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_SHELL">
-				<text>(Shell Crew) Request help.</text>
+				<text>(Shell 선원) Request help.</text>
 				<event>
 					<text>"I have a feeling you aren't part of the Geniocracy... buuuuuut we Shells must stick togethhhher. Maybe thhhhis will help?"</text>
 					<autoReward level="MED">standard</autoReward>
@@ -4467,15 +4467,15 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Abide by their warning and leave.</text>
+		<text>Abide by their warning and 떠난다.</text>
 		<event>
 			<text>You now have some time on your hands.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4507,7 +4507,7 @@
 							<text>"Of course not having met one! Secret Coalition tech, not for Federation knowing! Wait, oh I make an oopsie. Cannot let anyone know I told you this!"</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -4536,7 +4536,7 @@
 													<text>"GAH! YOU SO ANNOYING! DIE!"</text>
 													<ship hostile="true"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event load="COMBAT_CHECK"/>
 													</choice>
 												</event>
@@ -4582,7 +4582,7 @@
 														</event>
 													</choice>
 													<choice hidden="true" req="LIST_CREW_HIVE">
-														<text>(Hive Mantis) Convince him to join you.</text>
+														<text>(맨티스 하이브 Mantis) Convince him to join you.</text>
 														<event>
 															<text>"Federation having Mantis? I here thinking only Free Mantis welcome. Federation might be in bad spot, but not bad as Coalition! I take offer, captain."</text>
 															<crewMember amount="1" class="suzerain"/>
@@ -4620,7 +4620,7 @@
 														</event>
 													</choice>
 													<choice hidden="true" req="LIST_CREW_HIVE">
-														<text>(Hive Mantis) Convince him to join you.</text>
+														<text>(맨티스 하이브 Mantis) Convince him to join you.</text>
 														<event>
 															<text>"Federation having Mantis? I here thinking only Free Mantis welcome. Federation might be in bad spot, but not bad as Coalition! I take offer, captain."</text>
 															<crewMember amount="1" class="suzerain"/>
@@ -4668,7 +4668,7 @@
 											<text>"Gah, very annoying. Ask too many question, not understand anything! Federation captain miniscule intelligence, I will kill!"</text>
 											<ship hostile="true"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -4703,11 +4703,11 @@
 		<event>
 			<text>You don't know why the Hive has one of its most feared warriors so far out in Slug space, but it's probably not good.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4738,7 +4738,7 @@
 										<item type="missiles" min="-7" max="-7"/>
 									</item_modify>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="NEBULA_CLAN_TAX_SAVEKLEPT"/>
 									</choice>
 								</event>
@@ -4749,17 +4749,17 @@
 									<text>You're known to be one to commit many crimes yourself in your travels. Though yours are normally warcrimes and this is a case of tax evasion, that doesn't mean you can't help a fellow criminal out. In the name of the Federation, of course.</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
 							</choice>
 							<choice hidden="true" req="LIST_CREW_SLUG">
-								<text>(Slug Crew) Try to reason with the Clansmen.</text>
+								<text>(Slug 선원) Try to reason with the Clansmen.</text>
 								<event>
 									<text>Your Slug goes up to the awning of the cave, where he speaks with the Clansmen. Playing off of their better reason, he convinces them that dying trapped in a cave is a far worse fate than going to prison, even if it's a Slug one. This works, and the Clansmen surrender.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="NEBULA_CLAN_TAX_SAVEKLEPT"/>
 									</choice>
 								</event>
@@ -4769,7 +4769,7 @@
 								<event>
 									<text>"Oh! Uh, sssir! I didn't sssee you there, my king. Er, ex-king. I don't... you don't really have authority over thisss sssir, but I'm a Clairvoyant, and I think you did great thingsss for our nation, even if you weren't the bessst leader at timesss. If you're willing to ssstand up for thessse men though, I won't quessstion it." The Slug clears their debts, then flies away.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="NEBULA_CLAN_TAX_SAVECLAN"/>
 									</choice>
 								</event>
@@ -4789,11 +4789,11 @@
 		<event>
 			<text>You now have some time on your hands.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4827,7 +4827,7 @@
 			<text>"Good, good! Jusssst pleassse don't dessstroy it!"</text>
 			<ship load="SHIP_CLAN_GHOST" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4837,11 +4837,11 @@
 		<event>
 			<text>You aren't some chump change mercenary. You have standards! You mute the Slug.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4858,7 +4858,7 @@
 			<text>You arm the weapons and engage the Duskbringer vessel.</text>
 			<ship load="SHIP_CLAN_DUSK_DUSK" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4869,7 +4869,7 @@
 			<text>You arm the weapons and engage the Clansman vessel.</text>
 			<ship load="SHIP_CLAN_DUSK_CLAN" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4879,11 +4879,11 @@
 		<event>
 			<text>You mute the Clansmen and continue on with your unhelpful existence.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -4908,7 +4908,7 @@
 	<ship load="SHIP_CLAN_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4927,7 +4927,7 @@
 	<ship load="SHIP_CLAN_FIGHT" hostile="true"/>
 	<environment type="storm"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4937,7 +4937,7 @@
 	<ship load="SHIP_SLUG_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -4954,7 +4954,7 @@
 	<ship load="SHIP_SHELL_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -5002,7 +5002,7 @@
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice hidden="true">
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -5036,7 +5036,7 @@
 						<item type="scrap" min="-25" max="-25"/>
 					</item_modify>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>" I need not thisss weapon any longer, it will sssservicce you inssstead. Asss thankss, for your mossst generous offer."</text>
 							<weapon name="RANDOM"/>
@@ -5060,7 +5060,7 @@
 			<choice>
 				<text>Refuse.</text>
 				<event>
-					<text>"You are most uncharitable, and a massssive wassste of time. Had I the weaponsss to chassse you off thisss rock I would, but alasss my only option isss to glare at you until you leave."</text>
+					<text>"You are most uncharitable, and a massssive wassste of time. Had I the weaponsss to chassse you off thisss rock I would, but alasss my only option isss to glare at you until you 떠난다."</text>
 				</event>
 			</choice>
 		</event>
@@ -5080,7 +5080,7 @@
 		<event>
 			<text>"Event? The hell iss an event? Anywaysss, Nightsss isss a pirate and a ssself proclaimed 'badassss.' Every 4 yearsss the Sssslugs hold their Crown Theft Fesssstival, where thievesss compete to sssteal the crown and become the next king. It isss a time honored and non-violent tradition, at leasssst until Nightsss came and killed my men and forced me into giving the crown to him!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"I wasss KING until that sssscumlord cheated and took everything from me! But now with thisss scrap, I can fix up my ssship and retake my throne! Thank you captain. Have thissss augment, and sssshould you wissh to sssee the sspectacle for yoursself, here are the coordinatesss to the Royal Nebula."</text>
 					<augment name="RANDOM"/>
@@ -5113,7 +5113,7 @@
 	<text>You've arrived at the royal palace at last. Slug infrastructure isn't always the most stunning, but you must admit the view in front of you is magnificent. It is no wonder Nights is so reluctant to give up his crown.</text>
 	<img back="BACK_EVENT_SLUG_PALACE" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>As you approach the massive overhang, you can see signs of struggle. It appears Slocknog has already made his move on the palace, along with a fleet of loyal Clairvoyant vessels.</text>
 			<choice hidden="true">
@@ -5121,11 +5121,11 @@
 				<event>
 					<text>Slocknog has begun speaking to the crowd, which consists of both eager supporters protesting against Nights, and the well armed Knights holding them back. "Give it up Nightsssss. Come out of that palaccce and take part in the sssame fesstival every other king before you has eagerly particccipated in! You ssstole that crown, by cheating might I remind you, but if you're truly the brave fighter you claim to be then ssssurely you can protect your throne."</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Slocknog urges Nights to come out several more times, then gives up and waits. There's a moment of silence, finally followed by Night's raspy voice over the intercom. "Fine, you sssshriveled pisss colored sssmelly sssson-of-a-bitch! I'll come out alright!" A few minutes later, Nights's signature ship, the Black Raven, comes bursting out of one of the hangars firing directly at Slocknog's much larger cruiser. Immediately, chaos breaks out.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>The battle around you seems to have consumed the landscape for as far as you can see. Both sides seem to be equal in size. You could easily get involved and influence the outcome of this brawl, but who is the right choice?</text>
 									<choice hidden="true">
@@ -5134,7 +5134,7 @@
 											<text>With Slocknog in charge, the Kleptocracy might finally be able to progress past this stage of barbaric thievery. The Federation aims for a better galaxy, and you'll be damned if you don't do something to see it through.</text>
 											<ship load="SHIP_BLACK_RAVEN" hostile="true"/> 
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -5145,7 +5145,7 @@
 											<text>Nights might seem bad on the surface, but to raise this much of a following surely the guy must have some redeeming qualities in the eyes of the Slugs. If you're going to be involved, you might as well pick someone the Slugs want.</text>
 											<ship load="SHIP_SLOCKNOG" hostile="true"/> 
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="COMBAT_CHECK"/>
 											</choice>
 										</event>
@@ -5169,7 +5169,7 @@
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice hidden="true">
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -5181,7 +5181,7 @@
 	<text>As the Black Raven crashes into the lake, the fighting suddenly seems to come to a halt. You land your ship next to the Clairvoyant Cruiser, where Slocknog smiles and shakes your hand. "I of coursssse could have done it on my own, but... thank you, captain. Thisss isss twiccce now you have gone out of your way to help me. May the ssstarssss ssshine brightesst between usss, eh friend?"</text>
 	<hiddenAug>ACH_BOSS_NIGHTS</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="KNIGHT_PALACE_RESOLUTION_SLOCKNOG_REAL"/>
 	</choice>
 	<choice hidden="true" req="MARKER_GOT_CLANCROWN">
@@ -5193,7 +5193,7 @@
 				<event>
 					<text>The Slugs have just found the Black Raven's wreck, and have dropped it onto the bank. You'll need stealth to get over there undetected.</text>
 					<choice hidden="true" req="cloaking" lvl="2">
-						<text>(Upg. Cloaking) Cloak and approach.</text>
+						<text>(고급 Cloaking) Cloak and approach.</text>
 						<event>
 							<text>You cloak the ship and pilot closer to the wreckage. Now, you'll need to be able to teleport your crew onto the Raven without being seen.</text>
 							<choice hidden="true" req="teleporter">
@@ -5201,11 +5201,11 @@
 								<event>
 									<text>Now that your crew are aboard, the stakes are a lot higher. Unfortunately, it's not easy to see in the dark corridors.</text>
 									<choice hidden="true" req="sensors" lvl="2">
-										<text>(Upg. Sensors) Guide them.</text>
+										<text>(고급 Sensors) Guide them.</text>
 										<event load="KNIGHT_PALACE_THEFT"/>
 									</choice>
 									<choice hidden="true" req="ADV_SCANNERS">
-										<text>(LRS) Guide them.</text>
+										<text>(장거리 센서) Guide them.</text>
 										<event load="KNIGHT_PALACE_THEFT"/>
 									</choice>
 									<choice hidden="true">
@@ -5243,7 +5243,7 @@
 <event name="KNIGHT_PALACE_THEFT">
 	<text>Your Clansman grabs the crown, holding it up to admire. However, a band of Saboteurs burst in and see your crew, and draw their lasers to shoot. Your team is almost killed before the Clansman shouts for them to stop, declaring themselves the new king by rule of the Crown Theft Contest. The Slugs are dumbfounded, but no one protests.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Your crew waltz out of the wreck, crown on-top his head for all to see. You're amazed to see as the Slugs all around, Slocknog included, bow down, willing to accept this change of events...</text>
 			<choice hidden="true">
@@ -5256,11 +5256,11 @@
 <event name="KNIGHT_PALACE_RESOLUTION_SLOCKNOG_REAL">
 	<text>Once Nights's corpse has been recovered, he is moved to a hearse ship for later. The crown too is recovered, broken but miraculously not obliterated. The Slugs gather together to discuss what to do next.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Slocknog appears surprised that he isn't included with the crowd. As he attempts to speak to them, an angry member of the crowd speaks up. "You have no right to be here! Alwayssss ssspinning that ssstory about Nightsss cheating or whatever, but in the end you ssstill losssst. Ssssure you were a better king than Nightsss, but you ssstill just cost usss the livessss of DOZENSSSSS of our fellow Sssslugssss jusssst for your little coup!"</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>These words seem to resonate with nearly everyone present, and soon a mob has formed, marching towards Slocknog, demanding he be punished. The only reason no one suggests executing him is because no one has any clue who to elect in his stead.</text>
 					<choice hidden="true">
@@ -5268,7 +5268,7 @@
 						<event>
 							<text>Considering you've become so heavily involved in Slug politics already, you might as well go the extra mile. You head back to your ship and approach, firing a warning shot upon the crowd. Once you have everyone's attention, you demand Slocknog be in charge once again. The crowd is reluctant, but the Clairvoyants remain loyal to their king and move to support him.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>"Well my friend, thisss isss now the THIRD time. Heheh, I'm forever in your debt I ssssuppossse. Perhapsss thisss isss a good ssstart to repaying you."</text>
 									<weapon name="RANDOM"/>
@@ -5309,11 +5309,11 @@
 								<event>
 									<text>The crowd look at your Clansman and murmur. "It isss true, they have a Ssslug, and of anyone here they are the one who got the clossssessst to ssstealing it." A small circle of prominent Slugs gather to discuss this further.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>The Slugs return, carrying the crown with them. After some loud fanfare and trumpeting, the clansman is crowned king of the Kleptocracy. Slocknog is taken away to some underground prison, while everyone else celebrates.</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="WIN_SLUG"/>
 											</choice>
 										</event>
@@ -5329,7 +5329,7 @@
 										<event>
 											<text>Considering you've become so heavily involved in Slug politics already, you might as well go the extra mile. You head back to your ship and approach, firing a warning shot upon the crowd. Once you have everyone's attention, you demand Slocknog be in charge once again. The crowd is reluctant, but the Clairvoyants remain loyal to their king and move to support him.</text>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
 													<text>"Well my friend, thisss isss now the THIRD time. Heheh, I'm forever in your debt I ssssuppossse. Perhapsss thisss isss a good ssstart to repaying you."</text>
 													<weapon name="RANDOM"/>
@@ -5372,15 +5372,15 @@
 	<text>As Slocknog's cruiser crashes into the lake, the fighting suddenly seems to come to a halt. You land your ship next to the Black Raven, where Nights is chuckling. "HAH! That'll ssshow that idiot what happenssss when you messs with Nights baby!" Nights pumps his tentacle into the air triumphantly, and you don't bother mentioning you did all of the work.</text>
 	<hiddenAug>ACH_BOSS_SLOCKNOG</hiddenAug>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You watch as the Slugs get together a team to fish the cruiser out of the lake. Once Slocknog's corpse has been recovered, he is moved to a hearse ship for later. The Slugs gather around, trying to decide how to proceed with the festival.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>Furious, Nights storms up to them demanding they hand back to the crown to him, but the crowd refuses. "You basssstard, you don't dessserve ssshit! Had you jussst done your duty asss a king and handled thisss asss ssomething other than an overgrown man-child, we wouldn't have the corpsssess of dozensss sssmoldering in front of the Royal palaccce!" Shouts someone from the crowd, shockingly appearing to be straight from Nights's inner circle.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>These words seem to resonate with nearly everyone present, and soon a mob has formed, marching towards Nights, demanding he be punished. The only reason no one suggests executing him is because no one has any clue who to elect in his stead.</text>
 							<choice hidden="true">
@@ -5388,13 +5388,13 @@
 								<event>
 									<text>Considering you've become so heavily involved in Slug politics already, you might as well go the extra mile. You head back to your ship and approach, firing a warning shot upon the crowd. Once you have everyone's attention, you demand Nights be in charge once again. The crowd is reluctant, but faith seems to magically return to his followers, and the Knights of Nights move to support their king. This works, and soon enough Nights is re-elected king.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
 											<text>Nights might be an egregious and irredeemable asshole in many ways, but he apparently has enough of a conscience to thank you personally. Extending the greatest show of goodwill that he can, likely to gain favor from you in case of future issues, he bestows upon you a specialized weapon from his arsenal followed by heaps of scrap.</text>
 											<weapon name="RANDOM"/>
 											<autoReward level="HIGH">scrap_only</autoReward>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event load="KNIGHT_SHIP_UNLOCK"/>
 											</choice>
 										</event>
@@ -5470,7 +5470,7 @@
 							<status type="loss" target="player" system="shields" amount="2"/>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -5485,7 +5485,7 @@
 			<text>You take this chance to attack the Clansmen while they're distracted.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5499,7 +5499,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5550,7 +5550,7 @@
 									<text>"I don't think you underssstand what definesss a good trait in a king. Maybe you are not the bessst perssson to be getting involved in our politicsss..." You assume that's the end of it, but suddenly the Clairvoyant ship attacks! The Slugs must really not appreciate your intervention...</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -5561,7 +5561,7 @@
 									<text>"I don't think you underssstand what definesss a good trait in a king. Maybe you are not the bessst perssson to be getting involved in our politicsss..." You assume that's the end of it, but suddenly the Clairvoyant ship attacks! The Slugs must really not appreciate your intervention...</text>
 									<ship hostile="true"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event load="COMBAT_CHECK"/>
 									</choice>
 								</event>
@@ -5574,7 +5574,7 @@
 							<text>"Interesssting. Ssso you would think that a drug addicted ssscumlord with three wivesss isss the chosssen king for the Ssslug people? Really ssshows how ignorant the Federation is..." You assume that's the end of it, but suddenly the Clairvoyant ship attacks! The Slugs must really not appreciate your intervention...</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -5602,7 +5602,7 @@
 			<text>The irredeemable bastard you are, you've decided to assault the ship without even giving them a chance.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5631,7 +5631,7 @@
 					<text>"Wait, what are you doing?!" You cut off the Slugs and attack.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -5647,7 +5647,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5660,11 +5660,11 @@
 		<event load="KNIGHT_TRAP_PLANET_LAND"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Upg. Sensors) Scan the surface from a distance.</text>
+		<text>(고급 Sensors) Scan the surface from a distance.</text>
 		<event load="KNIGHT_TRAP_PLANET_SCAN"/>
 	</choice>
 	<choice hidden="true" req="ADV_SCANNERS" lvl="1">
-		<text>(LRS) Scan the surface from a distance.</text>
+		<text>(장거리 센서) Scan the surface from a distance.</text>
 		<event load="KNIGHT_TRAP_PLANET_SCAN"/>
 	</choice>
 	<choice hidden="true">
@@ -5729,7 +5729,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="hacking" lvl="2">
-				<text>(Upg. Hacking) Cripple their engines and demand they hand over the narcotics!</text>
+				<text>(고급 해킹) Cripple their engines and demand they hand over the narcotics!</text>
 				<event>
 					<text>"Alright, alright! God damn, why are you so aggressive. You're the one who wanted to trade anyways..."</text>
 					<augment name="SLUG_NARCOTICS"/>
@@ -5750,7 +5750,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -5761,7 +5761,7 @@
 		<text>You arm the weapons and attack the smugglers!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5769,7 +5769,7 @@
 		<text>You arm the weapons and attack the smugglers!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5791,7 +5791,7 @@
 				<text>You arm the weapons and attack the smugglers!</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5808,7 +5808,7 @@
 		<event load="KNIGHT_DUEL_DUEL"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_MANTIS">
-		<text>(Mantis Crew) Have your Mantis duel.</text>
+		<text>(Mantis 선원) Have your Mantis duel.</text>
 		<event>
 			<text>You send out your Mantis to duel. They give their all, and manage to disarm the Slug! "Alright, a deal isss a deal... Though I don't like the way you played, heresssss my ssscrap."</text>
 			<item_modify>
@@ -5840,7 +5840,7 @@
 				<status type="loss" target="player" system="shields" amount="2"/>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 				<choice hidden="true" req="ANTI_VIRUS">
@@ -5849,7 +5849,7 @@
 						<text>You re-enable your shields, and prepare to fight the slugs.</text>
 						<status type="clear" target="player" system="shields" amount="100"/>
 						<choice hidden="true">
-							<text>Continue...</text>
+							<text>계속...</text>
 							<event load="COMBAT_CHECK"/>
 						</choice>
 					</event>
@@ -5885,7 +5885,7 @@
 	<ship load="SHIP_KNIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="SLUG_NARCOTICS">
@@ -5907,7 +5907,7 @@
 	<ship load="SHIP_SLUG_ELITE_FIGHT" hostile="true"/>
 	<environment type="nebula"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="SLUG_NARCOTICS">
@@ -5927,7 +5927,7 @@
 	<ship load="SHIP_KNIGHT" hostile="true"/>
 	<environment type="storm"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="SLUG_NARCOTICS">
@@ -5947,7 +5947,7 @@
 			<text>You aren't paying any fee for your 'broken' engines. Outraged at your refusal, the Knight vessel attacks!</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5959,7 +5959,7 @@
 	<choice>
 		<text>Pay.</text>
 		<event>
-			<text>The Knight captain can't help but snicker as they board and pretend to work on your engines, scoop up some scrap, and leave.</text>
+			<text>The Knight captain can't help but snicker as they board and pretend to work on your engines, scoop up some scrap, and 떠난다.</text>
 			<ship hostile="false"/> 
 			<item_modify>
 				<item type="scrap" min="-30" max="-25"/>
@@ -5989,7 +5989,7 @@
 			<text>You power up your weapons and engage the Slug vessel.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6007,7 +6007,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6018,7 +6018,7 @@
 		<text>"What? Drugs? Why would we need these? Get lost, Federation!"</text>
 		<ship hostile="true"/> 
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -6054,7 +6054,7 @@
 					<text>You arm the weapons and attack the Knight vessel.</text>
 					<ship load="SHIP_KNIGHT_CHOICE_KNIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -6065,7 +6065,7 @@
 					<text>It appears the Knights are willing to swallow their pride and surrender if it means they get free hard drugs.</text>
 					<remove name="SLUG_NARCOTICS"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>The Clairvoyant ship thanks you and offers a weapon.</text>
 							<weapon name="RANDOM"/>
@@ -6079,7 +6079,7 @@
 					<text>You arm the weapons and attack the Clairvoyant vessel.</text>
 					<ship load="SHIP_KNIGHT_CHOICE_CLAIRVOYANT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -6095,7 +6095,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6116,7 +6116,7 @@
 					<text>You raise the weapons and engage the ship.</text>
 					<ship hostile="true"/> 
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -6140,7 +6140,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6177,7 +6177,7 @@
 	<environment type="nebula"/>
 	<ship load="SHIP_KNIGHT" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Slug captain looks at you expectantly, though you don't understand a word he said.</text>
 			<choice hidden="true">
@@ -6192,14 +6192,14 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_SLUG">
-				<text>(Slug Crew) Have your Slug speak with them.</text>
+				<text>(Slug 선원) Have your Slug speak with them.</text>
 				<event>
 					<text>Your Slug bickers back and forth with the knights for a while, then reports back to you. "They sssspeak fine, they're jusssst ssstubborn and refuse to talk to ussss normally. They sssseem to want to make friendssss though, and are offering fuel."</text>
 					<autoReward level="MED">fuel_only</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_ENGI">
-				<text>(Engi Crew) Analyze their speech patterns to translate.</text>
+				<text>(Engi 선원) Analyze their speech patterns to translate.</text>
 				<event>
 					<text>"Language detected: Old Earth English. Updating databases..." Your Engi explains the Slugs don't wish to fight, but actually wish to give you some fuel out of good will.</text>
 					<autoReward level="MED">fuel_only</autoReward>
@@ -6213,7 +6213,7 @@
 		<text>You fumble out some meaningless garble in hopeless imitation of the slug. They obviously don't fall for it, and attack you out of outrage for your pathetic attempt.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 		<choice req="SLUG_NARCOTICS">
@@ -6238,7 +6238,7 @@
 			<text>You power up your weapons and engage the Slug vessel.</text>
 			<ship hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6263,7 +6263,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6329,7 +6329,7 @@
 			<text>You intend to liberate the Slug colony, and attack the Knighted vessel.</text>
 			<ship load="SHIP_KNIGHT_TAXES" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6340,7 +6340,7 @@
 			<text>You fire upon the colony, but in response they send a Clairvoyant ship to deal with you!</text>
 			<ship load="SHIP_KNIGHT_TAXES_COLONY" hostile="true"/> 
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -6354,7 +6354,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -6383,7 +6383,7 @@
 					<text>You plunge further into the nebula until you find the ship they were talking about, but they're already prepared for an attack and lock onto you immediately!</text>
 					<ship load="SHIP_KNIGHT_SHELLSPY" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 					<choice req="SLUG_NARCOTICS" hidden="true">
@@ -6404,7 +6404,7 @@
 			<text>Once again your sadistic tendencies have taken control, and you've abandoned all decency. But no matter, man the weapons!</text>
 			<ship load="SHIP_SHELL_ELITE_GENERIC" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_SLUG_FIGHT"/>
 			</choice>
 		</event>
@@ -6418,7 +6418,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>

@@ -58,7 +58,7 @@ Smaller Event Lists
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about!</text>
 		<ship load="AUTO_FEDERATION_BASE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -66,7 +66,7 @@ Smaller Event Lists
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about!</text>
 		<ship load="AUTO_FEDERATION_BASE2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -75,7 +75,7 @@ Smaller Event Lists
 		<ship load="SHIP_REBEL_FEDERATION_PDS" hostile="true"/>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -84,7 +84,7 @@ Smaller Event Lists
 		<ship load="AUTO_FEDERATION_BASE2" hostile="true"/>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>

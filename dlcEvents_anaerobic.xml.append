@@ -110,11 +110,11 @@
 		<event>
 			<text>"Ok. Thanks many considering." They fly away, leaving you alone at the beacon.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -128,7 +128,7 @@
 		<event load="LANIUS_INJURED_RESCUE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Assure the Lanius that you mean them no harm when you bring them on-board.</text>
+		<text>(라니우스 선원) Assure the Lanius that you mean them no harm when you bring them on-board.</text>
 		<event>
 			<text>It seems the Lanius has been severely injured by something, and a good chunk of their body is missing. They probably won't live much longer, unless you can help.</text>
 			<choice>
@@ -148,7 +148,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="medbay" lvl="2">
-				<text>(Upg. Medbay) Heal the Lanius.</text>
+				<text>(고급 Medbay) Heal the Lanius.</text>
 				<event>
 					<text>Somehow, the medbays nanobots are capable of repairing the damage to the Lanius's body. Grateful for saving its life, the Lanius joins your crew.</text>
 					<crewMember amount="1" class="anaerobic"/>
@@ -165,11 +165,11 @@
 		<event>
 			<text>You ignore the Lanius and carry on with your mission.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -195,7 +195,7 @@
 			</event>
 		</choice>
 		<choice hidden="true" req="medbay" lvl="2">
-			<text>(Upg. Medbay) Heal the Lanius.</text>
+			<text>(고급 Medbay) Heal the Lanius.</text>
 			<event>
 				<text>Somehow, the medbays nanobots are capable of repairing the damage to the Lanius's body. Grateful for saving its life, the Lanius joins your crew.</text>
 				<crewMember amount="1" class="anaerobic"/>
@@ -238,7 +238,7 @@
 		<event>
 			<text>Your Human is nervous to go, and the Lanius make no attempt to reassure them. They bring it aboard their ship into a special oxygen filled room for research. Now you must wait...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LANIUS_LUNG_SCAN_HUMAN"/>
 			</choice>
 		</event>
@@ -248,7 +248,7 @@
 		<event>
 			<text>Your Engineer is nervous to go, and the Lanius make no attempt to reassure them. They bring it aboard their ship into a special oxygen filled room for research. Now you must wait...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LANIUS_LUNG_SCAN_ENGINEER"/>
 			</choice>
 		</event>
@@ -258,7 +258,7 @@
 		<event>
 			<text>Your Medic is nervous to go, and the Lanius make no attempt to reassure them. They bring it aboard their ship into a special oxygen filled room for research. Now you must wait...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LANIUS_LUNG_SCAN_MEDIC"/>
 			</choice>
 		</event>
@@ -268,7 +268,7 @@
 		<event>
 			<text>Your Soldier marches along with the Lanius, fearless as ever. They bring it aboard their ship into a special oxygen filled room for research. Now you must wait...</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LANIUS_LUNG_SCAN_SOLDIER"/>
 			</choice>
 		</event>
@@ -278,11 +278,11 @@
 		<event>
 			<text>You don't have time to participate in their strange study. You apologize and end the call.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -307,7 +307,7 @@
 				<text>This is an injustice! You'll never trust the Lanius again after this, but first you want to kill these bastards...</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -337,7 +337,7 @@
 				<text>This is an injustice! You'll never trust the Lanius again after this, but first you want to kill these bastards...</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -367,7 +367,7 @@
 				<text>This is an injustice! You'll never trust the Lanius again after this, but first you want to kill these bastards...</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -397,25 +397,25 @@
 		<event load="LANIUS_RESEARCHER_CONTACT_LIST"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Offer to copy your translator's data suite.</text>
+		<text>(라니우스 선원) Offer to copy your translator's data suite.</text>
 		<event>
 			<text>Your Lanius crew had tweaked the ship's translator to slowly improve itself over time. The data collected from your interactions with the Lanius could be very helpful to these scientists.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="LANIUS_RESEARCHER_CONTACT_LIST2"/>
 			</choice>
 		</event>
 	</choice>
 	<choice>
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event>
 			<text>You wish them well and prepare to jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -494,17 +494,17 @@
 				<event>
 					<text>You thank them for the information and prepare to jump.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_LANIUS">
-				<text>(Lanius Crew) Offer to help in the process.</text>
+				<text>(라니우스 선원) Offer to help in the process.</text>
 				<event>
 					<text>Your crewmember offers to aid in the process to speed it along. They think it can be performed a bit more efficiently with the extra help and request less scrap.</text>
 					<choice hidden="true">
@@ -542,11 +542,11 @@
 						<event>
 							<text>You thank them for the information and prepare to jump.</text>
 							<choice>
-								<text>Do something onboard the ship.</text>
+								<text>함선에서 무언가를 한다.</text>
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice>
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -560,11 +560,11 @@
 		<event>
 			<text>While replicating their innate ability would have immeasurable consequences on commercial manufacturing, your mission has a much higher priority at the moment.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -582,11 +582,11 @@
 		<event>
 			<text>They leave without a word.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -610,11 +610,11 @@
 				<event>
 					<text>"No matter. This one does not mind this ship." They pull away and you are left to wonder what it meant by that. Perhaps the translation device has not yet been perfected?</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -634,17 +634,17 @@
 		<event>
 			<text>They leave without a word.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Ask for an alternative trade.</text>
+		<text>(라니우스 선원) Ask for an alternative trade.</text>
 		<event>
 			<text>After a short discussion you do not understand, the trader comes back with a second proposal.</text>
 			<choice>
@@ -656,11 +656,11 @@
 				<event>
 					<text>They leave without a word.</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -741,7 +741,7 @@
 	<text load="TEXT_ENCOUNTER_LANIUS"/>
 	<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -760,7 +760,7 @@
 	<text>The Lanius Swarm usually consists of many independently operating groups, but powerful and very old Lanius known as the Welders function as the 'leaders' of the Swarm, whenever leadership is necessary. They aren't known for being particularly friendly either, and the Welder ship here has decided your ship will look better as scrap!</text>
 	<ship load="SHIP_LANIUS_ELITE_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -769,7 +769,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_LANIUS"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -813,7 +813,7 @@
 			<text>As you attempt to navigate the debris, you come too close to the Lanius ship - and they proceed to try to harvest you!</text>
 			<ship load="SHIP_LANIUS_HARVESTER" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -826,7 +826,7 @@
 		</event>
 	</choice>
 	<choice req="pilot" lvl="3" hidden="true" max_group="0">
-		<text>(Advanced Piloting) Engage the auto-pilot and safely harvest the debris.</text>
+		<text>(최고급 Piloting) Engage the auto-pilot and safely harvest the debris.</text>
 		<event>
 			<text>With help from the computer, you are able to keep a comfortable distance between you and the Lanius ship, and you gather a considerable amount of resources from the debris field without conflict.</text>
 			<autoReward level="HIGH">standard</autoReward>
@@ -838,7 +838,7 @@
 			<text>You go on the offensive and power up your weapons - with any luck, you'll soon have the mineral field all to yourself.</text>
 			<ship load="SHIP_LANIUS_HARVESTER" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -848,11 +848,11 @@
 		<event>
 			<text>You charge up your drive and prepare to make the next jump. No sense in antagonizing the Lanius if you don't need to.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -911,7 +911,7 @@
 				<event load="LANIUS_CONFUSED_EXPLAIN"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_LANIUS">
-				<text>(Lanius Crew) Have your Lanius explain.</text>
+				<text>(라니우스 선원) Have your Lanius explain.</text>
 				<event>
 					<text>The Lanius apologize for their misunderstanding. Most of them detach from your ship and float away into the vacuum of space, but one Lanius does not wish to go with the others. Instead, they desire to stay with your crew.</text>
 					<crewMember amount="1" class="anaerobic"/>
@@ -940,7 +940,7 @@
 </event>
 <eventList name="LANIUS_CONFUSED_EXPLAIN">
 	<event>
-		<text>Your explanation seems to be making sense to the Lanius. "Ship... not trash? Leave." The Lanius wave to you as they detach from your ship and begin to drift off into the vacuum of space once again.</text>
+		<text>Your explanation seems to be making sense to the Lanius. "Ship... not trash? 떠난다." The Lanius wave to you as they detach from your ship and begin to drift off into the vacuum of space once again.</text>
 	</event>
 	<event>
 		<text>Your explanation is pointless. The Lanius are only more confused and ignore your crew, going back to salvaging your ship. You have no choice but to fight them off.</text>
@@ -975,7 +975,7 @@
 	<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 	<environment type="asteroid"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -985,7 +985,7 @@
 	<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 	<environment type="pulsar"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -995,7 +995,7 @@
 	<environment type="PDS" target="enemy"/>
 	<ship load="SHIP_LANIUS_BOARDERS_PDS" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1056,7 +1056,7 @@
 		<text>It seems the colony doesn't take lightly to you intruding on their territory after-all. Their weapons come online and they attack!</text>
 		<ship load="SHIP_LANIUS_STATION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1075,7 +1075,7 @@
 			<text>You've decided to tackle the Elite Lanius. You arm the weapons and engage.</text>
 			<ship load="SHIP_LANIUS_MUTUAL_ELITE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1086,13 +1086,13 @@
 			<text>You've decided to tackle the Lanius. You arm the weapons and engage.</text>
 			<ship load="SHIP_LANIUS_MUTUAL_LARGE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>This is dangerous, leave.</text>
+		<text>This is dangerous, 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1106,7 +1106,7 @@
 			<text>The Lanius ship must be very heavy, as it very slowly turns to face you and defend itself.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1116,11 +1116,11 @@
 		<event>
 			<text>You have no interest in the golden Lanius ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1131,14 +1131,14 @@
 		<text>Luckily, it appears the Flak gun survived the fight.</text>
 		<weapon name="SHOTGUN_GOLD"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIMP_AUG"/>
 		</choice>
 	</event>
 	<event>
 		<text>It does not seem the Flak gun survived the fight. Disappointed, you prepare to move on.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="PIMP_AUG"/>
 		</choice>
 	</event>
@@ -1156,7 +1156,7 @@
 			<text>You charge your weapons, which quickly gets the Lanius ship's attention.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1166,11 +1166,11 @@
 		<event>
 			<text>Unfortunately it is not your mission to save every person affected by this war or the Lanius invasion.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1191,27 +1191,27 @@
 			<text>You move in and power up your weapons. Detecting the threat, they stop what they were doing and prepare for a fight.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice>
-		<text>Leave them alone.</text>
+		<text>내버려 둔다.</text>
 		<event>
 			<text>You ignore the ship and prepare to jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Request some scrap.</text>
+		<text>(라니우스 선원) Request some scrap.</text>
 		<event load="LANIUS_SOLO_SALVAGE_LIST"/>
 	</choice>
 </event>
@@ -1231,13 +1231,13 @@
 				<text>You move in and power up your weapons. Detecting the threat, they stop what they were doing and prepare for a fight.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
 		</choice>
 		<choice>
-			<text>Leave.</text>
+			<text>떠난다.</text>
 			<event>
 				<text>You ignore their derisive tone and prepare to jump.</text>
 			</event>
@@ -1261,7 +1261,7 @@
 			<text>The civilian ship hastily retreats while you intercept the path of the ship and lock on weapons. It turns and prepares for a fight.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1271,11 +1271,11 @@
 		<event>
 			<text>You ignore the ship's pleas and watch as it hastily escapes. Oddly, the Lanius ship makes no move to chase it. You wonder if they were ever a threat at all.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1291,7 +1291,7 @@
 		</event>
 	</choice>		
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Try to contact the ship.</text>
+		<text>(라니우스 선원) Try to contact the ship.</text>
 		<event>
 			<text>Your crewmember opens a channel with them. It seems they are scouting for a merchant's guild which is seeking to establish connections with the other sentient races. You suggest they invest research time into developing better translators and ask if they are selling anything at the moment.</text>
 			<store>STORE_LANIUS</store>
@@ -1300,7 +1300,7 @@
 </event>
 <eventList name="LANIUS_SCARED_CIVILIAN_LIST">
 	<event>
-		<text>You ask what they want and the translator chirps their response, "Explore. Assess trade potential." It appears to be a merchant ship attempting to make connections with the other races. The civilian must have simply been too scared to ask. You check what they have to sell at the moment.</text>
+		<text>You ask what they want and the translator chirps their response, "탐사한다. Assess trade potential." It appears to be a merchant ship attempting to make connections with the other races. The civilian must have simply been too scared to ask. You check what they have to sell at the moment.</text>
 		<store>STORE_LANIUS</store>
 	</event>
 	<event>
@@ -1310,7 +1310,7 @@
 		<text>You ask what they are doing here but the translator clearly has problems with the request. The Lanius seem enraged for an indiscernible reason. They cut transmission and power their weapons. Looks like you'll have to fight after all!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1325,7 +1325,7 @@
 			<text>As you scan the vessel, the scan frequencies awaken the Lanius crew from hibernation - and they're hungry for raw materials!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1344,7 +1344,7 @@
 		<text>You power up your weapons, and in response, the Lanius ship does the same! Prepare for a fight.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1360,7 +1360,7 @@
 				<text>As soon as you lock your weapons onto their vessel, it awakens... they must have been in hibernation and were awoken by the danger!</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -1374,11 +1374,11 @@
 		<event>
 			<text>You don't disturb the ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1407,7 +1407,7 @@
 		<text>As you drift toward the vessel, your piloting skill is unable to match your intent - the Lanius ship powers up, hungry for raw materials!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1444,13 +1444,13 @@
 			<text>To your surprise the Lanius ship refuses to detach from the Slug's hull, rather dragging them along with it. Signs detect the Lanius are trying to jump away. If they manage to jump, they'll likely cause extreme damage to the Slug ship, if not completely destroying it.</text>
 			<ship load="SHIP_LANIUS_FEEDING" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Have your Lanius convince them to let the Slugs go.</text>
+		<text>(라니우스 선원) Have your Lanius convince them to let the Slugs go.</text>
 		<event>
 			<text>Reluctantly, the Lanius ship detaches from the Slugs and flies away. That was easy...</text>
 			<choice hidden="true">
@@ -1459,7 +1459,7 @@
 					<text>Before the Slugs can even respond, the Lanius ship returns, weapons blazing. It blasts its way through the Slug ship and attacks you next.</text>
 					<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1471,11 +1471,11 @@
 		<event>
 			<text>You bid the Slugs farewell and leave them to dealing with the Lanius.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1496,7 +1496,7 @@
 			<text>You move in to intercept the ship. Detecting a greater threat, the Lanius prepare to fight.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1506,17 +1506,17 @@
 		<event>
 			<text>Your crew seems unhappy to leave the civilians to such a fate but you try to convince them of the greater good. You don't speak of your own misgivings, however.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Have your crew admonish their captain.</text>
+		<text>(라니우스 선원) Have your crew admonish their captain.</text>
 		<event load="DISTRESS_LANIUS_FIGHT_LANIUS"/>
 	</choice>
 </event>
@@ -1524,7 +1524,7 @@
 	<event>
 		<text>After a discussion that your translator fails to comprehend, the enemy ship powers down its weapons. You learn that your crewmember successfully reminded them of their treatise promising to leave the property of sentient aliens alone. If this is a widespread rule of this race, there appear to be many who disagree with it. You attempt to hail the civilian ship now that it's safe.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SAVE_CIVILIAN_LIST"/>
 		</choice>
 	</event>
@@ -1532,7 +1532,7 @@
 		<text>The ship refuses all hails, even from one of its own kind. It appears to have gone completely rogue. Before you can react, it begins to target your ship. Prepare for a fight.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1542,11 +1542,11 @@
 	<text load="TEXT_DISTRESS_LANIUS_EMPTY"/>
 	<distressBeacon/>
 	<choice>
-		<text>Do something onboard the ship.</text>
+		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
 	</choice>
 	<choice>
-		<text>Do nothing.</text>
+		<text>아무것도 하지 않는다.</text>
 		<event/>
 	</choice>
 </event>
@@ -1560,7 +1560,7 @@
 	<ship load="SHIP_LANIUS_FIGHT" hostile="true"/>
 	<distressBeacon/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1574,7 +1574,7 @@
 			<text>You prepare to attack the Lanius.</text>
 			<ship load="DISTRESS_LANIUS_SLUG_SHIP" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1584,11 +1584,11 @@
 		<event>
 			<text>You leave the Lanius ship alone, and prepare to jump to the next beacon.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1613,7 +1613,7 @@
 			<text>The Lanius don't seem to have noticed you yet - but they will. Launching into the fray, you target the Lanius vessel!</text>
 			<ship load="DISTRESS_LANIUS_MANTIS_SHIP" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1623,11 +1623,11 @@
 		<event>
 			<text>The Mantis ship is quickly overcome by the Lanius vessel, and you move away as the Lanius feed on the remains.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1645,7 +1645,7 @@
 </eventList>
 
 <event name="LANIUS_ROCK_DISTRESS" unique="true">
-	<text>A distress beacon pulses weakly from a Rockman ship in this system... their hull (and their crew) are being mined by the Lanius, lasers and weapons tearing through the ship!</text>
+	<text>A distress beacon pulses weakly from a Rockman ship in this system... their hull (and their 선원) are being mined by the Lanius, lasers and weapons tearing through the ship!</text>
 	<distressBeacon/>
 	<choice>
 		<text>Attack the Lanius ship.</text>
@@ -1653,7 +1653,7 @@
 			<text>The Rockmen need your help - you target the Lanius ship and grimly prepare for battle.</text>
 			<ship load="DISTRESS_LANIUS_ROCK_SHIP" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1663,11 +1663,11 @@
 		<event>
 			<text>As you make your escape, the Rockman's ship's engines explode, and you watch the Lanius ship slowly feed on the remains - and the crew.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1711,7 +1711,7 @@
 			<text>"Why I never! You have some nerve." It seems you seriously offended the Zoltan, because now their weapons are online and they're attacking.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1722,7 +1722,7 @@
 		<text>"Why I never! You have some nerve." It seems you seriously offended the Zoltan, because now their weapons are online and they're attacking.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1737,7 +1737,7 @@
 	<choice hidden="true">
 		<text>Just wait and watch.</text>
 		<event>
-			<text>The Zoltan leader speaks slowly to the Lanius, as if that will help them understand. "Hello, my metal friends. We have brought you a wonderful proposition for peace. We request full access to all territory in your sector, the rights to all of your trade routes, etc, in return for the nobility of being allied with the Zoltan rac-" the Zoltans are cut off when one of the Lanius grows bored and fires a missile launcher straight into their engines, destroying the ship. Chaos ensues, and you figure its time that you leave.</text>
+			<text>The Zoltan leader speaks slowly to the Lanius, as if that will help them understand. "Hello, my metal friends. We have brought you a wonderful proposition for peace. We request full access to all territory in your sector, the rights to all of your trade routes, etc, in return for the nobility of being allied with the Zoltan rac-" the Zoltans are cut off when one of the Lanius grows bored and fires a missile launcher straight into their engines, destroying the ship. Chaos ensues, and you figure its time that you 떠난다.</text>
 		</event>
 	</choice>
 	<choice hidden="true">
@@ -1746,7 +1746,7 @@
 			<text>It doesn't take much longer for the Lanius to turn hostile. You swoop in to defend your 'employers'.</text>
 			<ship load="SHIP_PEACE_LANIUS" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1757,7 +1757,7 @@
 			<text>The Lanius might not be accustomed to the traditions and language of the other races of the galaxy, but they aren't stupid. Whatever these Zoltans want to negotiate isn't in the Lanius's bests interests, and you've decided to take a stand.</text>
 			<ship load="SHIP_PEACE_ZOLTAN" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1790,11 +1790,11 @@
 		<event load="LANIUS_BEACON_EATER_SCRAP"/>		
 	</choice>
 	<choice hidden="true">
-		<text>Leave.</text>
+		<text>떠난다.</text>
 		<event load="LANIUS_BEACON_EATER_LEAVE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Ask if they require assistance.</text>
+		<text>(라니우스 선원) Ask if they require assistance.</text>
 		<event>
 			<text>After a time you are told they were damaged and unable to repair their ship due to a lack of metal. They offer to exchange a piece of their ship's equipment for some scrap or other useful materials.</text>
 			<choice hidden="true">
@@ -1855,7 +1855,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Leave.</text>
+			<text>떠난다.</text>
 			<event load="LANIUS_BEACON_EATER_LEAVE"/>
 		</choice>
 	</event>
@@ -1863,7 +1863,7 @@
 		<text>You begin to message the ship but it quickly powers on its weapons defensively. It appears to be fully functional and looking for a fight!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1883,7 +1883,7 @@
 		</item_modify>	
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1902,7 +1902,7 @@
 		<text>You make preparations to jump but are surprised when the Lanius ship pulls away from the beacon towards you. It appears to be fully operational!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1923,18 +1923,18 @@
 					<text>The Lanius hail you, but from their maddened ramblings and the struggling translator it's near impossible to determine what they're saying. You manage to make out the phrase "Feed the Beacon Eater" before the Lanius ship turns aggressive and attacks you.</text>
 					<ship load="SHIP_LANIUS_BEACON_UNDERLING_CONTACT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Fight the ship.</text>
+				<text>함선과 전투한다.</text>
 				<event>
 					<text>You decide the best option to handle the situation is to fight the Lanius ship.</text>
 					<ship load="SHIP_LANIUS_BEACON_UNDERLING_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1946,11 +1946,11 @@
 		<event>
 			<text>Of course, this is a lie. Your Multiverse drive would let you jump away even without the beacon, though it's very risky. Still, you aren't willing to risk it.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -1979,7 +1979,7 @@
 					<text>You raise the weapons and attack the Beacon Eater. Indignant towards you for attacking, the cruiser lurches forward to meet you.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1990,7 +1990,7 @@
 					<text>You try in vain to negotiate with the Beacon Eater. "This sector belongs to Lanius. I eat beacons however please! Federation come here, try tell to me I cannot eat own beacon? I show you boss who!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1998,7 +1998,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Dear god, this thing is huge. We have to leave.</text>
+		<text>Dear god, this thing is huge. We have to 떠난다.</text>
 		<event/>
 	</choice>
 </event>
@@ -2014,7 +2014,7 @@
 			<hiddenAug>ACH_CREW_BEACON</hiddenAug>
 			<crewMember amount="1" class="eater" all_skills="1">Beacon Eater</crewMember>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="BEACON_EATER_REWARD_SAVE"/>
 			</choice>
 		</event>

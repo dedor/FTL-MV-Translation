@@ -32,7 +32,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -68,7 +68,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_CIVILIAN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -82,7 +82,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -126,7 +126,7 @@
             <text>You prepare to secure their cargo by force.</text>
             <ship load="SHIP_MILITIA_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
             </choice>
         </event>
@@ -140,7 +140,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -184,7 +184,7 @@
             <text>You prepare to secure their cargo by force.</text>
             <ship load="SHIP_FED_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
             </choice>
         </event>
@@ -198,7 +198,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -243,7 +243,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_REBEL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -257,7 +257,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -301,7 +301,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_JERRY_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -315,7 +315,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -364,7 +364,7 @@
             <text>You prepare to secure their cargo by force.</text>
             <ship load="SHIP_AUTO_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -378,7 +378,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -423,7 +423,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_ENGI_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ENGI_FIGHT"/>
 			</choice>
 		</event>
@@ -437,7 +437,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -482,7 +482,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_SEPARATIST_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -496,7 +496,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -541,7 +541,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_ZOLTAN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 			</choice>
 		</event>
@@ -555,7 +555,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -602,7 +602,7 @@
             <text>You prepare to secure their cargo by force.</text>
             <ship load="SHIP_DUSKBRINGER_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
-                <text>Continue...</text>
+                <text>계속...</text>
                 <event load="COMBAT_CHECK"/>
             </choice>
         </event>
@@ -616,7 +616,7 @@
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice hidden="true">
-                <text>Do nothing.</text>
+                <text>아무것도 하지 않는다.</text>
                 <event/>
             </choice>
         </event>
@@ -664,7 +664,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_MANTIS_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -678,7 +678,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -722,7 +722,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_FREEMANTIS_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_FREEMANTIS_FIGHT"/>
 			</choice>
 		</event>
@@ -736,7 +736,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -780,7 +780,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_ORCHID_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_ORCHID_FIGHT"/>
 			</choice>
 		</event>
@@ -794,7 +794,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -838,7 +838,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_CRYSTAL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_CRYSTAL_FIGHT"/>
 			</choice>
 		</event>
@@ -852,7 +852,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -896,7 +896,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_ROCK_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -910,7 +910,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -958,7 +958,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_LOSTSUN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -972,7 +972,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1017,7 +1017,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_SLUG_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1031,7 +1031,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1076,7 +1076,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_LEECH_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1090,7 +1090,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1135,7 +1135,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_HEKTAR_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1149,7 +1149,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1194,7 +1194,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_CLAN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1208,7 +1208,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1253,7 +1253,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_SHELL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_SHELL_FIGHT"/>
 			</choice>
 		</event>
@@ -1267,7 +1267,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1312,7 +1312,7 @@
 			<ship load="SHIP_COALITION_TRANSPORT_LOOT" hostile="true"/>
 			<status type="limit" target="enemy" system="teleporter" amount="0"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1326,7 +1326,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1370,7 +1370,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_LANIUS_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1384,7 +1384,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1428,7 +1428,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_AUG_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1442,7 +1442,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1487,7 +1487,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_DYNASTY_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1501,7 +1501,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1545,7 +1545,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_ANCIENT_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1559,7 +1559,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1603,7 +1603,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_ROYAL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1617,7 +1617,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>
@@ -1627,7 +1627,7 @@
 	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. While digging around for weapons or drones however, you stumble across a ring resembling those on Ancient Cognitives...</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>The Cognitive awakens, its hologram forming. Though its voice is monotone, you sense a layer of sarcasm. "Oh, flesh puppets. I assume the corpses of my old masters implies I belong to you now. Hooray. This is sarcasm, if you could not tell."</text>
 			<crewMember amount="1" class="avatarroyal">Ithyk</crewMember>
@@ -1668,7 +1668,7 @@
 			<text>You prepare to secure their cargo by force.</text>
 			<ship load="SHIP_CULTIST_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1682,7 +1682,7 @@
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
         </event>

@@ -64,11 +64,11 @@
 		<event>
 			<text>You ignore the station.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -97,7 +97,7 @@
 			<text>"This is no lecture, but merely a lesson. It is those like you who refuse enlightenment who endanger the cycle. You must be purged."</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -115,11 +115,11 @@
 		<event>
 			<text>"Oh... ok. Hopefully I'll be able to keep the shields under control so they don't implode before another ship arrives to help..."</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -135,7 +135,7 @@
 		<boarders min="1" max="1" class="human"/>
 		<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -177,7 +177,7 @@
 			<text>No one is safe from you, not even allied Federation stations.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -185,13 +185,13 @@
 	<choice hidden="true">
 		<text>Ignore the station.</text>
 		<event>
-			<text>You aren't interested in the station. You ignore them.</text>
+			<text>You aren't interested in the station. You 무시한다.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -219,7 +219,7 @@
 	<text>You find the wreck of a Federation ship nearby. Before you can even begin to consider salvaging it, another Federation ship jumps in, surveys the scene, and blames you for killing the ship!</text>
 	<ship load="SHIP_FED_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -228,7 +228,7 @@
 	<text>You receive an urgent hail from the nearby Federation ship. "You have to help, the Rebels, they've taken over the ship!" The call suddenly goes to static and the ship turns hostile!</text>
 	<ship load="SHIP_FED_REBELTAKEOVER" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -260,7 +260,7 @@
 	<text load="TEXT_ENCOUNTER_REBEL_FED"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -280,7 +280,7 @@
 	<text>A Rebel Elite, looking for a brawl, is scouting out this beacon. You turn pale when they spot you and their weapons come online.</text>
 	<ship load="SHIP_REBEL_ELITE_FIGHT" hostile="true"/> 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -307,12 +307,12 @@
 	<text load="TEXT_FED_REBEL_CHOICE"/>
 	<ship load="SHIP_REBEL_FIGHT" hostile="false"/>
 	<choice hidden="true">
-		<text>Fight the ship.</text>
+		<text>함선과 전투한다.</text>
 		<event>
 			<text>No Rebels will be allowed to live so long as you can help it.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -322,11 +322,11 @@
 		<event>
 			<text>You have no interest in fighting the Rebel ship.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -351,7 +351,7 @@
 		<event load="FED_BROKEN_SUPPLY_DRONE_SALVAGE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_ENGI">
-		<text>(Engi Crew) Fix the drone.</text>
+		<text>(Engi 선원) Fix the drone.</text>
 		<event>
 			<text>Your Engi is no stranger to working on Auto-ships and drones, and easily identifies the problem. Once the Auto-ship is fixed, it distributes supplies and patches up your hull.</text>
 			<autoReward level="RANDOM">stuff</autoReward>
@@ -359,12 +359,12 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="engineer">
-		<text>(Engineer Crew) Fix the drone.</text>
+		<text>(엔지니어 선원) Fix the drone.</text>
 		<event>
 			<text>Your Engineer tries to explain that they're only used to working on Rebel Auto-ships, but you convince them to try anyways. They manage to get the drone working long enough to repair some hull before something goes wrong and the ship turns hostile!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<damage amount="-5"/>
@@ -382,7 +382,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(Lanius Crew) Have your Lanius salvage the drone.</text>
+		<text>(라니우스 선원) Have your Lanius salvage the drone.</text>
 		<event>
 			<text>Your Lanius is able to salvage the drone with little difficulty, knowing exactly what to dissasemble to prevent triggering its defenses.</text>
 			<autoReward level="MED">standard</autoReward>
@@ -393,11 +393,11 @@
 		<event>
 			<text>You aren't interested by the malfunctioning automaton.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -408,7 +408,7 @@
 		<text>You attempt to transmit your ID to the ship, in hopes it will still be able to distribute supplies. However, it seems to struggle identifying your ship, and suddenly attacks!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -422,7 +422,7 @@
 		<text>While salvaging the drone, it suddenly turns hostile and attacks!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -444,7 +444,7 @@
 					<text>"Great! Just wait a moment, it'll be active shortly. Just remember, ion weapons or system damage is fine, but don't do any damage to the hull."</text>
 					<ship load="SHIP_FED_TEST_DRONE" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -454,11 +454,11 @@
 				<event>
 					<text>"Fair enough."</text>
 					<choice>
-						<text>Do something onboard the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
-						<text>Do nothing.</text>
+						<text>아무것도 하지 않는다.</text>
 						<event/>
 					</choice>
 				</event>
@@ -468,13 +468,13 @@
 	<choice hidden="true">
 		<text>Ignore the station.</text>
 		<event>
-			<text>You aren't interested in the station. You ignore them.</text>
+			<text>You aren't interested in the station. You 무시한다.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -484,7 +484,7 @@
 	<text>"What the hell was that! What did you not understand about DO NOT DAMAGE THE SHIP. Get out of here, now. Maybe next time you'll listen to instructions when they're given to you."</text>
 </event>
 <event name="FED_NODAMAGE_TEST_DAMAGE">
-	<text>"Careful, careful! I told you not to damage the ship! I don't think you were the best choice for this after all, it's probably best if you leave. Hopefully I'll find someone better at following instructions..."</text>
+	<text>"Careful, careful! I told you not to damage the ship! I don't think you were the best choice for this after all, it's probably best if you 떠난다. Hopefully I'll find someone better at following instructions..."</text>
 	<ship hostile="false"/>
 </event>
 <event name="FED_NODAMAGE_TEST_WIN">
@@ -504,12 +504,12 @@
 			<autoReward level="HIGH">fuel_only</autoReward>
 			<damage amount="-7"/>
 			<choice hidden="true">
-				<text>Leave.</text>
+				<text>떠난다.</text>
 				<event>
 					<text>As you exit the hangar a blaring siren fills the air. A Rebel squadron is approaching! The planetary defense cannons are overwhelmed and most of the Rebel ships are able to get past. An Elite ship locks onto you and attacks!</text>
 					<ship load="SHIP_REBEL_ELITE_FIGHT" hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -521,11 +521,11 @@
 		<event>
 			<text>It's tempting, but you can't waste any time.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
@@ -550,17 +550,17 @@
 		<event>
 			<text>You can't help but wonder what they were discussing as you prepare to jump.</text>
 			<choice>
-				<text>Do something onboard the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
-				<text>Do nothing.</text>
+				<text>아무것도 하지 않는다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="LIST_CREW_ENGI" hidden="true">
-		<text>(Engi Crew) Have your Engi crewmember contact them.</text>
+		<text>(Engi 선원) Have your Engi crewmember contact them.</text>
 		<event>
 			<text>Your crewmember syncs with the comm unit to communicate with them directly. You offer your help and a summary of the ship's mission. They respond, "Our goals have analogous elements. However, not all available for disclosure, discretion necessary."</text>
 			<choice>
@@ -569,7 +569,7 @@
 					<text>"Secret prototype stolen by Mantis, initiating high profile trade with Rebels. Cargo ship location: unknown. Mantis Suzerain dispatched to Rebel base to deliver information on prototype whereabouts. Transmitting location of known data transfer location."</text>
 					<quest event="STEALTH_UNLOCK_2REAL"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<quest event="STEALTH_UNLOCK_2FAKE"/>
 							<text>"However, Mantis ship potentially stopped by second base on travel. Would calculate probability of transfer occuring here but data insufficient. Cannot risk obvious Rebel-Engi conflict. Also, need time to acquire military ships. Assist in finding technology?"</text>
@@ -606,7 +606,7 @@
 	<text>You arrive at one of the Rebel bases that the Engi told you about. It appears abandoned except for one well armed Elite ship. Perhaps you could extract information from them.</text>
 	<ship load="SHIP_STEALTH_UNLOCK_FAKE" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -656,7 +656,7 @@
 	<text>You arrive at one of the Rebel bases that the Engi told you about. It appears mostly abandoned, save for a Suzerain ship. This must be the one the Engi were searching for!</text>
 	<ship load="SHIP_STEALTH_UNLOCK_2REAL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -683,7 +683,7 @@
 		<text>You strip what you can and contact the Engi ships.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="STEALTH_UNLOCK_4"/>
 		</choice>
 	</deadCrew>
@@ -697,7 +697,7 @@
 	<ship load="SHIP_STEALTH_UNLOCK_3" hostile="true"/>
 	<img back="BACK_EVENT_STEALTHUNLOCK" planet="NONE"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -730,7 +730,7 @@
 		<event>
 			<text>The memorial appears to have been constructed in honor of Universe 0, and more specifically the battle of Node 17. You exit your ship to observe a giant wall of names, a list of every Federation officer who gave their lives fighting in Node 17, whether they died from a kamikaze Auto, a Rebel ship, or a fatal injury sustained during battle. It moves you greatly, having come from Universe 0.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>A blazing siren screams throughout the city, and a monotone voice speaks. "This is not a drill. Repeat, this is not a drill. A Rebel squadron has been seen approaching the city. All civilians are to clear out of any unprotected areas and seek out shelter immediately. Any Federation personnel within the city limits are to report to command immediately to defend against the approaching threat."</text>
 					<ship load="SHIP_REBEL_SELITE_MEMORIAL" hostile="false"/>
@@ -740,7 +740,7 @@
 							<text>At the lead of the Rebel squadron is an unusual Rebel ship, one unlike anything you've seen before. It wields a powerful artillery weapon. If you can take it down, maybe it'll discourage the rest of the fleet.</text>
 							<ship hostile="true"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="COMBAT_CHECK"/>
 							</choice>
 						</event>
@@ -750,11 +750,11 @@
 						<event>
 							<text>You aren't interested in getting caught up in this fight. You're certain the Federation ships here will be able to fend off the Rebels.</text>
 							<choice>
-								<text>Do something onboard the ship.</text>
+								<text>함선에서 무언가를 한다.</text>
 								<event load="STORAGE_CHECK"/>
 							</choice>
 							<choice>
-								<text>Do nothing.</text>
+								<text>아무것도 하지 않는다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -770,21 +770,21 @@
 <event name="FED_MEMORIAL_DESTROY">
 	<text>The Gunboat has received critical damage, too much for it to sustain. Its artillery system crackles and the engines explode. The ship goes spiraling down into the nearby lake. It explodes one last time once it collides with the water, showering the coast. The sight of their leading ship dispatched so efficiently is enough to chase away the rest of the Rebels. Every last hostile ship jumps away, leaving the Federation the undisputed victor.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="FED_MEMORIAL_WIN"/>
 	</choice>
 </event>
 <event name="FED_MEMORIAL_DEAD_CREW">
 	<text>The lifeless gunboat begins to plummet towards the ground. It smashes into the coast, erupting into a glorious display of flames, though luckily it causes no damage to any of the infrastructure of the city. The sight of their leading ship dispatched so efficiently is enough to chase away the rest of the Rebels. Every last hostile ship jumps away, leaving the Federation the undisputed victor.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="FED_MEMORIAL_WIN"/>
 	</choice>
 </event>
 <event name="FED_MEMORIAL_WIN">
 	<text>You are hailed by a Federation officer in the city, who requests that you land. As you exit your vessel, all around civilians cheer for you. You recognize Vice Admiral Adara, the voice who spoke to you. "You have done us a great service today. I do not know how to thank you for protecting this city. I have heard stories, well, myths and legends really, of the Multiverse Renegades, and I've always been skeptical. Now, all of my doubts have been assuaged."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Adara puts a shiny medal around your neck, an honor that you will carry on for life, assuming you succeed in your mission. Every support ship in the district is dispatched to aid you in every way they can, and you're even given a fresh new Federation cruiser from one of their hangars. You don't really have a use for this ship, so you forward its blueprints to the hangar.</text>
 			<hiddenAug>ACH_BOSS_GUNBOAT</hiddenAug>
@@ -793,12 +793,12 @@
 			<autoReward level="HIGH">standard</autoReward>
 			<weapon name="LIST_LOOT_FEDERATION"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>As you are leaving, Adara pulls you aside to tell you one last thing. "This package, it is extremely important that it arrives to Tully in time. I don't have time to bring it to him myself, but I know I can trust you with it. Godspeed, captain."</text>
 					<augment name="TULLY_PRESENT"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="MORALITY_REMOVE_GENERAL"/>
 					</choice>
 				</event>
