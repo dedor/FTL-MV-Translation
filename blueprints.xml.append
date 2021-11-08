@@ -10279,7 +10279,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>점사형 레이저 마크 I</title>
 	<short>Burst I</short>
 	<tip>tip_laser</tip>
-	<desc>표준적인 점사형 레이저 무기입니다. 전성비가 좋고 저렴하지만 별로 멋은 나지 않습니다. Standard Burst Laser weapon. Power efficient and affordable, but not too flashy either.</desc>
+	<desc>기본적인 점사형 레이저 무기입니다. 멋은 나지 않으나 전력 효율이 좋고 저렴합니다. Standard Burst Laser weapon. Power efficient and affordable, but not too flashy either.</desc>
 	<tooltip>점사형 레이저; 피해 1, 발하는 탄수 2. 충전 시간 11초</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -11213,7 +11213,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LASER_CHARGE_CHAIN">
 	<type>LASER</type>
-	<flavorType>Chainger Laser (아니 이거 어케 번역함 연충식 레이저?)</flavorType>
+	<flavorType>연충식 레이저</flavorType>
 	<title>Laser Chainger</title>
 	<short>L. Chainger</short>
 	<tip>tip_charge</tip>
@@ -11308,10 +11308,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="LASER_FIRE">
 	<type>LASER</type>
-	<title>Fire-Starter</title>
+	<title>방화 레이저</title>
 	<short>Fire-Starter</short>
 	<tip>tip_laser</tip>
-	<desc>확정적으로 화재를 일으키는 개조된 레이저 무기입니다. 선원 피해를 가지지 않습니다. A modified Laser weapon which starts a fire with each projectile, as well as harming enemy systems and hull but not crew.</desc>
+	<desc>확정적으로 화재를 일으키도록 개조된 레이저 무기입니다. 선원 피해를 가지지 않습니다. A modified Laser weapon which starts a fire with each projectile, as well as harming enemy systems and hull but not crew.</desc>
 	<tooltip>점사형 레이저; 피해 1, 발사 횟수 2. 충전 시간 14초. 화재를 일으킴.</tooltip>
 	<damage>1</damage>
 	<persDamage>-1</persDamage>
@@ -19077,7 +19077,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'썅' 빔</title>
 	<short>'Beyatch'</short>
 	<tip>tip_beams</tip>
-	<desc>이런, 낯썬 썅놈! Beyatch, ssstranger!</desc>
+	<desc>이런 썅, 낯선놈! Beyatch, ssstranger!</desc>
 	<tooltip>Large beam that does 4 damage per room.</tooltip>
 	<damage>4</damage>
 	<sp>0</sp>
@@ -19107,7 +19107,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_missiles</tip>
     <title>'다이아내시' 미사일</title>
     <short>'Dianesh'</short>
-    <desc>종교 재판에서 사용하기 위해 만들어졌던 강력한 프로토타입 미사일입니다. A powerful prototype missile weapon originally constructed for use only within the Inquisition.</desc>
+    <desc>원래 종교 재판에서 사용하기 위한 용도로 만들어진 강력한 프로토타입 미사일입니다. A powerful prototype missile weapon originally constructed for use only within the Inquisition.</desc>
     <tooltip>Fires 1 missile; 4 damage; pierces all shields; high breach chance.</tooltip>
     <damage>5</damage>
 	<accuracyMod>10</accuracyMod>
@@ -19242,7 +19242,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'성냥갑'</title>
 	<short>'Matchbox'</short>
 	<tip>tip_laser</tip>
-	<desc>화재를 반드시 일으키지는 못하지만 발사하는 타수가 늘어난 특수한 fire-starter 레이저입니다. Specialized fire-starter Laser which gains an additional projectile, but does not have a guaranteed fire chance.</desc>
+	<desc>화재를 반드시 일으키지는 못하지만 발사하는 탄수가 늘어난 특수한 방화 레이저입니다. Specialized fire-starter Laser which gains an additional projectile, but does not have a guaranteed fire chance.</desc>
     <tooltip>Burst laser; 1 damage, 3 shots. 14 second cooldown. Starts fires.</tooltip>
 	<damage>1</damage>
 	<persDamage>-1</persDamage>
@@ -19352,7 +19352,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <title>'리프트 웨이커' 마크 0.5</title>
     <short>'Waker 0.5'</short>
     <tip>tip_chain_laser</tip>
-    <desc>연사식 발칸을 사용하여 만든 실반의 악명높은 기관총 '리프트 웨이커'의 모조품입니다.A recreation of Sylvan's infamous 'Rift Waker' Gatling gun, using a Chain Vulcan.</desc>
+    <desc>연사식 발칸을 사용하여 만든 실반의 악명높은 기관총 '리프트 웨이커'의 모조품입니다. A recreation of Sylvan's infamous 'Rift Waker' Gatling gun, using a Chain Vulcan.</desc>
     <tooltip>Cooldown drops the more it fires.</tooltip>
     <radius>55</radius>
     <damage>1</damage>
@@ -19495,7 +19495,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>황금 대공포 마크 III</title>
 	<short>GF. III</short>
 	<tip>tip_flak</tip>
-	<desc>무작위 영역에 10개의 파편을 무더기로 발사합니다. 방어막을 벗기는데 효과적이지만 조준 하기 어렵습니다. Fires a blast of debris across a random area doing up to 10 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>무작위 영역에 10개의 파편을 무더기로 발사합니다. 방어막을 벗기는데 효과적이지만 정확도가 낮습니다. Fires a blast of debris across a random area doing up to 10 damage. Good at taking down shields but hard to aim.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -19576,7 +19576,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>스캐너</title>
 	<short>Scanner</short>
 	<locked>1</locked>
-	<desc>이 "무기"는 전투를 위해 설계된것이 아닙니다. 센서가 고장난 상황에서도 당신 또는 적 함선의 선실을 들어낼 수 있습니다. This "weapon" is not designed for combat, but rather can reveal rooms on either your or the enemy ship, even with broken sensors.</desc>
+	<desc>이 "무기"는 전투를 위해 설계된 것이 아니지만 대신 센서가 고장난 상황에서도 당신 또는 적 함선의 선실을 들어낼 수 있습니다. This "weapon" is not designed for combat, but rather can reveal rooms on either your or the enemy ship, even with broken sensors.</desc>
 	<tooltip>Reveals the inside of rooms.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -19646,7 +19646,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'과부제조기'</title>
 	<short>'Widow Maker'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19695,7 +19695,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'The Puppy Kicker'</title>
 	<short>'Puppy Kicker'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19744,7 +19744,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Big Ass Gun'</title>
 	<short>'BAG'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19793,7 +19793,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Spinny Stick'</title>
 	<short>'Spinny Stick'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19839,10 +19839,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION5">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'Pew Pew Pew'</title>
+	<title>'탕탕탕'</title>
 	<short>'Pew Pew Pew'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19888,10 +19888,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION6">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'Excaliber'</title>
+	<title>'엑스칼리버'</title>
 	<short>'Excaliber'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19937,10 +19937,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION7">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'Vulcan II'</title>
+	<title>'벌칸 II'</title>
 	<short>'Vulcan II'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19986,10 +19986,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION8">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'The Debugger'</title>
+	<title>'디버거'</title>
 	<short>'Debugger'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열이 매우 오래걸리지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -20218,7 +20218,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Burst Laser MK I</title>
 	<short>Burst I</short>
 	<tip>tip_civ_loot_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -20257,7 +20257,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Burst Laser MK II</title>
 	<short>Burst II</short>
 	<tip>loot_militia_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires 3 lasers, 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -20296,7 +20296,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Heavy Laser MK II</title>
 	<short>Heavy II</short>
 	<tip>loot_federation_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>2</damage>
 	<persDamage>1</persDamage>
@@ -20337,7 +20337,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>loot_coalition_1</tip>
     <title>'Eris' Missiles</title>
     <short>'Eris'</short>
-    <desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+    <desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
     <tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
     <damage>3</damage>
 	<drone_targetable>0</drone_targetable>
@@ -20380,7 +20380,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Hv. Energy</short>
 	<tip>loot_duskbringer_1</tip>
 	<locked>1</locked>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 1 hull damage. Can hit and disable shields as well as systems. 2x hull damage on systemless rooms.</tooltip>
 	<damage>2</damage>
 	<persDamage>-1</persDamage>
@@ -20427,7 +20427,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Stun Bomb</title>
 	<short>Stun B.</short>
 	<locked>1</locked>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 1 ion damage. Stuns all crew inside the room. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
@@ -20461,7 +20461,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_lostsun_1</tip>
 	<title>'Sekhmet' Mine Launcher</title>
 	<short>'Sekhmet'</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.
 	
 	At empty beacons provides 3 fleet delay for 15 missiles.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -20507,7 +20507,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_lostsun_2</tip>
 	<title>'Hades' Missiles</title>
 	<short>'Hades'</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<accuracyMod>10</accuracyMod>
@@ -20550,7 +20550,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Bomb Launcher</title>
 	<short>Bomb</short>
 	<locked>1</locked>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -20581,7 +20581,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Light Laser Mk. II</title>
 	<short>Light II</short>
 	<tip>loot_mantis_2</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Only one shot, one damage per shot.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -20623,7 +20623,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Laser Charger</title>
 	<short>Charge L</short>
 	<tip>loot_rebel_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -20663,7 +20663,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_rock_1</tip>
 	<title>Hermes Missile</title>
 	<short>Hermes</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<accuracyMod>10</accuracyMod>
@@ -20706,7 +20706,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_zoltan_1</tip>
 	<title>'Pike' Beam</title>
 	<short>'Pike'</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Beam weapon with extended line. 1 damage per room.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -20732,7 +20732,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_zoltan_2</tip>
 	<title>'Lucerne' Beam</title>
 	<short>'Lucerne'</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Beam weapon; 1 damage; 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<sysDamage>1</sysDamage>
@@ -20760,7 +20760,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_slug_1</tip>
 	<title>'Faucon' Beam</title>
 	<short>'Faucon'</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -20792,7 +20792,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Anti-Bio Laser</title>
 	<short>Bio Laser</short>
 	<tip>loot_clan_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Only one shot, one damage per shot.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -20833,7 +20833,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_knight_1</tip>
 	<title>'Corbin' Beam</title>
 	<short>'Corbin'</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -20871,7 +20871,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_shell_1</tip>
 	<title>Anti-Hull Laser MK I</title>
 	<short>Hull-L I</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires 2 lasers, 1 damage each and 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -20913,7 +20913,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Flak Gun Mark I</title>
 	<short>Flak I</short>
 	<tip>loot_leech_1</tip>
-	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>30</radius>
 	<damage>1</damage>
@@ -20959,7 +20959,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_cultist_1</tip>
 	<title>Piercing 'Torch'</title>
 	<short>'Torch' P.</short>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Beam weapon that starts fires.</tooltip>
 	<damage>0</damage>
 	<sp>10</sp>
@@ -20984,7 +20984,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_dynasty_1</tip>
 	<title>'Ranseur' Beam</title>
 	<short>'Ranseur'</short>
-	<desc>A powerful beam that cannot cause physical damage but rips breaches in the enemy's hull and pierces 1 shield.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. (보면 알겠지만 원문은 제작자가 잘못 써놓은 글임)A powerful beam that cannot cause physical damage but rips breaches in the enemy's hull and pierces 1 shield.</desc>
 	<tooltip>Beam weapon that opens breaches.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -21012,7 +21012,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>Flak Gun Mark I</title>
 	<short>Flak I</short>
 	<tip>loot_aug_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -21060,7 +21060,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Adder'</title>
 	<short>'Adder'</short>
 	<tip>loot_math_1</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires two lasers that deal 1 damage each. Cooldown drops the more it fires.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -21104,7 +21104,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Subtracter'</title>
 	<short>'Subtracter'</short>
 	<tip>loot_math_2</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>No hull or system damage, but deals much bio damage</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -21137,7 +21137,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Multiplier'</title>
 	<short>'Multiplier'</short>
 	<tip>loot_math_3</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>65</radius>
@@ -21183,7 +21183,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Divider'</title>
 	<short>'Divider'</short>
 	<tip>loot_math_4</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>One damage per room beam weapon. Ignores 3 shields</tooltip>
 	<damage>1</damage>
 	<sp>3</sp>
@@ -21210,7 +21210,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Equalizer'</title>
 	<short>'Equalizer'</short>
 	<tip>loot_math_5</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<ion>3</ion>
@@ -21264,7 +21264,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Percentage'</title>
 	<short>'Percentage'</short>
 	<tip>loot_math_6</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.
 	
 	At empty beacons provides 3 fleet delay for 15 missiles.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -21311,7 +21311,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Greater Than'</title>
 	<short>'Greater'</short>
 	<tip>loot_math_7</tip>
-	<desc>Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<drone_targetable>0</drone_targetable> 
 	<speed>30</speed>
@@ -21355,10 +21355,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="BEAM_BATTERY">
 	<type>BEAM</type>
-	<title>Battery Beam</title>
+	<title>배터리 빔</title>
 	<short>Battery</short>
 	<tip>tip_conservative</tip>
-	<desc>This unique weapon provides 2 power to whichever weapon is directly to the right of it in the weapon list.</desc>
+	<desc>이 독특한 병기는 무기 리스트에서 바로 오른쪽에 배치된 무기에 2의 전력을 공급합니다. This unique weapon provides 2 power to whichever weapon is directly to the right of it in the weapon list.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -21383,9 +21383,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="BEAM_ADAPT_3">
 	<type>BEAM</type>
 	<tip>tip_chain_beam</tip>
-	<title>Tsukiyari Beam</title>
+	<title>츠키 야리 빔</title>
 	<short>Tsukiyari</short>
-	<desc>This advanced beam was a prototype upgrade of the well known Kamayari and Suyari beams.</desc>
+	<desc>이 최첨단 빔은 잘 알려진 가카야리와 스야리 빔의 프로토타입 강화판입니다. This advanced beam was a prototype upgrade of the well known Kamayari and Suyari beams.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -21415,11 +21415,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="BIG_ION">
 	<type>BEAM</type>
-	<title>'Big Ion'</title>
+	<title>'거대한 이온'</title>
 	<short>Big I.</short>
 	<locked>1</locked>
 	<tip>tip_chain_ion</tip>
-	<desc>A pre-emptive Ion weapon that charges so fast it can be used right at the start of battle, but can only be fired once per combat. Does immense Bio and Ion damage and never misses. Texas Red won't be getting up after this one.</desc>
+	<desc>전투마다 한번만 사용할 수 있지만 전투를 시작하자마자 쏠 수 있을 정도로 충전이 빠른 선제 이온 병기입니다. 어마어마한 선원 피해와 이온 피해를 가하며 빗나가지 않습니다. (텍사스 레드 뭔뜻인지 모름) A pre-emptive Ion weapon that charges so fast it can be used right at the start of battle, but can only be fired once per combat. Does immense Bio and Ion damage and never misses. Texas Red won't be getting up after this one.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>0</damage>
 	<persDamage>999999</persDamage>
@@ -21470,10 +21470,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="BOMB_CONSERVRECYCLER">
 	<type>BOMB</type>
 	<tip>tip_conservative</tip>
-	<title>Sustaining Bomb</title>
+	<title>영구 폭탄</title>
 	<short>Sustain.</short>
 	<locked>1</locked>
-	<desc>This Bomb charges slower than most, but is completely self-sustaining. It uses no missiles or power, and only requires another weapon to be powered to function.</desc>
+	<desc>이 폭탄은 다른 것들보다 느리게 충전되지만, 완전히 독립적으로 작동합니다. 작동을 위해 오로지 전력이 공급되는 다른 무기만이 필요하고, 전력이나 미사일을 소모하지 않습니다.  This Bomb charges slower than most, but is completely self-sustaining. It uses no missiles or power, and only requires another weapon to be powered to function.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -21502,10 +21502,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="FROST_CHARGEGUN"> 
 	<type>BURST</type>
-	<title>Frost Charger</title>
+	<title>충전식 서리 레이저</title>
 	<short>Charge F</short>
 	<tip>tip_charge</tip>
-	<desc>This Laser weapon can charge multiple times, giving it additional projectiles. As a Frost weapon, it locks down rooms, and does extra damage and stun to enemy crew.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 서리 무기이기 때문에 피격된 방을 봉쇄하며 선원에게 추가 피해를 입히고 기절 시킵니다. This Laser weapon can charge multiple times, giving it additional projectiles. As a Frost weapon, it locks down rooms, and does extra damage and stun to enemy crew.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -21548,10 +21548,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_CHAIN_CHARGEGUN"> 
 	<type>LASER</type>
-	<title>Ion Chainger</title>
+	<title>연충식 이온</title>
 	<short>Chainger I.</short>
 	<tip>tip_charge</tip>
-	<desc>This Ion weapon can charge multiple times, giving it additional projectiles. With each shot, the ion damage increases.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 발사할 때마다 이온 피해량이 증가합니다. This Ion weapon can charge multiple times, giving it additional projectiles. With each shot, the ion damage increases.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -21599,9 +21599,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MISSILES_OBSIDIAN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Obsidian Missiles</title>
+	<title>흑요석 미사일</title>
 	<short>Obsidian</short>
-	<desc>This powerful Missile is made with an obsidian exterior, causing massive damage to enemy hulls.</desc>
+	<desc>이 강력한 미사일은 흑요석 외피가 장착되어 있어 적선의 함체에 막대한 피해를 입힙니다. This powerful Missile is made with an obsidian exterior, causing massive damage to enemy hulls.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>6</damage>
 	<missiles>1</missiles>
@@ -21640,9 +21640,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BEAM</type>
 	<flavorType>Focus Gun</flavorType>
 	<tip>tip_focus</tip>
-	<title>`Nevermiss`</title>
+	<title>`백발백중`</title>
 	<short>`Never`</short>
-	<desc>This specialized Pinpoint weapon stays true to its name, not only having the guaranteed hit of a Beam, but also ignoring all shields.</desc>
+	<desc>이 특수한 핀포인트 병기는 이름값을 톡톡히 해서 평범한 빔처럼 빗나가지 않을 뿐만 아니라 모든 방어막을 관통하기까지 합니다. This specialized Pinpoint weapon stays true to its name, not only having the guaranteed hit of a Beam, but also ignoring all shields.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>2</damage>
 	<sysDamage>1</sysDamage>
@@ -21666,12 +21666,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="SHOTGUN_STEEL">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Steel Launcher</title>
+	<title>강철 발사기</title>
 	<short>Steel</short>
 	<tip>tip_flak</tip>
-	<desc>This modified Flak cannon fires bursts of heavy metal that move slowly but inflict much greater damage to a ship's hull integrity.</desc>
+	<desc>느리지만 함체에 훨씬 큰 피해를 입히는 중금속을 발사하는 개조된 대공포입니다. This modified Flak cannon fires bursts of heavy metal that move slowly but inflict much greater damage to a ship's hull integrity.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -21715,12 +21715,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="SHOTGUN_TOGGLE_FIRE">
 	<type>BURST</type>
-	<flavorType>Toggling Weapon</flavorType>
+	<flavorType>토글 무기</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Toggle Flak [F]</title>
+	<title>토글 대공포 [화재]</title>
 	<short>Toggle [F]</short>
 	<tip>tip_flak</tip>
-	<desc>[Current Mode: Fire] A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
+	<desc>[현재 모드: 화재] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.   A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21761,12 +21761,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="SHOTGUN_TOGGLE_ION">
 	<type>BURST</type>
-	<flavorType>Toggling Weapon</flavorType>
+	<flavorType>토글 무기</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Toggle Flak [E]</title>
+	<title>토글 대공포 [이온]</title>
 	<short>Toggle [E]</short>
 	<tip>tip_flak</tip>
-	<desc>[Current Mode: Electric] A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
+	<desc>[현재 모드: 이온] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다. A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21808,12 +21808,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="SHOTGUN_TOGGLE_TOXIC">
 	<type>BURST</type>
-	<flavorType>Toggling Weapon</flavorType>
+	<flavorType>토글 무기</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Toggle Flak [T]</title>
+	<title>토글 플랙 [독성]</title>
 	<short>Toggle [T]</short>
 	<tip>tip_flak</tip>
-	<desc>[Current Mode: Toxic] A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
+	<desc>[현재 모드: 독성] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다. [Current Mode: Toxic] A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21856,12 +21856,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="SHELL_LAUNCHER">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Toxic Pod Launcher</title>
+	<title>독성 포드 발사기</title>
 	<tip>tip_flak</tip>
 	<short>Tox Pods</short>
-	<desc>This deadly weapon fires out pods of toxic gas which corrodes systems and harms crew.</desc>
+	<desc>이 치명적인 무기는 시스템을 부식시키고 선원에게 피해를 입히는 독성 가스가 담긴 포드를 발사합니다. This deadly weapon fires out pods of toxic gas which corrodes systems and harms crew.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>42</radius>
 	<damage>0</damage>
@@ -21905,12 +21905,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="UNSPOOLER">
     <type>BURST</type>
-    <flavorType>Charge Blast Missile</flavorType>
+    <flavorType>충전 블래스트 미사일</flavorType>
     <drone_targetable>0</drone_targetable>
-    <title>'Nightshade' Missiles</title>
+    <title>'나이트셰이드' 미사일</title>
     <short>'Nightshade'</short>
     <tip>tip_missiles_cloak</tip>
-    <desc>A deadly Missile that fires cloaked warheads that basic Defense Drones can't shoot down, but charge quite slow.</desc>
+    <desc>충전이 상당히 느리지만, 방어 드론이 요격할 수 없는 은폐된 탄환을 발사하는 치명적인 미사일입니다. A deadly Missile that fires cloaked warheads that basic Defense Drones can't shoot down, but charge quite slow.</desc>
     <tooltip>Boss Loot.</tooltip>
     <radius>50</radius>
     <missiles>1</missiles>
@@ -21952,11 +21952,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_GIANT">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>'Pharaoh' Mine Launcher</title>
+	<title>'파라오' 지뢰 사출기</title>
 	<short>'Pharaoh'</short>
-	<desc>A massive Mine Launcher that fires immense, heavy hitting mines despite an average ammunition price.
+	<desc>다른 기뢰 사출기와 같이 탄약 1발을 소모함에도 불구하고 거대하고 파괴적인 기뢰를 사출하는 거대한 기뢰 사출기입니다. A massive Mine Launcher that fires immense, heavy hitting mines despite an average ammunition price.
 	
-	At empty beacons provides 3 fleet delay for 7 missiles.</desc>
+	빈 송신소에서 탄약 7개를 소모하여 반군의 추적을 3도약 지연시킬 수 있습니다. At empty beacons provides 3 fleet delay for 7 missiles.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>7</damage>
 	<sysDamage>-2</sysDamage>
@@ -21996,10 +21996,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LASER_LIGHT_CHARGEGUN"> 
 	<type>LASER</type>
-	<title>Light Laser Charger</title>
+	<title>충전식 경략 레이저</title>
 	<short>Li. Charge</short>
 	<tip>tip_charge</tip>
-	<desc>This fast charging Light Laser can reach a maximum volley of 5 shots for a very low power cost.</desc>
+	<desc>적은 전력 소비로 발사체를 5발까지 모아 한꺼번에 발사할 수 있는 경량 레이저 입니다. This fast charging Light Laser can reach a maximum volley of 5 shots for a very low power cost.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 4.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -22039,10 +22039,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="CRYSTAL_BURST_FIRE">
 	<type>MISSILES</type>
-	<flavorType>Crystalline Tech</flavorType>
-	<title>Amber Launcher</title>
+	<flavorType>크리스탈 기술</flavorType>
+	<title>호박 발사기</title>
 	<short>Amber</short>
-	<desc>Fires 2 heavy and explosive crystal shards that pierce 1 shield each, lock down rooms, and create a fire.</desc>
+	<desc>방어막을 한겹 관통하며, 선실을 봉쇄하고, 화재를 일으키는 2개의 묵직한 폭발성 크리스탈을 발사합니다. Fires 2 heavy and explosive crystal shards that pierce 1 shield each, lock down rooms, and create a fire.</desc>
 	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
 	<tip>tip_crystal</tip>
 	<damage>2</damage>
@@ -22083,9 +22083,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="STRAWBERRY">
 	<type>MISSILES</type>
 	<tip>tip_kernel</tip>
-	<title>Strawberry Gun</title>
+	<title>딸기 총</title>
 	<short>Strawberry</short>
-	<desc>As it says on the tin.</desc>
+	<desc>깡통에 적힌 그대로. As it says on the tin.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -22128,10 +22128,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="RUSTY_LASER_BURST_2">
 	<type>BURST</type>
-	<title>Old Burst Mark I</title>
+	<title>낡은 점사형 레이저 마크 I</title>
 	<short>O. Burst I</short>
 	<tip>tip_old</tip>
-	<desc>This simple Burst Laser isn't flashy but it gets the job done. Very old and has worse aim.</desc>
+	<desc>단순한 점사형 레이저로, 멋은 나지 않으나 제값은 톡톡히 해내는 무기입니다. 엄청 낡아서 집탄율이 떨어집니다. This simple Burst Laser isn't flashy but it gets the job done. Very old and has worse aim.</desc>
 	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -22170,10 +22170,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="RUSTY_LASER_BURST_3">
 	<type>BURST</type>
 	<flavorType>Laser</flavorType>
-	<title>Old Burst Mark II</title>
+	<title>낡은 점사형 레이저 마크 II</title>
 	<short>O. Burst II</short>
 	<tip>tip_old</tip>
-	<desc>Slightly improved version of the Burst Laser that fires more shots per charge. Very old and has worse aim.</desc>
+	<desc>1회 충전당 더 많은 횟수의 사격을 하도록 향상된 버전의 연사형 레이저 입니다. 엄청 낡아서 집탄율이 떨어집니다. Slightly improved version of the Burst Laser that fires more shots per charge. Very old and has worse aim.</desc>
 	<tooltip>Fires 3 lasers, 1 damage each.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -22211,10 +22211,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="RUSTY_LASER_BURST_5">
 	<type>BURST</type>
-	<title>Old Burst Mark III</title>
+	<title>낡은 점사형 레이저 마크 III</title>
 	<short>O. Burst III</short>
 	<tip>tip_old</tip>
-	<desc>Powerful Burst Laser that fires off an impressive barrage. Very old and has worse aim.</desc>
+	<desc>상대에게 인상적인 탄막을 선사하는 강력한 연사형 레이저입니다. 엄청 낡아서 집탄율이 떨어집니다. Powerful Burst Laser that fires off an impressive barrage. Very old and has worse aim.</desc>
 	<tooltip>Fires 5 lasers, 1 damage per shot.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -22253,10 +22253,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="RUSTY_LASER_HEAVY_1">
 	<type>BURST</type>
-	<title>Old Heavy Mark I</title>
+	<title>낡은 중형 레이저 마크 I</title>
 	<short>O. Heavy I</short>
 	<tip>tip_old</tip>
-	<desc>Heavy Lasers can wreak more havoc than their smaller, Burst Laser counterparts. Very old and has worse aim.</desc>
+	<desc>중형 레이저들은 소형의 점사형보다 더 큰 피해를 줍니다. 엄청 낡아서 집탄율이 떨어집니다. Heavy Lasers can wreak more havoc than their smaller, Burst Laser counterparts. Very old and has worse aim.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<radius>52</radius>
 	<damage>2</damage>
@@ -22298,9 +22298,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>Missiles</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<tip>tip_old</tip>
-	<title>Old Leto</title>
+	<title>낡은 레토</title>
 	<short>O. Leto</short>
-	<desc>This launcher is outdated and weak, but can still be effective. Very old and has worse aim.</desc>
+	<desc>이 발사대는 구식이고 약하지만, 아직 쓸만합니다. 엄청 낡아서 집탄율이 떨어집니다. This launcher is outdated and weak, but can still be effective. Very old and has worse aim.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -22341,9 +22341,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<tip>tip_missiles</tip>
 	<drone_targetable>1</drone_targetable>
-	<title>Old Artemis</title>
+	<title>낡은 아르테미스</title>
 	<short>O. Artemis</short>
-	<desc>Standard missile launcher on most Federation ships. Very old and has worse aim.</desc>
+	<desc>대부분의 연방 함선에 장착된 표준화된 미사일 발사기입니다. 엄청 낡아서 집탄율이 떨어집니다. Standard missile launcher on most Federation ships. Very old and has worse aim.</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<radius>52</radius>
 	<damage>2</damage>
@@ -22384,9 +22384,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<tip>tip_missiles</tip>
 	<drone_targetable>1</drone_targetable>
-	<title>Old Hermes</title>
+	<title>낡은 헤르메스</title>
 	<short>O. Hermes</short>
-	<desc>Standard but powerful missile. Very old and has worse aim.</desc>
+	<desc>기본적이지만 강력한 미사일. 엄청 낡아서 집탄율이 떨어집니다.  Standard but powerful missile. Very old and has worse aim.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<radius>52</radius>
 	<damage>3</damage>
@@ -22428,9 +22428,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<tip>tip_missiles</tip>
 	<drone_targetable>1</drone_targetable>
-	<title>Old Pegasus</title>
+	<title>낡은 페가수스</title>
 	<short>O. Pegasus</short>
-	<desc>Creative missile design allows for two projectiles for the cost of one! Very old and has worse aim.</desc>
+	<desc>하나의 탄약으로 두발의 미사일을 발사하는 혁신적인 미사일 설계! 엄청 낡아서 집탄율이 떨어집니다. Creative missile design allows for two projectiles for the cost of one! Very old and has worse aim.</desc>
 	<tooltip>Fires 2 missiles; 2 damage each; pierces all shields.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -22486,8 +22486,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <augBlueprint name="MODULAR_STORE">
-	<title>Hektar Virtual Store(tm)</title>
-	<desc>Hektar Industries(tm) introduces the Hektar Virtual Store Interface(tm)! Remotely access Hektar's vast stock of modules and modular weapons, purchase a blueprint, and print it about aboard your own ship with the included Hektar 3D Fabrication technology(tm)! Prices include those required for the raw materials needed for fabrication.</desc>
+	<title>헥타르 가상 거래소(tm)</title>
+	<desc>헥타르 산업(tm)의 헥타르 가상 거래소 인터페이스(tm)를 소개합니다! Hektar Industries(tm) introduces the Hektar Virtual Store Interface(tm)! 헥타르의 모듈식 무기 상점에 원격으로 접속하여, 청사진을 구매하고, 동봉된 헥타르 3D복제 기술을 사용해 당신의 함선에서 제품을 뽑아낼 수 있습니다! 상품의 가격에는 복제에 필요한 재료값이 포함되어 있습니다. Remotely access Hektar's vast stock of modules and modular weapons, purchase a blueprint, and print it about aboard your own ship with the included Hektar 3D Fabrication technology(tm)! Prices include those required for the raw materials needed for fabrication.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -22505,14 +22505,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="MODULE_ACCURACY">
 	<type>BEAM</type>
-	<flavorType>Attribute Module</flavorType>
+	<flavorType>속성 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Accuracy Module</title>
+	<title>정확도 모듈</title>
 	<short>Acc. Mod.</short>
-	<desc>Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
-	Incompatible with the Modular Beam.
-	Laser Effects: Each projectile gains an additional 20% accuracy buff.
-	Missile Effects: Missiles gain an additional 100% accuracy buff.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 정확도 속성 모듈입니다. 전투중에 당신의 무기가 목표를 잘 따라갈 것을 보장합니다. Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
+	모듈식 빔과 호환되지 않습니다. Incompatible with the Modular Beam.
+	레이저 효과: 각 투사체가 20%의 명중률 보정을 얻습니다. Laser Effects: Each projectile gains an additional 20% accuracy buff.
+	미사일 효과: 미사일이 100%의 명중률 보정을 얻습니다. Missile Effects: Missiles gain an additional 100% accuracy buff.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22528,15 +22528,15 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_BIO">
 	<type>BEAM</type>
-	<flavorType>Status Module</flavorType>
+	<flavorType>상태 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Anti-Bio Module</title>
+	<title>안티-바이오 모듈</title>
 	<short>A-Bio Mod.</short>
-	<desc>Hektar Industries(TM) brand Status Anti-Bio Module. Turn your modular weapons into the perfect anti-crew weaponry!
-	No incompatibilities. When combined with the hullbuster module, will return to default hull damage, but will not have hull bust properties.
-	Laser Effects: Reduces hull damage to 0, but each projectile deals 30 crew damage.
-	Beam Effects: Reduces hull damage to 0, but deals 60 crew damage.
-	Missile Effects: Reduces hull damage to 0, but deals 90 crew damage.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 안티-바이오 상태 모듈입니다. 당신의 모듈식 무기를 완벽한 대인 병기로 개조해 보세요! Hektar Industries(TM) brand Status Anti-Bio Module. Turn your modular weapons into the perfect anti-crew weaponry!
+	모든 제품과 호환됩니다. 함체 파괴 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다. No incompatibilities. When combined with the hullbuster module, will return to default hull damage, but will not have hull bust properties.
+	레이저 효과: 함체 피해량이 0이 되지만, 각 투사체가 30의 선원 피해를 입힙니다. Laser Effects: Reduces hull damage to 0, but each projectile deals 30 crew damage.
+	빔 효과: 함체 피해량이 0이 되지만, 60의 선원 피해를 입힙니다. Beam Effects: Reduces hull damage to 0, but deals 60 crew damage.
+	미사일 효과: 함체 피해량이 0이 되지만, 90의 선원 피해를 입힙니다. Missile Effects: Reduces hull damage to 0, but deals 90 crew damage.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22552,13 +22552,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_COOLDOWN">
 	<type>BEAM</type>
-	<flavorType>Status Module</flavorType>
+	<flavorType>상태 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Cooldown Module</title>
+	<title>충전 시간 모듈</title>
 	<short>Cool Mod.</short>
-	<desc>Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
-	No incompatibilities.
-	Effects for all weapons: Reduces cooldown by 25%</desc>
+	<desc>헥타르 산업(TM) 브랜드의 충전 시간 상태 모듈입니다. 당신의 무기를 전성비 좋고 연사력 좋은 돌격 무기로 개조해 보세요! Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
+	모든 제품과 호환됩니다. No incompatibilities.
+	모든 무기의 효과: 충전 시간을 25% 감소시킵니다. Effects for all weapons: Reduces cooldown by 25%</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22574,13 +22574,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_LOCKDOWN">
 	<type>BEAM</type>
-	<flavorType>Status Module</flavorType>
+	<flavorType>상태 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Lockdown Module</title>
+	<title>봉쇄 모듈</title>
 	<short>Lock Mod.</short>
-	<desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
-	Incompatible with the Modular Beam.
-	Effects for all weapons: Applies lockdown on impact.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 봉쇄 상태 모듈입니다. 당신의 모듈식 무기를 차세대 기술로 개조하여 독특한 봉쇄 기술로 적함을 혼란에 빠뜨리세요! Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
+	모듈식 빔과 호환되지 않습니다. Incompatible with the Modular Beam.
+	모든 무기의 효과: 피격된 선실을 봉쇄합니다. Effects for all weapons: Applies lockdown on impact.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22596,13 +22596,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_PIERCE">
 	<type>BEAM</type>
-	<flavorType>Status Module</flavorType>
+	<flavorType>상태 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Pierce Module</title>
+	<title>관통 모듈</title>
 	<short>Pierce Mod.</short>
-	<desc>Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
-	Incompatible with the Modular Missile.
-	Effects for all weapons: Pierce 1 additional shield layer. Adds a 30% breach chance.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 관통 상태 모듈입니다. 다시는 적의 방어 체계에 애먹지 마세요! Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
+	모듈식 미사일과 호환되지 않습니다. Incompatible with the Modular Missile.
+	모든 무기의 효과:방어막 1겹을 추가로 관통합니다. 균열을 발생시킬 확률이 30% 증가합니다. Effects for all weapons: Pierce 1 additional shield layer. Adds a 30% breach chance.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22618,15 +22618,15 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_STUN">
 	<type>BEAM</type>
-	<flavorType>Status Module</flavorType>
+	<flavorType>상태 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Neural Module</title>
+	<title>신경 모듈</title>
 	<short>Stun Mod.</short>
-	<desc>Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
-	No incompatibilities.
-	Laser Effects: Laser projectiles apply 12 seconds of stun. (projectiles do not stack with each other)
-	Beam Effects: Beam applies 18 seconds of stun.
-	Missile Effects: Missile applies 14 seconds of stun.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 신경 상태 모듈입니다. 당신의 모듈식 무기를 선원을 기절시키는 신경 무기로 개조해 보세요! Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
+	모든 제품과 호환됩니다. No incompatibilities.
+	레이저 효과: 레이저 투사체가 선원을 12초간 기절시킵니다. (중첩되지 않습니다) Laser Effects: Laser projectiles apply 12 seconds of stun. (projectiles do not stack with each other)
+	빔 효과: 빔이 선원을 18초간 기절시킵니다. Beam Effects: Beam applies 18 seconds of stun.
+	미사일 효과: 미사일이 선원을 14초간 기절시킵니다. Missile Effects: Missile applies 14 seconds of stun.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22642,15 +22642,15 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_FIRE">
 	<type>BEAM</type>
-	<flavorType>Attribute Module</flavorType>
+	<flavorType>속성 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Firestarter Module</title>
+	<title>방화 모듈</title>
 	<short>Fire Mod.</short>
-	<desc>Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
-	No incompatibilities.
-	Laser Effects: Each projectile gains a 30% fire chance.
-	Beam Effects: Beam gains 40% fire chance.
-	Missile Effects: Missile gains 100% fire chance.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 방화 속성 모듈입니다. 당신의 모듈식 무기로 맹렬한 화재를 일으켜 보세요! Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
+	모든 제품과 호환됩니다. No incompatibilities.
+	레이저 효과: 각 투사체가 30%의 확률로 화재를 일으킵니다. Laser Effects: Each projectile gains a 30% fire chance.
+	빔 효과: 빔이 40%의 확률로 화재를 일으킵니다. Beam Effects: Beam gains 40% fire chance.
+	미사일 효과: 미사일이 100%의 확률로 화재를 일으킵니다. Missile Effects: Missile gains 100% fire chance.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22666,12 +22666,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="MODULE_HULL">
 	<type>BEAM</type>
-	<flavorType>Attribute Module</flavorType>
+	<flavorType>속성 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>Hullbust Module</title>
+	<title>함체 파괴 모듈</title>
 	<short>Hull Mod.</short>
-	<desc>Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
-	No incompatibilities. When combined with the anti-bio module, will return to default hull damage but will not have hull bust properties.
+	<desc>헥타르 산업(TM) 브랜드의 함체 파괴 속성 모듈입니다. 더 강력한 모듈식 무기로 적함의 함체를 박살내 버리세요! Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
+	모든 제품과 호환됩니다. 안티-바이오 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다. No incompatibilities. When combined with the anti-bio module, will return to default hull damage but will not have hull bust properties.
 	Effects for all weapons: Weapon does x2 damage on systemless rooms. Weapons gain a 10% breach chance. [Breach stacks with pierce module breach chance]</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
@@ -22698,11 +22698,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <!--BASE-->
 <weaponBlueprint name="MODULAR_LASER_BASE">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다. Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
+	모든 모듈과 호환됩니다. Has no incompatible modules.</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -22737,13 +22737,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_BASE_BIO">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	상태 - 안티-바이오</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>0</damage>
 	<persDamage>2</persDamage>
@@ -22779,13 +22779,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_BASE_COOLDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	상태 - 충전 속도</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -22820,13 +22820,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_BASE_LOCKDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	상태 - 봉쇄</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -22862,13 +22862,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_BASE_PIERCE">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	상태 - 관통</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -22903,13 +22903,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_BASE_STUN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	상태 - 기절</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -22947,13 +22947,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <!--ACCURACY-->
 <weaponBlueprint name="MODULAR_LASER_ACCURACY">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 정확도</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -22989,14 +22989,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_ACCURACY_BIO">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 안티-바이오</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>0</damage>
 	<persDamage>2</persDamage>
@@ -23033,14 +23033,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_ACCURACY_COOLDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 충전 속도</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23076,14 +23076,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_ACCURACY_LOCKDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 봉쇄</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23120,14 +23120,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_ACCURACY_PIERCE">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 정확도 속성 - 정확도
+	상태 - 관통 상태 - 관통</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23163,14 +23163,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_ACCURACY_STUN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 기절</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23209,13 +23209,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <!--FIRE-->
 <weaponBlueprint name="MODULAR_LASER_FIRE">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 방화</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23250,14 +23250,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_FIRE_BIO">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 안티-바이오</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>0</damage>
 	<persDamage>2</persDamage>
@@ -23293,14 +23293,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_FIRE_COOLDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 충전 속도</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23335,14 +23335,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_FIRE_LOCKDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 봉쇄</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23378,14 +23378,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_FIRE_PIERCE">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 관통</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23420,14 +23420,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_FIRE_STUN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 기절</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -23465,13 +23465,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <!--BASE-->
 <weaponBlueprint name="MODULAR_LASER_HULL">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<hullBust>1</hullBust>
@@ -23507,14 +23507,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_HULL_BIO">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 안티-바이오</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<persDamage>2</persDamage>
@@ -23550,14 +23550,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_HULL_COOLDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 충전 속도</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<hullBust>1</hullBust>
@@ -23593,14 +23593,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_HULL_LOCKDOWN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 봉쇄</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<hullBust>1</hullBust>
@@ -23637,14 +23637,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_HULL_PIERCE">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 관통</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<hullBust>1</hullBust>
@@ -23680,14 +23680,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="MODULAR_LASER_HULL_STUN">
 	<type>LASER</type>
-	<title>Modular Laser</title>
+	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular laser. It supports 1 attribute module and 1 status module.
-	Has no incompatible modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 기절</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<hullBust>1</hullBust>
@@ -23736,10 +23736,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_BASE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -23761,12 +23761,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_BASE_BIO">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 안티-바이오</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -23789,12 +23789,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_BASE_COOLDOWN">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 충전 속도</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -23816,12 +23816,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_BASE_PIERCE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 관통</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>1</sp>
@@ -23843,12 +23843,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_BASE_STUN">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 기절</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<stun>18</stun>
@@ -23873,12 +23873,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_FIRE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -23900,13 +23900,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_FIRE_BIO">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 안티-바이오</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -23929,13 +23929,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_FIRE_COOLDOWN">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 충전 속도</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -23957,13 +23957,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_FIRE_PIERCE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 관통</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>1</sp>
@@ -23985,13 +23985,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_FIRE_STUN">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 기절</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<stun>18</stun>
@@ -24016,12 +24016,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_HULL">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<hullBust>1</hullBust>
@@ -24044,13 +24044,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_HULL_BIO">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 안티-바이오</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<persDamage>4</persDamage>
@@ -24073,13 +24073,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_HULL_COOLDOWN">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 충전 속도</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<hullBust>1</hullBust>
@@ -24102,13 +24102,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_HULL_PIERCE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Pierce</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 관통</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<hullBust>1</hullBust>
@@ -24131,13 +24131,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_BEAM_HULL_STUN">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Modular Beam</title>
+	<title>모듈식 빔</title>
 	<short>Mod. Beam</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular beam. It supports 1 attribute module and 1 status module.
-	Incompatible with the lockdown and accuracy modules.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	봉쇄 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 기절</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<hullBust>1</hullBust>
@@ -24172,10 +24172,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_BASE">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24212,12 +24212,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_BASE_BIO">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 안티-바이오</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>0</damage>
 	<persDamage>6</persDamage>
@@ -24255,12 +24255,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_BASE_COOLDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 충전 속도</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24297,12 +24297,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_BASE_LOCKDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 봉쇄</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24340,12 +24340,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_BASE_STUN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	상태 - 기절</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24384,12 +24384,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_ACCURACY">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 정확도</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24427,13 +24427,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_ACCURACY_BIO">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 안티-바이오</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>0</damage>
 	<persDamage>6</persDamage>
@@ -24472,13 +24472,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_ACCURACY_COOLDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 충전 속도</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24516,13 +24516,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_ACCURACY_LOCKDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 봉쇄</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24561,13 +24561,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_ACCURACY_STUN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Accuracy
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 정확도
+	상태 - 기절</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24607,12 +24607,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_FIRE">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24649,13 +24649,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_FIRE_BIO">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 안티-바이오</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>0</damage>
 	<persDamage>6</persDamage>
@@ -24693,13 +24693,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_FIRE_COOLDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 충전 속도</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24736,13 +24736,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_FIRE_LOCKDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 봉쇄</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24780,13 +24780,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_FIRE_STUN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Firestarter
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 방화
+	상태 - 기절</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24826,12 +24826,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_HULL">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24869,13 +24869,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_HULL_BIO">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Anti-Bio</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 안티-바이오</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<persDamage>6</persDamage>
@@ -24913,13 +24913,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_HULL_COOLDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Cooldown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 충전 속도</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24957,13 +24957,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_HULL_LOCKDOWN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Lockdown</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 봉쇄</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -25002,13 +25002,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MODULAR_MISSILE_HULL_STUN">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>Modular Missile</title>
+	<title>모듈식 미사일</title>
 	<short>Mod. Missile</short>
-	<desc>Produced by Hektar Industries(TM), this is the base for a modular missile. It supports 1 attribute module and 1 status module.
-	Incompatible with the pierce module.
-	----CURRENTLY INSTALLED MODULES----
-	Attribute - Hullbuster
-	Status - Stun</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	관통 모듈과 호환되지 않습니다.
+	----현재 장착된 모듈----
+	속성 - 함체 파괴
+	상태 - 기절</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -25167,10 +25167,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<level>1</level>
 	<target>LASERS</target>
 	<tip>tip_defense</tip>
-	<title>Defender Drone Mk. I</title>
+	<title>방어 드론 마크 I</title>
 	<short>Defense I</short>
-	<desc>Defense drone capable of targeting lasers or solid projectiles.
-	Reload: 600 MS</desc>
+	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. Defense drone capable of targeting lasers or solid projectiles.
+	재장전: 600 MS</desc>
 	<power>2</power>
 	<cooldown>600</cooldown>
 	<dodge>0</dodge>
@@ -25187,10 +25187,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<level>1</level>
 	<target>LASERS</target>
 	<tip>tip_defense</tip>
-	<title>Defender Drone Mk. II</title>
+	<title>방어 드론 마크 II</title>
 	<short>Defense II</short>
-	<desc>Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkI.
-	Reload: 400 MS</desc>
+	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다. Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkI.
+	재장전: 400 MS</desc>
 	<power>3</power>
 	<cooldown>400</cooldown>
 	<dodge>0</dodge>
@@ -25207,9 +25207,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<level>1</level>
 	<target>LASERS</target>
 	<tip>tip_defense</tip>
-	<title>Defender Drone Mk. III</title>
+	<title>방어 드론 마크 III</title>
 	<short>Defense III</short>
-	<desc>Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkII.
+	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다. Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkII.
 	Reload: 150 MS</desc>
 	<power>4</power>
 	<cooldown>150</cooldown>
@@ -25227,10 +25227,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<level>1</level>
 	<target>LASERS</target>
 	<tip>tip_defense</tip>
-	<title>Defender Drone Mk. III++</title>
+	<title>방어 드론 마크 III++</title>
 	<short>Defense III++</short>
-	<desc>Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkII.
-	Reload: 100 MS</desc>
+	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다. Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkII.
+	재장전: 100 MS</desc>
 	<power>2</power>
 	<cooldown>100</cooldown>
 	<dodge>0</dodge>
@@ -25312,10 +25312,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>tip_toggle_defense</tip>
-	<title>Guardian Drone I [M]</title>
+	<title>수호자 드론 I [미사일]</title>
 	<short>Guard I [M]</short>
-	<desc>[Current Mode: Anti-Missile] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode.
-	Reload: 1000 MS</desc>
+	<desc>[현재 모드: 안티-미사일] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. [Current Mode: Anti-Missile] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode.
+	재장전: 1000 MS</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25331,10 +25331,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>tip_toggle_defense</tip>
-	<title>Guardian Drone I [D]</title>
+	<title>수호자 드론 I [드론]</title>
 	<short>Guard I [D]</short>
-	<desc>[Current Mode: Anti-Drone] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode.
-	Reload: 1500 MS</desc>
+	<desc>[현재 모드: 안티-드론] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. [Current Mode: Anti-Drone] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode.
+	재장전: 1500 MS</desc>
 	<target>DRONES</target>
 	<power>2</power>
 	<cooldown>1500</cooldown>
@@ -25356,10 +25356,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>tip_toggle_defense</tip>
-	<title>Guardian Drone II [M]</title>
+	<title>수호자 드론 II [미사일]</title>
 	<short>Guard II [M]</short>
-	<desc>[Current Mode: Anti-Missile] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode. Shoots faster than the Mk I.
-	Reload: 700 MS</desc>
+	<desc>[현재 모드: 안티-미사일] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다. [Current Mode: Anti-Missile] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode. Shoots faster than the Mk I.
+	재장전: 700 MS</desc>
 	<power>3</power>
 	<cooldown>700</cooldown>
 	<dodge>0</dodge>
@@ -25377,8 +25377,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_defense</tip>
 	<title>Guardian Drone II [D]</title>
 	<short>Guard II [D]</short>
-	<desc>[Current Mode: Anti-Drone] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode. Shoots faster than the Mk I.
-	Reload: 700 MS</desc>
+	<desc>[현재 모드: 안티-드론] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다. [Current Mode: Anti-Drone][Current Mode: Anti-Drone] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode. Shoots faster than the Mk I.
+	재장전: 700 MS</desc>
 	<target>DRONES</target>
 	<power>3</power>
 	<cooldown>700</cooldown>
@@ -25404,9 +25404,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_CONSERVATIVE_LASER">
 	<type>COMBAT</type>
 	<tip>tip_drone_conservative</tip>
-	<title>Conservative Laser Drone</title>
+	<title>보존 레이저 드론</title>
 	<short>Conserv. L</short>
-	<desc>A slow moving Combat Drone that uses no power, but cannot be depowered.</desc>
+	<desc>전력을 소모하지 않으며 속도가 느린 전투 드론입니다. 한번 작동하기 시작하면 멈출 수 없습니다. A slow moving Combat Drone that uses no power, but cannot be depowered.</desc>
 	<power>0</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25473,9 +25473,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_1_LASER">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Combat Drone Mk I [Laser]</title>
+	<title>전투 드론 마크 I [레이저]</title>
 	<short>Combat I [L]</short>
-	<desc>[CURRENT MODE: Laser] Basic Combat toggle Drone that can switch between a Laser and Beam weapon.</desc>
+	<desc>[현재 모드: 레이저] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. [CURRENT MODE: Laser] Basic Combat toggle Drone that can switch between a Laser and Beam weapon.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25490,9 +25490,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_1_BEAM">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Combat Drone Mk I [Beam]</title>
+	<title>전투 드론 마크 I [빔]</title>
 	<short>Combat I [B]</short>
-	<desc>[CURRENT MODE: Beam] Basic Combat toggle Drone that can switch between a Laser and Beam weapon.</desc>
+	<desc>[현재 모드: 빔] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. [CURRENT MODE: Beam] Basic Combat toggle Drone that can switch between a Laser and Beam weapon.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25512,9 +25512,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_2_LASER">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Combat Drone Mk II [Laser]</title>
+	<title>전투 드론 마크 II [Laser]</title>
 	<short>Combat II [L]</short>
-	<desc>[CURRENT MODE: Laser] Basic Combat toggle Drone that can switch between a Laser and Beam weapon. Moves faster than the MK I.</desc>
+	<desc>[현재 모드: 레이저] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. 마크 I보다 빠르게 움직입니다. [CURRENT MODE: Laser] Basic Combat toggle Drone that can switch between a Laser and Beam weapon. Moves faster than the MK I.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25529,9 +25529,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_2_BEAM">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Combat Drone Mk II [Beam]</title>
+	<title>전투 드론 마크 II [빔]</title>
 	<short>Combat II [B]</short>
-	<desc>[CURRENT MODE: Beam] Basic Combat toggle Drone that can switch between a Laser and Beam weapon. Moves faster than the MK I.</desc>
+	<desc>[현재 모드: 빔] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. 마크 I보다 빠르게 움직입니다. [CURRENT MODE: Beam] Basic Combat toggle Drone that can switch between a Laser and Beam weapon. Moves faster than the MK I.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25606,9 +25606,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ASSAULT_PARTICLE">
     <type>COMBAT</type>
     <tip>tip_toggle_combat</tip>
-    <title>Assault Drone [Particle]</title>
+    <title>돌격 드론 [입자]</title>
     <short>Assault [Prt]</short>
-    <desc>[CURRENT MODE: Particle] Diverse combat drone which can switch between Particle and Pierce modes for a range of applications in combat.</desc>
+    <desc>[현재 모드: 입자] 입자 모드 또는 관통 모드로 전환 가능한 다용도 전투 드론입니다.  [CURRENT MODE: Particle] Diverse combat drone which can switch between Particle and Pierce modes for a range of applications in combat.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -25623,9 +25623,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ASSAULT_PIERCE">
     <type>COMBAT</type>
     <tip>tip_toggle_combat</tip>
-    <title>Assault Drone [Pierce]</title>
+    <title>돌격 드론 [관통]</title>
     <short>Assault [Prc]</short>
-    <desc>[CURRENT MODE: Pierce] Diverse combat drone which can switch between Particle and Pierce modes for a range of applications in combat.</desc>
+    <desc>[현재 모드: 관통] 입자 모드 또는 관통 모드로 전환 가능한 다용도 전투 드론입니다. [CURRENT MODE: Pierce] Diverse combat drone which can switch between Particle and Pierce modes for a range of applications in combat.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -25682,9 +25682,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="HELLRAISER_FIRE">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Hellraiser [Fire]</title>
+	<title>헬레이저 [방화]</title>
 	<short>Hell [F]</short>
-	<desc>[CURRENT MODE: Fire] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25699,9 +25699,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="HELLRAISER_HULL">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Hellraiser [Hull]</title>
+	<title>헬레이저 [함체 파괴]</title>
 	<short>Hell [H]</short>
-	<desc>[CURRENT MODE: Anti-Hull] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. [CURRENT MODE: Anti-Hull] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25717,9 +25717,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="HELLRAISER_FIRE_PLAYER">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Hellraiser+ [Fire]</title>
+	<title>헬레이저+ [방화]</title>
 	<short>Hell+ [F]</short>
-	<desc>[CURRENT MODE: Fire] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. [CURRENT MODE: Fire] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25734,9 +25734,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="HELLRAISER_HULL_PLAYER">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Hellraiser+ [Hull]</title>
+	<title>헬레이저+ [함체 파괴]</title>
 	<short>Hell+ [H]</short>
-	<desc>[CURRENT MODE: Anti-Hull] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. [CURRENT MODE: Anti-Hull] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25814,9 +25814,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="PEST_BREACH">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Pestilence Drone [Breach]</title>
+	<title>역병 드론 [균열]</title>
 	<short>Pest [B]</short>
-	<desc>[CURRENT MODE: Breach] Specialized toggle Drone excellent for pestering enemy ships. Toggles between crew stunner or hull breaching mode.</desc>
+	<desc>[현재 모드: 균열] 상대를 괴롭히는데 탁월한 특수한 토글 드론입니다. 기절 또는 균열 모드로 전환할 수 있습니다. [CURRENT MODE: Breach] Specialized toggle Drone excellent for pestering enemy ships. Toggles between crew stunner or hull breaching mode.</desc>
 	<power>0</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25831,9 +25831,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="PEST_STUN">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Pestilence [Stun]</title>
+	<title>역병 드론 [기절]</title>
 	<short>Pest [S]</short>
-	<desc>[CURRENT MODE: Crew Stunner] Specialized toggle Drone excellent for pestering enemy ships. Toggles between crew stunner or hull breaching mode.</desc>
+	<desc>[현재 모드: 기절] 상대를 괴롭히는데 탁월한 특수한 토글 드론입니다. 기절 또는 균열 모드로 전환할 수 있습니다. [CURRENT MODE: Crew Stunner] Specialized toggle Drone excellent for pestering enemy ships. Toggles between crew stunner or hull breaching mode.</desc>
 	<power>0</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25998,9 +25998,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ION_1_AMP2">
 	<type>COMBAT</type>
 	<tip>tip_amp_combat</tip>
-	<title>Amp Ion</title>
+	<title>앰프 이온</title>
 	<short>Amp I. [2]</short>
-	<desc>[CURRENT POWER: 2] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<desc>[현재 동력: 2] 공급하는 전력에 따라 이온 피해량이 증가하고 속도는 감소하는 독특한 앰프 드론입니다. [CURRENT POWER: 2] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26032,9 +26032,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ION_1_AMP3">
 	<type>COMBAT</type>
 	<tip>tip_amp_combat</tip>
-	<title>Amp Ion</title>
+	<title>앰프 이온</title>
 	<short>Amp I. [3]</short>
-	<desc>[CURRENT POWER: 3] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<desc>[현재 동력: 3] 공급하는 전력에 따라 이온 피해량이 증가하고 속도는 감소하는 독특한 앰프 드론입니다. [CURRENT POWER: 3] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26066,9 +26066,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ION_1_AMP4">
 	<type>COMBAT</type>
 	<tip>tip_amp_combat</tip>
-	<title>Amp Ion</title>
+	<title>앰프 이온</title>
 	<short>Amp I. [4]</short>
-	<desc>[CURRENT POWER: 4] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<desc>[현재 동력: 4] 공급하는 전력에 따라 이온 피해량이 증가하고 속도는 감소하는 독특한 앰프 드론입니다. [CURRENT POWER: 4] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26190,9 +26190,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ENERGY_1_AMP2">
 	<type>COMBAT</type>
 	<tip>tip_amp_combat</tip>
-	<title>Amp Energy</title>
+	<title>앰프 에너지</title>
 	<short>Amp E. [2]</short>
-	<desc>[CURRENT POWER: 2] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
+	<desc>[현재 동력: 2] 에너지 투사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다. [CURRENT POWER: 2] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26224,9 +26224,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ENERGY_1_AMP3">
 	<type>COMBAT</type>
 	<tip>tip_amp_combat</tip>
-	<title>Amp Energy</title>
+	<title>앰프 에너지</title>
 	<short>Amp E. [3]</short>
-	<desc>[CURRENT POWER: 3] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
+	<desc>[현재 동력: 3] 에너지 투사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다. [CURRENT POWER: 3] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26258,9 +26258,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ENERGY_1_AMP4">
 	<type>COMBAT</type>
 	<tip>tip_amp_combat</tip>
-	<title>Amp Energy</title>
+	<title>앰프 에너지</title>
 	<short>Amp E. [4]</short>
-	<desc>[CURRENT POWER: 4] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
+	<desc>[현재 동력: 4] 에너지 투사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다. [CURRENT POWER: 4] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26338,9 +26338,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="FOCUS_1_AMP2">
     <type>COMBAT</type>
     <tip>tip_amp_combat</tip>
-    <title>Amp Pinpoint</title>
+    <title>앰프 핀포인트</title>
     <short>Amp P. [2]</short>
-    <desc>[CURRENT POWER: 2] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
+    <desc>[현재 동력: 2] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다. [CURRENT POWER: 2] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -26355,9 +26355,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="FOCUS_1_AMP3">
     <type>COMBAT</type>
     <tip>tip_amp_combat</tip>
-    <title>Amp Pinpoint</title>
+    <title>앰프 핀포인트</title>
     <short>Amp P. [3]</short>
-    <desc>[CURRENT POWER: 3] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
+    <desc>[현재 동력: 3] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다. [CURRENT POWER: 3] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -26372,9 +26372,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="FOCUS_1_AMP4">
     <type>COMBAT</type>
     <tip>tip_amp_combat</tip>
-    <title>Amp Pinpoint</title>
+    <title>앰프 핀포인트</title>
     <short>Amp P. [4]</short>
-    <desc>[CURRENT POWER: 4] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
+    <desc>[현재 동력: 4] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다.[CURRENT POWER: 4] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
     <power>4</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
