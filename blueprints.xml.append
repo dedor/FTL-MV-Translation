@@ -26398,12 +26398,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="REPAIR">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
-	<title>Maintenance Drone Mk. I</title>
+	<title>수리 드론 마크 I</title>
 	<short>Maint I</short>
-	<desc>Controllable, repairs broken systems and puts out fires. Has low health but repairs quickly.
+	<desc>고장난 시스템을 고치고 화재를 진압합니다. 최대 체력이 낮지만 수리 속도가 빠릅니다. 조종할 수 있습니다.
     
--35 HP, 2x repair speed
--1.2x movement speed</desc>
+-최대 체력 35, 수리 속도 2배
+-이동 속도 1.2배</desc>
 	<power>1</power>
 	<cost>40</cost>
 	<bp>2</bp>
@@ -26450,15 +26450,15 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Recon Drone [Defend]</title>
+	<title>정찰 드론 [방어]</title>
 	<short>Recon. [D]</short>
-	<desc>[CURRENT MODE: Defensive] Controllable small airborne recon drone. Can be switched between defense and boarding modes.
+	<desc>[현재 모드: 방어] 조종 가능한 작고 공중에 떠 다니는 정찰 드론입니다. 방어 모드 또는 강습 모드로 전환할 수 있습니다.
     
--30 HP, 0.4x combat damage taken
--2x movement speed
--Detects lifeforms and reveals adjacent rooms
--Rapidly destroys locked doors
--On death, explodes doing 30 crew damage and 1 system damage.</desc>
+-최대 체력 30, 전투로부터 0.4배의 피해만을 입음
+-이동속도 2배
+-생명체를 감지하고 인접한 선실의 시야를 확보함
+-잠긴 문을 빠르게 파괴함
+-사망시 폭발하여 30의 선원 피해와 1의 시스템 피해를 가함</desc>
 	<power>0</power>
 	<cost>15</cost>
 	<bp>3</bp>
@@ -26469,15 +26469,15 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Recon Drone [Boarding]</title>
+	<title>정찰 드론 [강습]</title>
 	<short>Recon. [B]</short>
-	<desc>[CURRENT MODE: Boarding] Controllable small airborne recon drone. Can be switched between defense and boarding modes.
+	<desc>[현재 모드: 강습] 조종 가능한 작고 공중에 떠 다니는 정찰 드론입니다. 방어 모드 또는 강습 모드로 전환할 수 있습니다.
     
--30 HP, 0.4x combat damage taken
--2x movement speed
--Detects lifeforms and reveals adjacent rooms
--Rapidly destroys locked doors
--On death, explodes doing 30 crew damage and 1 system damage.</desc>
+-최대 체력 30, 전투로부터 0.4배의 피해만을 입음
+-이동속도 2배
+-생명체를 감지하고 인접한 선실의 시야를 확보함
+-잠긴 문을 빠르게 파괴함
+-사망시 폭발하여 30의 선원 피해와 1의 시스템 피해를 가함</desc>
 	<power>0</power>
 	<cost>25</cost>
 	<speed>15</speed>
@@ -26504,12 +26504,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Battle Drone [Anti-Pers]</title>
+	<title>대인 전투 드론 [대인]</title>
 	<short>Battle [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] Controllable, a personnel drone that can be toggled to act as either a Defensive Anti-Person or Boarding drone before battle.
+	<desc>[현재 모드: 대인] 전투 전에 방어적인 대인 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
     
--175 HP, 1.1x combat damage
--0.8x movement speed</desc>
+-최대 체력 175, 대인 공격력 1.1배
+-이동 속도 0.8배</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -26520,12 +26520,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>Battle Drone [Boarding]</title>
+	<title>대인 전투 드론 [강습]</title>
 	<short>Battle [B]</short>
-	<desc>[CURRENT MODE: Boarding] Controllable, a personnel drone that can be toggled to act as either a Defensive Anti-Person or Boarding drone before battle.
+	<desc>[현재 모드: 강습] 전투 전에 방어적인 대인 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
     
--175 HP, 1.1x combat damage
--0.8x movement speed</desc>
+-최대 체력 175, 대인 공격력 1.1배
+-이동 속도 0.8배</desc>
 	<power>2</power>
 	<speed>18</speed>
 	<cost>50</cost>
@@ -26551,12 +26551,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Battle Drone Mk. II [Anti-Pers]</title>
+	<title>대인 전투 드론 마크 II [대인]</title>
 	<short>Battle II [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] Controllable, a personnel drone that can be toggled to act as either a Defensive Anti-Person or Boarding drone before battle. Has more health and does more damage than the MK I.
+	<desc>[현재 모드: 대인] 전투 전에 방어적인 대인 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
     
--200 HP, 1.5x combat damage
--0.5x movement speed</desc>
+-최대 체력 200, 대인 전투력 1.5배
+-이동 속도 0.5배</desc>
 	<power>3</power>
 	<cost>70</cost>
 	<bp>3</bp>
@@ -26567,12 +26567,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>Battle Drone Mk. II [Boarding]</title>
+	<title>대인 전투 드론 마크 II [강습]</title>
 	<short>Battle II [B]</short>
-	<desc>[CURRENT MODE: Boarding] Controllable, a personnel drone that can be toggled to act as either a Defensive Anti-Person or Boarding drone before battle. Has more health and does more damage than the MK I.
+	<desc>[현재 모드: 강습] 전투 전에 방어적인 대인 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
     
--200 HP, 1.5x combat damage
--0.5x movement speed</desc>
+-최대 체력 200, 대인 전투력 1.5배
+-이동 속도 0.5배</desc>
 	<power>3</power>
 	<speed>10</speed>
 	<cost>70</cost>
@@ -26611,13 +26611,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Dr. Drone [Defend]</title>
+	<title>의사 드론 [방어]</title>
 	<short>Doctor [D]</short>
-	<desc>[CURRENT MODE: Defensive] Controllable, heals friendly crew in the current room passively. Can be toggled between defensive or boarding modes.
+	<desc>[현재 모드: 방어] 같은 선실의 아군 선원을 치료합니다. 방어 모드 또는 강습 모드로 전환될 수 있습니다. 조종 가능합니다.
     
--100 HP, 0.9x movement speed
--Has no attack on its own
--Heal nearby friendlies for 7hp/s</desc>
+-최대 체력 100, 이동 속도 0.9배
+-전투 능력이 없음
+-인접한 아군의 체력을 초당 7만큼 회복시킴</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -26628,13 +26628,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Dr. Drone [Boarding]</title>
+	<title>의사 드론 [강습]</title>
 	<short>Doctor [B]</short>
-	<desc>[CURRENT MODE: Boarding] Controllable, heals friendly crew in the current room passively. Can be toggled between defensive or boarding modes.
+	<desc>[현재 모드: 강습] 같은 선실의 아군 선원을 치료합니다. 방어 모드 또는 강습 모드로 전환될 수 있습니다. 조종 가능합니다.
     
--100 HP, 0.9x movement speed
--Has no attack on its own
--Heal nearby friendlies for 7hp/s</desc>
+-최대 체력 100, 이동 속도 0.9배
+-전투 능력이 없음
+-인접한 아군의 체력을 초당 7만큼 회복시킴</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<speed>15</speed>
@@ -26657,13 +26657,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>Manager Drone</title>
+	<title>관리자 드론</title>
 	<short>Manner.</short>
-	<desc>Controllable utility drone that can interface with systems.
+	<desc>시스템에 접속할 수 있는 다용도 드론입니다. 조작할 수 있습니다.
     
--100 HP, 1.2x movement speed
--Provides 1 power to occupied room
--Can man systems at lv2 skill level</desc>
+-최대 체력 100, 이동속도 1.2배
+-배치된 시스템에 전력을 1 공급함
+-시스템을 2레밸의 수준으로 관리할 수 있음</desc>
 	<power>0</power>
 	<cost>45</cost>
 	<bp>3</bp>
@@ -26708,9 +26708,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>Butler Drone [Defend]</title>
+	<title>집사 드론 [방어]</title>
 	<short>Butler [D]</short>
-	<desc>[CURRENT MODE: Defensive] The Slugs rebuilt an Anti-Personnel drone to serve their own "special" purposes while still keeping its combat functionality.
+	<desc>[현재 모드: 방어] 슬러그들이 특별한 목적에 사용하기 위해 대인 전투 드론 재건했습니다. 전투 기능 또한 여전히 가지고 있습니다.
     
 -150 HP, 0.9x combat damage
 -0.7x movement speed
