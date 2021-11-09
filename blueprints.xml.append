@@ -14960,7 +14960,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>에너지 포 II+</title>
 	<short>Energy II+</short>
 	<tip>tip_energy</tip>
-	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. Energy weapons can disable systems while also causing hull damage.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 2 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -15005,7 +15005,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>에너지 포 III</title>
 	<short>Energy III</short>
 	<tip>tip_energy</tip>
-	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. Energy weapons can disable systems while also causing hull damage.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 2 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -15056,7 +15056,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Hv. Energy</short>
 	<tip>tip_energy</tip>
 	<locked>1</locked>
-	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 시스템이 없는 선실에 추가적인 피해를 입힙니다. Energy weapons can disable systems while also causing hull damage. This one does additional hull damage on systemless rooms.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 시스템이 없는 선실에 추가적인 피해를 입힙니다.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 1 hull damage. Can hit and disable shields as well as systems. 2x hull damage on systemless rooms.</tooltip>
 	<damage>2</damage>
 	<sysDamage>-2</sysDamage>
@@ -15103,7 +15103,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>에너지 스터너</title>
 	<short>Stn Energy</short>
 	<locked>1</locked>
-	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 방 안의 선원을 14초간 마비시킵니다. Energy weapons can disable systems and cause hull damage. This weapon stuns crew inside the room for 14 seconds.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 피격된 선실 안의 선원을 14초간 마비시킵니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<stun>14</stun>
 	<damage>1</damage>
@@ -15148,7 +15148,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>에너지 스터너+</title>
 	<short>Stn Energy+</short>
 	<locked>1</locked>
-	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 방 안의 선원을 14초간 마비시킵니다. Energy weapons can disable systems and cause hull damage. This weapon stuns crew inside the room for 14 seconds.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 피격된 선실 안의 선원을 14초간 마비시킵니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<stun>14</stun>
 	<damage>1</damage>
@@ -15198,7 +15198,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>연쇄 에너지 포</title>
 	<short>Chain E.</short>
 	<tip>tip_chain_energy</tip>
-	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 발사할 때마다 충전 속도가 빨라집니다. Energy weapons can disable systems and cause hull damage. This weapon gets quicker with each volley.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 발사할 때마다 충전 속도가 빨라집니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -15248,7 +15248,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>충전식 에너지 포</title>
 	<short>Charge E.</short>
 	<tip>tip_charge</tip>
-	<desc>발사체를 모아 한꺼번에 발사할 수 있는 에너지 무기입니다. This Energy weapon can charge multiple times, giving it additional projectiles.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있는 에너지 무기입니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -15292,7 +15292,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>충전식 에너지 포+</title>
 	<short>Charge E+</short>
 	<tip>tip_charge</tip>
-	<desc>발사체를 모아 한꺼번에 발사할 수 있는 에너지 무기입니다. This Energy weapon can charge multiple times, giving it additional projectiles.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있는 에너지 무기입니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -15350,7 +15350,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>낱알 포</title>
 	<short>Kernel</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Kernels pierce shields, but also have a 25% chance to ignore their ammunition cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15390,7 +15390,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_kernel_elite</tip>
     <title>엘리트 낱알 포</title>
     <short>E. Kernel</short>
-    <desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Powerful Elite version with a longer stun and higher chance to ignore their ammo cost.</desc>
+    <desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
     <tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
     <damage>1</damage>
     <missiles>1</missiles>
@@ -15432,7 +15432,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>점사형 낱알 포</title>
 	<short>Burst K.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Kernels pierce shields, but also have a 25% chance to ignore their ammunition cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다.</desc>
 	<tooltip>Fires 2 kernels; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15472,7 +15472,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel_elite</tip>
 	<title>점사형 엘리트 낱알 포</title>
 	<short>Burst EK.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Powerful Elite version with a longer stun and higher chance to ignore their ammo cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
 	<tooltip>Fires 2 kernels; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15514,7 +15514,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>중형 낱알 포</title>
 	<short>Kern. Hev.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Kernels pierce shields, but also have a 25% chance to ignore their ammunition cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -15554,7 +15554,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel_elite</tip>
 	<title>중형 엘리트 낱알 포</title>
 	<short>E. Kern. Hev.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Powerful Elite version with a longer stun and higher chance to ignore their ammo cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -15601,7 +15601,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>함체 파괴 낱알 포</title>
 	<short>Kern. Hull.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 시스템이 없는 방에 추가 피해를 입힙니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Does extra damage on systemless rooms.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 시스템이 없는 방에 추가 피해를 입힙니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -15642,7 +15642,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>함체 파괴 엘리트 낱알 포</title>
 	<short>E. Kern. Hull.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 시스템이 없는 방에 추가 피해를 입힙니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Does extra damage on system-less rooms. Powerful Elite version with a longer stun and higher chance to ignore their ammo cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 시스템이 없는 방에 추가 피해를 입힙니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -15685,7 +15685,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>Solar Kernel Launcher</title>
 	<short>Kern. Fire</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 이 개조된 낱알 포는 균열 대신 화재를 일으킵니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. This modified Kernel weapon will always create a fire instead of a breach.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 이 개조된 낱알 포는 균열 대신 화재를 일으킵니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -15731,7 +15731,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>연쇄 낱알 포</title>
 	<short>Chain K.</short>
-	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다. This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Kernels pierce shields, but also have a 25% chance to ignore their ammunition cost.</desc>
+	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 방어막을 관통하며 25%의 확률로 탄약을 소모하지 않습니다.</desc>
 	<tooltip>Cooldown drops the more it fires.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15776,7 +15776,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel_elite</tip>
 	<title>연쇄 엘리트 낱알 포</title>
 	<short>Chain EK.</short>
-	<desc>이 무기를 멈출 수 있는 것은 탄약 부족뿐입니다. 충전 시간이 더 짧고, 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.The only thing that can stop this weapon is a lack of ammunition. Powerful Elite version with a shorter cooldown, longer stun and higher chance to ignore their ammo cost.</desc>
+	<desc>이 무기를 멈출 수 있는 것은 탄약 부족뿐입니다. 충전 시간이 더 짧고, 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
 	<tooltip>Cooldown drops the more it fires.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15823,7 +15823,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>충전식 낱알 포</title>
 	<short>Charge K.</short>
-	<desc>발사체를 두 발까지 모아 한꺼번에 발사할 수 있는 개조된 낱알 포입니다. A modified Kernel Launcher that can charge up to 2 shots.</desc>
+	<desc>발사체를 두 발까지 모아 한꺼번에 발사할 수 있는 개조된 낱알 포입니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15864,7 +15864,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel_elite</tip>
 	<title>충전식 엘리트 낱알 포</title>
 	<short>Charge EK.</short>
-	<desc>발사체를 두 발까지 모아 한꺼번에 발사할 수 있는 개조된 낱알 포입니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다. A modified Kernel Launcher that can charge up to 2 shots. Powerful Elite version with a longer stun and higher chance to ignore their ammo cost.</desc>
+	<desc>발사체를 두 발까지 모아 한꺼번에 발사할 수 있는 개조된 낱알 포입니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>1</damage>
 	<missiles>1</missiles>
@@ -15922,7 +15922,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>점사형 크리스탈 마크 I</title>
 	<short>Crystal B. I</short>
 	<tip>tip_crystal</tip>
-	<desc>방어막을 관통하는 2발의 크리스탈을 발사하도록 개조된 투사 무기입니다. Modified projectile weapon that fires 2 shield piercing crystals.</desc>
+	<desc>방어막을 관통하는 2발의 크리스탈을 발사하도록 개조된 투사 무기입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 2 crystals that deal 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -16004,7 +16004,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>엘리트 점사형 크리스탈 마크 I</title>
 	<short>E.C. Burst I</short>
 	<tip>tip_crystal_elite</tip>
-	<desc>방어막을 관통하는 2발의 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. Modified projectile weapon that fires 2 shield piercing crystals. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>방어막을 관통하는 2발의 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 2 crystals that deal 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -16088,7 +16088,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>크리스탈 기술</flavorType>
 	<title>점사형 크리스탈 마크 II</title>
 	<short>Crystal B. II</short>
-	<desc>방어막을 관통하는 3발의 크리스탈을 발사하도록 개조된 투사 무기입니다. Modified projectile weapon that fires 3 shield piercing crystals.</desc>
+	<desc>방어막을 관통하는 3발의 크리스탈을 발사하도록 개조된 투사 무기입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
 	<tip>tip_crystal</tip>
 	<damage>1</damage>
@@ -16170,7 +16170,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>크리스탈 기술</flavorType>
 	<title>엘리트 점사형 크리스탈 마크 II</title>
 	<short>E.C. Burst II</short>
-	<desc>방어막을 관통하는 3발의 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. Modified projectile weapon that fires 3 shield piercing crystals. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>방어막을 관통하는 3발의 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
 	<tip>tip_crystal_elite</tip>
 	<damage>1</damage>
@@ -16261,7 +16261,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crystal</tip>
 	<title>중형 크리스탈 마크 I</title>
 	<short>Crystal H. I</short>
-	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다. Modified projectile weapon that fires a shield piercing large crystal.</desc>
+	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 1 crystal that deals 2 damage.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
@@ -16301,7 +16301,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crystal_elite</tip>
 	<title>엘리트 중형 크리스탈 마크 I</title>
 	<short>E.C. Heavy I</short>
-	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. Modified projectile weapon that fires a shield piercing large crystal. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 1 crystal that deals 2 damage.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
@@ -16343,7 +16343,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crystal</tip>
 	<title>중형 크리스탈 마크 II</title>
 	<short>Crystal H. II</short>
-	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다. Modified projectile weapon that fires a shield piercing large crystal.</desc>
+	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 1 crystal that deals 4 damage and causes a hull breach.</tooltip>
 	<damage>3</damage>
 	<shots>1</shots>
@@ -16423,7 +16423,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crystal_elite</tip>
 	<title>엘리트 중형 크리스탈 마크 II</title>
 	<short>E.C. Heavy II</short>
-	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. Modified projectile weapon that fires a shield piercing large crystal. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>방어막을 관통하는 거대한 크리스탈을 발사하도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 1 crystal that deals 4 damage and causes a hull breach.</tooltip>
 	<damage>3</damage>
 	<shots>1</shots>
@@ -16510,7 +16510,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>크리스탈 기술</flavorType>
 	<title>뭉툭한 점사형 크리스탈</title>
 	<short>Stun C.</short>
-	<desc>끝이 뭉툭해서 피격된 선원을 기절시키는 크리스탈을 발사합니다. A Crystal burst launcher that fires very blunt projectiles that stun crew.</desc>
+	<desc>끝이 뭉툭해서 피격된 선원을 기절시키는 크리스탈을 발사합니다.</desc>
 	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
 	<damage>1</damage>
 	<tip>tip_crystal</tip>
@@ -16590,7 +16590,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>크리스탈 기술</flavorType>
 	<title>엘리트 뭉툭한 점사형 크리스탈</title>
 	<short>E. Stun C.</short>
-	<desc>끝이 뭉툭해서 피격된 선원을 기절시키는 크리스탈을 발사합니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. A Crystal burst launcher that fires very blunt projectiles that stun crew. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>끝이 뭉툭해서 피격된 선원을 기절시키는 크리스탈을 발사합니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
 	<damage>1</damage>
 	<tip>tip_crystal_elite</tip>
@@ -16675,7 +16675,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>산탄 크리스탈</title>
 	<tip>tip_flak</tip>
 	<short>Cry. S</short>
-	<desc>1겹의 방어막을 관통하는 4개의 크리스탈을 발사합니다. Fires a cluster of 4 crystalline projectiles that pierce 1 shield layer each.</desc>
+	<desc>1겹의 방어막을 관통하는 4개의 크리스탈 더미를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>1</damage>
@@ -16718,7 +16718,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>엘리트 산탄 크리스탈</title>
 	<tip>tip_crystal_elite</tip>
 	<short>E.C. Scatter</short>
-	<desc>4개의 크리스탈 발사합니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. Fires a cluster of 4 crystalline projectiles that pierce 1 shield layer each. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>4개의 크리스탈 더미를 발사합니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>1</damage>
@@ -16762,7 +16762,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>충전식 크리스탈</title>
 	<short>Cry Charg.</short>
 	<tip>tip_crystal</tip>
-	<desc>방어막을 관통하는 크리스탈을 두개까지 모아 한꺼번에 발사할 수 있도록 개조된 투사 무기입니다. Modified projectile weapon that fires up to 2 shield piercing crystals.</desc>
+	<desc>방어막을 관통하는 크리스탈을 두개까지 모아 한꺼번에 발사할 수 있도록 개조된 투사 무기입니다.</desc>
 	<tooltip>Pierces 1 shield; fires up to 2 crystals that deal 2 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -16840,7 +16840,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>엘리트 충전형 크리스탈</title>
 	<short>E. Cry Charg.</short>
 	<tip>tip_crystal_elite</tip>
-	<desc>방어막을 관통하는 크리스탈을 두개까지 모아 한꺼번에 발사할 수 있도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다. Modified projectile weapon that fires up to 2 shield piercing crystals. Elite variant that always applies lockdown and pierces 2 shields.</desc>
+	<desc>방어막을 관통하는 크리스탈을 두개까지 모아 한꺼번에 발사할 수 있도록 개조된 투사 무기입니다. 피격된 방을 봉쇄하고 2겹의 방어막을 관통하는 엘리트 변형입니다.</desc>
 	<tooltip>Pierces 1 shield; fires up to 2 crystals that deal 2 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -16935,9 +16935,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_mine</tip>
 	<title>'겝' 기뢰 사출기</title>
 	<short>'Geb'</short>
-	<desc>지뢰 사출기는 빠르게 충전되고 느리게 움직이는 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다.  Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다.
 	
-	At empty beacons provides 2 fleet delay for 13 missiles.</desc>
+	빈 송신소에서 13개의 탄약을 소모하여 반군의 추적을 2도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>55</radius>
@@ -16981,9 +16981,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_mine</tip>
 	<title>'오시리스' 기뢰 사출기</title>
 	<short>'Osiris'</short>
-	<desc>Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다.
 	
-	At empty beacons provides 2 fleet delay for 10 missiles.</desc>
+	빈 송신소에서 10개의 탄약을 소모하여 반군의 추적을 2도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>60</radius>
@@ -17028,9 +17028,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_mine</tip>
 	<title>'라' 기뢰 사출기</title>
 	<short>'Ra'</short>
-	<desc>Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다.
 	
-	At empty beacons provides 2 fleet delay for 7 missiles.</desc>
+	빈 송신소에서 7개의 탄약을 소모하여 반군의 추적을 2도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>70</radius>
@@ -17078,11 +17078,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_FREE">
 	<type>BURST</type>
 	<tip>tip_mine</tip>
-	<title>'Nephthys' Mine Launcher</title>
+	<title>'네프티스' 기뢰 사출기</title>
 	<short>'Nephthys'</short>
-	<desc>Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet. Doesn't require missiles like normal Mine Launchers, but charges slower and has fewer projectiles per shot.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다. 평범한 지뢰 사출기처럼 탄약을 소모하지 않지만, 충전이 느리고 발사체의 수가 적습니다.
 	
-	At empty beacons provides 1 fleet delay for 3 missiles.</desc>
+	빈 송신소에서 3개의 탄약을 소모하여 반군의 추적을 1도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>40</radius>
@@ -17124,11 +17124,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_FIRE">
 	<type>BURST</type>
 	<tip>tip_mine</tip>
-	<title>'Sekhmet' Mine Launcher</title>
+	<title>'세크메트' 기뢰 사출기</title>
 	<short>'Sekhmet'</short>
-	<desc>Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet. Modified variant that always starts fires.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다. 언제나 화재를 일으키도록 개조되었습니다.
 	
-	At empty beacons provides 3 fleet delay for 17 missiles.</desc>
+	빈 송신소에서 17개의 탄약을 소모하여 반군의 추적을 3도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>55</radius>
@@ -17170,11 +17170,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_BREACH">
 	<type>BURST</type>
 	<tip>tip_mine</tip>
-	<title>'Sobek' Mine Launcher</title>
+	<title>'소베크' 기뢰 사출기</title>
 	<short>'Sobek'</short>
-	<desc>Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet. Modified variant that always opens breaches.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다. 언제나 균열을 일으키도록 개조되었습니다.
 	
-	At empty beacons provides 3 fleet delay for 17 missiles.</desc>
+	빈 송신소에서 17개의 탄약을 소모하여 반군의 추적을 3도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>60</radius>
@@ -17216,11 +17216,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_STUN">
 	<type>BURST</type>
 	<tip>tip_mine</tip>
-	<title>'Anubis' Mine Launcher</title>
+	<title>'아누비스' 기뢰 사출기</title>
 	<short>'Anubis'</short>
-	<desc>Mine Launchers charge quickly and fire a burst of slow moving projectiles. Also serves as an efficient way to lay traps for the fleet. Modified variant that stuns crew for a long time.
+	<desc>기뢰 사출기는 빠른 충전 속도로 느리게 움직이는 한 무더기의 발사체를 사출합니다. 효율적으로 대함 지뢰를 설치하는 용도로도 사용됩니다. 선원을 더 오래 기절시키도록 개조되었습니다.
 	
-	At empty beacons provides 3 fleet delay for 17 missiles.</desc>
+	빈 송신소에서 17개의 탄약을 소모하여 반군의 추적을 3도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>60</radius>
@@ -17268,11 +17268,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_CRYSTAL">
     <type>BURST</type>
     <tip>tip_mine</tip>
-    <title>Shard Launcher</title>
+    <title>조각 발사기</title>
     <short>Shard</short>
-    <desc>A specialized Mine Launcher that uses crystalline projectiles loaded with explosives. Does not use ammunition, but can only pierce 2 layers of shields.
+    <desc>폭발물이 탑재된 크리스탈 조각을 투사체로 사용하는 특수한 기뢰 사출기입니다. 탄약을 소모하지 않지만, 2겹의 방어막만을 관통할 수 있습니다.
 	
-	At empty beacons provides 1 fleet delay for 5 missiles, has no notoriety impact.</desc>
+	빈 송신소에서 5개의 탄약을 소모하여 반군의 추적을 1도약 지연시킬 수 있습니다. 악명에 영향을 주지 않습니다.</desc>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
     <drone_targetable>1</drone_targetable>
     <radius>60</radius>
@@ -17317,12 +17317,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_KERNEL">
 	<type>BURST</type>
 	<tip>tip_mine</tip>
-	<title>Vine Launcher</title>
+	<title>덩굴 발사기</title>
 	<short>Vines</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>Mine Launchers reload faster than regular missiles, but also have slower projectiles. Fires a modified kernel mine with a chance to ignore its ammo cost.
+	<desc>더 느린 투사체를 발사하지만 충전이 더 빠른 기뢰 사출기입니다. 확률적으로 탄약을 소모하지 않는 기뢰로 개조된 낱알을 발사합니다.
 	
-	At empty beacons provides 1 fleet delay for free.</desc>
+	빈 송신소에서 무료로 반군의 추적을 1도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<radius>60</radius>
 	<damage>1</damage>
@@ -17373,7 +17373,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>보존 레이저</title>
 	<short>Conserv. L.</short>
 	<tip>tip_conservative</tip>
-	<desc>레이저 두발을 발사하는 충전이 느린 레이저 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging 2 shot laser weapon. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>레이저 두발을 발사하는 충전이 느린 레이저 무기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>Conservative weapons feed off of power leaks in a system, so they don't need to use any power themselves. As consequence, they take longer to charge and require another weapon to be powered.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -17413,7 +17413,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'스폰툰' 빔</title>
 	<short>'Spontoon'</short>
 	<tip>tip_conservative</tip>
-	<desc>충전이 느린 적절한 크기의 빔 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging, decent sized Beam weapon. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>충전이 느린 적절한 크기의 빔 무기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>Conservative weapons feed off of power leaks in a system, so they don't need to use any power themselves. As consequence, they take longer to charge and require another weapon to be powered.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -17441,7 +17441,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>보존 이온</title>
 	<short>Conserv. I.</short>
 	<tip>tip_conservative</tip>
-	<desc>1의 이온 피해를 입히는 충전이 느린 이온 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging 1 damage ion weapon. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>1의 이온 피해를 입히는 충전이 느린 이온 무기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>Conservative weapons feed off of power leaks in a system, so they don't need to use any power themselves. As consequence, they take longer to charge and require another weapon to be powered.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -17486,7 +17486,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'튀케' 미사일</title>
 	<short>'Tyche'</short>
 	<tip>tip_conservative</tip>
-	<desc>2의 피해를 입히는 충전이 느린 미사일 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging 2 damage Missile weapon. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>2의 피해를 입히는 충전이 느린 미사일 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>Conservative weapons feed off of power leaks in a system, so they don't need to use any power themselves. As consequence, they take longer to charge and require another weapon to be powered.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -17529,7 +17529,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>보존 폭탄</title>
 	<short>Conserv. Bo.</short>
 	<locked>1</locked>
-	<desc>스스로 순간이동하여 시스템과 선원에게 피해를 입히는 충전이 느린 폭탄입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging teleporting Bomb that damages system and crew but not the hull. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>스스로 순간이동하여 시스템과 선원에게 피해를 입히는 충전이 느린 폭탄입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>Conservative weapons feed off of power leaks in a system, so they don't need to use any power themselves. As consequence, they take longer to charge and require another weapon to be powered.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -17563,7 +17563,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Conserv. E.</short>
 	<tip>tip_conservative</tip>
 	<locked>1</locked>
-	<desc>1의 이온 피해와 1의 선체 피해를 입히는 충전이 느린 에너지 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging energy weapon that does 1 ion and 1 hull damage, but none to systems or crew. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>1의 이온 피해와 1의 선체 피해를 입히는 충전이 느린 에너지 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -17607,7 +17607,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_conservative</tip>
 	<title>'펠타' 빔</title>
 	<short>'펠타'</short>
-	<desc>60의 선원 피해를 입히는 충전이 느린 빔 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다. Slow charging 60 damage anti-crew Beam. Conservative weapons use no power but require another weapon to be powered.</desc>
+	<desc>60의 선원 피해를 입히는 충전이 느린 빔 병기입니다. 보존 무기는 전력을 소모하지 않지만 전력이 공급되는 다른 무기가 있어야 사용할 수 있습니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -17653,7 +17653,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>제니스 레이저 마크 I</title>
 	<short>Zenith I</short>
 	<tip>tip_laser</tip>
-	<desc>아이테르 기술로 구동되는 치명적인 레이저입니다. 중형 레이저보다도 큰 막대한 피해를 가합니다. A deadly Aether-powered Laser that deals massive damage even compared to standard heavy Lasers.</desc>
+	<desc>아이테르 기술로 구동되는 치명적인 레이저입니다. 중형 레이저보다도 큰 막대한 피해를 가합니다.</desc>
 	<damage>4</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -17693,7 +17693,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_beams</tip>
 	<title>랜스 빔 마크 I</title>
 	<short>Lance I</short>
-	<desc>아이테르 기술로 구동되는 파괴적인 빔입니다. 높은 관통력으로 방어막을 뚫고 공격합니다. Devastating Aether-powered Beam weapon which punches through shields with additional pierce.</desc>
+	<desc>아이테르 기술로 구동되는 파괴적인 빔입니다. 높은 관통력으로 방어막을 뚫고 공격합니다.</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>1</sp>
@@ -17724,7 +17724,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>확산탄</title>
 	<short>Cluster</short>
 	<locked>1</locked>
-	<desc>아이테르 기술로 구동되는 강력한 폭탄 발사기입니다. 적선을 목표로 할 때 폭탄을 복제하여 2발을 추가로 발사합니다. 안전상의 이유로 당신의 함선을 조준했을 때는 한발만이 발사됩니다. A powerful Aether-powered Bomb Launcher which replicates 3 warheads when targeting the enemy ship. For safety reasons, only fires 1 bomb when targeting your ship.</desc>
+	<desc>아이테르 기술로 구동되는 강력한 폭탄 발사기입니다. 적선을 목표로 할 때 폭탄을 복제하여 2발을 추가로 발사합니다. 안전상의 이유로 당신의 함선을 조준했을 때는 한발만이 발사됩니다.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -17804,7 +17804,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>하빈저 마크 I</title>
 	<short>Harbing. I</short>
 	<tip>tip_ancient</tip>
-	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다. An incredibly powerful Laser manufactured by the Obelisk that can cause much more havoc than your average Burst Laser.</desc>
+	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -17841,7 +17841,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>하빈저 마크 II</title>
 	<short>Harbing. II</short>
 	<tip>tip_ancient</tip>
-	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다. An incredibly powerful Laser manufactured by the Obelisk that can cause much more havoc than your average Burst Laser.</desc>
+	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>1</damage>
 	<shots>6</shots>
@@ -17878,7 +17878,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>하빈저 마크 III</title>
 	<short>Harbing. III</short>
 	<tip>tip_ancient</tip>
-	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다. An incredibly powerful Laser manufactured by the Obelisk that can cause much more havoc than your average Burst Laser.</desc>
+	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>1</damage>
 	<shots>8</shots>
@@ -18000,7 +18000,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 미사일</flavorType>
 	<title>카니지 미사일</title>
 	<short>Carnage</short>
-	<desc>고대의 미사일 발사기입니다. 당신이 아는 모든 미사일들을 아득히 뛰어넘습니다. An ancient Missile Launcher, far outdating any Launcher you've ever seen.</desc>
+	<desc>고대의 미사일 발사기입니다. 당신이 아는 모든 미사일들을 아득히 뛰어넘습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -18043,7 +18043,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 폭탄</flavorType>
 	<title>페이로드 텔레포터</title>
 	<short>Payload</short>
-	<desc>당신이 한 번도 본적 없는 폭탄 발사기입니다. 보통의 폭탄 발사기보다 훨씬 강해 보입니다.  A Bomb Launcher weapon, but unlike any you've ever seen. It appears to be much stronger than common bombs.</desc>
+	<desc>당신이 한 번도 본적 없는 폭탄 발사기입니다. 보통의 폭탄 발사기보다 훨씬 강해 보입니다.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>1</damage>
 	<sysDamage>3</sysDamage>
@@ -18110,9 +18110,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 기뢰 사출기</flavorType>
 	<title>온슬럿 기뢰 사출기</title>
 	<short>Onslaught</short>
-	<desc>기뢰 사출기가 생각보다 많이 퇴보한것 같네요. 이 기뢰 사출기는 현대의 사촌들보다 훨씬 강해 보입니다. It seems the Mine Launchers go farther back then you expected. This one seems much stronger than its modern cousins.
+	<desc>기뢰 사출기가 생각보다 많이 퇴보한것 같네요. 이 기뢰 사출기는 현대의 사촌들보다 훨씬 강해 보입니다.
 	
-	빈 송신소에서 미사일 7개를 소모해 함대 추적을 2도약 지연시킬 수 있음. At empty beacons provides 2 fleet delay for 7 missiles.</desc>
+	빈 송신소에서 미사일 7개를 소모해 반군의 추적을 2도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<damage>2</damage>
 	<sysDamage>-2</sysDamage>
@@ -18160,7 +18160,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>에라디케이터 마크 I</title>
 	<short>Eradic. I</short>
-	<desc>현대의 모든 빔을 능가하는 강력하고 파괴적인 무기입니다. 상대에게 막대한 피해를 입힙니다.  A powerful weapon of destruction predating any modern Beam, which does massive amounts of damage.</desc>
+	<desc>현대의 모든 빔을 능가하는 강력한 파괴력의 무기입니다. 상대에게 막대한 피해를 입힙니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -18190,7 +18190,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>에라디케이터 마크 II</title>
 	<short>Eradic. II</short>
-	<desc>현대의 모든 빔을 능가하는 강력하고 파괴적인 무기입니다. 상대에게 막대한 피해를 입힙니다. A powerful weapon of destruction predating any modern Beam, which does massive amounts of damage.</desc>
+	<desc>현대의 모든 빔을 능가하는 강한 파괴력의 무기입니다. 상대에게 막대한 피해를 입힙니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>3</damage>
 	<sp>0</sp>
@@ -18220,7 +18220,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>에라디케이터 마크 III</title>
 	<short>Eradic. III</short>
-	<desc>현대의 모든 빔을 능가하는 강력하고 파괴적인 무기입니다. 상대에게 막대한 피해를 입힙니다. A powerful weapon of destruction predating any modern Beam, which does massive amounts of damage.</desc>
+	<desc>현대의 모든 빔을 능가하는 강력한 파괴력의 무기입니다. 상대에게 막대한 피해를 입힙니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>4</damage>
 	<sp>0</sp>
@@ -18251,7 +18251,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>하보카이저</title>
 	<short>Havoceizer</short>
-	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 함체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다. This massive and bulky Beam isn't quite what you'd expect. It does no physical damage to the hull, but causes massive chaos aboard the enemy ship.</desc>
+	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 함체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -18284,7 +18284,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <flavorType>아이테르 핀포인트</flavorType>
     <title>퓨리파이어 핀포인트 미크 I</title>
     <short>Purifier I</short>
-    <desc>고대의 강력한 핀포인트 기술이 감지됩니다. 이 무기가 일으킬 공포를 그저 상상만 할 뿐입니다. Old and powerful Pinpoint tech is detected on this weapon. You can only imagine the terror this weapon could cause.</desc>
+    <desc>고대의 강력한 핀포인트 기술이 감지됩니다. 이 무기가 일으킬 공포를 그저 상상만 할 뿐입니다.</desc>
     <tooltip>One damage per room beam weapon</tooltip>
     <damage>4</damage>
     <sysDamage>1</sysDamage>
@@ -18389,7 +18389,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>플라즈마 포 마크 I</title>
 	<short>Plasma I</short>
 	<tip>tip_ancient_plasma</tip>
-	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다. This peculiar weapon fires bolts of plasma that do both ion and system damage. Can even damage the shields upon contact.</desc>
+	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -18427,7 +18427,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>플라즈마 포 마크 II</title>
 	<short>Plasma II</short>
 	<tip>tip_ancient_plasma</tip>
-	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다. This peculiar weapon fires bolts of plasma that do both ion and system damage. Can even damage the shields upon contact.</desc>
+	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -18472,7 +18472,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>고대의 패서파이어</title>
 	<short>Pacifier</short>
 	<locked>1</locked>
-	<desc>지속적으로 발사하면 적 선원을 영원히 기절시킬 수 있는 작고 간소한 병기입니다. A small, unassuming weapon capable of keeping enemy crew stunned forever when under continuous fire.</desc>
+	<desc>반복적으로 발사하면 적 선원을 영원히 기절시킬 수 있는 작고 간소한 병기입니다.</desc>
 	<tooltip>Reveals the inside of rooms.</tooltip>
 	<damage>0</damage>
 	<missiles>0</missiles>
@@ -18509,7 +18509,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>하빈저 마크 III</title>
 	<short>Harbing. III</short>
 	<tip>tip_ancient</tip>
-	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다. An incredibly powerful Laser manufactured by the Obelisk that can cause much more havoc than your average Burst Laser.</desc>
+	<desc>오벨리스크가 만들어낸 놀랍도록 강력한 레이저입니다. 평범한 점사형 레이저보다 더 큰 혼란을 유발합니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>1</damage>
 	<sysDamage>1</sysDamage>
@@ -18554,7 +18554,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>에라디케이터 마크 III</title>
 	<short>Eradic. III</short>
-	<desc>현대의 모든 빔을 능가하는 강력하고 파괴적인 무기입니다. 상대에게 막대한 피해를 입힙니다. A powerful weapon of destruction predating any modern Beam, which does massive amounts of damage.</desc>
+	<desc>현대의 모든 빔을 능가하는 강력한 파괴력의 무기입니다. 상대에게 막대한 피해를 입힙니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>5</damage>
 	<sp>0</sp>
@@ -18587,7 +18587,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>하보카이저</title>
 	<short>Havoceizer</short>
-	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 함체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다. This massive and bulky Beam isn't quite what you'd expect. It does no physical damage to the hull, but causes massive chaos aboard the enemy ship.</desc>
+	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 함체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
@@ -18620,7 +18620,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <flavorType>아이테르 핀포인트</flavorType>
     <title>퓨리파이어 핀포인트</title>
     <short>Purifier</short>
-    <desc>고대의 강력한 핀포인트 기술이 감지됩니다. 이 무기가 일으킬 공포를 그저 상상만 할 뿐입니다. Old and powerful Pinpoint tech is detected on this weapon. You can only imagine the terror this weapon could cause.</desc>
+    <desc>고대의 강력한 핀포인트 기술이 감지됩니다. 이 무기가 일으킬 공포를 그저 상상만 할 뿐입니다.</desc>
     <tooltip>One damage per room beam weapon</tooltip>
     <damage>6</damage>
     <sysDamage>1</sysDamage>
@@ -18660,7 +18660,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 미사일</flavorType>
 	<title>카니지 미사일</title>
 	<short>Carnage</short>
-	<desc>고대의 미사일 발사기입니다. 당신이 아는 모든 미사일들을 아득히 뛰어넘습니다. An ancient Missile Launcher, far outdating any Launcher you've ever seen.</desc>
+	<desc>고대의 미사일 발사기입니다. 당신이 아는 모든 미사일들을 아득히 뛰어넘습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -18704,7 +18704,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 폭탄</flavorType>
 	<title>페이로드 텔레포터</title>
 	<short>Payload</short>
-	<desc>당신이 한 번도 본적 없는 폭탄 발사기입니다. 보통의 폭탄 발사기보다 훨씬 강해 보입니다. A Bomb Launcher weapon, but unlike any you've ever seen. It appears to be much stronger than common bombs.</desc>
+	<desc>당신이 한 번도 본적 없는 폭탄 발사기입니다. 보통의 폭탄 발사기보다 훨씬 강해 보입니다.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>1</damage>
 	<sysDamage>3</sysDamage>
@@ -18744,7 +18744,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>플라즈마 포 마크 II</title>
 	<short>Plasma II</short>
 	<tip>tip_ancient_plasma</tip>
-	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. This peculiar weapon fires bolts of plasma that do both ion and system damage. Can even damage the shields upon contact.</desc>
+	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>0</damage>
 	<sysDamage>4</sysDamage>
@@ -18788,7 +18788,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>고대의 함포</title>
 	<short>A. Artillery</short>
-	<desc>함포: 함선 전체를 가로지르며 함체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다. Artillery: A powerful ancient Beam weapon that sweeps across entire ships, decimating their hull and systems.</desc>
+	<desc>함포: 함선 전체를 가로지르며 함체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다.</desc>
 	<tooltip>Artillery: </tooltip>
 	<damage>1</damage>
 	<sysDamage>10</sysDamage>
@@ -18822,7 +18822,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>아이테르 함포</title>
 	<short>Artillery</short>
-	<desc>함포: 모든 방어막을 관통하고 적선의 시스템을 흔적도 없이 없애 버리는 파괴적인 빔을 가동합니다. Artillery: Powers a devastating beam that pierces all shields and obliterates enemy systems.
+	<desc>함포: 모든 방어막을 관통하고 적선의 시스템을 흔적도 없이 없애 버리는 파괴적인 빔을 가동합니다.
 	Base Cooldown: 50</desc>
 	<tooltip>Artillery: Powers a devastating beam that pierces all shields and obliterates enemy systems.</tooltip>
 	<damage>1</damage>
@@ -18856,7 +18856,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>왕족의 함포</title>
 	<short>Artillery</short>
-	<desc>함포: 상대에게 4발의 폭탄 세례를 퍼붓는 강력한 고대의 확산탄입니다. Artillery: A powerful ancient Cluster Bomb salvo that fires 4 powerful bombs.
+	<desc>함포: 상대에게 4발의 폭탄 세례를 퍼붓는 강력한 고대의 확산탄입니다.
 	Base Cooldown: 40</desc>
 	<tooltip>Artillery: A powerful ancient Cluster Bomb salvo that fires 4 powerful bombs.</tooltip>
 	<damage>1</damage>
@@ -18891,7 +18891,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>고대의 함포</title>
 	<short>Artillery</short>
-	<desc>함포: 함선 전체를 가로지르며 함체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다. Artillery: A powerful ancient Beam weapon that sweeps across entire ships, decimating their hull and systems.
+	<desc>함포: 함선 전체를 가로지르며 함체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다.
 	Base Cooldown: 40</desc>
 	<tooltip>Artillery: A powerful ancient Beam weapon that sweeps across entire ships, decimating their hull and systems.</tooltip>
 	<damage>1</damage>
@@ -18926,7 +18926,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>고대의 함포</title>
 	<short>Artillery</short>
-	<desc>함포: 상대에게 4발의 폭탄 세례를 퍼붓는 강력한 고대의 확산탄입니다. Artillery: A powerful ancient Cluster Bomb salvo that fires 4 powerful bombs.
+	<desc>함포: 상대에게 4발의 폭탄 세례를 퍼붓는 강력한 고대의 확산탄입니다.
 	Base Cooldown: 40</desc>
 	<tooltip>Artillery: A powerful ancient Cluster Bomb salvo that fires 4 powerful bombs.</tooltip>
 	<damage>1</damage>
@@ -18997,7 +18997,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>증강된 점사형 레이저 마크II</title>
 	<short>Up. BLII</short>
 	<tip>tip_laser</tip>
-	<desc>뿅뿅뿅이다, 낯썬이. Pew pew pew, ssstranger.</desc>
+	<desc>뿅뿅뿅이다, 낯썬이.</desc>
 	<tooltip>Pew pew pew, ssstranger.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -19037,7 +19037,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>증강된 점사형 레이저 마크 III</title>
 	<short>Up. BLIII</short>
 	<tip>tip_laser</tip>
-	<desc>뿅뿅뿅뿅뿅이다, 낯선이. Pew pew pew pew pew, ssstranger.</desc>
+	<desc>뿅뿅뿅뿅뿅이다, 낯선이.</desc>
 	<tooltip>Pew pew pew pew pew, ssstranger.</tooltip>
 	<damage>1</damage>
 	<shots>5</shots>
@@ -19077,7 +19077,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'썅' 빔</title>
 	<short>'Beyatch'</short>
 	<tip>tip_beams</tip>
-	<desc>이런 썅, 낯선놈! Beyatch, ssstranger!</desc>
+	<desc>이런 썅, 낯선놈!</desc>
 	<tooltip>Large beam that does 4 damage per room.</tooltip>
 	<damage>4</damage>
 	<sp>0</sp>
@@ -19107,7 +19107,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_missiles</tip>
     <title>'다이아내시' 미사일</title>
     <short>'Dianesh'</short>
-    <desc>원래 종교 재판에서 사용하기 위한 용도로 만들어진 강력한 프로토타입 미사일입니다. A powerful prototype missile weapon originally constructed for use only within the Inquisition.</desc>
+    <desc>원래 종교 재판에서 사용하기 위한 용도로 만들어졌던 강력한 프로토타입 미사일입니다.</desc>
     <tooltip>Fires 1 missile; 4 damage; pierces all shields; high breach chance.</tooltip>
     <damage>5</damage>
 	<accuracyMod>10</accuracyMod>
@@ -19149,7 +19149,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'사도'</title>
 	<short>'Apostle'</short>
 	<tip>tip_laser_bio</tip>
-	<desc>방어막을 벗겨줄 다른 무기가 필요하지만 빠른 연사속도를 가진 강력한 보조 무기입니다. A powerful support weapon that fires rapidly but requires another weapon to break shields.</desc>
+	<desc>방어막을 벗겨줄 다른 무기가 필요하지만 빠른 연사속도를 가진 강력한 보조 무기입니다.</desc>
 	<tooltip>Light laser; 1 damage, no system damage. 2.2 second cooldown.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -19189,11 +19189,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="ION_PIERCE_CHAIN">
 	<type>LASER</type>
 	<flavorType>이온 블래스트</flavorType>
-	<title>연사형 관통자</title>
+	<title>연쇄 관통자</title>
 	<short>Chain P.</short>
 	<tip>tip_phase</tip>
 	<locked>1</locked>
-	<desc>관통자는 방어막을 관통하며 방어막 한겹과 피격된 시스템에 이온 피해를 줍니다. 발사할 때마다 피해량이 증가합니다. Phasers pierce additional shield layers, dealing ion damage for the first layer of shields, as well as additional damage to whatever system hit. Boosts its damage each time it is fired.</desc>
+	<desc>관통자는 방어막을 관통하며 방어막 한겹과 피격된 시스템에 이온 피해를 줍니다. 발사할 때마다 피해량이 증가합니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -19242,7 +19242,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'성냥갑'</title>
 	<short>'Matchbox'</short>
 	<tip>tip_laser</tip>
-	<desc>화재를 반드시 일으키지는 못하지만 발사하는 탄수가 늘어난 특수한 방화 레이저입니다. Specialized fire-starter Laser which gains an additional projectile, but does not have a guaranteed fire chance.</desc>
+	<desc>화재를 반드시 일으키지는 못하지만 발사하는 탄수가 늘어난 특수한 방화 레이저입니다.</desc>
     <tooltip>Burst laser; 1 damage, 3 shots. 14 second cooldown. Starts fires.</tooltip>
 	<damage>1</damage>
 	<persDamage>-1</persDamage>
@@ -19283,7 +19283,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>확산포자</title>
 	<short>Spore.</short>
 	<locked>1</locked>
-	<desc>오키드가 개발한 특수한 확산탄입니다. 미사일 1개를 소모하여 복제된 3개의 폭탄을 발사할 수 있습니다. A specialized Cluster Bomb developed by the orchids. It can replicate 3 warheads against enemy ships for the price of 1 missile.</desc>
+	<desc>오키드가 개발한 특수한 확산탄입니다. 탄약 1개를 소모하여 복제된 3개의 폭탄을 발사할 수 있습니다.</desc>
 	<tooltip>No hull or system damage, but deals much bio damage</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -19315,7 +19315,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>체리 폭탄</title>
     <short>Cherri</short>
     <locked>1</locked>
-    <desc>소이 폭탄을 배치하는 개량된 연사형 폭탄입니다. 민병대와의 영역 싸움에서 브루드가 사용했으며, 아마 무언가에 대한 언급일 것입니다. A re-outfitted Chain Bomb that deploys fire bombs instead. Used by the Brood in their turf war with the Militia, and probably a reference to something.</desc>
+    <desc>소이 폭탄을 배치하는 개량된 연쇄 폭탄입니다. 민병대와의 영역 싸움에서 브루드가 사용했으며, 아마 무언가에 대한 언급일 것입니다.</desc>
 	<tooltip>No hull or system damage, but deals much bio damage</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -19352,7 +19352,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <title>'리프트 웨이커' 마크 0.5</title>
     <short>'Waker 0.5'</short>
     <tip>tip_chain_laser</tip>
-    <desc>연쇄 발칸을 사용하여 만든 실반의 악명높은 기관총 '리프트 웨이커'의 모조품입니다. A recreation of Sylvan's infamous 'Rift Waker' Gatling gun, using a Chain Vulcan.</desc>
+    <desc>연사식 발칸을 사용하여 만든 실반의 악명높은 기관총 '리프트 웨이커'의 모조품입니다.</desc>
     <tooltip>Cooldown drops the more it fires.</tooltip>
     <radius>55</radius>
     <damage>1</damage>
@@ -19401,7 +19401,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<drone_targetable>1</drone_targetable>
 	<title>소금 발사기</title>
 	<short>Salt</short>
-	<desc>범위 내에 방어막을 관통하며 함체 피해와 함께 높은 선원 피해와 기절 효과를 가하는 두발의 발사체를 발사하는 이상한 무기입니다. This odd weapon fires 2 shield piercing projectiles in a radius that do higher than normal crew damage and stun, as well as damaging the hull.</desc>
+	<desc>범위 내에 방어막을 관통하며 함체 피해와 함께 높은 선원 피해와 기절 효과를 가하는 두발의 발사체를 발사하는 이상한 무기입니다.</desc>
 	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
 	<radius>35</radius>
 	<damage>1</damage>
@@ -19448,7 +19448,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>황금 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Gold F.</short>
-	<desc>말 그대로 금 덩어리를 발사하는 개조된 대공포입니다. 아주 묵직하고 느린 발사체를 쏘며, 판매 시 큰 보상금을 받을 수 있습니다.A modified Flak cannon that fires literal chunks of gold. Its projectiles are very heavy and sluggish, but it should return a large bounty when sold.</desc>
+	<desc>말 그대로 금 덩어리를 발사하는 개조된 대공포입니다. 아주 묵직하고 느린 발사체를 쏘며, 판매 시 큰 보상금을 받을 수 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>1</damage>
@@ -19495,7 +19495,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>황금 대공포 마크 III</title>
 	<short>GF. III</short>
 	<tip>tip_flak</tip>
-	<desc>무작위 영역에 10개의 파편을 무더기로 발사합니다. 방어막을 벗기는데 효과적이지만 정확도가 낮습니다. Fires a blast of debris across a random area doing up to 10 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>무작위 영역에 10개의 파편을 무더기로 발사합니다. 방어막을 벗기는데 효과적이지만 정확도가 낮습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -19541,7 +19541,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_beams</tip>
 	<title>사이클로피안 빔</title>
 	<short>Cyclopian Beam</short>
-	<desc>저명한 셸 과학자인 시어레이 박사가 "대량의 부식성 가스를 선형으로 집중시키는"빔의 개발을 제안했을 때 사람들은 그가 미쳤다고 생각했습니다. 그 후에 무슨 일이 벌어졌을 지 맞춰보세요. When famed shell scientist Dr. Thearlay suggested that they develop a Beam that "concentrated a lot of corrosive gas into a single straight line", people thought he was crazy. But guess what happened after that.</desc>
+	<desc>저명한 셸 과학자인 시어레이 박사가 "대량의 부식성 가스를 선형으로 집중시키는"빔의 개발을 제안했을 때 사람들은 그가 미쳤다고 생각했습니다. 그 후에 무슨 일이 벌어졌을 지 맞춰보세요.</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -19576,7 +19576,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>스캐너</title>
 	<short>Scanner</short>
 	<locked>1</locked>
-	<desc>이 "무기"는 전투를 위해 설계된 것이 아니지만 대신 센서가 고장난 상황에서도 당신 또는 적 함선의 선실을 들어낼 수 있습니다. This "weapon" is not designed for combat, but rather can reveal rooms on either your or the enemy ship, even with broken sensors.</desc>
+	<desc>이 "무기"는 전투를 위해 설계된 것은 아니지만 대신 센서가 고장난 상황에서도 당신 또는 적 함선의 선실을 들어낼 수 있습니다.</desc>
 	<tooltip>Reveals the inside of rooms.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -19608,7 +19608,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_zolt_deleter</tip>
 	<title>졸탄 제거자</title>
 	<short>Zolt Deleter</short>
-	<desc>다른 승무원에게 피해를 입히는 데 사용될 수는 있지만, 여러 정부에서 이 무기를 다른 종족에게 사용하는 것이 발각되면 즉시 사살한다는 법률을 통과시켰습니다.Though it can be used to damage other crew, several governments have passed laws that if this weapon is brandished at any other race, you are to be killed on sight.</desc>
+	<desc>다른 승무원에게 피해를 입히는 데 사용될 수는 있지만, 여러 정부에서 이 무기를 다른 종족에게 사용하는 것이 발각되면 즉시 사살한다는 법률을 통과시켰습니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>5</persDamage>
@@ -19646,7 +19646,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'과부제조기'</title>
 	<short>'Widow Maker'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19695,7 +19695,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'The Puppy Kicker'</title>
 	<short>'Puppy Kicker'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19741,10 +19741,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION3">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'Big Ass Gun'</title>
+	<title>'존나 쩌는 총'</title>
 	<short>'BAG'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19793,7 +19793,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'Spinny Stick'</title>
 	<short>'Spinny Stick'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19842,7 +19842,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'탕탕탕'</title>
 	<short>'Pew Pew Pew'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19891,7 +19891,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'엑스칼리버'</title>
 	<short>'Excaliber'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19940,7 +19940,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'벌칸 II'</title>
 	<short>'Vulcan II'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -19989,7 +19989,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'디버거'</title>
 	<short>'Debugger'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다! The Gatling gun takes a very long time to charge, but after that it goes down to a 1 second cooldown!</desc>
+	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<radius>90</radius>
 	<damage>1</damage>
@@ -20038,7 +20038,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'리프트 웨이커'</title>
 	<short>'Rift Waker'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>실반만의 것이였지만 이제는 당신의 것이 된 강력한 전쟁 무기입니다. 탐욕스러운 배신자여. A powerful weapon of war carried previously only by Sylvan, but now by you as well. You greedy, murdering traitor you.</desc>
+	<desc>실반만이 가졌었지만 이제는 당신의 것이 된 강력한 전쟁 무기입니다. 탐욕스러운 배신자여.</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -20081,7 +20081,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'리프트 웨이커'</title>
 	<short>'Rift Waker'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>실반만의 것이였지만 이제는 당신의 것이 된 강력한 전쟁 무기입니다. 반군들의 엉덩이를 걷어차주러 갑시다. A powerful weapon of war carried previously only by Sylvan, but now by you as well. Go kick some Rebel asses.</desc>
+	<desc>실반만이 가졌었지만 이제는 당신의 것이 된 강력한 전쟁 무기입니다. 반군들의 엉덩이를 걷어차주러 갑시다.</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -20125,7 +20125,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'신살자'</title>
 	<short>'Killer'</short>
 	<tip>tip_chain_laser</tip>
-	<desc>다중우주 전역의 독재자가 가지고 있던 신조차 죽일 수 있는 무기입니다. A weapon capable of killing gods, wielded previously by the tyrant of the entire Multiverse.</desc>
+	<desc>다중우주 전역의 독재자가 가지고 있던 신조차 죽일 수 있는 무기입니다.</desc>
 	<tooltip>Cooldown drops the more it fires. Can chain up to 7 times!</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -20165,7 +20165,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>개틀링 총열</title>
 	<short>Barrel</short>
-	<desc>개틀링 기관총의 총열입니다. 조립을 위해 몸체와 조기 점화기를 필요로 합니다. The Barrel of the Gatling Gun. Requires the Base and Pre-Igniter to be assembled.</desc>
+	<desc>개틀링 기관총의 총열입니다. 조립을 위해 몸체와 조기 점화기가 필요합니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -20185,7 +20185,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>개틀링 몸체</title>
 	<short>Base</short>
-	<desc>개틀링 기관총의 몸체입니다. 조립을 위해 총열과 조기 점화기를 필요로 합니다. The Base of the Gatling Gun. Requires the Barrel and Pre-Igniter to be assembled.</desc>
+	<desc>개틀링 기관총의 몸체입니다. 조립을 위해 총열과 조기 점화기가 필요합니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -20201,7 +20201,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="PART_GATLING_AUGMENT">
 	<title>최초의 조기점화기</title>
-	<desc>최초로 만들어진 조기 점화기입니다. 낡고 망가져서 원래대로 기능하지는 않지만 그래도 무기의 충전 시간을 12% 감소시켜줍니다. The very first Pre-Igniter ever made. Old and broken, it no longer functions as intended, but it will decrease weapon cooldown by 12%.</desc>
+	<desc>최초로 만들어진 조기 점화기입니다. 낡고 망가져서 원래대로 기능하지는 않지만 그래도 무기의 충전 시간을 12% 감소시켜줍니다.</desc>
 	<cost>60</cost>
 	<bp>16</bp>
 	<rarity>0</rarity>
@@ -20215,10 +20215,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="LOOT_CIVILIAN_1">
 	<type>LASER</type>
-	<title>Burst Laser MK I</title>
+	<title>점사형 레이저 마크 I</title>
 	<short>Burst I</short>
 	<tip>tip_civ_loot_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -20254,10 +20254,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_MILITIA_1">
 	<type>LASER</type>
-	<title>Burst Laser MK II</title>
+	<title>점사형 레이저 마크 II</title>
 	<short>Burst II</short>
 	<tip>loot_militia_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 3 lasers, 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -20293,10 +20293,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_FEDERATION_1">
 	<type>LASER</type>
-	<title>Heavy Laser MK II</title>
+	<title>중형 레이저 마크 II</title>
 	<short>Heavy II</short>
 	<tip>loot_federation_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>2</damage>
 	<persDamage>1</persDamage>
@@ -20335,9 +20335,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_COALITION_1">
     <type>MISSILES</type>
     <tip>loot_coalition_1</tip>
-    <title>'Eris' Missiles</title>
+    <title>'에리스' 미사일</title>
     <short>'Eris'</short>
-    <desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+    <desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
     <tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
     <damage>3</damage>
 	<drone_targetable>0</drone_targetable>
@@ -20375,12 +20375,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_DUSKBRINGER_1">
 	<type>LASER</type>
-	<flavorType>Concentrated Energy Blast</flavorType>
-	<title>Heavy Energy</title>
+	<flavorType>집중된 에너지 블래스트</flavorType>
+	<title>중형 에너지 포</title>
 	<short>Hv. Energy</short>
 	<tip>loot_duskbringer_1</tip>
 	<locked>1</locked>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 1 hull damage. Can hit and disable shields as well as systems. 2x hull damage on systemless rooms.</tooltip>
 	<damage>2</damage>
 	<persDamage>-1</persDamage>
@@ -20424,10 +20424,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_FREEMANTIS_1"> 
 	<type>BOMB</type>
 	<tip>loot_freemantis_1</tip>
-	<title>Stun Bomb</title>
+	<title>기절 폭탄</title>
 	<short>Stun B.</short>
 	<locked>1</locked>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 1 ion damage. Stuns all crew inside the room. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
@@ -20459,9 +20459,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_LOSTSUN_1">
 	<type>BURST</type>
 	<tip>loot_lostsun_1</tip>
-	<title>'Sekhmet' Mine Launcher</title>
+	<title>'세크매트' 기뢰 사출기</title>
 	<short>'Sekhmet'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
 	
 	At empty beacons provides 3 fleet delay for 15 missiles.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -20505,9 +20505,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_LOSTSUN_2">
 	<type>MISSILES</type>
 	<tip>loot_lostsun_2</tip>
-	<title>'Hades' Missiles</title>
+	<title>'하데스' 미사일</title>
 	<short>'Hades'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<accuracyMod>10</accuracyMod>
@@ -20547,10 +20547,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_MANTIS_1">
 	<type>BOMB</type>
 	<tip>loot_mantis_1</tip>
-	<title>Bomb Launcher</title>
+	<title>폭탄 발사기</title>
 	<short>Bomb</short>
 	<locked>1</locked>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -20578,10 +20578,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="LOOT_MANTIS_2">
 	<type>LASER</type>
-	<title>Light Laser Mk. II</title>
+	<title>경량형 레이저 마크 II</title>
 	<short>Light II</short>
 	<tip>loot_mantis_2</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Only one shot, one damage per shot.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -20620,10 +20620,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_REBEL_1"> 
 	<type>LASER</type>
-	<title>Laser Charger</title>
+	<title>충전식 레이저</title>
 	<short>Charge L</short>
 	<tip>loot_rebel_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -20661,9 +20661,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_ROCK_1">
 	<type>MISSILES</type>
 	<tip>loot_rock_1</tip>
-	<title>Hermes Missile</title>
+	<title>'헤르메스' 미사일</title>
 	<short>Hermes</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<accuracyMod>10</accuracyMod>
@@ -20704,9 +20704,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_ZOLTAN_1">
 	<type>BEAM</type>
 	<tip>loot_zoltan_1</tip>
-	<title>'Pike' Beam</title>
+	<title>'파이크' 빔</title>
 	<short>'Pike'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon with extended line. 1 damage per room.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -20730,9 +20730,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_ZOLTAN_2">
 	<type>BEAM</type>
 	<tip>loot_zoltan_2</tip>
-	<title>'Lucerne' Beam</title>
+	<title>'루체른' 빔</title>
 	<short>'Lucerne'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon; 1 damage; 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<sysDamage>1</sysDamage>
@@ -20758,9 +20758,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_SLUG_1">
 	<type>BEAM</type>
 	<tip>loot_slug_1</tip>
-	<title>'Faucon' Beam</title>
+	<title>'팔콘' 빔</title>
 	<short>'Faucon'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -20789,10 +20789,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_CLAN_1">
 	<type>LASER</type>
-	<title>Anti-Bio Laser</title>
+	<title>안티-바이오 레이저</title>
 	<short>Bio Laser</short>
 	<tip>loot_clan_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Only one shot, one damage per shot.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -20831,9 +20831,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_KNIGHT_1">
 	<type>BEAM</type>
 	<tip>loot_knight_1</tip>
-	<title>'Corbin' Beam</title>
+	<title>'코빈' 빔</title>
 	<short>'Corbin'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -20869,9 +20869,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_SHELL_1">
 	<type>LASER</type>
 	<tip>loot_shell_1</tip>
-	<title>Anti-Hull Laser MK I</title>
+	<title>함체 파괴 레이저 마크 I</title>
 	<short>Hull-L I</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 2 lasers, 1 damage each and 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -20908,12 +20908,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_LEECH_1">
 	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<flavorType>물리적 탄환 블래스트</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark I</title>
+	<title>대공포 마크 I</title>
 	<short>Flak I</short>
 	<tip>loot_leech_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>30</radius>
 	<damage>1</damage>
@@ -20957,9 +20957,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_CULTIST_1">
 	<type>BEAM</type>
 	<tip>loot_cultist_1</tip>
-	<title>Piercing 'Torch'</title>
+	<title>꿰뚫는 '토치'</title>
 	<short>'Torch' P.</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon that starts fires.</tooltip>
 	<damage>0</damage>
 	<sp>10</sp>
@@ -20982,9 +20982,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_DYNASTY_1">
 	<type>BEAM</type>
 	<tip>loot_dynasty_1</tip>
-	<title>'Ranseur' Beam</title>
+	<title>'란세어' 빔</title>
 	<short>'Ranseur'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. (보면 알겠지만 원문은 제작자가 잘못 써놓은 글임)A powerful beam that cannot cause physical damage but rips breaches in the enemy's hull and pierces 1 shield.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon that opens breaches.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -21009,10 +21009,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark I</title>
+	<title>대공포 마크 I</title>
 	<short>Flak I</short>
 	<tip>loot_aug_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -21057,10 +21057,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <!--MATH AUTO WEAPONS-->
 <weaponBlueprint name="LOOT_MATH_1"> 
 	<type>LASER</type>
-	<title>'Adder'</title>
+	<title>'더하기'</title>
 	<short>'Adder'</short>
 	<tip>loot_math_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires two lasers that deal 1 damage each. Cooldown drops the more it fires.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -21101,10 +21101,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_MATH_2">
 	<type>BOMB</type>
-	<title>'Subtracter'</title>
+	<title>'빼기'</title>
 	<short>'Subtracter'</short>
 	<tip>loot_math_2</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>No hull or system damage, but deals much bio damage</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -21134,10 +21134,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_MATH_3">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>'Multiplier'</title>
+	<title>'곱하기'</title>
 	<short>'Multiplier'</short>
 	<tip>loot_math_3</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>65</radius>
@@ -21180,10 +21180,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_MATH_4">
 	<type>BEAM</type>
-	<title>'Divider'</title>
+	<title>'나누기'</title>
 	<short>'Divider'</short>
 	<tip>loot_math_4</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>One damage per room beam weapon. Ignores 3 shields</tooltip>
 	<damage>1</damage>
 	<sp>3</sp>
@@ -21207,10 +21207,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_MATH_5">
 	<type>BEAM</type>
-	<title>'Equalizer'</title>
+	<title>'등호'</title>
 	<short>'Equalizer'</short>
 	<tip>loot_math_5</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<ion>3</ion>
@@ -21261,10 +21261,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_MATH_6">
 	<type>BURST</type>
-	<title>'Percentage'</title>
+	<title>'백분율'</title>
 	<short>'Percentage'</short>
 	<tip>loot_math_6</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
 	
 	At empty beacons provides 3 fleet delay for 15 missiles.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -21308,10 +21308,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_MATH_7">
 	<type>MISSILES</type>
-	<title>'Greater Than'</title>
+	<title>'부등호'</title>
 	<short>'Greater'</short>
 	<tip>loot_math_7</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요. Special loot weapon. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<drone_targetable>0</drone_targetable> 
 	<speed>30</speed>
@@ -21358,7 +21358,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>배터리 빔</title>
 	<short>Battery</short>
 	<tip>tip_conservative</tip>
-	<desc>이 독특한 병기는 무기 리스트에서 바로 오른쪽에 배치된 무기에 2의 전력을 공급합니다. This unique weapon provides 2 power to whichever weapon is directly to the right of it in the weapon list.</desc>
+	<desc>이 독특한 무기는 무기 리스트에서 바로 오른쪽에 배치된 무기에 2의 전력을 공급합니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -21385,7 +21385,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_chain_beam</tip>
 	<title>츠키 야리 빔</title>
 	<short>Tsukiyari</short>
-	<desc>이 최첨단 빔은 잘 알려진 가카야리와 스야리 빔의 프로토타입 강화판입니다. This advanced beam was a prototype upgrade of the well known Kamayari and Suyari beams.</desc>
+	<desc>이 최첨단 빔은 잘 알려진 스야리와 카마야리 빔의 프로토타입 강화판입니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -21419,7 +21419,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Big I.</short>
 	<locked>1</locked>
 	<tip>tip_chain_ion</tip>
-	<desc>전투마다 한번만 사용할 수 있지만 전투를 시작하자마자 쏠 수 있을 정도로 충전이 빠른 선제 이온 병기입니다. 어마어마한 선원 피해와 이온 피해를 가하며 빗나가지 않습니다. (텍사스 레드 뭔뜻인지 모름) A pre-emptive Ion weapon that charges so fast it can be used right at the start of battle, but can only be fired once per combat. Does immense Bio and Ion damage and never misses. Texas Red won't be getting up after this one.</desc>
+	<desc>전투마다 한번만 사용할 수 있지만 전투를 시작하자마자 쏠 수 있을 정도로 충전이 빠른 선제 이온 병기입니다. 어마어마한 선원 피해와 이온 피해를 가하며 빗나가지 않습니다. 텍사스레드는 일어나지 않을것입니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>0</damage>
 	<persDamage>999999</persDamage>
@@ -21473,7 +21473,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>영구 폭탄</title>
 	<short>Sustain.</short>
 	<locked>1</locked>
-	<desc>이 폭탄은 다른 것들보다 느리게 충전되지만, 완전히 독립적으로 작동합니다. 작동을 위해 오로지 전력이 공급되는 다른 무기만이 필요하고, 전력이나 미사일을 소모하지 않습니다.  This Bomb charges slower than most, but is completely self-sustaining. It uses no missiles or power, and only requires another weapon to be powered to function.</desc>
+	<desc>이 폭탄은 다른 것들보다 느리게 충전되지만, 완전히 독립적으로 작동합니다. 작동을 위해 오로지 전력이 공급되는 다른 무기만이 필요하고, 전력이나 탄약을 소모하지 않습니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -21505,7 +21505,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>충전식 서리 레이저</title>
 	<short>Charge F</short>
 	<tip>tip_charge</tip>
-	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 서리 무기이기 때문에 피격된 방을 봉쇄하며 선원에게 추가 피해를 입히고 기절 시킵니다. This Laser weapon can charge multiple times, giving it additional projectiles. As a Frost weapon, it locks down rooms, and does extra damage and stun to enemy crew.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 서리 무기이기 때문에 피격된 방을 봉쇄하며 선원에게 추가 피해를 입히고 기절 시킵니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -21551,7 +21551,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>연충식 이온</title>
 	<short>Chainger I.</short>
 	<tip>tip_charge</tip>
-	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 발사할 때마다 이온 피해량이 증가합니다. This Ion weapon can charge multiple times, giving it additional projectiles. With each shot, the ion damage increases.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있습니다. 발사할 때마다 이온 피해량이 증가합니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -21601,7 +21601,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_missiles</tip>
 	<title>흑요석 미사일</title>
 	<short>Obsidian</short>
-	<desc>이 강력한 미사일은 흑요석 외피가 장착되어 있어 적선의 함체에 막대한 피해를 입힙니다. This powerful Missile is made with an obsidian exterior, causing massive damage to enemy hulls.</desc>
+	<desc>이 강력한 미사일은 적선의 함체에 막대한 피해를 입히는 흑요석 외피가 장착되어 있습니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>6</damage>
 	<missiles>1</missiles>
@@ -21642,7 +21642,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_focus</tip>
 	<title>`백발백중`</title>
 	<short>`Never`</short>
-	<desc>이 특수한 핀포인트 병기는 이름값을 톡톡히 해서 평범한 빔처럼 빗나가지 않을 뿐만 아니라 모든 방어막을 관통하기까지 합니다. This specialized Pinpoint weapon stays true to its name, not only having the guaranteed hit of a Beam, but also ignoring all shields.</desc>
+	<desc>이 특수한 핀포인트 병기는 이름값을 톡톡히 해서, 평범한 빔처럼 빗나가지 않을 뿐만 아니라 모든 방어막을 관통하기까지 합니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>2</damage>
 	<sysDamage>1</sysDamage>
@@ -21671,7 +21671,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>강철 발사기</title>
 	<short>Steel</short>
 	<tip>tip_flak</tip>
-	<desc>느리지만 함체에 훨씬 큰 피해를 입히는 중금속을 발사하는 개조된 대공포입니다. This modified Flak cannon fires bursts of heavy metal that move slowly but inflict much greater damage to a ship's hull integrity.</desc>
+	<desc>느리지만 함체에 훨씬 큰 피해를 입히는 중금속 무더기를 발사하는 개조된 대공포입니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -21720,7 +21720,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 대공포 [화재]</title>
 	<short>Toggle [F]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 화재] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.   A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
+	<desc>[현재 모드: 화재] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21766,7 +21766,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 대공포 [이온]</title>
 	<short>Toggle [E]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 이온] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다. A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
+	<desc>[현재 모드: 이온] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21813,7 +21813,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 플랙 [독성]</title>
 	<short>Toggle [T]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 독성] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다. [Current Mode: Toxic] A special Flak weapon which can switch between three elemental modes. Cooldown, power, and projectile count stays the same between all variants.</desc>
+	<desc>[현재 모드: 독성] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21861,7 +21861,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>독성 포드 발사기</title>
 	<tip>tip_flak</tip>
 	<short>Tox Pods</short>
-	<desc>이 치명적인 무기는 시스템을 부식시키고 선원에게 피해를 입히는 독성 가스가 담긴 포드를 발사합니다. This deadly weapon fires out pods of toxic gas which corrodes systems and harms crew.</desc>
+	<desc>이 치명적인 무기는 시스템을 부식시키고 선원에게 피해를 입히는 독성 가스가 담긴 포드를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>42</radius>
 	<damage>0</damage>
@@ -21910,7 +21910,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <title>'나이트셰이드' 미사일</title>
     <short>'Nightshade'</short>
     <tip>tip_missiles_cloak</tip>
-    <desc>충전이 상당히 느리지만, 방어 드론이 요격할 수 없는 은폐된 탄환을 발사하는 치명적인 미사일입니다. A deadly Missile that fires cloaked warheads that basic Defense Drones can't shoot down, but charge quite slow.</desc>
+    <desc>충전이 상당히 느리지만, 방어 드론이 요격할 수 없는 은폐된 탄환을 발사하는 치명적인 미사일입니다.</desc>
     <tooltip>Boss Loot.</tooltip>
     <radius>50</radius>
     <missiles>1</missiles>
@@ -21952,11 +21952,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MINELAUNCHER_GIANT">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>'파라오' 지뢰 사출기</title>
+	<title>'파라오' 기뢰 사출기</title>
 	<short>'Pharaoh'</short>
-	<desc>다른 기뢰 사출기와 같이 탄약 1발을 소모함에도 불구하고 거대하고 파괴적인 기뢰를 사출하는 거대한 기뢰 사출기입니다. A massive Mine Launcher that fires immense, heavy hitting mines despite an average ammunition price.
+	<desc>다른 기뢰 사출기와 같이 탄약 1발을 소모함에도 불구하고 거대하고 파괴적인 기뢰를 사출하는 거대한 기뢰 사출기입니다.
 	
-	빈 송신소에서 탄약 7개를 소모하여 반군의 추적을 3도약 지연시킬 수 있습니다. At empty beacons provides 3 fleet delay for 7 missiles.</desc>
+	빈 송신소에서 탄약 7개를 소모하여 반군의 추적을 3도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>7</damage>
 	<sysDamage>-2</sysDamage>
@@ -21996,10 +21996,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LASER_LIGHT_CHARGEGUN"> 
 	<type>LASER</type>
-	<title>충전식 경략 레이저</title>
+	<title>충전식 경량형 레이저</title>
 	<short>Li. Charge</short>
 	<tip>tip_charge</tip>
-	<desc>적은 전력 소비로 발사체를 5발까지 모아 한꺼번에 발사할 수 있는 경량 레이저 입니다. This fast charging Light Laser can reach a maximum volley of 5 shots for a very low power cost.</desc>
+	<desc>적은 전력 소비로 발사체를 5발까지 모아 한꺼번에 발사할 수 있는 경량형 레이저 입니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 4.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -22042,7 +22042,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>크리스탈 기술</flavorType>
 	<title>호박 발사기</title>
 	<short>Amber</short>
-	<desc>방어막을 한겹 관통하며, 선실을 봉쇄하고, 화재를 일으키는 2개의 묵직한 폭발성 크리스탈을 발사합니다. Fires 2 heavy and explosive crystal shards that pierce 1 shield each, lock down rooms, and create a fire.</desc>
+	<desc>방어막을 한겹 관통하며, 선실을 봉쇄하고, 화재를 일으키는 2개의 묵직한 폭발성 크리스탈을 발사합니다.</desc>
 	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
 	<tip>tip_crystal</tip>
 	<damage>2</damage>
@@ -22085,7 +22085,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_kernel</tip>
 	<title>딸기 총</title>
 	<short>Strawberry</short>
-	<desc>깡통에 적힌 그대로. As it says on the tin.</desc>
+	<desc>이름 그대로인 무기입니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -22131,7 +22131,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>낡은 점사형 레이저 마크 I</title>
 	<short>O. Burst I</short>
 	<tip>tip_old</tip>
-	<desc>단순한 점사형 레이저로, 멋은 나지 않으나 제값은 톡톡히 해내는 무기입니다. 엄청 낡아서 집탄율이 떨어집니다. This simple Burst Laser isn't flashy but it gets the job done. Very old and has worse aim.</desc>
+	<desc>단순한 점사형 레이저로, 멋은 나지 않으나 제값은 톡톡히 해내는 무기입니다. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -22173,7 +22173,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>낡은 점사형 레이저 마크 II</title>
 	<short>O. Burst II</short>
 	<tip>tip_old</tip>
-	<desc>1회 충전당 더 많은 횟수의 사격을 하도록 향상된 버전의 연사형 레이저 입니다. 엄청 낡아서 집탄율이 떨어집니다. Slightly improved version of the Burst Laser that fires more shots per charge. Very old and has worse aim.</desc>
+	<desc>1회 충전당 더 많은 횟수의 사격을 하도록 향상된 버전의 연사형 레이저 입니다. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 3 lasers, 1 damage each.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -22214,7 +22214,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>낡은 점사형 레이저 마크 III</title>
 	<short>O. Burst III</short>
 	<tip>tip_old</tip>
-	<desc>상대에게 인상적인 탄막을 선사하는 강력한 연사형 레이저입니다. 엄청 낡아서 집탄율이 떨어집니다. Powerful Burst Laser that fires off an impressive barrage. Very old and has worse aim.</desc>
+	<desc>상대에게 인상적인 탄막을 선사하는 강력한 연사형 레이저입니다. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 5 lasers, 1 damage per shot.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -22256,7 +22256,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>낡은 중형 레이저 마크 I</title>
 	<short>O. Heavy I</short>
 	<tip>tip_old</tip>
-	<desc>중형 레이저들은 소형의 점사형보다 더 큰 피해를 줍니다. 엄청 낡아서 집탄율이 떨어집니다. Heavy Lasers can wreak more havoc than their smaller, Burst Laser counterparts. Very old and has worse aim.</desc>
+	<desc>중형 레이저들은 소형의 점사형보다 더 큰 피해를 줍니다. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<radius>52</radius>
 	<damage>2</damage>
@@ -22300,7 +22300,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_old</tip>
 	<title>낡은 레토</title>
 	<short>O. Leto</short>
-	<desc>이 발사대는 구식이고 약하지만, 아직 쓸만합니다. 엄청 낡아서 집탄율이 떨어집니다. This launcher is outdated and weak, but can still be effective. Very old and has worse aim.</desc>
+	<desc>이 발사대는 구식이고 약하지만, 아직 쓸만합니다. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -22343,7 +22343,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<drone_targetable>1</drone_targetable>
 	<title>낡은 아르테미스</title>
 	<short>O. Artemis</short>
-	<desc>대부분의 연방 함선에 장착된 표준화된 미사일 발사기입니다. 엄청 낡아서 집탄율이 떨어집니다. Standard missile launcher on most Federation ships. Very old and has worse aim.</desc>
+	<desc>대부분의 연방 함선에 장착된 표준화된 미사일 발사기입니다. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<radius>52</radius>
 	<damage>2</damage>
@@ -22386,7 +22386,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<drone_targetable>1</drone_targetable>
 	<title>낡은 헤르메스</title>
 	<short>O. Hermes</short>
-	<desc>기본적이지만 강력한 미사일. 엄청 낡아서 집탄율이 떨어집니다.  Standard but powerful missile. Very old and has worse aim.</desc>
+	<desc>기본적이지만 강력한 미사일. 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<radius>52</radius>
 	<damage>3</damage>
@@ -22430,7 +22430,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<drone_targetable>1</drone_targetable>
 	<title>낡은 페가수스</title>
 	<short>O. Pegasus</short>
-	<desc>하나의 탄약으로 두발의 미사일을 발사하는 혁신적인 미사일 설계! 엄청 낡아서 집탄율이 떨어집니다. Creative missile design allows for two projectiles for the cost of one! Very old and has worse aim.</desc>
+	<desc>하나의 탄약으로 두발의 미사일을 발사하는 혁신적인 미사일 설계! 엄청 낡아서 집탄율이 떨어집니다.</desc>
 	<tooltip>Fires 2 missiles; 2 damage each; pierces all shields.</tooltip>
 	<damage>2</damage>
 	<missiles>1</missiles>
@@ -22487,7 +22487,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="MODULAR_STORE">
 	<title>헥타르 가상 거래소(tm)</title>
-	<desc>헥타르 산업(tm)의 헥타르 가상 거래소 인터페이스(tm)를 소개합니다! Hektar Industries(tm) introduces the Hektar Virtual Store Interface(tm)! 헥타르의 모듈식 무기 상점에 원격으로 접속하여, 청사진을 구매하고, 동봉된 헥타르 3D복제 기술을 사용해 당신의 함선에서 제품을 뽑아낼 수 있습니다! 상품의 가격에는 복제에 필요한 재료값이 포함되어 있습니다. Remotely access Hektar's vast stock of modules and modular weapons, purchase a blueprint, and print it about aboard your own ship with the included Hektar 3D Fabrication technology(tm)! Prices include those required for the raw materials needed for fabrication.</desc>
+	<desc>헥타르 산업(tm)의 헥타르 가상 거래소 인터페이스(tm)를 소개합니다! 헥타르의 모듈식 무기 상점에 원격으로 접속하여, 청사진을 구매하고, 동봉된 헥타르 3D복제 기술을 사용해 당신의 함선에서 제품을 뽑아낼 수 있습니다! 상품의 가격에는 복제에 필요한 재료값이 포함되어 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -22509,10 +22509,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>정확도 모듈</title>
 	<short>Acc. Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 정확도 속성 모듈입니다. 전투중에 당신의 무기가 목표를 잘 따라갈 것을 보장합니다. Hektar Industries(TM) brand Attribute Accuracy Module. Ensure your weaponry stays on target on the battlefield!
-	모듈식 빔과 호환되지 않습니다. Incompatible with the Modular Beam.
-	레이저 효과: 각 투사체가 20%의 명중률 보정을 얻습니다. Laser Effects: Each projectile gains an additional 20% accuracy buff.
-	미사일 효과: 미사일이 100%의 명중률 보정을 얻습니다. Missile Effects: Missiles gain an additional 100% accuracy buff.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 정확도 속성 모듈입니다. 전투중에 당신의 무기가 목표를 더 잘 따라갈 것을 보장합니다.
+	모듈식 빔과 호환되지 않습니다.
+	레이저 효과: 각 투사체가 20%의 명중률 보정을 얻습니다.
+	미사일 효과: 미사일이 100%의 명중률 보정을 얻습니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22532,11 +22532,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>안티-바이오 모듈</title>
 	<short>A-Bio Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 안티-바이오 상태 모듈입니다. 당신의 모듈식 무기를 완벽한 대인 병기로 개조해 보세요! Hektar Industries(TM) brand Status Anti-Bio Module. Turn your modular weapons into the perfect anti-crew weaponry!
-	모든 제품과 호환됩니다. 함체 파괴 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다. No incompatibilities. When combined with the hullbuster module, will return to default hull damage, but will not have hull bust properties.
-	레이저 효과: 함체 피해량이 0이 되지만, 각 투사체가 30의 선원 피해를 입힙니다. Laser Effects: Reduces hull damage to 0, but each projectile deals 30 crew damage.
-	빔 효과: 함체 피해량이 0이 되지만, 60의 선원 피해를 입힙니다. Beam Effects: Reduces hull damage to 0, but deals 60 crew damage.
-	미사일 효과: 함체 피해량이 0이 되지만, 90의 선원 피해를 입힙니다. Missile Effects: Reduces hull damage to 0, but deals 90 crew damage.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 안티-바이오 상태 모듈입니다. 당신의 모듈식 무기를 완벽한 대인 병기로 개조해 보세요!
+	모든 제품과 호환됩니다. 함체 파괴 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다.
+	레이저 효과: 함체 피해량이 0이 되지만, 각 투사체가 30의 선원 피해를 입힙니다.
+	빔 효과: 함체 피해량이 0이 되지만, 60의 선원 피해를 입힙니다.
+	미사일 효과: 함체 피해량이 0이 되지만, 90의 선원 피해를 입힙니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22556,9 +22556,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>충전 시간 모듈</title>
 	<short>Cool Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 충전 시간 상태 모듈입니다. 당신의 무기를 전성비 좋고 연사력 좋은 돌격 무기로 개조해 보세요! Hektar Industries(TM) brand Status Cooldown Module. Turn your modular weapons into power efficient fast firing assault weaponry!
-	모든 제품과 호환됩니다. No incompatibilities.
-	모든 무기의 효과: 충전 시간을 25% 감소시킵니다. Effects for all weapons: Reduces cooldown by 25%</desc>
+	<desc>헥타르 산업(TM) 브랜드의 충전 시간 상태 모듈입니다. 당신의 무기를 전성비 좋고 연사력 좋은 돌격 무기로 개조해 보세요!
+	모든 제품과 호환됩니다.
+	모든 무기의 효과: 충전 시간을 25% 감소시킵니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22578,9 +22578,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>봉쇄 모듈</title>
 	<short>Lock Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 봉쇄 상태 모듈입니다. 당신의 모듈식 무기를 차세대 기술로 개조하여 독특한 봉쇄 기술로 적함을 혼란에 빠뜨리세요! Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
-	모듈식 빔과 호환되지 않습니다. Incompatible with the Modular Beam.
-	모든 무기의 효과: 피격된 선실을 봉쇄합니다. Effects for all weapons: Applies lockdown on impact.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 봉쇄 상태 모듈입니다. 당신의 모듈식 무기를 차세대 기술로 개조하여 독특한 봉쇄 기술로 적함을 혼란에 빠뜨리세요!
+	모듈식 빔과 호환되지 않습니다.
+	모든 무기의 효과: 피격된 선실을 봉쇄합니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22600,9 +22600,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>관통 모듈</title>
 	<short>Pierce Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 관통 상태 모듈입니다. 다시는 적의 방어 체계에 애먹지 마세요! Hektar Industries(TM) brand Status Pierce Module. Never deal with enemy fortifications ever again!
-	모듈식 미사일과 호환되지 않습니다. Incompatible with the Modular Missile.
-	모든 무기의 효과:방어막 1겹을 추가로 관통합니다. 균열을 발생시킬 확률이 30% 증가합니다. Effects for all weapons: Pierce 1 additional shield layer. Adds a 30% breach chance.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 관통 상태 모듈입니다. 다시는 적의 방어 체계에 애먹지 마세요!
+	모듈식 미사일과 호환되지 않습니다.
+	모든 무기의 효과:방어막 1겹을 추가로 관통합니다. 균열을 발생시킬 확률이 30% 증가합니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22622,11 +22622,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>신경 모듈</title>
 	<short>Stun Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 신경 상태 모듈입니다. 당신의 모듈식 무기를 선원을 기절시키는 신경 무기로 개조해 보세요! Hektar Industries(TM) brand Status Neural Module. Turn your modular weapons into crew disrupting neural weaponry!
-	모든 제품과 호환됩니다. No incompatibilities.
-	레이저 효과: 레이저 투사체가 선원을 12초간 기절시킵니다. (중첩되지 않습니다) Laser Effects: Laser projectiles apply 12 seconds of stun. (projectiles do not stack with each other)
-	빔 효과: 빔이 선원을 18초간 기절시킵니다. Beam Effects: Beam applies 18 seconds of stun.
-	미사일 효과: 미사일이 선원을 14초간 기절시킵니다. Missile Effects: Missile applies 14 seconds of stun.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 신경 상태 모듈입니다. 당신의 모듈식 무기를 선원을 기절시키는 신경 무기로 개조해 보세요!
+	모든 제품과 호환됩니다.
+	레이저 효과: 레이저 투사체가 선원을 12초간 기절시킵니다. (중첩되지 않습니다)
+	빔 효과: 빔이 선원을 18초간 기절시킵니다.
+	미사일 효과: 미사일이 선원을 14초간 기절시킵니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22646,11 +22646,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>방화 모듈</title>
 	<short>Fire Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 방화 속성 모듈입니다. 당신의 모듈식 무기로 맹렬한 화재를 일으켜 보세요! Hektar Industries(TM) brand Attribute Firestarter Module. Create devastating infernos with your modular weaponry!
-	모든 제품과 호환됩니다. No incompatibilities.
-	레이저 효과: 각 투사체가 30%의 확률로 화재를 일으킵니다. Laser Effects: Each projectile gains a 30% fire chance.
-	빔 효과: 빔이 40%의 확률로 화재를 일으킵니다. Beam Effects: Beam gains 40% fire chance.
-	미사일 효과: 미사일이 100%의 확률로 화재를 일으킵니다. Missile Effects: Missile gains 100% fire chance.</desc>
+	<desc>헥타르 산업(TM) 브랜드의 방화 속성 모듈입니다. 당신의 모듈식 무기로 맹렬한 화재를 일으켜 보세요!
+	모든 제품과 호환됩니다.
+	레이저 효과: 각 투사체가 30%의 확률로 화재를 일으킵니다.
+	빔 효과: 빔이 40%의 확률로 화재를 일으킵니다.
+	미사일 효과: 미사일이 100%의 확률로 화재를 일으킵니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22670,9 +22670,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_storage</tip>
 	<title>함체 파괴 모듈</title>
 	<short>Hull Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 함체 파괴 속성 모듈입니다. 더 강력한 모듈식 무기로 적함의 함체를 박살내 버리세요! Hektar Industries(TM) brand Attribute Hullbust Module. Decimate the enemy's hull with heavy hitting modular weaponry!
-	모든 제품과 호환됩니다. 안티-바이오 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다. No incompatibilities. When combined with the anti-bio module, will return to default hull damage but will not have hull bust properties.
-	Effects for all weapons: Weapon does x2 damage on systemless rooms. Weapons gain a 10% breach chance. [Breach stacks with pierce module breach chance]</desc>
+	<desc>헥타르 산업(TM) 브랜드의 함체 파괴 속성 모듈입니다. 더 강력한 모듈식 무기로 적함의 함체를 박살내 버리세요!
+	모든 제품과 호환됩니다. 안티-바이오 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다.
+	모든 무가의 효과: 무기가 시스템이 없는 선실에 2배의 피해를 입힙니다. 균열을 발생시킬 확률이 10% 증가합니다. [관통 모듈의 균열 발생 확률과 중첩될 수 있습니다]</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22701,8 +22701,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>모듈식 레이저</title>
 	<short>Mod. Laser</short>
 	<tip>tip_laser</tip>
-	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다. Produced by Hektar Industries(TM), this is the base for a Modular Laser. It supports 1 attribute module and 1 status module.
-	모든 모듈과 호환됩니다. Has no incompatible modules.</desc>
+	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
+	모든 모듈과 호환됩니다.</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
