@@ -27425,7 +27425,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_crew</tip>
 	<title>고대의 룸바 [방어]</title>
 	<short>Roomba [A]</short>
-	<desc>[현재 모드: 방어] This tiny little thing is claimed to be a weapon of war, yet to you it looks akin to old Earth cleaning technology. How strange.</desc>
+	<desc>[현재 모드: 방어] 이 작은 드론은 전쟁 병기라 주장되지만, 당신에게는 지구의 오래된 청소기 기술처럼 보입니다. 정말 이상하죠.This tiny little thing is claimed to be a weapon of war, yet to you it looks akin to old Earth cleaning technology. How strange.</desc>
 	<power>2</power>
 	<cost>60</cost>
 	<bp>3</bp>
