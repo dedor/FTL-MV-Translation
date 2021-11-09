@@ -3108,7 +3108,7 @@
     </powerList>
 </crewBlueprint>
 <crewBlueprint name="mfk">
-	<desc>슈퍼 엘리트 인간 선원. 가장 뛰어난 반군의 병사중 하나로, 태어날때부터 무자비한 살인마로 훈련받았습니다.</desc>
+	<desc>슈퍼 엘리트 인간 선원. 반군의 가장 뛰어난 병사중 하나로, 태어날때부터 무자비한 살인마로 훈련받았습니다.</desc>
 	<cost>125</cost>
 	<title>MFK 에이스</title>
 	<short>Ace</short>
@@ -3120,7 +3120,7 @@
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="legion">
-	<desc>제1우주에서 훈련을 받고 최고의 MFK 작위에 스카웃된 군단은 당신이 한번도 만나본 적 없는 가장 치명적인 반군입니다.</desc>
+	<desc>군단은 제1우주에서 훈련을 받고 최고의 MFK 작위에 스카웃된 자들로 당신이 한번도 만나본 적 없는 가장 치명적인 반군입니다.</desc>
 	<cost>125</cost>
 	<title>군단 첩보원</title>
 	<short>Operative</short>
@@ -3132,7 +3132,7 @@
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="legionpyro">
-	<desc>제1우주에서 훈련을 받고 최고의 MFK 작위에 스카웃된 군단은 당신이 한번도 만나본 적 없는 가장 치명적인 반군입니다.</desc>
+	<desc>군단은 제1우주에서 훈련을 받고 최고의 MFK 작위에 스카웃된 자들로 당신이 한번도 만나본 적 없는 가장 치명적인 반군입니다.</desc>
 	<cost>125</cost>
 	<title>군단 화염방사병</title>
 	<short>Pyrotechnic</short>
@@ -3146,7 +3146,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="angel">
-    <desc>엘리트 용병 선원. 죽음의 천사들은 신디케이트의 가장 뛰어난 용병들로, 자비 없는 무자비한 살인마가 되도록 바엘에게 훈련받았습니다. The Angels of Death are the Syndicate's finest mercenaries, trained by Vael to be ruthless killers without mercy. The edginess is part of the job.</desc>
+    <desc>엘리트 용병 선원. 죽음의 천사들은 신디케이트의 가장 뛰어난 용병들로, 자비 없는 무자비한 살인마가 되도록 바엘에게 훈련받았습니다. 예민함은 필요한 자질중 하나입니다. The Angels of Death are the Syndicate's finest mercenaries, trained by Vael to be ruthless killers without mercy. The edginess is part of the job.</desc>
     <cost>125</cost>
     <title>엔젤</title>
     <short>Angel</short>
@@ -3544,7 +3544,7 @@
 		<power>정신 지배에 면역, 인접한 선실을 볼 수 있으며 생명체를 감지할 수 있음</power>
 		<power>질식과 화재에 면역</power>
 		<power>전투중이지 않을 때 체력을 회복, 최대 체력 100, 대인 공격력 1.5배</power>
-		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
+		<power>통제 모드와 해방 모드를 설정할 수 있음. 해방 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -3813,7 +3813,7 @@
 <systemBlueprint name="shields">
 	<type>shields</type>
 	<title>방어막 제어실</title>
-	<desc>방어막을 가동합니다. 방어막 한 칸당 탄환 한 발을 막아냅니다. Powers your shields. Each additional barrier can block one shot.</desc>
+	<desc>방어막을 가동합니다. 방어막 한 칸당 탄환 한 발을 막아냅니다.</desc>
 	<startPower>2</startPower>
 	<maxPower>16</maxPower>
 	<rarity>1</rarity>
@@ -7337,7 +7337,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="SCRAP_COLLECTOR">
 	<title>스크랩 팔 [M]</title>
-	<desc>모듈식 로봇 팔 업그레이드, 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩 획득량이 10% 증가합니다. does not take up your ship's arm slot and can stack with whichever arm you choose. Allows the ship to collect 10 percent more scrap from any source.</desc>
+	<desc>모듈식 로봇 팔 업그레이드. 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩 획득량이 10% 증가합니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7354,7 +7354,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="MAGNET_ARM">
 	<title>자석 팔 [M]</title>
-	<desc>모듈식 자석 로봇 팔 업그레이드, 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 개조된 스크랩 팔로, 사정거리가 짧고 스크랩 회수 효율이 좋지 않지만 회수 속도가 훨씬 빠르기 때문에 시간이 급박한 상황에서 유용합니다. 반군이 점유한 송신소나 빈 송신소에서 보급품을 회수할 수 있게 해줍니다.</desc>
+	<desc>모듈식 자석 로봇 팔 업그레이드. 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 개조된 스크랩 팔로, 사정거리가 짧고 스크랩 회수 효율이 좋지 않지만 회수 속도가 훨씬 빠르기 때문에 시간이 급박한 상황에서 유용합니다. 반군이 점유한 송신소나 빈 송신소에서 보급품을 회수할 수 있게 해줍니다.</desc>
 	<cost>45</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
@@ -7369,7 +7369,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="DRONE_RECOVERY">
 	<title>드론 팔 [M]</title>
-	<desc>모듈식 드론 회수용 로봇 팔 업그레이드, 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 도약시 파괴되지 않은 드론을 회수하여 드론 부품으로 재활용 할 수 있습니다.</desc>
+	<desc>모듈식 드론 회수용 로봇 팔 업그레이드. 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 도약시 파괴되지 않은 드론을 회수하여 드론 부품으로 재활용 할 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7385,7 +7385,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="REPAIR_ARM">
 	<title>Repair Arm [M]</title>
-	<desc>모듈식 수리 로봇 팔 업그레이드, 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩을 얻을 때마다 선체를 수리하지만 얻는 스크랩의 양이 10% 줄어듭니다. 선체가 손상되지 않았을 때는 얻는 스크랩의 양이 감소하지 않습니다.</desc>
+	<desc>모듈식 수리 로봇 팔 업그레이드. 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩을 얻을 때마다 선체를 수리하지만 스크랩 획득량이 10% 감소합니다. 선체가 손상되지 않았을 때는 스크랩 획득량이 감소하지 않습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7402,7 +7402,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>실란트 [X]</title>
 	<desc>선체 균열이 자동적으로 느리게 수리됩니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.  As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu, in the On-board Tech category.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>70</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7428,7 +7428,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>자동 진압시스템 [X]</title>
 	<desc>화재를 자동으로 진압합니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>65</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7445,9 +7445,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="EX_ZOLTAN_BYPASS"> 
 	<title>에너지 보호막 위회 장치 [X]</title>
-	<desc>선원과 폭탄의 텔레포트 그리고 정신 지배가 에너지 방어막을 무시하고 기능하도록 해줍니다. Allows crew/bomb teleportation and mind control to work through Super Shields.
+	<desc>선원과 폭탄의 순간이동 그리고 정신 지배가 에너지 방어막을 무시하고 기능하도록 해줍니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>55</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7466,7 +7466,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>생체 감지기 [X]</title>
 	<desc>생명체를 감지합니다. 센서가 작동하지 않을 때에도 정상저긍로 작동합니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>40</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7492,7 +7492,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>방어 드론 교란기 [X]</title>
 	<desc>적의 방어 드론이 아무것도 조준할 수 없게 만듭니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7511,7 +7511,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>산소마스크 [X]</title>
 	<desc>선원들이 질식으로부터 절반의 피해를 받습니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7581,7 +7581,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>개량된 초광속 도약 네비게이션 [X]</title>
 	<desc>이전에 방문했던 송신소로 도약할 수 있습니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -7599,7 +7599,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>초광속 추진 가속기 [X]</title>
 	<desc>함선의 초광속 항해장비가 30% 빨리 충전됩니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>25</cost>
 	<bp>4</bp>
 	<rarity>0</rarity>
@@ -7623,7 +7623,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>이온 반발 장 [X]</title>
 	<desc>이온무기로 부터 입는 피해를 방어합니다. 50퍼센트의 확률로 피해를 완전히 무시합니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>45</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7642,7 +7642,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>방어막 충전 가속기 [X]</title>
 	<desc>방어막 재충전 속도를 17% 향상시킵니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>45</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -7674,7 +7674,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>재장전 장치 [X]</title>
 	<desc>무기의 재충전 속도를 10% 향상시킵니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>40</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -7706,7 +7706,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>스텔스 무장 [X]</title>
 	<desc>무기를 사용해도 은폐 상태의 지속시간이 줄어들지 않습니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7730,7 +7730,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>재구성 텔레포트 [X]</title>
 	<desc>텔레포트한 선원이 체력을 완전히 화복합니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>70</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7745,9 +7745,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="EX_MEDBAY_NANO">
 	<title>의료용 나노봇 [X]</title>
-	<desc>함내의 모든 선원이 현재 작동중인 의료실 레밸의 25%의 속도로 체력을 회복합니다. While medbay is powered, crew passively heal at 25% speed of the current medbay level.
+	<desc>함내의 모든 선원이 현재 작동중인 의료실 레밸의 25%의 속도로 체력을 회복합니다.
 	
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
@@ -7763,7 +7763,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>의료 각성제 [X]</title>
 	<desc>의료실이 작동중일 때, 선원들이 의료실에 공급되는 전력 한칸당 25%의 이동속도 보너스를 얻습니다.
 	
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
@@ -7799,7 +7799,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>유전 정보 저장소 [X]</title>
 	<desc>클론 배양실이 꺼져있거나 망가진 상태라도, 사망한 승무원은 배양기 안에 안전하게 보존됩니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>40</cost> <!-- Was 35-->
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7821,9 +7821,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="EX_DRONE_SPEED">
 	<title>드론 가속기 [X]</title>
-	<desc>당신의 선원 드론들의 이동속도가 2배 증가하고 대인 공격력, 시스템 파괴 속도, 수리속도, 화재 진압 속도가 50% 빨라집니다.
+	<desc>선원 드론들의 이동속도가 2배 증가하고 대인 공격력, 시스템 파괴 속도, 수리속도, 화재 진압 속도가 50% 빨라집니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -7847,7 +7847,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>초광속항해 방해 장치 [X]</title>
 	<desc>적의 초광속항로 계산을 방해하여 적들이 초광속추진을 준비하는데에 두배의 시간이 들도록 만듭니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>30</cost>
 	<bp>4</bp>
 	<rarity>0</rarity>
@@ -7866,7 +7866,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>신경 교란기 [X]</title>
 	<desc>해킹 드론이 작동하는 동안, 해당 선실 내부의 승무원은 모두 기절 상태에 빠집니다.
     
-	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>60</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -7889,7 +7889,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <title>배터리 충전기 [X]</title>
     <desc>예비 배터리의 쿨다운이 33% 감소합니다.
     
-    [X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
+    [X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
     <cost>40</cost>
     <bp>8</bp>
     <rarity>0</rarity>
@@ -8853,7 +8853,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="MULTIVERSE_DRIVE">
 	<title>프로토 MV드라이브</title>
-	<desc>다중우주 도약 장치의 초기 모델입니다. 현실의 여러 면에서 불가능한 기술을 사용합니다. 지도상의 어느 송신소로도 도약할 수 있습니다. 인접하지 않은 송신소로 도약할 때 3개의 연료를 소모합니다. using technology that isn't possible on most planes of reality. Allows you to jump to any beacon, regardless of if it has been visited before. Costs 3 fuel to jump to any non-adjacent beacon.</desc>
+	<desc>다중우주 도약 장치의 초기 모델입니다. 현실의 여러 면에서 불가능한 기술을 사용합니다. 지도상의 어느 송신소로도 도약할 수 있습니다. 인접하지 않은 송신소로 도약할 때 3개의 연료를 소모합니다.</desc>
 	<cost>120</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -8863,7 +8863,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SUPER_ARMOR">
 	<title>강철 장갑</title>
-	<desc>25%의 확률로 시스템이나 선체를 피해로부터 지켜주며 10%의 이온 피해 저항까지 제공하는 특수 적응형 장갑입니다. Special adaptive plating that has a 25% chance to protect your systems or hull from all forms of damage. Also gives 10% ion resistance.</desc>
+	<desc>25%의 확률로 시스템이나 선체를 피해로부터 지켜주며 10%의 이온 피해 저항까지 제공하는 특수 적응형 장갑입니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8881,7 +8881,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="STORY_TELLER">
 	<title>이야기꾼</title>
-	<desc>모든 에퀴노이드의 보호를 보장하는 상시 존재하는 엔지 분리주의자입니다. 선원이 없는 상태에서도 선박을 수동으로 제어 및 수리하며 침입자에게 막대한 피해를 가하는 동시에 동시에 신속하게 균열을 수리하고 화재를 진압합니다.The ever present Separatist whom ensures the protection of all equinoids. Will manually control and repair the ship even in the absence of crew, and do massive damage to boarders while also quickly repairing breaches and putting out fires.</desc>
+	<desc>모든 에퀴노이드의 보호를 보장하는 상시 존재하는 엔지 분리주의자입니다. 선원이 없는 상태에서도 선박을 수동으로 제어 및 수리하며 침입자에게 막대한 피해를 가하는 동시에 신속하게 균열을 수리하고 화재를 진압합니다.The ever present Separatist whom ensures the protection of all equinoids. Will manually control and repair the ship even in the absence of crew, and do massive damage to boarders while also quickly repairing breaches and putting out fires.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8909,7 +8909,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SOLAR_PANELS">
 	<title>태양 전지판</title>
-	<desc>태양의 에너지로 추가 연료를 만들어 냅니다. 빈 송신소에서 사용하여 연료와 미사일을 만들어 내기 위해 항성을 탐색할 수 있습니다. 함내에 화재를 일으킬 위험이 있습니다. You can use this a empty beacons to find a star to generate fuel and missiles, at the risk of starting fires on your ship.</desc>
+	<desc>태양의 에너지로 추가 연료를 만들어 냅니다. 빈 송신소에서 항성을 탐색해 연료와 미사일을 만들어 낼 수 있습니다. 함내에 화재를 일으킬 위험이 있습니다.</desc>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8917,7 +8917,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="FLEET_LURE">
 	<title>반군 미끼</title>
-	<desc>반군 엘리트 함선을 탐색합니다. 반군 함대의 추격을 1도약 가속시키며, 즉시 탐색한 함선과의 전투가 시작됩니다.</desc>
+	<desc>반군 엘리트 함선을 탐색합니다. 반군 함대의 추격을 1도약 가속시키며, 즉시 반군 엘리트와의 전투가 시작됩니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8934,7 +8934,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SCRAP_HULL">
 	<title>모든것을 소모하는 탐욕</title>
-	<desc>얻는 스크랩이 50% 감소하지만 전투 시작 전에 선체를 무료로 수리할 수 있습니다.</desc>
+	<desc>스크랩 획득량이 50% 감소하지만 전투 시작 전에 선체를 무료로 수리할 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8951,7 +8951,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ZOLTAN_SPAWNER">
 	<title>냉동고</title>
-	<desc>빈 송신소에서 연료 3개를 소모하여 오스미안 선원을 해동할 수 있습니다. Allows you to unthaw more Osmian crew at empty beacons at the expense of 3 fuel.</desc>
+	<desc>빈 송신소에서 연료 3개를 소모하여 오스미안 선원을 해동할 수 있습니다.</desc>
 	<cost>60</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8959,14 +8959,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SLUG_DUPLICATOR">
 	<title>쾌락 포드</title>
-	<desc>같은 종의 두 개체가 "연합을 형성"하고 특수한 복제 기술로 "아이"를 만들기 위해 사용되는 한적한 공간입니다. RnB 음악을 연중무휴 24시간 재생하는 음향 시스템도 갖추고 있습니다. A secluded place for two members of a species to "Form a union" and to use cloning technology to create a "Child" who is aged just enough to be able to work. Also come equipped with a stereo system that plays RnB music 24/7.</desc>
+	<desc>같은 종의 두 개체가 "연합을 형성"하고 특수한 복제 기술로 일하기 적합한 연령의 "아이"를 만들기 위해 사용되는 한적한 공간입니다. RnB 음악을 연중무휴 24시간 재생하는 음향 시스템도 갖추고 있습니다.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="SLUG_DUPLICATOR_GHOST">
     <title>귀신들린 포드</title>
-    <desc>개량된 포드로 평범한 쾌락 포드의 기능뿐만 아니라 연료를 2개 소모하여 알파 고스트 선원을 소환하는 기능도 갖추고 있습니다. 현재 함내에 존재하지 않는 종류의 알파 고스트만을 소환 가능합니다. A modified pod that not only functions like standard Pleasure Pods, but also lets you summon any of the Alpha Ghost variants at the expense of 2 fuel if you have none of that type on your ship.</desc>
+    <desc>개량된 포드로 평범한 쾌락 포드의 기능뿐만 아니라 연료를 2개 소모하여 알파 고스트 선원을 소환하는 기능도 갖추고 있습니다. 현재 함내에 존재하지 않는 종류의 알파 고스트만을 소환 가능합니다.</desc>
     <cost>40</cost>
     <rarity>0</rarity>
     <stackable>false</stackable>
@@ -8983,7 +8983,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="MEDBAY_DEFENSE">
     <title>다용도 봇 살포기</title>
-	<desc>의료실이 켜져있을 때 아군을 치유하며 침입자에게 피해를 주는 나노봇을 살포합니다. Dispenses nanobots that both heal your crew when the Medbay is powered as well as damage enemy boarders.</desc>
+	<desc>의료실이 켜져있을 때 아군을 치유하고 침입자에게 피해를 주는 나노봇을 살포합니다.</desc>
     <cost>110</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -8997,7 +8997,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SYLVAN_SHIELD">
 	<title>행상인의 방어막</title>
-	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 있는 방어막입니다. A strangely resistant shield powered by several massive Aether batteries with an integrity of 12 hitpoints.</desc>
+	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 강한 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9005,7 +9005,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="SYLVAN_SHIELD_GUARD">
 	<title>행상인의 방어막</title>
-	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 있는 방어막입니다.</desc>
+	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 강한 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9013,7 +9013,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="SYLVAN_SHIELD_PRIME">
 	<title>행상인의 방어막</title>
-	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 있는 방어막입니다.</desc>
+	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 강한 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9066,7 +9066,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="NO_GHOST">
     <title>물질 분해 그릴</title>
-    <desc>고스트의 침식으로부터 시스템을 지켜 시스템 파괴 속도를 20% 늦춥니다. 2/3/4레밸의 문 제어실이 존재한다면 함내의 모든 적 선원과 드론이 초당 4/5/6의 피해를 입습니다. Makes systems extra protected from Ghost erosion, reducing their sabotage damage by 20%. If a Door Control system is present, all crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 1hp for each level of Door Control above 1.</desc>
+    <desc>고스트의 침식으로부터 시스템을 지켜 시스템 파괴 속도를 20% 늦춥니다. 2/3/4레밸의 문 제어실이 존재한다면 함내의 모든 선원과 드론이 초당 4/5/6의 피해를 입습니다.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>
@@ -9121,7 +9121,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="PALADIN_ARMOR_PLAYER">
 	<title>신성한 장갑+</title>
-	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 균열을 일으키지 않는 무기들로부터의 모든 선체 피해를 무시합니다. Extremely strong armor reinforced with Aether harvested from precursor ruins, fused with the already resistant armor of the Rockmen. Resists all hull damage from normal weapons, but cannot resist breach weapons.</desc>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 무시합니다.</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9129,7 +9129,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="PALADIN_ARMOR">
 	<title>신성한 장갑</title>
-	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 균열을 일으키지 않는 무기들로부터의 모든 선체 피해를 70%의 확률로 무시합니다</desc>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 70%의 확률로 무시합니다</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9143,7 +9143,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SALT_ARMOR">
 	<title>소금 장갑</title>
-	<desc>이온 피해에 면역이 되고 낮은 확률로 시스템 피해를 무시할 수 있게 해주는 이상한 장갑입니다. Strange plating that can resist all ion damage and gives a very small chance for systems to resist damage.</desc>
+	<desc>모든 이온 피해에 면역이고 낮은 확률로 시스템 피해를 무시하는 이상한 장갑입니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9157,7 +9157,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="REGEN_ARMOR">
 	<title>재생 장갑</title>
-	<desc>선체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 선체 피해를 무시합니다. An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
+	<desc>함체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 함체 피해를 무시합니다. An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9165,7 +9165,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_REGEN_ARMOR">
 	<title>재생 장갑</title>
-	<desc>선체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 선체 피해를 무시합니다.</desc>
+	<desc>함체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 함체 피해를 무시합니다.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9209,7 +9209,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>크리스탈 파편</title>
 	<short>Crystal</short>
 	<desc>크리스탈 장갑의 투사체</desc>
-	<tooltip>아 근데 번역할 필요 없는거였네 Should Never See This Description.</tooltip>
+	<tooltip>Should Never See This Description.</tooltip>
 	<damage>1</damage>
 	<missiles>0</missiles>
 	<shots>1</shots>
@@ -9258,7 +9258,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="ENERGY_SHIELD">
 	<title>졸탄 방어막</title>
-	<desc>거의 뚫을 수 없는 방어막 만들어내는 고급 고형 광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다. Advanced hard-light technology creates this nearly impenetrable shield. Only the energy outburst from an FTL engine is powerful enough to recharge it.</desc>
+	<desc>거의 뚫을 수 없는 방어막 만들어내는 고급 고형 광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9282,7 +9282,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SLUG_GEL">
 	<title>수리 젤</title>
-	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 선체를 1 회복할 수 있습니다. Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1 회복할 수 있습니다. Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9291,7 +9291,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_SLUG_GEL">
 	<title>수리 젤</title>
-	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 선체를 1 회복할 수 있습니다.</desc>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1 회복할 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9346,7 +9346,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SUPER_CREW_STIMS">
 	<title>합성 페로몬</title>
-	<desc>자유 맨티스가 조제한 특수 페로몬으로, 선원들의 이동속도가 75% 증가하지만 최대 제력이 5% 감소합니다. Special pheromones concocted by the Free Mantis, which increases movement speed by 75% but decreases max health by 5%.</desc>
+	<desc>독립 맨티스가 조제한 특수 페로몬으로, 선원들의 이동속도가 75% 증가하지만 최대 제력이 5% 감소합니다.</desc>
 	<cost>65</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9354,7 +9354,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_SUPER_CREW_STIMS">
 	<title>합성 페로몬</title>
-	<desc>자유 맨티스가 조제한 특수 페로몬으로, 선원들의 이동속도가 75% 증가하지만 최대 제력이 5% 감소합니다.</desc>
+	<desc>독립 맨티스가 조제한 특수 페로몬으로, 선원들의 이동속도가 75% 증가하지만 최대 제력이 5% 감소합니다.</desc>
 	<cost>65</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9362,8 +9362,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="LOCKED_ELITE_STIMS">
-    <title>최고의 페로몬 Big Vibe Pheromones</title>
-    <desc>최고의 느낌을 위해 자유 맨티스가 조제해낸 가장 강한 혼합물로, 모든 선원이 20%의 대인 공격력과 100%의 속도 보너스를 얻지만 활성화 능력의 쿨타임이 50%증가하고 자유 맨티스가 아닌 선원들은 최대 체력이 10% 감소합니다. The strongest concoction ever brewed by the Free Mantis, for the biggest of vibes. All crew gain a 20% damage and 100% movement speed boost, but ability cooldowns take 50% longer and non-Free Mantis crew lose 10% health.</desc>
+    <title>최고급 페로몬</title>
+    <desc>최고의 느낌을 위해 독립 맨티스가 조제해낸 가장 강한 혼합물로, 모든 선원이 20%의 대인 공격력과 100%의 속도 보너스를 얻지만 활성화 능력의 쿨타임이 50%증가하고 독립 맨티스가 아닌 선원들은 최대 체력이 10% 감소합니다.</desc>
     <cost>60</cost>
     <bp>9</bp>
     <rarity>0</rarity>
@@ -9378,7 +9378,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SUZERAIN_CREW_STIMS">
 	<title>영주의 페로몬</title>
-	<desc>선원들의 이동속도가 30% 증가합니다. 또한, 선원들의 활성화 능력 쿨다운이 10% 감소합니다. Crew movement is increased by 30%. Additionally, crew ability cooldowns are decreased by 10%.</desc>
+	<desc>선원들의 이동속도가 30% 증가합니다. 또한, 선원들의 활성화 능력 쿨다운이 10% 감소합니다.</desc>
 	<cost>70</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9399,16 +9399,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="KERNAL_REPLICATOR">
-	<title>커널 온실</title>
-	<desc>커널 탄약을 재배하기 위한 작은 선상 온실입니다. 미사일 기반 무기가 발사될 때 65%의 확률로 탄약을 사용하지 않습니다. A small on-board greenhouse for growing kernel ammunition. Gives a 65% chance to not use ammunition when a missile based weapon is fired.</desc>
+	<title>낱알 온실</title>
+	<desc>낱알 탄약을 재배하기 위한 작은 선상 온실입니다. 미사일 기반 무기가 발사될 때 65%의 확률로 탄약을 사용하지 않습니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_KERNAL_REPLICATOR">
-	<title>커널 온실</title>
-	<desc>커널 탄약을 재배하기 위한 작은 선상 온실입니다. 미사일 기반 무기가 발사될 때 65%의 확률로 탄약을 사용하지 않습니다.</desc>
+	<title>낱알 온실</title>
+	<desc>낱알 탄약을 재배하기 위한 작은 선상 온실입니다. 미사일 기반 무기가 발사될 때 65%의 확률로 탄약을 사용하지 않습니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9422,7 +9422,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="MORPH_DATABASE">
     <title>DNA 샘플</title>
-	<desc>모프의 변형에 사용할 수 있는 다양한 DNA 샘플의 데이터베이스입니다. 몇번이라도 사용할 수 있습니다. A database of various DNA samplings, which your Morphs can use to transform into any of the included species. DNA Samples may be used any number of times.</desc>
+	<desc>모프의 변형에 사용할 수 있는 다양한 DNA 샘플의 데이터베이스입니다. 몇번이라도 사용할 수 있습니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9436,7 +9436,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="TOXIC_GAS">
     <title>독성 가스</title>
-	<desc>신경독과 같은 역할을 하며 악취가 나는 매우 불쾌한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다.  An odorous and very unpleasant gas that acts like a neurotoxin. Slowly kills non-Shell enemy boarders; your own crew is immune.</desc>
+	<desc>악취가 나고 아주 불쾌한 가스로 신경독처럼 작용합니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9444,7 +9444,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_TOXIC_GAS">
     <title>독성 가스</title>
-	<desc>신경독과 같은 역할을 하며 악취가 나는 매우 불쾌한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다.</desc>
+	<desc>악취가 나고 아주 불쾌한 가스로 신경독처럼 작용합니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9453,7 +9453,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="RADIANT_GAS">
     <title>보툴리늄 가스</title>
-	<desc>말도 않되게 치명적이고 빠르게 작용하는 신경독으로, 셸이 아닌 침입자들에게 지속적으로 큰 피해를 입힙니다. An incredibly deadly and fast-working neurotoxin that will rapidly kill any non-Shell hostile crew on your ship.</desc>
+	<desc>말도 않되게 치명적이고 빠르게 작용하는 신경독으로, 셸이 아닌 침입자들에게 지속적으로 큰 피해를 입힙니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9462,7 +9462,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="NANITE_GAS"> <!--SHELL MECHANIC-->
     <title>나노 기기 가스</title>
-	<desc>공기를 통해 퍼지는 나노 기기와 혼합된 특수한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다. 또한 자동적으로 화재를 진압하고 균열을 막습니다. A specialized gas formula mixed with nanites that flood through the ventilation. They won't harm your own crew, but will passively damage non-Shell enemy boarders. Also actively put out fires and repair breaches.</desc>
+	<desc>공기를 통해 퍼지는 나노 기기와 혼합된 특수한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다. 또한 자동적으로 화재를 진압하고 균열을 막습니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9479,7 +9479,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="REGEN_GAS"> <!--SHELL SCIENCE-->
     <title>신속한 가스</title>
-	<desc>이 독특한 셸 가스 혼합물은 함선 전체로 의료용 나노봇을 운반하여 의료실의 효과가 함선 전체에 퍼지게 합니다. 또한 셸이 아닌 침입자들에게 지속적으로 작은 피해를 입힙니다. This odd formula of Shell gas carries the nano-medbots from the medbay around the ship, allowing the effects of the medbay to spread anywhere on the ship. Also does minor damage to non-Shell enemy boarders.</desc>
+	<desc>이 독특한 셸 가스 혼합물은 함선 전체로 의료용 나노봇을 운반하여 의료실의 효과가 함선 전체에 퍼지게 합니다. 또한 셸이 아닌 침입자들에게 지속적으로 작은 피해를 입힙니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9501,7 +9501,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="REPAIR_HULL">
 	<title>동화적 장갑</title>
-	<desc>얻는 스크랩의 10%를 선체와 동화시켜 선체를 수리합니다. 선체가 손상되지 않았을 때에는 스크랩을 흡수하지 않습니다. Absorbs 10% of scrap into the hull, repairing it. Will not take scrap when your hull is at full capacity.</desc>
+	<desc>얻는 스크랩의 10%를 함체와 동화시켜 함체를 수리합니다. 선체가 손상되지 않았을 때에는 스크랩을 흡수하지 않습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9538,7 +9538,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="ANCIENT_PREIGNITE">
 	<title>고대의 초고성능 점화기</title>
-	<desc>무기를 예열할 뿐만 아니라 재장전 속도도 15% 감소시키는 특수한 조기 점화기 입니다. Specialized Pre-Igniter tech that not only pre-ignites weapons, but also reduces their regular cooldown by 15%.</desc>
+	<desc>무기를 예열할 뿐만 아니라 재장전 속도도 15% 감소시키는 특수한 조기 점화기 입니다.</desc>
 	<cost>175</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9546,7 +9546,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="ANCIENT_REPLICATOR">
 	<title>고대의 재활용 모듈</title>
-	<desc>남은 스크랩을 사용하여 미사일 무기용 탄두를 합성하는 놀라운 탄약 복제 시스템입니다. 모든 미사일 기반 무기가 탄약을 소모하지 않지만 얻는 스크랩이 15% 감소합니다. Remarkable ammunition replication system that synthesizes warheads for your missile weapons using left-over scrap. Missile weapons do not use ammo, but consumes 15% scrap from all sources.</desc>
+	<desc>남은 스크랩을 사용하여 미사일 무기용 탄두를 합성하는 놀라운 탄약 복제 시스템입니다. 모든 미사일 기반 무기가 더 이상 탄약을 소모하지 않지만 스크랩 획득량이 15% 감소합니다.</desc>
 	<cost>90</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9554,7 +9554,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="ANCIENT_PROTECTANT">   
 	<title>고대의 프로토콜</title>
-	<desc>통합형 위험 관리 안전 시스템입니다. 자동적으로 균열을 수리하고, 화재를 진압하고, 질식 피해를 50% 감소시킵니다.  All encompassing hazard-handling security system, which automatically repairs breaches, puts out fires, and reduces suffocation damage by 50%.</desc>
+	<desc>통합형 위험 관리 안전 시스템입니다. 자동적으로 균열을 수리하고, 화재를 진압하고, 질식 피해를 50% 감소시킵니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9562,7 +9562,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="ANCIENT_DNA">
 	<title>고대의 사이버네틱스</title>
-	<desc>아이테르로 만들어진 고급 사이버네틱스입니다. 기계로 이루어지지 않은 선원은 화재와 질식에 대해 25%의 저항을 추가로 얻고 최대 체력이 20% 증가합니다. 그러나 외래 이식물이 효과를 얻는 선원들의 회복 속도를 33% 감소시킵니다.  Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
+	<desc>아이테르로 만들어진 고급 사이버네틱스입니다. 기계로 이루어지지 않은 선원이 화재와 질식에 대해 추가적인 25%의 저항을 얻고 최대 체력이 20% 증가합니다. 그러나 이식된 사이버네틱스가 선원들의 회복 속도를 33% 감소시킵니다.  Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9571,7 +9571,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ANCIENT_SHIELD">
 	<title>아이테르 방어막</title>
-	<desc>아이테르 전지로 가동되는 극도로 강력한 방어막입니다. 일반적인 에너지 방어막과 달리 7의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 20% 향상시킵니다. Extremely powerful shielding powered by Aether batteries. Unlike standard Energy Shields, it has an integrity of 7 hitpoints. Also boosts standard shield charge rate by 20%.</desc>
+	<desc>아이테르 전지로 가동되는 극도로 강력한 방어막입니다. 일반적인 에너지 방어막과 달리 7의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 20% 향상시킵니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9632,7 +9632,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="ANCIENT_COMBAT_EQUALIZER">
 	<title>고대의 이퀄라이저</title>
-	<desc>적과 플레이어 함선의 시스템을 시스템에 따라 0 또는 1 전력 바로 제한하는 고대의 전투 보조장비입니다. 플레이어의 함선에는 제한하려는 시스템이 설치되어 있어야 합니다.  Ancient combat augment that limits a system on both the enemy and player ship to either 0 or 1 bar depending on the system. The player must have the system being targeted.</desc>
+	<desc>적과 플레이어 함선의 시스템을 시스템에 따라 0 또는 1 레밸로 제한하는 고대의 전투 보조장비입니다. 플레이어의 함선에는 제한하려는 시스템이 설치되어 있어야 합니다.  Ancient combat augment that limits a system on both the enemy and player ship to either 0 or 1 bar depending on the system. The player must have the system being targeted.</desc>
 	<cost>75</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9640,7 +9640,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="ANCIENT_COMBAT_ASB">
 	<title>고대의 ASB 플랫폼</title>
-	<desc>전투 전에 드론 부품과 연료를 소모하여 배치할 수 있는 휴대용 ASB 플랫폼입니다. A portable ASB platform that can be deployed before combat by spending a single drone part and fuel.</desc>
+	<desc>전투 전에 한개의 드론 부품과 연료를 소모하여 배치할 수 있는 휴대용 ASB 플랫폼입니다.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9662,7 +9662,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="COMBAT_EXPLOSIVE">
 	<title>자성 페이로드</title>
-	<desc>전투 전에 배치하여 적의 엔진실, 방어막 제어실, 드론 관제실, 은폐장, 또는 선원 텔레포터에 4의 시스템 피해와 선체 피해를 줄 수 있는 일회용 전투 보조장비 입니다. Single use combat augment that can be deployed before combat to deal 4 damage to either enemy engines, weapons, shields, drones, cloaking, or teleporter as well as their hull.</desc>
+	<desc>전투 전에 배치하여 적의 엔진실, 방어막 제어실, 드론 관제실, 은폐장, 또는 선원 텔레포터에 4의 시스템 피해와 선체 피해를 줄 수 있는 일회용 전투 보조장비 입니다.</desc>
 	<cost>40</cost>
 	<rarity>3</rarity>
 	<stackable>true</stackable>
@@ -9670,7 +9670,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="EXTRA_PREP">
 	<title>비상 매뉴얼</title>
-	<desc>응급 절차에 대한 잘 구성된 가이드입니다. 전투 전 마지막 준비에서 연료를 생산하거나, 스크랩 미사일과 드론 부품으로 전환하거나, 심지어는 추가적인 미사일을 소모해 적함의 무기 제어실을 손상시키는 추가 선택지를 추가합니다. A well structured guide on emergency procedures. Adds extra options to last minute preparations before combat to produce fuel, convert missiles and droneparts, or even detonate extra missiles to sabotage enemy weapons.</desc>
+	<desc>응급 절차에 대한 잘 구성된 가이드입니다. 전투 전 마지막 준비에 연료를 생산하거나, 스크랩을 미사일과 드론 부품으로 전환하거나, 심지어는 미사일을 소모해 적함의 무기 제어실을 손상시키는 선택지를 추가합니다.</desc>
 	<cost>30</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
@@ -9678,7 +9678,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="COMBAT_REPAIR">
 	<title>수리용 나노봇 살포기</title>
-	<desc>이 나노봇은 적함에서 빼낸 함선 부품을 금속으로 변환하여 전투가 시작될 때 선체를 수리합니다. These nanobots take ship parts dislodged from hostile vessels and convert it to metal to repair your hull at the start of ship combat. More power means more bots are available to convert enemy parts.</desc>
+	<desc>이 나노봇은 적함에서 떨어져 나온 함선 부품을 금속으로 변환하여 전투가 시작될 때 선체를 수리합니다.</desc>
 	<cost>90</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
@@ -9694,7 +9694,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="COMBAT_IONSTORM">
 	<title>이온 폭풍 배기구</title>
-	<desc>전투 전에 전기 성운 가스를 방출하여 이온 폭풍을 생성할 수 있습니다. Can expel electrified nebulous gases to create an ion storm before any fight.</desc>
+	<desc>전투 전에 전화된 성운 가스를 방출하여 이온 폭풍을 생성할 수 있습니다.</desc>
 	<cost>80</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9702,7 +9702,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="COMBAT_POWER">
 	<title>비상 발전기</title>
-	<desc>전투중에 사용하는 예비 발전기입니다. 전투 보조장비의 전력과 연료 비용을 제거합니다. A backup generator for use in combat. Removes the power and fuel cost of combat augments.</desc>
+	<desc>전투중에 사용하는 예비 발전기입니다. 전투 보조장비의 전력과 연료 비용을 제거합니다.</desc>
 	<cost>45</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
@@ -9715,56 +9715,56 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="COMBAT_WEAPON_JAMMER">
 	<title>조준 교란기</title>
-	<desc>적선의 조준 시스템을 교란하여 적 무기 제어실의 전력 바를 2칸 제한합니다. 함포는 교란하지 못합니다. [2 전력, 1 연료 사용, 45초 지속] Jams the enemy targeting systems, weakening the enemy Weapon system by 2 bars. Does not work on Artillery. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<desc>상대의 조준 시스템을 교란하여 무기 제어실의 전력 바를 2칸 제한합니다. 함포는 교란하지 못합니다. [2 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>40</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_SHIELDS_JAMMER">
 	<title>방어막 교란기</title>
-	<desc>적선의 방어막 생성기를 교란하여 적 방어막 제어실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속] Jams the enemy shield generator, weakening the enemy Shield system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<desc>상대의 방어막 생성기를 교란하여 방어막 제어실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>55</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_SHIELDS_JAMMER_2">
 	<title>방어막 교란기 Mk 2</title>
-	<desc>적선의 방어막 생성기를 교란하여 적 방어막 제어실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]</desc>
+	<desc>상대의 방어막 생성기를 교란하여 방어막 제어실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>75</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_ENGINE_JAMMER">
 	<title>엔진 무력화 장치</title>
-	<desc>적선의 엔진을 무력화시켜 적 엔진실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]Disables the enemy engines, weakening the enemy Engines system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<desc>상대의 엔진실을 무력화시켜 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>45</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_PILOT_JAMMER">
 	<title>자동조종장치 교란기</title>
-	<desc>무료로 적 조타실의 전력 바를 1칸으로 제한하거나 2전력을 소모하여 적선의 회피율을 0으로 만들 수 있습니다. Can be used to either disable enemy auto pilot for free, or completely shut off their evasion for 2 power.</desc>
+	<desc>무료로 적 조타실의 전력 바를 1칸으로 제한하거나 2전력을 소모하여 적선의 회피율을 0으로 만들 수 있습니다.</desc>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_CLOAKING_JAMMER">
 	<title>추적 플레어</title>
-	<desc>적을 일시적으로 드러내는 추적 플레어를 배치하여 적선의 은폐장을 무력화시킵니다. [2 전력 사용, 30초 지속] Deploys an array of tracking flares that temporarily reveal the enemy, disabling their Cloaking system. [Uses 2 power, lasts 30 seconds]</desc>
+	<desc>적을 일시적으로 드러내는 추적 플레어를 배치하여 상대의 은폐장을 무력화시킵니다. [2 전력 사용, 30초 지속]</desc>
 	<cost>75</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_WARP_JAMMER">
 	<title>디스럽션 필드</title>
-	<desc>적의 텔레포터나 정신 지배 중 한 가지로부터 함선을 보호하도록 설정 가능한 장막을 형성합니다. [2 전력 사용, 30초 지속]  Creates a protective field around the ship which can be tuned to protect against either enemy teleporter or mind control but not both at the same time. [Uses 2 power, lasts 30 seconds]</desc>
+	<desc>적의 텔레포터나 정신 지배 중 한 가지로부터 함선을 보호하도록 설정 가능한 장막을 형성합니다. [2 전력 사용, 30초 지속]</desc>
 	<cost>50</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_REACTOR_JAMMER">
 	<title>EMP 필드</title>
-	<desc>적의 발전기를 손상시키는 EMP 장을 활성화하지만, 당신도 영향을 받습니다. 기함을 상대로 작동하지 않습니다. [3 전력, 1 연료 사용, 45초 지속] Activates an EMP field which cripples the enemy reactor, but is quite heavy on your own. Will not work on the Flagship. [Uses 3 power and 1 fuel, lasts 45 seconds]</desc>
+	<desc>적의 발전기를 손상시키는 EMP 장을 활성화하지만, 당신도 영향을 받습니다. 기함을 상대로 작동하지 않습니다. [3 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>100</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
@@ -9778,15 +9778,15 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="COMBAT_OXYGEN_JAMMER">
 	<title>Asphyxiator</title>
-	<desc>적선의 산소실을 손상시킵니다. 사용하는 전력에 비례하여 제한하는 산소실 전력 바의 수가 증가합니다. [4에서 6의 전력 사용, 영구히 지속됨] Uses more power for each bar of Oxygen disabled. [Uses 4 to 6 power, infinite duration]
-	[Note: The Emergency generator will only reduce power usage by 2]</desc>
+	<desc>적선의 산소실을 손상시킵니다. 사용하는 전력에 비례하여 제한하는 산소실 전력 바의 수가 증가합니다. [4에서 6의 전력 사용, 영구히 지속됨]
+	[참조: 예비 발전기는 2의 전력 소모만을 감소시킴]</desc>
 	<cost>55</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_OXYGEN_UNSTABLE">
 	<title>바이러스 분산 장치</title>
-	<desc>생체 공학적으로 만들어진 위험한 바이러스입니다. 전력을 사용하지 않고 적선과 플레이어 함선의 산소실 전력 바를 2칸 제한합니다.  A dangerous bio-engineered virus. Uses no power and reduces enemy and player Oxygen power by 2.</desc>
+	<desc>생체 공학적으로 만들어진 위험한 바이러스입니다. 전력을 사용하지 않고 적선과 플레이어 함선의 산소실 전력 바를 2칸 제한합니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9807,8 +9807,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ANCIENT_ACTIVATOR">
-	<title>고대 활성물</title>
-	<desc>빈 송신소에서 사용하여 당신의 화물칸에 있는 고대인을 깨울 수 있습니다. Can be used at an empty beacon to awaken the ancient in your cargo-bay.</desc>
+	<title>고대의 활성물</title>
+	<desc>빈 송신소에서 사용하여 당신의 화물칸에 있는 고대인을 깨울 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9816,8 +9816,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="ANCIENT_CONSTRUCTOR">
-	<title>절전상태의 로봇</title>
-	<desc>이 이상한 기계는 절전모드 상태에 있습니다. 아마도 누군가 이것에 대해 더 많은 정보를 알고 있을 것입니다. This strange machine is in a hibernating state. Perhaps someone will have more information about this.</desc>
+	<title>절전 상태의 로봇</title>
+	<desc>이 이상한 기계는 절전 상태입니다. 아마도 누군가 이것에 대해 더 많은 정보를 알고 있을 것입니다.</desc>
 	<cost>100</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9825,7 +9825,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="TULLY_PRESENT">
 	<title>툴리의 보급품</title>
-	<desc>아다라 중장이 준 연방의 보급 상자입니다. 몇 가지 암호와 특수 자석 열쇠가 필요한 잠금장치로 보호되어 있습니다. 뒷면에 연방의 휘장이 크게 새겨져 있습니다.A Federation supply crate given to you by Vice Admiral Adara. It's protected by several passcodes and a lock that requires a special magnetic key. A large Federation insignia is on the back.</desc>
+	<desc>아다라 중장이 준 연방의 보급 상자입니다. 몇 가지 암호와 특수 자석 열쇠가 필요한 잠금장치로 보호되어 있습니다. 뒷면에 연방의 휘장이 크게 새겨져 있습니다.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9833,7 +9833,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ZOLTAN_STATUE">
 	<title>수도승 조각상</title>
-	<desc>명상하는 졸탄을 묘사한 금색 플라스틱 조각상. 거의 모든 관광지에서 볼 수 있는 것 같습니다. A plastic statue painted gold depicting a Zoltan meditating. It appears to be something you could find in just about any tourist location.</desc>
+	<desc>명상하는 졸탄을 묘사한 금색 플라스틱 조각상. 거의 모든 관광지에서 볼 수 있는 것 같습니다.</desc>
 	<cost>6</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9841,7 +9841,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SMUGGLER_RAID_CARGO">
 	<title>정체불명의 화물</title>
-	<desc>밀수꾼의 창고에서 이것을 되찾았으니 이제 다시 가져가기만 하면 됩니다. You managed to retrieve this from the smuggler's depot, now you just have to bring it back.</desc>
+	<desc>밀수꾼의 창고에서 이것을 되찾았으니 이제 다시 가져가기만 하면 됩니다.</desc>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9849,7 +9849,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="NEBULA_GASSES">
 	<title>성운 가스</title>
-	<desc>희귀하고 비싼 성운 가스입니다. 50스크랩에 판매됩니다. Rare and expensive nebula gases. Sells for 50 scrap.</desc>
+	<desc>희귀하고 비싼 성운 가스입니다. 50스크랩에 판매됩니다.</desc>
 	<cost>100</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9857,7 +9857,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="BEACON_PARTS">
 	<title>신호기 부품</title>
-	<desc>손상된 신호기에서 회수한 부품입니다. 어쩌면 비컨 이터에게 줄 수 있지 않을까요? Parts salvaged from a damaged beacon. Maybe you can give them to the Beacon Eater?</desc>
+	<desc>손상된 신호기에서 회수한 부품입니다. 어쩌면 비컨 이터에게 줄 수 있지 않을까요?</desc>
 	<cost>45</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9865,7 +9865,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ORCHID_KIDS">
 	<title>오키드 아이들</title>
-	<desc>평범한 작은 꽃처럼 보이지만, 죽은 오키드 아이들의 시체입니다. 당신의 영혼을 희생하여 스크랩을 위해 팔 수 있습니다. 괴물같은놈. The corpses of dead Orchid children, though they merely resemble small flowers. You can sell them for scrap, at the cost of your soul, you monster.</desc>
+	<desc>평범한 작은 꽃처럼 보이지만, 죽은 오키드 아이들의 시체입니다. 당신의 마음을 대가로 스크랩을 위해 팔 수 있습니다. 이 괴물같은놈.</desc>
 	<cost>65</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
@@ -9873,7 +9873,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SLUG_NARCOTICS">
 	<title>슬러그 환각제</title>
-	<desc>불법 마약 한 묶음입니다. 기함에 도달하기 전에 혼수 상태에 빠지고 싶은것이 아니라면 스스로는 사용할 이유가 없지만, 비싸게 되팔거나 슬러그들에게 뇌물로 쥐여줘 전투를 피할 수 있습니다. 왕의 성운 밖에서 사용할 수 없습니다. A bundle of highly illegal drugs. Using them yourself is out of the question if you don't want to be comatose by the time you get to the Flagship, but you could sell these back for more than you got them, or use them to bribe Slugs out of fighting you. Has no use outside the Royal Nebula.</desc>
+	<desc>불법 마약 한 묶음입니다. 기함에 도달하기 전에 혼수 상태에 빠지고 싶은것이 아니라면 스스로는 사용할 이유가 없지만, 비싸게 되팔거나 슬러그들에게 뇌물로 쥐여줘 전투를 피할 수 있습니다. 왕의 성운 밖에서 사용할 수 없습니다.</desc>
 	<cost>90</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9886,7 +9886,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="LOSTSUN_BLESSING">
 	<title>축복받음</title>
-	<desc>당신은 로스트 선에게 축복받았습니다. 빈 송신소에서 불의 의식을 가지고 보상을 받을 수 있습니다. At empty beacons, you can hold a fire ritual to receive a reward.</desc>
+	<desc>당신은 로스트 선에게 축복받았습니다. 빈 송신소에서 불의 의식을 가지고 보상을 받을 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9895,7 +9895,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ZOLTAN_BLESSING">
 	<title>축복받음</title>
-	<desc>당신은 졸탄에게 축복받았습니다. 빈 송신소에서 긴 시간을 소요하는 명상을 하여 선체를 회복할 수 있습니다. You have been blessed by the Zoltans. At empty beacons you can meditate, which takes a long time but will repair your hull.</desc>
+	<desc>당신은 졸탄에게 축복받았습니다. 빈 송신소에서 긴 시간을 소요하는 명상을 하여 함체를 회복할 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9928,9 +9928,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="LOOT_COMPASS">
 	<title>탈취된 주파수</title>
-	<desc>전리품 수송선과 경비 증원의 위치를 탐색하여 드러냅니다. Detects and reveals the locations of Loot Transports and Guard Reinforcements when possible.
-	전리품 수송선은 주로 [!] 고유 구역에서 발견됩니다. Loot Transports are usually found in [!] Unique sectors.
-	경비 증원은 경비 함선이 파괴되었을 때 등장합니다. Guard Reinforcements spawn when a guard ship is killed.</desc>
+	<desc>전리품 수송선과 경비 증원의 위치를 탐지하여 드러냅니다.
+	전리품 수송선은 주로 [!] 고유 구역에서 발견됩니다.
+	경비 증원은 경비 함선이 파괴되었을 때 등장합니다.</desc>
 	<cost>50</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -9940,7 +9940,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="GAMBLING_MACHINE">
 	<title>도박 기계</title>
-	<desc>카지노용으로 설계된 기계입니다. 도전자가 승리할 시 다양한 아이템을 지급할 수 있도록 개량된 모양인데, 내부를 여는 방법은 알 수가 없네요. A machine designed for casinos. It appears to have been modified to be able to dispense a wide variety of items when you win, but you can't seem to figure out how to open it.</desc>
+	<desc>카지노용으로 설계된 기계입니다. 도전자가 승리할 시 다양한 아이템을 지급할 수 있도록 개량된 모양인데, 내부를 여는 방법은 알 수가 없네요.</desc>
 	<cost>60</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9948,7 +9948,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="PROTON_PACK">
 	<title>프로톤 팩</title>
-	<desc>오래전부터 운영되어온 데이터베이스로부터 고스트 선박을 추적하고 스크랩을 위해 전투할 수 있습니다. Allows you to track down Ghost vessels from a long running database and fight them for scrap.</desc>
+	<desc>오래전부터 운영되어온 데이터베이스로부터 고스트 선박을 추적하고 스크랩을 위해 전투할 수 있습니다.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9963,7 +9963,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="MVBOSS_SPAWNER">
 	<title>드라이브 해커</title>
-	<desc>다른 현실로부터 강력한 다중우주 순양함 한대를 골라 다중우주 항해 장치를 통제할 수 있습니다. 언제나 챌린지 난이도 수준의 MV 보스가 소환됩니다. 7 연료를 소모하여 MV 보스가 등장하는 퀘스트 지점을 만듭니다.   Can single out and hijack the MV drives of powerful Multiverse cruisers from other realities. Uses 7 fuel to do so, but can spawn any MV boss as a Quest. Always spawns them at Challenge difficulty scaling.</desc>
+	<desc>다른 현실로부터 강력한 다중우주 순양함 한대를 골라 다중우주 항해 장치의 통제권을 빼앗을 수 있습니다. 7 연료를 소모하여 MV 보스가 등장하는 퀘스트 지점을 만듭니다. 언제나 챌린지 난이도 수준의 MV 보스가 소환됩니다.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9979,14 +9979,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="PANDORA_BOX">
 	<title>판도라의 상자</title>
-	<desc>밝은 녹색 조명과 짙은 검은색의 외관을 가진 수상한 네모난 유물입니다. 해적이 준 작은 카드에는 "용기가 있다면 상자를 열어봐라, 하지만 경고한다. 그것은 너에게 무한한 힘을 줄 수도 천벌을 내릴 수도 있다."라고 적혀 있습니다. A mystical square artifact with bright green lights and a dark black exterior. With it came a small card from the pirates, on it written "Open the box if you dare, but be warned. For as likely it is that it will grant you infinite power, it is just as likely to damn you."</desc>
+	<desc>밝은 녹색 조명과 짙은 검은색의 외관을 가진 수상한 사각형의 유물입니다. 해적이 준 작은 카드에는 "용기가 있다면 상자를 열어봐라, 하지만 경고한다. 그것은 너에게 무한한 힘을 줄 수도 천벌을 내릴 수도 있다."라고 적혀 있습니다.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="PANDORA_BOX_ANCIENT">
 	<title>판도라의 상자</title>
-	<desc>Karthithe라고도 알려진 이 상자는 신성한 경이와 상상할 수 없는 공포가 함께 들어있습니다. 문제는, 당신이 이것을 열 때 무엇이 주어질가요? Also known as a Karthithe, this box holds both divine wonders and unimaginable horrors. Question is, which will be bestowed upon you if you open it?</desc>
+	<desc>Karthithe라고도 알려진 이 상자는 신성한 경이와 상상할 수 없는 공포가 함께 들어있습니다. 문제는, 당신이 이것을 열 때 무엇이 주어지냐는 것이죠.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9994,7 +9994,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="NANOBOT_DEFENSE_SYSTEM">
     <title>살생 나노봇 살포기</title>
-	<desc>당신 함선의 침입자들이 지속적인 피해를 입습니다. 이름이 이 보조장비를 더 폭력적이어 보이게 만듭니다. Boarders take damage over time on your ship. The name makes it sound a lot more violent than it is.</desc>
+	<desc>침입자들이 지속적인 피해를 입습니다. 살생 나노봇 살포기라는 이름이 이 보조장비를 더 폭력적이어 보이게 만듭니다.</desc>
     <cost>60</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -10003,7 +10003,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_NANOBOT_DEFENSE_SYSTEM">
     <title>살생 나노봇 살포기</title>
-	<desc>당신 함선의 침입자들이 지속적인 피해를 입습니다. 이름이 이 보조장비를 더 폭력적이어 보이게 만듭니다.</desc>
+	<desc>침입자들이 지속적인 피해를 입습니다. 살생 나노봇 살포기라는 이름이 이 보조장비를 더 폭력적이어 보이게 만듭니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -10012,7 +10012,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SYSTEM_CASING">
     <title>티타늄 시스템 외벽</title>
-    <desc>침입자들이 25%의 속도로 시스템을 파괴합니다. 또한 15%의 확률로 시스템이 입는 피해를 무시합니다. Enemy boarders sabotage your systems at 25% speed. Also provides a 15% chance to resist damage to your systems.</desc>
+    <desc>침입자들이 25%의 속도로 시스템을 파괴합니다. 또한 15%의 확률로 시스템이 입는 피해를 무시합니다.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>
@@ -10044,7 +10044,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="ADV_SCANNERS">
 	<title>장거리 탐사용 스캐너</title>
-	<desc>근처의 송신소에 대한 정보들을 지도에 표시합니다. Adds additional info about nearby Beacons on the star map.</desc>
+	<desc>근처의 송신소에 대한 정보들을 지도에 표시합니다.</desc>
 	<cost>30</cost>
 	<bp>3</bp>
 	<rarity>1</rarity>
@@ -10053,7 +10053,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="RECYCLER">
 	<title>재활용 모듈</title>
-	<desc>재활용 무기에 사용되는 것과 비슷한 재활용 모듈입니다. 연료, 스크랩, 드론 부품이나 임의의 쓰레기를 미사일로 바굴 수 있습니다. A recycler module similar to that used in Recycler tech weapons. Can be used to convert fuel, scrap, drone parts, or just random junk into missiles.</desc>
+	<desc>재활용 무기에 사용되는 것과 유사한 모듈입니다. 연료, 스크랩, 드론 부품, 또는 임의의 쓰레기를 미사일로 바굴 수 있습니다.</desc>
 	<cost>50</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -10061,7 +10061,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="RECYCLER_REVERSE">
 	<title>해체 장비</title>
-	<desc>미사일이나 드론 부품을 분해하여 훨씬 적은 수율로 고철로 만들 수 있는 특수 부품입니다. A special component that allows you to disassemble missiles or droneparts into scrap, at a greatly reduced yield.</desc>
+	<desc>미사일이나 드론 부품을 분해하여 낮은 수율로 스크랩으로 만들 수 있는 특수 부품입니다.</desc>
 	<cost>40</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -10069,7 +10069,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="GHOST_DUPLICATOR"> <!--only appears in sectors where there's a lot of ghosts-->
 	<title>고속 분열기 TM</title>
-	<desc>이 독특한 고스트 분열 기술을 사용하면 모든 종류의 고스트를 빠르게 부풀린 후 알파 고스트처럼 분열시킬 수 있습니다. Patented GHOST DUPLICATING technology allows you to quickly and rapidly inflate Ghosts of any type, then force them to divide as if they were an Alpha. It's painless, we promise.</desc>
+	<desc>이 독특한 고스트 분열 기술을 사용하면 모든 종류의 고스트를 빠르게 부풀린 후 강제로 알파 고스트처럼 분열시킬 수 있습니다. 절대 고통스럽지 않습니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -10077,7 +10077,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="STORE_BEACON">
     <title>행상인 신호기</title>
-    <desc>빈 송신소에서 반군의 추적을 1도약 가속시키고 상점을 소환할 수 있습니다. Can summon a store at any empty beacon at the cost of 1 fleet boost.</desc>
+    <desc>빈 송신소에서 반군의 추적을 1도약 가속시키는 대신 상점을 소환할 수 있습니다.</desc>
     <cost>90</cost>
     <rarity>5</rarity>
     <stackable>false</stackable>
@@ -10085,7 +10085,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="DISTRACTION_BUOY"> <!--different than normal-->
 	<title>교란용 미끼</title>
-	<desc>초공간에서 반군의 추적을 교란하는 미끼를 배치할 수 있습니다. 무료로 도약을 1회 지연시키거나 드론 부품을 소모해 추가적인 미끼를 배치할 수 있습니다. Allows you to deploy buoys during jumpspeed. Can give 1 fleet delay for free, or deploy additional buoys using droneparts.</desc>
+	<desc>초공간에서 반군의 추적을 교란하는 미끼를 배치할 수 있습니다. 무료로 도약을 1회 지연시키거나 드론 부품을 소모해 추가적인 미끼를 배치할 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -10094,7 +10094,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="PRE_SCANNER">
 	<title>슬립 스캐너</title>
-	<desc>초공간에서 3연료를 소모해 다음 구역의 지도 데이터를 얻을 수 있습니다. Can be used to map the next sector while in jumpspace at the cost of 3 fuel.</desc>
+	<desc>초공간에서 연료 3개를 소모해 다음 구역의 지도 데이터를 얻을 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>4</rarity>
@@ -10103,7 +10103,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="FUEL_CONSERVER">
 	<title>연료 절약 장치</title>
-	<desc>약간의 유사 과학과 혼합된 초고효율 연료 절약을 통해 구역 이동 시 연료를 절약할 뿐만 아니라 새 연료를 만들어냅니다! 구역간 도약을 하기 위해서는 여전히 1개의 연료가 있어야 합니다.  Hyper efficient fuel conservation mixed with a bit of science mumbo-jumbo not only lets you conserve the fuel used with a sector jump, but also generate another fuel cell as well! Still requires you to have at least 1 fuel to make the jump first.</desc>
+	<desc>약간의 유사 과학과 혼합된 초고효율 연료 절약을 통해 구역 이동 시 연료를 절약할 뿐만 아니라 새 연료를 만들어냅니다! 구역간 도약을 하기 위해서는 여전히 1개의 연료가 있어야 합니다.</desc>
 	<cost>20</cost>
 	<bp>8</bp>
 	<rarity>2</rarity>
@@ -10112,9 +10112,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="PDS_DISABLE">
 	<title>신호 약화기</title>
-	<desc>조난 신호를 비룻한 여러 신호를 약화시키는 모듈입니다. 경비가 ASB를 부르는 것을 방지하거나 적의 공격 위성을 비활성화 하는데 사용할 수 있습니다.  A module that drowns out distress or other signals. Can be used to prevent guards from calling for ASB backup or disable enemy attack sattelites.
+	<desc>조난 신호를 비룻한 여러 신호를 약화시키는 모듈입니다. 경비가 ASB를 부르는 것을 방지하거나 적의 공격 위성을 비활성화 하는데 사용할 수 있습니다.
 	
-	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
+	관련 이벤트에서 유용한 파란 선택지를 제공합니다.</desc>
 	<cost>45</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
@@ -10122,9 +10122,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ANTI_VIRUS">
 	<title>안티 바이러스 모듈</title>
-	<desc>적의 해킹 시스템을 무력화할 수 있는 전투 보조장비입니다. 또한 적의 위성이나 다른 곳으로부터 오는 악성 바이러스를 상대로도 효과적입니다. [2 전력 사용, 30초 지속] Combat augment that can neutralize enemy Hacking systems. Also performs well against malicious viruses from enemy satellites or other sources. [Uses 2 power, lasts 30 seconds]
+	<desc>적의 해킹 시스템을 무력화할 수 있는 전투 보조장비입니다. 적의 위성이나 다른 근원으로부터 오는 악성 바이러스를 상대로도 효과적입니다. [2 전력 사용, 30초 지속]
 	
-	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
+	관련 이벤트에서 유용한 파란 선택지를 제공합니다.</desc>
 	<cost>30</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
@@ -10132,9 +10132,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="FLARE_DISTRACTION">
 	<title>교란용 플레어</title>
-	<desc>근처의 적이나 위성이 아직 당신에게 주목하지 않은 상태에서 완벽한 교란을 일으키는 재활용 가능한 홀로그램 플레어입니다. 특정 장소로 잠입하거나 적으로부터 떨어질 때 유용합니다. A self-replenishing supply of holographic flares that make excellent distractions in situations where enemies or satellites are nearby but have not yet locked onto your vessel. Useful for sneaking into places or away from enemies.
+	<desc>근처의 적이나 위성이 아직 당신에게 주목하지 않은 상황에서 완벽한 교란을 일으키는 재활용 가능한 홀로그램 플레어입니다. 특정 장소로 잠입하거나 적으로부터 떨어질 때 유용합니다.
 	
-	관련된 이벤트에서 유용한 파란 선택지를 제공합니다.Provides helpful blue options during relevant events.</desc>
+	관련 이벤트에서 유용한 파란 선택지를 제공합니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -10142,9 +10142,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="INFO_MACHINE">
 	<title>기록 분석기</title>
-	<desc>다양한 장치의 점검 및 청각 기록에 접근하여 유용한 정보를 얻을 수 있는 고급 스캐닝 장치입니다. Advanced scanning device that can access the diagnostic and auditory logs of various devices to get useful information.
+	<desc>다양한 장치의 점검 및 청각 기록에 접근하여 유용한 정보를 얻을 수 있는 고급 스캐닝 장치입니다.
 	
-	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
+	관련 이벤트에서 유용한 파란 선택지를 제공합니다.</desc>
 	<cost>35</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -10152,9 +10152,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="REBEL_ID"> <!--only sold in "shady" sectors-->
 	<title>위조 신분증</title>
-	<desc>밀수업자가 보안 검색을 통과하기 위해 종종 사용하는 가자 반군 신분증입니다. 고위 반군 장교나 당신을 이미 연방 소속으로 식별한 공격적인 선박에는 효과가 없을 테지만, 당신의 신분을 잘 모르거나 미숙한 반군을 설득하는 데는 충분할 것입니다. A fake Rebel identification card, often used by smugglers to get past security checkpoints. While it's unlikely this'll work on high ranking Rebel officers or aggressive vessels who've already identified you as Federation, it should be enough to convince those less certain about your identity, or at least those who aren't very good at their jobs.
+	<desc>밀수업자가 보안 검색을 통과하기 위해 종종 사용하는 가짜 반군 신분증입니다. 고위 반군 장교나 당신을 이미 연방 소속으로 식별한 공격적인 선박에는 효과가 없을 테지만, 당신의 신분을 잘 모르거나 미숙한 반군을 설득하는 데는 충분할 것입니다.
 	
-	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
+	관련 이벤트에서 유용한 파란 선택지를 제공합니다.</desc>
 	<cost>45</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -10162,7 +10162,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="CREW_FIREARMS">
 	<title>개선된 무기고</title>
-	<desc>선원들을 우수한 화기로 무장시켜 원거리 전투에서 (기본값의) 30%의 추가 피해를 줍니다. 드론에는 영향을 미치지 않습니다. Outfits your crew with superior firearms, adding an additional 30% (of default value) to damage in ranged combat. Does not affect drones.</desc>
+	<desc>선원들을 우수한 화기로 무장시켜 원거리 전투에서 (기본값의) 30%의 추가 피해를 줍니다. 드론에는 영향을 미치지 않습니다.</desc>
 	<cost>45</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -10170,7 +10170,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="CREW_OXYGEN">
 	<title>개선된 산소 공급 시스템</title>
-	<desc>생명 유지 장치가 이제 선원을 우선시하여 선원이 있는 선실의 산소 공급 속도가 65% 빨라집니다. Life support now prioritizes your crew, refilling oxygen 65% faster in rooms where crew are present. Requires oxygen to be powered, scales with power.</desc>
+	<desc>생명 유지 장치가 이제 선원을 우선시하여 선원이 있는 선실의 산소 공급 속도가 65% 빨라집니다.</desc>
 	<cost>40</cost>
 	<rarity>2</rarity>
 	<stackable>false</stackable>
@@ -10183,7 +10183,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="CRATE_FUEL">
 	<title>연료 상자</title>
-	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 연료가 담겨 있습니다. Can be opened at empty beacons. Can contain anywhere from 5 to 10 fuel.</desc>
+	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 연료가 담겨 있습니다.</desc>
 	<cost>22</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
