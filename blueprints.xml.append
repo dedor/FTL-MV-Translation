@@ -2990,7 +2990,7 @@
 	<powerList>
 		<power>활성화 능력: 선체의 일부를 흡수하여 선체에 약간의 피해를 주지만 체력을 회복하고 일시적으로 능력치가 크게 강화됩니다.</power>
 		<power>최대 체력 200, 최대 체력이 아닐 시 빠르게 부식됨</power>
-		<power>배치된 시스템에 2 전력 공급, 시스템 파괴 속도 1.5배</power>
+		<power>배치된 시스템에 2의 전력 공급, 시스템 파괴 속도 1.5배</power>
 	</powerList>
 </crewBlueprint>
 
@@ -14123,7 +14123,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crew_beam</tip>
 	<title>'팔콘' 빔</title>
 	<short>'Faucon'</short>
-	<desc>이 무시무시한 빔은 물리적인 피해를 입히지 않지만 유기체를 찢어 선원에게 큰 피해를 입힙니다.</desc>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 승무원에게 심각한 피해를 입힙니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -14155,7 +14155,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crew_beam</tip>
 	<title>'코빈' 빔</title>
 	<short>'Corbin'</short>
-	<desc>이 무시무시한 빔은 물리적인 피해를 입히지 않지만 유기체를 찢어 선원에게 큰 피해를 입힙니다. 발사할 때마다 충전 속도가 빨라집니다.</desc>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 승무원에게 심각한 피해를 입힙니다. 발사할 때마다 충전 속도가 빨라집니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -26504,9 +26504,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>대인 전투 드론 [대인]</title>
+	<title>대인 전투 드론 [방어]</title>
 	<short>Battle [A]</short>
-	<desc>[현재 모드: 대인] 전투 전에 방어적인 대인 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
+	<desc>[현재 모드: 방어] 전투 전에 방어적인 방어 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
     
 -최대 체력 175, 대인 공격력 1.1배
 -이동 속도 0.8배</desc>
@@ -26551,9 +26551,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>대인 전투 드론 마크 II [대인]</title>
+	<title>대인 전투 드론 마크 II [방어]</title>
 	<short>Battle II [A]</short>
-	<desc>[현재 모드: 대인] 전투 전에 방어적인 대인 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
+	<desc>[현재 모드: 방어] 전투 전에 방어 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
     
 -최대 체력 200, 대인 전투력 1.5배
 -이동 속도 0.5배</desc>
@@ -26662,7 +26662,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>시스템에 접속할 수 있는 다용도 드론입니다. 조작할 수 있습니다.
     
 -최대 체력 100, 이동속도 1.2배
--배치된 시스템에 전력을 1 공급함
+-배치된 시스템에 1의 전력 공급함
 -시스템을 2레밸의 수준으로 관리할 수 있음</desc>
 	<power>0</power>
 	<cost>45</cost>
@@ -26712,9 +26712,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Butler [D]</short>
 	<desc>[현재 모드: 방어] 슬러그들이 특별한 목적에 사용하기 위해 대인 전투 드론 재건했습니다. 전투 기능 또한 여전히 가지고 있습니다.
     
--150 HP, 0.9x combat damage
--0.7x movement speed
--Periodically stuns hostiles for 10 seconds</desc>
+-최대 체력 150, 대인 공격력 0.9배
+-이동속도 0.7배
+-주기적으로 적들을 10초간 기절시킴</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -26725,13 +26725,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>Butler Drone [Boarding]</title>
+	<title>[현재 모드: 강습]</title>
 	<short>Butler [B]</short>
-	<desc>[CURRENT MODE: Boarding] The Slugs rebuilt an Anti-Personnel drone to serve their own "special" purposes while still keeping its combat functionality.
+	<desc>[현재 모드: 강습] 슬러그들이 특별한 목적에 사용하기 위해 대인 전투 드론 재건했습니다. 전투 기능 또한 여전히 가지고 있습니다.
     
--150 HP, 0.9x combat damage
--0.7x movement speed
--Periodically stuns hostiles for 10 seconds</desc>
+-최대 체력 150, 대인 공격력 0.9배
+-이동속도 0.7배
+-주기적으로 적들을 10초간 기절시킴</desc>
 	<power>2</power>
 	<speed>15</speed>
 	<cost>50</cost>
@@ -26752,9 +26752,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="AMPHI_COMBAT">
 	<type>COMBAT</type>
 	<tip>tip_toggle_amphi</tip>
-	<title>Amphi-Drone [Combat]</title>
+	<title>이중 드론 [전투]</title>
 	<short>Amphi [C]</short>
-	<desc>[CURRENT MODE: Combat] A special toggle drone that can switch between Combat and Defense modes before combat.</desc>
+	<desc>[현재 모드: 전투] 전투 전에 전투 모드 또는 방어 모드로 전환할 수 있는 특별한 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26770,9 +26770,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>tip_toggle_amphi</tip>
-	<title>Amphi-Drone [Defense]</title>
+	<title>이중 드론 [방어]</title>
 	<short>Amphi [D]</short>
-	<desc>[CURRENT MODE: Defense] A special toggle drone that can switch between Combat and Defense modes before combat.
+	<desc>[현재 모드: 방어] 전투 전에 전투 모드 또는 방어 모드로 전환할 수 있는 특별한 토글 드론입니다.
 	Reload: 1300 MS</desc>
 	<power>2</power>
 	<cooldown>1300</cooldown>
@@ -26808,13 +26808,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="DIVREPAIR">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
-	<title>Divine Repair</title>
+	<title>신성한 수리 드론</title>
 	<short>Div. Rep.</short>
-	<desc>The idol of the self-proclaimed 'True Prophet'.
+	<desc>자칭 '진정한 선지자'들의 우상입니다.
     
--65 HP, 2x repair speed
--1.75x movement speed
--Provides 1 power to occupied system</desc>
+-최대 체력 65, 수리 속도 2배
+-이동 속도 1.75배
+-배치된 시스템에 1의 전력을 공급</desc>
 	<power>1</power>
 	<cost>50</cost>
 	<bp>2</bp>
@@ -26908,9 +26908,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_ENGINEER">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>Uplifted Drone</title>
+	<title>증강된 드론</title>
 	<short>Uplift</short>
-	<desc>Specialized beam drone that loses its toggle functionality to have a longer beam attack and stealth, allowing it to distract but avoid anti-drones.</desc>
+	<desc>토글 기능을 잃은 대신 더 긴 빔을 쏘며 은폐하여 요격을 피할 수 있는 특수한 빔 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>10</dodge>
@@ -26926,9 +26926,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="DRONE_BIO_BEAM">
 	<type>BEAM</type>
 	<tip>tip_crew_beam</tip>
-	<title>Anti-Bio Beam</title>
+	<title>안티-바이오 빔</title>
 	<short>Anti-Bio Beam</short>
-	<desc>This terrifying beam does no physical damage but rips through organic material, dealing heavy damage to crewmembers.</desc>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 승무원에게 심각한 피해를 입힙니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -26958,9 +26958,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="COMBAT_BIO_BEAM"> <!--SLUG C ONLY-->
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Guillotine Drone</title>
+	<title>길로틴 드론</title>
 	<short>Guillotine</short>
-	<desc>Combat drone that repeatedly attacks with a small beam weapon that damages both crew and systems.</desc>
+	<desc>선원과 시스템에 피해를 입히는 작은 빔 무기로 빠른 속도로 공격하는 전투 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27027,9 +27027,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ANCIENT_COMBAT_LASER">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>Harbinger Drone MK I</title>
+	<title>하빈저 드론 마크 I</title>
 	<short>Harbing. I</short>
-	<desc>A drone that precedes all known drone tech. Appears to be equipped with Laser tech that does decent damage with extra system damage.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 함체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27044,9 +27044,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ANCIENT_COMBAT_LASER_2">
     <type>COMBAT</type>
     <tip>tip_ancient</tip>
-    <title>Harbinger Drone MK II</title>
+    <title>하빈저 드론 마크 II</title>
     <short>Harbing. II</short>
-    <desc>A drone that precedes all known drone tech. Appears to be equipped with Laser tech that does decent damage with extra system damage. Moves and shoots faster than Mark I.</desc>
+    <desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 함체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다.이동 속도와 공격 속도가 마크 I보다 빠릅니다.</desc>
     <power>4</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -27064,9 +27064,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<level>1</level>
 	<target>LASERS</target>
 	<tip>tip_defense</tip>
-	<title>Overwatcher</title>
+	<title>감시자</title>
 	<short>Overwatcher</short>
-	<desc>Ancient Defense technology that fires at any incoming projectiles.
+	<desc>다가오는 모든 투사체를 격추하는 고대의 방어 기술입니다.
 	Reload: 100 MS</desc>
 	<power>4</power>
 	<cooldown>100</cooldown>
@@ -27159,9 +27159,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ANCIENT_COMBAT_ION">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>Plasma Drone MK I</title>
+	<title>플라즈마 드론 마크 I</title>
 	<short>Plasma I</short>
-	<desc>A drone that precedes all known drone tech. It is armed with plasma tech that does both ion and system damage.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 이온 피해와 시스템 피해를 모두 가하는 플라즈마 기술로 무장했습니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27214,9 +27214,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ANCIENT_COMBAT_MISSILE">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>Carnage Drone</title>
+	<title>카니지 드론</title>
 	<short>Carnage D.</short>
-	<desc>An ancient Missile Drone. Appears to be equipped with some sort of personal rift tech from which it obtains an endless supply of missiles.</desc>
+	<desc>고대의 미사일 드론입니다. 끝없는 미사일 공급을 위해 일종의 personal rift 기술을 장착한 것으로 보입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27248,13 +27248,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>REPAIR</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>Mender</title>
+	<title>고대의 수리 드론</title>
 	<short>Mender</short>
-	<desc>This controllable ancient crew drone can repair at insane speeds and provides other supporting benefits.
+	<desc>이 고대의 선원 드론은 굉장한 속도로 수리할 수 있고, 그 밖에 부차적인 효과들을 제공합니다. 조종할 수 있습니다.
     
--110 HP, 4x repair speed, 1.5x movement speed
--Heal nearby crew for 1hp/s, reveals adjacent rooms
--Inflict a 9s stun when destroyed</desc>
+-최대 체력 110, 수리 속도 4배, 이동 속도 1.5배
+-인접한 선원의 체력을 초당 1만큼 회복시킴, 인접한 선실의 시야를 확보함
+-파괴될 시 같은 선실에 위치한 선원에게 9초의 기절을 부여</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -27276,13 +27276,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>REPAIR</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>Royal Mender</title>
+	<title>왕족의 수리 드론</title>
 	<short>Mender</short>
-	<desc>This controllable ancient crew drone can repair at insane speeds and provides other supporting benefits.
+	<desc>이 고대의 선원 드론은 굉장한 속도로 수리할 수 있고, 그 밖에 부차적인 효과들을 제공합니다. 조종할 수 있습니다.
     
--150 HP, 4.5x repair speed, 2x movement speed
--Heal nearby crew for 2hp/s, reveals adjacent rooms
--Inflict a 12s stun when destroyed</desc>
+-최대 체력 150, 수리 속도 4.5배, 이동 속도 2배
+-인접한 선원의 체력을 초당 2만큼 회복시킴, 인접한 선실의 시야를 확보함
+-파괴될 시 같은 선실에 위치한 선원에게 12초의 기절을 부여</desc>
 	<power>1</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -27304,14 +27304,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <type>REPAIR</type>
     <locked>1</locked>
     <tip>tip_crew</tip>
-    <title>Ancient Director</title>
+    <title>고대의 관리자 드론</title>
     <short>Director</short>
-    <desc>A useful ancient utility drone that can interface with systems and power them.
+    <desc>시스템에 접속하고 전력을 공급할 수 있는 유용한 다용도 드론입니다. 조작할 수 있습니다.
     
--120 HP, 1.5x movement speed
--Provides 4 power to occupied room
--Can man systems at lv2 skill level
--Reveals adjacent rooms</desc>
+-최대 체력 120, 이동 속도 1.5배
+-배치된 시스템에 4의 전력을 공급함
+-시스템을 2레밸의 수준으로 관리할 수 있음
+-인접한 선실의 시야를 확보함</desc>
     <power>2</power>
     <cost>50</cost>
     <bp>3</bp>
@@ -27333,13 +27333,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Atomizer [Anti-Pers]</title>
+	<title>분사기 [방어]</title>
 	<short>Atom [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] Powerful anti-crew drone that can be switched between defensive and boarding modes.
+	<desc>[현재 모드: 방어] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
--60 HP, x2 movement speed
--x2 combat damage, increased attack speed, and drains oxygen
--Reveals adjacent rooms</desc>
+-최대 체력 60, 이동 속도 2배
+-대인 공격력 2배, 향상된 공격 속도, 산소를 흡수함
+-인접한 방의 시야를 확보함</desc>
 	<power>4</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -27350,13 +27350,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>Atomizer [Boarding]</title>
+	<title>분사기 [강습]</title>
 	<short>Atom [B]</short>
-	<desc>[CURRENT MODE: Boarding] Powerful anti-crew drone that can be switched between defensive and boarding modes.
+	<desc>[현재 모드: 강습] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
--60 HP, x2 movement speed
--x2 combat damage, increased attack speed, and drains oxygen
--Reveals adjacent rooms</desc>
+-최대 체력 60, 이동 속도 2배
+-대인 공격력 2배, 향상된 공격 속도, 산소를 흡수함
+-인접한 방의 시야를 확보함</desc>
 	<power>4</power>
 	<speed>10</speed>
 	<cost>50</cost>
@@ -27378,13 +27378,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Royal Atomizer [Anti-Pers]</title>
+	<title>왕족의 분사기 [방어]</title>
 	<short>Atom [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] Powerful anti-crew drone that can be switched between defensive and boarding modes.
+	<desc>[현재 모드:방어] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
--65 HP, x3 movement speed
--x2 damage, greatly increased attack speed, and drains oxygen
--Reveals adjacent rooms</desc>
+-최대 체력 65, 이동 속도 3배
+-대인 공격력 2배, 크게 향상된 공격 속도, 산소를 흡수함
+-인접한 방의 시야를 확보함</desc>
 	<power>3</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -27395,13 +27395,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>Royal Atomizer [Boarding]</title>
+	<title>왕족의 분사기 [강습]</title>
 	<short>Atom [B]</short>
-	<desc>[CURRENT MODE: Boarding] Powerful anti-crew drone that can be switched between defensive and boarding modes.
+	<desc>[현재 모드: 강습] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
--65 HP, x3 movement speed
--x2 combat damage, greatly increased attack speed, and drains oxygen
--Reveals adjacent rooms</desc>
+-최대 체력 65, 이동 속도 3배
+-대인 공격력 2배, 크게 향상된 공격 속도, 산소를 흡수함
+-인접한 방의 시야를 확보함</desc>
 	<power>3</power>
 	<speed>10</speed>
 	<cost>50</cost>
@@ -27423,9 +27423,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Ancient Roomba [Anti-Pers]</title>
+	<title>고대의 룸바 [방어]</title>
 	<short>Roomba [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] This tiny little thing is claimed to be a weapon of war, yet to you it looks akin to old Earth cleaning technology. How strange.</desc>
+	<desc>[현재 모드: 방어] This tiny little thing is claimed to be a weapon of war, yet to you it looks akin to old Earth cleaning technology. How strange.</desc>
 	<power>2</power>
 	<cost>60</cost>
 	<bp>3</bp>
