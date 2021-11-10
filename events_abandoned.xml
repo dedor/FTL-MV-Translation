@@ -31,37 +31,37 @@
 </eventList>
 
 <event name="ABANDONED_CRYSTAL_TOURIST" unique="true">
-	<text>A Crystal ship skitters between various burnt out wrecks and the withered skeletons of long-forgotten stations. They don't seem to notice you.</text>
+	<text>크리스탈 함선 한 기가 다 타버린 잔해와 잊혀진 기지들의 골조 사이를 누비고 있다. 당신의 함선을 못 본듯 하다.</text>
 	<ship load="SHIP_CRYSTAL_GENERIC" hostile="false"/>
 	<choice hidden="true">
-		<text>Contact them.</text>
+		<text>그들과 통신한다.</text>
 		<event>
-			<text>"Oh, hello there! I didn't see you, I thought you were just part of the scenery. What a fine sector this is! Such interesting design choices for their ships, whoever lives here has excellent taste!"</text>
+			<text>"오, 안녕하신가! 당신네 함선을 풍경의 일부라 생각해서 못 봤던 모양이군. 정말로 아름다운 구역 아닌가? 여기 함선들 디자인들도 참 흥미롭고 말이야. 누가 사는지는 몰라도 여기 거주민들의 취향 참 좋구만 그래!"</text>
 			<choice hidden="true">
-				<text>Explain that this sector has been abandoned.</text>
+				<text>이 구역이 오래전에 버려졌다고 설명한다.</text>
 				<event>
-					<text>"Oh heavens. This shows just how ignorant I am. I should explore more, I've been roaming around this sector for months now! Perhaps I should come with you, you look like you've been to other places before."</text>
+					<text>"맙소사... 나의 무지함을 까발리고 말았구만. 첨언하자면 나는 이 구역을 몇 개월째 돌아다니고 있었다네! 보아하니 당신, 이곳저곳 좀 다녀본거 같은데, 당신과 동행하는 게 좋을 것 같군."</text>
 					<crewMember amount="1" class="crystal"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Ask if they have anything that can help with your mission.</text>
+				<text>그들에게 우리 임무에 도움을 줄 수 있는 물자가 있는지 물어본다.</text>
 				<event>
-					<text>"Oh, certainly. I've been collecting relics from these fascinating structures... I hope the owners don't mind, but no one was ever home to argue... maybe you'll find use in them."</text>
+					<text>"물론이지. 나는 이 흥미로운 구조물에서 유물을 수집하고 있었다네. 원래 소유자들이 개의치 않아야 할텐데. 뭐, 소유권을 주장할 주인들은 없었지만 말이야. 자네에게 더 쓸모가 있을지도 모르겠군."</text>
 					<autoReward level="LOW">augment</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_CRYSTAL">
-				<text>(Crystal 선원) Request access to their data storage.</text>
+				<text>(Crystal 선원) 그들의 데이터 저장소에 접근할 권한을 요구한다.</text>
 				<event>
-					<text>"Our maps? Why of course! These should be of use to you. Happy travels!"</text>
+					<text>"우리 지도 말인가? 물론이고 말고! 자네에게 유용할걸세. 그럼 즐거운 항해 되게나!"</text>
 					<reveal_map/>
 				</event>
 			</choice>
 			<choice hidden="true" req="INFO_MACHINE_HACKING">
-				<text>(Analyzer + 해킹) Remotely access their data storage.</text>
+				<text>(Analyzer + 해킹) 그들의 데이터 저장소에 원격접근 한다.</text>
 				<event>
-					<text>While you make small talk with the Crystals, you configure the Hacking system to get a read of their data storage while the Analyzer downloads their map data. Once the download is complete, you bid farewell and the Crystals even offer a small reward for being so pleasant.</text>
+					<text>크리스탈들과 잡담할 동안 당신은 해킹 시스템을 이용해 그들의 데이터 저장소에 접근해 분석기로 지도 데이터를 다운로드 한다. 다운로드가 완료됬을 때 당신은 그들과 작별을 고한다. 크리스탈들은 심지어 상냥함에 대한 답례로 작은 선물을 준다.</text>
 					<autoReward level="LOW">stuff</autoReward>
 					<reveal_map/>
 				</event>
@@ -71,7 +71,7 @@
 	<choice>
 		<text>무시한다.</text>
 		<event>
-			<text>You have no interest in the strange Crystal ship.</text>
+			<text>당신은 크리스탈 함선에 전혀 관심이 없다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -85,39 +85,39 @@
 </event>
 
 <event name="ABANDONED_SLAVER_MOON" unique="true">
-	<text>A very faint signal from an unidentified ship is emitting from a small moon in the local system. It's a little choppy, but you manage to make out the words "workers - great price - stop by."</text>
+	<text>근처 행성계의 작은 위성에 있는 미확인 함선에서 매우 약한 신호가 발신되고 있다. 뚝뚝 끊기고 있으나, 당신은 "노동자 - 가격 좋음 - 방문하세요" 정도는 알아 들을수 있다.</text>
 	<img planet="PLANET_MOONS"/>
 	<choice hidden="true">
 		<text>가까이 다가간다.</text>
 		<event>
-			<text>It seems a slave trader is selling their 'goods' on the nearby moon, knowing it's far away from the eye of the Federation out here in this sector.</text>
+			<text>근처 위성에서 노예 상인이 "상품"을 팔고 있었다. 아마 연방의 감시가 닿지 않을 정도로 멀리 떨어져 있음을 인지하고 장을 열은 듯 하다.</text>
 			<ship load="SHIP_SLAVER_ALL" hostile="false"/>
 			<choice hidden="true">
-				<text>Check out the slaves being offered.</text>
+				<text>판매중인 노예들을 둘러 본다.</text>
 				<event>
-					<text>The slavers notice your interest and show you several offers.</text>
+					<text>노예상은 당신의 관심을 눈치채고 여러가지 제안을 한다.</text>
 					<choice> <!--currently just uses the oddshop slave lists... probably fine...-->
-						<text>Buy a slave.</text>
+						<text>노예를 산다.</text>
 						<event load="PIRATE_ODDSHOP_SLAVE"/>
 					</choice>
 					<choice>
-						<text>Buy a slave.</text>
+						<text>노예를 산다</text>
 						<event load="PIRATE_ODDSHOP_SLAVE"/>
 					</choice>
 					<choice>
-						<text>Buy an elite slave.</text>
+						<text>정예 노예를 산다</text>
 						<event load="PIRATE_ODDSHOP_SLAVE_ELITE"/>
 					</choice>
 					<choice hidden="true">
-						<text>Nevermind.</text>
+						<text>됬습니다.</text>
 						<event/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Attack the slavers!</text>
+				<text>노예상인을 공격한다!</text>
 				<event>
-					<text>The Slavers might have thought they were safe here, but you've arrived and you aren't going to let their business carry on for any longer.</text>
+					<text>노예상인들은 여기가 안전하다고 생각했겠지만, 당신이 여기 도착했고 그들의 장사를 더 이상 계속되게 두지 않을 것이다.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
 						<text>계속...</text>
@@ -132,9 +132,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore the moon and signal.</text>
+		<text>위성과 신호를 무시한다.</text>
 		<event>
-			<text>It's more than clear this is some sort of slave trade, and you have no interest.</text>
+			<text>당신은 이 신호가 인신매매임이 틀림없음을 인지하고 관심을 가지지 않는다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -148,32 +148,32 @@
 </event>
 
 <event name="ABANDONED_COLONY" unique="true">
-	<text>An abandoned colony lies on the nearby planet; its surface borne defense turrets appear to be disabled due to a lack of power, but you can't be certain. You don't see any ships lurking about, but that doesn't mean they aren't hiding.</text>
+	<text>근처 행성에 버려진 식민지가 있다. 지대공 방어포탑이 전력부족으로 비활성화 된 것 처럼 보이지만, 확실하지 않다. 주변에 함선들도 없는 듯하지만, 어딘가에 숨어 있지 않으란 법은 없다.</text>
 	<img planet="PLANET_POPULATED"/>
 	<choice hidden="true">
 		<text>탐사한다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE"/>
 	</choice>
 	<choice hidden="true" req="PDS_DISABLE">
-		<text>(신호 약화기) Make certain the defense turrets are offline.</text>
+		<text>(신호 약화기) 방어 포탑이 비활성화 되었는지 확인한다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_NOTURRETS"/>
 	</choice>
 	<choice hidden="true" req="FLARE_DISTRACTION">
-		<text>(플레어) Launch some flares to distract the defense turrets while you 탐사한다.</text>
+		<text>(플레어) 탐사 할 동안 방어 포탑을 교란할 플레어를 발사한다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_NOTURRETS"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(고급 Sensors) Run some heavier scans on the colony.</text>
+		<text>(고급 Sensors) 식민지를 정밀 스캔해 본다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_SCANS"/>
 	</choice>
 	<choice hidden="true" req="ADV_SCANNERS">
-		<text>(장거리 센서) Run some heavier scans on the colony.</text>
+		<text>(장거리 센서) 식민지를 정밀 스캔해 본다.</text>
 		<event load="ABANDONED_COLONY_EXPLORE_SCANS"/>
 	</choice>
 	<choice>
-		<text>Ignore the colony.</text>
+		<text>식민지를 무시한다.</text>
 		<event>
-			<text>You don't have time to explore every abandoned colony you come across.</text>
+			<text>버려진 식민지들을 하나하나 다 탐사할 시간은 없다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -187,11 +187,11 @@
 </event>
 <eventList name="ABANDONED_COLONY_EXPLORE">
 	<event>
-		<text>It seems the turrets still had some juice in them after all. They lock onto your ship, pelting your defenses and causing some minor damage. You pull away before they can do anything worse.</text>
+		<text>방어포탑에 여태껏 전력이 약간 남아 있었던 모양이다. 포탑들은 당신의 함선을 자동 추적한 뒤 방어막에 공격을 퍼부어 약간의 손상을 입힌다. 포탑이 함선에 더한 짓을 벌이기 전에 당신은 떠난다.</text>
 		<damage amount="3"/>
 	</event>
 	<event>
-		<text>It turns out the colony was harbouring a pirate fugitive. Now that their cover has been blown, they protect themselves and attack you.</text>
+		<text>이 식민지는 도피중인 해적의 소굴이었다. 그들의 정체가 발각되자 그들은 자신을 보호한 뒤 당신을 공격한다.</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -199,13 +199,13 @@
 		</choice>
 	</event>
 	<event>
-		<text>Luckily the turrets remain offline and no ships rise to meet you. You take all that you can gather from the wreckage of the colony.</text>
+		<text>운 좋게도 방어포탑은 비활성화 되어있고 아무 함선도 당신을 반기지 않았다. 당신은 식민지에 잔해에서 수집 가능한 모든 물품을 가져간다.</text>
 		<autoReward level="MED">item</autoReward>
 	</event>
 </eventList>
 <eventList name="ABANDONED_COLONY_EXPLORE_NOTURRETS">
 	<event>
-		<text>It turns out the colony was harbouring a pirate fugitive. Now that their cover has been blown, they protect themselves and attack you.</text>
+		<text>이 식민지는 도피중인 해적의 소굴이었다. 그들의 정체가 발각되자 그들은 자신을 보호한 뒤 당신을 공격한다.</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -213,21 +213,21 @@
 		</choice>
 	</event>
 	<event>
-		<text>Luckily the turrets remain offline and no ships rise to meet you. You take all that you can gather from the wreckage of the colony.</text>
+		<text>>운 좋게도 방어포탑은 비활성화 되어있고 아무 함선도 당신을 반기지 않았다. 당신은 식민지의 잔해에서 수집 가능한 모든 물품을 가져간다.</text>
 		<autoReward level="MED">item</autoReward>
 	</event>
 </eventList>
 <eventList name="ABANDONED_COLONY_EXPLORE_SCANS">
 	<event>
-		<text>Scans show the turrets are still connected to a functioning backup generator. It's too risky to approach while they're active.</text>
+		<text>스캔 결과 방어 포탑들은 여전히 기능중인 예비 발전기에 연결되어 있었다. 이들이 활성화 되있는 동안 이 이상 접근은 너무 위험하다.</text>
 	</event>
 	<event>
-		<text>Seems a known pirate fugitive is hiding in the colony, but they haven't seen you yet.</text>
+		<text>도피중인 해적이 식민지에 숨어 있는 모양이지만, 그들은 당신을 발견하지 못한듯 하다.</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="false"/>
 		<choice hidden="true">
 			<text>해적과 전투한다.</text>
 			<event>
-				<text>Realizing that their cover has been blown, the pirates protect themselves and attack you.</text>
+				<text>그들은 자신의 정체가 발각됨을 알고, 자신을 보호한 뒤 당신을 공격한다..</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
 					<text>계속...</text>
@@ -236,14 +236,14 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Avoid the pirate and scrap some of the debris.</text>
+			<text>해적을 피하고 잔해에서 스크랩을 약간 가져간다.</text>
 			<event>
 				<autoReward level="MED">stuff</autoReward>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Scans show no ships detected and confirm the turrets are offline. You take all that you can gather from the wreckage of the colony.</text>
+		<text>스캔 결과 감지된 함선은 없었고 포탑은 비활성화 되어있음이 확인 되었다. 당신은 식민지의 잔해에서 수집 가능한 모든 물품을 가져간다.</text>
 		<autoReward level="MED">item</autoReward>
 	</event>
 </eventList>
@@ -271,7 +271,7 @@
 	</choice>
 </event>
 <textList name="TEXT_ENCOUNTER_LANIUS_ABANDONED">
-	<text>A Lanius vessel stops repurposing an abandoned satellite as soon as you jump in. It blocks all hails and powers its weapons.</text>
+	<text>당신이 도약해 들어오자마자 라니우스 함선 한대가 버려진 인공위성을 다른 용도로 개조하는 것을 멈춘다. 그들은 모든 통신수단을 막은 뒤 무기에 전원을 넣기 시작했다.</text>
 	<text>You arrive to see a well-armed Lanius craft preparing to salvage a badly damaged Rebel patrol ship. Noticing your arrival, the Lanius greedily moves in to intercept its second target of the day.</text>
 	<text>The Lanius don't pick and choose when it comes to their targets. If you've got scrap, they'll gladly take it from you. Unfortunately, you've been detected by a nearby Lanius ship that swoops in to attack.</text>
 	<text>Lanius aren't exactly known for friendliness, but an unusually aggressive military vessel has locked onto your ship and is readying its weapons.</text>
