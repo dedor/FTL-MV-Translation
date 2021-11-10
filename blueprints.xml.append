@@ -9208,7 +9208,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>MISSILES</type>
 	<title>크리스탈 파편</title>
 	<short>Crystal</short>
-	<desc>크리스탈 장갑의 투사체</desc>
+	<desc>크리스탈 장갑의 발사체</desc>
 	<tooltip>Should Never See This Description.</tooltip>
 	<damage>1</damage>
 	<missiles>0</missiles>
@@ -13564,7 +13564,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>레이저 빔</title>
 	<short>Laser Beam</short>
 	<tip>tip_beams</tip>
-	<desc>'진짜 과학'에 어긋나지 않는 아주 현실적인 빔입니다. 그리고 이게 진짜 레이저죠! 현실의 레이저는 젠장할 발사체를 쏘지 않아요. 왜 레이저랑 빔이 별개의 무기일까요, 레이저는 현실에서와 같이 플라즈마라던가 그런 거로 불려야 하는데. 그리고 왜 빔이 방어막에 충돌하는 거죠? 빔이 레이저고 레이저가 빛이라면 당연히 방어막을 통과할 수 있어야 하지 않나요? 방어막은 불투명하지 않아요, 그러니까 내 말은 방어막을 거의 완벽하게 꿰뚫어 볼 수 있으니 이 상황이 전혀 말이 안 돼요, 이런 질문을 피할 시간에 그냥 이 명백한 실수를 고쳐놔야 해요, 쳇.  A very realistic Beam that obeys REAL SCIENCE. And it's actually a Laser! Lasers don't shoot projectiles in real life, like what the hell. That doesn't even make sense. Why are Lasers and Beams separate weapons, lasers should be called plasma or something because that's what they really are. And why are beams impacted by shields? If beams are lasers and lasers are light shouldn't they be able to go through shields perfectly fine? It's not like shields are that opaque, I mean you can see through them almost perfectly, it literally makes no sense why is it like this, people really need to stop avoiding the question and just fix this obvious mistake, sheesh.</desc>
+	<desc>'진짜 과학'에 어긋나지 않는 아주 현실적인 빔입니다. 그리고 이게 진짜 레이저죠! 현실의 레이저는 젠장할 발사체를 쏘지 않아요. 왜 레이저랑 빔이 별개의 무기일까요, 레이저는 현실에서와 같이 플라스마라던가 그런 거로 불려야 하는데. 그리고 왜 빔이 방어막에 충돌하는 거죠? 빔이 레이저고 레이저가 빛이라면 당연히 방어막을 통과할 수 있어야 하지 않나요? 방어막은 불투명하지 않아요, 그러니까 내 말은 방어막을 거의 완벽하게 꿰뚫어 볼 수 있으니 이 상황이 전혀 말이 안 돼요, 이런 질문을 피할 시간에 그냥 이 명백한 실수를 고쳐놔야 해요, 쳇.  A very realistic Beam that obeys REAL SCIENCE. And it's actually a Laser! Lasers don't shoot projectiles in real life, like what the hell. That doesn't even make sense. Why are Lasers and Beams separate weapons, lasers should be called plasma or something because that's what they really are. And why are beams impacted by shields? If beams are lasers and lasers are light shouldn't they be able to go through shields perfectly fine? It's not like shields are that opaque, I mean you can see through them almost perfectly, it literally makes no sense why is it like this, people really need to stop avoiding the question and just fix this obvious mistake, sheesh.</desc>
 	<tooltip>Large beam that does 3 damage per room.</tooltip>
 	<damage>3</damage>
 	<sp>10</sp>
@@ -17270,7 +17270,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_mine</tip>
     <title>조각 발사기</title>
     <short>Shard</short>
-    <desc>폭발물이 탑재된 크리스탈 조각을 투사체로 사용하는 특수한 기뢰 사출기입니다. 탄약을 소모하지 않지만, 2겹의 방어막만을 관통할 수 있습니다.
+    <desc>폭발물이 탑재된 크리스탈 조각을 발사체로 사용하는 특수한 기뢰 사출기입니다. 탄약을 소모하지 않지만, 2겹의 방어막만을 관통할 수 있습니다.
 	
 	빈 송신소에서 5개의 탄약을 소모하여 반군의 추적을 1도약 지연시킬 수 있습니다. 악명에 영향을 주지 않습니다.</desc>
     <tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -17320,7 +17320,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>덩굴 발사기</title>
 	<short>Vines</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>더 느린 투사체를 발사하지만 충전이 더 빠른 기뢰 사출기입니다. 확률적으로 탄약을 소모하지 않는 기뢰로 개조된 낱알을 발사합니다.
+	<desc>발사체의 속도가 더 느리지만 충전이 더 빠른 기뢰 사출기입니다. 확률적으로 탄약을 소모하지 않는 기뢰로 개조된 낱알을 발사합니다.
 	
 	빈 송신소에서 무료로 반군의 추적을 1도약 지연시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -18385,11 +18385,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="ANCIENT_ION_1">
 	<type>LASER</type>
-	<flavorType>플라즈마 포</flavorType>
-	<title>플라즈마 포 마크 I</title>
+	<flavorType>플라스마 포</flavorType>
+	<title>플라스마 포 마크 I</title>
 	<short>Plasma I</short>
 	<tip>tip_ancient_plasma</tip>
-	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다.</desc>
+	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라스마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -18424,10 +18424,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="ANCIENT_ION_2">
 	<type>LASER</type>
 	<flavorType>Plasma Cannon</flavorType>
-	<title>플라즈마 포 마크 II</title>
+	<title>플라스마 포 마크 II</title>
 	<short>Plasma II</short>
 	<tip>tip_ancient_plasma</tip>
-	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다.</desc>
+	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라스마 볼트를 발사합니다. 심지어 방어막에 접촉하는 것 만으로도 방어막 제어실을 손상시킬 수 있습니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -18740,11 +18740,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="ROYAL_ION_2">
 	<type>LASER</type>
-	<flavorType>플라즈마 포</flavorType>
-	<title>플라즈마 포 마크 II</title>
+	<flavorType>플라스마 포</flavorType>
+	<title>플라스마 포 마크 II</title>
 	<short>Plasma II</short>
 	<tip>tip_ancient_plasma</tip>
-	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라즈마 볼트를 발사합니다.</desc>
+	<desc>이 독특한 무기는 이온 피해와 시스템 피해를 모두 가하는 플라스마 볼트를 발사합니다.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>0</damage>
 	<sysDamage>4</sysDamage>
@@ -22511,7 +22511,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Acc. Mod.</short>
 	<desc>헥타르 산업(TM) 브랜드의 정확도 속성 모듈입니다. 전투중에 당신의 무기가 목표를 더 잘 따라갈 것을 보장합니다.
 	모듈식 빔과 호환되지 않습니다.
-	레이저 효과: 각 투사체가 20%의 명중률 보정을 얻습니다.
+	레이저 효과: 각 발사체가 20%의 명중률 보정을 얻습니다.
 	미사일 효과: 미사일이 100%의 명중률 보정을 얻습니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
@@ -22534,7 +22534,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>A-Bio Mod.</short>
 	<desc>헥타르 산업(TM) 브랜드의 안티-바이오 상태 모듈입니다. 당신의 모듈식 무기를 완벽한 대인 병기로 개조해 보세요!
 	모든 제품과 호환됩니다. 함체 파괴 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다.
-	레이저 효과: 함체 피해량이 0이 되지만, 각 투사체가 30의 선원 피해를 입힙니다.
+	레이저 효과: 함체 피해량이 0이 되지만, 각 발사체가 30의 선원 피해를 입힙니다.
 	빔 효과: 함체 피해량이 0이 되지만, 60의 선원 피해를 입힙니다.
 	미사일 효과: 함체 피해량이 0이 되지만, 90의 선원 피해를 입힙니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
@@ -22624,7 +22624,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Stun Mod.</short>
 	<desc>헥타르 산업(TM) 브랜드의 신경 상태 모듈입니다. 당신의 모듈식 무기를 선원을 기절시키는 신경 무기로 개조해 보세요!
 	모든 제품과 호환됩니다.
-	레이저 효과: 레이저 투사체가 선원을 12초간 기절시킵니다. (중첩되지 않습니다)
+	레이저 효과: 레이저 발사체가 선원을 12초간 기절시킵니다. (중첩되지 않습니다)
 	빔 효과: 빔이 선원을 18초간 기절시킵니다.
 	미사일 효과: 미사일이 선원을 14초간 기절시킵니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
@@ -22648,7 +22648,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Fire Mod.</short>
 	<desc>헥타르 산업(TM) 브랜드의 방화 속성 모듈입니다. 당신의 모듈식 무기로 맹렬한 화재를 일으켜 보세요!
 	모든 제품과 호환됩니다.
-	레이저 효과: 각 투사체가 30%의 확률로 화재를 일으킵니다.
+	레이저 효과: 각 발사체가 30%의 확률로 화재를 일으킵니다.
 	빔 효과: 빔이 40%의 확률로 화재를 일으킵니다.
 	미사일 효과: 미사일이 100%의 확률로 화재를 일으킵니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
@@ -25169,7 +25169,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 I</title>
 	<short>Defense I</short>
-	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. Defense drone capable of targeting lasers or solid projectiles.
+	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다.
 	재장전: 600 MS</desc>
 	<power>2</power>
 	<cooldown>600</cooldown>
@@ -25189,7 +25189,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 II</title>
 	<short>Defense II</short>
-	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다. Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkI.
+	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다.
 	재장전: 400 MS</desc>
 	<power>3</power>
 	<cooldown>400</cooldown>
@@ -25209,8 +25209,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 III</title>
 	<short>Defense III</short>
-	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다. Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkII.
-	Reload: 150 MS</desc>
+	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다.
+	재장전: 150 MS</desc>
 	<power>4</power>
 	<cooldown>150</cooldown>
 	<dodge>0</dodge>
@@ -25229,7 +25229,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 III++</title>
 	<short>Defense III++</short>
-	<desc>레이저나 고형 투사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다. Defense drone capable of targeting lasers or solid projectiles. Shoots faster than the MkII.
+	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다.
 	재장전: 100 MS</desc>
 	<power>2</power>
 	<cooldown>100</cooldown>
@@ -26192,7 +26192,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 에너지</title>
 	<short>Amp E. [2]</short>
-	<desc>[현재 동력: 2] 에너지 투사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다. [CURRENT POWER: 2] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
+	<desc>[현재 동력: 2] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26226,7 +26226,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 에너지</title>
 	<short>Amp E. [3]</short>
-	<desc>[현재 동력: 3] 에너지 투사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다. [CURRENT POWER: 3] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
+	<desc>[현재 동력: 3] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26260,7 +26260,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 에너지</title>
 	<short>Amp E. [4]</short>
-	<desc>[현재 동력: 4] 에너지 투사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다. [CURRENT POWER: 4] Standard Amp drone that fires energy projectiles. More power increases damage and decreases movement speed.</desc>
+	<desc>[현재 동력: 4] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26752,7 +26752,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="AMPHI_COMBAT">
 	<type>COMBAT</type>
 	<tip>tip_toggle_amphi</tip>
-	<title>이중 드론 [전투]</title>
+	<title>앰피-드론 [전투]</title>
 	<short>Amphi [C]</short>
 	<desc>[현재 모드: 전투] 전투 전에 전투 모드 또는 방어 모드로 전환할 수 있는 특별한 토글 드론입니다.</desc>
 	<power>2</power>
@@ -26770,10 +26770,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>tip_toggle_amphi</tip>
-	<title>이중 드론 [방어]</title>
+	<title>앰피-드론 [방어]</title>
 	<short>Amphi [D]</short>
 	<desc>[현재 모드: 방어] 전투 전에 전투 모드 또는 방어 모드로 전환할 수 있는 특별한 토글 드론입니다.
-	Reload: 1300 MS</desc>
+	재장전: 1300 MS</desc>
 	<power>2</power>
 	<cooldown>1300</cooldown>
 	<dodge>0</dodge>
@@ -27066,8 +27066,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>감시자</title>
 	<short>Overwatcher</short>
-	<desc>다가오는 모든 투사체를 격추하는 고대의 방어 기술입니다.
-	Reload: 100 MS</desc>
+	<desc>다가오는 모든 발사체를 격추하는 고대의 방어 기술입니다.
+	재장전: 100 MS</desc>
 	<power>4</power>
 	<cooldown>100</cooldown>
 	<dodge>0</dodge>
@@ -27159,9 +27159,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ANCIENT_COMBAT_ION">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>플라즈마 드론 마크 I</title>
+	<title>플라스마 드론 마크 I</title>
 	<short>Plasma I</short>
-	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 이온 피해와 시스템 피해를 모두 가하는 플라즈마 기술로 무장했습니다.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 이온 피해와 시스템 피해를 모두 가하는 플라스마 기술로 무장했습니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27425,7 +27425,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_crew</tip>
 	<title>고대의 룸바 [방어]</title>
 	<short>Roomba [A]</short>
-	<desc>[현재 모드: 방어] 이 작은 드론은 전쟁 병기라 주장되지만, 당신에게는 지구의 오래된 청소기 기술처럼 보입니다. 정말 이상하죠.This tiny little thing is claimed to be a weapon of war, yet to you it looks akin to old Earth cleaning technology. How strange.</desc>
+	<desc>[현재 모드: 방어] 이 작은 드론은 전쟁 병기라 주장되지만, 당신에게는 지구의 오래된 청소기 기술처럼 보입니다. 정말 이상하죠.</desc>
 	<power>2</power>
 	<cost>60</cost>
 	<bp>3</bp>
@@ -27436,9 +27436,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>Ancient Roomba [Boarding]</title>
+	<title>고대의 룸바 [강습]</title>
 	<short>Roomba [B]</short>
-	<desc>[CURRENT MODE: Boarding] This tiny little thing is claimed to be a weapon of war, yet to you it looks akin to old Earth cleaning technology. How strange.</desc>
+	<desc>[현재 모드: 강습] 이 작은 드론은 전쟁 병기라 주장되지만, 당신에게는 지구의 오래된 청소기 기술처럼 보입니다. 정말 이상하죠.</desc>
 	<power>2</power>
 	<speed>40</speed>
 	<cost>60</cost>
@@ -27491,9 +27491,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ROYAL_COMBAT_LASER_2">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>Harbinger Drone MK II</title>
+	<title>하빈저 드론 마크 II</title>
 	<short>Harbing. II</short>
-	<desc>A drone that precedes all known drone tech. Appears to be equipped with Laser tech that does decent damage with extra system damage. Does more damage than the MK I.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 함체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다. 마크 I보다 큰 피해를 가합니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27547,9 +27547,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ROYAL_COMBAT_MISSILE">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>Carnage Drone</title>
+	<title>카니지 드론</title>
 	<short>Carnage D.</short>
-	<desc>An ancient Missile Drone. Appears to be equipped with some sort of personal rift tech from which it obtains an endless supply of missiles.</desc>
+	<desc>고대의 미사일 드론입니다. 끝없는 미사일 공급을 위해 일종의 personal rift 기술을 장착한 것으로 보입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27601,9 +27601,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="ROYAL_COMBAT_ION">
 	<type>COMBAT</type>
 	<tip>tip_ancient</tip>
-	<title>Plasma Drone MK I</title>
+	<title>플라스마 드론 마크 I</title>
 	<short>Plasma I</short>
-	<desc>A drone that precedes all known drone tech. It is armed with plasma tech that does both ion and system damage.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 이온 피해와 시스템 피해를 모두 가하는 플라스마 기술로 무장했습니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27621,10 +27621,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<level>1</level>
 	<target>LASERS</target>
 	<tip>tip_defense</tip>
-	<title>Overwatcher</title>
+	<title>감시자</title>
 	<short>Overwatcher</short>
-	<desc>Ancient Defense technology that fires at any incoming projectiles.
-	Reload: 50 MS</desc>
+	<desc>다가오는 모든 발사체를 격추하는 고대의 방어 기술입니다.
+	재장전: 50 MS</desc>
 	<power>5</power>
 	<cooldown>50</cooldown>
 	<dodge>0</dodge>
@@ -27650,9 +27650,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="SHIP_REPAIR">
 	<type>SHIP_REPAIR</type>
 	<tip>tip_drone_hullrepair</tip>
-	<title>Hull Repair</title>
+	<title>함체 수리 드론</title>
 	<short>Hull Repair</short>
-	<desc>Automatically repairs 3-5 damage to your hull. Drone part is consumed once it finishes.</desc>
+	<desc>자동으로 3-5의 함체 데미지를 수리합니다. 드론 부품은 수리 즉시 소모됩니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27772,9 +27772,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="LOOT_AUTO_1">
 	<type>COMBAT</type>
 	<tip>loot_auto_1</tip>
-	<title>Combat Drone Mark I</title>
+	<title>전투 드론 마크 I</title>
 	<short>Combat I</short>
-	<desc>Special loot drone. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27789,9 +27789,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="DRONE_BEAM_AUTO_LOOT_2">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Drone Beam</title>
+	<title>빔 드론</title>
 	<short>Drone Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
@@ -27809,9 +27809,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="LOOT_AUTO_2">
 	<type>COMBAT</type>
 	<tip>loot_auto_2</tip>
-	<title>Anti-Ship Beam Drone I</title>
+	<title>대함 빔 드론 마크 I</title>
 	<short>Beam I</short>
-	<desc>Special loot drone. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27828,9 +27828,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="DRONE_BEAM_LANIUS_LOOT">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>Drone Beam</title>
+	<title>빔 드론</title>
 	<short>Drone Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -27848,9 +27848,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="LOOT_LANIUS_1">
 	<type>COMBAT</type>
 	<tip>loot_lanius_1</tip>
-	<title>Anti-Ship Beam Drone I</title>
+	<title>대함 빔 드론 I</title>
 	<short>Beam I</short>
-	<desc>Special loot drone. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27894,9 +27894,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="LOOT_LANIUS_2">
 	<type>COMBAT</type>
 	<tip>loot_lanius_2</tip>
-	<title>Heavy Combat Drone</title>
+	<title>중형 전투 드론</title>
 	<short>Heavy C.</short>
-	<desc>Special loot drone. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27943,9 +27943,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>loot_engi_1</tip>
-	<title>Defense Drone Mark I</title>
+	<title>방어 드론 마크 I</title>
 	<short>Defense I</short>
-	<desc>Special loot drone. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<power>2</power>
 	<cooldown>910</cooldown>
 	<dodge>0</dodge>
@@ -27961,9 +27961,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="LOOT_ENGI_2">
 	<type>COMBAT</type>
 	<tip>loot_engi_2</tip>
-	<title>Combat Drone Mark I</title>
+	<title>전투 드론 마크 I</title>
 	<short>Combat I</short>
-	<desc>Special loot drone. See tooltip in the storage menu for special stats.</desc>
+	<desc>특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>8</dodge>
@@ -27995,12 +27995,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>loot_separatist_1</tip>
-	<title>Battle Drone [Anti-Pers]</title>
+	<title>대인 전투 드론 [방어]</title>
 	<short>Battle [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] Special loot drone. See tooltip in the storage menu for special stats.
+	<desc>[현재 모드: 방어] 특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
     
--175 HP, 1.1x combat damage
--Slowly repair itself out of combat</desc>
+-최대 체력 175, 대인 공격력 1.1배
+-전투중이지 않을 때 체력을 느리게 회복함</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -28011,12 +28011,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>loot_separatist_1</tip>
 	<locked>1</locked>
-	<title>Battle Drone [Boarding]</title>
+	<title>대인 전투 드론 [강습]</title>
 	<short>Battle [B]</short>
-	<desc>[CURRENT MODE: Boarding] Special loot drone. See tooltip in the storage menu for special stats.
+	<desc>[현재 모드: 강습] 특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
     
--175 HP, 1.1x combat damage
--Slowly repair itself out of combat</desc>
+-최대 체력 175, 대인 공격력 1.1배
+-전투중이지 않을 때 체력을 느리게 회복함</desc>
 	<power>2</power>
 	<speed>18</speed>
 	<cost>50</cost>
@@ -28033,10 +28033,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>DEFENSE</type>
 	<level>1</level>
 	<tip>tip_toggle_defense</tip>
-	<title>Trinity Drone [M]</title>
+	<title>트리니티 드론 [미사일]</title>
 	<short>Trinity [M]</short>
-	<desc>[Current Mode: Anti-Missile] This special drone can toggle between three separate modes of defense, shooting down missiles, drones, or all projectiles.
-	Reload: 300 MS</desc>
+	<desc>[현재 모드: 대 미사일] 이 특별한 드론은 미사일, 드론, 또는 모든 발사체를 격추하는 세가지 모드중 하나로 전환될 수 있습니다.
+	재장전: 300 MS</desc>
 	<power>3</power>
 	<cooldown>300</cooldown>
 	<dodge>0</dodge>
@@ -28053,10 +28053,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<target>DRONES</target>
 	<level>1</level>
 	<tip>tip_toggle_defense</tip>
-	<title>Trinity Drone [D]</title>
+	<title>트리니티 드론 [드론]</title>
 	<short>Trinity [D]</short>
-	<desc>[Current Mode: Anti-Drone] This special drone can toggle between three separate modes of defense, shooting down missiles, drones, or all projectiles.
-	Reload: 300 MS</desc>
+	<desc>[현재 모드: 대 드론] 이 특별한 드론은 미사일, 드론, 또는 모든 발사체를 격추하는 세가지 모드중 하나로 전환될 수 있습니다.
+	재장전: 300 MS</desc>
 	<power>3</power>
 	<cooldown>300</cooldown>
 	<dodge>0</dodge>
@@ -28073,10 +28073,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<target>LASERS</target>
 	<level>1</level>
 	<tip>tip_toggle_defense</tip>
-	<title>Trinity Drone [P]</title>
+	<title>트리니티 드론 [발사체]</title>
 	<short>Trinity [P]</short>
-	<desc>[Current Mode: Anti-Projectile] This special drone can toggle between three separate modes of defense, shooting down missiles, drones, or all projectiles.
-	Reload: 300 MS</desc>
+	<desc>[현재 모드: 대 발사체] 이 특별한 드론은 미사일, 드론, 또는 모든 발사체를 격추하는 세가지 모드중 하나로 전환될 수 있습니다.
+	재장전: 300 MS</desc>
 	<power>3</power>
 	<cooldown>300</cooldown>
 	<dodge>0</dodge>
@@ -28117,14 +28117,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>YinYang [Anti-Pers]</title>
+	<title>음양 드론 [방어]</title>
 	<short>YY [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] A toggle drone specialized for whichever task its operating, but never both at the same time.
+	<desc>[현재 모드: 방어] 현재 수행중인 임무에 특화되는 토글 드론입니다.
     
--200 HP, 1x combat damage, 2x movement speed
--Is healed at 5x speed, immune to hazards
--Heal friendly crew for 1hp/s
--Reveals adjacent rooms</desc>
+-최대 체력 200, 대인 공격력 1배, 이동 속도 2배
+-회복 속도 5배, 재해에 면역
+-아군 선원의 체력을 초당 1만큼 회복시킴
+-인접한 선실의 시야를 확보함</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -28135,13 +28135,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>YinYang [Boarding]</title>
+	<title>음양 드론 [강습]</title>
 	<short>YY [B]</short>
-	<desc>[CURRENT MODE: Boarding] A toggle drone specialized for whichever task its operating, but never both at the same time.
+	<desc>[현재 모드: 강습] 현재 수행중인 임무에 특화되는 토글 드론입니다.
     
--130 HP, 1.5x combat damage, 0.5x movement speed
--Detects lifeforms
--Slowly repair itself after 7s out of combat at 3hp/s</desc>
+-최대 체력 130, 대인 공격력 1.5배, 이동 속도 0.5배
+-생명체를 감지함
+-7초간 전투하지 않을 시 체력을 초당 3만큼 회복함</desc>
 	<power>2</power>
 	<speed>18</speed>
 	<cost>50</cost>
@@ -28163,13 +28163,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>Surgeon [Anti-Pers]</title>
+	<title>서전 드론 [방어]</title>
 	<short>Surg. [A]</short>
-	<desc>[CURRENT MODE: Anti-Personnel] A medical drone rewired by a murderous Rebel surgeon to be capable of combat.
+	<desc>[현재 모드: 방어] 반군 외과의가 전투를 수행할 수 있도록 다시 배선한 의료용 드론입니다.
     
--100 HP, 1.2x movement speed
--1.5x combat damage
--Heal nearby friendlies for 7hp/s</desc>
+-최대 체력 100, 이동속도 1.2배
+-대인 공격력 1.5배
+-주변 아군의 체력을 초당 7만큼 회복시킴</desc>
 	<power>2</power>
 	<cost>50</cost>
 	<bp>3</bp>
@@ -28180,13 +28180,13 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>Surgeon [Boarding]</title>
+	<title>서전 드론 [강습]</title>
 	<short>Surg. [B]</short>
-	<desc>[CURRENT MODE: Boarding] A medical drone rewired by a murderous Rebel surgeon to be capable of combat.
+	<desc>[현재 모드: 방어] 반군 외과의가 전투를 수행할 수 있도록 다시 배선한 의료용 드론입니다.
     
--100 HP, 1.2x movement speed
--1.5x combat damage
--Heal nearby friendlies for 7hp/s</desc>
+-최대 체력 100, 이동속도 1.2배
+-대인 공격력 1.5배
+-주변 아군의 체력을 초당 7만큼 회복시킴</desc>
 	<power>2</power>
 	<speed>18</speed>
 	<cost>50</cost>
