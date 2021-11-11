@@ -12089,7 +12089,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Hev. Ion</short>
 	<tip>tip_ion</tip>
 	<locked>1</locked>
-	<desc>충전이 느리지만 타격시 강한 이온 피해를 입히는 강력한 이온 무기입니다.</desc>
+	<desc>충전이 느리지만 타격시 큰 이온 피해를 입히는 강력한 이온 무기입니다.</desc>
 	<tooltip>2의 이온 피해를 입히는 블래스트를 한발 발사. 피격되는 방어막이나 시스템은 마비됨. Fires a single blast that does 2 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<spin>720</spin>
@@ -15100,7 +15100,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>LASER</type>
 	<flavorType>집중된 에너지 블래스트</flavorType>
 	<tip>tip_energy</tip>
-	<title>에너지 스터너</title>
+	<title>에너지 충격기</title>
 	<short>Stn Energy</short>
 	<locked>1</locked>
 	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 피격된 선실 안의 선원을 14초간 마비시킵니다.</desc>
@@ -15145,7 +15145,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>LASER</type>
 	<flavorType>집중된 에너지 블래스트</flavorType>
 	<tip>tip_energy</tip>
-	<title>에너지 스터너+</title>
+	<title>에너지 충격기+</title>
 	<short>Stn Energy+</short>
 	<locked>1</locked>
 	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 피격된 선실 안의 선원을 14초간 마비시킵니다.</desc>
@@ -19937,7 +19937,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION7">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'벌칸 II'</title>
+	<title>'발칸 II'</title>
 	<short>'Vulcan II'</short>
 	<tip>tip_chain_laser</tip>
 	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
@@ -21720,7 +21720,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 대공포 [화재]</title>
 	<short>Toggle [F]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 화재] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
+	<desc>[현재 모드: 화재] 빈 송신소에서 전환 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21766,7 +21766,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 대공포 [이온]</title>
 	<short>Toggle [E]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 이온] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
+	<desc>[현재 모드: 이온] 빈 송신소에서 전환 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21810,10 +21810,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<flavorType>토글 무기</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>토글 플랙 [독성]</title>
+	<title>토글 대공포 [독성]</title>
 	<short>Toggle [T]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 독성] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
+	<desc>[현재 모드: 독성] 빈 송신소에서 전환 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
