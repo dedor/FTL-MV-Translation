@@ -272,11 +272,11 @@
 </event>
 <textList name="TEXT_ENCOUNTER_LANIUS_ABANDONED">
 	<text>당신이 도약해 들어오자마자 라니우스 함선 한대가 버려진 인공위성을 다른 용도로 개조하는 것을 멈춘다. 그들은 모든 통신수단을 막은 뒤 무기에 전원을 넣기 시작했다.</text>
-	<text>You arrive to see a well-armed Lanius craft preparing to salvage a badly damaged Rebel patrol ship. Noticing your arrival, the Lanius greedily moves in to intercept its second target of the day.</text>
-	<text>The Lanius don't pick and choose when it comes to their targets. If you've got scrap, they'll gladly take it from you. Unfortunately, you've been detected by a nearby Lanius ship that swoops in to attack.</text>
-	<text>Lanius aren't exactly known for friendliness, but an unusually aggressive military vessel has locked onto your ship and is readying its weapons.</text>
-	<text>You stumble across a Lanius vessel melting down the last few remains of a heavily armed Zoltan peace-keeping fighter. Wanting to defend their latest score, they don't give you any opportunities and attack immediately.</text>
-	<text>A Lanius ship looking for easy salvage spots you and moves in to intercept.</text>
+	<text>당신은 도착하자 마자 심하게 손상된 반란군 정찰선을 인양하려는 라니우스 함선을 발견한다. 당신이 도착한 것을 발견하자마자, 라니우스들은 오늘의 두 번째 표적을 요격하기 위해 탐욕스럽게 다가온다.</text>
+	<text>라니우스는 목표물을 가리지 않는다. 스크랩이 있다면, 사양않고 갈취하려 들것이다. 불행히도 당신은 근처 라니우스 함선에게 발각되었고 당신을 공격하기 위해 움직이기 시작했다.</text>
+	<text>라니우스는 친근함으로 유명한 족속들은 아니지만, 유독 공격적인 라니우스 군 함선이 당신의 함선을 추적하여 무기를 장전하기 시작했다.</text>
+	<text>당신은 도착하자마자 중무장 졸탄 평화유지군 함선의 남은 잔해를 마저 녹이는 라니우스 함선과 마주친다. 따끈따끈한 노획물을 놓치고 싶지 않은 마음에 그들은 당신에게 틈조차 주지 않고 바로 공격한다.</text>
+	<text>만만한 노획감을 찾는 라니우스 함선이 당신을 요격하기 위해 움직이기 시작합니다.</text>
 </textList>
 
 <event name="ENCOUNTER_PIRATE_ABANDONED">
@@ -288,8 +288,8 @@
 	</choice>
 </event>
 <textList name="TEXT_ENCOUNTER_PIRATE_ABANDONED">
-	<text>If there's one thing pirates like more than anything, it's scrap. Though most come here to salvage empty ships, the one here has chosen to attack you instead.</text>
-	<text>A nearby pirate ship notices you. It abandons the wreck it's currently salvaging, hoping you'll be carrying a greater bounty.</text>
+	<text>해적들이 그 무엇보다 좋아하는 것이 있다면, 아마 스크랩일 것이다. 주로 그들은 빈 함선을 인양하지만, 이 함선은 특이하게도 당신을 공격하려 한다.</text>
+	<text>근처에 있던 해적선이 당신을 발견한다. 당신의 함선이 더 큰 It abandons the wreck it's currently salvaging, hoping you'll be carrying a greater bounty.</text>
 	<text>This sector has proven to be a magnet for pirates, an unfortunate fact that has led to the confrontation awaiting you at this beacon.</text>
 	<text>Few pirates can resist the temptation of a large bounty regardless of the risk, and it seems the pirate barreling towards you has given in.</text>
 	<text>It seems a pirate has found their way to this beacon already, and are eager for a fight.</text>
