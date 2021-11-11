@@ -384,7 +384,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="zoltan">
-    <desc>생각하기 귀찮지만, 모든 졸탄이 고형광선으로 이루어진 것은 아닙니다. 이 유기체들은 완전히 살과 뼈로 이루어져 있으며, 기술에 대해 비슷한 인식을 공유함에도 그들의 "우세한" 형제들에게 강한 원한을 가지고 있습니다.  Baffling to think - but the Zoltan weren't always hardlight. These organic creatures are entirely flesh and bone, and they have a strong resentment for their "ascended" brothers, though they share a similar appreciation of technology.</desc>
+    <desc>생각하기 귀찮지만, 모든 졸탄이 고형광선으로 이루어진 것은 아닙니다. 이 유기체들은 완전히 살과 뼈로 이루어져 있으며, 기술에 대해 비슷한 인식을 공유함에도 "우월한" 그들의 형제들에게 강한 원한을 가지고 있습니다.</desc>
     <title>오스미안 졸탄</title>
     <short>Osmian</short>
     <cost>45</cost>
@@ -458,7 +458,7 @@
 <crewBlueprint name="orchid">
 	<title>오키드 플로럴</title>
 	<short>Floral</short>
-	<desc>본디 Ctl'Yae라고 알려진 플로럴들은 산소를 공급하고 당신의 선원원들을 강화시켜주는 우호적인 종입니다.</desc>
+	<desc>본디 Ctl'Yae라고 알려진 플로럴들은 산소를 공급하고 당신의 선원들을 강화시켜주는 우호적인 종입니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
@@ -1202,7 +1202,7 @@
 </crewBlueprint>
 <crewBlueprint name="ponyt">
 	<desc>[길들여짐] 밝은 색상의 다리 여섯이 달린 말을 닮은 동물입니다. 절대로 포니는 아니지만 그렇게 여기셔도 상관없습니다.</desc>
-	<title>여섯발 에퀴노이드 [T]</title>
+	<title>여섯발 에퀴노이드 [길들여짐]</title>
 	<short>Equinoid [T]</short>
 	<cost>30</cost>
 	<rarity>0</rarity>
@@ -1455,7 +1455,7 @@
 	<short>Wraith</short>
 	<rarity>0</rarity>
 	<powerList>
-		<power>주기적 능력: 위치한 시스템에 2 이온 피해를 주고 주변의 자신을 제외한 모든 선원을 7초간 기절시킴. 체력이 80 미남일 때만 작동.</power>
+		<power>주기적 능력: 위치한 시스템에 2 이온 피해를 주고 주변의 자신을 제외한 모든 선원을 7초간 기절시킴. 체력이 80 미만일 때만 작동.</power>
 		<power>고스트 종족의 보편적인 저항,이동속도,최대 체력을 가짐. 시스템 파괴 속도 1.3배.</power>
 	</powerList>
 	<colorList>
@@ -2819,7 +2819,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="sylvansans">
-    <desc>끔찍한 씨간을 보내고 앂나요오오, 낯썬이여?</desc>
+    <desc>끔찍한 씨간을 보내고 앂나요오오, 낯썬이?</desc>
     <title>행상인</title>
     <short>Merchant</short>
     <cost>999</cost>
@@ -2880,7 +2880,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="sylvanleah">
-    <desc>이런 썅, 낯선놈! Beyatch, ssstranger!</desc>
+    <desc>이런 썅, 낯선이!</desc>
     <title>Traveling Nuisance</title>
     <short>Traveling Nuisance</short>
     <cost>999</cost>
@@ -2899,7 +2899,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>정말 강하지만, 불사신은 아닙니다. 그와 싸우기 위해 가능한 한 많은 승무원을 할애할 준비를 하십시오. Can take more than a few hits, but he's not immortal. Be prepared to dedicate as much crew as you can to fighting him.</power>
+        <power>맷집이 좋지만, 불사신은 아닙니다. 그와 싸우기 위해 가능한 한 많은 승무원을 할애할 준비를 하십시오.</power>
     </powerList>
 </crewBlueprint>
 
@@ -3011,7 +3011,7 @@
     <tip>tip_toggle_crew</tip>
     <title>가나</title>
     <short>Gana</short>
-    <desc>[현재 모드: 선원] 아카이브 주식회사에서 만든 유용한 보조 드론. 약간의 오작동을 보이며 "시스템"에 대해 끊임없이 불평하는것 같습니다. 아마 이것이 가나가 당신에게 주어진 이유겠죠.A helpful assistant drone created by Archive Inc. Seems to be slightly malfunctioning and constantly complaining about "systems", which is probably why he was given to you.
+    <desc>[현재 모드: 선원] 아카이브 주식회사에서 만든 유용한 보조 드론. 약간의 오작동을 보이며 "시스템"에 대해 끊임없이 불평하는것 같습니다. 아마 이것이 가나가 당신에게 주어진 이유겠죠.
     
 -대인 공격력 2배, 이동속도 1.75배
 -화재와 기절에 면역
@@ -3146,7 +3146,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="angel">
-    <desc>엘리트 용병 선원. 죽음의 천사들은 신디케이트의 가장 뛰어난 용병들로, 자비 없는 무자비한 살인마가 되도록 바엘에게 훈련받았습니다. 예민함은 필요한 자질중 하나입니다. The Angels of Death are the Syndicate's finest mercenaries, trained by Vael to be ruthless killers without mercy. The edginess is part of the job.</desc>
+    <desc>엘리트 용병 선원. 죽음의 천사들은 신디케이트의 가장 뛰어난 용병들로, 자비 없는 무자비한 살인마가 되도록 바엘에게 훈련받았습니다. 예민함은 필요한 자질중 하나입니다.</desc>
     <cost>125</cost>
     <title>엔젤</title>
     <short>Angel</short>
@@ -8007,10 +8007,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_ENGI_ADAPT">
-	<title>[L] Environmental Adaptation</title>
-	<desc>Your Engi are immune to suffocation.
+	<title>[L] 환경 적응성</title>
+	<desc>엔지가 질식에 대한 완전한 면역을 얻습니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>35</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8059,10 +8059,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_ZOLTAN_OVERCLOCK">
-	<title>[L] Overclocking</title>
-	<desc>Zoltans lose 40% of their health but provide double power.
+	<title>[L] 오버클록</title>
+	<desc>졸탄이 최대 체력의 40%를 잃지만 두배의 전력을 공급합니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>55</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8181,19 +8181,19 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_MANTIS_FIRE">
-	<title>[L] Fireflies</title>
-	<desc>Mantis gain 75% fire resistance, as well as a 20% sabotage buff. Suzerains and Bishops will take default fire damage during their ability.
+	<title>[L] 반딧불이</title>
+	<desc>맨티스가 75%의 화재 저항과 20%의 시스템 파괴 보너스를 얻습니다. 영주와 주교 맨티스는 능력 사용 중 기본값의 화염 피해를 입습니다.
 	
-[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="EX_LAB_SUZERAIN_SLAVES">
-    <title>[L] Slave Masters</title>
-    <desc>Engi repair speed is doubled for each Suzerain or Bishop in the room.
+    <title>[L] 노예주</title>
+    <desc>같은 선실에 있는 영주나 주교 맨티스마다 엔지의 수리 속도가 두 배가 됩니다.
     
-[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
     <cost>30</cost>
     <rarity>0</rarity>
     <stackable>false</stackable>
@@ -8234,10 +8234,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_ROCK_SKIN">
-	<title>[L] Obsidian Skin</title>
-	<desc>Rocks gain 33% max health but movespeed is reduced by 40%.
+	<title>[L] 흑요석 피부</title>
+	<desc>락맨의 최대 체력이 33% 증가하지만 이동 속도가 40% 감소합니다.
 	
-[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8278,10 +8278,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_CRYSTAL_SUFFOCATION">
-	<title>[L] Crystallized Hydrogen</title>
-	<desc>Crystals gain complete suffocation immunity.
+	<title>[L] 수소 결정화</title>
+	<desc>크리스탈 선원이 질식에 대한 완전한 면역을 얻습니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>35</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8446,10 +8446,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_LANIUS_HEALTH">
-	<title>[L] Experimental Alloy</title>
-	<desc>Lanius gain an extra 35% health, but their oxygen drain speed is quartered.
+	<title>[L] 실험적인 합금</title>
+	<desc>라니우스가 35%의 추가 체력을 얻지만, 산소 흡수 속도가 1/4이 됩니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8497,10 +8497,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_GHOST_FIRE">
-	<title>[L] Chemical Proliferation</title>
-	<desc>Ghosts heal from fire. Gouls heal at half the speed from fires of other Ghosts.
+	<title>[L] 화학적 확산</title>
+	<desc>고스트가 화재로부터 회복을 받습니다. 구울은 다른 고스트의 절반의 속도로 회복됩니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8541,10 +8541,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_MORPH_HEALTH">
-	<title>[L] Hulking Mass</title>
-	<desc>Morphs gain 50% extra health, but move at half speed.
+	<title>[L] 거대한 덩어리</title>
+	<desc>모프가 50%의 추가 체력을 얻지만, 이동속도가 절반이 됩니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>35</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8592,19 +8592,19 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="EX_LAB_SPIDER_SILK">
-	<title>[L] Silk Touch</title>
-	<desc>Spiders gain tripled repair speed, but have their combat damage reduced by 25%
+	<title>[L] 섬세한 손길</title>
+	<desc>거미의 수리속도가 3배가 되지만, 대인 공격력이 25% 감소합니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>35</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="EX_LAB_SPIDER_WEBS">
-	<title>[L] Webbing</title>
-	<desc>All non-spider crew move at 50% speed in the presence of spiders.
+	<title>[L] 거미줄 치기</title>
+	<desc>거미가 아닌 선원은 거미가 있는 선실에서 50%의 속도로 움직입니다.
 	
-	[L] - As an external lab upgrade, this augment will provide its normal effect but take up an augment slot. It cannot be converted into an actual lab upgrade, but will not consume your primary slot. Does not stack with itself.</desc>
+	[L] - 외장형 연구실 업그레이드로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 실제 연구실 업그레이드로 전환할 수 없으나, 1차 업그레이드 슬롯을 차지하지 않습니다. 중첩되지 않습니다.</desc>
 	<cost>55</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8933,7 +8933,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="SCRAP_HULL">
-	<title>모든것을 소모하는 탐욕</title>
+	<title>모든것을 먹어 치우는 탐욕</title>
 	<desc>스크랩 획득량이 50% 감소하지만 전투 시작 전에 선체를 무료로 수리할 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
@@ -9282,7 +9282,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SLUG_GEL">
 	<title>수리 젤</title>
-	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1 회복할 수 있습니다. Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1만큼 회복할 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9291,7 +9291,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_SLUG_GEL">
 	<title>수리 젤</title>
-	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1 회복할 수 있습니다.</desc>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1만큼 회복할 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9300,7 +9300,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="SLUG_GEL_SCANNER">
 	<title>슬러그 수리 젤+</title>
-	<desc>슬러그의 우주선에서 배출되는 젤은 선체에 난 구멍을 자동으로 막아줍니다. [Temp fix to saboteurs not working; Also reveals enemy crew]</desc>
+	<desc>슬러그의 우주선에서 배출되는 젤은 선체에 난 구멍을 자동으로 막아줍니다.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9562,7 +9562,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="ANCIENT_DNA">
 	<title>고대의 사이버네틱스</title>
-	<desc>아이테르로 만들어진 고급 사이버네틱스입니다. 기계로 이루어지지 않은 선원이 화재와 질식에 대해 추가적인 25%의 저항을 얻고 최대 체력이 20% 증가합니다. 그러나 이식된 사이버네틱스가 선원들의 회복 속도를 33% 감소시킵니다.  Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
+	<desc>아이테르로 만들어진 고급 사이버네틱스입니다. 기계로 이루어지지 않은 선원이 화재와 질식에 대해 추가적인 25%의 저항을 얻고 최대 체력이 20% 증가합니다. 그러나 이식된 사이버네틱스가 선원들의 회복 속도를 33% 감소시킵니다.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9579,7 +9579,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="ROYAL_SHIELD">
 	<title>우월한 방어막</title>
-	<desc>오벨리스크의 시그니처인 아이테르 방어막의 과충전 버전입니다. 10의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 45% 향상시킵니다. Overcharged version of the Obelisks' signature Aether shielding. Has an integrity of 10 hitpoints, and also boosts standard shield charge rate by 45%.</desc>
+	<desc>오벨리스크의 시그니처인 아이테르 방어막의 과충전 버전입니다. 10의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 45% 향상시킵니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9632,7 +9632,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="ANCIENT_COMBAT_EQUALIZER">
 	<title>고대의 이퀄라이저</title>
-	<desc>적과 플레이어 함선의 시스템을 시스템에 따라 0 또는 1 레밸로 제한하는 고대의 전투 보조장비입니다. 플레이어의 함선에는 제한하려는 시스템이 설치되어 있어야 합니다.  Ancient combat augment that limits a system on both the enemy and player ship to either 0 or 1 bar depending on the system. The player must have the system being targeted.</desc>
+	<desc>적과 플레이어 함선의 시스템을 선택한 시스템에 따라 0 또는 1 레밸로 제한하는 고대의 전투 보조장비입니다. 플레이어의 함선에는 제한하려는 시스템이 설치되어 있어야 합니다.</desc>
 	<cost>75</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9654,7 +9654,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="COMBAT_PANIC_BUTTON">
 	<title>패닉 버튼</title>
-	<desc>슬러그에 의해 당신의 함선에 설치된 아주 이상한 빨간 버튼입니다. 아래의 작은 플래카드에 굵은 글씨로 "돈을 돌려받지 못하기 때문에 만족이 보장됨"이라고 적혀 있습니다. A VERY STRANGE RED BUTTON INSTALLED ON YOUR SHIP BY SLUGS. A SMALL PLACARD UNDERNEATH SAYS IN ALL CAPS, "SATISFACTION GUARANTEED, BECAUSE YOU AREN'T GETTING YOUR MONEY BACK."</desc>
+	<desc>슬러그에 의해 당신의 함선에 설치된 아주 이상한 빨간 버튼입니다. 아래의 작은 플래카드에 굵은 글씨로 "돈을 돌려받지 못하기 때문에 만족이 보장됨"이라고 적혀 있습니다.</desc>
 	<cost>2</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9686,7 +9686,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="COMBAT_HAZARD">
 	<title>현실 조작기</title>
-	<desc>오벨리스크만이 이 기이하고 강력한 장치가 어떻게 작동하는지 이해할 수 있습니다. 현실을 조작하여 전투 전에 위험 요소를 소환할 수 있습니다. Only the Obelisks can understand how this strange and powerful device functions, but it is capable of manipulating reality to summon any hazard before combat.</desc>
+	<desc>오벨리스크만이 이 기이하고 강력한 장치가 어떻게 작동하는지 이해할 수 있습니다. 현실을 조작하여 전투 전에 위험 요소를 소환할 수 있습니다.</desc>
 	<cost>125</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9873,7 +9873,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SLUG_NARCOTICS">
 	<title>슬러그 환각제</title>
-	<desc>불법 마약 한 묶음입니다. 기함에 도달하기 전에 혼수 상태에 빠지고 싶은것이 아니라면 스스로는 사용할 이유가 없지만, 비싸게 되팔거나 슬러그들에게 뇌물로 쥐여줘 전투를 피할 수 있습니다. 왕의 성운 밖에서 사용할 수 없습니다.</desc>
+	<desc>불법 마약 한 묶음입니다. 기함에 도달하기 전에 혼수 상태에 빠지고 싶은것이 아니라면 스스로는 사용할 이유가 없지만, 비싸게 되팔거나 슬러그들에게 뇌물로 쥐여줘 전투를 피할 수 있습니다. 왕의 성운 밖에서는 사용할 수 없습니다.</desc>
 	<cost>90</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -12089,7 +12089,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Hev. Ion</short>
 	<tip>tip_ion</tip>
 	<locked>1</locked>
-	<desc>충전이 느리지만 타격시 강한 이온 피해를 입히는 강력한 이온 무기입니다.</desc>
+	<desc>충전이 느리지만 타격시 큰 이온 피해를 입히는 강력한 이온 무기입니다.</desc>
 	<tooltip>2의 이온 피해를 입히는 블래스트를 한발 발사. 피격되는 방어막이나 시스템은 마비됨. Fires a single blast that does 2 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<spin>720</spin>
@@ -15100,7 +15100,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>LASER</type>
 	<flavorType>집중된 에너지 블래스트</flavorType>
 	<tip>tip_energy</tip>
-	<title>에너지 스터너</title>
+	<title>에너지 충격기</title>
 	<short>Stn Energy</short>
 	<locked>1</locked>
 	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 피격된 선실 안의 선원을 14초간 마비시킵니다.</desc>
@@ -15145,7 +15145,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>LASER</type>
 	<flavorType>집중된 에너지 블래스트</flavorType>
 	<tip>tip_energy</tip>
-	<title>에너지 스터너+</title>
+	<title>에너지 충격기+</title>
 	<short>Stn Energy+</short>
 	<locked>1</locked>
 	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다. 이 무기는 피격된 선실 안의 선원을 14초간 마비시킵니다.</desc>
@@ -19443,7 +19443,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="SHOTGUN_GOLD">
 	<type>BURST</type>
-	<flavorType>물리적 탄환 블래스트</flavorType>
+	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>황금 대공포</title>
 	<tip>tip_flak</tip>
@@ -19490,12 +19490,12 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="SHOTGUN_GOLD_3">
 	<type>BURST</type>
-	<flavorType>물리적 탄환 블래스트</flavorType>
+	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>황금 대공포 마크 III</title>
 	<short>GF. III</short>
 	<tip>tip_flak</tip>
-	<desc>무작위 영역에 10개의 파편을 무더기로 발사합니다. 방어막을 벗기는데 효과적이지만 정확도가 낮습니다.</desc>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 10의 피해를 입힙니다. 방어막은 쉽게 벗기지만, 선체에는 잘 명중하지 않습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -19937,7 +19937,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="GATLING_VERSION7">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>'벌칸 II'</title>
+	<title>'발칸 II'</title>
 	<short>'Vulcan II'</short>
 	<tip>tip_chain_laser</tip>
 	<desc>개틀링 기관총은 예열 시간이 매우 길지만, 한번 쏘기 시작하면 충전 시간이 1초보다 작아집니다!</desc>
@@ -20908,7 +20908,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LOOT_LEECH_1">
 	<type>BURST</type>
-	<flavorType>물리적 탄환 블래스트</flavorType>
+	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>대공포 마크 I</title>
 	<short>Flak I</short>
@@ -21666,7 +21666,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="SHOTGUN_STEEL">
 	<type>BURST</type>
-	<flavorType>물리적 탄환 블래스트</flavorType>
+	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>강철 발사기</title>
 	<short>Steel</short>
@@ -21720,7 +21720,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 대공포 [화재]</title>
 	<short>Toggle [F]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 화재] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
+	<desc>[현재 모드: 화재] 빈 송신소에서 전환 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21766,7 +21766,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>토글 대공포 [이온]</title>
 	<short>Toggle [E]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 이온] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
+	<desc>[현재 모드: 이온] 빈 송신소에서 전환 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21810,10 +21810,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<flavorType>토글 무기</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>토글 플랙 [독성]</title>
+	<title>토글 대공포 [독성]</title>
 	<short>Toggle [T]</short>
 	<tip>tip_flak</tip>
-	<desc>[현재 모드: 독성] 빈 송신소에서 변경 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
+	<desc>[현재 모드: 독성] 빈 송신소에서 전환 가능한 세가지 모드를 가진 특별한 대공포입니다. 충전 속도, 소모 전력, 발사체 수는 모든 모드에서 동일합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>52</radius>
 	<damage>1</damage>
@@ -21856,7 +21856,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="SHELL_LAUNCHER">
 	<type>BURST</type>
-	<flavorType>물리적 탄환 블래스트</flavorType>
+	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
 	<title>독성 포드 발사기</title>
 	<tip>tip_flak</tip>
@@ -27216,7 +27216,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_ancient</tip>
 	<title>카니지 드론</title>
 	<short>Carnage D.</short>
-	<desc>고대의 미사일 드론입니다. 끝없는 미사일 공급을 위해 일종의 personal rift 기술을 장착한 것으로 보입니다.</desc>
+	<desc>고대의 미사일 드론입니다. 끝없는 미사일 공급을 위해 일종의 자체 절약 기술을 장착한 것으로 보입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27549,7 +27549,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_ancient</tip>
 	<title>카니지 드론</title>
 	<short>Carnage D.</short>
-	<desc>고대의 미사일 드론입니다. 끝없는 미사일 공급을 위해 일종의 personal rift 기술을 장착한 것으로 보입니다.</desc>
+	<desc>고대의 미사일 드론입니다. 끝없는 미사일 공급을 위해 일종의 자체 절약 기술을 장착한 것으로 보입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -28479,10 +28479,10 @@ MISC
 <weaponBlueprint name="ARTILLERY_LASER">
 	<type>LASER</type>
 	<flavorType>Artillery</flavorType>
-	<title>Laser Artillery</title>
+	<title>레이저 함포</title>
 	<short>Artillery</short>
-	<desc>Artillery: Fires a powerful barrage of 4 lasers that do 2 damage each.
-	Base Cooldown: 25</desc>
+	<desc>함포: 2의 피해를 가하는 4발의 레이저 세레를 퍼붓습니다.
+	기본 충전 속도: 25</desc>
 	<tooltip>Artillery: Fires a powerful barrage of 4 lasers that do 2 damage each.</tooltip>
 	<damage>2</damage>
 	<shots>6</shots>
@@ -28514,10 +28514,10 @@ MISC
 
 <weaponBlueprint name="ARTILLERY_BEAM">
 	<type>BEAM</type>
-	<title>Beam Artillery</title>
+	<title>빔 함포</title>
 	<short>Artillery</short>
-	<desc>Artillery: Powers a massive beam that pierces all shields, with a moderate breach and fire chance.
-	Base Cooldown: 40</desc>
+	<desc>함포: 모든 방어막을 무시하며 적절한 균열과 화재 발생 확률을 가진 무지막지한 빔을 가동합니다.
+	기본 충전 속도: 40</desc>
 	<tooltip>Artillery: Powers a massive beam that pierces all shields, with a moderate breach and fire chance.</tooltip>
 	<damage>1</damage>
 	<sp>10</sp>
@@ -28535,10 +28535,10 @@ MISC
 </weaponBlueprint>
 <weaponBlueprint name="ARTILLERY_BEAM_ELITE">
     <type>BEAM</type>
-	<title>Elite Beam Artillery</title>
+	<title>엘리트 빔 함포</title>
 	<short>Artillery</short>
-	<desc>Artillery: Powers a massive beam that does 2 damage and pierces all shields.
-	Base Cooldown: 40</desc>
+	<desc>함포: 모든 방어막을 관통하고 2의 피해를 입히는 무지막지한 빔을 가동합니다.
+	기본 충전 속도: 40</desc>
 	<tooltip>Artillery: Powers a massive beam that does 2 damage and pierces all shields.</tooltip>
 	<damage>2</damage>
 	<sp>10</sp>
@@ -28559,9 +28559,9 @@ MISC
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Artillery</title>
+	<title>대공포 함포</title>
 	<short>Artillery</short>
-	<desc>Artillery: Fires a burst of 8 flak projectiles.
+	<desc>함포: 8발의 우주쓰레기를 모아 발사합니다.
 	Base Cooldown: 30</desc>
 	<tooltip>Artillery: Fires a burst of 8 flak projectiles.</tooltip>
 	<radius>35</radius>
