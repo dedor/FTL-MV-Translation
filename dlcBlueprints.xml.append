@@ -188,8 +188,8 @@
 
 <systemBlueprint name="battery">
 	<type>battery</type>
-	<title>Backup Battery</title>
-	<desc>Provides a 30 second power boost to your Reactor. Upgrading increases the boost amount.</desc>
+	<title>비상용 배터리</title>
+	<desc>30초동안 반응로의 출력을 끌어올립니다. 업그레이드시 출력 증가량을 높입니다.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
 	<rarity>1</rarity>
@@ -202,8 +202,8 @@
 
 <systemBlueprint name="clonebay">
 	<type>clonebay</type>
-	<title>Clone Bay</title>
-	<desc>Automatically clones dead crew with skill penalty. Taking advantage of micro-cloning, crew heals partially every jump. Jump heal is passive and requires no power.  [IMPORTANT: level 4 can be upgraded at empty beacons if you are already at level 3.]</desc>
+	<title>클론 배양실</title>
+	<desc>사망한 승무원의 복제인간을 만들어냅니다. 되살아난 승무원은 일정량 숙련도가 깎입니다. 또한 세포 복제 기능을 이용해, 승무원들은 매 도약마다 일정량의 체력을 회복합니다. 이 회복은 상시 적용되며, 전력 공급이 필요없습니다.  [중요: 레밸 4는  먼저 레밸 3 업그레이드를 설치한 후 빈 송신소에서 업그레이드 할 수 있습니다.]</desc>
 	<startPower>1</startPower>
 	<maxPower>4</maxPower>
 	<rarity>1</rarity>
@@ -217,8 +217,8 @@
 
 <systemBlueprint name="hacking">
 	<type>hacking</type>
-	<title>Hacking</title>
-	<desc>Targets a single system, locking its doors and granting the ability to temporarily disable or disrupt it. Requires drone part to launch.</desc>
+	<title>해킹 장비</title>
+	<desc>시스템 하나를 목표로 하여, 해당 시스템이 탑재된 선실을 봉쇄하고 그 기능을 완전히 무력화하거나 부작용을 일으킵니다. 발사시 드론 부품을 소비합니다.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
 	<rarity>1</rarity>
@@ -231,8 +231,8 @@
 
 <systemBlueprint name="mind">
 	<type>mind</type>
-	<title>Mind Control</title>
-	<desc>Temporarily turn enemies into allies.</desc>
+	<title>정신지배 장비</title>
+	<desc>적 승무원을 잠시 아군으로 만듭니다.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
 	<rarity>1</rarity>
@@ -297,10 +297,10 @@
 	<value>0.5</value>
 </augBlueprint>
 <augBlueprint name="EX_EXPLOSIVE_REPLICATOR"> 
-	<title>Explosive Replicator [X]</title>
-	<desc>Missile based weapons have a 50 percent chance of not using a missile.
+	<title>폭발물 복제기 [X]</title>
+	<desc>미사일 무기를 발사할 때, 50% 확률로 미사일이 소비되지 않습니다.
     
-	[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu, in the Weapons category.</desc>
+	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드의 무기실 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -356,10 +356,10 @@
 
 <weaponBlueprint name="LASER_CHAINGUN">
 	<type>LASER</type>
-	<title>Chain Burst Laser</title>
+	<title>연쇄 레이저</title>
 	<short>Chain L.</short>
 	<tip>tip_chain_laser</tip>
-	<desc>This dual shot Laser decreases in cooldown the more it fires.</desc>
+	<desc>이 듀얼 레이저는 발사할 때마다 장전시간이 줄어듭니다.</desc>
 	<tooltip>Fires two lasers that deal 1 damage each. Cooldown drops the more it fires.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -444,10 +444,10 @@
 <weaponBlueprint name="LASER_CHAINGUN_2">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<title>Chain Vulcan</title>
+	<title>연사식 발칸</title>
 	<short>Vulcan</short>
 	<tip>tip_chain_laser</tip>
-	<desc>This Laser weapon takes a long time to warm up. Each time it fires it decreases the cooldown, eventually able to take down any amount of shields.</desc>
+	<desc>예열하는데 시간이 오래 걸리는 레이저 무기입니다. 발사할때마다 점점 장전시간이 감소하여, 나중엔 방어막을 무용지물로 만들어버립니다.</desc>
 	<tooltip>Cooldown drops the more it fires.</tooltip>
 	<radius>60</radius>
 	<damage>1</damage>
@@ -491,10 +491,10 @@
 
 <weaponBlueprint name="LASER_CHARGEGUN"> 
 	<type>LASER</type>
-	<title>Charge Laser MK I</title>
+	<title>충전식 레이저 마크 I</title>
 	<short>Charge-L I</short>
 	<tip>tip_charge</tip>
-	<desc>This Laser weapon can charge multiple projectiles, or fire its volley early.</desc>
+	<desc>발사체를 모아 발사할 수 있는 레이저 무기입니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -531,10 +531,10 @@
 
 <weaponBlueprint name="LASER_CHARGEGUN_2"> 
 	<type>LASER</type>
-	<title>Charge Laser MK II</title>
+	<title>충전식 레이저 마크 II</title>
 	<short>Charge-L II</short>
 	<tip>tip_charge</tip>
-	<desc>This Laser weapon can charge multiple projectiles, or fire its volley early.</desc>
+	<desc>발사체를 모아 발사할 수 있는 레이저 무기입니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 4.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -570,10 +570,10 @@
 </weaponBlueprint>
 <weaponBlueprint name="LASER_CHARGEGUN_2_PLAYER"> 
     <type>LASER</type>
-    <title>Charge Laser MK II+</title>
+    <title>충전식 레이저 마크 II+</title>
     <short>Charge-L II+</short>
     <tip>tip_charge</tip>
-    <desc>This Laser weapon can charge multiple projectiles, or fire its volley early.</desc>
+    <desc>발사체를 모아 발사할 수 있는 레이저 무기입니다.</desc>
     <tooltip>Fires more shots the more it charges, up to a max of 4.</tooltip>
     <damage>1</damage>
     <shots>1</shots>
@@ -610,11 +610,11 @@
 
 <weaponBlueprint name="ION_CHARGEGUN"> 
 	<type>LASER</type>
-	<flavorType>Ion Blast</flavorType>
-	<title>Ion Charger</title>
+	<flavorType>이온 블래스트</flavorType>
+	<title>충전식 이온</title>
 	<short>Charge I.</short>
 	<tip>tip_charge</tip>
-	<desc>This ion weapon can charge multiple times, giving it additional projectiles.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있는 이온 무기입니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
 	<damage>0</damage>
 	<spin>720</spin>
@@ -656,12 +656,12 @@
 
 <weaponBlueprint name="ION_CHAINGUN">
 	<type>LASER</type>
-	<flavorType>Ion Blast</flavorType>
-	<title>Chain Ion</title>
+	<flavorType>이온 블래스트</flavorType>
+	<title>연쇄 이온</title>
 	<short>Chain I.</short>
 	<locked>1</locked>
 	<tip>tip_chain_ion</tip>
-	<desc>This weapon's Ion damage increases each time it fires to a max of 4.</desc>
+	<desc>이 이온 무기는 발사할 때마다 입히는 데미지가 증가합니다. 최대 4까지 증가합니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<spin>720</spin>
@@ -713,10 +713,10 @@
 <weaponBlueprint name="BOMB_HEAL_SYSTEM">
     <type>BOMB</type>
     <tip>tip_repair_bomb</tip>
-    <title>Repair Burst</title>
+    <title>수리 폭탄</title>
     <short>Repair B.</short>
     <locked>1</locked>
-    <desc>Self-teleporting unit that floods a room with nano-bots capable of completely repairing all system damage as well as 2 points of hull damage.</desc>
+    <desc>선실 내로 텔레포트하여 폭발합니다. 폭발시 내장하고 있던 나노 로봇들이 흩어져, 손상된 시스템을 완전히 수리하고 함체를 2 회복시킵니다.</desc>
     <tooltip>Bomb weapon; requires a Missile; fully repairs system. Can target your own ship.</tooltip>
     <damage>-2</damage>
     <sysDamage>-8</sysDamage>
@@ -746,10 +746,10 @@
 <weaponBlueprint name="BOMB_HEAL_SYSTEM_STRONG">
     <type>BOMB</type>
     <tip>tip_repair_bomb</tip>
-    <title>Repair-Cluster™</title>
+    <title>수리 확산탄™</title>
     <short>Repair C.</short>
     <locked>1</locked>
-    <desc>Self-teleporting unit that floods a room with nano-bots capable of completely repairing all system damage as well as 2 points of hull damage. Modified version that repairs more hull per shot and charges quicker.</desc>
+    <desc>선실 내로 텔레포트하여 폭발합니다. 폭발시 내장하고 있던 나노 로봇들이 흩어져, 손상된 시스템을 완전히 수리하고 함체를 회복시킵니다. 더 많은 함체를 수리하고 더 빠르게 충전되는 개조된 버전입니다.</desc>
     <tooltip>Bomb weapon; requires a Missile; fully repairs system. Can target your own ship.</tooltip>
     <damage>-3</damage>
     <sysDamage>-8</sysDamage>
@@ -779,10 +779,10 @@
 <weaponBlueprint name="BOMB_STUN"> 
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Stun Bomb</title>
+	<title>기절 폭탄</title>
 	<short>Stun B.</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive that does 1 ion damage and stuns all crew inside the room. Can target your own ship.</desc>
+	<desc>상대 함선의 내부로 텔레포트시켜 폭파하는 무기입니다. 1의 이온 피해를 입히고 선실 내부에 모든 선원을 기절시킵니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 1 ion damage. Stuns all crew inside the room. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<stun>12</stun>
@@ -821,9 +821,9 @@
 	<flavorType>Charge Blast Missile</flavorType>
 	<tip>tip_charge</tip>
 	<drone_targetable>1</drone_targetable>
-	<title>Swarm Missiles</title>
+	<title>스웜 미사일</title>
 	<short>Swarm</short>
-	<desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads.</desc>
+	<desc>시간만 충분하다면, 스웜 발사기는 미사일을 여러개 복제하여 한꺼번에 발사할 수 있습니다.</desc>
 	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
 	<radius>31</radius>
 	<missiles>1</missiles>
@@ -866,10 +866,10 @@
 	<type>BURST</type>
 	<flavorType>Charge Blast Missile</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Swarm Missiles+</title>
+	<title>스원 미사일+</title>
 	<tip>tip_charge</tip>
 	<short>Swarm+</short>
-	<desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads.</desc>
+	<desc>시간만 충분하다면, 스웜 발사기는 미사일을 여러개 복제하여 한꺼번에 발사할 수 있습니다.</desc>
 	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
 	<radius>31</radius>
 	<missiles>1</missiles>
@@ -914,9 +914,9 @@
 	<tip>tip_charge</tip>
 	<flavorType>Charge Blast Missile</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Swarm Missiles Mk II</title>
+	<title>스웜 미사일 마크 II</title>
 	<short>Swarm II</short>
-	<desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads. The Mark 2 charges faster and can fire an extra shot!</desc>
+	<desc>시간만 충분하다면, 스웜 발사기는 미사일을 여러개 복제하여 한꺼번에 발사할 수 있습니다. 마크 II는 충전이 더 빠르고 미사일을 한발 더 모을 수 있습니다!</desc>
 	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
 	<radius>40</radius>
 	<missiles>1</missiles>
@@ -964,10 +964,10 @@
 <weaponBlueprint name="ION_STUN">
 	<type>LASER</type>
 	<tip>tip_ion_stun</tip>
-	<title>Stunner MK I</title>
+	<title>충격기 마크 I</title>
 	<short>Stun I</short>
 	<locked>1</locked>
-	<desc>Stun weapons function much like normal ions, but also temporarily paralyze crew in the same room that they hit.</desc>
+	<desc>충격기는 평범한 이온 무기와 비슷하게 기능하며 피격된 선실 안의 선원들을 잠시 기절시킵니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<stun>7</stun>
 	<damage>0</damage>
@@ -1009,10 +1009,10 @@
 <weaponBlueprint name="ION_STUN_2">
 	<type>LASER</type>
 	<tip>tip_ion_stun</tip>
-	<title>Stunner MK II</title>
+	<title>충격기 마크 II</title>
 	<short>Stun II</short>
 	<locked>1</locked>
-	<desc>Stun weapons function much like normal ions, but also temporarily paralyze crew in the same room that they hit.</desc>
+	<desc>충격기는 평범한 이온 무기와 비슷하게 기능하며 피격된 선실 안의 선원들을 잠시 기절시킵니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<stun>7</stun>
 	<damage>0</damage>
@@ -1054,11 +1054,11 @@
 <weaponBlueprint name="ION_STUN_HEAVY">
 	<type>LASER</type>
 	<flavorType>Ion Blast</flavorType>
-	<title>Heavy Stunner</title>
+	<title>중형 충격기</title>
 	<short>Hev. Stun</short>
 	<tip>tip_ion_stun</tip>
 	<locked>1</locked>
-	<desc>A heavy hitting ion weapon which charges much slower, but does significantly more ion damage on impact. Also has additional stun properties.</desc>
+	<desc>충전이 느리지만 타격시 큰 이온 피해를 입히는 강력한 이온 무기입니다. 피격된 선실 안의 선원을 기절시킵니다.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
@@ -1100,10 +1100,10 @@
 <weaponBlueprint name="ION_STUN_CHARGEGUN"> 
 	<type>LASER</type>
 	<flavorType>Ion Blast</flavorType>
-	<title>Charge Stunner</title>
+	<title>충전식 충격기</title>
 	<short>Charge S.</short>
 	<tip>tip_charge</tip>
-	<desc>This ion weapon can charge multiple times, giving it additional projectiles. Also has additional stun properties.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있는 이온 무기입니다. 피격된 선실 안의 선원을 기절시킵니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
 	<stun>10</stun>
 	<damage>0</damage>
@@ -1145,10 +1145,10 @@
 <weaponBlueprint name="ION_STUN_CHARGEGUN_PLAYER"> 
 	<type>LASER</type>
 	<flavorType>Ion Blast</flavorType>
-	<title>Charge Stunner+</title>
+	<title>충전식 충격기+</title>
 	<short>Charge S.+</short>
 	<tip>tip_charge</tip>
-	<desc>This ion weapon can charge multiple times, giving it additional projectiles. Also has additional stun properties.</desc>
+	<desc>발사체를 모아 한꺼번에 발사할 수 있는 이온 무기입니다. 피격된 선실 안의 선원을 기절시킵니다.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
 	<stun>10</stun>
 	<damage>0</damage>
@@ -1206,10 +1206,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Mini Flak Gun</title>
+	<title>소형 대공포</title>
 	<short>M. Flak</short>
 	<tip>tip_flak</tip>
-	<desc>A small, lower power Flak cannon that shoots 2 projectiles and recharges quickly.</desc>
+	<desc>빠른 충전 속도로 2발의 발사체를 쏘는 작은 저전력 대공포입니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>42</radius>
 	<damage>1</damage>
@@ -1253,10 +1253,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark I</title>
+	<title>대공포 마크 I</title>
 	<short>Flak I</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 3의 피해를 입힙니다. 방어막은 쉽게 벗기지만, 선체에는 잘 명중하지 않습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>1</damage>
@@ -1300,10 +1300,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark I+</title>
+	<title>대공포 마크 I+</title>
 	<short>Flak I+</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 3의 피해를 입힙니다. 방어막은 쉽게 벗기지만, 선체에는 잘 명중하지 않습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>1</damage>
@@ -1348,10 +1348,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark II</title>
+	<title>대공포 마크 II</title>
 	<short>Flak II</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 5 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 5의 피해를 입힙니다. 방어막은 쉽게 벗기지만, 선체에는 잘 명중하지 않습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -1396,10 +1396,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark III</title>
+	<title>대공포 마크 III</title>
 	<short>Flak III</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 8 damage. Good at taking down shields but hard to aim.</desc>
+	<desc>우주쓰레기를 모아 발사합니다. 범위 내에 무작위로 8의 피해를 입힙니다. 방어막은 쉽게 벗기지만, 선체에는 잘 명중하지 않습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -1450,10 +1450,10 @@
 	<drone_targetable>1</drone_targetable> 
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Charger</title>
+	<title>충전식 플랙</title>
 	<tip>tip_charge</tip>
 	<short>Flak Ch.</short>
-	<desc>A specialized Flak cannon that can charge up to 3 shots!</desc>
+	<desc>탄환을 3발까지 모을 수 있는 특수한 대공포입니다!</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>45</radius>
 	<damage>1</damage>
@@ -1497,10 +1497,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Chain Flak Gun</title>
+	<title>연쇄 대공포</title>
 	<tip>tip_flak</tip>
 	<short>Chain F.</short>
-	<desc>Fires 3 projectiles in a random area that excel at taking down shields. Each shot reduces the cooldown.</desc>
+	<desc>방어막을 벗기는데 탁월한 3발의 발사체를 범위내에 무작위로 발사합니다. 발사할 때마다 충전 시간이 줄어듭니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>42</radius>
 	<damage>1</damage>
@@ -1550,10 +1550,10 @@
 	<type>BURST</type>
 	<flavorType>Preemptive Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Pre-emptive Flak</title>
+	<title>선제 플랙</title>
 	<tip>tip_flak</tip>
 	<short>Pre-Flak</short>
-	<desc>This shotgun weapon uses no power, charges instantly, and fires a burst of 7 flak projectiles at once. However, it can only be shot once per battle.</desc>
+	<desc>이 산탄 무기는 전력을 소비하지 않고, 즉시 충전되며, 한번에 7발의 우주쓰레기를 모아 발사합니다. 그러나, 한 전투에 한번만 사용할 수 있습니다. This shotgun weapon uses no power, charges instantly, and fires a burst of 7 flak projectiles at once. However, it can only be shot once per battle.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>125</radius>
 	<damage>1</damage>
@@ -1608,10 +1608,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Ignited Flak Gun</title>
+	<title>불타는 대공포</title>
 	<short>Fire Flak</short>
 	<tip>tip_flak</tip>
-	<desc>Fires 4 flaming projectiles that have an increased chance to start a fire.</desc>
+	<desc>높은 화재 발생 확률을 가진 4발의 불타는 우주쓰레기를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -1656,10 +1656,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Electrified Flak Gun</title>
+	<title>전화된 대공포</title>
 	<short>Ion Flak</short>
 	<tip>tip_flak</tip>
-	<desc>Fires 3 projectiles that are supercharged and do 1 additional ion damage.</desc>
+	<desc>3발의 과충전된 우주쓰레기를 발사해 1의 추가적인 이온 피해를 입힙니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -1705,10 +1705,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Toxic Flak Gun</title>
+	<title>독성 대공포</title>
 	<short>Tox Flak</short>
 	<tip>tip_flak</tip>
-	<desc>Fires 4 radioactive projectiles which do normal hull damage as well as high crew damage and sometimes erode the hull enough to create a breach.</desc>
+	<desc>높은 선원 피해를 가하고 때때로 함체를 부식시켜 균열을 일으키는 4발의 방사성 우주쓰레기를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -1753,10 +1753,10 @@
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Toxic Flak Gun+</title>
+	<title>독성 대공포+</title>
 	<short>Tox Flak+</short>
 	<tip>tip_flak</tip>
-	<desc>Fires 4 radioactive projectiles which do normal hull damage as well as high crew damage and sometimes erode the hull enough to create a breach.</desc>
+	<desc>높은 선원 피해를 가하고 때때로 함체를 부식시켜 균열을 일으키는 4발의 방사성 우주쓰레기를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -1872,10 +1872,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Empt]</title>
+	<title>클론 대포 [비어있음]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [Empt]</short>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Currently has no crew assigned.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 현재 배정된 선원이 없습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -1918,10 +1918,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Baby]</title>
+	<title>클론 대포 [아이들]</title>
 	<short>Cloner [B]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. The babies aren't actually being cloned, by the way. There's just a lot of corpses.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 그런데, 아이들은 사실 복제되지 않습니다. 단지 시체가 정말 많을 뿐이죠. The babies aren't actually being cloned, by the way. There's just a lot of corpses.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>100</radius>
 	<damage>0</damage>
@@ -1963,11 +1963,11 @@
 <weaponBlueprint name="CLONE_CANNON_ANCIENT">
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
-	<title>Clone Cannon [Ancient]</title>
+	<title>클론 대포 [고대인]</title>
 	<short>Cloner [A]</short>
 	<tip>tip_clone_cannon</tip>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. It's no glamorous existence, but your Ancient has no choice.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 귀티나는 일은 아니지만, 당신의 고대인은 선택권이 없습니다. It's no glamorous existence, but your Ancient has no choice.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>40</radius>
 	<damage>2</damage>
@@ -2010,11 +2010,11 @@
 <weaponBlueprint name="CLONE_CANNON_AVATAR">
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
-	<title>Clone Cannon [Cognitive]</title>
+	<title>클론 대포 [코그니티브]</title>
 	<short>Cloner [C]</short>
 	<tip>tip_clone_cannon</tip>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. It's no glamorous existence, but your Cognitive has no choice.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 귀티나는 일은 아니지만, 당신의 코그니티브는 선택권이 없습니다. It's no glamorous existence, but your Cognitive has no choice.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>40</radius>
 	<damage>2</damage>
@@ -2058,10 +2058,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Augmented]</title>
+	<title>클론 대포 [증강자]</title>
 	<short>Cloner [A]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>1</damage>
@@ -2105,10 +2105,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Bish]</title>
+	<title>클론 대포 [주교]</title>
 	<short>Cloner [B]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -2151,10 +2151,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Chief]</title>
+	<title>클론 대포 [치프틴]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Why does the plant start fires? Irony.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2198,10 +2198,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Clan]</title>
+	<title>클론 대포 [클랜원]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2245,10 +2245,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Com]</title>
+	<title>클론 대포 [특공대]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2291,10 +2291,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Crus]</title>
+	<title>클론 대포 [크루세이더]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>2</damage>
@@ -2339,10 +2339,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Cry]</title>
+	<title>클론 대포 [크리스탈]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2386,10 +2386,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [SSLG]</title>
+	<title>클론 대포 [SSLG]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2432,10 +2432,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Cult]</title>
+	<title>클론 대포 [이교도]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2478,10 +2478,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Def]</title>
+	<title>클론 대포 [수비대]</title>
 	<short>Cloner [D]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Your defender's shield will protect it from being shot by defense drones.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 수비대의 방어막이 방어 드론에게 격추되는것을 막아줄 것입니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2528,10 +2528,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Dusk]</title>
+	<title>클론 대포 [Dusk]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [D]</short>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Don't worry about the resident Duskbringer, he enjoys it.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 장착된 더스크브링어는 걱정하지 않아도 됩니다, 즐기고 있거든요. Don't worry about the resident Duskbringer, he enjoys it.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2575,10 +2575,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Eng]</title>
+	<title>클론 대포 [기술자]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [E]</short>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2622,10 +2622,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Engi]</title>
+	<title>클론 대포 [엔지]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [E]</short>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2668,10 +2668,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Phantom]</title>
+	<title>클론 대포 [팬텀]</title>
 	<short>Cloner [P]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2714,10 +2714,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Phantom Alpha]</title>
+	<title>클론 대포 [알파 팬텀]</title>
 	<short>Cloner [PA]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2760,10 +2760,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Goul]</title>
+	<title>클론 대포 [구울]</title>
 	<short>Cloner [G]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2805,10 +2805,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Goul Alpha]</title>
+	<title>클론 대포 [알파 구울]</title>
 	<short>Cloner [GA]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2850,10 +2850,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Mare]</title>
+	<title>클론 대포 [메어]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2895,10 +2895,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Mare Alpha]</title>
+	<title>클론 대포 [알파 메어]</title>
 	<short>Cloner [MA]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2940,10 +2940,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Wraith]</title>
+	<title>클론 대포 [레이스]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2985,10 +2985,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Wraith Alpha]</title>
+	<title>클론 대포 [알파 레이스]</title>
 	<short>Cloner [WA]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3031,10 +3031,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Hatch]</title>
+	<title>클론 대포 [새끼 거미]</title>
 	<short>Cloner [H]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Turns out, tiny spiders don't make good projectiles, but at least they distract defense drones.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 조그마한 새끼 거미는 좋은 발사체가 아니지만, 적어도 방어드론의 주의를 끌 수는 있습니다. Turns out, tiny spiders don't make good projectiles, but at least they distract defense drones.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -3075,10 +3075,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Human]</title>
+	<title>클론 대포 [인간]</title>
 	<short>Cloner [H]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -3120,10 +3120,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Lan]</title>
+	<title>클론 대포 [라니우스]</title>
 	<short>Cloner [L]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -3168,10 +3168,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Mant]</title>
+	<title>클론 대포 [맨티스]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3214,10 +3214,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Free Mantis]</title>
+	<title>클론 대포 [독립 맨티스]</title>
 	<short>Cloner [FM]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3260,10 +3260,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Med]</title>
+	<title>클론 대포 [의무병]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3306,10 +3306,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Monk]</title>
+	<title>클론 대포 [수도승]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3352,10 +3352,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Orch]</title>
+	<title>클론 대포 [오키드]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Why does the plant start fires? Irony.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3399,10 +3399,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Vamp]</title>
+	<title>클론 대포 [뱀프위드]</title>
 	<short>Cloner [V]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Why does the plant start fires? Irony.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3445,10 +3445,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Out]</title>
+	<title>클론 대포 [망명자]</title>
 	<short>Cloner [O]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3491,10 +3491,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Peace]</title>
+	<title>클론 대포 [평화지킴이]</title>
 	<short>Cloner [P]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3538,10 +3538,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Equinoid]</title>
+	<title>클론 대포 [에퀴노이드]</title>
 	<short>Cloner [E]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3583,10 +3583,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Crystal Equinoid]</title>
+	<title>클론 대포 [크리스탈 에퀴노이드]</title>
 	<short>Cloner [CE]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3630,10 +3630,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Queen]</title>
+	<title>클론 대포 [여왕 거미]</title>
 	<short>Cloner [Q]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. You don't want to imagine how many eggs line the inside of this cannon now.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 얼마나 많은 알들이 대포속에 줄지어 있을 지 상상조차 하기 싫습니다. You don't want to imagine how many eggs line the inside of this cannon now.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -3676,10 +3676,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Rad]</title>
+	<title>클론 대포 [찬란한 셸]</title>
 	<short>Cloner [R]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -3722,10 +3722,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Radic]</title>
+	<title>클론 대포 [급진파]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [R]</short>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Don't worry about the resident Duskbringer, he enjoys it.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 장착된 더스크브링어는 걱정하지 않아도 됩니다, 즐기고 있거든요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3769,10 +3769,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Devorak]</title>
+	<title>클론 대포 [데보락]</title>
 	<short>Cloner [D]</short>
 	<tip>tip_clone_cannon</tip>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. Don't worry about Devorak, he enjoys it.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 데보락은 걱정하지 마세요, 즐기고 있거든요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3816,10 +3816,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Ranger]</title>
+	<title>클론 대포 [레인저]</title>
 	<short>Cloner [R]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3863,10 +3863,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Rock]</title>
+	<title>클론 대포 [락맨]</title>
 	<short>Cloner [R]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3909,10 +3909,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Sabo]</title>
+	<title>클론 대포 [공작원]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3957,10 +3957,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Sent]</title>
+	<title>클론 대포 [감시병]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4005,10 +4005,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Clone Cannon [Sep]</title>
+	<title>클론 대포 [분리주의자]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [S]</short>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4052,10 +4052,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Shell]</title>
+	<title>클론 대포 [셸]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -4098,10 +4098,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Shell Mechanic]</title>
+	<title>클론 대포 [셸 정비공]</title>
 	<short>Cloner [SM]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>-3</damage>
@@ -4141,10 +4141,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Shell Scientist]</title>
+	<title>클론 대포 [셸 과학자]</title>
 	<short>Cloner [SS]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -4186,10 +4186,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Shell Guardian]</title>
+	<title>클론 대포 [셸 수호자]</title>
 	<short>Cloner [SG]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -4233,10 +4233,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Slug]</title>
+	<title>클론 대포 [슬러그]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4280,10 +4280,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Hektar]</title>
+	<title>클론 대포 [헥타르]</title>
 	<short>Cloner [H]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -4327,10 +4327,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Soldier]</title>
+	<title>클론 대포 [솔져]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4374,10 +4374,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Spid]</title>
+	<title>클론 대포 [거미]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>0</damage>
@@ -4419,10 +4419,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Suz]</title>
+	<title>클론 대포 [영주]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -4465,10 +4465,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Warlord]</title>
+	<title>클론 대포 [장군]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -4511,10 +4511,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Symb]</title>
+	<title>클론 대포 [심바이오트]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works. At least now your Symbiote's life is slightly less miserable than it was before.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 심바이오트의 삶은 적어도 이전보다 약간 덜 비참해졌습니다. At least now your Symbiote's life is slightly less miserable than it was before.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4559,10 +4559,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Weav]</title>
+	<title>클론 대포 [직공]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>30</radius>
 	<damage>0</damage>
@@ -4604,10 +4604,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Weld]</title>
+	<title>클론 대포 [웰더]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -4653,10 +4653,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Zolt]</title>
+	<title>클론 대포 [졸탄]</title>
 	<short>Cloner [Z]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4700,10 +4700,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Leech]</title>
+	<title>클론 대포 [리치]</title>
 	<short>Cloner [L]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4748,10 +4748,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>Clone Cannon [Ampere]</title>
+	<title>클론 대포 [암페어]</title>
 	<short>Cloner [A]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>No weapon has ever sparked a larger ethical controversy, but if it works it works.</desc>
+	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4806,9 +4806,9 @@
     <type>SHIELD</type>
     <level>1</level>
     <tip>tip_defense</tip>
-    <title>Energized Overcharger</title>
+    <title>활성화된 방어막 생성기</title>
     <short>Overcharger</short>
-    <desc>A specialized Defense Drone which can charge additional Energy Shield points. Cannot exceed the maximum of 5 unless a stronger Energy Shield augment is present.</desc>
+    <desc>추가적인 에너지 방어막을 충전할 수 있는 특수한 드론입니다. 고급 에너지 방어막 보조장비를 가지고 있는것이 아니라면 최대 5겹까지 충전할 수 있습니다. A specialized Defense Drone which can charge additional Energy Shield points. Cannot exceed the maximum of 5 unless a stronger Energy Shield augment is present.</desc>
     <power>1</power>
     <cooldown>0</cooldown> <!--doesn't work-->
     <dodge>0</dodge>
@@ -4824,9 +4824,9 @@
     <type>SHIELD</type>
     <level>1</level>
     <tip>tip_defense</tip>
-    <title>Overconserver</title>
+    <title>방어막 과다 보존기</title>
     <short>Overconserver</short>
-    <desc>A specialized Defense Drone which can charge additional Energy Shield points.  Cannot exceed the maximum of 5 unless a stronger Energy Shield augment is present. Modified to not use any power.</desc>
+    <desc>추가적인 에너지 방어막을 충전할 수 있는 특수한 드론입니다. 고급 에너지 방어막 보조장비를 가지고 있는것이 아니라면 최대 5겹까지 충전할 수 있습니다. 전력을 소모하지 않도록 개조되었습니다.</desc>
     <power>0</power>
     <cooldown>0</cooldown> <!--doesn't work-->
     <dodge>0</dodge>
