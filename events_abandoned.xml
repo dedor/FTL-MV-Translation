@@ -331,7 +331,7 @@
 </textList>
 
 <event name="ENCOUNTER_MILITIA_ABANDONED" unique="true">
-	<text>이 구역을 필사적으로 방어하려던 근처 민병대 함선이 당신을 mistake and identified you as a scavenger. You don't have time to explain because they've muted comms and are moving in quickly.</text>
+	<text>이 구역을 필사적으로 방어하려던 근처 민병대 함선이 실수로 당신을 스캐빈저로 오인한다. 이미 재빠르게 접근 중인데다 모든 교신수단을 막아버려 당신은 자초지종을 설명할 시간이.</text>
 	<ship load="SHIP_MILITIA_FIGHT" hostile="true"/>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -349,7 +349,7 @@
 </eventList>
 
 <event name="ENCOUNTER_GHOST_ABANDONED_ASTEROID" unique="true">
-	<text>It seems a Ghost ship has come to this asteroid field looking for a new ship to acquire. It seems they're willing to settle with yours, despite the hazard here.</text>
+	<text>고스트 함선이 새로운 함선을 손에 넣기위해 이 소행성 지대에 진입한듯 하다. 위험지대임에도 불구하고 당신의 함선으로 만족할 심산인듯 하다.</text>
 	<ship load="SHIP_GHOST_ALL" hostile="true"/>
 	<environment type="asteroid"/>
 	<choice hidden="true">
@@ -359,7 +359,7 @@
 </event>
 
 <event name="ENCOUNTER_LANIUS_ABANDONED_SUN" unique="true">
-	<text>A Lanius ship hails you, spouting nonsense about the nearby star. "Heat... die, must not stay!" You think they're trying to warn you, but they're attacking as well. You're confused on their motives but you have no choice but to defend your ship.</text>
+	<text>라니우스 함선이 당신에게 교신하여 근처 항성에 대한 헛소리를 늘어놓는다. "열기....죽는다, 머물러서는 안됨!" 당신은 그들이 경고하는 것으로 알아들었으나, 동시에 공격할 준비또한 하고 있다. 당신은 그들의 동기가 무엇인지 혼란스러워 하지만 지금은 함선을 방어할수 밖에 없다.</text>
 	<ship load="SHIP_LANIUS_GENERIC" hostile="true"/>
 	<environment type="sun"/>
 	<choice hidden="true">
@@ -386,20 +386,20 @@
 </eventList>
 
 <event name="ABANDONED_CIVILIAN_LOST_ITEMS" unique="true">
-	<text>A civilian ship hails you, requesting you do them a favor. "You're operating on Federation comms, so we hope you support what the Federation stands for. We were some of the civilians forced to evacuate this sector, but we left some important personal items behind. This ship isn't designed for combat, and it is dangerous for us to be here. Could you grab our belongings? We'll pay you of course."</text>
+	<text>민간 함선이 부탁을 들어달라며 당신과 교신한다. "보아하니 연방 통신망을 운용하고 있군요. 연방의 대의를 위해 당신이 도움을 주었으면 합니다. 저희는 이 구역을 부득이하게 대피할 수 밖에 없었던 민간인들입니다만, 그 과정에서 중요한 개인물품을 두고 와버렸습니다. 저희 함선은 전투용 함선이 아닐뿐더러, 여기 있으면 위험에 처하게 됩니다. 저희 물품을 회수해 주실수 있겠습니까? 물론 사례는 해드리겠습니다."</text>
 	<choice hidden="true">
-		<text>Agree to grab their things.</text>
+		<text>그들의 물품을 회수해 주기로 한다.</text>
 		<event>
-			<text>You approach the colony; a hostile Vagabond ship comes flying out to meet you!</text>
+			<text>당신은 식민지에 접근한다. 적대적인 베가본드 함선이 당신을 반기러 출격한다!</text>
 			<ship load="SHIP_GHOST_LOST_ITEMS" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 			<choice hidden="true" req="LIST_CREW_VAGABOND">
-				<text>(Vagabond 선원) Reason with the aggressive ship.</text>
+				<text>(Vagabond 선원) 적대적인 함선 선원을 설득한다.</text>
 				<event>
-					<text>Your Vagabond convinces the other Ghosts to stand down. They might be loose-cannon scavengers, but it seems they're more interested in protecting themselves than actually fighting you.</text>
+					<text>당신의 베가본드 선원이 고스트들을 물러나도록 설득한다. 그들은 어디로 튈지 모르는 스캐빈저들이라고 하지만, 당신과 진짜 싸우는거보다 그들 자신을 보호하고 싶어 하는듯 하다.</text>
 					<ship hostile="false"/>
 					<choice hidden="true">
 						<text>계속...</text>
@@ -410,9 +410,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>We can't help.</text>
+		<text>도와줄수 없다.</text>
 		<event>
-			<text>The civilians are disappointed but say they understand.</text>
+			<text>민간인들은 실망하지만 이해한다고 한다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -425,7 +425,7 @@
 	</choice>
 </event>
 <event name="ABANDONED_CIVILIAN_LOST_ITEMS_WIN">
-	<text>You dig through the withering settlements until you find the items in question, a few family photos, a box of children's toys, and a replica sword of some obscure Mantis warlord. The civilians are pleased and pay you.</text>
+	<text>당신은 가족사진 몇장, 아이들 장난감 한 상자, 그리고 무명의 맨티스 장군이 휘두르던 검 모조품 등의 부탁받은 물품을 찾을때까지 황폐해진 민간인 거주지를 파헤친다. 민간인들은 흡족해 하며 사례해 준다.</text>
 	<autoReward level="MED">standard</autoReward>
 </event>
 
@@ -433,9 +433,9 @@
 	<text load="ABANDONED_PIRATE_CIVILIAN_TEXT"/>
 	<ship load="SHIP_PIRATE_CIVILIAN_LANIUS" hostile="false"/>
 	<choice hidden="true">
-		<text>Attack the pirate.</text>
+		<text>해적을 공격한다.</text>
 		<event>
-			<text>You charge your weapons, which quickly gets the pirate ship's attention.</text>
+			<text>당신은 무기를 장전하기 시작하고, 이내 해적선의 관심을 끌게 된다.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -444,9 +444,9 @@
 		</event>
 	</choice>
 	<choice req="FLARE_DISTRACTION" hidden="true">
-		<text>(플레어) Use the flares to make a distraction so the Civilian ship can escape.</text>
+		<text>(플레어) 플레어를 발사해 민간인 함선이 탈출할 틈을 만들어 준다.</text>
 		<event>
-			<text>The pirate is startled by the sudden barrage of flares but quickly realizes he isn't alone. Uncertain where the flares are coming from, the pirate flees rather than take the risk of fighting a bigger ship.</text>
+			<text>해적은 갑작스런 플레어 탄막에 놀라지만 혼자가 아님을 재빠르게 알아차린다. 플레어가 어디서 날아오는지 모른체 그는 더큰 함선을 싸우는 위험을 감수하지 않고 도망간다.</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event load="SAVE_CIVILIAN_LIST"/>
@@ -454,9 +454,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid the conflict.</text>
+		<text>갈등을 피한다.</text>
 		<event>
-			<text>Unfortunately it is not your mission to save every person affected by this war or the Lanius invasion.</text>
+			<text>불행히도 당신에게는 이 전쟁이나 라니우스 침략에 피해를 입은 모든 사람을 구할 의무는 없다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -469,18 +469,18 @@
 	</choice>
 </event>
 <textList name="ABANDONED_PIRATE_CIVILIAN_TEXT">
-	<text>You discover an abandoned mining facility in the process of being 'acquired' by pirate scavengers. However, you immediately receive a call from a civilian transport vessel, "Help! We were trying to escape only to be caught by pirates!" You see a lone pirate ship boarding the civilian craft.</text>
-	<text>A pirate ship emerges from hiding after you and another ship jump into the area. Sensors show the pirates ran a quick scan of your ship's weapon system before flying off to pursue the unarmed civilian ship.</text>
-	<text>A pirate ship is firing on the small ships docked at a refueling station. They are broadcasting on a wide band channel. You catch the captain's rant mid-speed, "...saw you trading with those damned scavengers. I'll show you what happens when you try and undercut the Red Giant gang!"</text>
+	<text>당신은 해적들에게 막 "인수"당할 위기에 처한 폐광시설을 발견한다. 하지만 그러자 마자 당신은 민간 수송선에서 온 통신을 수신한다; "도와주세요! 이곳을 탈출하려다 도리어 해적한테 붙잡혔어요!" 당신은 민간 함선에 탑승하는 해적선 한대를 발견한다.</text>
+	<text>해적선 한 대가 당신을 피해 숨다 나타난다. 또 다른 해적선 한대가 도약해 들어온다. 센서들이 감지한 결과 해적들이 비무장 민간 함선을 추적하려 도주하기 전 이미 당신의 무기 시스템을 빠르게 스캔한 것으로 보인다.</text>
+	<text>해적선 한대가 주유소에 정박한 소형 함선들을 공격하고 있다. 그들은 광대역 채널에서 방송중이다. 당신은 해적선장이 한창 불평을 늘어놓는 도중 방송을 듣는다. "....니들 다 빌어먹을 스캐빈저 놈들하고 거래하는거 내가 봤다. 레드 자이언트단을 약화시키려 들면 어떻게 되는지 본보기를 보여주마!"</text>
 </textList>
 
 <event name="ABANDONED_LANIUS_AUTO_REBEL" unique="true">
-	<text>You come across a Lanius ship in the process of absorbing a Rebel automated scout. If you scare off the Lanius you could probably make use of it.</text>
+	<text>당신은 반란군 무인 정찰선을 흡수하고 있는 라니우스 함선을 포착한다. 라니우스 함선을 겁주면 정찰선을 활용할수 있을지도 모른다.</text>
 	<ship load="SHIP_LANIUS_AUTO" hostile="false"/>
 	<choice hidden="true">
 		<text>함선과 전투한다.</text>
 		<event>
-			<text>You power up your weapons, which quickly gets the attention of the ship.</text>
+			<text>당신은 무기를 장전하고, 이내 라니우스 함선의 관심을 끈다.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -489,17 +489,17 @@
 		</event>
 	</choice>
 	<choice req="LIST_CREW_LANIUS" hidden="true">
-		<text>(라니우스 선원) Request access to the Auto-ship first.</text>
+		<text>(라니우스 선원) 무인함선에 접근 권한을 요청한다.</text>
 		<event>
-			<text>The other Lanius at first become territorial, refusing to give up the Auto, but when you explain you only intend to download the data stores, the Lanius oblige. You find the Auto-ship still has a fully functional system to warn the fleet on your location, so you feed it false data and download the map information.</text>
+			<text>라니우스 함선 선원들은 무인선을 포기하지 않으려고 방어적으로 나온다.하지만 그들에게 데이터 저장소만 다운로드 하려고 설명하자 수긍한다. 당신은 무인선에 여전히 반란군 함대에 당신의 좌표를 송신할 시스템이 가동중이라는 것을 알고 거짓 데이터를 입력한뒤 지도 정보만 빼간다.</text>
 			<modifyPursuit amount="-1"/>
 			<reveal_map/>
 		</event>
 	</choice>
 	<choice req="FLARE_DISTRACTION" hidden="true">
-		<text>(플레어) Use the flares to guide the Lanius away from the auto.</text>
+		<text>(플레어) 플레어를 발사해 라니우스 함선을 무인선으로 부터 떨어지게 한다.</text>
 		<event>
-			<text>You've heard stories the Lanius have poor eyesight and poor attention spans, and where that's true or not, this lanius certainly is drawn to your flares. It moves away from the auto temporarily to chase the disc, giving you just enough time to move in closer.</text>
+			<text>당신은 라니우스가 시력 및 집중능력이 떨어진다는 소문을 익히 들었다. 하지만 그 낭설이 사실이든 아니든 지금 맞닥뜨린 라니우스는 당신이 발사한 플레어에 정신이 팔렸다. 그들은 플레어 원반을 쫒기 위해 무인선에서 떨어지고, 당신에게 딱 접근만 할 시간을 벌어준다.</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event load="LANIUS_AUTO_REBEL_LIST"/>
@@ -509,7 +509,7 @@
 	<choice hidden="true">
 		<text>내버려 둔다.</text>
 		<event>
-			<text>Whatever assistance the disabled scout could provide is not worth the risk of fighting another Lanius. You prepare to move on.</text>
+			<text>비활성화된 무인선이 어떤 도움을 줄수 있다 하더라도 라니우스 함선을 싸울 위험을 감수할 도움은 아닐것이다. 당신은 이동할 준비를 한다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -523,27 +523,27 @@
 </event>
 <eventList name="LANIUS_AUTO_REBEL_LIST">
 	<event>	
-		<text>You are able to retrieve a significant amount of data about the surrounding beacons from the scout before you scrap it.</text> 
+		<text>당신은 무인선을 폐기하기전 주변 신호소들과 관련해 상당한 양의 데이터를 입수할수 있었다.</text> 
 		<autoReward level="low">scrap_only</autoReward>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>You find the ship has a built-in method of warning the Rebel fleet of contact with your ship. You feed it some false data about your ship's whereabouts that should keep the fleet off your tail for a time.</text>
+		<text>당신은 무인선이 당신의 함선과 접촉했다는 사실을 반란군 함대에게 알릴 방법이 내장되어 있다는 사실을 알게된다. 당신은 함선에 대한 거짓 좌표 데이터를 무인선에 입력하여 잠시나마 반란군 함대의 추적을 지연시킬수 있을 것이다.</text>
 		<autoReward level="low">scrap_only</autoReward>
 		<modifyPursuit amount="-1"/>
 	</event>
 </eventList>
 
 <event name="ABANDONED_LANIUS_GROUP_AUTO" unique="true">
-	<text>You notice a number of Lanius ships absorbing a forward Rebel base and its automated scouts. They don't seem to be aggressive. Perhaps their desire for metal could prove to be useful?</text>
+	<text>당신은 라니우스 함선 수 척이 반란군 전초기지와 무인 정찰선을 흡수하는 것을 목격한다. 그들은 딱히 공격적으로 보이진 않는다. 라니우스가 금속을 원하는 erhaps their desire for metal could prove to be useful?</text>
 	<choice hidden="true">
-		<text>Try to use them to delay the Rebels.</text>
+		<text>라니우스를 이용해 반란군 함대를 지연시키려 해본다.</text>
 		<event load="LANIUS_GROUP_AUTO_LIST"/>
 	</choice>
 	<choice hidden="true">
 		<text>내버려 둔다.</text>
 		<event>
-			<text>You decide it would be better to leave them be.</text>
+			<text>당신은 이들을 내버려 두는게 더 낫다고 생각한다.</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -555,7 +555,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_LANIUS">
-		<text>(라니우스 선원) Try to use them to delay the Rebels.</text>
+		<text>(라니우스 선원) 라니우스를 이용해 반란군 함대를 지연시키려 해본다.</text>
 		<event>
 			<text>Your crewmember tells them of the approaching fleet and the number of automated ships they use to scout ahead. They thank you for the tip and prepare to jump in the direction you came. That will hopefully delay the fleet. You scrap what remains of the Rebel station.</text>
 			<autoReward level="MED">standard</autoReward>
