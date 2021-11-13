@@ -276,7 +276,7 @@
 	<text>라니우스는 목표물을 가리지 않는다. 스크랩이 있다면, 사양않고 갈취하려 들것이다. 불행히도 당신은 근처 라니우스 함선에게 발각되었고 당신을 공격하기 위해 움직이기 시작했다.</text>
 	<text>라니우스는 친근함으로 유명한 족속들은 아니지만, 유독 공격적인 라니우스 군 함선이 당신의 함선을 추적하여 무기를 장전하기 시작했다.</text>
 	<text>당신은 도착하자마자 중무장 졸탄 평화유지군 함선의 남은 잔해를 마저 녹이는 라니우스 함선과 마주친다. 따끈따끈한 노획물을 놓치고 싶지 않은 마음에 그들은 당신에게 틈조차 주지 않고 바로 공격한다.</text>
-	<text>만만한 노획감을 찾는 라니우스 함선이 당신을 요격하기 위해 움직이기 시작합니다.</text>
+	<text>만만한 노획감을 찾는 라니우스 함선이 당신을 요격하기 위해 움직이기 시작.</text>
 </textList>
 
 <event name="ENCOUNTER_PIRATE_ABANDONED">
@@ -289,11 +289,11 @@
 </event>
 <textList name="TEXT_ENCOUNTER_PIRATE_ABANDONED">
 	<text>해적들이 그 무엇보다 좋아하는 것이 있다면, 아마 스크랩일 것이다. 주로 그들은 빈 함선을 인양하지만, 이 함선은 특이하게도 당신을 공격하려 한다.</text>
-	<text>근처에 있던 해적선이 당신을 발견한다. 당신의 함선이 더 큰 It abandons the wreck it's currently salvaging, hoping you'll be carrying a greater bounty.</text>
-	<text>This sector has proven to be a magnet for pirates, an unfortunate fact that has led to the confrontation awaiting you at this beacon.</text>
-	<text>Few pirates can resist the temptation of a large bounty regardless of the risk, and it seems the pirate barreling towards you has given in.</text>
-	<text>It seems a pirate has found their way to this beacon already, and are eager for a fight.</text>
-	<text>Surprisingly, a pirate ship scavenging an old Militia Transport abandons its latest prey in favor of fighting you instead.</text>
+	<text>근처에 있던 해적선이 당신을 발견한다. 당신의 함선이 더 값진 전리품이 될 것을 기대하고 그들은 폐선 인양을 멈춘다.</text>
+	<text>이 구역은 해적을 자석마냥 끌어들인다. 이 신호소에서 당신이 맞닥뜨릴 대치상황을 예견한, 불편한 진실이 아닐수 없다.</text>
+	<text>위험이 어찌됬든 값진 전리품의 유혹을 참을수 있는 해적은 몇 안될 것이다. 지금 당신을 향해 돌진하는 해적은 그 유혹에 굴복한 듯 하다.</text>
+	<text>해적이 벌써 이 신호소에 도달한 듯 하고, 전투를 간절히 바라고 있다.</text>
+	<text>낡은 민병대 수송선을 뒤지던 해적선은 그들에 굴복한 사냥감을 내버리고, 대신 놀랍게도 당신과 싸우려 한다.</text>
 </textList>
 
 <event name="ENCOUNTER_GHOST_ABANDONED">
@@ -305,12 +305,12 @@
 	</choice>
 </event>
 <textList name="TEXT_ENCOUNTER_GHOST_ABANDONED">
-    <text>Ghosts love getting their hands on new ships, and usually they go for easier pickings. Despite this, the Vagabond ship here seems ready to migrate and they've chosen your ship as their target.</text>
-    <text>It's beyond you why most Ghosts choose to populate barely functional wreckage, but it seems the hostile ship here has slightly higher standards and have chosen to take yours next.</text>
-    <text>You receive a hail from a dysfunctional and heavily damaged ship, but the only audible noise is static. You attempt to respond but somehow seem to have angered the populates of the ship, a clan of Ghosts.</text>
-    <text>The range of ships you see here keeps growing, and it seems 'wreck full of mad gas beings' can be added to the list.</text>
-    <text>Ghosts aren't known for being super confrontational, but when they find a ship that piques their interest, they aren't shy to try and take it. Clearly, you've made quite the impression out here.</text>
-    <text>You nearly make the mistake of attempting to salvage the wreckage at this beacon before realizing it's populated by Ghosts, but it's already too late. They've noticed you now and move in to attack.</text>
+    <text>고스트는 새로운 함선을 손에 넣는 것을 매우 좋아하고, 주로 만만한 함선을 목표로 삼는다. 그럼에도 불구하고,이 베가본드 함선 선원들은 이주 준비를 마치고 당신의 함선을 이주지로 선택했다.</text>
+    <text>고스트가 도대체 왜 제기능조차 제대로 못하는 난파선 따위에 거주하는지 당신은 도무지 이해하지 못한다. 하지만 지금 당신 앞에 있는 적 함선의 선원들은 그들보다 눈높이가 약간 높아 당신의 함선을 목표물로 삼는다.</text>
+    <text>당신은 심각하게 손상된 함선에서 신호를 받지만, 잡음밖에 들리지 않는다. 당신이 응답 시도를 하지만 웬일인지 주거하던 고스트 일족의 분노를 산다.</text>
+    <text>이 구역에서 발견한 함선 목록이 가면갈수록 두꺼워 지고 있다. 아마 '미쳐버린 기체 생명체가 가득한 난파선'항목을 추가해도 될듯 하다.</text>
+    <text>고스트는 호전성으로 알려진 족속은 아니다. 하지만 그들의 구미를 당기는 함선을 발견하면, 사양않고 탈취하려 든다. 그들이 당신의 함선을 인상깊게 본 것은 명백한 사실이다.</text>
+    <text>당신은 이 신호소의 난파선이 고스트로 가득하다는 사실을 인양하려던 찰나 깨닫고 작업을 중단하지만, 이미 늦었다. 그들은 당신을 발견하고 공격하기위해 움직인다.</text>
 </textList>
 
 <event name="ENCOUNTER_REBEL_ABANDONED">
@@ -322,16 +322,16 @@
 	</choice>
 </event>
 <textList name="TEXT_ENCOUNTER_REBEL_ABANDONED">
-	<text>Though the fighting in this sector has long since ended, it seems a Rebel ship still lingers, and is ready to fight you.</text>
-	<text>A Rebel captain hails you: "Do you see now the cost of your war? Give up and let the Rebellion take over, it is best for everyone this way."</text>
-	<text>The Rebel ship that rests here is not willing to let you go without a fight. Prepare for battle!</text>
-	<text>You thought most of the Rebel forces had left this sector after the evacuations, but it seems a few ships remain and are just as ready for battle as ever.</text>
-	<text>"Haha! You were expecting another empty colony, but it was me all along!" The nearby Rebel ship locks onto your hull and attacks.</text>
-	<text>It seems a Rebel ship here was lying in wait, ready to ambush any Federation ships that may be passing through. A fight is inevitable.</text>
+	<text>이 구역에서의 분쟁은 이미 끝난지 오래지만, 아직 반란군 함선 한 대가 여전히 머물고 있는듯 하며 당신과 전투할 준비가 된 듯하다.</text>
+	<text>반란군 선장이 당신에게 신호를 보낸다: "당신들이 벌인 전쟁의 대가가 이제 보이는가? 이제 그만 포기하고 반란군이 장악하게 내버려두게. 그것이 모두를 위한 최선일세."</text>
+	<text>이 곳에 정박해있는 반란군 함선은 싸우지 않고 순순히 당신을 보내줄 생각이 없다. 전투를 준비하라!</text>
+	<text>당신은 반란군이 수차례의 철수 이후 이 구역을 떠났다고 생각했지만, 아직도 함선 수 척이 잔류해 여느때처럼 전투태세가 갖춰져 있음을 발견한다.</text>
+	<text>"핫하! 이 곳이 텅 빈 식민지일 줄 알았겠지. 하지만 내가 여태껏 숨어 있었다고!". 근처 반란군 함선이 당신의 함체를 추적하여 공격하기 시작한다.</text>
+	<text>이 곳에 반란군 함선이 잠복하여 지나가는 연방군 함선을 급습할 준비를 하고 있었던 듯하다. 전투가 불가피하다.</text>
 </textList>
 
 <event name="ENCOUNTER_MILITIA_ABANDONED" unique="true">
-	<text>It seems a nearby Militia ship trying desperately to protect this sector has made a mistake and identified you as a scavenger. You don't have time to explain because they've muted comms and are moving in quickly.</text>
+	<text>이 구역을 필사적으로 방어하려던 근처 민병대 함선이 당신을 mistake and identified you as a scavenger. You don't have time to explain because they've muted comms and are moving in quickly.</text>
 	<ship load="SHIP_MILITIA_FIGHT" hostile="true"/>
 	<choice hidden="true">
 		<text>계속...</text>
