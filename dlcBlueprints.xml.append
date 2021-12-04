@@ -1875,7 +1875,7 @@
 	<title>클론 대포 [비어있음]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [Empt]</short>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 현재 배정된 선원이 없습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 현재 배정된 선원이 없습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -1921,7 +1921,7 @@
 	<title>클론 대포 [아이들]</title>
 	<short>Cloner [B]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 그런데, 아이들은 사실 복제되지 않습니다. 단지 시체가 정말 많을 뿐이죠. The babies aren't actually being cloned, by the way. There's just a lot of corpses.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 그런데, 아이들은 사실 복제되지 않습니다. 단지 시체가 정말 많을 뿐이죠.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>100</radius>
 	<damage>0</damage>
@@ -1967,7 +1967,7 @@
 	<short>Cloner [A]</short>
 	<tip>tip_clone_cannon</tip>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 귀티나는 일은 아니지만, 당신의 고대인은 선택권이 없습니다. It's no glamorous existence, but your Ancient has no choice.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 귀티나는 일은 아니지만, 당신의 고대인은 선택권이 없습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>40</radius>
 	<damage>2</damage>
@@ -2014,7 +2014,7 @@
 	<short>Cloner [C]</short>
 	<tip>tip_clone_cannon</tip>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 귀티나는 일은 아니지만, 당신의 코그니티브는 선택권이 없습니다. It's no glamorous existence, but your Cognitive has no choice.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 귀티나는 일은 아니지만, 당신의 코그니티브는 선택권이 없습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>40</radius>
 	<damage>2</damage>
@@ -2061,7 +2061,7 @@
 	<title>클론 대포 [증강자]</title>
 	<short>Cloner [A]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>1</damage>
@@ -2108,7 +2108,7 @@
 	<title>클론 대포 [주교]</title>
 	<short>Cloner [B]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -2154,7 +2154,7 @@
 	<title>클론 대포 [치프틴]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2201,7 +2201,7 @@
 	<title>클론 대포 [클랜원]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2248,7 +2248,7 @@
 	<title>클론 대포 [특공대]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2294,7 +2294,7 @@
 	<title>클론 대포 [크루세이더]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>2</damage>
@@ -2342,7 +2342,7 @@
 	<title>클론 대포 [크리스탈]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2389,7 +2389,7 @@
 	<title>클론 대포 [SSLG]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2435,7 +2435,7 @@
 	<title>클론 대포 [이교도]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2481,7 +2481,7 @@
 	<title>클론 대포 [수비대]</title>
 	<short>Cloner [D]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 수비대의 방어막이 방어 드론에게 격추되는것을 막아줄 것입니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 수비대의 방어막이 방어 드론에게 격추되는것을 막아줄 것입니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2528,10 +2528,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>클론 대포 [Dusk]</title>
+	<title>클론 대포 [더스크브링어]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [D]</short>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 장착된 더스크브링어는 걱정하지 않아도 됩니다, 즐기고 있거든요. Don't worry about the resident Duskbringer, he enjoys it.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 장착된 더스크브링어는 걱정하지 않아도 됩니다, 즐기고 있거든요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2578,7 +2578,7 @@
 	<title>클론 대포 [기술자]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [E]</short>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2625,7 +2625,7 @@
 	<title>클론 대포 [엔지]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [E]</short>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2671,7 +2671,7 @@
 	<title>클론 대포 [팬텀]</title>
 	<short>Cloner [P]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2717,7 +2717,7 @@
 	<title>클론 대포 [알파 팬텀]</title>
 	<short>Cloner [PA]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2763,7 +2763,7 @@
 	<title>클론 대포 [구울]</title>
 	<short>Cloner [G]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2808,7 +2808,7 @@
 	<title>클론 대포 [알파 구울]</title>
 	<short>Cloner [GA]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2853,7 +2853,7 @@
 	<title>클론 대포 [메어]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2898,7 +2898,7 @@
 	<title>클론 대포 [알파 메어]</title>
 	<short>Cloner [MA]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2943,7 +2943,7 @@
 	<title>클론 대포 [레이스]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -2988,7 +2988,7 @@
 	<title>클론 대포 [알파 레이스]</title>
 	<short>Cloner [WA]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3034,7 +3034,7 @@
 	<title>클론 대포 [새끼 거미]</title>
 	<short>Cloner [H]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 조그마한 새끼 거미는 좋은 발사체가 아니지만, 적어도 방어드론의 주의를 끌 수는 있습니다. Turns out, tiny spiders don't make good projectiles, but at least they distract defense drones.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 조그마한 새끼 거미는 좋은 발사체가 아니지만, 적어도 방어드론의 주의를 끌 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -3078,7 +3078,7 @@
 	<title>클론 대포 [인간]</title>
 	<short>Cloner [H]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -3123,7 +3123,7 @@
 	<title>클론 대포 [라니우스]</title>
 	<short>Cloner [L]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -3171,7 +3171,7 @@
 	<title>클론 대포 [맨티스]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3217,7 +3217,7 @@
 	<title>클론 대포 [독립 맨티스]</title>
 	<short>Cloner [FM]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3263,7 +3263,7 @@
 	<title>클론 대포 [의무병]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3309,7 +3309,7 @@
 	<title>클론 대포 [수도승]</title>
 	<short>Cloner [M]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3355,7 +3355,7 @@
 	<title>클론 대포 [오키드]</title>
 	<short>Cloner [C]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3402,7 +3402,7 @@
 	<title>클론 대포 [뱀프위드]</title>
 	<short>Cloner [V]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 왜 식물이 화재를 일으킬까요? 아이러니하네요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3448,7 +3448,7 @@
 	<title>클론 대포 [망명자]</title>
 	<short>Cloner [O]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3494,7 +3494,7 @@
 	<title>클론 대포 [평화지킴이]</title>
 	<short>Cloner [P]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3541,7 +3541,7 @@
 	<title>클론 대포 [에퀴노이드]</title>
 	<short>Cloner [E]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3586,7 +3586,7 @@
 	<title>클론 대포 [크리스탈 에퀴노이드]</title>
 	<short>Cloner [CE]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3633,7 +3633,7 @@
 	<title>클론 대포 [여왕 거미]</title>
 	<short>Cloner [Q]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 얼마나 많은 알들이 대포속에 줄지어 있을 지 상상조차 하기 싫습니다. You don't want to imagine how many eggs line the inside of this cannon now.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 얼마나 많은 알들이 대포속에 줄지어 있을 지 상상조차 하기 싫습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -3679,7 +3679,7 @@
 	<title>클론 대포 [찬란한 셸]</title>
 	<short>Cloner [R]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -3725,7 +3725,7 @@
 	<title>클론 대포 [급진파]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [R]</short>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 장착된 더스크브링어는 걱정하지 않아도 됩니다, 즐기고 있거든요.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 장착된 더스크브링어는 걱정하지 마세요, 즐기고 있거든요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3772,7 +3772,7 @@
 	<title>클론 대포 [데보락]</title>
 	<short>Cloner [D]</short>
 	<tip>tip_clone_cannon</tip>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 데보락은 걱정하지 마세요, 즐기고 있거든요.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 데보락은 걱정하지 마세요, 즐기고 있거든요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3819,7 +3819,7 @@
 	<title>클론 대포 [레인저]</title>
 	<short>Cloner [R]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3866,7 +3866,7 @@
 	<title>클론 대포 [락맨]</title>
 	<short>Cloner [R]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3912,7 +3912,7 @@
 	<title>클론 대포 [공작원]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>0</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -3960,7 +3960,7 @@
 	<title>클론 대포 [감시병]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4008,7 +4008,7 @@
 	<title>클론 대포 [분리주의자]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [S]</short>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4055,7 +4055,7 @@
 	<title>클론 대포 [셸]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -4101,7 +4101,7 @@
 	<title>클론 대포 [셸 정비공]</title>
 	<short>Cloner [SM]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>-3</damage>
@@ -4144,7 +4144,7 @@
 	<title>클론 대포 [셸 과학자]</title>
 	<short>Cloner [SS]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -4189,7 +4189,7 @@
 	<title>클론 대포 [셸 수호자]</title>
 	<short>Cloner [SG]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>35</radius>
 	<damage>0</damage>
@@ -4236,7 +4236,7 @@
 	<title>클론 대포 [슬러그]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4283,7 +4283,7 @@
 	<title>클론 대포 [헥타르]</title>
 	<short>Cloner [H]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -4327,10 +4327,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>클론 대포 [솔져]</title>
+	<title>클론 대포 [병사]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4377,7 +4377,7 @@
 	<title>클론 대포 [거미]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>50</radius>
 	<damage>0</damage>
@@ -4422,7 +4422,7 @@
 	<title>클론 대포 [영주]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -4468,7 +4468,7 @@
 	<title>클론 대포 [장군]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>10</radius>
 	<damage>0</damage>
@@ -4511,10 +4511,10 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<tip>tip_clone_cannon</tip>
-	<title>클론 대포 [심바이오트]</title>
+	<title>클론 대포 [공생체]</title>
 	<short>Cloner [S]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 심바이오트의 삶은 적어도 이전보다 약간 덜 비참해졌습니다. At least now your Symbiote's life is slightly less miserable than it was before.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다. 공생체의 삶은 적어도 이전보다 약간 덜 비참해졌습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4562,7 +4562,7 @@
 	<title>클론 대포 [직공]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>30</radius>
 	<damage>0</damage>
@@ -4607,7 +4607,7 @@
 	<title>클론 대포 [웰더]</title>
 	<short>Cloner [W]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>75</radius>
 	<damage>0</damage>
@@ -4656,7 +4656,7 @@
 	<title>클론 대포 [졸탄]</title>
 	<short>Cloner [Z]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4703,7 +4703,7 @@
 	<title>클론 대포 [리치]</title>
 	<short>Cloner [L]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4751,7 +4751,7 @@
 	<title>클론 대포 [암페어]</title>
 	<short>Cloner [A]</short>
 	<drone_targetable>1</drone_targetable>
-	<desc>그 무엇보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
+	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>25</radius>
 	<damage>0</damage>
@@ -4808,7 +4808,7 @@
     <tip>tip_defense</tip>
     <title>활성화된 방어막 생성기</title>
     <short>Overcharger</short>
-    <desc>추가적인 에너지 방어막을 충전할 수 있는 특수한 드론입니다. 고급 에너지 방어막 보조장비를 가지고 있는것이 아니라면 최대 5겹까지 충전할 수 있습니다. A specialized Defense Drone which can charge additional Energy Shield points. Cannot exceed the maximum of 5 unless a stronger Energy Shield augment is present.</desc>
+    <desc>추가적인 에너지 방어막을 충전할 수 있는 특수한 드론입니다. 고급 에너지 방어막 보조장비를 가지고 있는것이 아니라면 최대 5겹까지 충전할 수 있습니다.</desc>
     <power>1</power>
     <cooldown>0</cooldown> <!--doesn't work-->
     <dodge>0</dodge>
@@ -4824,7 +4824,7 @@
     <type>SHIELD</type>
     <level>1</level>
     <tip>tip_defense</tip>
-    <title>방어막 과다 보존기</title>
+    <title>방어막 과보존기</title>
     <short>Overconserver</short>
     <desc>추가적인 에너지 방어막을 충전할 수 있는 특수한 드론입니다. 고급 에너지 방어막 보조장비를 가지고 있는것이 아니라면 최대 5겹까지 충전할 수 있습니다. 전력을 소모하지 않도록 개조되었습니다.</desc>
     <power>0</power>
