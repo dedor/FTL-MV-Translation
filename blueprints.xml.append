@@ -2686,7 +2686,7 @@
     </powerList>
 </crewBlueprint>
 <crewBlueprint name="hunter">
-    <desc>불만스러워하던 전 EHG 회장이며 현재는 이국적 생물 사냥을 전문으로 하는 고용 용병입니다.</desc>
+    <desc>불만스러워하던 전 EHG 회장이며 현재는 외계 생물 사냥을 전문으로 하는 고용 용병입니다.</desc>
     <title>슬러그 사냥꾼</title>
     <short>Hunter</short>
     <cost>150</cost>
@@ -9258,7 +9258,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="ENERGY_SHIELD">
 	<title>졸탄 방어막</title>
-	<desc>거의 뚫을 수 없는 방어막 만들어내는 고급 고형 광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다.</desc>
+	<desc>거의 뚫을 수 없는 방어막 만들어내는 고급 고형광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9267,7 +9267,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_ENERGY_SHIELD">
 	<title>졸탄 방어막</title>
-	<desc>거의 뚫을 수 없는 방어막을 만들어내는 고급 고형 광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다.</desc>
+	<desc>거의 뚫을 수 없는 방어막을 만들어내는 고급 고형광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -11891,7 +11891,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="ION_1">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>간소한 이온</title>
 	<short>Simple I.</short>
 	<tip>tip_ion</tip>
@@ -11938,7 +11938,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_2">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>이온 포대 마크 I</title>
 	<short>Ion I</short>
 	<tip>tip_ion</tip>
@@ -11985,7 +11985,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_3">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>이온 포대 II</title>
 	<short>Ion II</short>
 	<tip>tip_ion</tip>
@@ -12032,7 +12032,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_4">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>이온 포대 마크 III</title>
 	<short>Ion III</short>
 	<tip>tip_ion</tip>
@@ -12084,7 +12084,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="ION_HEAVY">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>중형 이온</title>
 	<short>Hev. Ion</short>
 	<tip>tip_ion</tip>
@@ -12132,7 +12132,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="ION_TRI">
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>삼단 이온</title>
 	<short>Tri-Ion</short>
 	<tip>tip_ion</tip>
@@ -12243,7 +12243,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="ION_CHARGEGUN_2"> 
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>충전식 이온 II</title>
 	<short>Charge I. II</short>
 	<tip>tip_charge</tip>
@@ -12294,7 +12294,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="ION_PIERCE_DISCO">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>디스코 관통자 마크 I</title>
 	<short>Disco Ph. I</short>
 	<tip>tip_phase</tip>
@@ -12340,7 +12340,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_PIERCE_1">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>관통자 마크 I</title>
 	<short>Phase I</short>
 	<tip>tip_phase</tip>
@@ -12432,7 +12432,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_FIRE">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>화염 이온 블래스트</title>
 	<short>Fire Ion</short>
 	<tip>tip_ion_fire</tip>
@@ -12479,7 +12479,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_BIO">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>안티-바이오 이온 블래스트</title>
 	<short>Bio Ion</short>
 	<tip>tip_ion_bio</tip>
@@ -14237,7 +14237,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="FOCUS_1">
 	<type>BEAM</type>
-	<flavorType>핀포인트</flavorType>
+	Pinpoint
 	<tip>tip_focus</tip>
 	<title>'더크' 핀포인트</title>
 	<short>'Dirk'</short>
@@ -14264,7 +14264,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="FOCUS_2">
     <type>BEAM</type>
-    <flavorType>핀포인트</flavorType>
+    Pinpoint
     <tip>tip_focus</tip>
     <title>'미제리코드' 핀포인트</title>
     <short>'Misericord'</short>
@@ -14292,7 +14292,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="FOCUS_3">
 	<type>BEAM</type>
-	<flavorType>핀포인트</flavorType>
+	Pinpoint
 	<tip>tip_focus</tip>
 	<title>'스틸레토' 핀포인트</title>
 	<short>'Stiletto'</short>
@@ -14325,7 +14325,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="FOCUS_CHAIN">
     <type>BEAM</type>
-    <flavorType>핀포인트</flavorType>
+    Pinpoint
     <tip>tip_adapter</tip>
     <title>'친퀘디아' 핀포인트</title>
     <short>'Cinquedea'</short>
@@ -14390,7 +14390,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="FOCUS_BIO">
 	<type>BEAM</type>
-	<flavorType>핀포인트</flavorType>
+	Pinpoint
 	<tip>tip_focus</tip>
 	<title>'애널레이스' 핀포인트</title>
 	<short>'Anelace'</short>
@@ -19188,7 +19188,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="ION_PIERCE_CHAIN">
 	<type>LASER</type>
-	<flavorType>이온 블래스트</flavorType>
+	<flavorType>Ion Blast</flavorType>
 	<title>연쇄 관통자</title>
 	<short>Chain P.</short>
 	<tip>tip_phase</tip>
@@ -25169,7 +25169,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 I</title>
 	<short>Defense I</short>
-	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다.
+	<desc>레이저나 고체 발사체를 요격할 수 있는 방어 드론입니다.
 	재장전: 600 MS</desc>
 	<power>2</power>
 	<cooldown>600</cooldown>
@@ -25189,7 +25189,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 II</title>
 	<short>Defense II</short>
-	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다.
+	<desc>레이저나 고체 발사체를 요격할 수 있는 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다.
 	재장전: 400 MS</desc>
 	<power>3</power>
 	<cooldown>400</cooldown>
@@ -25209,7 +25209,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 III</title>
 	<short>Defense III</short>
-	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다.
+	<desc>레이저나 고체 발사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다.
 	재장전: 150 MS</desc>
 	<power>4</power>
 	<cooldown>150</cooldown>
@@ -25229,7 +25229,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_defense</tip>
 	<title>방어 드론 마크 III++</title>
 	<short>Defense III++</short>
-	<desc>레이저나 고형 발사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다.
+	<desc>레이저나 고체 발사체를 요격할 수 있는 방어 드론입니다. 마크 II보다 연사 속도가 빠릅니다.
 	재장전: 100 MS</desc>
 	<power>2</power>
 	<cooldown>100</cooldown>
@@ -25314,7 +25314,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_defense</tip>
 	<title>수호자 드론 I [미사일]</title>
 	<short>Guard I [M]</short>
-	<desc>[현재 모드: 안티-미사일] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. [Current Mode: Anti-Missile] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode.
+	<desc>[현재 모드: 안티-미사일] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다.
 	재장전: 1000 MS</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
@@ -25333,7 +25333,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_defense</tip>
 	<title>수호자 드론 I [드론]</title>
 	<short>Guard I [D]</short>
-	<desc>[현재 모드: 안티-드론] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. [Current Mode: Anti-Drone] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode.
+	<desc>[현재 모드: 안티-드론] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다.
 	재장전: 1500 MS</desc>
 	<target>DRONES</target>
 	<power>2</power>
@@ -25358,7 +25358,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_defense</tip>
 	<title>수호자 드론 II [미사일]</title>
 	<short>Guard II [M]</short>
-	<desc>[현재 모드: 안티-미사일] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다. [Current Mode: Anti-Missile] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode. Shoots faster than the Mk I.
+	<desc>[현재 모드: 안티-미사일] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다.
 	재장전: 700 MS</desc>
 	<power>3</power>
 	<cooldown>700</cooldown>
@@ -25377,7 +25377,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_defense</tip>
 	<title>Guardian Drone II [D]</title>
 	<short>Guard II [D]</short>
-	<desc>[현재 모드: 안티-드론] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다. [Current Mode: Anti-Drone][Current Mode: Anti-Drone] Multipurpose defense drone that can be swapped between anti-missile and anti-drone mode. Shoots faster than the Mk I.
+	<desc>[현재 모드: 안티-드론] 안티-미사일 또는 안티-드론 모드로 전환 가능한 다목적 방어 드론입니다. 마크 I보다 연사 속도가 빠릅니다.
 	재장전: 700 MS</desc>
 	<target>DRONES</target>
 	<power>3</power>
@@ -25406,7 +25406,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_drone_conservative</tip>
 	<title>보존 레이저 드론</title>
 	<short>Conserv. L</short>
-	<desc>전력을 소모하지 않으며 속도가 느린 전투 드론입니다. 한번 작동하기 시작하면 멈출 수 없습니다. A slow moving Combat Drone that uses no power, but cannot be depowered.</desc>
+	<desc>전력을 소모하지 않으며 속도가 느린 전투 드론입니다. 한번 작동하기 시작하면 멈출 수 없습니다.</desc>
 	<power>0</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25475,7 +25475,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>전투 드론 마크 I [레이저]</title>
 	<short>Combat I [L]</short>
-	<desc>[현재 모드: 레이저] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. [CURRENT MODE: Laser] Basic Combat toggle Drone that can switch between a Laser and Beam weapon.</desc>
+	<desc>[현재 모드: 레이저] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25492,7 +25492,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>전투 드론 마크 I [빔]</title>
 	<short>Combat I [B]</short>
-	<desc>[현재 모드: 빔] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. [CURRENT MODE: Beam] Basic Combat toggle Drone that can switch between a Laser and Beam weapon.</desc>
+	<desc>[현재 모드: 빔] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25514,7 +25514,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>전투 드론 마크 II [Laser]</title>
 	<short>Combat II [L]</short>
-	<desc>[현재 모드: 레이저] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. 마크 I보다 빠르게 움직입니다. [CURRENT MODE: Laser] Basic Combat toggle Drone that can switch between a Laser and Beam weapon. Moves faster than the MK I.</desc>
+	<desc>[현재 모드: 레이저] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. 마크 I보다 빠르게 움직입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25531,7 +25531,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>전투 드론 마크 II [빔]</title>
 	<short>Combat II [B]</short>
-	<desc>[현재 모드: 빔] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. 마크 I보다 빠르게 움직입니다. [CURRENT MODE: Beam] Basic Combat toggle Drone that can switch between a Laser and Beam weapon. Moves faster than the MK I.</desc>
+	<desc>[현재 모드: 빔] 레이저 또는 빔 모드로 전환할 수 있는 기본적인 전투 토글 드론입니다. 마크 I보다 빠르게 움직입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25608,7 +25608,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_toggle_combat</tip>
     <title>돌격 드론 [입자]</title>
     <short>Assault [Prt]</short>
-    <desc>[현재 모드: 입자] 입자 모드 또는 관통 모드로 전환 가능한 다용도 전투 드론입니다.  [CURRENT MODE: Particle] Diverse combat drone which can switch between Particle and Pierce modes for a range of applications in combat.</desc>
+    <desc>[현재 모드: 입자] 입자 모드 또는 관통 모드로 전환 가능한 다용도 전투 드론입니다.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -25625,7 +25625,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_toggle_combat</tip>
     <title>돌격 드론 [관통]</title>
     <short>Assault [Prc]</short>
-    <desc>[현재 모드: 관통] 입자 모드 또는 관통 모드로 전환 가능한 다용도 전투 드론입니다. [CURRENT MODE: Pierce] Diverse combat drone which can switch between Particle and Pierce modes for a range of applications in combat.</desc>
+    <desc>[현재 모드: 관통] 입자 모드 또는 관통 모드로 전환 가능한 다용도 전투 드론입니다.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -25684,7 +25684,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>헬레이저 [방화]</title>
 	<short>Hell [F]</short>
-	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25701,7 +25701,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>헬레이저 [함체 파괴]</title>
 	<short>Hell [H]</short>
-	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. [CURRENT MODE: Anti-Hull] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25719,7 +25719,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>헬레이저+ [방화]</title>
 	<short>Hell+ [F]</short>
-	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. [CURRENT MODE: Fire] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25736,7 +25736,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>헬레이저+ [함체 파괴]</title>
 	<short>Hell+ [H]</short>
-	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다. [CURRENT MODE: Anti-Hull] Powerful Beam toggle Drone that can switch between Fire and Anti-Hull modes.</desc>
+	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25816,7 +25816,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>역병 드론 [균열]</title>
 	<short>Pest [B]</short>
-	<desc>[현재 모드: 균열] 상대를 괴롭히는데 탁월한 특수한 토글 드론입니다. 기절 또는 균열 모드로 전환할 수 있습니다. [CURRENT MODE: Breach] Specialized toggle Drone excellent for pestering enemy ships. Toggles between crew stunner or hull breaching mode.</desc>
+	<desc>[현재 모드: 균열] 상대를 괴롭히는데 탁월한 특수한 토글 드론입니다. 기절 또는 균열 모드로 전환할 수 있습니다.</desc>
 	<power>0</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25833,7 +25833,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>역병 드론 [기절]</title>
 	<short>Pest [S]</short>
-	<desc>[현재 모드: 기절] 상대를 괴롭히는데 탁월한 특수한 토글 드론입니다. 기절 또는 균열 모드로 전환할 수 있습니다. [CURRENT MODE: Crew Stunner] Specialized toggle Drone excellent for pestering enemy ships. Toggles between crew stunner or hull breaching mode.</desc>
+	<desc>[현재 모드: 기절] 상대를 괴롭히는데 탁월한 특수한 토글 드론입니다. 기절 또는 균열 모드로 전환할 수 있습니다.</desc>
 	<power>0</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26000,7 +26000,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 이온</title>
 	<short>Amp I. [2]</short>
-	<desc>[현재 동력: 2] 공급하는 전력에 따라 이온 피해량이 증가하고 속도는 감소하는 독특한 앰프 드론입니다. [CURRENT POWER: 2] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<desc>[현재 동력: 2] 공급하는 전력에 따라 이온 피해량이 증가하고 이동 속도는 감소하는 독특한 앰프 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26034,7 +26034,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 이온</title>
 	<short>Amp I. [3]</short>
-	<desc>[현재 동력: 3] 공급하는 전력에 따라 이온 피해량이 증가하고 속도는 감소하는 독특한 앰프 드론입니다. [CURRENT POWER: 3] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<desc>[현재 동력: 3] 공급하는 전력에 따라 이온 피해량이 증가하고 이동 속도는 감소하는 독특한 앰프 드론입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26068,7 +26068,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 이온</title>
 	<short>Amp I. [4]</short>
-	<desc>[현재 동력: 4] 공급하는 전력에 따라 이온 피해량이 증가하고 속도는 감소하는 독특한 앰프 드론입니다. [CURRENT POWER: 4] A unique Amp drone that increases its ion damage as its power increases as well. More power also decreases movement speed.</desc>
+	<desc>[현재 동력: 4] 공급하는 전력에 따라 이온 피해량이 증가하고 이동 속도는 감소하는 독특한 앰프 드론입니다.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26192,7 +26192,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 에너지</title>
 	<short>Amp E. [2]</short>
-	<desc>[현재 동력: 2] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다.</desc>
+	<desc>[현재 동력: 2] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 이동 속도는 감소합니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26226,7 +26226,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 에너지</title>
 	<short>Amp E. [3]</short>
-	<desc>[현재 동력: 3] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다.</desc>
+	<desc>[현재 동력: 3] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 이동 속도는 감소합니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26260,7 +26260,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_amp_combat</tip>
 	<title>앰프 에너지</title>
 	<short>Amp E. [4]</short>
-	<desc>[현재 동력: 4] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 속도는 감소합니다.</desc>
+	<desc>[현재 동력: 4] 에너지 발사체를 발사하는 표준적인 앰프 드론입니다. 공급하는 전력에 따라 피해량이 증가하고 이동 속도는 감소합니다.</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -26340,7 +26340,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_amp_combat</tip>
     <title>앰프 핀포인트</title>
     <short>Amp P. [2]</short>
-    <desc>[현재 동력: 2] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다. [CURRENT POWER: 2] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
+    <desc>[현재 동력: 2] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다.</desc>
     <power>2</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -26357,7 +26357,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_amp_combat</tip>
     <title>앰프 핀포인트</title>
     <short>Amp P. [3]</short>
-    <desc>[현재 동력: 3] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다. [CURRENT POWER: 3] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
+    <desc>[현재 동력: 3] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다.</desc>
     <power>3</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -26374,7 +26374,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_amp_combat</tip>
     <title>앰프 핀포인트</title>
     <short>Amp P. [4]</short>
-    <desc>[현재 동력: 4] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다.[CURRENT POWER: 4] A powerful Amp Pinpoint drone that increases in damage with the more power it uses.</desc>
+    <desc>[현재 동력: 4] 동력에 비례해 피해량이 증가하는 강력한 앰프 핀포인트 드론입니다.</desc>
     <power>4</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
