@@ -187,7 +187,7 @@
 
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_text">A distress signal is coming from an Orchid ship, drifting far away from common interstellar routes. You try to communicate but there is no answer.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_c1_choice">Board the ship.</text>
-<text name="event_ORCHID_DISTRESS_EMPTY_SHIP_c2_choice">무시한다.</text>
+<text name="event_ORCHID_DISTRESS_EMPTY_SHIP_c2_choice">Ignore it.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_LIST_1_text">You board the ship to find the aftermath of explosion and fire. You can only guess what was the reason of the accident. Most of equipment is burnt, and there is no one alive, but you still manage to find some useful scrap and resources.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_LIST_2_text">The only person alive on the ship is a dehydrated Orchid. The ship ran out of water and life support systems broke down. The whole crew is dead except one resilient Orchid who was reanimated after irrigation.</text>
 <text name="event_ORCHID_DISTRESS_EMPTY_SHIP_LIST_3_text">The boarding team went into the ship to look for survivors. After a while, your crew went into uncontrollable rage. They were returned back to the ship as soon as possible, but one of the crewmembers was affected so strongly that went mad upon coming back to the ship.</text>
@@ -200,7 +200,7 @@
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c3_text">The Fire Suppression system is deployed in the colony and helps tremendously holding wildfires in key points back while all living Orchids evacuate. One of the Orchids is so impressed by your performance that they ask to join your crew.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c4_choice">(Mantis Pheromones) Use the augmentation to speed up evacuation.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c4_text">Affected by pheromones, your crew and Orchid civilians move a lot faster, leaving no one behind. After the colony is evacuated, one of the Orchids is so impressed by your performance that they ask to join your crew.</text>
-<text name="event_ORCHID_DISTRESS_COLONY_FIRE_c5_choice">(Crystal 선원) Block wildfire spreading to buy some time.</text>
+<text name="event_ORCHID_DISTRESS_COLONY_FIRE_c5_choice">(Crystal Crew) Block wildfire spreading to buy some time.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c5_text">Your crewmember erects giant crystalline walls in mere seconds. The flames are slowed down and all of the colony manages to escape to safety. One of the Orchids is so impressed by your performance that they ask to join your crew.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c6_choice">(Lockdown Bomb) Block wildfire spreading to buy some time.</text>
 <text name="event_ORCHID_DISTRESS_COLONY_FIRE_c6_text">The bomb is used to erect giant crystalline walls in mere seconds. The flames are slowed down and all of the colony manages to escape to safety. One of the Orchids is so impressed by your performance that they ask to join your crew.</text>
@@ -313,4 +313,37 @@
 <text name="event_ORCHID_PIRATE_FRIENDLY_ASB_c1_choice">Engage the pirate alone.</text>
 <text name="event_ORCHID_PIRATE_FRIENDLY_ASB_c2_choice">Ask for help.</text>
 <text name="event_ORCHID_PIRATE_FRIENDLY_ASB_c2_text">You send a distress signal, and Orchid military stationed at the planet responds immediately and targets the pirate with an Anti-Ship Battery.</text>
+
+
+
+
+<text name="continue">Continue...</text><!--번역됨-->
+<text name="event_START_MV_GAME_text">You take a look at the distant swirls of space as the stars fly past. This is the beginning of the next chapter in your saga. What will await you next?</text><!--번역됨-->
+<text name="START_BEACON_PRESELECT_text">Before your mission begins, it might be time to prepare before you arrive at the warp bay. What would you like to do?</text><!--번역됨-->
+<text name="START_BEACON_PRESELECT_c1_text">Configure your challenge level.</text><!--번역됨-->
+<text name="START_BEACON_PRESELECT_c2_text">Download the Federation Database entries. [recommended for beginners]</text><!--번역됨-->
+<text name="START_BEACON_PRESELECT_c3_text">Proceed with your mission.</text><!--번역됨-->
+<text name="DROPPOINT_SECTOR_INFO_text">Name: Federation Multiverse Drop Point
+	Type: Friendly
+	Unique: True
+	Dominant Faction: The Federation
+	Rebel Threat Level: Medium (Neutral Fleet)
+
+	You're about to arrive at the nearest Federation warpbay. These hangar-like structures act as beacons of sorts for traveling between Multiverses. Let's hope you're given a nice warm welcome and not greeted by a fleet of angry Rebels or Pirates, right?</text><!--번역됨-->
+
+<text name="START_DIFFICULT_MENU_text">You are about to change your challenge level, which will change the way you experience Multiverse. Clicking on an option will give you a second confirmation and more details. You can change your challenge mode as many times as you'd like before you begin, but once you've started your run you cannot change this!</text><!--번역됨-->
+<text name="START_BEACON_PREP_text">You slowly exit hyperspeed, transitioning to a speed safe for landing and steer closer to the hangar below. There, your ship is stocked up and prepped to head out into this foreign galaxy.</text><!--번역됨-->
+<text name="START_BEACON_PREP_SKIP_text">You slowly exit hyperspeed, transitioning to a speed safe for landing and steer closer to the hangar below. There, your ship is stocked up and prepped to head out into this foreign galaxy.</text><!--번역됨-->
+<text name="START_BEACON_PREP2_text">You hurry to your ship, but realize you still have a little time before you leave. You likely have time to grab one last thing.</text><!--번역됨-->
+<text name="START_BEACON_PREP2_c1_text">Grab a weapon.</text><!--번역됨-->
+<text name="START_BEACON_PREP2_c2_text">Find another crew member.</text><!--번역됨-->
+<text name="START_BEACON_PREP2_c3_text">Grab some extra resources.</text><!--번역됨-->
+<text name="START_BEACON_PREP2_c4_text">You're good with what you have. Get a head start on the fleet!</text><!--번역됨-->
+<text name="START_BEACON_PREP2_c4_p1_text">You decide not to take anything extra, and carry on.</text>
+
+
+
+
+
+
 </FTL>
