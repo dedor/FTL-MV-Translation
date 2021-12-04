@@ -458,7 +458,7 @@
 <crewBlueprint name="orchid">
 	<title>오키드 플로럴</title>
 	<short>Floral</short>
-	<desc>본디 Ctl'Yae라고 알려진 플로럴들은 산소를 공급하고 당신의 선원원들을 강화시켜주는 우호적인 종입니다.</desc>
+	<desc>본디 Ctl'Yae라고 알려진 플로럴들은 산소를 공급하고 당신의 선원들을 강화시켜주는 우호적인 종입니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
@@ -1202,7 +1202,7 @@
 </crewBlueprint>
 <crewBlueprint name="ponyt">
 	<desc>[길들여짐] 밝은 색상의 다리 여섯이 달린 말을 닮은 동물입니다. 절대로 포니는 아니지만 그렇게 여기셔도 상관없습니다.</desc>
-	<title>여섯발 에퀴노이드 [T]</title>
+	<title>여섯발 에퀴노이드 [길들여짐]</title>
 	<short>Equinoid [T]</short>
 	<cost>30</cost>
 	<rarity>0</rarity>
@@ -2819,7 +2819,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="sylvansans">
-    <desc>끔찍한 씨간을 보내고 앂나요오오, 낯썬이여?</desc>
+    <desc>끔찍한 씨간을 보내고 앂나요오오, 낯썬이?</desc>
     <title>행상인</title>
     <short>Merchant</short>
     <cost>999</cost>
