@@ -26450,9 +26450,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>정찰 드론 [방어]</title>
+	<title>정찰 드론 [승선]</title>
 	<short>Recon. [D]</short>
-	<desc>[현재 모드: 방어] 조종 가능한 작고 공중에 떠 다니는 정찰 드론입니다. 방어 모드 또는 강습 모드로 전환할 수 있습니다.
+	<desc>[현재 모드: 승선] 조종 가능한 작고 공중에 떠 다니는 정찰 드론입니다. 승선 모드 또는 강습 모드로 전환할 수 있습니다.
     
 -최대 체력 30, 전투로부터 0.4배의 피해만을 입음
 -이동속도 2배
@@ -26471,7 +26471,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_crew</tip>
 	<title>정찰 드론 [강습]</title>
 	<short>Recon. [B]</short>
-	<desc>[현재 모드: 강습] 조종 가능한 작고 공중에 떠 다니는 정찰 드론입니다. 방어 모드 또는 강습 모드로 전환할 수 있습니다.
+	<desc>[현재 모드: 강습] 조종 가능한 작고 공중에 떠 다니는 정찰 드론입니다. 승선 모드 또는 강습 모드로 전환할 수 있습니다.
     
 -최대 체력 30, 전투로부터 0.4배의 피해만을 입음
 -이동속도 2배
@@ -26504,9 +26504,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>대인 전투 드론 [방어]</title>
+	<title>대인 전투 드론 [승선]</title>
 	<short>Battle [A]</short>
-	<desc>[현재 모드: 방어] 전투 전에 방어 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
+	<desc>[현재 모드: 승선] 전투 전에 방어적인 승선 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
     
 -최대 체력 175, 대인 공격력 1.1배
 -이동속도 0.8배</desc>
@@ -26522,7 +26522,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<locked>1</locked>
 	<title>대인 전투 드론 [강습]</title>
 	<short>Battle [B]</short>
-	<desc>[현재 모드: 강습] 전투 전에 방어 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
+	<desc>[현재 모드: 강습] 전투 전에 방어적인 승선 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.
     
 -최대 체력 175, 대인 공격력 1.1배
 -이동속도 0.8배</desc>
@@ -26551,9 +26551,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>대인 전투 드론 마크 II [방어]</title>
+	<title>대인 전투 드론 마크 II [승선]</title>
 	<short>Battle II [A]</short>
-	<desc>[현재 모드: 방어] 전투 전에 방어 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
+	<desc>[현재 모드: 승선] 전투 전에 방어적인 승선 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
     
 -최대 체력 200, 대인 전투력 1.5배
 -이동속도 0.5배</desc>
@@ -26569,7 +26569,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<locked>1</locked>
 	<title>대인 전투 드론 마크 II [강습]</title>
 	<short>Battle II [B]</short>
-	<desc>[현재 모드: 강습] 전투 전에 방어 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
+	<desc>[현재 모드: 강습] 전투 전에 방어적인 승선 모드 또는 강습 모드로 전환 가능한 선원 드론입니다. 조종 가능합니다.최대 체력과 대인 전투력이 마크 I보다 더 높습니다.
     
 -최대 체력 200, 대인 전투력 1.5배
 -이동속도 0.5배</desc>
@@ -26611,9 +26611,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>의사 드론 [방어]</title>
+	<title>의사 드론 [승선]</title>
 	<short>Doctor [D]</short>
-	<desc>[현재 모드: 방어] 같은 선실의 아군 선원을 치료합니다. 방어 모드 또는 강습 모드로 전환될 수 있습니다. 조종 가능합니다.
+	<desc>[현재 모드: 승선] 같은 선실의 아군 선원을 치료합니다. 승선 모드 또는 강습 모드로 전환될 수 있습니다. 조종 가능합니다.
     
 -최대 체력 100, 이동속도 0.9배
 -전투 능력이 없음
@@ -26630,7 +26630,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_crew</tip>
 	<title>의사 드론 [강습]</title>
 	<short>Doctor [B]</short>
-	<desc>[현재 모드: 강습] 같은 선실의 아군 선원을 치료합니다. 방어 모드 또는 강습 모드로 전환될 수 있습니다. 조종 가능합니다.
+	<desc>[현재 모드: 강습] 같은 선실의 아군 선원을 치료합니다. 승선 모드 또는 강습 모드로 전환될 수 있습니다. 조종 가능합니다.
     
 -최대 체력 100, 이동속도 0.9배
 -전투 능력이 없음
@@ -26708,9 +26708,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>집사 드론 [방어]</title>
+	<title>집사 드론 [승선]</title>
 	<short>Butler [D]</short>
-	<desc>[현재 모드: 방어] 슬러그들이 특별한 목적에 사용하기 위해 대인 전투 드론 재건했습니다. 전투 기능 또한 여전히 가지고 있습니다.
+	<desc>[현재 모드: 승선] 슬러그들이 특별한 목적에 사용하기 위해 대인 전투 드론 재건했습니다. 전투 기능 또한 여전히 가지고 있습니다.
     
 -최대 체력 150, 대인 공격력 0.9배
 -이동속도 0.7배
@@ -27333,9 +27333,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>분사기 [방어]</title>
+	<title>분사기 [승선]</title>
 	<short>Atom [A]</short>
-	<desc>[현재 모드: 방어] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
+	<desc>[현재 모드: 승선] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
 -최대 체력 60, 이동속도 2배
 -대인 공격력 2배, 향상된 공격 속도, 산소를 흡수함
@@ -27352,7 +27352,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<locked>1</locked>
 	<title>분사기 [강습]</title>
 	<short>Atom [B]</short>
-	<desc>[현재 모드: 강습] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
+	<desc>[현재 모드: 강습] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
 -최대 체력 60, 이동속도 2배
 -대인 공격력 2배, 향상된 공격 속도, 산소를 흡수함
@@ -27378,9 +27378,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>왕족의 분사기 [방어]</title>
+	<title>왕족의 분사기 [승선]</title>
 	<short>Atom [A]</short>
-	<desc>[현재 모드:방어] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
+	<desc>[현재 모드:방어] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
 -최대 체력 65, 이동속도 3배
 -대인 공격력 2배, 크게 향상된 공격 속도, 산소를 흡수함
@@ -27397,7 +27397,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<locked>1</locked>
 	<title>왕족의 분사기 [강습]</title>
 	<short>Atom [B]</short>
-	<desc>[현재 모드: 강습] 방어 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
+	<desc>[현재 모드: 강습] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
 -최대 체력 65, 이동속도 3배
 -대인 공격력 2배, 크게 향상된 공격 속도, 산소를 흡수함
@@ -27423,9 +27423,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>고대의 룸바 [방어]</title>
+	<title>고대의 룸바 [승선]</title>
 	<short>Roomba [A]</short>
-	<desc>[현재 모드: 방어] 이 작은 드론은 전쟁 병기라 주장되지만, 당신에게는 지구의 오래된 청소기 기술처럼 보입니다. 정말 이상하죠.</desc>
+	<desc>[현재 모드: 승선] 이 작은 드론은 전쟁 병기라 주장되지만, 당신에게는 지구의 오래된 청소기 기술처럼 보입니다. 정말 이상하죠.</desc>
 	<power>2</power>
 	<cost>60</cost>
 	<bp>3</bp>
@@ -27995,9 +27995,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>loot_separatist_1</tip>
-	<title>대인 전투 드론 [방어]</title>
+	<title>대인 전투 드론 [승선]</title>
 	<short>Battle [A]</short>
-	<desc>[현재 모드: 방어] 특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
+	<desc>[현재 모드: 승선] 특별한 전리품 드론입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
     
 -최대 체력 175, 대인 공격력 1.1배
 -전투중이지 않을 때 체력을 느리게 회복함</desc>
@@ -28117,9 +28117,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>음양 드론 [방어]</title>
+	<title>음양 드론 [승선]</title>
 	<short>YY [A]</short>
-	<desc>[현재 모드: 방어] 현재 수행중인 임무에 특화되는 토글 드론입니다.
+	<desc>[현재 모드: 승선] 현재 수행중인 임무에 특화되는 토글 드론입니다.
     
 -최대 체력 200, 대인 공격력 1배, 이동속도 2배
 -회복 속도 5배, 재해에 면역
@@ -28163,9 +28163,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>서전 드론 [방어]</title>
+	<title>서전 드론 [승선]</title>
 	<short>Surg. [A]</short>
-	<desc>[현재 모드: 방어] 반군 외과의가 전투를 수행할 수 있도록 다시 배선한 의료용 드론입니다.
+	<desc>[현재 모드: 승선] 반군 외과의가 전투를 수행할 수 있도록 다시 배선한 의료용 드론입니다.
     
 -최대 체력 100, 이동속도 1.2배
 -대인 공격력 1.5배
@@ -28182,7 +28182,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<locked>1</locked>
 	<title>서전 드론 [강습]</title>
 	<short>Surg. [B]</short>
-	<desc>[현재 모드: 방어] 반군 외과의가 전투를 수행할 수 있도록 다시 배선한 의료용 드론입니다.
+	<desc>[현재 모드: 승선] 반군 외과의가 전투를 수행할 수 있도록 다시 배선한 의료용 드론입니다.
     
 -최대 체력 100, 이동속도 1.2배
 -대인 공격력 1.5배
