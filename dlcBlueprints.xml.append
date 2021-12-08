@@ -2575,7 +2575,7 @@
 	<type>BURST</type>
 	<flavorType>Clone-Rigged Cannon</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>클론 대포 [기술자]</title>
+	<title>클론 대포 [공병]</title>
 	<tip>tip_clone_cannon</tip>
 	<short>Cloner [E]</short>
 	<desc>그 어떤 무기보다도 큰 윤리적 논란을 일으키는 무기이지만 일단 작동하니 사용할 수는 있습니다.</desc>
