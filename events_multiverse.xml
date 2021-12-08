@@ -435,19 +435,19 @@
 </ship>
 
 <event name="SYLVAN_CREWKILL">
-	<text>It seems as though this is the end of Sylvan, but suddenly a teleporter signal registers - you've been boarded, again? Sylvan reappears on your deck. "Sssstranger, it'ssss not sssso eassssy to get rid of me!"</text>
+	<text>이것이 실반의 마지막인 것처럼 보이지만 갑자기 텔레포터의 신호가 감지되더니... 또다시 습격했네요? 실반이 당신의 갑판에 다시 나타납니다. "낯썬이, 쩌를 업쌔는 건 그러케 쒸운 일이 아니에요!"</text>
 	<boarders min="1" max="1" class="sylvan"/>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>As if that wasn't enough, even more Slugs beam aboard! Where are these guys coming from?</text>
+			<text>그것으로 충분하지 않았는지, 더 많은 슬러그가 순간이동 해 왔습니다! 이 녀석들은 대체 어디서 온 걸까요?</text>
 			<boarders min="2" max="3" class="slug"/>
 			<ship hostile="true"/>
 		</event>
 	</choice>
 </event> 
 <event name="SYLVAN_DESTRUCTION">
-	<text>Sylvan falls to his knees, bleeding profusely from a gash across his face. He manages to gasp out a few final words, "Ssstranger... I hope... thissss wasss worth it...", then falls over. The Traveling Merchant is no more.</text>
+	<text>실반은 얼굴 전체에 난 베인 상처에서 피를 흘리며 무릎을 꿇었습니다. 그는 헐떡거리며 마지막 몇 마디를 남기고는 쓰러집니다. "낯썬이... 이것이... 가찌 있는 일이었기를 바래요..." 방랑하는 행상인은 더 이상 없습니다.</text>
 	<unlockCustomShip shipReq="PLAYER_SHIP_SYLVAN" silent="false">PLAYER_SHIP_SYLVAN_3</unlockCustomShip>
 	<hiddenAug>MARKER_KILLED_SYLVAN</hiddenAug>
 	<choice hidden="true">
@@ -456,76 +456,76 @@
 	</choice>
 </event> 
 <event name="SYLVAN_DESTRUCTION_2">
-	<text>Though a strong layer of Slug sealant keeps the ship together as it begins to break, eventually it gives away under the stress and the ship explodes, scattering cargo containers across the system. You scrap the wreck first, and find a signal disruptor, some map data, and a golden laser weapon unlike any you've ever seen.</text>
+	<text>두터운 슬러그 수리 젤이 부서지기 시작하는 함선을 붙들고 있었지만, 결국 압박을 받다 함선이 터져버렸고 화물 컨테이너가 여기저기 흩어졌습니다. 당신은 먼저 잔해를 수거하여 신호 방해 장치, 일부 지도 데이터, 그리고 한번도 본 적 없는 황금색 레이저 무기를 발견했습니다.</text>
 	<unlockCustomShip shipReq="PLAYER_SHIP_LIMIT_3" silent="false">PLAYER_SHIP_LIMIT_4</unlockCustomShip>
 	<reveal_map/>
 	<modifyPursuit amount="-3"/>
 	<weapon name="GATLING_SYLVAN"/>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Collect the cargo.</text>
+		<text>화물을 모은다.</text>
 		<event>
-			<text>You scoop up the first cargo box, and empty out all of the scrap inside.</text>
+			<text>첫 번째 화물 상자를 퍼 올려 안에 있는 모든 스크랩을 비웠습니다.</text>
 			<autoReward level="HIGH">scrap_only</autoReward>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>You open another cargo box, finding even more scrap.</text>
+					<text>또 다른 화물 상자를 열어 더 많은 스크랩을 찾았습니다.</text>
 					<autoReward level="HIGH">scrap_only</autoReward>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>You open another cargo box, finding a weapon and more supplies!</text>
+							<text>또 다른 화물 상자를 열어 무기와 더 많은 보급품을 찾았습니다!</text>
 							<autoReward level="HIGH">weapon</autoReward>
 							<choice hidden="true">
 								<text>계속...</text>
 								<event>
-									<text>You open another cargo box, finding a drone among the supplies!</text>
+									<text>또 다른 화물 상자를 열어 보급품들 사이에 있는 드론을 찾았습니다!</text>
 									<autoReward level="HIGH">drone</autoReward>
 									<choice hidden="true">
 										<text>계속...</text>
 										<event>
-											<text>You open another cargo box, finding a ton of fuel and scrap inside.</text>
+											<text>또 다른 화물 상자를 열어 엄청난 양의 연료와 스크랩이 들어 있는 것을 발견했습니다.</text>
 											<autoReward level="HIGH">fuel</autoReward>
 											<choice hidden="true">
 												<text>계속...</text>
 												<event>
-													<text>You open another cargo box, finding a ton of missiles and scrap inside.</text>
+													<text>또 다른 화물 상자를 열어 엄청난 양의 미사일과 스크랩이 들어 있는 것을 발견했습니다.</text>
 													<autoReward level="HIGH">missiles</autoReward>
 													<choice hidden="true">
 														<text>계속...</text>
 														<event>
-															<text>You open another cargo box, finding a ton of drone parts and scrap inside.</text>
+															<text>또 다른 화물 상자를 열어 엄청난 양의 드론 부품과 스크랩이 들어 있는 것을 발견했습니다.</text>
 															<autoReward level="HIGH">droneparts</autoReward>
 															<choice hidden="true">
 																<text>계속...</text>
 																<event>
-																	<text>You open another cargo box, finding a brand new augment and some supplies inside!</text>
+																	<text>또 다른 화물 상자를 열어 새로운 보조장비와 약간의 보급품이 들어 있는 것을 발견했습니다!</text>
 																	<autoReward level="HIGH">augment</autoReward>
 																	<choice hidden="true">
 																		<text>계속...</text>
 																		<event>
-																			<text>You open another cargo box, finding even more supplies!</text>
+																			<text>또 다른 화물 상자를 열어 더 많은 보급품을 찾았습니다!</text>
 																			<autoReward level="HIGH">stuff</autoReward>
 																			<choice hidden="true">
 																				<text>계속...</text>
 																				<event>
-																					<text>You open another cargo box, finding a ton of missiles!</text>
+																					<text>또 다른 상자를 열어 엄청난 양의 미사일을 찾았습니다!</text>
 																					<autoReward level="HIGH">missiles_only</autoReward>
 																					<choice hidden="true">
 																						<text>계속...</text>
 																						<event>
-																							<text>You open another cargo box, finding a ton of drone parts!</text>
+																							<text>또 다른 상자를 열어 엄청난 양의 드론 부품을 찾았습니다!</text>
 																							<autoReward level="HIGH">droneparts_only</autoReward>
 																							<choice hidden="true">
 																								<text>계속...</text>
 																								<event>
-																									<text>You open another cargo box, finding even more scrap.</text>
+																									<text>또 다른 상자를 열어 더 많은 스크랩을 찾았습니다.</text>
 																									<autoReward level="HIGH">scrap_only</autoReward>
 																									<choice hidden="true">
 																										<text>계속...</text>
 																										<event>
-																											<text>You open the final box and, to no surprise, you find even more scrap!</text>
+																											<text>마지막 상자를 열자 당연하게도 더 많은 스크랩이 나왔습니다!</text>
 																											<autoReward level="HIGH">scrap_only</autoReward>
 																										</event>
 																									</choice>
@@ -556,11 +556,11 @@
 </event>
 
 <event name="SYLVAN_ATTACK">
-	<text>For some insane reason, you have decided to attack the traveling merchant. Are you REALLY sure you want to do this? This might be the strongest enemy you'll ever face, so you better be prepared if you're going to take him on.</text>
+	<text>어떤 미친 이유에서, 당신은 방랑하는 행상인을 공격하기로 결정했습니다. 정말로 이렇게 하시겠습니까? 행상인은 당신이 직면하게 될 가장 강력한 적일수도 있으니 그와 겨루려면 단단히 준비하는게 좋을 것입니다.</text>
 	<choice hidden="true">
-		<text>Yes!</text>
+		<text>그래!</text>
 		<event>
-			<text>You raise your weapons against Sylvan, ready to battle. "Ssstranger, ssso it'ss come to thisss? A true ssshame... and to think I thought we could be friendssss..."</text>
+			<text>당신은 실반에게 무기를 겨누고 전투를 준비합니다. "낯썬이... 이렇게 나오는 건가요? 쩡말 부끄럽네요... 우리가 찐구가 될 쑤 이쓸 거라고 쌩각했던게..."</text>
 			<hiddenAug>MARKER_ATTACK_SYLVAN</hiddenAug>
 			<boarders min="3" max="3" class="snail"/>
 			<ship hostile="true"/>
@@ -571,19 +571,19 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>This is a horrible idea. Go back!</text>
+		<text>끔찍한 생각이다. 기각!</text>
 		<event>
-			<text>Sylvan gazes at you strangely, but says nothing, waiting for what you'll say next.</text>
+			<text>실반은 당신을 이상한듯이 바라보지만 아무 말도 하지 않고 당신이 다음에 할 말을 기다리고 있습니다.</text>
 			<choice hidden="true">
-				<text>Trade.</text>
+				<text>거래한다.</text>
 				<event load="SYLVAN_TRADES"/>
 			</choice>
 			<choice hidden="true">
-				<text>Sell some resources first.</text>
+				<text>먼저 자원을 좀 판다.</text>
 				<event load="SYLVAN_CONVERT_MENU"/>
 			</choice>
 			<choice hidden="true">
-				<text>Decline his offer.</text>
+				<text>그의 제안을 거절한다.</text>
 				<event>
 					<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 					<choice>
@@ -654,9 +654,9 @@
 	<preventBossFleet forever="true"/>
 	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
 		<color r="155" g="90" b="205" a="1.0"/>
-		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방랑하는 행상인의 위치입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소입니다.</undiscoveredTooltip>
 	</beaconType>
 	
 	<loadEventList seeded="false" first="true" default="SYLVAN_STANDARD">
@@ -674,9 +674,9 @@
 	<preventBossFleet forever="true"/>
 	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
 		<color r="155" g="90" b="205" a="1.0"/>
-		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방랑하는 행상인의 위치입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소입니다.</undiscoveredTooltip>
 	</beaconType>
 	
 	<loadEventList seeded="false" first="true" default="SYLVAN_STANDARD">
@@ -734,9 +734,9 @@
 	<preventQuest/>
 	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
 		<color r="155" g="90" b="205" a="1.0"/>
-		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방랑하는 행상인의 위치입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소입니다.</undiscoveredTooltip>
 	</beaconType>
 	<loadEventList seeded="false" first="true" default="SYLVAN_DROPPOINT_GIFT">
 		<event name="SYLVAN_DROPPOINT_NOGIFT" req="DIFFICULTY_CHALLENGE"/>
@@ -744,13 +744,13 @@
 	</loadEventList> 
 </event> 
 <event name="SYLVAN_DROPPOINT_GIFT">
-	<text>"Ssstranger, Ssstranger! I'm Ssssylvan, an honessst traveling merchant. Perhapsss we haven't met yet, I tend to forget. I've traveled the realitiessss vassst and I've ssseeen much that the Multiverssse hasss to offer. Maybe we can do ssssome busssinesssss? I have a gift for you assss well, if that might persssuade you..."</text>
+	<text>"낯썬이, 낯썬이! 쩌어는 쩡찍한 방황하는 행쌍인 씰반이에요. 쩨가 짤 이쩌버리는 경향이 이찌만 아마 우리는 처음 만나쓸 꺼에요. 쩌는 방대한 현씰들을 여행해꼬 멀티버쓰가 제공하는 많은 것드를 보아써요. 짱사를 쫌 할 쑤 이쓸까요? 혹씨 이걸로 썰득이 된다며언 썬물도 하나 드릴 쑤 있는데에..."</text>
 	<ship load="SHIP_TRAVELING_MERCHANT" hostile="false"/>
 	<autoReward level="MED">item</autoReward>
 	<choice hidden="true" req="sylvan">
-		<text>(Sylvan) Use Sylvan to hail Sylvan.</text>
+		<text>(실반) 실반으로 실반을 맞이한다.</text>
 		<event>
-			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap!"</text>
+			<text>"당씬은 낯썬이는 커녕 나, 나 짜씬이네요. 그래도 할인은 안되는게 아쓉네요. 멀티버쓰에는 무한한 내가 이꼬 그들 모두에게 꽁짜 쓰크랩을 쭐 쑤는 업써요!"</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
@@ -760,19 +760,19 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>See what he's offering.</text>
+		<text>그가 무엇을 제공하는지 본다.</text>
 		<event load="SYLVAN_TRADES_DROPPOINT"/>
 	</choice>
 	<choice hidden="true">
-		<text>Sell some resources first.</text>
+		<text>먼저 자원을 좀 판다.</text>
 		<event load="SYLVAN_CONVERT_MENU"/>
 	</choice>
 	<choice hidden="true">
-		<text>Attack!</text>
+		<text>공격!</text>
 		<event load="SYLVAN_ATTACK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Decline his offer.</text>
+		<text>그의 제안을 거절한다.</text>
 		<event>
 			<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 			<choice>
@@ -787,12 +787,12 @@
 	</choice>
 </event> 
 <event name="SYLVAN_DROPPOINT_NOGIFT">
-	<text>"Ssstranger, Ssstranger! I'm Ssssylvan, an honessst traveling merchant. Perhapsss we haven't met yet, I tend to forget. I've traveled the realitiessss vassst and I've ssseeen much that the Multiverssse hasss to offer. Maybe we can do ssssome busssinesssss?"</text>
+	<text>"낯썬이, 낯썬이! 쩌는 쩡찍한 방황하는 행쌍인 씰반이에요오. 쩨가 짤 이쩌버리는 경향이 이찌만 아마 우리는 처음 만나쓸 꺼에요. 쩌는 방대한 현씰들을 여행해꼬 멀티버쓰가 제공하는 많은 것드를 보아써요. 짱사를 쫌 할 쑤 이쓸까요?"</text>
 	<ship load="SHIP_TRAVELING_MERCHANT" hostile="false"/>
 	<choice hidden="true" req="sylvan">
-		<text>(Sylvan) Use Sylvan to hail Sylvan.</text>
+		<text>(실반) 실반으로 실반을 맞이한다.</text>
 		<event>
-			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap!"</text>
+			<text>"당씬은 낯썬이는 커녕 나, 나 짜씬이네요. 그래도 할인은 안되는게 아쓉네요. 멀티버쓰에는 무한한 내가 이꼬 그들 모두에게 꽁짜 쓰크랩을 쭐 쑤는 업써요!"</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
@@ -802,19 +802,19 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>See what he's offering.</text>
+		<text>그가 무엇을 제공하는지 본다.</text>
 		<event load="SYLVAN_TRADES_DROPPOINT"/>
 	</choice>
 	<choice hidden="true">
-		<text>Sell some resources first.</text>
+		<text>먼저 자원을 좀 판다.</text>
 		<event load="SYLVAN_CONVERT_MENU"/>
 	</choice>
 	<choice hidden="true">
-		<text>Attack!</text>
+		<text>공격!</text>
 		<event load="SYLVAN_ATTACK"/>
 	</choice>
 	<choice hidden="true">
-		<text>Decline his offer.</text>
+		<text>그의 제안을 거절한다.</text>
 		<event>
 			<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
 			<choice>
@@ -833,9 +833,9 @@
 	<text load="TEXT_SYLVAN_GENERIC"/>
 	<ship load="SHIP_TRAVELING_MERCHANT" hostile="false"/>
 	<choice hidden="true" req="sylvan" max_group="0" blue="false">
-		<text>(Sylvan) Use Sylvan to hail Sylvan.</text>
+		<text>(실반) 실반으로 실반을 맞이한다.</text>
 		<event>
-			<text>"I ssssee you are not the ssstranger but rather me, me. I'm afraid no dissscountsss though. There's an infinite me'sss and I can't go giving all of them free ssscrap!"</text>
+			<text>"당씬은 낯썬이는 커녕 나, 나 짜씬이네요. 그래도 할인은 안되는게 아쓉네요. 멀티버쓰에는 무한한 내가 이꼬 그들 모두에게 꽁짜 쓰크랩을 쭐 쑤는 업써요!"</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
@@ -845,37 +845,37 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="SEC FINAL" lvl="1" max_group="1" blue="false">
-		<text>See what he's offering.</text>
+		<text>그가 무엇을 제공하는지 본다.</text>
 		<event load="SYLVAN_TRADES_LASTSTAND"/>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="1" max_group="1" blue="false">
-		<text>See what he's offering.</text>
+		<text>그가 무엇을 제공하는지 본다.</text>
 		<event load="SYLVAN_TRADES"/>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="1" max_group="2" blue="false">
-		<text>Sell some resources first.</text>
+		<text>먼저 자원을 좀 판다.</text>
 		<event load="SYLVAN_CONVERT_MENU"/>
 	</choice>
 	<choice hidden="true" req="SEC SECTOR_SLUG_UNIQUE" lvl="1" max_group="3" blue="true">
-		<text>Sylvan has a story he wants to tell.</text>
+		<text>실반에게 하고 싶은 이야기가 있습니다.</text>
 		<event load="SYLVAN_PREIGNITER_STORY"/>
 	</choice>
 	<choice hidden="true" req="SEC SECTOR_ZOLTAN_UNIQUE" lvl="1" max_group="3" blue="true">
-		<text>Sylvan has a story he wants to tell.</text>
+		<text>실반에게 하고 싶은 이야기가 있습니다.</text>
 		<event load="SYLVAN_LIZARD_STORY"/>
 	</choice>
 	<choice hidden="true" req="SEC SECTOR_MORPH" lvl="1" max_group="3" blue="true">
-		<text>Sylvan has a story he wants to tell.</text>
+		<text>실반에게 하고 싶은 이야기가 있습니다.</text>
 		<event load="SYLVAN_MORPH_STORY"/>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="1" max_group="4" blue="false">
-		<text>Attack!</text>
+		<text>공격!</text>
 		<event load="SYLVAN_ATTACK"/>
 	</choice>
 	<choice hidden="true" req="pilot" lvl="1" max_group="5" blue="false">
-		<text>Decline his offer.</text>
+		<text>그의 제안을 거절한다.</text>
 		<event>
-			<text>"Maybe a different time then, ssstranger! I'm ccccertain thisss won't be the lassst we sssee each other, in thisss reality or another."</text>
+			<text>"그럼 다음에 보쬬 낯썬이! 쩌는 이것이 이 현씰이나 다른 현씰에서 우리의 마지막 만남이 아닐거라고 확씬해요!"</text>
 			<choice>
 				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
@@ -915,23 +915,23 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <event name="SYLVAN_PREIGNITER_STORY">
-	<text>"Alright ssstranger! Have you ever heard the tale... of the Weapon Pre-Igniter? It wassss a powerful augment firssst built by Jackssson Newman, a cccitizen of Antiquum Terrae during the Human-Mantisss war..."</text>
+	<text>"쫗아요 낯썬이! 혹씨... 무기 쪼기 쩜화기에 대한 이야기를 들어본 쩍이 있나요? 그건 인간-맨티쓰 쩐쨍쭝에 안티쿰 찌구의 씨민인 짹쓴 뉴맨이이 쩌음으로 만든 강력하안 보쪼장비였찌요"</text>
 	<choice hidden="true" req="MARKER_PREIGNITER_QUEST" lvl="0" blue="false" max_group="0">
 		<text>계속...</text>
 		<event>
-			<text>"But not too long after the Multiverssse Warsss, thisss tech wasss banned for being too powerful, too unssstable, too deadly. It'sss nigh imposssible to find one anymore, and trussst me I've tried..."</text>
+			<text>"하찌만 멀티버쓰 쩐쟁이 씨작되고 얼마 지나지 않아써 이 기쑬은 너무 강려카고, 너무 부란쩡하고, 너무 찌명쩍이라느은 이유로 금찌를 당해써요. 더 이쌍 그걸 찾는건 불가능에 가까워요 쩌도 짲아 봤다는걸 믿어쭈세요"</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"But you sssee ssstranger, Jackson Newman didn't actually invent thisss... he ssstole it! And from who? Why, a mysssteriousss and ancccient raccce. I know little about them, but from the legendsss they were called the Obelisssk, and usssed to rule the galaxiesss abroad. Exccciting ssstuff, eh?"</text>
+					<text>"하찌만 들어봐요 낯썬이, 짹쓴 뉴맨은 싸실 이걸 발명해낸게 아니에요... 훔찐거쬬! 누구에게써 훔쳐쓸까요? 무려 씬비하고 아쭈 오래된 쫑족에게써쬬. 쩌는 그들에 대해 잘 모르찌만 쩐썰에 따르면 그들은 오벨리쓰크라 불리고 과거에 우쭈를 지배해때요. 흥미찐찐한 이야기찌요?"</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>"Don't know whatever happened to thessse 'Obelisssk' fellowsss, but I do know that remnantssss of them remain around the galaxy. I heard a man in the pub sssay sssomething about a ruin not too far from here that could even contain the Pre-Igniter tech I'm lookin for!"</text>
+							<text>"이 오벨리쓰크들에게 무쓴 일이 쌩겼는찌는 모르겠찌만 그들의 짠재가 은하계 여기쩌기에 남아 이따는 건 알고 이찌요. 쩌는 쑬찝에서 한 남짜가 여기써 멀찌 않은 유쩍에 쩨가 차꼬 있는 쪼기 쩜화기 기쑬이 이쓸 쑤도 이따고 말하는 걸 들어써요!"</text>
 							<choice hidden="true">
 								<text>계속...</text>
 								<event>
-									<text>"Now I tell you what ssstranger. Jussst before thisss, I wasss 'boutta head there and grab it for myssself, but then you ssshowed up. If you take jussst one glanccce at my ssship, you know well I don't need that sssilly augment. Ssso I'll give you here thessse coordinatesss, and wisssh you besst of luck. And that'sss all ssstranger. Now, want to trade?"</text>
+									<text>"이쩨에 말해줄께요 낯썬이. 바로 쩐에 나는 그 유쩍으로 가써 내 쏜으로 그걸 얻으려고 했찌만 당씬이 나타나써요. 내 함썬을 한번만 보면 알 쑤 있겠찌만 나는 그런 우쑤운 보쪼짱비는 필요 없어요. 그러니 여기 이 좌표를 드리고 행운을 빌어 드릴께요. 이게 다예요 낯썬이이. 이쩨, 거래하씰래요?"</text>
 									<quest event="SYLVAN_PREIGNITER"/>
 									<hiddenAug>MARKER_PREIGNITER_QUEST</hiddenAug>
 									<choice>
@@ -949,9 +949,9 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="MARKER_PREIGNITER_QUEST" lvl="1" blue="false" max_group="0">
-		<text>Yeah, we've heard it.</text>
+		<text>예, 그 이야기는 이미 들었습니다.</text>
 		<event>
-			<text>"Then why'd you assssk me to hear it again ssstranger? I'm afraid I don't have time to repeat mysssself..."</text>
+			<text>"그럼 왜 나한테 다씨 그 이야기를 들려 달라고 했나요? 유감쓰럽게도 쩐 나 짜신을 되풀이할 씨간이 업써요..."</text>
 			<choice>
 				<text>계속...</text>
 				<event>
@@ -969,21 +969,21 @@
 	<preventQuest/>
     <beaconType id="map_icon_merchantquest" global="true">
         <color r="155" g="90" b="205" a="1.0"/>
-        <unvisitedTooltip>This is the location of a quest from the Traveling Merchant.</unvisitedTooltip>
-        <visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+        <unvisitedTooltip>방랑하는 행상인에게 받은 퀘스트의 위치입니다.</unvisitedTooltip>
+        <visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
     </beaconType>
 	
-	<text>You've arrived at the coordinates Sylvan gave. In the distance you can see a massive yet foreign alien vessel...</text>
+	<text>당신은 실반이 준 좌표에 도착했습니다. 저 멀리 거대한 외계의 선박이 보입니다...</text>
 	<img planet="PLANET_ANCIENT_WRECK"/>
 	<choice hidden="true">
-		<text>Approach.</text>
+		<text>접근한다.</text>
 		<event>
-			<text>As you move closer, a massive Rock pirate flies past, their hull adorned with all kinds of strange alien limbs. "You. You are Sylvan friend, me thinks. Who else would come to my spot, looking take bounty that belong to TREMOR THE TERRIBLE? YOU NOT QUAKE IN FEAR, TINY MAN?"</text>
+			<text>가까이 다가가자, 선체를 온갖 이상한 외계인의 팔다리로 장식한 거대한 락맨 해적선이 지나갑니다. "너. 너는 실반의 친구다 내 생각에는. 그렇지 않고선 누가 나 소름끼치는 떨림에게 걸린 현상금을 찾으러 내 영역에 오겠는가? 너는 두려움에 떨지 않는가, 땅딸보?</text>
 			<ship load="SHIP_TREMOR" hostile="false"/>
 			<choice hidden="true">
-				<text>Not particularly.</text>
+				<text>딱히 두렵지 않다.</text>
 				<event>
-					<text>"No soul ever live after challenging Tremor! I show Sylvan what I make of sending mercenary after Tremor stuff!"</text>
+					<text>"떨림에게 도전하면 누구도 살아남지 못한다! 실반한테 떨림의 물건을 쫓는 용병에게 무슨 일이 일어나는지 보여준다!"</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
 						<text>계속...</text>
@@ -992,11 +992,11 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Yeah, I'd rather not fight you.</text>
+				<text>그래, 싸우지 않는 편이 낫겠어.</text>
 				<event>
-					<text>"Good choice, tiny man. Next time, tell Sylvan stay away from Tremor stuff!"</text>
+					<text>"좋은 선택이다 땅딸보. 다음번엔 실반한테 떨림의 물건으로부터 떨어지라고 말해줘라!"</text>
 					<choice>
-						<text>Do something on-board the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
@@ -1008,11 +1008,11 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We can't be the only ones looking for this. 떠난다.</text>
+		<text>우리만 이걸 찾는 것은 아닐거다. 떠난다.</text>
 		<event>
-			<text>You might never see that tech that Sylvan promised, but it's better than being dead.</text>
+			<text>실반이 약속한 그 기술은 볼 수 없겠지만, 죽는것보단 낫습니다.</text>
 			<choice>
-				<text>Do something on-board the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
@@ -1023,24 +1023,24 @@
 	</choice>
 </event>
 <event name="SYLVAN_PREIGNITER_WIN">
-	<text>"AAAAH! AAAAAAH! TREMOR DYING! TREMOR DYI- Gaaaaaaah!" Tremor and his mighty ship have fallen. You scrap its remains.</text>
+	<text>"으아아아! 으아아아아! 떨림 죽어간다! 떨림 죽어ㄱ 으아아아아!" 떨림과 그의 거대한 함선이 쓰러졌습니다. 당신은 그것의 잔해를 수거합니다.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>Tremor might be dead, but your job here isn't finished. As you approach the alien structure, it becomes apparent that the sheer size of the colossal fleet ship is enough to fit a thousand-fold of your cruiser...</text>
+			<text>떨림은 죽었을 지 몰라도, 여기서 당신이 해야 할 일은 끝나지 않았습니다. 외계 구조물에 접근하자 그 거대한 함선의 무식한 크기가 당신 순양함의 1000배는 된다는게 분명해집니다...</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>You traverse the interior of the ship as sparking electronics jut out of the walls, sometimes scraping against your hull in the tighter areas. Inevitably, you find a room resembling the Weapon Control, but you're forced to travel forward on foot.</text>
+					<text>당신은 불꽃이 튀는 전자 장치들이 벽 밖으로 튀어 나온 우주선의 내부를 가로질렀고 때때로 좁은 공간에서는 어쩔 수 없이 선체가 긁혔습니다. 마침내 무기 관제실처럼 보이는 방을 발견했지만, 여기서부터는 직접 걸어서 나아가야만 합니다.</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>Your crew come across a massive cubical power source plugged into the wall, which they assume to be the Pre-Igniter. However, it's uncertain whether pulling it out will trigger any sort of alarm, since the ship itself still seems to have power in a few locations. How much faith are you willing to put into the ancient alien security?</text>
+							<text>당신의 선원은 벽에 연결된 거대한 큐브 형태의 동력원을 발견했는데, 이것이 조기 점화기인 것으로 추정됩니다. 그러나, 함선의 몇몇 지점에 아직 동력이 남아 있는것을 볼 때, 이걸 뽑았을 때 무언가 경보가 작동할 수도 있습니다. 고대 외계인의 보안 기술에 얼마 만큼의 믿음을 쏟고 싶나요?</text>
 							<choice hidden="true">
-								<text>Grab the Pre-Igniter.</text>
+								<text>조기 점화기를 집는다.</text>
 								<event>
-									<text>Your crew carefully eject the Pre-Igniter from its slot. All seems well for a few seconds until a green light starts flashing and a muffled robotic voice starts spewing out alien garble your translator can't comprehend. You quickly hurry out of the ship followed by 2 automated drones dispatched to deal with your crew!</text>
+									<text>당신의 선원은 조기 점화기를 조심스럽게 꺼냅니다. 몇초간은 아무일도 없는것 같았는데, 녹색 불빛이 깜빡이며 작은 기계음이 당신의 번역기가 이해하지 못하는 외게어를 내뿜기 시작합니다. 당신은 당신의 선원을 처리하기 위해 파견된 2대의 자동화 드론에게 쫓기며 빠르게 함선에서 빠져 나옵니다!</text>
 									<augment name="WEAPON_PREIGNITE"/>
 									<boarders min="2" max="2" class="atom"/>
 									<damage amount="0" system="random" effect="breach"/>
@@ -1048,9 +1048,9 @@
 								</event>
 							</choice>
 							<choice hidden="true">
-								<text>Leave it and grab whatever salvage you can instead.</text>
+								<text>조기 점화기는 놔두고 수거할 수 있는 다른것을 집는다.</text>
 								<event>
-									<text>Your crew dig around and grab anything they can carry back to the ship that won't risk setting off a trap. Maybe the Pre-Igniter will be the prize of some other future explorers instead.</text>
+									<text>당신의 선원들은 함정에 빠질 위험이 없는 것중 함선에 가져갈 수 있는 것이라면 뭐든지 샅샅이 뒤져 챙겼습니다. 아마도 조기 점화기는 미래에 또다른 탐험가들의 보상이 될 것입니다.</text>
 									<autoReward level="HIGH">standard</autoReward>
 								</event>
 							</choice>
@@ -1068,19 +1068,19 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <event name="SYLVAN_LIZARD_STORY">
-	<text>"Alright ssstranger! Have you ever heard the tale... of the furry, one-eyed tree lizard thingssss? Ssstupid, I know, but it'sss all true I promissse. I've ssseen them with my own eyesssstalksss!"</text>
+	<text>"쫗아요 낯썬이! 혹씨... 털이 나이꼬 눈이 한개인 나무 도마뱀에 대한 이야기를 들어본 쩍이 있나요? 멍쩡한 쏘리쩌럼 들린다는거 알찌만 모두 싸실이에요, 약속할게요. 쩨 눈으로 찍쩝 그들을 봐꺼든요!"</text>
 	<choice hidden="true" req="MARKER_LIZARD_QUEST" lvl="0" blue="false" max_group="0">
 		<text>계속...</text>
 		<event>
-			<text>Sylvan chuckles. "But in all ssseriousssnesss, there'sss a colony of friendly yet primitive creaturesss nearby. However, they've been through tough timesss lately. Hektar Indussstriesss, perhapsss you've heard of them, have been taking advantage of them for ssseveral yearsss, ssstealing them away for lessss-than-willing labor." You take note at the particular emphasis of disdain when Sylvan mentions "Hektar."</text>
+			<text>실반이 웃습니다. "찐지한 애기를 하면 근쩌에 우호쩍이지만 원씨적인 쌩물들의 거쭈찌가 이써요. 하찌만 그들은 요쯤 힘든 씨기를 겪꼬 있어요. 헥타르 싼업은 아마 당씬도 들어 봐쓸 거에요. 그들이 요 몇년 쌔에 강제 노동을 씨키려고 도마뱀들을 납치하고 이써요. 당신은 실반이 "헥타르"를 언급할 때 경멸조의 강조를 하는 것에 주목합니다."</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"When I caught word of thisss, I ssstepped in. I can't watch over them forever, ssso I had a friend of mine, a Zoltan monk named Anurak, ssstand guard. However, I haven't heard from him in weeksss. I'm getting worried, but I'm kind of held up with thisss merchant busssinesss. Could you be a friend, sssstranger, and take a quick look? It would mean a lot."</text>
+					<text>"이 쏘씩을 들어쓸 때 나는 그 일에 개입해써요. 쩨가 그들을 영원히 지킬 쑤는 없었기 때문에 쩨 친구인 아누락이라는 쫄탄 쑤도승에게 경비를 써게 해써요. 하찌만 몇쭈동안 그에게서 쏘씩을 듣지 못해써요. 걱쩡이 되찌만, 행쌍을 하다보니 일이 좀 밀려써 말이죠. 친구가 되어 짬깐 쌀펴봐 쭐 쑤 있나요, 낯썬이? 큰 도움이 될꺼에요."</text>
 					<choice hidden="true">
-						<text>Sure.</text>
+						<text>물론입니다.</text>
 						<event>
-							<text>"Many thankssss, ssstranger!"</text>
+							<text>"많이 감싸합니다, 낯썬이!"</text>
 							<quest event="SYLVAN_LIZARDS"/>
 							<hiddenAug>MARKER_LIZARD_QUEST</hiddenAug>
 							<choice>
@@ -1092,9 +1092,9 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Decline.</text>
+						<text>거절한다.</text>
 						<event>
-							<text>"That'ssss alright, ssstranger. No hard feelingssss."</text>
+							<text>"괜짢아요 낯썬이. 감정 쌍하지 않아요오"</text>
 							<choice>
 								<text>계속...</text>
 								<event>
@@ -1108,9 +1108,9 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="MARKER_LIZARD_QUEST" lvl="1" blue="false" max_group="0">
-		<text>Yeah, we've heard it.</text>
+		<text>예, 그 이야기는 이미 들었습니다.</text>
 		<event>
-			<text>"Then why'd you assssk me to hear it again ssstranger? I'm afraid I don't have time to repeat mysssself..."</text>
+			<text>"그럼 왜 나한테 다씨 그 이야기를 들려 달라고 했나요? 유감쓰럽게도 쩐 나 짜신을 되풀이할 씨간이 업써요..."</text>
 			<choice>
 				<text>계속...</text>
 				<event>
@@ -1132,45 +1132,45 @@
 	<preventQuest/>
     <beaconType id="map_icon_merchantquest" global="true">
         <color r="155" g="90" b="205" a="1.0"/>
-        <unvisitedTooltip>This is the location of a quest from the Traveling Merchant.</unvisitedTooltip>
-        <visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+        <unvisitedTooltip>방랑하는 행상인에게 받은 퀘스트의 위치입니다.</unvisitedTooltip>
+        <visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
     </beaconType>
 	
-	<text>You've arrived at the coordinates Sylvan gave. You can see a large populated planet in the distance with several massive structures spanning across the trees on the surface. If these lizards really are against advanced technology as Sylvan claims, this is quite an impressive accomplishment.</text>
+	<text>당신은 실반이 준 좌표에 도착했습니다. 당신은 멀리 떨어진 곳에서 표면부의 나무를 가로지르는 몇개의 거대한 구조물이 있는 크고 북적거리는 행성을 볼 수 있습니다. 이 도마뱀들이 정말 실반이 말한대로 첨단 기술에 반대한다면, 이는 상당히 인상적인 성과입니다.</text>
 	<img planet="PLANET_POPULATED"/>
 	<choice hidden="true">
-		<text>Approach.</text>
+		<text>접근한다.</text>
 		<event>
-			<text>As you land on the planet, you can see the citizens are in total disarray and hardly even notice your ship. Unsure of how to communicate, you let out a loud shout to draw their attention. It startles most of the nearby inhabitants, who turn to face your ship.</text>
+			<text>행성에 착륙 하면서 당신은 시민들이 완전히 혼란에 빠져 당신의 함선조차 거의 눈치채지 못하는 것을 볼 수 있습니다. 어떻게 소통을 해야할지 몰라, 당신은 그들의 관심를 끌기 위해 큰 소리를 외쳣습니다. 그 소리가 당신의 함선을 향해 몸을 돌리는 근처의 주민들 대부분을 놀라게 합니다.</text>
 			<choice hidden="true">
-				<text>Er, hello. Has anyone seen Anurak?</text>
+				<text>어, 안녕하세요? 누구 아누락 본 사람 있나요?</text>
 				<event>
-					<text>The leader of the group steps forwards, who introduces himself as Guntput. Fortunately, your translator seems to be able to pick up their language easily, but unfortunately the news you're given isn't great. "Anurak was killed, Rebel attack. Needless casualty, but nothing can be done. Without him, no communications with Zoltan peacekeepers. Hektar Industries sending fleet, they've begun their evil business again."</text>
+					<text>무리의 지도자가 앞으로 나와 자신을 건트풋이라고 소개합니다. 다행히도 당신의 번역기는 그들의 언어를 쉽게 해석할 수 있는 것 같지만, 안타깝게도 당신이 들은 소식은 암울했습니다. "아누락은 살해당했고 반군이 공격했습니다. 불필요한 사상자지만 할 수 있는 것이 아무것도 없습니다. 그가 없다면 졸탄 평화지킴이와 연락할 수 없습니다. 헥타르 산업이 함대를 보내 그 악랄한 사업을 다시 시작했습니다.</text>
 					<choice hidden="true">
-						<text>What evil business?</text>
+						<text>악랄한 사업이 뭐죠?</text>
 						<event>
-							<text>"We make good workers. Hektar need cheap employees. Simple as that. Guild once help them, but vile Irwin ejected from position of chairman when secret get out. If the Federation seeks to protect galaxy as they claim, then you will stay and defend our people. We understand it is detriment to you, we will offer a reward."</text>
+							<text>"우리는 좋은 일꾼입니다. 헥타르는 값싼 직원을 필요로 합니다. 그게 다입니다. 한때는 길드가 그들을 도왔지만 기밀이 누설되자 사악한 어윈이 회장직에서 쫓겨났습니다. 연방이 자신들이 주장하는 대로 은하게를 보호하고자 한다면, 당신은 이곳에 남아서 우리 국민을 보호할 것입니다. 우리는 그러는게 당신에게 손해를 입힌다는걸 이해하고 보상을 제공할 것입니다.</text>
 							<choice hidden="true">
-								<text>Stay to defend the lizards from Hektar.</text>
+								<text>도마뱀들을 헥타르로부터 지키기 위해 머무른다.</text>
 								<event>
-									<text>Not too long after, a Hektar ship appears. When they see you, they don't back off, but they do seem reproachful. "Errr... you aren't ssssupposssed to be here. Thisss planet isss under ownership of Hektar Indussstriesss(tm). We apologize for the inconvenience."</text>
+									<text>얼마 지나지 않아 헥타르 함선이 나타났습니다. 그들이 당신을 봤을 때, 물러서지는 않았지만 당신을 책망하는것처럼 보였습니다. "어... 당신으은 여기 이써선 안됩니다. 이 행썽은 헥타르 싼업(tm)의 쏘유입니다아. 불편을 끼쳐 쬐쏭합니다."</text>
 									<ship load="SHIP_LIZARD" hostile="false"/>
 									<choice hidden="true">
-										<text>This is a Zoltan sector. You're Slugs.</text>
+										<text>여기는 졸탄 섹터입니다. 당신들은 슬러그고.</text>
 										<event>
-											<text>"Uhhh, oh whatever. How much I gotta pay you so you buzzzzz off? Thesssse lizzzardsss aren't worth your damn time."</text>
+											<text>"어어, 뭐 쌍관없찌. 내가 당씬에게 얼마를 찌불해야 꺼쪄 쭐 거십니까? 이이 도마뱀들은 당씬의 빌어먹으을 씨간을 할애하알 가찌가 없씁니다"</text>
 											<choice>
-												<text>Accept their bribe.</text>
+												<text>그들의 뇌물을 받아들인다.</text>
 												<event>
-													<text>Undoubtedly, you have damned these lizards to life in the Hektar sweat shops. But who cares? Money!</text>
+													<text>의심할 여지 없이, 당신은 이 도마뱀들을 헥타르 작업장에서의 삶으로 추락시켜버렸습니다. 하지만 누가 신경이나 쓰겠나요? 돈이 최고지!</text>
 													<autoReward level="MED">standard</autoReward>
 													<weapon name="SHOP_ITEM_HEKTAR_BASE"/>
 												</event>
 											</choice>
 											<choice hidden="true">
-												<text>Attack the Hektar ship.</text>
+												<text>헥타르 함선을 공격한다.</text>
 												<event>
-													<text>You aren't some corrupt Zoltan politician looking to be bought off with some scrap. You have morals (probably) and you'll do all you can to defend these lizards!</text>
+													<text>당신은 스크랩에 매수당하는 몇몇 부패한 졸탄 정치인들과 다릅니다. 당신에게는 도덕심이 (아마도)있고 이 도마뱀들을 지키기 위해 최선을 다 할 것입니다.</text>
 													<ship hostile="true"/>
 													<choice hidden="true">
 														<text>계속...</text>
@@ -1183,7 +1183,7 @@
 								</event>
 							</choice>
 							<choice hidden="true">
-								<text>Refuse and 떠난다.</text>
+								<text>거절하고 떠난다.</text>
 								<event/>
 							</choice>
 						</event>
@@ -1193,11 +1193,11 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Don't interfere with the lizard people.</text>
+		<text>도마뱀들한테 개입하지 않는다.</text>
 		<event>
-			<text>Piloting an advanced, FTL equipped and Multiverse traveling vessel through territory populated by technology hating primitives might not have a good impact on their civilization.</text>
+			<text>첨단 FTL이 장착된 멀티버스 선박을 몰고 기술을 싫어하는 원시인들로 가득찬 영토를 통과하는 것은 그들의 문명에 좋은 영향을 미치지 않을 것입니다.</text>
 			<choice>
-				<text>Do something on-board the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
@@ -1208,30 +1208,30 @@
 	</choice>
 </event>
 <event name="SYLVAN_LIZARDS_WIN">
-	<text>The Hektar ship has been destroyed, but it's very likely more will come. Guntput expresses the same concern. "One down, but many more to come. Inevitable full enslavement of our people... we are in dark days."</text>
+	<text>헥타르 함선이 파괴 되었지만 더 많은 함선이 올 가능성이 높습니다. 건트풋도 같은 우려를 드러냅니다. "하나 처리했지만 더 많이 올 것입니다.우리 민족의 불가피한 완전 노예화... 우리는 어두운 시대에 살고 있습니다."</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
-		<text>Offer to take as many as you can with you.</text>
+		<text>가능한 많은 도마뱀을 당신이 데려갈 것을 제안한다.</text>
 		<event>
-			<text>The lizards seem hesitant. "Technology dangerous to our ways of life. Technology leads to warring, to violence. We must not taint our culture with your sins. How could we be certain you are not the next Hektar, coming swoop us up and exploit for money?"</text>
+			<text>도마뱀은 주저하는 것 같습니다. 도마뱀은 주저하는 것 같습니다. "기술은 우리 삶의 방식에 위험합니다. 기술은 전쟁과 폭력으로 이어집니다. 우리는 당신들의 죄악으로 우리 문화를 더럽히지 않아야 합니다. 당신들이 우리를 습격하고 돈을 위해 착취하는 차세대 헥타르가 아니라는 것을 어떻게 확신할 수 있겠습니까?"</text>
 			<choice hidden="true">
-				<text>You're right, technology is dangerous. That's why you want to be on the winning side.</text>
+				<text>맞습니다, 기술은 위험합니다. 그러니 당신은 이기는 편에 붙어야 합니다.</text>
 				<event>
-					<text>The lizards glare at you with their singular eye. "You are as bad as Hektar, or Rebels! We not come with you!" You're shocked by this sudden resistance but the Lizards refuse to join you. You have no choice but to leave them behind.</text>
+					<text>도마뱀은 당신을 그들의 외눈으로 바라봅니다. "당신은 헥타르나 반군만큼이나 나쁩니다! 우리는 당신과 함게하지 않겠습니다! 당신은 이 갑작스러운 저항에 충격을 받았지만 도마뱀들은 당신과 합류하기를 거부합니다. 당신은 그들을 남겨 둘 수 밖에 없습니다.</text>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>We're no threat. We'll drop your people off at the nearest station.</text>
+				<text>우리는 위협이 되지 않습니다. 우리는 가장 가까운 역에서 주민들을 내려 줄 것입니다.</text>
 				<event>
-					<text>The lizards quickly gather to discuss, but when another Hektar ship jumps in behind them and sends an entire neighborhood plummeting off of its tree, they quickly scurry aboard your vessel. You fly away, unnoticed by the approaching Hektar fleet.</text>
+					<text>도마뱀들은 토론을 위해 재빨리 모여들었지만, 또다른 헥타르 함선이 그들 바로 뒤로 달려들어 이웃 전체를 나무에 곤두박질치게 만들었을 때 그들은 재빨리 종종걸음으로 당신의 함선에 탔습니다. 당신은 다가오는 헥타르 함대에 발각되지 않은 채 멀리 날아갑니다.</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>It doesn't take too long until you encounter a Zoltan trading hub willing to take the refugees. It's only a small subset of their people, but it's enough to keep their species alive for now. All but Guntput remains, who lingers on your ship.</text>
+							<text>난민을 기꺼이 받아들이는 졸탄 교역소를 만나기까지는 그리 오랜 시간이 걸리지 않았습니다. 여기 있는건 그들 시민의 작은 일부에 불과하지만 현재로서 종족을 유지하기에는 충분합니다. 모두가 내리고 건트풋만이 함선에 남았습니다.</text>
 							<choice hidden="true">
 								<text>계속...</text>
 								<event>
-									<text>"Federation. You have done good service for my people. I do not foresee... good future for them. But still better than in Hektar labor camp for rest of days. I will not go with them. I have failed them as leader. I will serve you instead, in efforts to save reality and someday free rest of my people."</text>
+									<text>연방. 당신은 나의 동포들에게 좋은 일을 해줬습니다. 그들의 미래가... 밝지는 않을 겁니다. 하지만 헥타르 노동 수용소에서 여생을 보내는 것보다는 훨씬 낫습니다. 나는 저들과 함게 가지 않을 것입니다. 나는 지도자로서 저들을 실패시켰습니다. 대신, 현실을 구하는 일을 돕고 언젠가는 나머지 동포들을 자유롭게 하기 위해 당신을 따르겠습니다.</text>
 									<hiddenAug>ACH_CREW_GUNTPUT</hiddenAug>
 									<crewMember amount="1" class="lizard">Guntput</crewMember>
 								</event>
@@ -1243,9 +1243,9 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We've done what we can, but we must 떠난다.</text>
+		<text>우리가 할 수 있는 일을 했지만, 떠나야만 합니다.</text>
 		<event>
-			<text>Unfortunately, the lizards are too disorganized to offer any sort of a reward, so you're forced to leave empty handed save for the scrap from the Hektar wreck.</text>
+			<text>불행히도, 도마뱀들이 너무 혼란스러워서 어떠한 종류의 보상도 받을 수 없기 때문에 헥타르 함선 잔해의 스크랩만을 가지고 떠나야 합니다.</text>
 		</event>
 	</choice>
 </event>
@@ -1256,23 +1256,23 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <event name="SYLVAN_MORPH_STORY">
-	<text>"Alright ssstranger! Have you ever heard the tale... of the triple headed planet eating ssssnake monssster? No?! Haha of courssse not. I made it up. Ahhh I don't got a ssstory to tell thisss time, but I did sssee sssomething pretty cool! Doesss that count asss a ssstory? I think it doesss, ssstranger..."</text>
+	<text>"쫗아요 낯썬이! 머리가 세개 달린 행썽을 먹는 뱀 괴물에 대한 이야기를 들어본 쩍 있나요? 없다고요오?! 하하 물논 없겠쬬. 쩨가 만든 이야기거든요. 아아 이번에는 해드릴 이야기가 없찌만 쩨가 꽤 멋찐걸 봐써요! 그것도 이야기로 쳐찔까요? 아마 그럴거에요 낯썬이..."</text>
 	<choice hidden="true" req="MARKER_MORPH_QUEST" lvl="0" blue="false" max_group="0">
 		<text>계속...</text>
 		<event>
-			<text>"Now, I'm ssssure by now you've become acquaintanced with the Morphsss, yess? Perhapsss what you didn't know however issss their ssshipss are made up'a many Morphssss all bunched together cosssier than two loversss after a full night of... ah well, nevermind. Anywaysss, thessse ssshipss tend to resssemble that of exisssting Ssshell design, but I happened to catch ssssight of one that ssstood out to me..."</text>
+			<text>"쩌는 당씬이 이쩨 모프에 대해 알고 이쓸 거라고 확씬해요. 아마도 당씬이 모르는 건 그들의 함썬은 쑤많은 모프들이 한밤쭝의 두 연인보다도 더 아늑하게 결합되어 구썽된다는... 뭐 씬경쓰찌 마세요오. 그나쩌나 모프 함썬들은 기존 쏄 함썬의 디짜인을 닮는 경향이 있는데에, 우연히 눈에 띄는 한 척을 보게 되어써요..."</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"A cruissser! Bet you're familiar with thossse, ssstranger! Didn't come here looking for an unlock from ol' Ssssylvan now, did you? Now, it ain't gonna be peachesss and rosssess. It don't take no geniusss to reckon you gotta recover that ssship unharmed ssssomehow. Now, I hypothesssize there'sss a couple waysss to pull thisss off..."</text>
+					<text>"쑨양함! 아마 당씬은 그런 것에 익쑥하겠쬬, 낯썬이! 지금 여기 씰반에게 해금을 찾아써 온건 아니겠찌요 그렇쬬? 그 일이 쑨탄찌는 않을 거에요. 어떻게 하던 간에 당씬이 그 함썬을 멀쩡하게 복구하는 일은 쒸운 일이 아닐거에요. 이쩨 이 문쩨를 해결할 몇가찌 방법을 쌩각해 볼께요..."</text>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>"The firsst, and most obvioussss of courssse is killing off all the Morphsss. Sssshould be sssimple enough... excccept for the fact that thing'ssss bound to be teeming with all ssssortsss of them. No oxygen either, makesss it real tricky. The sssecond, you find sssome miracle and learn how to underssstand thessse thingsss and convinccce them to give you their ssship. Good luck with that. Three, and my persssonal favorite, you bring them sssomeone they will lisssten to. Heard there'ssss sssome big one called OOJ MAJOO, you gotta ssshout it like that you ssssee, whossse ssstill around thessse partsss. Sssomewhere around Site Alpha, I think."</text>
+							<text>"첫번째이짜 가짱 뻔한 방법은 물론 모든 모프를 쭉이는 거찌요. 쭝분히 간단한 일이여야 하쬬... 모든 쫑류의 것들이 바글거리찌만 않았다면요. 싼쏘가 없다는 것도 쩡말 까다롭쬬. 두번째는 당씬이 어떤 기쩍을 발견해써 이것들과 쏘통하는 방법을 익혀써 그들이 당씬에게 함썬을 주도록 설득하는 거에요. 행운을 빌어요. 쎄번째 쩨가 개인쩍으로 가짱 쫗아하는 방법은 그들이 귀를 기울일 누군가를 데려가는 거에요. 우즈 마주라고 불리는 큰 모프가 이 찌역 쭈위에 있다고 들어써요. 쩨 쌩각에는 알파 기찌 쭈변의 어딘가일 것 같아요."</text>
 							<choice hidden="true">
 								<text>계속...</text>
 								<event>
-									<text>"Now, I'll give you the coordinatessss to thisss cruissser. I believe in you, ssstranger! Anywayssss, now that'sss out of the way... wanna trade?"</text>
+									<text>"이쩨, 이 쑨양함으로 향하는 쫘표를 드릴게요. 나는 당씬을 믿어요 낯썬이! 그나쩌나, 이쩨 이 얘기는 끝나쓰니... 거래할까요?"</text>
 									<quest event="SYLVAN_MORPHUNLOCK"/>
 									<hiddenAug>MARKER_MORPH_QUEST</hiddenAug>
 									<choice>
@@ -1290,9 +1290,9 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="MARKER_MORPH_QUEST" lvl="1" blue="false" max_group="0">
-		<text>Yeah, we've heard it.</text>
+		<text>예, 그 이야기는 이미 들었습니다.</text>
 		<event>
-			<text>"Then why'd you assssk me to hear it again ssstranger? I'm afraid I don't have time to repeat mysssself..."</text>
+			<text>"그럼 왜 나한테 다씨 그 이야기를 들려 달라고 했나요? 유감쓰럽게도 쩐 나 짜신을 되풀이할 씨간이 업써요..."</text>
 			<choice>
 				<text>계속...</text>
 				<event>
@@ -1304,7 +1304,7 @@
 </event>
 <ship name="SHIP_MORPH_CRUISER" auto_blueprint="MU_MORPH_CRUISER">
 	<destroyed>
-		<text>The Morph cruiser has been destroyed. Unfortunately, this means there's no way to recover the ship now, but you can scrap the wreckage.</text>
+		<text>모프 순양함이 파괴되었습니다. 안타깝게도, 지금은 함선을 복원할 방법이 없지만 잔해를 수거할 수는 있습니다.</text>
 		<hiddenAug>ACH_BOSS_MORPH</hiddenAug>
 		<autoReward level="HIGH">item</autoReward>
 	</destroyed>
@@ -1314,32 +1314,32 @@
 	<preventQuest/>
     <beaconType id="map_icon_merchantquest" global="true">
         <color r="155" g="90" b="205" a="1.0"/>
-        <unvisitedTooltip>This is the location of a quest from the Traveling Merchant.</unvisitedTooltip>
-        <visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+        <unvisitedTooltip>방랑하는 행상인에게 받은 퀘스트의 위치입니다.</unvisitedTooltip>
+        <visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
     </beaconType>
 	
-	<text>You've arrived at the coordinates Sylvan gave. It looks like his information was correct, as always, as you spot the massive Morph vessel nearby.</text>
+	<text>실반이 준 좌표에 도착했습니다. 근처에서 거대한 모프 함선이 발견된 걸 보면 언제나처럼 실반의 정보가 정확했던 것 같습니다.</text>
 	<ship load="SHIP_MORPH_CRUISER" hostile="false"/>
 	<choice hidden="true">
-		<text>Approach.</text>
+		<text>접근한다.</text>
 		<event>
-			<text>You move closer, and the cruiser instinctively raises its weapons. "Makoo! Juka yip yip rool!" If you had to guess, they want an explanation for why you're following them.</text>
+			<text>가까이 다가가자 순양함이 본능적으로 무기를 치켜듭니다.  "마쿠! 주카 잎 잎 룰!" 추정해보면, 그들은 당신이 그들을 쫓고 있는 이유에 대한 설명을 바라는 것 같습니다.</text>
 			<choice hidden="true">
-				<text>Try to communicate.</text>
+				<text>대화를 시도한다.</text>
 				<event>
-					<text>You drop down to your knees, imitating the jiggling of the Morphs, letting out several chirps and unsavory noises while hopping up and down. When you get off the ground to look at the reaction of the Morphs, they haven't moved an inch. "Urm... Poo roo...?"</text>
+					<text>당신은 무릎을 꿇고 위아래로 폴짝 뛰면서 지저귀는 소리와 불쾌한 소음을 몇마디 내뱉어 모프의 불안정한 소리를 따라했습니다. 모프의 반응을 보기 위해 다시 일어설 때까지 그들은 1인치도 움직이지 않았습니다. "엄... 푸 루...?"</text>
 					<choice hidden="true">
-						<text>"Poo roo!"</text>
+						<text>"푸 루!"</text>
 						<event>
-							<text>"POO ROO! POO ROO! POO ROO!" shouts the Morphs, who begin to wiggle in unison, then rotating around in a circular fashion. "POO ROO! POO ROO! POO ROO!"</text>
+							<text>"푸 루! 푸 루! 푸 루!" 모프들이 일제히 꿈틀대기 시작한 다음 원을 따라 돌면서 외쳤습니다. "푸 루! 푸 루! 푸 루!"</text>
 							<choice hidden="true">
 								<text>계속...</text>
 								<event>
-									<text>"Kur kur tig." The Morphs stop circling, then go back to working aboard their ship. Looks like this was all a waste of time.</text>
+									<text>"커르 커르 티그." 모프들은 도는걸 멈추더니 다시 함선을 관리하러 갑니다. 이 모든 것이 시간 낭비였던 것 같습니다.</text>
 									<choice hidden="true">
-										<text>Attack!</text>
+										<text>공격!</text>
 										<event>
-											<text>"Atoo atoo! Yrill took took!" The Morphs prepare for combat, and you should do the same.</text>
+											<text>"아투 아투! 이릴 툭 툭!" 모프가 전투를 준비하고, 당신도 준비해야 합니다.</text>
 											<ship hostile="true"/>
 											<choice hidden="true">
 												<text>계속...</text>
@@ -1358,13 +1358,13 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="bloblarge">
-				<text>(OOJ MAJOO) "Pik pik yurla spoo too!"</text>
+				<text>(우즈 마주) "픽 픽 열라 스푸 투!"</text>
 				<event load="MORPH_CRUISER_OOJMAJOO"/>
 			</choice>
 			<choice hidden="true">
-				<text>Attack!</text>
+				<text>공격!</text>
 				<event>
-					<text>"Atoo atoo! Yrill took took!" The Morphs prepare for combat, and you should do the same.</text>
+					<text>"아투 아투! 이릴 툭 툭!" 모프가 전투를 준비하고, 당신도 준비해야 합니다.</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
 						<text>계속...</text>
@@ -1373,11 +1373,11 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Avoid the Morph ship.</text>
+				<text>모프 함선을 피한다.</text>
 				<event>
-					<text>You don't feel prepared for this fight. Maybe under different circumstances you could have fought it, but right now you have other things to worry about.</text>
+					<text>당신은 이 싸움에 대한 준비가 되어 있지 않다고 생각합니다. 다른 상황이었다면 싸울 수도 있었겠지만, 지금은 다른 걱정거리가 있습니다.</text>
 					<choice>
-						<text>Do something on-board the ship.</text>
+						<text>함선에서 무언가를 한다.</text>
 						<event load="STORAGE_CHECK"/>
 					</choice>
 					<choice>
@@ -1389,11 +1389,11 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>We aren't prepared for this.</text>
+		<text>우리는 그들을 조우할 준비가 되지 않았다.</text>
 		<event>
-			<text>You just aren't ready for this fight. Alas, it must wait for another day.</text>
+			<text>당신은 이 싸움을 할 준비가 되지 않았습니다. 아아, 다른 날을 기다려야겠죠.</text>
 			<choice>
-				<text>Do something on-board the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
@@ -1404,12 +1404,12 @@
 	</choice>
 </event>
 <event name="MORPH_CRUISER_OOJMAJOO">
-	<text>As soon as they hear the voice of OOJ MAJOO, their leader, all of the Morphs stop. After some more gibberish back and forth, the Morphs transfer over some data for the ship blueprints. It looks like... genetic code... but you aren't one to question.</text>
+	<text>그들의 지도자인 우즈 마주의 목소리를 듣자 모든 모프들이 멈췄습니다. 몇번 더 횡설수설하다가, 모프들이 우주선 설게도에 대한 일부 설게도를 전송했습니다. 그건 마치... 유전코드처럼 보이지만... 당신이 궁금해 할 필요는 없겠죠.</text>
 	<hiddenAug>ACH_BOSS_MORPH</hiddenAug>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>Before you leave, the Morphs offer you a gift of good faith.</text>
+			<text>떠나기 전에, 모프들이 당신에게 선의의 선물을 제공했습니다.</text>
 			<autoReward level="HIGH">item</autoReward>
 		</event>
 	</choice>
@@ -1430,8 +1430,8 @@
 <event name="SYLVAN_ROYAL">
 	<beaconType id="map_icon_merchant" global="true" req="SYLVAN_BEACON_CHECK">
 		<color r="155" g="90" b="205" a="1.0"/>
-		<unvisitedTooltip>This is the location of the Traveling Merchant.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<unvisitedTooltip>방랑하는 행상인의 위치입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소입니다. 더 이상 흥미로운건 없습니다.</visitedTooltip>
 	</beaconType>
 	<preventFleet/>
 	<preventQuest/>
@@ -1789,7 +1789,7 @@
 							<text>"I'll give you the coordinates for this cache. Try and sssstop by it if you can, and grab it for me. I would be mossst apprecccciative ssstranger!"</text>
 							<quest event="SYLVAN_CRYSTALPONY_1"/>
 							<choice hidden="true">
-								<text>See what he's offering.</text>
+								<text>그가 무엇을 제공하는지 본다.</text>
 								<event load="SYLVAN_TRADES_DROPPOINT"/>
 							</choice>
 							<choice hidden="true">
@@ -1869,7 +1869,7 @@
 		<event>
 			<text>You aren't really sure where Sylvan came from, or why his ship looks different, but something tells you this isn't right.</text>
 			<choice>
-				<text>Do something on-board the ship.</text>
+				<text>함선에서 무언가를 한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice>
@@ -3297,7 +3297,7 @@
 
 <!--MV TRAVELERS-->
 <event name="MV_TRAVELER_SPAWN">
-	<text>You've arrived at a seemingly ordinary beacon, but scans show a particularly large slip-tunnel opening nearby. Someone with an MV drive is jumping in nearby!</text>
+	<text>당신은 평범해 보이는 송신소에 도착했지만 스캔 결과과 근처에 유난히 큰 슬립 터널이 열리고 있음을 보여줍니다. MV 드라이브를 가진 누군가가 근처로 도약해오고 있습니다!</text>
 	<choice req="SECTOR_COUNT" lvl="0" max_lvl="3" max_group="0" blue="false" hidden="true">
 		<text>계속...</text>
 		<event load="MV_TRAVELER_SECTORS14"/>
@@ -3672,7 +3672,7 @@
 </event>
 
 <event name="MV_TRAVELER_BOSS">
-	<text>You wait in apprehension, but the tunnel only continues to get bigger.</text>
+	<text>불안하게 기다리지만 터널은 계속 커져만 갑니다.</text>
 	<choice req="DIFFICULTY_CASUAL" lvl="1" max_group="0" blue="false" hidden="true">
 		<text>계속...</text>
 		<event load="MV_TRAVELER_BOSS_CASUAL"/>
