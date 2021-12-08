@@ -3181,7 +3181,7 @@
 
 <crewBlueprint name="peace">
 	<desc>엘리트 졸탄 선원. 이 잘 무장하고 훈련된 졸탄 병사들은 당신이 선을 넘는다면 주저없이 당신의 강냉이에 발차기를 날릴것입니다.</desc>
-	<title>졸탄 평화지킴이</title>
+	<title>졸탄 평화 유지군</title>
 	<short>Peacekeeper</short>
 	<cost>100</cost>
 	<bp>4</bp>
