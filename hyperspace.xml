@@ -423,218 +423,218 @@ you can also put multiple unlock methods which will let the player do ANY of the
         <bossPos x="1235" y="553" />
         <shipIcon>
             <name>icon_auto</name>
-            <tooltip>AUTOMATED:
-This enemy is automated, meaning it cannot be crew-killed. Systems act as though they are manned, and repairs will be made automatically. Breaches will prevent repairs in the affected room.</tooltip>
+            <tooltip>무인기:
+이 적은 무인기이므로 나포할 수 없습니다. 시스템은 관리되고 있는 것처럼 작동하며 수리가 자동적으로 이루어집니다. 균열은 발생한 선실의 수리를 막습니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_auto_boss</name>
             <tooltip>AUTO OVERRIDE:
-This enemy is also protected by an automated mode that will take over if all of the crew are dead. If auto-mode activates, the ship will gain all benefits that Auto-ships receive. It is impossible to neutralize this vessel via crew kill.</tooltip>
+이 적은 모든 선원이 죽을경우 발동하는 자동화 모드에 의해서도 보호됩니다. 자동화 모드가 활성화되면 이 함선은 무인기의 모든 이점을 얻습니다. 선원을 살해해 이 선박을 무력화 하는것은 불가능합니다.</tooltip>
         </shipIcon>
 	    <shipIcon>
             <name>icon_threat</name>
             <tooltip>HIGH LEVEL THREAT:
-This enemy might pose a major threat to an unprepared vessel. Think carefully if this is an enemy you want to face, and keep your engines ready to run if things go south.</tooltip>
+이 적은 준비되지 않은 선박에 큰 위협이 될 수 있습니다. 이 적을 상대할 지 신중하게 생각하고 상황이 나쁘다면 도망치기 위해 엔진을 가동해 두십시오.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_majorthreat</name>
             <tooltip>MAJOR LEVEL THREAT:
-Avoid conflict with this enemy at all costs. You have a higher chance of slaying god than this ship.</tooltip>
+무슨 수를 써서라도 이 적과의 충돌을 피하십시오. 이 배보다 신을 죽일 수 있을 확률이 더 높습니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_lowthreat</name>
             <tooltip>LOW LEVEL THREAT:
-This enemy poses very little threat to your vessel. Feel free to disregard any threats made by the captain of this sorry ship.</tooltip>
+이 적은 당신의 함선에 거의 위협이 되지 않습니다. 이 안쓰러운 함선의 선장이 하는 위협은 모두 무시하세요.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_specialwep</name>
             <tooltip>SPECIAL WEAPON:
-This enemy is carrying a special custom-built weapon or drone. Destroying the vessel only has a 50% chance to drop the item, but killing the crew will guarantee it drops.</tooltip>
+이 적은 특수 제작된 무기나 드론을 가지고 있습니다. 이 장비는 선박을 파괴할 시 겨우 50%의 확률로 주어지지만, 나포 시 확정적으로 주어집니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_station</name>
             <tooltip>STATION:
-This enemy is a station, meaning it has zero evasion without cloaking.</tooltip>
+이 적은 정거장이므로 따라서 은폐장이 없다면 회피율이 0입니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_resist</name>
             <tooltip>RESISTANT ROOMS:
-This enemy has one or more resistant rooms, marked by the grey border and R icon in the top left. Resistant rooms will take no system damage from weapons, but can be damaged by crew and fires. Resistant rooms will take ion and hull damage as normal.</tooltip>
+이 적은 회색 테두리와 좌상단의 R 아이콘으로 표시되는 저항 선실을 하나 이상 갖고 있습니다. 저항 선실은 무기로부터 시스템 피해를 받지 않지만 선원과 화재로부터는 피해를 받을 수 있습니다. 이온과 함체 피해는 정상적으로 받습니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_no2</name>
             <tooltip>DEPRESSURIZED:
-This enemy is depressurized, meaning it has no Oxygen system. Oxygen restoring crew such as Orchids will not be able to fill this ship with oxygen. Boarding with aerobic crew is not advised without proper precautions.</tooltip>
+이 적은 산소 시스템이 없는 감압 상태입니다. 오키드와 같이 산소를 생산하는 선원은 이 함선을 산소로 채울 수 없습니다. 이 함선에 적절한 예방책 없이 산소가 필요한 선원으로 강습하는 것은 권장되지 않습니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_invasion</name>
             <tooltip>INVASION TACTICS:
-This enemy uses special boarding tactics. Rather than teleporting back crew at low health, it will prioritize sending in more crew instead.</tooltip>
+이 적은 특수한 강습 전술을 사용합니다. 체력이 적은 선원을 순간이동으로 복귀시키는 대신 더 많은 선원을 보내는 것을 우선시합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_math</name>
             <tooltip>EDUTAINMENT:
-The malfunctioning Auto is programmed to periodically ask you mathematical questions. Getting these questions wrong could lead to dangerous results, so be careful!</tooltip>
+이 오작동 중인 무인기는 당신에게 주기적으로 수학 문제를 내도록 프로그래밍되어 있습니다. 문제를 틀리면 위험한 결과가 초래될 수 있으니 주의하십시오!</tooltip>
         </shipIcon>
 <!--///////////////////////////misc///////////////////////////-->
 		<shipIcon>
             <name>icon_shieldboost</name>
-            <tooltip>SHIELD BOOSTER:
-This enemy's shields recharge 17% quicker.</tooltip>
+            <tooltip>방어막 가속기:
+이 적의 방어막 재충전 속도가 17% 빨라집니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_engineboost</name>
-            <tooltip>ENGINE BOOSTER:
-This enemy's engines charge up 30% faster.</tooltip>
+            <tooltip>엔진 가속기:
+이 적의 엔진 충전 속도가 30% 빨라집니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_weaponboost</name>
-            <tooltip>AUTO RELOADER:
-This enemy's weapons charge 10% faster.</tooltip>
+            <tooltip>자동 재장전기:
+이 적의 무기 충전 속도가 10% 빨라집니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_recontele</name>
-            <tooltip>RECONSTRUCTIVE TELEPORTER:
-This enemy's crew heal to full every time they teleport.</tooltip>
+            <tooltip>재구성 텔레포트:
+이 적의 선원은 순간이동 할 때마다 체력을 완전히 회복합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_respirators</name>
-            <tooltip>RESPIRATORS:
-This enemy's crew suffocate at half speed.</tooltip>
+            <tooltip>산소마스크:
+이 적의 선원이 입는 질식 피해는 반감됩니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_ionarmor</name>
-            <tooltip>ION FIELD:
-This enemy has a 50% chance to resist all ion damage.</tooltip>
+            <tooltip>이온 반발 장:
+이 적은 50%의 확률로 이온 피해에 완전히 저항합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_backupdna</name>
-            <tooltip>BACKUP DNA:
-This enemy's crew will be kept alive in the Clone Bay even if it is destroyed or hacked.</tooltip>
+            <tooltip>유전 정보 저장소:
+이 적의 선원은 클론 배양실이 꺼져있거나 망가진 상태라도, 배양기 안에 안전하게 보존됩니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////engi///////////////////////////-->
 		<shipIcon>
             <name>icon_nanomedbay</name>
-            <tooltip>MED-BOTS:
-This enemy's crew will passively heal anywhere on their ship so long as their Medbay is powered, but at 25% speed. Will get stronger with more power in their Medbay system.</tooltip>
+            <tooltip>의료용 나노봇:
+이 적의 선원들은 함선의 어디에 있든 가동중인 의료실 출력의 25%의 속도로 회복합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_droneboost</name>
-            <tooltip>DRONE BOOSTER:
-This enemy's crew drones are granted double movement speed and a 50% boost to combat/sabotage damage and repair/extinguishing speed.</tooltip>
+            <tooltip>드론 가속기:
+이 적의 선원 드론들은 이동속도가 2배 증가하고 대인 공격력, 시스템 파괴 속도, 수리속도, 화재 진압 속도가 50% 증가합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_scrambler</name>
-            <tooltip>DEFENSE SCRAMBLER:
-This enemy will jam your Defense Drones, making them incapable of firing. Is only active so long as the enemy hacking system is functional - destroy it for your drones to return to normal.</tooltip>
+            <tooltip>방어 드론 교란기:
+이 적은 당신의 방어 드론을 교란하여 아무것도 조주할 수 없게 만듭니다. 적의 해킹 장비 시스템이 기능중일때만 활성화됩니다. 적의 해킹 장비가 파괴되면 당신의 드론이 원래대로 돌아옵니다..</tooltip>
         </shipIcon>
 <!--///////////////////////////auto///////////////////////////-->
 		<shipIcon>
             <name>icon_casing</name>
-            <tooltip>SYSTEM CASING:
-Your crew will sabotage this enemy's systems 65% slower.</tooltip>
+            <tooltip>시스템 케이싱:
+당신의 선원은 이 적의 시스템을 65% 느리게 파괴합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_grid</name>
-            <tooltip>EMANCIPATION GRID:
-This enemy's systems are extra protected from Ghost erosion, reducing their sabotage damage by 20%. If a door system is present, all crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 1hp for each level of Door Control above 1.</tooltip>
+            <tooltip>물질 분해 그릴:
+이 적의 시스템은 고스트의 침식으로부터 보호되어 있어 고스트의 시스템 파괴 속도를 20% 늦춥니다. 2/3/4레밸의 문 제어실이 존재한다면 함내의 모든 선원과 드론이 초당 4/5/6의 피해를 입습니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////mantis///////////////////////////-->
 		<shipIcon>
             <name>icon_pheromones</name>
-            <tooltip>PHEROMONES:
-This enemy's crew move 25% faster.</tooltip>
+            <tooltip>페로몬:
+이 적의 선원은 25% 빠르게 움직입니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_freepheromones</name>
-            <tooltip>SYNTHETIC PHEROMONES:
-This enemy's crew move 75% faster but have 5% less health.</tooltip>
+            <tooltip>함성 페로몬:
+이 적의 선원은 75% 빠르게 움직이지만 최대 체력이 5% 적습니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_suzpheromones</name>
-            <tooltip>SUZERAIN PHEROMONES:
-This enemy's crew move 30% faster and their active abilities charge 10% faster.</tooltip>
+            <tooltip>영주의 페로몬:
+이 적의 선원들은 이동속도가 30% 증가하고 활성화 능력 쿨다운이 10% 감소합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_bypass</name>
-            <tooltip>ENERGY BYPASS:
-This enemy can teleport crew or bombs, and mind control through Energy Shields. Its ordinary projectiles will still be unable to penetrate through.</tooltip>
+            <tooltip>에너지 우회기:
+이 적은 에너지 방어막을 무시하고 선원과 폭탄의 순간이동 그리고 정신 지배를 할 수 있습니다. 평범한 투사체는 여전히 에너지 방어막을 관통하지 못합니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////zoltan///////////////////////////-->
 		<shipIcon>
             <name>icon_zoltan_shield</name>
-            <tooltip>ENERGY SHIELD:
-This enemy is protected by an Energy Shield. Hacking, Mind Control, boarding drones, teleportation, and all hull-damaging and/or ion weapons will all be blocked until disabled. Alternatively, install the Energy Bypass upgrade to circumvent this shielding.</tooltip>
+            <tooltip>에너지 방어막:
+이 적은 에너지 방어막에 보호받고 있습니다. 무력화되기 전까지 해킹, 정신 지배, 강습 드론, 순간이동, 그리고 모든 함체 또는 이온 피해를 가지는 공격이 막힙니다. 대안으로, 에너지 방어막 우회 장치를 설치해 이 방어막을 우회할 수 잇습니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////orchid///////////////////////////-->
 		<shipIcon>
             <name>icon_greenhouse</name>
-            <tooltip>KERNEL GREENHOUSE:
-This enemy possesses an on-board greenhouse, which gives it a 65% chance to not use ammunition when firing its weapons.</tooltip>
+            <tooltip>낱알 온실:
+이 적은 무기를 발사할 때 65%의 확률로 탄약을 소모하지 않게 해주는 함상 온실을 가지고 있습니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////shell///////////////////////////-->
         <shipIcon>
             <name>icon_shell_gas</name>
-            <tooltip>TOXIC GAS:
-This enemy ship is filled with a deadly neurotoxin which will passively damage non-Shell crew over time.</tooltip>
+            <tooltip>독성 가스:
+이 적 함선은 셸이 아닌 선원에게 지속적인 피해를 주는 치명적인 신경독으로 가득 채워져 있습니다.</tooltip>
         </shipIcon>
         <shipIcon>
             <name>icon_shell_gas_heal</name>
-            <tooltip>EXPEDITIVE GAS:
-This enemy ship is filled with a deadly neurotoxin which will passively damage non-Shell crew over time. While the enemy Medbay is powered, their crew will heal at 90% speed of level 1 Medbay outside of it.</tooltip>
+            <tooltip>신속한 가스:
+이 적 함선은 셸이 아닌 선원에게 지속적인 피해를 주는 치명적인 신경독으로 가득 채워져 있습니다. 의료실이 가동중이라면, 의료실 밖에 있는 선원들이 1 레밸 의료실의 90%의 속도로 회복합니다.</tooltip>
         </shipIcon>
         <shipIcon>
             <name>icon_shell_gas_repair</name>
-            <tooltip>NANITE GAS:
-This enemy ship is filled with a deadly neurotoxin which will passively damage non-Shell crew over time. Actively puts out fires and repairs breaches on the enemy ship.</tooltip>
+            <tooltip>나노 기기 가스:
+이 적 함선은 셸이 아닌 선원에게 지속적인 피해를 주는 치명적인 신경독으로 가득 채워져 있습니다. 자동적으로 균열을 수리하고 화재를 집압합니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////slug///////////////////////////-->
         <shipIcon>
             <name>icon_hackstun</name>
-            <tooltip>NEURAL DISRUPTOR:
-All crew in the room during this enemy's hacking pulse will be stunned.</tooltip>
+            <tooltip>신경 교란기:
+적의 해킹 드론이 작동하는 동안 해당 선실 내부의 선원은 모두 기절 상태에 빠집니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_sluggel</name>
-            <tooltip>BREACH SEALANT:
-Breaches on this enemy will automatically be repaired even in the absence of crew.</tooltip>
+            <tooltip>균열 실란트:
+이 적 함선의 균열은 선원이 없더라도 자동적으로 수리됩니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_cloakfire</name>
-            <tooltip>SHADOW WEAPONRY:
-This enemy can fire while cloaked without a penalty to its duration.</tooltip>
+            <tooltip>스텔스 무장:
+이 적은 무기를 사용해도 은폐 상태의 지속시간이 줄어들지 않습니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////crystal///////////////////////////-->
         <shipIcon>
             <name>icon_crystal_armor</name>
-            <tooltip>CRYSTALLINE ARMOR:
-Every time you deal hull damage to this enemy with your weapons, there is a 33% chance that a shard will break off and fly towards your ship. It will not pierce any shields, but will do 1 damage to a random room if it hits.</tooltip>
+            <tooltip>크리스탈 장갑:
+이 적에게 당신의 무기로 함체 피해를 줄 때마다 33%의 확률로 선체에서 떨어져 나온 크리스탈 파편이 당신의 함선을 향해 날아옵니다. 방어막을 관통하지 못하지만, 피격된 선실에 1의 피해를 입힙니다.</tooltip>
         </shipIcon>
 <!--///////////////////////////rock///////////////////////////-->
         <shipIcon>
             <name>icon_extinguishers</name>
-            <tooltip>EXTINGUISHERS:
-Fires aboard this enemy will be automatically (and slowly) extinguished even in the absence of crew.</tooltip>
+            <tooltip>자동 진압 시스템:
+이 적 함선의 화재는 선원이 없는 상황에서도 자동적으로 (그리고 느리게) 진압됩니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_rock_armor</name>
-            <tooltip>ROCK PLATING:
-The unique armor on this enemy grants it a 17% chance to resist hull damage from your weapons.</tooltip>
+            <tooltip>암석 장갑:
+이 적이 가진 고유한 장갑은 17%의 확률로 함체 피해를 무시합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_regen_armor</name>
-            <tooltip>REGENERATIVE PLATING:
-The unique armor on this enemy grants it a 10% chance to resist hull damage, and will automatically repair breaches even in the absence of crew.</tooltip>
+            <tooltip>재생 장갑:
+이 적이 가진 고유한 장갑은 17%의 확률로 함체 피해를 무시하고 선원이 없는 상황에서도 균열을 자동적으로 수리합니다.</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_salt_armor</name>
-            <tooltip>SODIUM PLATING:
-The unique armor on this enemy makes it resilient to ion damage. Additionally, it has a very minor chance of resisting system damage.</tooltip>
+            <tooltip>소듐 장갑:
+이 적이 가진 고유한 장갑은 이온 피해를 무시합니다. 추가적으로, 아주 낮은 확률로 시스템 피해를 무시합니다..</tooltip>
         </shipIcon>
 		<shipIcon>
             <name>icon_paladin_armor</name>
-            <tooltip>DIVINE ARMOR:
-Extremely strong armor reinforced with Aether harvested from precursor ruins, fused with the already resistant armor of the Rockmen. Has an 85% chance to resist hull damage, but cannot resist breach weapons.</tooltip>
+            <tooltip>신성한 장갑:
+최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 85%의 확률로 무시합니다.</tooltip>
         </shipIcon>
     </shipIcons>
 	<shipOrder>
@@ -15934,7 +15934,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>HEAL</buttonText>
-			<tooltip>Ready: Heal all other friendly crew in the room including themselves for 50 hitpoints.</tooltip>
+			<tooltip>준비됨: 자신을 포함해 같은 선실에 있는 모든 선원의 체력을 50 치료합니다.</tooltip>
 			<cooldownColor r="255" g="78" b="69" />
 			<effectAnim>explosion_big1_heal</effectAnim>
 			<crewHealth>50</crewHealth>
@@ -16024,7 +16024,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>HEAL</buttonText>
-			<tooltip>Ready: Heal all other friendly crew in the room including themselves for 50 hitpoints.</tooltip>
+			<tooltip>준비됨: Heal all other friendly crew in the room including themselves for 50 hitpoints.</tooltip>
 			<cooldownColor r="255" g="78" b="69" />
 			<effectAnim>explosion_big1_heal</effectAnim>
 			<crewHealth>50</crewHealth>
@@ -16437,7 +16437,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<fireChance>9</fireChance>
 			<buttonText>FIRE</buttonText>
-			<tooltip>Ready: Starts fires</tooltip>
+			<tooltip>준비됨: Starts fires</tooltip>
 			<cooldownColor r="45" g="200" b="75" />
 			<activateWhenReady>true</activateWhenReady>
 		</powerEffect>
@@ -16529,7 +16529,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>levelup</powerSound>
 			</powerSounds>
 			<buttonText>COMMAND</buttonText>
-			<tooltip>Ready: Grants all other friendly crew on the same ship x2 repair, combat damage and 2.5x movement speed for 5 seconds.</tooltip>
+			<tooltip>준비됨: 5초간 같은 함선에 있는 모든 아군 선원에게 x2의 수리속도와 대인 공격력, x2.5의 이동속도를 부여합니다.</tooltip>
 			<cooldownColor r="231" g="122" b="73" />
 			<temporaryEffect>
 				<duration>5</duration>
@@ -16600,7 +16600,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<systemInRoom />
 			</req>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploys a bomb that deals 15 crew damage, 1 system damage, and stun for 3 seconds, with a chance to start fires or breaches. Will temporarily slow down, increasing damage taken from all sources by 20% while moving at 20% speed.</tooltip>
+			<tooltip>준비됨: Deploys a bomb that deals 15 crew damage, 1 system damage, and stun for 3 seconds, with a chance to start fires or breaches. Will temporarily slow down, increasing damage taken from all sources by 20% while moving at 20% speed.</tooltip>
 			<cooldownColor r="38" g="130" b="152" />
 			<friendlyFire>false</friendlyFire>
 			<sysDamage>1</sysDamage>
@@ -16811,7 +16811,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>horseControl</powerSound>
 			</powerSounds>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Lockdown the room.</tooltip>
+			<tooltip>준비됨: 선실을 봉쇄합니다.</tooltip>
 			<cooldownColor r="103" g="150" b="156" />
 			<lockdown>true</lockdown>
 		</powerEffect>
@@ -16941,7 +16941,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<maxHealth>10</maxHealth>
 			</req>
 			<buttonText>NANO</buttonText>
-			<tooltip>Toggle nano mode. In Nano Mode, the Separatist cannot attack, repair, or heal, but takes no hazard damage, ignores doors, and takes only 20% damage from combat.</tooltip>
+			<tooltip>나노 모드로 전환합니다. 나도 모드인 분리주의자는 공격, 수리, 회복을 할 수 없지만 재해로부터 피해를 입지 않고, 문을 무시하고, 전투로부터 20%의 피해만을 입습니다..</tooltip>
 			<cooldownColor r="231" g="225" b="225" />
 			<transformRace>separatistblur</transformRace>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
@@ -16969,7 +16969,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>9</cooldown>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>SOLID</buttonText>
-			<tooltip>Toggle solid mode. In Solid Mode, the Separatist can repair and attack normally.</tooltip>
+			<tooltip>고형 모드로 전환합니다. 고형 모드인 분리주의자는 평범하게 수리하거나 공격할 수 있습니다.</tooltip>
 			<cooldownColor r="231" g="225" b="225" />
 			<transformRace>separatist</transformRace>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
@@ -16992,7 +16992,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>shieldsUp</powerSound>
 			</powerSounds>
 			<buttonText>SHIELD</buttonText>
-			<tooltip>Ready: Take greatly reduced damage, see adjacent rooms and resist Mind Control attempts for 15 seconds.</tooltip>
+			<tooltip>준비됨: 15초간 입는 피해가 크게 감소하고, 인접한 방의 시야를 확보하며 정신 지배에 저항합니다.</tooltip>
 			<cooldownColor r="0" g="186" b="255" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -17041,7 +17041,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>shieldsUp</powerSound>
 			</powerSounds>
 			<buttonText>SHIELD</buttonText>
-			<tooltip>Ready: Shields himself and other allied crew and drones in the room temporarily, and also quadruples their repair speed.</tooltip>
+			<tooltip>준비됨: 자신을 포함해 같은 선실에 있는 모든 아군 선원과 드론을 보호하고 보호받는 아군들의 수리 속도를 4배로 만듭니다.</tooltip>
 			<cooldownColor r="0" g="186" b="255" />
 			<temporaryEffect>
 				<duration>25</duration>
@@ -17108,7 +17108,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<systemInRoom damaged="false" />
 			</req>
 			<buttonText>OVERCHARGE</buttonText>
-			<tooltip>Ready: Powers up a miniature aether shield. While active, provides 2 power to the current system and takes 50% less damage, but loses 2hp/s from radiation.</tooltip>
+			<tooltip>준비됨: 소형 아이테르 방어막을 가동합니다. 일정 시간 동안 배치된 시스템에 2 전력을 공급하며 받는 피해가 50% 줄어들지만, 체력이 초당 2씩 감소합니다.</tooltip>
 			<cooldownColor r="58" g="241" b="183" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<!--<powerCharges>1</powerCharges>
@@ -17141,7 +17141,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<systemInRoom damaged="false" />
 			</req>
 			<buttonText>OVERCHARGE</buttonText>
-			<tooltip>Ready: Powers up a miniature aether shield. While active, provides 2 power to the current system and takes 50% less damage, but loses 2hp/s from radiation.</tooltip>
+			<tooltip>준비됨: Powers up a miniature aether shield. While active, provides 2 power to the current system and takes 50% less damage, but loses 2hp/s from radiation.</tooltip>
 			<cooldownColor r="58" g="241" b="183" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<!--<powerCharges>1</powerCharges>
@@ -17183,7 +17183,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<hasClonebay />
 			</req>
 			<buttonText>KAMIKAZE</buttonText>
-			<tooltip>Ready: Immediately kill the Devotee for 15 extra damage and 3 seconds stun to all crew.</tooltip>
+			<tooltip>준비됨: 추종자를 즉시 자폭시켜 같은 선실의 모든 선원에게 15의 추가 피해와 3초의 기절을 부여합니다.</tooltip>
 			<cooldownColor r="200" g="200" b="200" />
 			<friendlyFire>true</friendlyFire>
 			<persDamage>1</persDamage>
@@ -17219,7 +17219,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<hasClonebay />
 			</req>
 			<buttonText>COUNTDOWN</buttonText>
-			<tooltip>Ready: Start suicide cooldown. When cooldown is finished, explode for 45 crew damage and 5 seconds of stun to all crew in the room. If the countdown is interrupted by death, the full damage will not be applied.</tooltip>
+			<tooltip>준비됨: 자폭 카운트다운을 시작합니다. 카운트다운이 끝나면 폭발하여 같은 선실의 모든 선원에게 45의 피해와 5초의 기절을 부여합니다. 카운트다운이 끝나기 전에 죽으면 가하는 피해가 경감됩니다.</tooltip>
 			<cooldownColor r="200" g="200" b="200" />
 			<friendlyFire>true</friendlyFire>
 			<persDamage>2</persDamage>
@@ -17271,7 +17271,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<hasClonebay />
 			</req>
 			<buttonText>COUNTDOWN</buttonText>
-			<tooltip>Ready: Initiate self destruction, exploding for 60 crew damage and 10 seconds of stun to all crew in the room. All other Zoltan crew in the room will explode as well.</tooltip>
+			<tooltip>준비됨: 즉시 자폭하여 같은 선실의 모든 선원에게 60의 피해와 10초의 기절을 부여합니다. 같은 선실의 모든 다른 졸탄 선원들도 같이 폭발합니다.</tooltip>
 			<cooldownColor r="200" g="200" b="200" />
 			<friendlyFire>true</friendlyFire>
 			<selfHealth>-999</selfHealth>
@@ -17343,7 +17343,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<stun>10</stun>
 			<buttonText>PULSE</buttonText>
-			<tooltip>Ready: Stun all crew in the room for 10 seconds.</tooltip>
+			<tooltip>준비됨: 같은 선실에 있는 모든 선원을 10초간 기절시킵니다.</tooltip>
 			<cooldownColor r="230" g="237" b="133" />
 			<effectAnim>explosion_stun_ion</effectAnim>
 		</powerEffect>
@@ -17558,7 +17558,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<finishSound>mantisSplat3</finishSound>
 			</powerSounds>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
+			<tooltip>준비됨: 7초간 이동속도가 3.5배로 대인 공격력이 3배로 증가합니다. 또한 재해로부터 4배의 피해를 받습니다.</tooltip>
 			<cooldownColor r="171" g="223" b="255" />
 			<temporaryEffect>
 				<duration>7</duration>
@@ -17604,7 +17604,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Increase movement speed to 3x and crew damage to 2.2x for 7 seconds. Does NOT increase damage taken from hazards.</tooltip>
+			<tooltip>준비됨: 7초간 이동속도가 3배로 대인 공격력이 2.2배로 증가합니다. 재해로부터 받는 피해를 증가시키지 않습니다.</tooltip>
 			<cooldownColor r="171" g="223" b="255" />
 			<temporaryEffect>
 				<duration>7</duration>
@@ -17652,7 +17652,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Take 7 health damage to increase movement speed to 5x and crew damage to 3.5x for 9 seconds. Does NOT increase damage taken from hazards.</tooltip>
+			<tooltip>준비됨: 7의 피해를 입고 9초간 이동속도가 5배로 대인 공격력이 3.5배로 증가합니다. 재해로부터 받는 피해를 증가시키지 않습니다.</tooltip>
 			<cooldownColor r="170" g="223" b="255" />
 			<selfHealth>-7</selfHealth>
 			<temporaryEffect>
@@ -17692,7 +17692,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<finishSound>mantisSplat3</finishSound>
 			</powerSounds>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Increase movement speed to 6x and crew damage to 4.3x for 10 seconds. Also increases damage taken from hazards by 7x, and cannot repair for the duration.</tooltip>
+			<tooltip>준비됨: 10초간 이동속도가 6배로 대인 공격력이 4.3배로 증가합니다. 또한 재해로부터 7배의 피해를 받고 지속시간동안 수리를 할 수 없습니다.</tooltip>
 			<cooldownColor r="135" g="201" b="65" />
 			<temporaryEffect>
 				<duration>10</duration>
@@ -17748,7 +17748,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>ONESHOT</buttonText>
-			<tooltip>Ready: For one second, combat damage is massively increased.</tooltip>
+			<tooltip>준비됨: 1초동안 대인 공격력이 대폭 증가합니다.</tooltip>
 			<cooldownColor r="231" g="78" b="57" />
 			<temporaryEffect>
 				<duration>1</duration>
@@ -17786,7 +17786,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<finishSound>spiderRoar</finishSound> <!--needs unique sfx-->
 			</powerSounds>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Make nearby allied Mantis activate their Pheromone ability. Standard Hive Mantis will use the Free Mantis Synthethized Pheromones.</tooltip>
+			<tooltip>준비됨: 주변 아군 맨티스들의 페로몬 능력을 발동시킵니다. 기본 하이브 맨티스는 독립 맨티스의 합성 페로몬을 사용합니다.</tooltip>
 			<cooldownColor r="135" g="201" b="65" />
 			<temporaryEffect>
 				<duration>10</duration>
@@ -18089,7 +18089,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>FLAME</buttonText>
-			<tooltip>Ready: Start fires in the current room.</tooltip>
+			<tooltip>준비됨: 위치한 선실에 화재를 일으킵니다.</tooltip>
 			<cooldownColor r="255" g="102" b="0" />
 			<effectAnim>explosion_random</effectAnim>
 			<powerCharges>2</powerCharges>
@@ -18149,7 +18149,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<minHealth>80</minHealth>
 			</req>
 			<buttonText>BOOST</buttonText>
-			<tooltip>Ready: Temporarily move at normal speed but lose 50hp.</tooltip>
+			<tooltip>준비됨: 잠시 평범한 속도로 움직이지만 체력을 50 잃습니다.</tooltip>
 			<cooldownColor r="148" g="56" b="56" />
 			<selfHealth>-50</selfHealth>
 			<temporaryEffect>
@@ -18190,7 +18190,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<minHealth>80</minHealth>
 			</req>
 			<buttonText>BOOST</buttonText>
-			<tooltip>Ready: Temporarily move at normal speed.</tooltip>
+			<tooltip>준비됨: Temporarily move at normal speed.</tooltip>
 			<cooldownColor r="148" g="56" b="56" />
 			<temporaryEffect>
 				<duration>10</duration>
@@ -18256,7 +18256,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<minHealth>80</minHealth>
 			</req>
 			<buttonText>STIMULANTS</buttonText>
-			<tooltip>Ready: Take 75 damage and gain greatly boosted stats for 12 seconds; 1.5x movement speed, 2.5x repair speed, sabotage and crew damage, 0.75x damage taken. Also reveals adjacent rooms and resist Mind Control attempts for the duration.</tooltip>
+			<tooltip>준비됨: 75의 피해를 입고 12초간 크게 향상된 능력치를 얻습니다. 이동속도 1.5배, 수리 속도, 시스템 파괴 속도, 대인 공격력 2.5배, 받는 피해 0.75배. 또한 지속시간동안 인접한 방을 드러내고 정신 지배에 저항합니다.</tooltip>
 			<cooldownColor r="148" g="56" b="56" />
 			<effectAnim>explosion_missile1</effectAnim>
 			<selfHealth>-75</selfHealth>
@@ -18301,7 +18301,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>lordInject</powerSound>
 			</powerSounds>
 			<buttonText>STIMULANTS</buttonText>
-			<tooltip>Ready: For 20 seconds; regenerate health at a rate of 65hp/s and gain 3x combat damage, but move at 0.25x speed and take 7x more damage from all sources.</tooltip>
+			<tooltip>준비됨: For 20 seconds; regenerate health at a rate of 65hp/s and gain 3x combat damage, but move at 0.25x speed and take 7x more damage from all sources.</tooltip>
 			<cooldownColor r="255" g="150" b="0" />
 			<effectAnim>explosion_missile1</effectAnim>
 			<friendlyFire>true</friendlyFire>
@@ -18441,7 +18441,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>FLAME</buttonText>
-			<tooltip>Ready: Start fires in the current room.</tooltip>
+			<tooltip>준비됨: 위치한 선실에 화재를 일으킵니다.</tooltip>
 			<cooldownColor r="255" g="102" b="0" />
 			<effectAnim>explosion_random</effectAnim>
 		</powerEffect>
@@ -18531,7 +18531,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</powerSounds>
 			<lockdown>true</lockdown>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Take 7 health damage to lock down the room for 12 seconds.</tooltip>
+			<tooltip>준비됨: 7의 피해를 입고 위치한 선실을 12초간 봉쇄합니다.</tooltip>
 			<cooldownColor r="125" g="175" b="175" />
 			<effectAnim>explosion_crystal</effectAnim>
 			<powerCharges>2</powerCharges>
@@ -18578,7 +18578,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</powerSounds>
 			<lockdown>true</lockdown>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Take 7 health damage to lock down the room for 12 seconds. For the duration of the lockdown, allied crew in the room gain 50% hazard immunity, 25% repair speed, and 25% sabotage speed.</tooltip>
+			<tooltip>준비됨: 7의 피해를 입고 위치한 선실을 12초간 봉쇄합니다. 봉쇄의 지속시간동안, 같은 선실에 있는 아군 선원은 50%의 재해 면역, 25%의 수리 속도, 그리고 25%의 시스템 파괴 속도를 얻습니다.</tooltip>
 			<cooldownColor r="100" g="165" b="117" />
 			<effectAnim>explosion_crystal</effectAnim>
 			<powerCharges>3</powerCharges>
@@ -18679,7 +18679,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</powerSounds>
 			<lockdown>true</lockdown>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Take 7 health damage to lock down the room. Can be cast every 5 seconds.</tooltip>
+			<tooltip>준비됨: 7의 피해를 입고 위치한 선실을 봉쇄합니다. 5초마다 발동할 수 있습니다.</tooltip>
 			<cooldownColor r="201" g="62" b="62" />
 			<effectAnim>explosion_crystal</effectAnim>
 			<selfHealth>-7</selfHealth>
@@ -18727,7 +18727,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<lockdown>true</lockdown>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Lock down the room and take halved damage for 12 seconds.</tooltip>
+			<tooltip>준비됨: 12초간 위치한 선실을 봉쇄하고 절반의 피해를 받습니다.</tooltip>
 			<cooldownColor r="240" g="214" b="0" />
 			<effectAnim>explosion_crystal</effectAnim>
 			<temporaryEffect>
@@ -18795,7 +18795,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<lockdown>true</lockdown>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Lock down the room and decreases the ability cooldowns of allied crew in the room by 90%.</tooltip>
+			<tooltip>준비됨: 위치한 선실을 봉쇄하고 같은 선실에 있는 아군 선원의 능력 충전 시간을 90% 감소시킵니다.</tooltip>
 			<cooldownColor r="207" g="134" b="221" />
 			<effectAnim>explosion_crystal</effectAnim>
 			<temporaryEffect>
@@ -18851,7 +18851,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>lockdown2</powerSound>
 			</powerSounds>
 			<buttonText>SALT</buttonText>
-			<tooltip>Ready: Drain 4 health per second from ALL nearby crew, for 15 seconds.</tooltip>
+			<tooltip>준비됨: 15초간 주위의 모든 선원의 체력을 초당 4씩 감소시킵니다.</tooltip>
 			<cooldownColor r="204" g="227" b="208" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -18891,7 +18891,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>HIDE</buttonText>
-			<tooltip>Auto: Hides in the box when at low health.</tooltip>
+			<tooltip>자동: 체력이 낮을 때 상자에 숨습니다.</tooltip>
 			<cooldownColor r="168" g="157" b="80" />
 			<activateWhenReady>true</activateWhenReady>
 			<transformRace>hektarbox</transformRace>
@@ -18918,7 +18918,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>HIDE</buttonText>
-			<tooltip>Auto: Hides in the box when at low health.</tooltip>
+			<tooltip>자동: 체력이 낮을 때 상자에 숨습니다.</tooltip>
 			<cooldownColor r="168" g="157" b="80" />
 			<activateWhenReady>true</activateWhenReady>
 			<transformRace>hektar</transformRace>
@@ -18940,7 +18940,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>HIDE</buttonText>
-			<tooltip>Ready: Hide in a box. It's very effective!</tooltip>
+			<tooltip>준비됨: 상자에 숨습니다. 아주 효과적이에요!</tooltip>
 			<cooldownColor r="168" g="157" b="80" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<transformRace>billybox</transformRace>
@@ -18988,7 +18988,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</powerSounds>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>CLOAK</buttonText>
-			<tooltip>Ready: Cloak and become immune to damage for 20 seconds. Gain 3x sabotage damage, lowers movement speed to 0.4x, and cannot attack crew for the duration of the ability.</tooltip>
+			<tooltip>준비됨: 20초간 은신하고 피해에 면역이 됩니다. 지속시간동안 3배의 시스템 파괴 속도를 얻고 이동 속도가 0.4배로 줄어드며 선원을 공격할 수 없게 됩니다.</tooltip>
 			<cooldownColor r="38" g="130" b="152" />
 			<temporaryEffect>
 				<duration>20</duration>
@@ -19038,7 +19038,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>explosion_big1_ion</powerSound>
 			</powerSounds>
 			<buttonText>CLOAK</buttonText>
-			<tooltip>Ready: Deploy a Stun bomb (12s stun, 1 ion damage) in the current room, and cloak for 10 seconds, ignoring doors, taking 90% less damage, and regenerating health at 5hp/s. Moves at 60% speed while cloaked. Can only be used once per jump.</tooltip>
+			<tooltip>준비됨: 위치한 선실에 기절 폭탄을(기절 12초, 이온 피해 1) 배치하고, 10초간 은신하고, 문을 무시하고, 받는 피해가 90% 경감되고, 초당 5의 속도로 체력을 회복합니다. 은신 중에는 60%의 속도로 이동합니다. 도약당 한 번만 사용할 수 있습니다.</tooltip>
 			<cooldownColor r="255" g="41" b="41" />
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
@@ -19086,7 +19086,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<breachChance>10</breachChance>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Cloak and drop a Breach bomb MK2 (3 system damage, 45 crew damage, no friendly fire). Cannot fight crew or repair while cloaked, but is immune to all damage and sabotage at 5x speed for 22 seconds.</tooltip>
+			<tooltip>준비됨: 22초간 은신하고 파쇄 폭탄 마크2를(시스템 피해 3, 선원 피해 45, 아군 오사 없음) 배치합니다. 은신 중에는 선원과 싸우거나 수리할 수 없지만, 모든 피해에 면역이 되고 5배의 속도로 시스템을 파괴합니다.</tooltip>
 			<effectAnim>bio_bomb_detinate</effectAnim>
 			<cooldownColor r="38" g="130" b="152" />
 			<effectAnim>breach_bomb_detinate</effectAnim>
@@ -19131,7 +19131,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<stun>20</stun>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>STUN</buttonText>
-			<tooltip>Ready: Lose telepathic powers to stun all enemy crew in the room for 20 seconds.</tooltip>
+			<tooltip>준비됨: 텔레파시 능력을 잃고 20초간 같은 선실의 모든 적 선원을 기절시킵니다.</tooltip>
 			<cooldownColor r="250" g="236" b="0" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>explosion_stun_ion</effectAnim>
@@ -19160,7 +19160,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>smallExplosion</powerSound>
 			</powerSounds>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a 30 damage Bio bomb that harms all other crew. Will temporarily cloak and cease movements and attacks for 6 seconds, granting 0.4x damage taken.</tooltip>
+			<tooltip>준비됨: 다른 모든 선원에게 30의 피해를 주는 바이오 폭탄을 배치합니다. 일시적으로 은신하여 6초간 이동하거나 공격할 수 없고 받는 피해가 0.4배로 경감됩니다.</tooltip>
 			<cooldownColor r="38" g="130" b="152" />
 			<friendlyFire>true</friendlyFire>
 			<persDamage>2</persDamage>
@@ -19199,7 +19199,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>explosion_big1_ion</powerSound>
 			</powerSounds>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Stun bomb (12s stun, 1 ion damage) on enemy crew and any current systems. Will temporarily cloak and cease movements for 12 seconds, granting 0.75x damage taken. Can still attack at 1x damage during the ability.</tooltip>
+			<tooltip>준비됨: 위치한 선실에 기절 폭탄을(기절 12초, 이온 피해 1) 배치합니다. 일시적으로 은신하여 12초간 이동할 수 없고 받는 피해가 0.4배로 경감됩니다. 능력 발동중에도 1배의 대인 공격력으로 공격할 수 있습니다..</tooltip>
 			<cooldownColor r="255" g="228" b="0" />
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
@@ -19237,7 +19237,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>explosion_big1_ion</powerSound>
 			</powerSounds>
 			<buttonText>TRANQUILIZE</buttonText>
-			<tooltip>Ready: Neutralizes all crew in the room except himself for 20 seconds, setting their stats to default values. Does not impact abilities, death effects, or capabilities.</tooltip>
+			<tooltip>준비됨: 같은 선실에 있는 자신을 제외한 모든 선원을 20초간 무력화하여 능력치를 기본값으로 고정합니다. 능력치와 무관한 능력이나 사망 효과에는 영향을 주지 않습니다.</tooltip>
 			<cooldownColor r="255" g="155" b="0" />
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
@@ -19475,7 +19475,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19515,7 +19515,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19557,7 +19557,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>lockdown2</powerSound>
 			</powerSounds>
 			<buttonText>SALT</buttonText>
-			<tooltip>Ready: Drain 4 health per second from ALL nearby crew, for 15 seconds.</tooltip>
+			<tooltip>준비됨: Drain 4 health per second from ALL nearby crew, for 15 seconds.</tooltip>
 			<cooldownColor r="204" g="227" b="208" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -19625,7 +19625,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19657,7 +19657,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a small bomb. Kinda pathetic.</tooltip>
+			<tooltip>준비됨: Deploy a small bomb. Kinda pathetic.</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<sysDamage>1</sysDamage>
@@ -19701,7 +19701,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19741,7 +19741,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19795,7 +19795,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19836,7 +19836,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19876,7 +19876,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<lockdown>true</lockdown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>BOMB</buttonText>
-			<tooltip>Ready: Deploy a Breach, Ion, and Lockdown bomb. (30 crew damage, 2 system damage, 5s stun, 3 ion damage. No friendly fire, but can Ion your systems.)</tooltip>
+			<tooltip>준비됨: 균열, 이온, 봉쇄 폭탄을 배치합니다. (선원 피해 30, 시스템 피해 2, 기절 5초, 이온 피해 3. 아군 오사는 불가능하나 자신의 시스템에 이온 피해를 입힐 수 있음.)</tooltip>
 			<cooldownColor r="220" g="35" b="200" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>multi_bomb_detinate</effectAnim>
@@ -19915,7 +19915,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>DRAIN</buttonText>
-			<tooltip>Ready: Click to drain 1 power bar and take 10% less damage for 10 seconds.</tooltip>
+			<tooltip>준비됨: Click to drain 1 power bar and take 10% less damage for 10 seconds.</tooltip>
 			<cooldownColor r="243" g="109" b="109"/>
 			<temporaryEffect>
 				<duration>10</duration>
@@ -19941,7 +19941,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
             <cooldown>20</cooldown>
             <jumpCooldown>full</jumpCooldown>
             <buttonText>DRAIN</buttonText>
-            <tooltip>Ready: Boost power drain to 3 power bars for 15 seconds. Will lose 3hp/s for the duration of the ability.</tooltip>
+            <tooltip>준비됨: 15초간 3칸의 전력 바를 제한합니다. 지속시간동안 초당 3의 체력을 잃습니다.</tooltip>
             <cooldownColor r="255" g="225" b="0" />
             <temporaryEffect>
                 <duration>15</duration>
@@ -20024,7 +20024,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>DRAIN</buttonText>
-			<tooltip>Ready: Temporarily disables the current system completely for 15 seconds. Cannot move and does 50% less combat damage for the duration. Allied crew including Tyrdeo will be unable to sabotage the disabled system for the duration.</tooltip>
+			<tooltip>준비됨: 15초간 위치한 시스템을 완전히 무력화시킵니다. 지속시간동안 움직일 수 없고 대인 공격력이 50% 줄어듭니다. 티르데오를 포함한 아군 선원은 지속시간동안 무력화된 시설을 파괴할 수 없습니다.</tooltip>
 			<cooldownColor r="255" g="225" b="0" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -20147,7 +20147,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 50 damage and deal 15 damage to enemy crew and 1 damage to enemy systems. Slowly regenerates the health lost for 26 seconds.</tooltip>
+			<tooltip>준비됨: 50의 피해를 입고 적 선원에게 15의 피해를, 적 시스템에 1의 피해를 입힙니다. 26초간 잃어버린 체력을 천천히 회복합니다.</tooltip>
 			<cooldownColor r="170" g="206" b="39" />
 			<effectAnim>explosion_shell_death</effectAnim>
 			<selfHealth>-50</selfHealth>
@@ -20179,7 +20179,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 50 damage and heal all friendly crew in the room to full health. Slowly regenerates the health lost for 13 seconds.</tooltip>
+			<tooltip>준비됨: 50의 피해를 입고 같은 선실에 있는 모든 아군 선원을 완전히 치료합니다. 13초간 잃어버린 체력을 천천히 회복합니다.</tooltip>
 			<cooldownColor r="237" g="102" b="102" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>explosion_big1_heal</effectAnim>
@@ -20212,7 +20212,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 50 damage and heal all friendly crew in the room to full health. Slowly regenerates the health lost, heal nearby friendlies for 4 health per second, and get 75% suffocation resistance for 13 seconds.</tooltip>
+			<tooltip>준비됨: 50의 피해를 입고 같은 선실에 있는 모든 아군 선원을 완전히 치료합니다. 13초간 잃어버린 체력을 천천히 회복하고, 주변 아군의 체력을 초당 4만큼 치료하고, 75%의 질식 저항을 얻습니다.</tooltip>
 			<cooldownColor r="237" g="102" b="102" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<effectAnim>explosion_big1_heal</effectAnim>
@@ -20251,7 +20251,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 50 damage and fully repair the current system. Slowly regenerates the health lost for 26 seconds.</tooltip>
+			<tooltip>준비됨: 50의 피해를 입고 위치한 시스템을 완전히 수리합니다. 26초간 잃어버린 체력을 천천히 회복합니다.</tooltip>
 			<cooldownColor r="202" g="79" b="226" />
 			<effectAnim>explosion_repair</effectAnim>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
@@ -20280,7 +20280,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 75 damage and deal 30 damage to enemy crew and 2 damage to enemy systems. Fortify itself for 15 seconds: 0.3x damage taken.</tooltip>
+			<tooltip>준비됨: 75의 피해를 입고 적 선원에게 30의 피해를, 적 시스템에 2의 피해를 입힙니다. 15초간 자신을 요새화하여 0.3배의 피해만을 입습니다.</tooltip>
 			<cooldownColor r="223" g="171" b="12" />
 			<effectAnim>explosion_shell_death</effectAnim>
 			<selfHealth>-75</selfHealth>
@@ -20309,7 +20309,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 15 damage and deal 15 damage to enemy crew and 1 damage to enemy systems. Can be rapidly cast, but regenerates little.</tooltip>
+			<tooltip>준비됨: 15의 피해를 입고 적 선원에게 15의 피해를, 적 시스템에 1의 피해를 입힙니다. 빠르게 충전되지만 회복량이 적습니다.</tooltip>
 			<cooldownColor r="170" g="206" b="39" />
 			<effectAnim>explosion_shell_death</effectAnim>
 			<selfHealth>-15</selfHealth>
@@ -20375,7 +20375,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</powerSounds>
 			<lockdown>true</lockdown>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Take 7 health damage to lock down the room for 12 seconds.</tooltip>
+			<tooltip>준비됨: Take 7 health damage to lock down the room for 12 seconds.</tooltip>
 			<cooldownColor r="125" g="175" b="175" />
 			<effectAnim>explosion_crystal</effectAnim>
 			<selfHealth>-7</selfHealth>
@@ -20417,7 +20417,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Increase movement speed to 3x and crew damage to 2.2x for 7 seconds. Does NOT increase damage taken from hazards.</tooltip>
+			<tooltip>준비됨: Increase movement speed to 3x and crew damage to 2.2x for 7 seconds. Does NOT increase damage taken from hazards.</tooltip>
 			<cooldownColor r="171" g="223" b="255" />
 			<temporaryEffect>
 				<duration>7</duration>
@@ -20621,7 +20621,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>lockdown2</powerSound>
 			</powerSounds>
 			<buttonText>SALT</buttonText>
-			<tooltip>Ready: Drain 4 health per second from ALL nearby crew, for 15 seconds.</tooltip>
+			<tooltip>준비됨: Drain 4 health per second from ALL nearby crew, for 15 seconds.</tooltip>
 			<cooldownColor r="204" g="227" b="208" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -20657,7 +20657,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 50 damage and deal 15 damage to enemy crew and 1 damage to enemy systems. Slowly regenerates the health lost for 26 seconds.</tooltip>
+			<tooltip>준비됨: Take 50 damage and deal 15 damage to enemy crew and 1 damage to enemy systems. Slowly regenerates the health lost for 26 seconds.</tooltip>
 			<cooldownColor r="170" g="206" b="39" />
 			<effectAnim>explosion_shell_death</effectAnim>
 			<selfHealth>-50</selfHealth>
@@ -20783,7 +20783,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>spiderRoar</powerSound>
 			</powerSounds>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Ready: Gain control of the spider for 12 seconds.</tooltip>
+			<tooltip>준비됨: 12초간 거미를 조종할 수 있게 됩니다.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -20830,7 +20830,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>spiderRoar</powerSound>
 			</powerSounds>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Ready: Gain control of the spider for 6 seconds.</tooltip>
+			<tooltip>준비됨: Gain control of the spider for 6 seconds.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>6</duration>
@@ -20875,7 +20875,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<systemInRoom damaged="false" />
 			</req>
 			<buttonText>OVERCHARGE</buttonText>
-			<tooltip>Ready: Powers up a miniature aether shield. While active, provides 2 power to the current system and takes 50% less damage, but loses 2hp/s from radiation.</tooltip>
+			<tooltip>준비됨: Powers up a miniature aether shield. While active, provides 2 power to the current system and takes 50% less damage, but loses 2hp/s from radiation.</tooltip>
 			<cooldownColor r="58" g="241" b="183" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<temporaryEffect>
@@ -20916,7 +20916,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>DRAIN</buttonText>
-			<tooltip>Ready: Boost power drain to 3 power bars for 10 seconds. Will lose 3hp/s for the duration of the ability.</tooltip>
+			<tooltip>준비됨: Boost power drain to 3 power bars for 10 seconds. Will lose 3hp/s for the duration of the ability.</tooltip>
 			<cooldownColor r="255" g="225" b="0" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -21005,7 +21005,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>shieldsUp</powerSound>
 			</powerSounds>
 			<buttonText>SHIELD</buttonText>
-			<tooltip>Ready: Take greatly reduced damage, see adjacent rooms and resist Mind Control attempts for 15 seconds.</tooltip>
+			<tooltip>준비됨: Take greatly reduced damage, see adjacent rooms and resist Mind Control attempts for 15 seconds.</tooltip>
 			<cooldownColor r="0" g="186" b="255" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -21047,7 +21047,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</powerSounds>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>CLOAK</buttonText>
-			<tooltip>Ready: Cloak and become immune to damage for 20 seconds. Gain 3x sabotage damage, lowers movement speed to 0.4x, and cannot attack crew for the duration of the ability.</tooltip>
+			<tooltip>준비됨: Cloak and become immune to damage for 20 seconds. Gain 3x sabotage damage, lowers movement speed to 0.4x, and cannot attack crew for the duration of the ability.</tooltip>
 			<cooldownColor r="38" g="130" b="152" />
 			<temporaryEffect>
 				<duration>20</duration>
@@ -21091,7 +21091,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<finishSound>mantisSplat3</finishSound>
 			</powerSounds>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
+			<tooltip>준비됨: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
 			<cooldownColor r="171" g="223" b="255" />
 			<temporaryEffect>
 				<duration>7</duration>
@@ -21128,7 +21128,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Take 15 damage and deal 15 damage to enemy crew and 1 damage to enemy systems. Can be rapidly cast, but regenerates little.</tooltip>
+			<tooltip>준비됨: Take 15 damage and deal 15 damage to enemy crew and 1 damage to enemy systems. Can be rapidly cast, but regenerates little.</tooltip>
 			<cooldownColor r="170" g="206" b="39" />
 			<effectAnim>explosion_shell_death</effectAnim>
 			<selfHealth>-15</selfHealth>
@@ -21180,7 +21180,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			</req>
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<buttonText>PHEROMONE</buttonText>
-			<tooltip>Ready: Take 7 health damage to increase movement speed to 5x and crew damage to 3.5x for 9 seconds. Does NOT increase damage taken from hazards.</tooltip>
+			<tooltip>준비됨: Take 7 health damage to increase movement speed to 5x and crew damage to 3.5x for 9 seconds. Does NOT increase damage taken from hazards.</tooltip>
 			<cooldownColor r="170" g="223" b="255" />
 			<selfHealth>-7</selfHealth>
 			<temporaryEffect>
@@ -21247,7 +21247,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>queenRoar</powerSound>
 			</powerSounds>
 			<buttonText>ROAR</buttonText>
-			<tooltip>Ready: Grants a 2hp/s regeneration and 50% movement speed bonus to other nearby spiders for 9 seconds.</tooltip>
+			<tooltip>준비됨: Grants a 2hp/s regeneration and 50% movement speed bonus to other nearby spiders for 9 seconds.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>9</duration>
@@ -21686,7 +21686,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>ASSIMILATE</buttonText>
-			<tooltip>Ready: Heal to full health, deal 1 hull damage to the current room, and gain x2 boosted stats for 8 seconds.</tooltip>
+			<tooltip>준비됨: 완전히 회복하고, 위치한 선실에 1의 피해를 주고, 8초간 능력치가 2배로 상승합니다.</tooltip>
 			<cooldownColor r="3" g="145" b="0" />
 			<effectAnim>explosion_random</effectAnim>
 			<selfHealth>999</selfHealth>
@@ -21741,7 +21741,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>true</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<buttonText>ASSIMILATE</buttonText>
-			<tooltip>Ready: Heal to full health, deal 2 hull damage to the current room, and gain x4 boosted stats for 15 seconds.</tooltip>
+			<tooltip>준비됨: 완전히 회복하고, 위치한 선실에 2의 피해를 주고, 15초간 능력치가 4배로 상승합니다.</tooltip>
 			<cooldownColor r="3" g="145" b="0" />
 			<effectAnim>explosion_random</effectAnim>
 			<selfHealth>999</selfHealth>
@@ -21839,7 +21839,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>FLAME</buttonText>
-			<tooltip>Starts a fire in the current room.</tooltip>
+			<tooltip>위치한 선실에 화재를 일으킵니다.</tooltip>
 			<cooldownColor r="235" g="132" b="112" />
 			<activateWhenReady>true</activateWhenReady>
 			<fireChance>10</fireChance>
@@ -21863,7 +21863,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>13</cooldown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>FLAME</buttonText>
-			<tooltip>Starts a fire in the current room.</tooltip>
+			<tooltip>위치한 선실에 화재를 일으킵니다.</tooltip>
 			<cooldownColor r="235" g="132" b="112" />
 			<activateWhenReady>true</activateWhenReady>
 			<fireChance>10</fireChance>
@@ -21888,7 +21888,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>CORRODE</buttonText>
-			<tooltip>Opens a breach in the current room.</tooltip>
+			<tooltip>위치한 선실에 균열을 발생시킵니다.</tooltip>
 			<cooldownColor r="172" g="210" b="112" />
 			<activateWhenReady>true</activateWhenReady>
 			<breachChance>10</breachChance>
@@ -21912,7 +21912,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>13</cooldown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>CORRODE</buttonText>
-			<tooltip>Opens a breach in the current room.</tooltip>
+			<tooltip>위치한 선실에 균열을 발생시킵니다.</tooltip>
 			<cooldownColor r="172" g="210" b="112" />
 			<activateWhenReady>true</activateWhenReady>
 			<breachChance>10</breachChance>
@@ -21937,7 +21937,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>SHOCK</buttonText>
-			<tooltip>Ions the current system and stuns crew for 10 seconds.</tooltip>
+			<tooltip>위치한 선실에 이온 피해를 가하고 선원을 10초간 기절시킵니다.</tooltip>
 			<cooldownColor r="255" g="255" b="255" />
 			<activateWhenReady>true</activateWhenReady>
 			<stun>7</stun>
@@ -21963,7 +21963,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>15</cooldown>
 			<jumpCooldown>continue</jumpCooldown>
 			<buttonText>SHOCK</buttonText>
-			<tooltip>Ions the current system and stuns crew for 10 seconds.</tooltip>
+			<tooltip>위치한 선실에 이온 피해를 가하고 선원을 10초간 기절시킵니다.</tooltip>
 			<cooldownColor r="255" g="255" b="255" />
 			<activateWhenReady>true</activateWhenReady>
 			<stun>7</stun>
@@ -21995,7 +21995,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<inCombat />
 			</chargeReq>
 			<buttonText>SWORD</buttonText>
-			<tooltip>This ability will activate automatically in combat.</tooltip>
+			<tooltip>이 능력은 전투 시 자동적으로 발동됩니다.</tooltip>
 			<effectAnim>reaper_health</effectAnim>
 			<cooldownColor r="210" g="160" b="225" />
 			<activateWhenReady>true</activateWhenReady>
@@ -22019,7 +22019,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
 			<buttonText>RAGE</buttonText>
-			<tooltip>Ready: Deals 30 damage to nearby crew and 1 system damage, 50% breach chance</tooltip>
+			<tooltip>준비됨: Deals 30 damage to nearby crew and 1 system damage, 50% breach chance</tooltip>
 			<cooldownColor r="255" g="196" b="231" />
 			<activateWhenReady>true</activateWhenReady>
 			<shipFriendlyFire>true</shipFriendlyFire>
@@ -22043,7 +22043,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
 			<buttonText>ZAP</buttonText>
-			<tooltip>Ready: Deals 3 ion damage to the current system</tooltip>
+			<tooltip>준비됨: Deals 3 ion damage to the current system</tooltip>
 			<cooldownColor r="255" g="255" b="10" />
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<ion>3</ion>
@@ -22066,7 +22066,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>15</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
 			<buttonText>EAT</buttonText>
-			<tooltip>Ready: Eat nearby crew for 20 damage</tooltip>
+			<tooltip>준비됨: Eat nearby crew for 20 damage</tooltip>
 			<cooldownColor r="131" g="255" b="73" />
 			<friendlyFire>true</friendlyFire>
 			<crewHealth>-20</crewHealth>
@@ -22089,7 +22089,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>10</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
 			<buttonText>COMBUST</buttonText>
-			<tooltip>Ready: Violently combust. Inflicts 2 system damage, 15 crew damage, 50% chances of fires, breach, stun. Uncontrollable for 3 seconds.</tooltip>
+			<tooltip>준비됨: Violently combust. Inflicts 2 system damage, 15 crew damage, 50% chances of fires, breach, stun. Uncontrollable for 3 seconds.</tooltip>
 			<cooldownColor r="255" g="39" b="39" />
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>false</shipFriendlyFire>
@@ -22123,7 +22123,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>15</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
 			<buttonText>INFERNO</buttonText>
-			<tooltip>Ready: Starts a fire in the current room</tooltip>
+			<tooltip>준비됨: Starts a fire in the current room</tooltip>
 			<cooldownColor r="255" g="145" b="0" />
 			<friendlyFire>false</friendlyFire>
 			<shipFriendlyFire>true</shipFriendlyFire>
@@ -22146,7 +22146,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>15</cooldown>
 			<jumpCooldown>reset</jumpCooldown>
 			<buttonText>CONSUME</buttonText>
-			<tooltip>Ready: Deals 1 system damage and open a breach in the current room</tooltip>
+			<tooltip>준비됨: Deals 1 system damage and open a breach in the current room</tooltip>
 			<cooldownColor r="115" g="125" b="255" />
 			<shipFriendlyFire>true</shipFriendlyFire>
 			<sysDamage>1</sysDamage>
@@ -22198,7 +22198,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>spiderRoar</powerSound>
 			</powerSounds>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Ready: Gain control of the spider for 12 seconds.</tooltip>
+			<tooltip>준비됨: 12초간 거미를 조종할 수 있게 됩니다.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<!--<transformRace>spiderc</transformRace>-->
 			<temporaryEffect>
@@ -22246,7 +22246,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>spiderRoar</powerSound>
 			</powerSounds>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Ready: Gain control of the spider for 12 seconds.</tooltip>
+			<tooltip>준비됨: 12초간 거미를 조종할 수 있게 됩니다.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -22294,7 +22294,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>spiderRoar</powerSound>
 			</powerSounds>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Ready: Gain control of the spider for 6 seconds.</tooltip>
+			<tooltip>준비됨: 6초간 거미를 조종할 수 있게 됩니다.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>6</duration>
@@ -22358,7 +22358,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>queenRoar</powerSound>
 			</powerSounds>
 			<buttonText>ROAR</buttonText>
-			<tooltip>Ready: Grants a 2hp/s regeration and 50% movement speed bonus to other nearby spiders for 9 seconds.</tooltip>
+			<tooltip>준비됨: 9초간 주변의 다른 거미들에게 초당 2의 체력 회복과 50%의 이동 속도 보너스를 제공합니다.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>9</duration>
@@ -22449,7 +22449,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>queenRoar</powerSound>
 			</powerSounds>
 			<buttonText>ROAR</buttonText>
-			<tooltip>Ready: Grants a 2hp/s regeration and 50% movement speed bonus to other nearby spiders for 9 seconds.</tooltip>
+			<tooltip>준비됨: Grants a 2hp/s regeration and 50% movement speed bonus to other nearby spiders for 9 seconds.</tooltip>
 			<cooldownColor r="176" g="113" b="224" />
 			<temporaryEffect>
 				<duration>9</duration>
@@ -22548,7 +22548,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>ENCHANT</buttonText>
-			<tooltip>Ready: Provides a 2hp/s regeneration and stun immunity to all friendly crew in the room.</tooltip>
+			<tooltip>준비됨: 같은 선실에 있는 모든 아군 선원에게 초당 2의 체력 회복과 기절 면역을 제공합니다.</tooltip>
 			<cooldownColor r="190" g="222" b="195" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<temporaryEffect>
@@ -22627,7 +22627,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<cooldown>20</cooldown>
 			<jumpCooldown>full</jumpCooldown>
 			<buttonText>MANAGE</buttonText>
-			<tooltip>Ready: Doubles the repair and sabotage speed of all allied crew in the room but lowers their max health by 25% temporarily.</tooltip>
+			<tooltip>준비됨: 일시적으로 같은 선실에 있는 모든 아군 선원의 수리 속도와 시스템 파괴 속도가 두배가 되지만 최대체력이 25% 줄어듭니다.</tooltip>
 			<cooldownColor r="217" g="166" b="55" />
 			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
 			<temporaryEffect>
@@ -22705,7 +22705,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>horseControl</powerSound>
 			</powerSounds>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Ready: Gain control of the pony for 15 seconds.</tooltip>
+			<tooltip>준비됨: 15초간 포니를 조종할 수 있습니다.</tooltip>
 			<cooldownColor r="221" g="94" b="201" />
 			<temporaryEffect>
 				<duration>15</duration>
@@ -22767,7 +22767,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>horseControl</powerSound>
 			</powerSounds>
 			<buttonText>LOCKDOWN</buttonText>
-			<tooltip>Ready: Lockdown the room.</tooltip>
+			<tooltip>준비됨: 위치한 선실을 봉쇄합니다.</tooltip>
 			<cooldownColor r="103" g="150" b="156" />
 			<lockdown>true</lockdown>
 		</powerEffect>
@@ -22818,7 +22818,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<aiDisabled />
 			</req>
 			<buttonText>LIBERATE</buttonText>
-			<tooltip>Toggle liberated mode. The Cognitive will not be controllable but will gain massive boosts to all of its stats. Cannot be changed back for 30 seconds.</tooltip>
+			<tooltip>해방 모드로 전환합니다. 코그니브를 조종할 수 없게 되지만 모든 스탯이 크게 상승합니다. 30초 이내에 다시 모드를 바꿀 수 없습니다.</tooltip>
 			<cooldownColor r="0" g="255" b="18" />
 			<transformRace>avatara</transformRace>
 		</powerEffect>
@@ -22865,7 +22865,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<aiDisabled />
 			</req>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Toggle control mode. You will assume full control over the Cognitive, but it will lose its boosted stats. Cannot be changed back for 45 seconds.</tooltip>
+			<tooltip>통제 모드로 전환합니다. 코그니티브를 조종할 수 있게 되지만 추가 능력치를 잃습니다. 45초 이내에 다시 모드를 바꿀 수 없습니다.</tooltip>
 			<cooldownColor r="0" g="255" b="18" />
 			<transformRace>avatar</transformRace>
 		</powerEffect>
@@ -22910,7 +22910,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<aiDisabled />
 			</req>
 			<buttonText>LIBERATE</buttonText>
-			<tooltip>Toggle liberated mode. The Cognitive will not be controllable but will gain massive boosts to all of its stats. Cannot be changed back for 30 seconds.</tooltip>
+			<tooltip>해방 모드로 전환합니다. 코그니브를 조종할 수 없게 되지만 모든 스탯이 크게 상승합니다. 30초 이내에 다시 모드를 바꿀 수 없습니다.</tooltip>
 			<cooldownColor r="0" g="255" b="18" />
 			<transformRace>avatarroyala</transformRace>
 		</powerEffect>
@@ -22958,7 +22958,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<aiDisabled />
 			</req>
 			<buttonText>CONTROL</buttonText>
-			<tooltip>Toggle control mode. You will assume full control over the Cognitive, but it will lose its boosted stats. Cannot be changed back for 60 seconds.</tooltip>
+			<tooltip>통제 모드로 전환합니다. 코그니티브를 조종할 수 있게 되지만 추가 능력치를 잃습니다. 60초 이내에 다시 모드를 바꿀 수 없습니다.</tooltip>
 			<cooldownColor r="0" g="255" b="18" />
 			<transformRace>avatarroyal</transformRace>
 		</powerEffect>
@@ -23004,7 +23004,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 				<powerSound>lightning4</powerSound>
 			</powerSounds>
 			<buttonText>WARP</buttonText>
-			<tooltip>Ready: Enter maximum speed and ignore all doors for 5 seconds.</tooltip>
+			<tooltip>준비됨: 5초간 최대 속도에 진입하고 모든 문을 무시합니다.</tooltip>
 			<cooldownColor r="255" g="180" b="0" />
 			<temporaryEffect>
 				<duration>5</duration>
@@ -23258,7 +23258,7 @@ Extremely strong armor reinforced with Aether harvested from precursor ruins, fu
 			<friendlyFire>false</friendlyFire>
 			<stun>10</stun>
 			<buttonText>MUSIC</buttonText>
-			<tooltip>Ready: Distracts enemy crew with music</tooltip>
+			<tooltip>준비됨: Distracts enemy crew with music</tooltip>
 			<cooldownColor r="255" g="95" b="220" />
 			<effectAnim>explosion_stun_ion</effectAnim>
 			<activateWhenReady>true</activateWhenReady>
@@ -25717,7 +25717,7 @@ Syntax ->
 						<finishSound>mantisSplat3</finishSound>
 					</powerSounds>
 					<buttonText>PHEROMONE</buttonText>
-					<tooltip>Ready: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
+					<tooltip>준비됨: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
 					<cooldownColor r="171" g="223" b="255" />
 					<temporaryEffect>
 						<duration>7</duration>
@@ -25751,7 +25751,7 @@ Syntax ->
 						<finishSound>mantisSplat3</finishSound>
 					</powerSounds>
 					<buttonText>PHEROMONE</buttonText>
-					<tooltip>Ready: Increase movement speed to 6x and crew damage to 4.3x for 10 seconds. Also increases damage taken from hazards by 7x, and cannot repair for the duration.</tooltip>
+					<tooltip>준비됨: Increase movement speed to 6x and crew damage to 4.3x for 10 seconds. Also increases damage taken from hazards by 7x, and cannot repair for the duration.</tooltip>
 					<cooldownColor r="135" g="201" b="65" />
 					<temporaryEffect>
 						<duration>10</duration>
@@ -25822,7 +25822,7 @@ Syntax ->
 						<finishSound>mantisSplat3</finishSound>
 					</powerSounds>
 					<buttonText>PHEROMONE</buttonText>
-					<tooltip>Ready: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
+					<tooltip>준비됨: Increase movement speed to 3.5x and crew damage to 3x for 7 seconds. Also increases damage taken from hazards by 4x.</tooltip>
 					<cooldownColor r="171" g="223" b="255" />
 					<temporaryEffect>
 						<duration>7</duration>
@@ -25856,7 +25856,7 @@ Syntax ->
 						<finishSound>mantisSplat3</finishSound>
 					</powerSounds>
 					<buttonText>PHEROMONE</buttonText>
-					<tooltip>Ready: Increase movement speed to 6x and crew damage to 4.3x for 10 seconds. Also increases damage taken from hazards by 7x, and cannot repair for the duration.</tooltip>
+					<tooltip>준비됨: Increase movement speed to 6x and crew damage to 4.3x for 10 seconds. Also increases damage taken from hazards by 7x, and cannot repair for the duration.</tooltip>
 					<cooldownColor r="135" g="201" b="65" />
 					<temporaryEffect>
 						<duration>10</duration>
@@ -25974,7 +25974,7 @@ Syntax ->
 					<cooldown>20</cooldown>
 					<jumpCooldown>full</jumpCooldown>
 					<buttonText>SLASH</buttonText>
-					<tooltip>Ready: Deal 15 damage to all enemy crew in the room.</tooltip>
+					<tooltip>준비됨: Deal 15 damage to all enemy crew in the room.</tooltip>
 					<cooldownColor r="231" g="78" b="57" />
 					<enemyHealth>-15</enemyHealth>
 					<powerCharges>2</powerCharges>
@@ -27176,7 +27176,7 @@ Syntax ->
 					<cooldown>20</cooldown>
 					<jumpCooldown>continue</jumpCooldown>
 					<buttonText>CORRODE</buttonText>
-					<tooltip>Opens a breach in the current room.</tooltip>
+					<tooltip>위치한 선실에 균열을 발생시킵니다.</tooltip>
 					<cooldownColor r="172" g="210" b="112" />
 					<breachChance>10</breachChance>
 					<shipFriendlyFire>true</shipFriendlyFire>
@@ -27193,7 +27193,7 @@ Syntax ->
 					<cooldown>13</cooldown>
 					<jumpCooldown>continue</jumpCooldown>
 					<buttonText>CORRODE</buttonText>
-					<tooltip>Opens a breach in the current room.</tooltip>
+					<tooltip>위치한 선실에 균열을 발생시킵니다.</tooltip>
 					<cooldownColor r="172" g="210" b="112" />
 					<breachChance>10</breachChance>
 					<shipFriendlyFire>true</shipFriendlyFire>
@@ -27211,7 +27211,7 @@ Syntax ->
 					<cooldown>20</cooldown>
 					<jumpCooldown>continue</jumpCooldown>
 					<buttonText>SHOCK</buttonText>
-					<tooltip>Ions the current system and stuns crew for 10 seconds.</tooltip>
+					<tooltip>위치한 선실에 이온 피해를 가하고 선원을 10초간 기절시킵니다.</tooltip>
 					<cooldownColor r="255" g="255" b="255" />
 					<stun>7</stun>
 					<ion>2</ion>
@@ -27230,7 +27230,7 @@ Syntax ->
 					<cooldown>15</cooldown>
 					<jumpCooldown>continue</jumpCooldown>
 					<buttonText>SHOCK</buttonText>
-					<tooltip>Ions the current system and stuns crew for 10 seconds.</tooltip>
+					<tooltip>위치한 선실에 이온 피해를 가하고 선원을 10초간 기절시킵니다.</tooltip>
 					<cooldownColor r="255" g="255" b="255" />
 					<stun>7</stun>
 					<ion>2</ion>
