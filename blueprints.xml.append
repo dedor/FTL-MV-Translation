@@ -72,9 +72,9 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="engineer">
-	<desc>수리에 능숙한 인간 공병입니다.</desc>
+	<desc>수리에 능숙한 인간 기술자입니다.</desc>
 	<cost>40</cost>
-	<title>인간 공병</title>
+	<title>인간 기술자</title>
 	<short>Engineer</short>
 	<rarity>0</rarity>
 	<powerList>
