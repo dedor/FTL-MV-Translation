@@ -2598,7 +2598,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>끔찍한 악취가 아무것도 모르는 적 승무원의 방어력을 20% 낮춤</power>
+		<power>끔찍한 악취가 아무것도 모르는 적 선원의 방어력을 20% 낮춤</power>
 		<power>강렬한 굶주림으로 드론, 기계, 그리고 에너지 선원을 먹어치워 그들의 체력을 빠르게 감소시킴</power>
 		<power>게을러 빠져서 0.25배의 이동속도로 움직이며 거대한 몸뚱아리는 그에게 125의 최대 체력을 부여함</power>
 	</powerList>
@@ -2681,7 +2681,7 @@
     <powerList>
         <power>활성화 능력: 같은 선실의 적 선원을 오랫동안 기절시키지만, 지속시간 동안 텔레파시 능력을 잃습니다.</power>
         <power>회복속도 3배</power>
-        <power>주변에 있는 아군 승무원의 체력을 초당 2의 속도로 회복시킴</power>
+        <power>주변에 있는 아군 선원의 체력을 초당 2의 속도로 회복시킴</power>
         <power>기절에 면역</power>
     </powerList>
 </crewBlueprint>
@@ -2693,8 +2693,8 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 같은 선실에 있는 자신을 제외한 모든 선원을 무력화하여 능력치를 기본값으로 고정한다. 능력치와 무관한 능력이나 사망 효과에는 영향을 주지 않습니다.</power>
-        <power>나팔총을 사용하여 1.5배의 대인 공격력을 가지지만, 시스템을 파괴할 수 없습니다.</power>
+        <power>활성화 능력: 같은 선실에 있는 자신을 제외한 모든 선원을 무력화하여 능력치를 기본값으로 고정합니다. 능력치와 무관한 능력이나 사망 효과에는 영향을 주지 않습니다.</power>
+        <power>나팔총을 사용하여 1.5배의 대인 공격력을 가지지만, 시스템을 파괴할 수 없음</power>
     </powerList>
 </crewBlueprint>
 
@@ -2899,7 +2899,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>맥집이 좋지만, 불사신은 아닙니다. 그와 싸우기 위해 가능한 한 많은 승무원을 할애할 준비를 하십시오.</power>
+        <power>맥집이 좋지만, 불사신은 아닙니다. 그와 싸우기 위해 가능한 한 많은 선원을 할애할 준비를 하십시오.</power>
     </powerList>
 </crewBlueprint>
 
@@ -3530,7 +3530,7 @@
 		<power>정신 지배에 면역, 인접한 선실을 볼 수 있으며 생명체를 감지할 수 있음</power>
 		<power>질식과 화재에 면역</power>
 		<power>전투중이지 않을 때 체력을 회복, 최대 체력 100, 대인 공격력 1.5배</power>
-		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
+		<power>통제 모드와 해방 모드를 설정할 수 있음. 해방 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="avatarroyala"> <!--automated, should not be sold-->
@@ -7444,7 +7444,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="EX_ZOLTAN_BYPASS"> 
-	<title>에너지 보호막 우회 장치 [X]</title>
+	<title>에너지 방어막 우회 장치 [X]</title>
 	<desc>선원과 폭탄의 순간이동 그리고 정신 지배가 에너지 방어막을 무시하고 기능하도록 해줍니다.
     
 	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
@@ -7797,7 +7797,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="EX_BACKUP_DNA"> 
 	<title>유전 정보 저장소 [X]</title>
-	<desc>클론 배양실이 꺼져있거나 망가진 상태라도, 사망한 승무원은 배양기 안에 안전하게 보존됩니다.
+	<desc>클론 배양실이 꺼져있거나 망가진 상태라도, 사망한 선원은 배양기 안에 안전하게 보존됩니다.
     
 	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>40</cost> <!-- Was 35-->
@@ -7821,7 +7821,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="EX_DRONE_SPEED">
 	<title>드론 가속기 [X]</title>
-	<desc>선원 드론들의 이동속도가 2배 증가하고 대인 공격력, 시스템 파괴 속도, 수리속도, 화재 진압 속도가 50% 빨라집니다.
+	<desc>선원 드론들의 이동속도가 2배 증가하고 대인 공격력, 시스템 파괴 속도, 수리속도, 화재 진압 속도가 50% 증가합니다.
     
 	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>50</cost>
@@ -7864,7 +7864,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="EX_HACKING_STUN">
 	<title>신경 교란기 [X]</title>
-	<desc>해킹 드론이 작동하는 동안, 해당 선실 내부의 승무원은 모두 기절 상태에 빠집니다.
+	<desc>해킹 드론이 작동하는 동안, 해당 선실 내부의 선원은 모두 기절 상태에 빠집니다.
     
 	[X] - 외장형 보조장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지합니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
 	<cost>60</cost>
@@ -9129,7 +9129,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="PALADIN_ARMOR">
 	<title>신성한 장갑</title>
-	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 70%의 확률로 무시합니다</desc>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 70%의 확률로 무시합니다.</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -14123,7 +14123,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crew_beam</tip>
 	<title>'팔콘' 빔</title>
 	<short>'Faucon'</short>
-	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 승무원에게 심각한 피해를 입힙니다.</desc>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 선원에게 심각한 피해를 입힙니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -14155,7 +14155,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crew_beam</tip>
 	<title>'코빈' 빔</title>
 	<short>'Corbin'</short>
-	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 승무원에게 심각한 피해를 입힙니다. 발사할 때마다 충전 속도가 빨라집니다.</desc>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 선원에게 심각한 피해를 입힙니다. 발사할 때마다 충전 속도가 빨라집니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -19608,7 +19608,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_zolt_deleter</tip>
 	<title>졸탄 제거자</title>
 	<short>Zolt Deleter</short>
-	<desc>다른 승무원에게 피해를 입히는 데 사용될 수는 있지만, 여러 정부에서 이 무기를 다른 종족에게 사용하는 것이 발각되면 즉시 사살한다는 법률을 통과시켰습니다.</desc>
+	<desc>다른 선원에게 피해를 입히는 데 사용될 수는 있지만, 여러 정부에서 이 무기를 다른 종족에게 사용하는 것이 발각되면 즉시 사살한다는 법률을 통과시켰습니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>5</persDamage>
@@ -26928,7 +26928,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_crew_beam</tip>
 	<title>안티-바이오 빔</title>
 	<short>Anti-Bio Beam</short>
-	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 승무원에게 심각한 피해를 입힙니다.</desc>
+	<desc>이 무시무시한 빔은 물리적인 피해를 입힐 수는 없지만 장기를 찢어버리며, 선원에게 심각한 피해를 입힙니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
