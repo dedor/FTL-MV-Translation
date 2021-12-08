@@ -5129,7 +5129,7 @@
 	</choice>
 	<choice req="LAB_ENGINEER_DRONES" lvl="1" max_group="5" blue="false" hidden="true">
 		<text>2차: [기술]: 전투훈련. [이미 업그레이드가 설치되어 있습니다]
-		[기술자 선원이 일반적인 속도로 수리하게 되지만 초당 6hp 회복과 수리/전투 15% 보너스를 제공합니다.]</text>
+		[공병 선원이 일반적인 속도로 수리하게 되지만 초당 6hp 회복과 수리/전투 15% 보너스를 제공합니다.]</text>
 		<event load="OPTION_INVALID" />
 	</choice>
 	<choice req="LAB_ENGINEER_DRONES" lvl="0" max_group="5" blue="false" hidden="true">
@@ -5252,9 +5252,9 @@
 </event>
 <event name="STORAGE_CHECK_LAB_ENGINEER_DRONES">
 	<text>다음 업그레이드를 설치하는 중입니다 : 전투 훈련.
-	[효과: 기술자가 수리 보너스를 잃지만 선원 드론에게 초당 5hp의 회복과 대인 공격력와 수리 속도에 15%의 보너스를 제공합니다.]
+	[효과: 공병이 수리 보너스를 잃지만 선원 드론에게 초당 5hp의 회복과 대인 공격력와 수리 속도에 15%의 보너스를 제공합니다.]
 	
-	[주의: 이것은 기술자 선원에게만 효과가 있습니다. 이 업그레이드를 설치한 이후에도 다른 종류의 1차와 2차의 선원 업그레이드를 설치 가능합니다]</text>
+	[주의: 이것은 공병 선원에게만 효과가 있습니다. 이 업그레이드를 설치한 이후에도 다른 종류의 1차와 2차의 선원 업그레이드를 설치 가능합니다]</text>
 	<choice hidden="true" req="LAB_UPGRADE" lvl="1" max_group="0" blue="false">
 		<text>업그레이드를 설치한다. [비용: 25~, 7|]</text>
 		<event>
@@ -10106,7 +10106,7 @@ CLONEBAY
 				</event>
 			</choice>
 			<choice req="engineer" hidden="true" blue="false">
-				<text>기술자를 업로드한다.</text>
+				<text>공병을 업로드한다.</text>
 				<event>
 					<text>확실합니까?
 					능력치: 시스템 피해 1, 기절 부여 2초.</text>
