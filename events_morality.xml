@@ -6,12 +6,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_GENERAL">
-	<text>[NOTORIETY INCREASED]
-	Your actions here, justifiable or not, will likely not go over well with the Federation or Militia. Continuously perform actions like this and you might start to see negative reactions from certain guards or other Federation forces.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 정당하든 그렇지 않든 연방이나 민병대가 좋게 보지 않을 것입니다. 계속 이런 식으로 행동한다면 특정 경비나 다른 연방군으로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_GENERAL_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here, justifiable or not, will likely not go over well with the Federation or Militia. Continuously perform actions like this and you might start to see negative reactions from certain guards or other Federation forces.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 정당하든 그렇지 않든 연방이나 민병대가 좋게 보지 않을 것입니다. 계속 이런 식으로 행동한다면 특정 경비나 다른 연방군으로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -19,8 +19,8 @@
 </event>
 
 <event name="MORALITY_REMOVE_GENERAL">
-	<text>[NOTORIETY DECREASED]
-	Your actions here should improve your outlooks from Federation or Militia forces.</text>
+	<text>[악명 감소]
+	여기서 당신이 한 행동은 당신에 대한 연방과 민병대의 평판을 개선했을 것입니다.</text>
 	<remove name="HIDDEN MORALITY_CRIME"/>
 </event>
 
@@ -31,12 +31,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_ENGI">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Engi Harmony. Continuously perform actions like this and you might start to see negative reactions from Engi guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 엔지 하모니를 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 엔지 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_ENGI_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Engi Harmony. Continuously perform actions like this and you might start to see negative reactions from Engi guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 엔지 하모니를 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 엔지 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -50,12 +50,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_ZOLTAN">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Zoltan people. Continuously perform actions like this and you might start to see negative reactions from Zoltan guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 졸탄들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 졸탄 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_ZOLTAN_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Zoltan people. Continuously perform actions like this and you might start to see negative reactions from Zoltan guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 졸탄들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 졸탄 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -69,12 +69,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_ORCHID">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Orchid people. Continuously perform actions like this and you might start to see negative reactions from Orchid guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 오키드들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 오키드 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_ORCHID_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Orchid people. Continuously perform actions like this and you might start to see negative reactions from Orchid guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 오키드들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 오키드 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -82,8 +82,8 @@
 </event>
 
 <event name="MORALITY_REMOVE_ORCHID">
-	<text>[NOTORIETY DECREASED]
-	Your actions here should improve your outlooks from the Orchids.</text>
+	<text>[악명 감소]
+	여기서 당신이 한 행동은 당신에 대한 오키드의 평판을 개선했을 것입니다.</text>
 	<remove name="HIDDEN MORALITY_ORCHID"/>
 </event>
 
@@ -94,12 +94,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_FREEMANTIS">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Free Mantis. Continuously perform actions like this and you might start to see negative reactions from Free Mantis guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 독립 맨티스를 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 독립 맨티스 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_FREEMANTIS_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Free Mantis. Continuously perform actions like this and you might start to see negative reactions from Free Mantis guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 독립 맨티스를 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 독립 맨티스 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -114,12 +114,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_CRYSTAL">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Crystalline people. Continuously perform actions like this and you might start to see negative reactions from Crystalline guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 크리스탈들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 크리스탈 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_CRYSTAL_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Crystalline people. Continuously perform actions like this and you might start to see negative reactions from Crystalline guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 크리스탈들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 크리스탈 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -127,8 +127,8 @@
 </event>
 
 <event name="MORALITY_REMOVE_CRYSTAL">
-	<text>[NOTORIETY DECREASED]
-	Your actions here should improve your outlooks from the Crystalline people.</text>
+	<text>[악명 감소]
+	여기서 당신이 한 행동은 당신에 대한 크리스탈들의 평판을 개선했을 것입니다.</text>
 	<removeItem>MORALITY_CRYSTAL</removeItem>
 </event>
 <!--
@@ -138,12 +138,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_SHELL">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Shell people. Continuously perform actions like this and you might start to see negative reactions from Shell guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 셸들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 셸 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_SHELL_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Shell people. Continuously perform actions like this and you might start to see negative reactions from Shell guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 셸들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 셸 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -151,8 +151,8 @@
 </event>
 
 <event name="MORALITY_REMOVE_SHELL">
-	<text>[NOTORIETY DECREASED]
-	Your actions here should improve your outlooks from the Shell people.</text>
+	<text>[악명 감소]
+	여기서 당신이 한 행동은 당신에 대한 셸들의 평판을 개선했을 것입니다.</text>
 	<remove name="HIDDEN MORALITY_SHELL"/>
 </event>
 
@@ -163,12 +163,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_SLUG">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Slug people. Continuously perform actions like this and you might start to see negative reactions from Slug guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 슬러그들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 슬러그 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_SLUG_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here might not please the Slug people. Continuously perform actions like this and you might start to see negative reactions from Slug guards.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 슬러그들을 불쾌하게 할 것입니다. 계속 이런 식으로 행동한다면 슬러그 경비로부터 부정적인 반응을 보게 될 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -182,8 +182,8 @@
 </choice>
 -->
 <event name="MORALITY_OUTCAST_ARMS">
-	<text>[OUTCASTS ARMED]
-	You've convinced the Outcasts that the Inquisition is approaching. In the event of an Inquisition attack the Outcasts will be prepared.</text>
+	<text>[망명자 무장함]
+	당신은 망명자들에게 이단 심문관이 오고 있다는 것을 확신시켰습니다. 심문관의 공격 이벤트에서 망명자들은 대비가 되어 있을 것입니다.</text>
 	<hiddenAug>MARKER_BADLAND_ALLIES</hiddenAug>
 </event>
 <event name="MORALITY_OUTCAST_FIRESUPPORT"> <!--UNUSED-->
@@ -203,12 +203,12 @@
 </choice>
 -->
 <event name="MORALITY_UPDATE_JERRY">
-	<text>[NOTORIETY INCREASED]
-	Your actions here won't go unnoticed by Jerry. Perhaps it is not a good idea to anger Vance's nephew in his own sector?</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 제리의 눈에 띄게 될 것입니다. 밴스 조카의 구역에서 그를 화나게 하는 것은 좋은 생각이 아니지 않을가요?</text>
 </event>
 <event name="MORALITY_UPDATE_JERRY_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here won't go unnoticed by Jerry. Perhaps it is not a good idea to anger Vance's nephew in his own sector?</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 제리의 눈에 띄게 될 것입니다. 밴스 조카의 구역에서 그를 화나게 하는 것은 좋은 생각이 아니지 않을가요?</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
@@ -216,19 +216,19 @@
 </event>
 
 <event name="MORALITY_UPDATE_NEXUS">
-	<text>[NOTORIETY INCREASED]
-	Your actions here, justified or not, won't go unnoticed by the Sylvans. Actions like these might begin to influence the way you're treated here.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 정당하든 그렇지 않든 실반의 눈에 띄게 될 것입니다. 이와 같은 행동은 여기에서 당신이 대우받는 방식에 영향을 미칠 것입니다.</text>
 </event>
 <event name="MORALITY_UPDATE_NEXUS_FIGHT">
-	<text>[NOTORIETY INCREASED]
-	Your actions here, justified or not, won't go unnoticed by the Sylvans. Actions like these might begin to influence the way you're treated here.</text>
+	<text>[악명 증가]
+	여기서 당신이 한 행동은 정당하든 그렇지 않든 실반의 눈에 띄게 될 것입니다. 이와 같은 행동은 여기에서 당신이 대우받는 방식에 영향을 미칠 것입니다.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
 <event name="MORALITY_UPDATE_NEXUS_NOTHING">
-	<text>[NOTORIETY UNAFFECTED]
-	You really doubt anyone will care that this weirdo is dead.</text>
+	<text>[악명 변동 없음]
+	이 괴짜가 죽었다는 사실을 신경 쓸 사람이 있기는 할지 정말 궁금합니다.</text>
 </event>
 </FTL>
