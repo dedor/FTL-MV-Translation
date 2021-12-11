@@ -11,22 +11,22 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->	
 <event name="TRANSPORT_DESTROYED">
-	<text>You destroyed the transport, but nothing remains of its cargo. Dismayed, you scrap what remains of the hull and the few supplies that are floating around.</text>
+	<text>수송선을 파괴했지만 화물은 남아있지 않았습니다. 당황한 당신은 선체의 잔해와 주위를 떠다니는 약간의 보급품을 수거했습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice req="SCRAP_COLLECTOR">
-		<text>(Scrap Arm) Use the arm to collect extra scrap.</text>
+		<text>(스크랩 팔) 팔을 사용해 추가적인 스크랩을 모은다.</text>
 		<event>
 			<autoReward level="MED">scrap_only</autoReward>
 		</event>
 	</choice>
 	<choice req="DRONE_RECOVERY">
-		<text>(Drone Arm) Use the arm to collect extra drone parts.</text>
+		<text>(드론 팔) 팔을 사용해 추가적인 드론 부품을 모은다.</text>
 		<event>
 			<autoReward level="MED">droneparts_only</autoReward>
 		</event>
 	</choice>
 	<choice req="MAGNET_ARM">
-		<text>(Magnet Arm) Use the magnet to draw in some extra supplies.</text>
+		<text>(자석 팔) 자서을 사용해 추가적인 자원을 끌어 모은다.</text>
 		<event>
 			<autoReward level="LOW">stuff</autoReward>
 		</event>
@@ -46,7 +46,7 @@
 -->	
 <ship name="SHIP_CIVILIAN_TRANSPORT_LOOT" auto_blueprint="MU_CIVILIAN_TRANSPORT">
 	<escape timer="30" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -57,15 +57,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a civilian transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 민간인 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_CIVILIAN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -74,11 +74,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -89,7 +89,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_CIVILIAN" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_CIVILIAN"/>
 	<hiddenAug>ACH_TRANS_CIVILIAN</hiddenAug>
@@ -104,7 +104,7 @@
 -->	
 <ship name="SHIP_MILITIA_TRANSPORT_LOOT" auto_blueprint="MU_MILITIA_TRANSPORT">
 	<escape timer="30" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -115,15 +115,15 @@
     <preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Militia transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 민병대 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
     <choice>
-        <text>Demand the surrender of their goods.</text>
+        <text>화물을 넘겨줄 것을 요구한다.</text>
         <event>
-            <text>You prepare to secure their cargo by force.</text>
+            <text>화물을 무력으로 빼앗을 준비를 합니다.</text>
             <ship load="SHIP_MILITIA_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
                 <text>계속...</text>
@@ -132,11 +132,11 @@
         </event>
     </choice>
     <choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -147,7 +147,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_MILITIA" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_MILITIA"/>
 	<hiddenAug>ACH_TRANS_MILITIA</hiddenAug>
@@ -162,7 +162,7 @@
 -->	
 <ship name="SHIP_FED_TRANSPORT_LOOT" auto_blueprint="MU_FED_TRANSPORT">
 	<escape timer="40" min="999" max="999" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -173,15 +173,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Federation transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 연방 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
     <choice>
-        <text>Demand the surrender of their goods.</text>
+        <text>화물을 넘겨줄 것을 요구한다.</text>
         <event>
-            <text>You prepare to secure their cargo by force.</text>
+            <text>화물을 무력으로 빼앗을 준비를 합니다.</text>
             <ship load="SHIP_FED_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
                 <text>계속...</text>
@@ -190,11 +190,11 @@
         </event>
     </choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -205,7 +205,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_FEDERATION" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_FEDERATION"/>
 	<hiddenAug>ACH_TRANS_FED</hiddenAug>
@@ -221,7 +221,7 @@
 -->	
 <ship name="SHIP_REBEL_TRANSPORT_LOOT" auto_blueprint="MU_REBEL_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -232,15 +232,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Rebel transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 반군 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_REBEL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -249,11 +249,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -264,7 +264,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_REBEL" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_REBEL"/>
 	<hiddenAug>ACH_TRANS_REBEL</hiddenAug>
@@ -279,7 +279,7 @@
 -->	
 <ship name="SHIP_JERRY_TRANSPORT_LOOT" auto_blueprint="MU_REBEL_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>The transport is frightened by your approach.</text>
+		<text>당신이 접근하자 수송선이 기겁합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -290,15 +290,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Rebel transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 반군 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_JERRY_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -307,11 +307,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -322,12 +322,12 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_JERRY" unique="true">
-	<text>The crew of the transport has been killed. You scrap the hull before moving on to inspect the contents.</text>
+	<text>수송선의 선원들이 모두 죽었습니다. 당신은 내용물을 탐색하기 전에 먼저 선체를 긁어 모읍니다.</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice>
-		<text>Open the cargo.</text>
+		<text>화물을 연다.</text>
 		<event>
-			<text>You pry open the cargo bay doors, but are utterly confused by what's inside. Instead of weapons, you find several boxes of knitted sweaters, a few birthday cards, and some brightly colored balloons. There's nothing here worth bringing back to the ship, but you decide to anyways.</text>
+			<text>당신은 화물칸 문을 열어 안을 보았지만, 안에 들어있는 것 때문에 혼란에 빠졌습니다. 무기가 아니라 뜨개질한 스웨터, 생일 카드 몇 장, 그리고 밝은색의 풍선이 몇 상자 있었습니다! 쓸만한 건 아무것도 없지만 어쟀든 함선에 가져다 놓기로 결정했습니다.</text>
 		</event>
 	</choice>
 	<hiddenAug>ACH_TRANS_JERRY</hiddenAug>
@@ -343,7 +343,7 @@
 -->	
 <ship name="SHIP_AUTO_TRANSPORT_LOOT" auto_blueprint="MU_AUTO_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>It appears the Auto-Transport was hardwired to try to avoid combat. It's attempting to escape!</text>
+		<text>이 함선은 교전을 피하도록 설정된 것 같습니다. 함선이 탈출을 시도합니다!</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_CAPTURE_AUTO"/>
@@ -353,15 +353,15 @@
     <preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-    <text>This beacon hosts an Auto-Transport vessel. It's safe to bet the ship is most likely carrying some special tech. If you can destroy it, their cargo will be yours.</text>
+    <text>이 송신소에는 무인 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 파괴할 수 있다면 그것의 화물을 얻게 될 것입니다.</text>
     <choice>
-        <text>Capture their cargo.</text>
+        <text>화물을 탈취한다.</text>
         <event>
-            <text>You prepare to secure their cargo by force.</text>
+            <text>화물을 무력으로 빼앗을 준비를 합니다.</text>
             <ship load="SHIP_AUTO_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
                 <text>계속...</text>
@@ -370,11 +370,11 @@
         </event>
     </choice>
     <choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -385,7 +385,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_AUTO" unique="true">
-	<text>Luckily, the cargo of the transport was designed to survive critical hull failure. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>운좋게도, 이 수송선의 화물은 치명적인 선체 손상을 견디도록 설계되었습니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<drone name="LIST_LOOT_AUTO"/>
 	<hiddenAug>ACH_TRANS_AUTO</hiddenAug>
@@ -401,7 +401,7 @@
 
 <ship name="SHIP_ENGI_TRANSPORT_LOOT" auto_blueprint="MU_ENGI_TRANSPORT">
 	<escape timer="30" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -412,15 +412,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts an Engi transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 엔지 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_ENGI_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -429,11 +429,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -444,7 +444,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_ENGI" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<drone name="LIST_LOOT_ENGI"/>
 	<hiddenAug>ACH_TRANS_ENGI</hiddenAug>
@@ -460,7 +460,7 @@
 
 <ship name="SHIP_SEPARATIST_TRANSPORT_LOOT" auto_blueprint="LIST_SHIPS_SEPARATIST_TRANSPORT">
 	<escape timer="30" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -471,15 +471,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Separatist transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 분리주의자 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_SEPARATIST_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -488,11 +488,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -503,7 +503,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_SEPARATIST" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<drone name="LIST_LOOT_SEPARATIST"/>
 	<hiddenAug>ACH_TRANS_SEPARATIST</hiddenAug>
@@ -519,7 +519,7 @@
 
 <ship name="SHIP_ZOLTAN_TRANSPORT_LOOT" auto_blueprint="MU_ZOLTAN_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -530,15 +530,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Zoltan transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 졸탄 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_ZOLTAN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -547,11 +547,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -562,7 +562,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_ZOLTAN" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_ZOLTAN"/>
 	<hiddenAug>ACH_TRANS_ZOLTAN</hiddenAug>
@@ -576,7 +576,7 @@
 -->	
 <ship name="SHIP_DUSKBRINGER_TRANSPORT_LOOT" auto_blueprint="MU_DUSK_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -591,15 +591,15 @@
     <preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Duskbringer transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 더스크브링어 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
     <choice>
-        <text>Demand the surrender of their goods.</text>
+        <text>화물을 넘겨줄 것을 요구한다.</text>
         <event>
-            <text>You prepare to secure their cargo by force.</text>
+            <text>화물을 무력으로 빼앗을 준비를 합니다.</text>
             <ship load="SHIP_DUSKBRINGER_TRANSPORT_LOOT" hostile="true"/>
             <choice hidden="true">
                 <text>계속...</text>
@@ -608,11 +608,11 @@
         </event>
     </choice>
     <choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
             <choice hidden="true">
-                <text>Check the storage.</text>
+                <text>재고를 확인한다.</text>
                 <event load="STORAGE_CHECK"/>
             </choice>
             <choice hidden="true">
@@ -623,7 +623,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_DUSKBRINGER" unique="true">
-    <text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+    <text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
     <autoReward level="MED">standard</autoReward>
     <weapon name="LIST_LOOT_DUSKBRINGER"/>
 	<hiddenAug>ACH_TRANS_DUSKBRINGER</hiddenAug>
@@ -638,7 +638,7 @@
 -->	
 <ship name="SHIP_MANTIS_TRANSPORT_LOOT" auto_blueprint="MU_MANTIS_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -653,15 +653,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Mantis transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 맨티스 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_MANTIS_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -670,11 +670,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -685,7 +685,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_MANTIS" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_MANTIS"/>
 	<hiddenAug>ACH_TRANS_MANTIS</hiddenAug>
@@ -700,7 +700,7 @@
 -->	
 <ship name="SHIP_FREEMANTIS_TRANSPORT_LOOT" auto_blueprint="MU_FREEMANTIS_TRANSPORT_ELITE">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -711,15 +711,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Free Mantis transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 독립 맨티스 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_FREEMANTIS_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -728,11 +728,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -743,7 +743,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_FREEMANTIS" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_FREEMANTIS"/>
 	<hiddenAug>ACH_TRANS_FREEMANTIS</hiddenAug>
@@ -758,7 +758,7 @@
 -->	
 <ship name="SHIP_ORCHID_TRANSPORT_LOOT" auto_blueprint="MU_ORCHID_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -769,15 +769,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts an Orchid transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 오키드 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_ORCHID_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -786,11 +786,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -801,7 +801,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_ORCHID" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_ORCHID"/>
 	<hiddenAug>ACH_TRANS_ORCHID</hiddenAug>
@@ -816,7 +816,7 @@
 -->	
 <ship name="SHIP_CRYSTAL_TRANSPORT_LOOT" auto_blueprint="MU_CRYSTAL_TRANSPORT_A">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -827,15 +827,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Crystal transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 크리스탈 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_CRYSTAL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -844,11 +844,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -859,7 +859,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_CRYSTAL" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_CRYSTAL"/>
 	<hiddenAug>ACH_TRANS_CRYSTAL</hiddenAug>
@@ -874,7 +874,7 @@
 -->	
 <ship name="SHIP_ROCK_TRANSPORT_LOOT" auto_blueprint="MU_ROCK_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -885,15 +885,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Rock transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 락맨 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_ROCK_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -902,11 +902,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -917,7 +917,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_ROCK" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_ROCK"/>
 	<hiddenAug>ACH_TRANS_ROCK</hiddenAug>
@@ -932,7 +932,7 @@
 -->	
 <ship name="SHIP_LOSTSUN_TRANSPORT_LOOT" auto_blueprint="MU_LOSTSUN_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -947,15 +947,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Lost Sun transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 로스트 선 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_LOSTSUN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -964,11 +964,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -979,7 +979,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_LOSTSUN" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_LOSTSUN"/>
 	<hiddenAug>ACH_TRANS_LOSTSUN</hiddenAug>
@@ -994,7 +994,7 @@
 -->	
 <ship name="SHIP_SLUG_TRANSPORT_LOOT" auto_blueprint="MU_SLUG_TRANSPORT_A">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1005,16 +1005,16 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
 	<environment type="nebula"/>
-	<text>This beacon hosts a Slug transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 슬러그 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_SLUG_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1023,11 +1023,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1038,7 +1038,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_SLUG" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_SLUG"/>
 	<hiddenAug>ACH_TRANS_SLUG</hiddenAug>
@@ -1053,7 +1053,7 @@
 -->	
 <ship name="SHIP_LEECH_TRANSPORT_LOOT" auto_blueprint="MU_LEECH_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1064,16 +1064,16 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
 	<environment type="nebula"/>
-	<text>This beacon hosts a Leech transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 리치 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_LEECH_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1082,11 +1082,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1097,7 +1097,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_LEECH" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_LEECH"/>
 	<hiddenAug>ACH_TRANS_LEECH</hiddenAug>
@@ -1112,7 +1112,7 @@
 -->	
 <ship name="SHIP_HEKTAR_TRANSPORT_LOOT" auto_blueprint="MU_HEKTAR_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1123,16 +1123,16 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
 	<environment type="nebula"/>
-	<text>This beacon hosts a Hektar transport. It's safe to bet the ship is most likely carrying modular tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 헥타르 수송선이 있습니다. 이 함선은 모듈식 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_HEKTAR_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1141,11 +1141,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1156,7 +1156,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_HEKTAR" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the modular tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 모듈식 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="HEKTAR_MODULAR_WEAPONS"/>
 	<hiddenAug>ACH_TRANS_HEKTAR</hiddenAug>
@@ -1171,7 +1171,7 @@
 -->	
 <ship name="SHIP_CLAN_TRANSPORT_LOOT" auto_blueprint="MU_CLAN_HAULER">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1182,16 +1182,16 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
 	<environment type="nebula"/>
-	<text>This beacon hosts a Clan transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 클랜 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_CLAN_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1200,11 +1200,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1215,7 +1215,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_CLAN" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_CLAN"/>
 	<hiddenAug>ACH_TRANS_CLAN</hiddenAug>
@@ -1230,7 +1230,7 @@
 -->	
 <ship name="SHIP_SHELL_TRANSPORT_LOOT" auto_blueprint="MU_SHELL_TRANSPORT">
 	<escape timer="40" min="14" max="14" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1241,16 +1241,16 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
 	<environment type="nebula"/>
-	<text>This beacon hosts a Shell transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 셸 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_SHELL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1259,11 +1259,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1274,7 +1274,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_SHELL" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_SHELL"/>
 	<hiddenAug>ACH_TRANS_SHELL</hiddenAug>
@@ -1289,7 +1289,7 @@
 -->	
 <ship name="SHIP_COALITION_TRANSPORT_LOOT" auto_blueprint="MU_COALITION_TRANSPORT">
 	<escape timer="40" min="999" max="999" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1300,15 +1300,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Coalition transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 연합 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_COALITION_TRANSPORT_LOOT" hostile="true"/>
 			<status type="limit" target="enemy" system="teleporter" amount="0"/>
 			<choice hidden="true">
@@ -1318,11 +1318,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1333,7 +1333,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_COALITION" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_COALITION"/>
 	<hiddenAug>ACH_TRANS_COALITION</hiddenAug>
@@ -1348,7 +1348,7 @@
 -->	
 <ship name="SHIP_LANIUS_TRANSPORT_LOOT" auto_blueprint="MU_LANIUS_TRANSPORT_A">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1359,15 +1359,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Lanius transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 라니우스 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_LANIUS_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1376,11 +1376,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1391,7 +1391,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_LANIUS" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<drone name="LIST_LOOT_LANIUS"/>
 	<hiddenAug>ACH_TRANS_LANIUS</hiddenAug>
@@ -1406,7 +1406,7 @@
 -->	
 <ship name="SHIP_AUG_TRANSPORT_LOOT" auto_blueprint="MU_AUG_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1417,15 +1417,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts an Augmented transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 증강자들의 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_AUG_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1434,11 +1434,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1449,7 +1449,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_AUG" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_AUG"/>
 	<hiddenAug>ACH_TRANS_AUG</hiddenAug>
@@ -1464,7 +1464,7 @@
 -->	
 <ship name="SHIP_DYNASTY_TRANSPORT_LOOT" auto_blueprint="MU_DYNASTY_TRANSPORT">
 	<escape timer="40" min="999" max="999" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1475,16 +1475,16 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Dynasty transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 왕조 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<environment type="nebula"/>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_DYNASTY_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1493,11 +1493,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1508,7 +1508,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_DYNASTY" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_DYNASTY"/>
 	<hiddenAug>ACH_TRANS_DYNASTY</hiddenAug>
@@ -1523,7 +1523,7 @@
 -->	
 <ship name="SHIP_ANCIENT_TRANSPORT_LOOT" auto_blueprint="MU_ANCIENT_TRANSPORT">
 	<escape timer="40" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1534,15 +1534,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts an Ancient transport. It's safe to bet the ship is most likely carrying some ancient tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 고대의 수송선이 있습니다. 이 함선은 고대 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_ANCIENT_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1551,11 +1551,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1566,7 +1566,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_ANCIENT" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the ancient tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 고대 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="GIFTLIST_ANCIENT"/>
 	<hiddenAug>ACH_TRANS_ANCIENT</hiddenAug>
@@ -1581,7 +1581,7 @@
 -->	
 <ship name="SHIP_ROYAL_TRANSPORT_LOOT" auto_blueprint="MU_ROYAL_TRANSPORT">
 	<escape timer="60" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1592,15 +1592,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a Royal transport. It's safe to bet the ship is most likely carrying some ancient tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 왕족의 수송선이 있습니다. 이 함선은 고대 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_ROYAL_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1609,11 +1609,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1624,12 +1624,12 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_ROYAL" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. While digging around for weapons or drones however, you stumble across a ring resembling those on Ancient Cognitives...</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 그러나 무기나 드론을 찾아 해매다가 우연히 고대의 코그니티브에 달려 있는 것과 유사한 고리를 발견했습니다...</text>
 	<autoReward level="HIGH">standard</autoReward>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>The Cognitive awakens, its hologram forming. Though its voice is monotone, you sense a layer of sarcasm. "Oh, flesh puppets. I assume the corpses of my old masters implies I belong to you now. Hooray. This is sarcasm, if you could not tell."</text>
+			<text>코그니티브가 깨어나고 그것의 홀로그램이 형성됩니다. 목소리는 단조롭지만 속으로는 비아냥대는 것이 느껴집니다. "아, 고기 인형들이군. 내 옛 주인들의 시체는 이제 내가 너의 소유라는 것을 의미하겠지. 만세. 이건 빈정대는 소리야, 네가 모를진 몰라도."</text>
 			<crewMember amount="1" class="avatarroyal">Ithyk</crewMember>
 			<weapon name="GIFTLIST_ROYAL"/>
 		</event>
@@ -1646,7 +1646,7 @@
 -->	
 <ship name="SHIP_CULTIST_TRANSPORT_LOOT" auto_blueprint="MU_CULTIST_TRANSPORT">
 	<escape timer="30" min="30" max="30" >
-		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<text>그들은 싸우고 싶지 않은 것 같습니다. 그들이 탈출을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<destroyed load="TRANSPORT_DESTROYED"/>
@@ -1657,15 +1657,15 @@
 	<preventQuest/>
 	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
 		<color r="255" g="186" b="0" a="1"/>
-		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
-		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
-		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+		<unvisitedTooltip>방문하지 않은 송신소 입니다.</unvisitedTooltip>
+		<visitedTooltip>이미 방문한 송신소 입니다. 더 이상 흥미로운 것은 없습니다.</visitedTooltip>
+		<undiscoveredTooltip>방문하지 않은 송신소 입니다.</undiscoveredTooltip>
 	</beaconType>
-	<text>This beacon hosts a cultist transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<text>이 송신소에는 이교도 수송선이 있습니다. 이 함선은 특별한 병기를 싫고 있을 가능성이 높습니다. 나포할 수 있다면 그들의 화물을 얻게 될 것입니다.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>화물을 무력으로 빼앗을 준비를 합니다.</text>
 			<ship load="SHIP_CULTIST_TRANSPORT_LOOT" hostile="true"/>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -1674,11 +1674,11 @@
 		</event>
 	</choice>
 	<choice>
-        <text>Avoid the ship.</text>
+        <text>수송선을 피한다.</text>
         <event>
-            <text>They stay outside your weapons range, and eventually jump away.</text>
+            <text>그들은 당신의 사정거리 밖에 머물다가 결국 도약해 떠났습니다.</text>
 			<choice hidden="true">
-				<text>Check the storage.</text>
+				<text>재고를 확인한다.</text>
 				<event load="STORAGE_CHECK"/>
 			</choice>
 			<choice hidden="true">
@@ -1689,7 +1689,7 @@
     </choice>
 </event>
 <event name="TRANSPORT_CAPTURE_CULTIST" unique="true">
-	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<text>선원들은 죽고 수송선만이 남았습니다. 화물은 이제 당신의 것입니다. 수송선 안에는 기대했던 대로 특별한 병기가 있었고 당신은 그것을 함선으로 가지고 돌아왔습니다.</text>
 	<autoReward level="MED">standard</autoReward>
 	<weapon name="LIST_LOOT_CULTIST"/>
 	<hiddenAug>ACH_TRANS_CULTIST</hiddenAug>
