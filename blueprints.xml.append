@@ -264,7 +264,7 @@
 
 <!--ZOLTAN-->
 <crewBlueprint name="energy">
-    <desc>이 고형광선으로 이루어진 생명체는 연방의 일부일 테지만, 그들의 엄격한 규칙과 형식적인 태도로도 유명합니다.</desc>
+    <desc>이 고형광선으로 이루어진 생명체는 연방의 일부이지만, 엄격한 규칙과 형식적인 태도로도 유명합니다.</desc>
     <title>졸탄</title>
     <short>Zoltan</short>
     <cost>45</cost>
@@ -419,7 +419,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="zoltan_enemy">
-    <desc>치장용 의복을 입은 발광하는 테러리스트들은 오직 내각의 몰락만을 생각한다.</desc>
+    <desc>치장용 의복을 입은 발광하는 테러리스트들은 오직 내각의 죽음만을 생각한다.</desc>
     <title>테러리스트</title>
     <short>Terrorist</short>
     <cost>45</cost>
@@ -585,7 +585,7 @@
 <crewBlueprint name="shellrepair">
     <title>셸 정비공</title>
     <short>Mechanic</short>
-    <desc>셸 정비공은 셸들의 시설과 인프라를 관리합니다. 그들의 유기적인 신체는 사이버네틱스적으로 강화되어 있으며 필요할 때 나노봇을 퍼뜨릴 수 있습니다.</desc>
+    <desc>셸 정비공은 셸들의 시설과 인프라를 관리합니다. 그들의 유기적인 신체는 사이버네틱으로 강화되어 있으며 필요할 때 나노봇을 퍼뜨릴 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
@@ -750,7 +750,7 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="commando">
-	<desc>평화적인 방법으로는 잘 알려져 있지 않지만, 로스트 선 특공대는 전투에 늘 진심입니다.</desc>
+	<desc>로스트 선 특공대는 평화적인 방법으로는 잘 알려져 있지 않지만, 전투에는 늘 진심입니다.</desc>
 	<title>로스트 선 특공대</title>
 	<short>Commando</short>
 	<cost>60</cost>
@@ -832,7 +832,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="sslg">
-    <desc>압제적인 신정으로부터 락맨을 해방시키기 위해 여제가 보낸 SSLG 조직의 일원입니다.</desc>
+    <desc>압제적인 신정으로부터 락맨을 해방시키기 위해 여제가 보낸 SSLG의 일원입니다.</desc>
     <title>크리스탈 해방자</title>
     <short>Liberator</short>
     <cost>60</cost>
@@ -933,7 +933,7 @@
 
 <crewBlueprint name="snail">
 	<desc>살인적인 취미에 전념하는 위험한 슬러그 사냥꾼들입니다. 죽은 셸들로 만들어진 갑옷을 수집하고 착용합니다.</desc>
-	<title>슬러그 클랜원</title>
+	<title>슬러그 클랜즈맨</title>
 	<short>Clansman</short>
 	<cost>55</cost>
 	<bp>2</bp>
@@ -1523,7 +1523,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Crystal</power>
+		<power>현재 모방중: 크리스탈</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1535,7 +1535,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Free Mantis</power>
+		<power>현재 모방중: 독립 맨티스</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1547,7 +1547,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Human</power>
+		<power>현재 모방중: 인간</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1559,7 +1559,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Leech</power>
+		<power>현재 모방중: 리치</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1571,7 +1571,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Lizard</power>
+		<power>현재 모방중: 도마뱀</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1583,7 +1583,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Mantis</power>
+		<power>현재 모방중: 맨티스</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1595,7 +1595,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Equinoid</power>
+		<power>현재 모방중: 에퀴노이드</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1607,7 +1607,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Rockman</power>
+		<power>현재 모방중: 락맨</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1619,7 +1619,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Saltman</power>
+		<power>현재 모방중: 솔트맨</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1631,7 +1631,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Shell</power>
+		<power>현재 모방중: 셸</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1643,7 +1643,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Orchid</power>
+		<power>현재 모방중: 오키드</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1655,7 +1655,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Slug</power>
+		<power>현재 모방중: 슬러그</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1667,7 +1667,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: G.A.S. hatchling</power>
+		<power>현재 모방중: 새끼 거미</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1679,7 +1679,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: G.A.S. adult</power>
+		<power>현재 모방중: 거대 외게 거미</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1691,7 +1691,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: G.A.S. weaver</power>
+		<power>현재 모방중: 직공 거미</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1703,7 +1703,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Organic Zoltan</power>
+		<power>현재 모방중: 유기체 졸탄</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -1727,7 +1727,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Ampere</power>
+		<power>현재 모방중: 암페어</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1739,7 +1739,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Chieftain</power>
+		<power>현재 모방중: 치프틴</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1751,7 +1751,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Crusader</power>
+		<power>현재 모방중: 크루세이더</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1763,7 +1763,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Defender</power>
+		<power>현재 모방중: 수비대</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1775,7 +1775,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Obelisk Royal</power>
+		<power>현재 모방중: 오벨리스크 왕족</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1787,7 +1787,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Saboteur</power>
+		<power>현재 모방중: 공작원</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1799,7 +1799,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Soldier</power>
+		<power>현재 모방중: 병사</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1811,7 +1811,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Suzerain</power>
+		<power>현재 모방중: 영주</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1823,7 +1823,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Radiant</power>
+		<power>현재 모방중: 찬란한 셸</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1835,7 +1835,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Warlord</power>
+		<power>현재 모방중: 장군</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1847,7 +1847,7 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Welder</power>
+		<power>현재 모방중: 웰더</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
 	</powerList>
@@ -1859,10 +1859,10 @@
 	<short id="crew_gold_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: G.A.S. Queen</power>
+		<power>현재 모방중: 여왕 거미</power>
 		<power id="crew_gold_power_1"/>
 		<power id="crew_gold_power_2"/>
-		<power>Can hatch additional spider Morphs at empty beacons.</power>
+		<power>빈 송신소에서 추가적인 거미 모프를 낳을 수 있음.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -1885,7 +1885,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Engi</power>
+		<power>현재 모방중: 엔지</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1897,7 +1897,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Ancient</power>
+		<power>현재 모방중: 고대인</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1909,7 +1909,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Cognitive</power>
+		<power>현재 모방중: 코그니티브</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1921,7 +1921,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Lanius</power>
+		<power>현재 모방중: 라니우스</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1933,7 +1933,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: A5540L3</power>
+		<power>현재 모방중: A5540L3</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1945,7 +1945,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Gana</power>
+		<power>현재 모방중: 가나</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1957,7 +1957,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Battle Drone</power>
+		<power>현재 모방중: 대인 전투 드론</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1969,7 +1969,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Battle Drone II</power>
+		<power>현재 모방중: 대인 전투 드론 II</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1981,7 +1981,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Ion Intruder</power>
+		<power>현재 모방중: 이온 강습자</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -1993,7 +1993,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Repair Drone</power>
+		<power>현재 모방중: 수리 드론</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2005,7 +2005,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Doctor Drone</power>
+		<power>현재 모방중: 의사 드론</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2017,7 +2017,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Recon Drone</power>
+		<power>현재 모방중: 정찰 드론</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2029,7 +2029,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Manager Drone</power>
+		<power>현재 모방중: 관리자 드론</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2041,7 +2041,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Atomizer</power>
+		<power>현재 모방중: 분무기</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2053,7 +2053,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Director</power>
+		<power>현재 모방중: 감독</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2065,7 +2065,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Mender</power>
+		<power>현재 모방중: 땜장이</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2077,7 +2077,7 @@
 	<short id="crew_techno_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Roomba</power>
+		<power>현재 모방중: 룸바</power>
 		<power id="crew_techno_power_1"/>
 		<power id="crew_techno_power_2"/>
 	</powerList>
@@ -2090,7 +2090,7 @@
 	<short id="crew_morph_title"/>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Currently mimicking: Piles of child corpses</power>
+		<power>현재 모방중: 아이들의 시체 더미</power>
 		<power id="crew_morph_power_1"/>
 		<power id="crew_morph_power_2"/>
 	</powerList>
@@ -2262,7 +2262,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>연소 이후 회복하는 동안에 아군 선원들도 회복시키며 일시적으로 75%의 질식 저항을 얻음</power>
+		<power>연소 이후 스스로 회복하는 동안에 아군 선원들도 같이 회복시키며 일시적으로 75%의 질식 저항을 얻음</power>
 	</powerList>
 </crewBlueprint>
 
@@ -2982,7 +2982,7 @@
 
 <crewBlueprint name="anointed">
 	<desc>라니우스 증강자들의 수장으로써 이 라니우스는 그녀의 동지들보다 훨씬 수준 높은 금속에 동화되었습니다.</desc>
-	<title>어노인티드</title>
+	<title>영세자</title>
 	<short>Anointed</short>
 	<cost>150</cost>
 	<bp>2</bp>
@@ -3180,7 +3180,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="peace">
-	<desc>엘리트 졸탄 선원. 이 잘 무장하고 훈련된 졸탄 병사들은 당신이 선을 넘는다면 주저없이 당신의 강냉이에 발차기를 날릴것입니다.</desc>
+	<desc>엘리트 졸탄 선원. 이 잘 무장하고 훈련된 졸탄 병사들은 당신이 선을 넘는다면 주저없이 당신의 이빨에 발차기를 날릴것입니다.</desc>
 	<title>졸탄 평화 유지군</title>
 	<short>Peacekeeper</short>
 	<cost>100</cost>
@@ -9561,8 +9561,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ANCIENT_DNA">
-	<title>고대의 사이버네틱스</title>
-	<desc>아이테르로 만들어진 고급 사이버네틱스입니다. 기계로 이루어지지 않은 선원이 화재와 질식에 대해 추가적인 25%의 저항을 얻고 최대 체력이 20% 증가합니다. 그러나 이식된 사이버네틱스가 선원들의 회복 속도를 33% 감소시킵니다.  Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
+	<title>고대의 사이버네틱</title>
+	<desc>아이테르로 만들어진 고급 사이버네틱입니다. 기계로 이루어지지 않은 선원이 화재와 질식에 대해 추가적인 25%의 저항을 얻고 최대 체력이 20% 증가합니다. 그러나 이식된 사이버네틱가 선원들의 회복 속도를 33% 감소시킵니다.  Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12133,11 +12133,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BURST</type>
 	<drone_targetable>0</drone_targetable>
 	<flavorType>Ion Blast</flavorType>
-	<title>삼단 이온</title>
+	<title>트라이 이온</title>
 	<short>Tri-Ion</short>
 	<tip>tip_ion</tip>
 	<locked>1</locked>
-	<desc>정확도가 떨어지는 이온 무기로 방어막을 효과적으로 마비시키지만 조준한 시스템에 대해서는 그다지 유용하지 않습니다. A less accurate ion weapon efficient at taking down shields, but not quite as useful against targeted systems. You can call it a trion, if you'd like.</desc>
+	<desc>정확도가 떨어지는 이온 무기로 방어막을 효과적으로 마비시키지만 조준한 시스템에 대해서는 그다지 유용하지 않습니다. 원한다면 북두칠성(Trion)이라고 불러도 됩니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<radius>55</radius>
 	<spin>720</spin>
@@ -19105,7 +19105,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="MISSILES_ROCK">
     <type>MISSILES</type>
     <tip>tip_missiles</tip>
-    <title>'다이아내시' 미사일</title>
+    <title>'디아내시' 미사일</title>
     <short>'Dianesh'</short>
     <desc>원래 이단 심문에 사용하기 위한 용도로 만들어졌던 강력한 프로토타입 미사일입니다.</desc>
     <tooltip>Fires 1 missile; 4 damage; pierces all shields; high breach chance.</tooltip>
@@ -20218,7 +20218,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>점사형 레이저 마크 I</title>
 	<short>Burst I</short>
 	<tip>tip_civ_loot_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Shoots 2 lasers that do 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -20257,7 +20257,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>점사형 레이저 마크 II</title>
 	<short>Burst II</short>
 	<tip>loot_militia_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 3 lasers, 1 damage each.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -20296,7 +20296,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>중형 레이저 마크 II</title>
 	<short>Heavy II</short>
 	<tip>loot_federation_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>2</damage>
 	<persDamage>1</persDamage>
@@ -20337,7 +20337,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>loot_coalition_1</tip>
     <title>'에리스' 미사일</title>
     <short>'Eris'</short>
-    <desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+    <desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
     <tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
     <damage>3</damage>
 	<drone_targetable>0</drone_targetable>
@@ -20380,7 +20380,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Hv. Energy</short>
 	<tip>loot_duskbringer_1</tip>
 	<locked>1</locked>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 1 hull damage. Can hit and disable shields as well as systems. 2x hull damage on systemless rooms.</tooltip>
 	<damage>2</damage>
 	<persDamage>-1</persDamage>
@@ -20427,7 +20427,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>기절 폭탄</title>
 	<short>Stun B.</short>
 	<locked>1</locked>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 1 ion damage. Stuns all crew inside the room. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
@@ -20461,7 +20461,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_lostsun_1</tip>
 	<title>'세크매트' 기뢰 사출기</title>
 	<short>'Sekhmet'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
 	
 	At empty beacons provides 3 fleet delay for 15 missiles.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -20507,7 +20507,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_lostsun_2</tip>
 	<title>'하데스' 미사일</title>
 	<short>'Hades'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<accuracyMod>10</accuracyMod>
@@ -20550,7 +20550,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>폭탄 발사기</title>
 	<short>Bomb</short>
 	<locked>1</locked>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -20581,7 +20581,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>경량형 레이저 마크 II</title>
 	<short>Light II</short>
 	<tip>loot_mantis_2</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Only one shot, one damage per shot.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -20623,7 +20623,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>충전식 레이저</title>
 	<short>Charge L</short>
 	<tip>loot_rebel_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -20663,7 +20663,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_rock_1</tip>
 	<title>'헤르메스' 미사일</title>
 	<short>Hermes</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<accuracyMod>10</accuracyMod>
@@ -20706,7 +20706,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_zoltan_1</tip>
 	<title>'파이크' 빔</title>
 	<short>'Pike'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon with extended line. 1 damage per room.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -20732,7 +20732,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_zoltan_2</tip>
 	<title>'루체른' 빔</title>
 	<short>'Lucerne'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon; 1 damage; 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<sysDamage>1</sysDamage>
@@ -20760,7 +20760,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_slug_1</tip>
 	<title>'팔콘' 빔</title>
 	<short>'Faucon'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -20792,7 +20792,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>안티-바이오 레이저</title>
 	<short>Bio Laser</short>
 	<tip>loot_clan_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Only one shot, one damage per shot.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -20833,7 +20833,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_knight_1</tip>
 	<title>'코빈' 빔</title>
 	<short>'Corbin'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -20871,7 +20871,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_shell_1</tip>
 	<title>함체 파괴 레이저 마크 I</title>
 	<short>Hull-L I</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 2 lasers, 1 damage each and 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -20913,7 +20913,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>대공포 마크 I</title>
 	<short>Flak I</short>
 	<tip>loot_leech_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>30</radius>
 	<damage>1</damage>
@@ -20959,7 +20959,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_cultist_1</tip>
 	<title>꿰뚫는 '토치'</title>
 	<short>'Torch' P.</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon that starts fires.</tooltip>
 	<damage>0</damage>
 	<sp>10</sp>
@@ -20984,7 +20984,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>loot_dynasty_1</tip>
 	<title>'란세어' 빔</title>
 	<short>'Ranseur'</short>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Beam weapon that opens breaches.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -21012,7 +21012,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>대공포 마크 I</title>
 	<short>Flak I</short>
 	<tip>loot_aug_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -21060,7 +21060,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'더하기'</title>
 	<short>'Adder'</short>
 	<tip>loot_math_1</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires two lasers that deal 1 damage each. Cooldown drops the more it fires.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -21104,7 +21104,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'빼기'</title>
 	<short>'Subtracter'</short>
 	<tip>loot_math_2</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>No hull or system damage, but deals much bio damage</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -21137,7 +21137,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'곱하기'</title>
 	<short>'Multiplier'</short>
 	<tip>loot_math_3</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>65</radius>
@@ -21183,7 +21183,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'나누기'</title>
 	<short>'Divider'</short>
 	<tip>loot_math_4</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>One damage per room beam weapon. Ignores 3 shields</tooltip>
 	<damage>1</damage>
 	<sp>3</sp>
@@ -21210,7 +21210,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'등호'</title>
 	<short>'Equalizer'</short>
 	<tip>loot_math_5</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<ion>3</ion>
@@ -21264,7 +21264,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'백분율'</title>
 	<short>'Percentage'</short>
 	<tip>loot_math_6</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.
 	
 	At empty beacons provides 3 fleet delay for 15 missiles.</desc>
 	<tooltip>Fires 1 missile; does 1 damage; pierces all shields.</tooltip>
@@ -21311,7 +21311,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'부등호'</title>
 	<short>'Greater'</short>
 	<tip>loot_math_7</tip>
-	<desc>특별한 전리품 병기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
+	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<drone_targetable>0</drone_targetable> 
 	<speed>30</speed>
@@ -27248,7 +27248,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>REPAIR</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>고대의 수리 드론</title>
+	<title>땜장이</title>
 	<short>Mender</short>
 	<desc>이 고대의 선원 드론은 굉장한 속도로 수리할 수 있고, 그 밖에 부차적인 효과들을 제공합니다. 조종할 수 있습니다.
     
@@ -27304,7 +27304,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <type>REPAIR</type>
     <locked>1</locked>
     <tip>tip_crew</tip>
-    <title>고대의 관리자 드론</title>
+    <title>감독 드론</title>
     <short>Director</short>
     <desc>시스템에 접속하고 전력을 공급할 수 있는 유용한 다용도 드론입니다. 조작할 수 있습니다.
     
@@ -27333,7 +27333,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>분사기 [승선]</title>
+	<title>분무기 [승선]</title>
 	<short>Atom [A]</short>
 	<desc>[현재 모드: 승선] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
@@ -27350,7 +27350,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>분사기 [강습]</title>
+	<title>분무기 [강습]</title>
 	<short>Atom [B]</short>
 	<desc>[현재 모드: 강습] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
@@ -27378,7 +27378,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_toggle_crew</tip>
-	<title>왕족의 분사기 [승선]</title>
+	<title>왕족의 분무기 [승선]</title>
 	<short>Atom [A]</short>
 	<desc>[현재 모드:방어] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
@@ -27395,7 +27395,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BOARDER</type>
 	<tip>tip_toggle_crew</tip>
 	<locked>1</locked>
-	<title>왕족의 분사기 [강습]</title>
+	<title>왕족의 분무기 [강습]</title>
 	<short>Atom [B]</short>
 	<desc>[현재 모드: 강습] 승선 모드 또는 강습 모드로 전환할 수 있는 강력한 대인 드론입니다.
     
