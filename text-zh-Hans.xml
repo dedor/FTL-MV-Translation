@@ -5181,27 +5181,27 @@
 
 
 <!-- event.xml.append-->
-<text name="event_START_MV_GAME_text" language="zh-Hans">별들을 지나치자 저 멀리 있는 우주의 소용돌이가 보입니다. 이것은 당신의 서사의 시작입니다. 어떤 모험이 당신을 기다릴까요?</text>
-<text name="START_BEACON_PRESELECT_text" language="zh-Hans">임무를 시작하기 전이지만, 순간이동 장치로 도착하기 전까지 시간이 있어 보입니다. 무엇을 하시겠습니까?</text>
-<text name="START_BEACON_PRESELECT_c1_text" language="zh-Hans">도전 수준을 재설정한다.</text>
-<text name="START_BEACON_PRESELECT_c2_text" language="zh-Hans">연방 데이터베이스 엔트리를 다운로드한다. [초보자에게 추천합니다.(번역안됨)]</text>
-<text name="START_BEACON_PRESELECT_c3_text" language="zh-Hans">임무를 수행한다.</text>
-<text name="START_DIFFICULT_MENU_text" language="zh-Hans">도전 수준을 변경하려고 합니다. 도전 수준을 바꾼다면 다중우주를 색다른 방식으로 경험시켜 줄 것입니다. 항목을 선택하면 자세한 정보를 보고 변경에 대한 재확인을 할 수 있습니다. 게임을 시작하지만 않는다면 얼마든지 다시 바꿀 수 있지만 시작한 뒤에는 절대 바꿀수 없습니다!</text>
-<text name="DROPPOINT_SECTOR_INFO_text" language="zh-Hans">명칭: 연방 소속 다중우주 투하지점
-	유형: 우호적
-	고유성: 있음
+<text name="event_START_MV_GAME_text" language="zh-Hans">당신은 쏜살같이 지나가는 별과 일렁거리는 우주를 바라봅니다. 당신이 쓸 새로운 대장정의 시작에 걸맞다 할 수 있겠습니다. 다음에는 어떤 일이 일어날까요?</text>
+<text name="START_BEACON_PRESELECT_text" language="zh-Hans">워프 정박소에 도착하기 전 잠시 시간을 낼 수 있을 것 같습니다. 임무를 개시하기 전 무엇을 하시겠습니까?</text>
+<text name="START_BEACON_PRESELECT_c1_text" language="zh-Hans">도전 레벨을 바꾼다.</text>
+<text name="START_BEACON_PRESELECT_c2_text" language="zh-Hans">연방 데이터베이스를 다운로드한다. [초보자 추천]</text>
+<text name="START_BEACON_PRESELECT_c3_text" language="zh-Hans">임무를 계속한다.</text>
+<text name="START_DIFFICULT_MENU_text" language="zh-Hans">도전 레벨을 바꾸고 싶으신가요? 도전 레벨은 멀티버스에서 경험할 난이도를 변경합니다. 아래 선택지를 누르면 각 도전 레벨에 상세한 설명을 볼 수 있습니다. 임무를 개시하기 전에는 도전 레벨을 얼마든지 바꿀 수 있지만, 임무 개시 후에는 바꿀 수 없으니 주의하세요!</text>
+<text name="DROPPOINT_SECTOR_INFO_text" language="zh-Hans">명칭: 연방 멀티버스 강하 지점
+	관계: 우호적
+	고유 구역 여부: 예
 	통치 세력: 연방
 	반군 위험 수준: 보통 (중립 함대)
 
-	가장 근처에 있는 연방 워프베이에 막 도착했습니다. 이 격납고처럼 생긴 구조물은 마치 다중우주 간의 항행에 쓰이는 송신소처럼 작동합니다. 그럼 따스한 환대를 기대해봅시다. 물론 성난 반군 함대나 해적은 사절이지만요. 그렇죠?</text>
-<text name="START_BEACON_PREP_text" language="zh-Hans">천천히 초광속 항행에서 나오며, 아래에 있는 격납고 가까이 운전해 착지하기에 안전한 속도로 전환합니다. 이제 당신의 함선은 격납고에 들어가고, 이 낮선 우주의 한복판에 나아갈 준비를 합니다.</text>
-<text name="START_BEACON_PREP_SKIP_text" language="zh-Hans">천천히 초광속 항행에서 나오며, 아래에 있는 격납고 가까이 운전해 착지하기에 안전한 속도로 전환합니다. 이제 당신의 함선은 격납고에 들어가고, 이 낮선 우주의 한복판에 나아갈 준비를 합니다.</text>
-<text name="START_BEACON_PREP2_text" language="zh-Hans">출항을 서둘렀습니다만, 떠나기 전에 여전히 시간이 약간 남은것을 깨달았습니다. 마지막으로 무언가 하나 집어갈 시간은 있을 것 같군요.</text>
-<text name="START_BEACON_PREP2_c1_text" language="zh-Hans">무기를 하나 집는다.</text>
-<text name="START_BEACON_PREP2_c2_text" language="zh-Hans">새로운 승무원을 찾아본다.</text>
-<text name="START_BEACON_PREP2_c3_text" language="zh-Hans">자원을 집는다.</text>
-<text name="START_BEACON_PREP2_c4_text" language="zh-Hans">지금 가진것도 충분하다. 반군 함대보다 먼저 간다!</text>
-<text name="START_BEACON_PREP2_c4_p1_text" language="zh-Hans">별다른 물건을 챙기지 않기로 결정했으니, 계속 나아갑니다.</text>
+	당신은 곧 연방 워프 정박소에 도착합니다. 이 격납고 기지는 여러 멀티버스를 드나드는 송신소 역할을 겸하고 있습니다. 화난 반군이나 해적 함대 대신 연방의 따뜻한 환영을 받을 수 있을 겁니다. 아마도요.</text>
+<text name="START_BEACON_PREP_text" language="zh-Hans">당신은 천천히 한계속도에서 빠져나와, 속도를 늦춰 격납고에 진입합니다. 당신의 부대와 함선은 새로운 은하를 항해하기 전 정비를 받고 준비를 마칩니다.</text>
+<text name="START_BEACON_PREP_SKIP_text" language="zh-Hans">당신은 천천히 한계속도에서 빠져나와, 속도를 늦춰 격납고에 진입합니다. 당신의 부대와 함선은 새로운 은하를 항해하기 전 정비를 받고 준비를 마칩니다.</text>
+<text name="START_BEACON_PREP2_text" language="zh-Hans">당신은 서둘러 함선으로 돌아갑니다. 아직 출발하기 전까지 시간이 좀 남은것 같습니다. 마지막으로 장비 하나 정돈 챙길 수 있을 것 같습니다.</text>
+<text name="START_BEACON_PREP2_c1_text" language="zh-Hans">무기를 챙긴다.</text>
+<text name="START_BEACON_PREP2_c2_text" language="zh-Hans">선원을 구한다.</text>
+<text name="START_BEACON_PREP2_c3_text" language="zh-Hans">추가 물자를 구한다.</text>
+<text name="START_BEACON_PREP2_c4_text" language="zh-Hans">지금 있는 것만으로 충분한 것 같군. 반군 함대에 따라잡히기 전에 어서 출발한다!</text>
+<text name="START_BEACON_PREP2_c4_p1_text" language="zh-Hans">당신은 추가 장비를 챙기지 않고 바로 출발합니다.</text>
 
 </FTL>
 
