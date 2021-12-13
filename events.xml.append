@@ -62,7 +62,7 @@
 <event name="START_TUTORIAL">
 	<text>튜토리얼 섹터에 오신 것을 환영합니다! 여기서는 멀티버스 모드의 주요 메커니즘을 설명할 것입니다. 스포일러는 하지 않겠습니다만, 여기에서 가르쳐 주는 것들을 당신이 직접 알아가고 싶으실 겁니다. 그런 분들을 위해 각각의 정보를 넘길 수 있는 기회를 드리겠습니다.
 	참고: 튜토리얼은 시간이 꽤 걸리며, 모든 글을 꼼꼼하게 읽는 것이 매우 권장됩니다. 그러려고 튜토리얼에 오신 것 아니겠습니까?
-	FTL 엔진의 한계로 인해, 이미 방문한 신호소를 재방문해도 새로운 이벤트가 등장하진 않습니다. 튜토리얼(과 이번 게임)은 당신이 출구 신호소에 도착하는 순간 초기화됩니다.</text>
+	FTL 엔진의 한계로 인해, 이미 방문한 송신소를 재방문해도 새로운 이벤트가 등장하진 않습니다. 튜토리얼(과 이번 게임)은 당신이 출구 송신소에 도착하는 순간 초기화됩니다.</text>
 	<modifyPursuit amount="-999"/>
 	<item_modify>
 		<item type="fuel" min="999" max="999"/>
@@ -104,7 +104,7 @@
 		<text>계속...</text>
 		<event>
 			<text>멀티버스는 거대 규모의 모드이며, 많은 추가 요소가 있습니다. 튜토리얼만으로 모든 변경 사항을 망라하긴 어려울 것입니다만, 모드에 쉽게 적응하기 위한 핵심 정보 위주로 소개하겠습니다.
-			이번 장에서는 멀티버스 모드에 추가된 세력을 소개하겠습니다. 설명을 건너뛰고 직접 확인해 보고 싶으신 분들은, '넘긴다.'를 누르고 다음 신호소로 이동하십시오!</text>
+			이번 장에서는 멀티버스 모드에 추가된 세력을 소개하겠습니다. 설명을 건너뛰고 직접 확인해 보고 싶으신 분들은, '넘긴다.'를 누르고 다음 송신소로 이동하십시오!</text>
 			<choice hidden="true">
 				<text>새로 추가된 세력 정보를 확인한다.</text>
 				<event>
@@ -119,8 +119,8 @@
 							<text>앞으로 만나게 될 신규 중립 세력의 간락한 정보를 소개합니다:
 							엔지 분리주의자 - 엔지 분리주의자들은 그들을 지배하던 통일된 '하모니'에서 해방된 분파입니다. 연방과의 지속적인 반목 때문에 보통 혼자 있기를 선호합니다. 극단적인 경우로 함선에 겨우 1-2명 밖에 승선하지 않은 경우도 있습니다!
 							로스트 선 - 락맨의 분파 중 하나인 로스트 선 동맹은 엄밀히 따지자면 연방과 동맹 관계이기는 하지만, 호전적이고 불을 광신합니다. 현재 권위주의적인 락맨 원로 세력과 내전 중입니다.
-							유령 - 유령이라고 부르지만 영적인 존재가 아닙니다. 사실은 성운 지대의 가스 물질이 모여 이루어진 생물의 일종입니다. 유령은 우주의 정치 논리 따위엔 관심이 없습니다. 주로 버려진 함선의 잔해에서 되는 대로 살아갑니다.
-							외계 생명체 사냥 조합(EHG) - EHG는 슬러그족의 단체로, 취미 또는 직업 사냥꾼들의 동호회입니다. 그들은 특별한 사냥감을 원합니다. 바로 지적 생명체죠. 그렇다곤 해도, 모든 종족의 관광객들을 환대하며, 연방에 딱히 적의는 가지고 있지 않습니다.</text>
+							고스트 - 고스트라고 부르지만 영적인 존재가 아닙니다. 사실은 성운 지대의 가스 물질이 모여 이루어진 생물의 일종입니다. 고스트은 우주의 정치 논리 따위엔 관심이 없습니다. 주로 버려진 함선의 잔해에서 되는 대로 살아갑니다.
+							외계 생명체 사냥 길드(EHG) - EHG는 슬러그족의 단체로, 취미 또는 직업 사냥꾼들의 동호회입니다. 그들은 특별한 사냥감을 원합니다. 바로 지적 생명체죠. 그렇다곤 해도, 모든 종족의 관광객들을 환대하며, 연방에 딱히 적의는 가지고 있지 않습니다.</text>
 							<choice hidden="true">
 								<text>계속...</text>
 								<event>
@@ -131,9 +131,9 @@
 									<choice hidden="true">
 										<text>계속...</text>
 										<event>
-											<text>물론 본편에 등장한 익숙한 세력도 등장합니다. 엔지 하모니, 졸탄 내각, 슬러그 도둑정, 락맨 신정, 맨티스 하이브, 크리스탈 제국, 라니우스 스웜 볼 수 있습니다. 연방과 반란군도 빼놓을 수 없죠. 여기에 적히지 않은 세력도 만나볼 수 있습니다. 눈 크게 뜨고 잘 보세요!
+											<text>물론 본편에 등장한 익숙한 세력도 등장합니다. 엔지 하모니, 졸탄 내각, 슬러그 도둑정, 락맨 신정, 맨티스 하이브, 크리스탈 제국, 라니우스 스웜을 볼 수 있습니다. 연방과 반란군도 빼놓을 수 없죠. 여기에 적히지 않은 세력도 만나볼 수 있습니다. 눈 크게 뜨고 잘 보세요!
 											
-											지금까지 제1장이었습니다. 다음 신호소로 이동하면 무기에 대한 설명을 시작하겠습니다. 상점을 열어 줄 테니 현재 원활한 진행을 위해 함선의 모든 아이템을 판매하시길 바랍니다.</text>
+											지금까지 제1장이었습니다. 다음 송신소로 이동하면 무기에 대한 설명을 시작하겠습니다. 상점을 열어 줄 테니 현재 원활한 진행을 위해 함선의 모든 아이템을 판매하시길 바랍니다.</text>
 											<store>STORE_STANDARD</store>
 										</event>
 									</choice>
@@ -187,7 +187,7 @@
 												<text>계속...</text>
 												<event>
 													<text>기뢰 사출기
-													기뢰 사출기 계열은 다른 모드에서도 많이 등장한 무기입니다. 멀티버스 모드에서는 기뢰가 시설 피해도 입힐 수 있습니다만, MK2와 3은 시설 피해가 줄어듭니다. 또한 빈 신호소에서 기뢰를 매설하여 반군의 진격을 늦출 수도 있습니다. 기뢰 매설함을 잡거나 희귀한 이벤트를 통해 얻을 수 있습니다. 기뢰 매설함만 이 무기를 사용합니다.</text>
+													기뢰 사출기 계열은 다른 모드에서도 많이 등장한 무기입니다. 멀티버스 모드에서는 기뢰가 시설 피해도 입힐 수 있습니다만, MK2와 3은 시설 피해가 줄어듭니다. 또한 빈 송신소에서 기뢰를 매설하여 반군의 진격을 늦출 수도 있습니다. 기뢰함을 잡거나 희귀한 이벤트를 통해 얻을 수 있습니다. 기뢰함만 이 무기를 사용합니다.</text>
 													<weapon name="MINELAUNCHER_1"/>
 													<choice hidden="true">
 														<text>계속...</text>
@@ -200,7 +200,7 @@
 																<event>
 																	<text>위에서 소개한 무기들은 다양한 종류로 등장합니다. FTL 본편에 등장한 무기들도 계속 볼 수 있죠. 이번엔 소개하지 않은 무기 종류도 있습니다만, 우선은 눈여겨 보아야 할 것 위주로 모았습니다! 
 																	
-																	여기까지 제 2장이었습니다. 다음 신호소로 이동하여 드론에 대한 설명을 들으십시오. 지금 받으신 무기들을 충분히 시험해 본 후 상점에서 모든 장비를 팔고 이동하면 됩니다.</text>
+																	여기까지 제 2장이었습니다. 다음 송신소로 이동하여 드론에 대한 설명을 들으십시오. 지금 받으신 무기들을 충분히 시험해 본 후 상점에서 모든 장비를 팔고 이동하면 됩니다.</text>
 																	<store>STORE_STANDARD</store>
 																</event>
 															</choice>
@@ -229,14 +229,14 @@
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>전환 드론
-			이 드론은 (매우 특수한 경우를 제외하면) 두 가지 모드를 전환할 수 있는 드론입니다. 모드 전환은 전투 시작 전에만 가능하며, 전투 중에는 전환할 수 없습니다. 적의 장비를 잘 보고 결정하세요! 두 모드의 자원이나 전력 소모는 같습니다. 전환 드론을 가진 적은 플레이어 처럼 하나의 모드로 고정되며 전투 중 전환하지 않습니다.</text>
+			<text>토글 드론
+			이 드론은 (매우 특수한 경우를 제외하면) 두 가지 모드를 전환할 수 있는 드론입니다. 모드 전환은 전투 시작 전에만 가능하며, 전투 중에는 전환할 수 없습니다. 적의 장비를 잘 보고 결정하세요! 두 모드의 자원이나 전력 소모는 같습니다. 토글 드론을 가진 적은 플레이어 처럼 하나의 모드로 고정되며 전투 중 전환하지 않습니다.</text>
 			<drone name="GUARDIAN_1_MISSILE"/>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
 					<text>앰프 드론
-					앰프 드론은 전환 드론처럼 전투 전에 설정할 수 있습니다. 하지만 전환 드론과는 달리, 앰프 드론은 사용 전력을 조절합니다. 전력을 더 소모하면 피해량이 증가하지만 더 느리게 이동합니다. 현재 상황에 맞는 전력을 고르세요. 일찍 드론을 획득하고 진행에 맞게 출력을 강화하세요!</text>
+					앰프 드론은 토글 드론처럼 전투 전에 설정할 수 있습니다. 하지만 토글 드론과는 달리, 앰프 드론은 사용 전력을 조절합니다. 전력을 더 소모하면 피해량이 증가하지만 더 느리게 이동합니다. 현재 상황에 맞는 전력을 고르세요. 일찍 드론을 획득하고 진행에 맞게 출력을 강화하세요!</text>
 					<drone name="ENERGY_1_AMP2"/>
 					<choice hidden="true">
 						<text>계속...</text>
@@ -249,7 +249,7 @@
 								<event>
 									<text>무기와는 다르게, 본편에서 등장한 드론은 극히 일부를 제외하고 위에서 소개한 계열로 편입되거나 삭제되었습니다. 디펜스 드론을 제외한 다른 모든 것들을 상점에 즉시 판매하던 것보다는 활용하기 좋을 것이라고 믿고 있습니다.
 									
-									여기까지 제 3장이었습니다. 다음 신호소로 이동하여 보조장비에 대한 설명을 들으십시오. 지금 받으신 드론을 충분히 시험해 본 후 상점에서 모든 장비를 팔고 이동하면 됩니다.</text>
+									여기까지 제 3장이었습니다. 다음 송신소로 이동하여 보조장비에 대한 설명을 들으십시오. 지금 받으신 드론을 충분히 시험해 본 후 상점에서 모든 장비를 팔고 이동하면 됩니다.</text>
 									<store>STORE_STANDARD</store>
 								</event>
 							</choice>
@@ -277,7 +277,7 @@
 				<text>계속...</text>
 				<event>
 					<text>외장 보조장비
-					외장 보조장비는 앞서 언급한 내장 보조장비와 직접 연관된 종류입니다. 기능적으로 대응되는 본편 보조장비와 동일한 효과를 가지지만, 빈 신호소에서 무료로 내부 업그레이드로 바꿀 수 있습니다. 초기 장비로 지급되는 것 외에는 자주 등장하지 않지만, 확정으로 얻을 수 있는 이벤트가 몇 개 있습니다.</text>
+					외장 보조장비는 앞서 언급한 내장 보조장비와 직접 연관된 종류입니다. 기능적으로 대응되는 본편 보조장비와 동일한 효과를 가지지만, 빈 송신소에서 무료로 내부 업그레이드로 바꿀 수 있습니다. 초기 장비로 지급되는 것 외에는 자주 등장하지 않지만, 확정으로 얻을 수 있는 이벤트가 몇 개 있습니다.</text>
 					<drone name="EX_ION_ARMOR"/>
 					<choice hidden="true">
 						<text>계속...</text>
@@ -449,17 +449,17 @@
 			관계: 우호적
 			고유 구역 여부: 예
 			주 세력: 연방
-			반군 위협 정도: 보통 (중립 함대)
+			반군 위협 수준: 보통 (중립 함대)
 
-			당신은 곧 연방 워프 정박소에 도착합니다. 이 격납고 기지는 여러 멀티버스를 드나드는 신소호 역할을 겸하고 있습니다. 화난 반군이나 해적 함대 대신 연방의 따뜻한 환영을 받을 수 있을 겁니다. 아마도요.</text>
+			당신은 곧 연방 워프 정박소에 도착합니다. 이 격납고 기지는 여러 멀티버스를 드나드는 송신소 역할을 겸하고 있습니다. 화난 반군이나 해적 함대 대신 연방의 따뜻한 환영을 받을 수 있을 겁니다. 아마도요.</text>
 			<remove name="HIDDEN DEST_CIVILIAN"/>
 			<playSound>lightspeed</playSound>
 			<choice hidden="true" req="DIFFICULTY_EXTREME" lvl="0" max_group="0" blue="false">
-				<text>초광속 이동을 끝낸다.</text>
+				<text>한계속도 도약을 마친다.</text>
 				<event load="START_BEACON_PREP"/>
 			</choice>
 			<choice hidden="true" req="DIFFICULTY_EXTREME" lvl="1" max_group="0" blue="false">
-				<text>초광속 이동을 끝낸다.</text>
+				<text>한계속도 도약 마친다.</text>
 				<event load="START_BEACON_PREP_SKIP"/>
 			</choice>
 		</event>
@@ -481,7 +481,7 @@
 			시작 연료: 25
 			첫 구역의 출구에 있는 엘리트 함선의 난이도가 감소합니다.
 			멀티버스 배회자 미니보스가 등장하지 않습니다.
-			방랑 상인이 항상 상당한 양의 공짜 선물을 줍니다.
+			방랑하는 행상인이 항상 상당한 양의 공짜 선물을 줍니다.
 			연방 전초기지에서 공짜로 함선을 수리해줍니다.
 			진 엔딩의 난이도가 감소합니다.</text>
 			<choice hidden="true">
@@ -498,7 +498,7 @@
 			시작 연료: 12
 			첫 구역의 출구에 있는 엘리트 함선의 난이도가 감소합니다.
 			배회자 보스들의 난이도가 낮아지고 스크랩으로 전투를 회피할 수 있습니다.
-			방랑 상인은 강하 지점과 마지막 승부 지역에서 소소한 양의 선물을 줍니다.</text>
+			방랑하는 행상인은 강하 지점과 마지막 승부 지역에서 소소한 양의 선물을 줍니다.</text>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event load="SET_DIFFICULTY_NORMAL"/>
@@ -514,8 +514,8 @@
 			반군 함대의 도약이 한 번 빨라집니다.
 			첫 구역의 출구에 있는 엘리트 함선의 난이도가 증가합니다.
 			배회자 보스들의 난이도가 증가하고 전투를 회피하려면 선원을 바쳐야 합니다.
-			방랑 상인은 절대로 선물을 주지 않습니다.
-			마지막 승부의 수리 신호소는 항상 반군의 공격을 받습니다.
+			방랑하는 행상인은 절대로 선물을 주지 않습니다.
+			마지막 승부의 수리 송신소는 항상 반군의 공격을 받습니다.
 			진 엔딩의 난이도가 증가합니다.</text>
 			<choice hidden="true">
 				<text>계속...</text>
@@ -532,8 +532,8 @@
 			반군 함대의 도약이 한 번 빨라집니다.
 			첫 구역의 출구에 있는 엘리트 함선의 난이도가 증가합니다.
 			배회자 보스들의 난이도가 증가하고 회피를 위해 선원을 희생해야 합니다.
-			방랑 상인이 주는 스크랩의 양이 크게 감소합니다.
-			마지막 승부의 시작 신호소와 수리 신호소는 항상 MFK 에이스함의 공격을 받습니다.
+			방랑하는 행상인이 주는 스크랩의 양이 크게 감소합니다.
+			마지막 승부의 시작 송신소와 수리 송신소는 항상 MFK 에이스함의 공격을 받습니다.
 			게임 시작 전 추가 준비 선택지가 비활성화됩니다.
 			진 엔딩의 난이도가 크게 증가합니다.</text>
 			<choice hidden="true">
@@ -628,7 +628,7 @@
 	<choice hidden="true" req="pilot">
 		<text>[연방 데이터베이스] 이 임무에서 당신의 역할을 떠올려본다.</text>
 		<event>
-			<text>연방의 함장이었던 당신은, 이제 우주를 넘어 다차원 전체를 아우르는 전쟁의 중심에 섰습니다. 당신의 고향인 0번 우주에서의 연방 내전이 종결된 후, 은하 연방은 반군의 수장인 밴스 제독을 무찌르고 은하계의 주도권을 되찾았습니다.</text>
+			<text>연방의 함장이었던 당신은, 이제 우주를 넘어 멀티버스 전체를 아우르는 전쟁의 중심에 섰습니다. 당신의 고향인 제0 우주에서의 연방 내전이 종결된 후, 은하 연방은 반군의 수장인 밴스 제독을 무찌르고 은하계의 주도권을 되찾았습니다.</text>
 			<choice>
 				<text>계속 읽는다.</text>
 				<event>
@@ -636,15 +636,15 @@
 					<choice>
 						<text>계속 읽는다.</text>
 						<event>
-							<text>자세한 내막은 불명이지만, 밴스의 부대가 결국 고대 유적에 먼저 당도해 멀티버스 드라이브를 얻었다고 알려져 있습니다. 반군은 그 기술을 역설계해 잔존 함대에 설치했습니다. 연방이 반군 거점을 습격했을 때, 밴스 함장은 1번 우주로 도망혔습니다. 그 곳에서 반군은 1번 우주의 반군과 합세해 연방을 몰아내었습니다. 1번 우주는 이제 반군의 다중우주 침공을 지휘하는 사령부로 변모하였고, 0번 우주는 이를 막기 위해 반격에 나섰습니다.</text>
+							<text>자세한 내막은 불명이지만, 밴스의 부대가 결국 고대 유적에 먼저 당도해 멀티버스 드라이브를 얻었다고 알려져 있습니다. 반군은 그 기술을 역설계해 잔존 함대에 설치했습니다. 연방이 반군 거점을 습격했을 때, 밴스 함장은 제1 우주로 도망혔습니다. 그 곳에서 반군은 제1 우주의 반군과 합세해 연방을 몰아내었습니다. 제1 우주는 이제 반군의 멀티버스 침공을 지휘하는 사령부로 변모하였고, 제0 우주는 이를 막기 위해 반격에 나섰습니다.</text>
 							<choice>
 								<text>계속 읽는다.</text>
 								<event>
-									<text>어찌 보면 실속 없는 일이라 볼수도 있겠습니다만, 현재 양 세력은 각자 다른 차원들을 침범하며 세력의 주도권과 생존을 위한 싸움을 계속하는 교착상태에 빠졌습니다. 하지만 확실히 알아야 할 것이, 현재 반군은 그들이 내세우는 '용감한 봉기'에 걸맞는 수준을 아득히 넘어섰습니다. 완전한 정보는 아닙니다만, 1번 우주는 이제 모든 우주에서 연방과 외계인을 전멸시키기 위한 일념으로 전쟁 기계를 영원히 만들어 내는 황폐한 기계 지옥으로 전락했다고 합니다.</text>
+									<text>어찌 보면 실속 없는 일이라 볼수도 있겠습니다만, 현재 양 세력은 각자 다른 차원들을 침범하며 세력의 주도권과 생존을 위한 싸움을 계속하는 교착상태에 빠졌습니다. 하지만 확실히 알아야 할 것이, 현재 반군은 그들이 내세우는 '용감한 봉기'에 걸맞는 수준을 아득히 넘어섰습니다. 완전한 정보는 아닙니다만, 제1 우주는 이제 모든 우주에서 연방과 외계인을 전멸시키기 위한 일념으로 전쟁 기계를 영원히 만들어 내는 황폐한 기계 지옥으로 전락했다고 합니다.</text>
 									<choice>
 										<text>계속 읽는다.</text>
 										<event>
-											<text>현재 0번 우주의 밴스의 행방은 불명입니다. 하지만 밴스에게 충성하는 MFK 정예 부대는 다중우주 전반에 걸쳐 목격되고 있습니다. 그 부대는 현재 연방에게 가장 큰 위협입니다. 그와 동시에 이 우주의 연방 기지를 파괴하고 반군의 승리를 다지기 위한 신형 기함 또한 배치되었다고 합니다.</text>
+											<text>현재 제0 우주의 밴스의 행방은 불명입니다. 하지만 밴스에게 충성하는 MFK 정예 부대는 멀티버스 전반에 걸쳐 목격되고 있습니다. 그 부대는 현재 연방에게 가장 큰 위협입니다. 그와 동시에 이 우주의 연방 기지를 파괴하고 반군의 승리를 다지기 위한 신형 기함 또한 배치되었다고 합니다.</text>
 											<choice>
 												<text>계속 읽는다.</text>
 												<event>
@@ -691,7 +691,7 @@
 	</choice>
 </event>
 <event name="START_BEACON_PREP">
-	<text>당신은 천천히 초광속 공간을 빠져나와, 속도를 늦춰 격납고에 진입합니다. 당신의 부대와 함선은 새로운 은하를 항해하기 전 정비를 받고 준비를 마칩니다.</text>
+	<text>당신은 천천히 한계속도에서 빠져나와, 속도를 늦춰 격납고에 진입합니다. 당신의 부대와 함선은 새로운 은하를 항해하기 전 정비를 받고 준비를 마칩니다.</text>
 	<changeBackground>BACK_SECTOR_START</changeBackground>
 	<choice hidden="true">
 		<text>계속...</text>
@@ -787,7 +787,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="pilot" lvl="1" max_group="4" blue="false">
-				<text>지금 있는 것만으로 충분한 것 같군요. 반군 함대에 따라잡히기 전에 어서 출발합시다!</text>
+				<text>지금 있는 것만으로 충분한 것 같군. 반군 함대에 따라잡히기 전에 어서 출발한다!</text>
 				<event>
 					<text>당신은 추가 장비를 챙기지 않고 바로 출발합니다.</text>
 					<modifyPursuit amount="-2"/>
@@ -801,7 +801,7 @@
 	</choice>
 </event>
 <event name="START_BEACON_PREP_SKIP">
-    <text>당신은 천천히 초광속 공간을 빠져나와, 속도를 늦춰 격납고에 진입합니다. 당신의 부대와 함선은 새로운 은하를 항해하기 전 정비를 받고 준비를 마칩니다.</text>
+    <text>당신은 천천히 한계속도에서 빠져나와, 속도를 늦춰 격납고에 진입합니다. 당신의 부대와 함선은 새로운 은하를 항해하기 전 정비를 받고 준비를 마칩니다.</text>
 	<changeBackground>BACK_SECTOR_START</changeBackground>
 	<choice hidden="true">
         <text>계속...</text>
@@ -815,7 +815,7 @@
 	</loadEventList>
 </event>
 <event name="START_BEACON_EXPLAIN">
-	<text>당신은 마침내 출발 준비를 마쳤습니다. 신호소 지도를 보니 반군 함대가 완전한 위협이 되기 전 까지 약간 시간이 있는 것 같습니다. 원한다면 함선에 추가 개조를 할 수 있을 것 같습니다.</text>
+	<text>당신은 마침내 출발 준비를 마쳤습니다. 송신소 지도를 보니 반군 함대가 완전한 위협이 되기 전 까지 약간 시간이 있는 것 같습니다. 원한다면 함선에 추가 개조를 할 수 있을 것 같습니다.</text>
 	<choice>
 		<text>함선에서 무언가를 한다.</text>
 		<event load="STORAGE_CHECK"/>
@@ -826,7 +826,7 @@
 	</choice>
 </event>
 <event name="START_BEACON_EXPLAIN_POWERS2">
-	<text>당신은 마침내 출발 준비를 마쳤습니다. 신호소 지도를 보니 반군 함대가 완전한 위협이 되기 전 까지 약간 시간이 있는 것 같습니다. 원한다면 함선에 추가 개조를 할 수 있을 것 같습니다.</text>
+	<text>당신은 마침내 출발 준비를 마쳤습니다. 송신소 지도를 보니 반군 함대가 완전한 위협이 되기 전 까지 약간 시간이 있는 것 같습니다. 원한다면 함선에 추가 개조를 할 수 있을 것 같습니다.</text>
 	<triggeredEvent event="FLAGSHIP_STAGE2_TRACKER" seeded="false" loops="999999999" jumps="1"/>
 	<choice>
 		<text>함선에서 무언가를 한다.</text>
@@ -838,7 +838,7 @@
 	</choice>
 </event>
 <event name="START_BEACON_EXPLAIN_POWERS3">
-	<text>당신은 마침내 출발 준비를 마쳤습니다. 신호소 지도를 보니 반군 함대가 완전한 위협이 되기 전 까지 약간 시간이 있는 것 같습니다. 원한다면 함선에 추가 개조를 할 수 있을 것 같습니다.</text>
+	<text>당신은 마침내 출발 준비를 마쳤습니다. 송신소 지도를 보니 반군 함대가 완전한 위협이 되기 전 까지 약간 시간이 있는 것 같습니다. 원한다면 함선에 추가 개조를 할 수 있을 것 같습니다.</text>
 	<triggeredEvent event="FLAGSHIP_STAGE3_TRACKER" seeded="false" loops="999999999" jumps="1"/>
 	<choice>
 		<text>함선에서 무언가를 한다.</text>
@@ -851,7 +851,7 @@
 </event>
 
 <event name="FINISH_BEACON">
-    <text>당신은 장거리 신호소에 도착했습니다. FTL 드라이브 충전이 완료되면 다음 구역으로 이동할 수 있습니다.</text>
+    <text>당신은 장거리 송신소에 도착했습니다. FTL 드라이브 충전이 완료되면 다음 구역으로 이동할 수 있습니다.</text>
     <choice hidden="true">
         <text>탐사한다.</text>
         <event load="EXIT_LIST"/>
@@ -867,9 +867,9 @@
 </event>
 
 <event name="FINISH_BEACON_NEBULA">
-	<text>이 장거리 신호소는 성운 속에 위치해 있습니다. FTL 드라이브 충전이 완료되면 다음 구역으로 이동할 수 있습니다.</text>
+	<text>이 장거리 송신소는 성운 속에 위치해 있습니다. FTL 드라이브 충전이 완료되면 다음 구역으로 이동할 수 있습니다.</text>
 	<!--<choice hidden="true">
-		<text>Explore</text>
+		<text>탐헌한다.</text>
 		<event load="NEBULA_EXIT"/>
 	</choice>-->
 	<choice hidden="true">
@@ -1053,7 +1053,7 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->	
 <event name="SOLAR_WRECK" unique="true">
-	<text>신호소에 도착한 당신은 알아볼 수 없을 정도로 그을린 함선 잔해가 태양 근처를 떠돌고 있는 것을 발견합니다. 머지 않아 태양의 중력에 끌려들어갈 것이지만, 어쩌면 그 전에 함체를 인양할 수 있을 것도 같습니다.</text>
+	<text>송신소에 도착한 당신은 알아볼 수 없을 정도로 그을린 함선 잔해가 태양 근처를 떠돌고 있는 것을 발견합니다. 머지 않아 태양의 중력에 끌려들어갈 것이지만, 어쩌면 그 전에 함체를 인양할 수 있을 것도 같습니다.</text>
 	<environment type="sun"/>
 	<choice hidden="true">
 		<text>잔해 수거를 시도한다.</text>
@@ -1111,7 +1111,7 @@
 </eventList>
 <eventList name="SOLAR_WRECK_SALVAGE_ARMOR">
 	<event>
-		<text>가까이서 보니 그것은 엔지 함선의 잔해였습니다. 함선에 실린 드론 하나는 설계도를 복구할 수 있을 정도로 충분히 괜찮은 상태인 것 같습니다..</text>
+		<text>가까이서 보니 그것은 엔지 함선의 잔해였습니다. 함선에 실린 드론 하나는 설계도를 복구할 수 있을 정도로 충분히 괜찮은 상태인 것 같습니다.</text>
 		<drone name="RANDOM"/>
 	</event>
 	<event>
@@ -1264,11 +1264,11 @@
 	<choice hidden="true">
 		<text>그들을 설득해 본다.</text>
 		<event>
-			<text>"연합의 철학은 낡아빠졌어! 반군이 우리에게 영광스런 우주... 아니, 외계인 자식이 없는 다중우주를 약속했다고!"</text>
+			<text>"연방의 철학은 낡아빠졌어! 반군이 우리에게 영광스런 우주... 아니, 외계인 자식들이 없는 멀티버스를 약속했다고!"</text>
 			<choice req="engineer" hidden="true">
-				<text>(엔지니어 선원) 좀 더 설득해 본다.</text>
+				<text>(공병 선원) 좀 더 설득해 본다.</text>
 				<event>
-					<text>엔지니어 선원은 자신이 반란군에 속해 있던 시절을 이야기했습니다. 그는 반란군의 잔혹함과 위선을 폭로했습니다. 민간인은 상상도 못한 진실에 놀라고는 되려 당신에게 물자를 제공합니다.</text>
+					<text>공병 선원은 자신이 반란군에 속해 있던 시절을 이야기했습니다. 그는 반란군의 잔혹함과 위선을 폭로했습니다. 민간인은 상상도 못한 진실에 놀라고는 되려 당신에게 물자를 제공합니다.</text>
 					<autoReward level="LOW">standard</autoReward>
 				</event>
 			</choice>
@@ -1280,7 +1280,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>이렇게 된 이상 당신의 입을 막는 수밖에 없겠군.</text>
+				<text>이렇게 된 이상 당신들의 입을 막는 수밖에 없겠군.</text>
 				<event>
 					<text>당신은 민간인들을 설득해 보려고 했지만, 실패하고 말았습니다. 그들이 도망치기 전에 격추하는 수밖에 없습니다!</text>
 					<ship hostile="true"/>
@@ -1312,7 +1312,7 @@
 		</event>
 	</choice>
 	<choice req="engineer" hidden="true">
-		<text>(엔지니어 선원) 반군의 첩자인 척 한다.</text>
+		<text>(공병 선원) 반군의 첩자인 척 한다.</text>
 		<event>
 			<text>"와아아우, 당신 정말 스파이야? 정말 멋지다. 나도 스파이 할래. 가능하지?! 최선을 다 할 거야!" 그들은 들뜬 채로 승선합니다. 선원들의 불편한 기색이 역력합니다. 거짓말이 언제 들통나게 될 진 모르겠지만, 이 사람은 너무 어리석어서 눈치채진 못할 것 같습니다.</text>
 			<crewMember amount="1" class="human"/>
@@ -1393,10 +1393,10 @@
 	</choice>
 </event>
 <textList name="GHOST_SHIP_TEXT">
-	<text>이 신호소는 공허한 우주 한 가운데에 위치해 있습니다. 당신은 출발하기 직전 크게 파손된 함선이 떠다니는 것을 보았습니다.</text>
-	<text>이 신호소 근처에 다른 함선은 단 한척 뿐입니다. 그 마저도 버려진지 오래 된 것입니다.</text>
+	<text>이 송신소는 공허한 우주 한 가운데에 위치해 있습니다. 당신은 출발하기 직전 크게 파손된 함선이 떠다니는 것을 보았습니다.</text>
+	<text>이 송신소 근처에 다른 함선은 단 한척 뿐입니다. 그 마저도 버려진지 오래 된 것입니다.</text>
 	<text>당신이 도착하자마자 다른 함선이 빠져나갑니다. 그들은 완전히 도약하기 전에 당신에게 통신합니다. "저 망가진 함선은 건드리지 않는 게 좋을 겁니다."  그들 말마따나 근처에 버려진 함선 하나가 떠다니고 있었습니다.</text>
-	<text>이 신호소 근처에 크게 파손된 함선이 있습니다. 당신은 간간히 왜곡된 통신 신호를 감지하지만, 알아들을 수 없었습니다. 또한 아무런 생명 반응도 감지되지 않습니다.</text>
+	<text>이 송신소 근처에 크게 파손된 함선이 있습니다. 당신은 간간히 왜곡된 통신 신호를 감지하지만, 알아들을 수 없었습니다. 또한 아무런 생명 반응도 감지되지 않습니다.</text>
 </textList>
 <eventList name="ABANDONED_GHOST_DOCK">
 	<event>
@@ -1433,7 +1433,7 @@
 </event>
 <eventList name="ABANDONED_GHOST_SPACE">
 	<event>
-		<text>갑자기 잔해가 재가동됩니다. 이 함선은 지금까지 계속 유령이 조종하고 있었던 것 같습니다!</text>
+		<text>갑자기 난파선이 재가동됩니다. 이 함선은 지금까지 계속 고스트가 조종하고 있었던 것 같습니다!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1443,13 +1443,13 @@
 	<event>
 		<text>당신은 함선에서 통신을 받습니다. 완전한 잡읍이었지만, 이내 글자가 나타납니다. "당신은 충분히 챙겼다. 우릴 내버려 둬!" 이 함선은 줄곧 떠돌이들이 조종하고 있었던 것 같습니다.</text>
 		<choice hidden="true">
-			<text>유령의 조언대로 떠난다.</text>
+			<text>고스트의 조언대로 떠난다.</text>
 			<event/>
 		</choice>
 		<choice hidden="true">
 			<text>이 함선은 다른 함선에게 위협이 될 수도 있다. 파괴해야 한다.</text>
 			<event>
-				<text>당신은 유령 함선을 공격합니다.</text>
+				<text>당신은 고스트 함선을 공격합니다.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
 					<text>계속...</text>
@@ -1489,7 +1489,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>유령은 당신의 예상보다 훨씬 약했습니다. 선원들은 재빨리 그들을 퇴치하고 커다란 보급품 상자를 챙겨 돌아옵니다.</text>
+		<text>유령들은 당신의 예상보다 훨씬 약했습니다. 선원들은 재빨리 그들을 퇴치하고 커다란 보급품 상자를 챙겨 돌아옵니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice>
 			<text>계속...</text>
@@ -1497,7 +1497,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>선원들이 유령과의 싸움에서 지고 있습니다. 이대로 두다간 모두 죽을 것 같습니다.</text>
+		<text>선원들이 유령들과의 싸움에서 지고 있습니다. 이대로 두다간 모두 죽을 것 같습니다.</text>
 		<choice>
 			<text>전원 퇴각하라.</text>
 			<event load="ABANDONED_GHOST_BOARDED"/>
@@ -1544,11 +1544,11 @@
 		<event load="CIVILIAN_EXPLODED_HELP"/>
 	</choice>
 	<choice hidden="true" req="LIFE_SCANNER">	
-		<text>(생체 감지기) 만일에 대비해 함선을 다시 한번 스캔한다..</text>
+		<text>(생체 감지기) 만일에 대비해 함선을 다시 한번 스캔한다.</text>
 		<event load="CIVILIAN_EXPLODED_SCAN"/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">	
-		<text>(고급 센서) 만일에 대비해 함선을 다시 한번 스캔한다..</text>
+		<text>(고급 센서) 만일에 대비해 함선을 다시 한번 스캔한다.</text>
 		<event load="CIVILIAN_EXPLODED_SCAN"/>
 	</choice>
 	<choice hidden="true">	
@@ -1596,7 +1596,7 @@
 </eventList>
 
 <event name="CIVILIAN_ASTEROID_APPROACHING" unique="true">
-	<text>당신은 민간인 정거장의 절박한 교신을 받습니다. "도와주세요! 스캐너에 거대한 운석이 다가오는 것을 포착됐어요! 우리에겐 방어할 수단이 없어요!"</text>
+	<text>당신은 민간인 정거장의 절박한 교신을 받습니다. "도와주세요! 스캐너에 거대한 운석이 다가오는 것이 포착됐어요! 우리에겐 방어할 수단이 없어요!"</text>
 	<choice hidden="true">	
 		<text>운석으로부터 정거장을 보호한다.</text>
 		<event>
@@ -1614,7 +1614,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="BLUELIST_WEAPONS_HEAVY">	
-		<text>(중량 무기) 운석을 박살낸다.</text>
+		<text>(중형 무기) 운석을 박살낸다.</text>
 		<event>
 			<text>운석을 박살내는 데는 한 발이면 충분했습니다. 운석은 유리가 깨지는 것 처럼 산산히 부서져 온갖 방향으로 흩어집니다. 민간인들은 당신의 빠르고 확실한 해결을 축하하며 보상을 제공했습니다.</text>
 			<autoReward level="MED">fuel</autoReward>
@@ -1648,7 +1648,7 @@
 </event>
 
 <event name="SLUG_ELITE_LOST" unique="true">
-	<text>신호소 주변을 떠도는 저 노란 함선은 어떤지 낯이 익습니다. 확실히 Clairvoyant호 인것 같습니다! 당신은 녀석이 성운을 떠나 멀리까지 표류한 것이라 생각합니다.</text>
+	<text>송신소 주변을 떠도는 저 노란 함선은 어떤지 낯이 익습니다. 확실히 투시자인것 같습니다! 당신은 녀석이 성운을 떠나 멀리까지 표류한 것이라 생각합니다.</text>
 	<ship load="SHIP_SLUG_ELITE_FIGHT" hostile="false"/>
 	<choice>
 		<text>함선을 공격한다!</text>
@@ -1664,7 +1664,7 @@
 	<choice hidden="true">
 		<text>도와줄 것이 있는지 묻는다.</text>
 		<event>
-			<text>"으으... 연방 놈들... 그래, 우린 길을 잃었따. 자꾸 강조하진 마라. 우린 단지 더러운 연방... 아니 범죄자 놈들을 잡으려다 멀리 나온 것 뿐이따. 남는 연료 있는까?"</text>
+			<text>"으으... 연방 놈들... 그래, 우린 길을 잃어따. 자꾸 강쪼하찐 마라. 우린 단찌 더러운 연방... 아니 범쬐짜 놈들을 짭으려다 멀리 나온 것 뿐이다. 남는 연료 있는가?"</text>
 			<choice hidden="true">
 				<text>연료를 넘겨준다.</text>
 				<event>
@@ -1681,14 +1681,14 @@
 			<choice hidden="true" req="LIST_CREW_SLUG">
 				<text>(슬러그 선원) 슬러그 선원이 거래를 감독하게 한다.</text>
 				<event>
-					<text>"우리 동찌? 실수했꾼... 또 다른 도둑쩡 친구가 이렇게 멀리까지 나올 거라 생각 못 했따..."</text>
+					<text>"우리 동찌? 씰쑤해꾼... 또 다른 도둑쩡 찐구가 이렇게 멀리까지 나올 거라 쌩각 못 했는데..."</text>
 					<item_modify>
 						<item type="fuel" min="-3" max="-3"/>
 					</item_modify>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>슬러그 선원이 계속 지켜보고 있는걸 확인한 Clairvoyant호 선원들은 훨씬 개방적인 태도를 취했습니다. 당신은 놈들이 속임수 없이 제대로 된 거래를 할 것이라고 확신합니다.</text>
+							<text>슬러그 선원이 계속 지켜보고 있는걸 확인한 투시자 선원들은 훨씬 개방적인 태도를 취했습니다. 당신은 놈들이 속임수 없이 제대로 된 거래를 할 것이라고 확신합니다.</text>
 							<autoReward level="MED">item</autoReward>
 						</event>
 					</choice>
@@ -1697,14 +1697,14 @@
 			<choice hidden="true" req="weapons" lvl="5">
 				<text>(고급 무기실) 거래를 하는 동안 무기 전력을 켜 둔다.</text>
 				<event>
-					<text>"무기 자랑 하고 싶은건 잘 알겠따, 연방 애송이. 우린 연료만 필요하따. 그거 좀 치웠으면 좋겠따..."</text>
+					<text>"무기 짜랑 하고 앂은건 짤 알게따, 연방 애쏭이. 우린 연료만 필요하다. 그거 쫌 찌워쓰면 좋게따..."</text>
 					<item_modify>
 						<item type="fuel" min="-3" max="-3"/>
 					</item_modify>
 					<choice hidden="true">
 						<text>계속...</text>
 						<event>
-							<text>당신이 무기로 위협하고 있는 한 Clairvoyant호 선원들은 허튼 수작을 부리지 않을 것입니다. 당신은 놈들이 속임수 없이 제대로 된 거래를 할 것이라고 확신합니다.</text>
+							<text>당신이 무기로 위협하고 있는 한 투시자 선원들은 허튼 수작을 부리지 않을 것입니다. 당신은 놈들이 속임수 없이 제대로 된 거래를 할 것이라고 확신합니다.</text>
 							<autoReward level="MED">item</autoReward>
 						</event>
 					</choice>
@@ -1717,7 +1717,7 @@
 		</event>
 	</choice>
 	<choice req="FEDERATION_DATABASE">
-		<text>[연방 데이터베이스] Clairvoyant는 누구인가?</text>
+		<text>[연방 데이터베이스] 투시자가 누구인가?</text>
 		<event>
 			<text id="database_clairvoyants"/>
 			<choice hidden="true">
@@ -1745,11 +1745,11 @@
 </event>
 <eventList name="SLUG_ELITE_LOST_GIVE">
 	<event>	
-		<text>"예상하지 못한 친절이따. 너희는 이제 베스트 프렌드 연방이따. 하지만 잊찌 마라. 너희 연방은 여전히 멍청이따." 칭찬같지도 않은 칭찬을 듣긴 했지만 보상은 확실하게 받았습니다.</text> 
+		<text>"예쌍하찌 못한 친쩔이다. 너희는 이쩨 베쓰트 프렌드 연방이다. 하찌만 이찌 마라. 너희 연방은 여쩐히 멍쩡이다." 칭찬같지도 않은 칭찬을 듣긴 했지만 보상은 확실하게 받았습니다.</text> 
 		<autoReward level="MED">item</autoReward>
 	</event>
 	<event>	
-		<text>"예상하지 못한 친절이따. 지난 번에 걸린 그 멍청이랑 똑같은 멍청이따. 뒈져라, 연방 쓰레끼!"</text> 
+		<text>"예상하찌 못한 친쩔이다. 찌난 번에 걸린 그 멍쩡이랑 똑같은 멍쩡이다. 뒈쪄라, 연방 쓰레기!"</text> 
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
@@ -1917,10 +1917,10 @@
 </event>
 <eventList name="DISTRESS_FEDERATION_LOST_TRACK">
 	<event>	
-		<text>구조신호 신호소의 출처를 찾느라 오랜 시간이 걸렸습니다. 연방의 함선이 구조신호를 남긴 것은 맞으나, 정작 그 함선은 온데간데 없이 사라졌습니다.</text>
+		<text>구조신호 송신소의 출처를 찾느라 오랜 시간이 걸렸습니다. 연방의 함선이 구조신호를 남긴 것은 맞으나, 정작 그 함선은 온데간데 없이 사라졌습니다.</text>
 	</event>
 	<event>	
-		<text>당신은 연방제 구조신호 신호소를 찾았습니다. 그것을 남긴 함선도 멀리 있지 않았습니다. 멀리서 보기엔 확실하진 않지만, 함선이 치명적인 피해를 입은 것으로 보입니다.</text>
+		<text>당신은 연방제 구조신호 송신소를 찾았습니다. 그것을 남긴 함선도 멀리 있지 않았습니다. 멀리서 보기엔 확실하진 않지만, 함선이 치명적인 피해를 입은 것으로 보입니다.</text>
 		<choice hidden="true">
 			<text>함선과 교신한다.</text>
 			<event load="DISTRESS_FEDERATION_LOST_HAIL"/>
@@ -2295,13 +2295,13 @@
 -->	
 <event name="QUEST_MERCENARY_DELIVERY_START" unique="true">
 	<ship load="SHIP_SMUGGLER_ALL" hostile="false"/>
-	<text>신호소에 도착한 당신은 근처에 Argeonn호가 떠다니는 것을 보았습니다. 그들은 용건이 있다는 투로 당신과 교신합니다. "좋은 함선을 몰고 다니시는군요... 스크랩만 더 있으면 훨씬 완벽할 것 같습니다. 쉽고 빠르게 돈을 벌고 싶으십니까?"</text>
+	<text>송신소에 도착한 당신은 근처에 알게온 선박이 떠다니는 것을 보았습니다. 그들은 용건이 있다는 투로 당신과 교신합니다. "좋은 함선을 몰고 다니시는군요... 스크랩만 더 있으면 훨씬 완벽할 것 같습니다. 쉽고 빠르게 돈을 벌고 싶으십니까?"</text>
 	<choice hidden="true">
 		<text>관심을 표한다.</text>
 		<event load="MERCENARY_DELIVERY_INTEREST"/>
 	</choice>
 	<choice hidden="true" req="FEDERATION_DATABASE">
-		<text>[연방 데이터베이스] Argeonn은 누구인가?</text>
+		<text>[연방 데이터베이스] 알게온이 누구인가?</text>
 		<event>
 			<text id="database_argeonn"/>
 			<choice hidden="true">
@@ -2354,7 +2354,7 @@
 	</choice>
 </event>
 <event name="QUEST_MERCENARY_DELIVERY_END">
-	<text>당신은 그 신호소에 도착합니다. 이미 함선 한 척이 당신을 기다리고 있는 것 같습니다. "그래... 물건은 가져왔는가?"</text>
+	<text>당신은 그 송신소에 도착합니다. 이미 함선 한 척이 당신을 기다리고 있는 것 같습니다. "그래... 물건은 가져왔는가?"</text>
 	<ship load="QUEST_MERCENARY_DELIVER_SHIP" hostile="false"/>
 	<choice hidden="true">
 		<text>밀수품을 넘긴다.</text>
@@ -2441,7 +2441,7 @@
 	<text planet="PLANET_POPULATED">당신이 성계에 도착하자마자 연방에 충성하는 거주민들이 교신합니다. 그들은 당신의 임무에 대해 듣고는 당신에게 물자를 지원합니다.</text>
 	<text planet="PLANET_GAS">이 성계의 가스 구름 속에는 잊혀진 전투의 흔적이 아직 남아 있습니다. 몇몇 파편은 아직 쓸 만해 보입니다.</text>
 	<text>당신은 근처의 정거장에서 통신을 받습니다. "반군 영토에 뛰어드는 연방 함선이라? 꽤 과감하시군요." 당신은 재빨리 무기를 가동하지만 정거장이 이어서 말합니다. "하지만 우리는 반군에 찬동하지 않아요. 이 물자라면 동맹 영공으로 무사히 가실 수 있을 겁니다."</text>
-	<text>당신은 한때 우주 정거장인 곳에 도착했습니다. 대부분은 깨끗하게 털렸지만 임무에 유용해 보이는 물자를 조금 찾았습니다.</text>
+	<text>당신은 한때 우주 정거장이었던 곳에 도착했습니다. 대부분은 깨끗하게 털렸지만 임무에 유용해 보이는 물자를 조금 찾았습니다.</text>
 </textList>
 
 <event name="FIND_DRONE">
@@ -4228,7 +4228,7 @@
 				</event>
 			</choice>
 			<choice hidden="true" req="engineer">
-				<text>(엔지니어 선원) Remotely repair its targeting system.</text>
+				<text>(공병 선원) Remotely repair its targeting system.</text>
 				<event>
 					<text>Your crew-member is able to remotely fix the glitch in the defense AI, allowing the repair crew to close in and finish the job. The station gives you its thanks along with a reward.</text>	
 					<autoReward level="HIGH">standard</autoReward>
@@ -4427,7 +4427,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_GHOST">
-		<text>(유령 선원) Send your Ghost to calm down the infected.</text>
+		<text>(고스트 선원) Send your Ghost to calm down the infected.</text>
 		<event>
 			<text>Because of your Ghost's gaseous nature, they have little fear of catching the disease. However, rather than calming the crowds, your Ghost sends them into even greater panic. Assuming the entity is an omen of death, it takes some time for your Ghost to reinstate order. Going along with the crowd, they play with that idea, affirming to the colonists that if they do not listen to their leaders, he will return to reap their souls. This is surprisingly effective, and you're paid for your help.</text>
 			<autoReward level="HIGH">standard</autoReward>

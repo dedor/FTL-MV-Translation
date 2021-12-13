@@ -52,8 +52,8 @@ HOSTILE ENVIRONMENT!
 </event>
 <textList name="PIRATE_PULSAR_TEXT">
 	<text>근처 펄서 달이 감지되자마자 센서들이 미친듯이 반응합니다, 당신이 FTL 드라이브를 재조정할 동안, 해적선이 무기를 장전하며 살금살금 다가오고 있습니다. 전투를 준비!</text>
-	<text>당신이 도착하자마자 펄서 달이 화면을 가득채웠습니다. 당신은 항성 앞에 작은 윤곽이 지나가는 것을 목격했습니다. 무엇인지 생각해볼 틈도 없이 경고 신호가 울린다. 발포 궤도 내에 있는 함선인듯 하다!</text>
-	<text>작은 연구소가 근처 펄서 달의 궤도를 돌고 있다. 버려진 연구소인듯 했으나, 당신이 스캔 거리에 들자마자 전력 수치가 갑자기 오르는 것을 감지한다. 연구소에서 소형 전투함선이 출격한다. 해적들이다!</text>
+	<text>당신이 도착하자마자 펄서 달이 화면을 가득채웠습니다. 당신은 항성 앞에 작은 윤곽이 지나가는 것을 목격했습니다. 무엇인지 생각해볼 틈도 없이 경고 신호가 울렸습니다. 발포 궤도 내에 있는 함선인듯 합니다!</text>
+	<text>작은 연구소가 근처 펄서 달의 궤도를 돌고 있습니다. 버려진 연구소인듯 했으나, 당신이 스캔 거리에 들자마자 전력 수치가 갑자기 오르는 것을 감지했습니다. 연구소에서 소형 전투함선이 출격했습니다. 해적들입니다!</text>
 </textList>
 
 <event name="REBEL_PDS" unique="true">
@@ -65,9 +65,9 @@ HOSTILE ENVIRONMENT!
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="hacking" lvl="1">
-		<text>(Simple 해킹) 대함포대의 표적을 교란한다</text>
+		<text>(단순한 해킹) 대함포대의 표적을 교란한다</text>
 		<event>
-			<text>당신은 조준용 위성들의 약점을 포착한다. 당신의 승무원들은 대함포대의 조준망을 교란시킬수 있는 해킹 드론을 출격시킬 수 있다. 이제 반란군 함선에도 발포 할 것이다.</text>
+			<text>당신은 조준용 위성들의 약점을 포착했습니다. 당신의 승무원들은 대함포대의 조준망을 교란시킬수 있는 해킹 드론을 출격시킬 수 있었습니다. 이제 대함포대가 반란군 함선에도 발포 할 것입다.</text>
 			<environment type="PDS" target="all"/>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
@@ -81,7 +81,7 @@ HOSTILE ENVIRONMENT!
 	<choice req="hacking" lvl="3">
 		<text>(최고급 해킹) 대함포대의 표적을 재설정한다.</text>
 		<event>
-			<text>당신은 조준용 위성들의 약점을 포착한다. 당신의 승무원들은 대함포대 조준망의 표적을 재설정 할 수 있는 향상된 해킹 드론을 출격시킬 수 있다. 이제 반란군 함선에만 발포 할 것이다!</text>
+			<text>당신은 조준용 위성들의 약점을 포착했습니다. 당신의 승무원들은 대함포대 조준망의 표적을 재설정 할 수 있는 향상된 해킹 드론을 출격시킬 수 있었습니다. 이제 대함포대가 반란군 함선에만 발포 할 것입니다!</text>
 			<environment type="PDS" target="enemy"/>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
@@ -94,7 +94,7 @@ HOSTILE ENVIRONMENT!
 	</choice>
 </event>
 <textList name="REBEL_PDS_TEXT">
-	<text>당신은 이 행성에 반란군 전초기지가 있다는 사실을 알고 충격에 빠진다. 정찰선이 당신의 함선을 요격하기위해 출동한것은 물론 대함포대 또한 사격 직전임을 감지한다. 지금 당장 탈출해야 한다!</text>
+	<text>당신은 이 행성에 반란군 전초기지가 있다는 사실을 알고 충격에 빠졌습니다. 정찰선이 당신의 함선을 요격하기위해 출동한것은 물론 대함포대 또한 사격 직전임을 감지했습니다. 지금 당장 탈출해야 합니다!</text>
 </textList>
 
 
@@ -107,9 +107,9 @@ HOSTILE ENVIRONMENT!
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice req="hacking" lvl="1">
-		<text>(Simple 해킹) 대함포대의 표적을 교란한다.</text>
+		<text>(단순한 해킹) 대함포대의 표적을 교란한다.</text>
 		<event>
-			<text>당신은 조준용 위성들의 약점을 포착한다. 당신의 승무원들은 대함포대의 자동 추적신호를 주기적으로 교란할 해킹 드론을 출격 시킬 수 있다. 이제 반란군 함선에 가끔씩 발포 할 것이다.</text>
+			<text>당신은 조준용 위성들의 약점을 포착했습니다. 당신의 승무원들은 대함포대의 자동 추적신호를 주기적으로 교란할 해킹 드론을 출격 시킬 수 있었습니다. 이제 대함포대가 반란군 함선에 가끔씩 발포 할 것입니다.</text>
 			<environment type="PDS" target="all"/>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
@@ -119,7 +119,7 @@ HOSTILE ENVIRONMENT!
 	<choice req="hacking" lvl="3">
 		<text>(최고급 해킹) 대함포대의 표적을 재설정한다.</text>
 		<event>
-			<text>당신은 조준용 위성들의 약점을 포착한다. 당신의 승무원들은 대함포대의 자동 추적신호를 재설정 할 수 있는 향상된 해킹 드론을 출격시킬 수 있다. 이제 당신의 함선 대신 반란군 함선에 발포 할 것이다!</text>
+			<text>당신은 조준용 위성들의 약점을 포착했습니다. 당신의 승무원들은 대함포대의 자동 추적신호를 재설정 할 수 있는 향상된 해킹 드론을 출격시킬 수 있었습니다. 이제 대함포대가 당신의 함선 대신 반란군 함선에 발포 할 것입니다!</text>
 			<environment type="PDS" target="enemy"/>
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
@@ -128,6 +128,6 @@ HOSTILE ENVIRONMENT!
 	</choice>
 </event>
 <textList name="REBEL_AUTO_PDS_TEXT">
-	<text>도착하자마자 경고 신호가 여럿 울린다. 적대적 무인선이 감지되고 대함포대가 발포하기 시작한다. 상황이 영  않다!</text>
+	<text>도착하자마자 경고 신호가 여럿 울렸습니다. 적대적 무인선이 감지되고 대함포대가 발포하기 시작했습니다. 상황이 영 좋지 않습니다!</text>
 </textList>
 </FTL>
