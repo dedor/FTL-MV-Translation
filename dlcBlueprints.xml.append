@@ -716,7 +716,7 @@
     <title>수리 폭탄</title>
     <short>Repair B.</short>
     <locked>1</locked>
-    <desc>선실 내로 텔레포트하여 폭발합니다. 폭발시 내장하고 있던 나노 로봇들이 흩어져, 손상된 시스템을 완전히 수리하고 함체를 2 회복시킵니다.</desc>
+    <desc>선실 내로 텔레포트하여 폭발합니다. 폭발시 내장하고 있던 나노 로봇들이 흩어져, 손상된 시스템을 완전히 수리하고 선체를 2 회복시킵니다.</desc>
     <tooltip>Bomb weapon; requires a Missile; fully repairs system. Can target your own ship.</tooltip>
     <damage>-2</damage>
     <sysDamage>-8</sysDamage>
@@ -749,7 +749,7 @@
     <title>수리 확산탄™</title>
     <short>Repair C.</short>
     <locked>1</locked>
-    <desc>선실 내로 텔레포트하여 폭발합니다. 폭발시 내장하고 있던 나노 로봇들이 흩어져, 손상된 시스템을 완전히 수리하고 함체를 회복시킵니다. 더 많은 함체를 수리하고 더 빠르게 충전되는 개조된 버전입니다.</desc>
+    <desc>선실 내로 텔레포트하여 폭발합니다. 폭발시 내장하고 있던 나노 로봇들이 흩어져, 손상된 시스템을 완전히 수리하고 선체를 회복시킵니다. 더 많은 선체를 수리하고 더 빠르게 충전되는 개조된 버전입니다.</desc>
     <tooltip>Bomb weapon; requires a Missile; fully repairs system. Can target your own ship.</tooltip>
     <damage>-3</damage>
     <sysDamage>-8</sysDamage>
@@ -1708,7 +1708,7 @@
 	<title>독성 대공포</title>
 	<short>Tox Flak</short>
 	<tip>tip_flak</tip>
-	<desc>높은 선원 피해를 가하고 때때로 함체를 부식시켜 균열을 일으키는 4발의 방사성 우주쓰레기를 발사합니다.</desc>
+	<desc>높은 선원 피해를 가하고 때때로 선체를 부식시켜 균열을 일으키는 4발의 방사성 우주쓰레기를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
@@ -1756,7 +1756,7 @@
 	<title>독성 대공포+</title>
 	<short>Tox Flak+</short>
 	<tip>tip_flak</tip>
-	<desc>높은 선원 피해를 가하고 때때로 함체를 부식시켜 균열을 일으키는 4발의 방사성 우주쓰레기를 발사합니다.</desc>
+	<desc>높은 선원 피해를 가하고 때때로 선체를 부식시켜 균열을 일으키는 4발의 방사성 우주쓰레기를 발사합니다.</desc>
 	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>

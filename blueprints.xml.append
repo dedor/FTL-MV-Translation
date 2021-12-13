@@ -7384,7 +7384,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="REPAIR_ARM">
-	<title>함체 수리 로봇 팔 [M]</title>
+	<title>선체 수리 로봇 팔 [M]</title>
 	<desc>모듈식 수리 로봇 팔 업그레이드. 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩을 얻을 때마다 선체를 수리하지만 스크랩 획득량이 10% 감소합니다. 선체가 손상되지 않았을 때는 스크랩 획득량이 감소하지 않습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
@@ -9121,7 +9121,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="PALADIN_ARMOR_PLAYER">
 	<title>신성한 장갑+</title>
-	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 무시합니다.</desc>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 선체 파괴 무기를 제외한 무기들로부터의 모든 선체 피해를 무시합니다.</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9129,7 +9129,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="PALADIN_ARMOR">
 	<title>신성한 장갑</title>
-	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 함체 파괴 무기를 제외한 무기들로부터의 모든 함체 피해를 70%의 확률로 무시합니다.</desc>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 선체 파괴 무기를 제외한 무기들로부터의 모든 선체 피해를 70%의 확률로 무시합니다.</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9157,7 +9157,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="REGEN_ARMOR">
 	<title>재생 장갑</title>
-	<desc>함체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 함체 피해를 무시합니다. An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
+	<desc>선체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 선체 피해를 무시합니다. An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9165,7 +9165,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_REGEN_ARMOR">
 	<title>재생 장갑</title>
-	<desc>함체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 함체 피해를 무시합니다.</desc>
+	<desc>선체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 선체 피해를 무시합니다.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9282,7 +9282,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SLUG_GEL">
 	<title>수리 젤</title>
-	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1 회복할 수 있습니다. Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 선체를 1 회복할 수 있습니다. Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9291,7 +9291,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="LOCKED_SLUG_GEL">
 	<title>수리 젤</title>
-	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 함체를 1 회복할 수 있습니다.</desc>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 선체를 1 회복할 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9501,7 +9501,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="REPAIR_HULL">
 	<title>동화적 장갑</title>
-	<desc>얻는 스크랩의 10%를 함체와 동화시켜 함체를 수리합니다. 선체가 손상되지 않았을 때에는 스크랩을 흡수하지 않습니다.</desc>
+	<desc>얻는 스크랩의 10%를 선체와 동화시켜 선체를 수리합니다. 선체가 손상되지 않았을 때에는 스크랩을 흡수하지 않습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9895,7 +9895,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="ZOLTAN_BLESSING">
 	<title>축복받음</title>
-	<desc>당신은 졸탄에게 축복받았습니다. 빈 송신소에서 긴 시간을 소요하는 명상을 하여 함체를 회복할 수 있습니다.</desc>
+	<desc>당신은 졸탄에게 축복받았습니다. 빈 송신소에서 긴 시간을 소요하는 명상을 하여 선체를 회복할 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -10718,11 +10718,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <weaponBlueprint name="LASER_HULL_1"> <!--.14 DPS/x2 (.28 DPS)-->
 	<type>LASER</type>
-	<title>함체 파괴 레이저 마크 I</title>
+	<title>선체 파괴 레이저 마크 I</title>
 	<short>Hull-L I</short>
     <tip>tip_hull</tip>
 	<desc>시스템이 없는 선실에 더 높은 피해를 주는 특수설계된 군용 레이저입니다.</desc>
-	<tooltip>함체 파괴 레이저; 피해 1, 발사 횟수 2. 충전 시간 12.</tooltip>
+	<tooltip>선체 파괴 레이저; 피해 1, 발사 횟수 2. 충전 시간 12.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -10756,11 +10756,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 <weaponBlueprint name="LASER_HULL_1_ENEMY">
 	<type>LASER</type>
-	<title>함체 파괴 레이저 MK I</title>
+	<title>선체 파괴 레이저 MK I</title>
 	<short>Hull-L I</short>
     <tip>tip_hull</tip>
 	<desc>YOU SHOULD NEVER SEE THIS</desc>
-	<tooltip>함체 파괴 레이저; 피해 1, 발사 횟수 2. 충전 속도 12.</tooltip>
+	<tooltip>선체 파괴 레이저; 피해 1, 발사 횟수 2. 충전 속도 12.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -10795,10 +10795,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LASER_HULL_2"> <!--.18 DPS/x2 (.37 DPS)-->
 	<type>LASER</type>
-	<title>함체 파괴 레이저 마크 II</title>
+	<title>선체 파괴 레이저 마크 II</title>
 	<short>Hull-L II</short>
 	<tip>tip_hull</tip>
-	<desc>더 많은 전력을 사용하지만 발사 횟수가 증가한 강화된 함체 파괴 레이저입니다.</desc>
+	<desc>더 많은 전력을 사용하지만 발사 횟수가 증가한 강화된 선체 파괴 레이저입니다.</desc>
 	<tooltip>A-Hull laser; 1 damage, 3 shots. 16 second cooldown.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
@@ -10835,11 +10835,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LASER_HULL_3"> <!--.21 DPS/x2 (.42 DPS)-->
 	<type>LASER</type>
-	<title>함체 파괴 레이저 마크 III</title>
+	<title>선체 파괴 레이저 마크 III</title>
 	<short>Hull-L III</short>
 	<tip>tip_hull</tip>
-	<desc>총 4발을 쏘는 고급 함체 파괴 레이저입니다. 시스템이 없는 선실에 치명적입니다.</desc>
-	<tooltip>함체 파괴 레이저; 피해 1, 발사 횟수 4. 충전 시간 19초.</tooltip>
+	<desc>총 4발을 쏘는 고급 선체 파괴 레이저입니다. 시스템이 없는 선실에 치명적입니다.</desc>
+	<tooltip>선체 파괴 레이저; 피해 1, 발사 횟수 4. 충전 시간 19초.</tooltip>
 	<damage>1</damage>
 	<shots>4</shots>
 	<sp>0</sp>
@@ -10875,11 +10875,11 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <weaponBlueprint name="LASER_HULL_CHAINGUN">
 	<type>LASER</type>
-	<title>연쇄 함체 파괴 레이저</title>
+	<title>연쇄 선체 파괴 레이저</title>
 	<short>Chain Hl.</short>
 	<tip>tip_chain_laser</tip>
 	<desc>시스템이 없는 선실에 더 높은 피해를 주는 특수설계된 군용 레이저입니다. 발사할 때마다 충전 시간이 줄어듭니다.</desc>
-	<tooltip>함체 파괴 레이저; 피해 1, 발사 횟수 2. 충전 시간 12초.</tooltip>
+	<tooltip>선체 파괴 레이저; 피해 1, 발사 횟수 2. 충전 시간 12초.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -11594,7 +11594,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>안티-바이오 레이저</title>
 	<short>A-Bio L.</short>
 	<tip>tip_laser_bio</tip>
-	<desc>함체나 시스템 피해 없이 높은 선원 피해만을 가하는 특수한 레이저입니다.</desc>
+	<desc>선체나 시스템 피해 없이 높은 선원 피해만을 가하는 특수한 레이저입니다.</desc>
 	<tooltip>안티 바이오 레이저; 선원 피해 60, 발사 횟수 1. 충전 시간 8초.</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -11645,7 +11645,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>입자 가속기 마크 I</title>
 	<short>Part I</short>
 	<tip>tip_particle_laser</tip>
-	<desc>함체나 선원에게 피해를 줄 수 없지만 큰 시스템 피해를 가하는 유선형의 볼트를 발사합니다.</desc>
+	<desc>선체나 선원에게 피해를 줄 수 없지만 큰 시스템 피해를 가하는 유선형의 볼트를 발사합니다.</desc>
 	<tooltip>입자 가속기; 시스템 피해 1, 발사 탄수 3. 충전 시간 10초. 높은 확률로 화재를 일으킴.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -11687,7 +11687,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>입자 가속기 마크 II</title>
 	<short>Part II</short>
 	<tip>tip_particle_laser</tip>
-	<desc>함체나 선원에게 피해를 줄 수 없지만 큰 시스템 피해를 가하는 유선형의 볼트를 발사합니다.</desc>
+	<desc>선체나 선원에게 피해를 줄 수 없지만 큰 시스템 피해를 가하는 유선형의 볼트를 발사합니다.</desc>
 	<tooltip>입자 가속기; 시스템 피해 1, 발사 탄수 5. 충전 시간 17초. 높은 확률로 화재를 일으킴.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -12437,7 +12437,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Fire Ion</short>
 	<tip>tip_ion_fire</tip>
 	<locked>1</locked>
-	<desc>이온 무기는 함체 피해 없이 시설을 마비시킬 수 있습니다. 이 무기는 피격된 선실에 화재를 일으킵니다.</desc>
+	<desc>이온 무기는 선체 피해 없이 시설을 마비시킬 수 있습니다. 이 무기는 피격된 선실에 화재를 일으킵니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<spin>720</spin>
@@ -12484,7 +12484,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Bio Ion</short>
 	<tip>tip_ion_bio</tip>
 	<locked>1</locked>
-	<desc>이온 무기는 함체 피해 없이 시설을 마비시킬 수 있습니다. 이 무기는 선원에게도 피해를 입힙니다.</desc>
+	<desc>이온 무기는 선체 피해 없이 시설을 마비시킬 수 있습니다. 이 무기는 선원에게도 피해를 입힙니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage and recharges very quickly. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<persDamage>1</persDamage>
@@ -12785,7 +12785,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_missiles_heavy</tip>
 	<title>'헤르메스' 중형 미사일</title>
 	<short>'Hermes'</short>
-	<desc>적 함체에 큰 피해를 입히는 강력한 미사일입니다.</desc>
+	<desc>적 선체에 큰 피해를 입히는 강력한 미사일입니다.</desc>
 	<tooltip>Fires 1 missile; does 3 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -13619,7 +13619,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_beams</tip>
 	<title>'파이크' 빔</title>
 	<short>'Pike'</short>
-	<desc>방어막이 없다면, 함체 전체를 가로지를 수 있습니다.</desc>
+	<desc>방어막이 없다면, 선체 전체를 가로지를 수 있습니다.</desc>
 	<tooltip>Beam weapon with extended line. 1 damage per room.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -13646,7 +13646,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_beams</tip>
 	<title>'파이크' 빔 II</title>
 	<short>'Pike' II</short>
-	<desc>방어막이 없다면, 함체 전체를 가로지를 수 있습니다. 마크 I보다 길고 빠르며 더 큰 피해를 입힙니다.</desc>
+	<desc>방어막이 없다면, 선체 전체를 가로지를 수 있습니다. 마크 I보다 길고 빠르며 더 큰 피해를 입힙니다.</desc>
 	<tooltip>Beam weapon with extended line. 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -13673,7 +13673,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_beams</tip>
 	<title>'사이드' 빔</title>
 	<short>'Scythe'</short>
-	<desc>함체를 순식간에 가로지르는 독특한 빔입니다. 방어막을 빠르게 통과하는데 유용합니다.</desc>
+	<desc>선체를 순식간에 가로지르는 독특한 빔입니다. 방어막을 빠르게 통과하는데 유용합니다.</desc>
 	<tooltip>Beam weapon with extended line. 1 damage per room.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
@@ -13866,7 +13866,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_breach_beam</tip>
 	<title>'란세어' 빔</title>
 	<short>'Ranseur'</short>
-	<desc>물리적 피해는 입힐 수 없지만, 적 함체에 균열을 일으키고 방어막을 한겹 관통하는 강력한 빔입니다.</desc>
+	<desc>물리적 피해는 입힐 수 없지만, 적 선체에 균열을 일으키고 방어막을 한겹 관통하는 강력한 빔입니다.</desc>
 	<tooltip>Beam weapon that opens breaches.</tooltip>
 	<damage>0</damage>
 	<sp>2</sp>
@@ -13920,7 +13920,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>'루체른' 빔 II</title>
 	<short>'Lucerne' II</short>
 	<tip>tip_hull</tip>
-	<desc>적절한 함선을 대상으로 사용한다면 글레이브 빔보다도 강할 수 있는 강력한 함체 파괴 빔입니다.</desc>
+	<desc>적절한 함선을 대상으로 사용한다면 글레이브 빔보다도 강할 수 있는 강력한 선체 파괴 빔입니다.</desc>
 	<tooltip>Beam weapon; 2 damage; 2x damage in systemless rooms.</tooltip>
 	<damage>2</damage>
 	<fireChance>0</fireChance>
@@ -13971,9 +13971,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="BEAM_REPAIR">
 	<type>BEAM</type>
 	<tip>tip_beam_repair</tip>
-	<title>함체 수리 빔</title>
+	<title>선체 수리 빔</title>
 	<short>Pro-Hull Beam</short>
-	<desc>적의 함체를 수리해주는 이 무기는 겉보기에 모순적입니다. 약간의 선원 피해 또한 가하는데, 다른 함체에 피해를 입히는 무기들과 함께 사용하여 적함을 나포할 수 있습니다.</desc>
+	<desc>적의 선체를 수리해주는 이 무기는 겉보기에 모순적입니다. 약간의 선원 피해 또한 가하는데, 다른 선체에 피해를 입히는 무기들과 함께 사용하여 적함을 나포할 수 있습니다.</desc>
 	<tooltip>2 power beam weapon that greatly damages enemy crew.</tooltip>
 	<damage>-2</damage>
 	<persDamage>1</persDamage>
@@ -14394,7 +14394,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_focus</tip>
 	<title>'애널레이스' 핀포인트</title>
 	<short>'Anelace'</short>
-	<desc>함체에는 피해를 주지 않지만 선원에게 큰 피해를 입히는 강력한 개조된 핀포인트입니다. 방어막을 2겹 관통합니다.</desc>
+	<desc>선체에는 피해를 주지 않지만 선원에게 큰 피해를 입히는 강력한 개조된 핀포인트입니다. 방어막을 2겹 관통합니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>0</damage>
 	<persDamage>4</persDamage>
@@ -14426,7 +14426,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_focus</tip>
     <title>'애널레이스' 핀포인트+</title>
     <short>'Anelace+'</short>
-    <desc>함체에는 피해를 주지 않지만 선원에게 큰 피해를 입히는 강력한 개조된 핀포인트입니다. 방어막을 2겹 관통합니다.</desc>
+    <desc>선체에는 피해를 주지 않지만 선원에게 큰 피해를 입히는 강력한 개조된 핀포인트입니다. 방어막을 2겹 관통합니다.</desc>
     <tooltip>One damage per room beam weapon</tooltip>
     <damage>0</damage>
     <persDamage>4</persDamage>
@@ -14506,7 +14506,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>폭탄 발사기</title>
 	<short>Bomb</short>
 	<locked>1</locked>
-	<desc>스스로 순간이동한 후 폭발하여 시스템과 선원에게 피해를 주지만 함체에는 손상을 주지 않습니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
+	<desc>스스로 순간이동한 후 폭발하여 시스템과 선원에게 피해를 주지만 선체에는 손상을 주지 않습니다. 당신의 함선을 목표로 삼을 수 있습니다.</desc>
 	<tooltip>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -14871,7 +14871,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<short>Energy I</short>
 	<tip>tip_energy</tip>
 	<locked>1</locked>
-	<desc>에너지 무기는 시스템을 마비시키면서 함체에도 피해를 줍니다.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage and 1 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -14916,7 +14916,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>에너지 포 II</title>
 	<short>Energy II</short>
 	<tip>tip_energy</tip>
-	<desc>에너지 무기는 시스템을 마비시키면서 함체에도 피해를 줍니다.</desc>
+	<desc>에너지 무기는 시스템을 마비시키면서 선체에도 피해를 줍니다.</desc>
 	<tooltip>Fires a single blast that does 2 ion damage and 2 hull damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -15599,7 +15599,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="KERNEL_HULL">
 	<type>MISSILES</type>
 	<tip>tip_kernel</tip>
-	<title>함체 파괴 낱알 포</title>
+	<title>선체 파괴 낱알 포</title>
 	<short>Kern. Hull.</short>
 	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 시스템이 없는 방에 추가 피해를 입힙니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
@@ -15640,7 +15640,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="KERNEL_HULL_ELITE">
 	<type>MISSILES</type>
 	<tip>tip_kernel</tip>
-	<title>함체 파괴 엘리트 낱알 포</title>
+	<title>선체 파괴 엘리트 낱알 포</title>
 	<short>E. Kern. Hull.</short>
 	<desc>오키드 고향 행성에서 자라는 거대한 식물의 씨앗을 탄약으로 삼는 무기입니다. 시스템이 없는 방에 추가 피해를 입힙니다. 선원을 더 오래 기절시키고, 더 높은 확률로 탄약 소모를 무시하는 강력한 엘리트 버전입니다.</desc>
 	<tooltip>Fires 1 kernel; 1 damage; pierces all shields; guaranteed breach.</tooltip>
@@ -18251,7 +18251,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>하보카이저</title>
 	<short>Havoceizer</short>
-	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 함체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다.</desc>
+	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 선체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>0</damage>
 	<sysDamage>2</sysDamage>
@@ -18587,7 +18587,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>아이테르 빔</flavorType>
 	<title>하보카이저</title>
 	<short>Havoceizer</short>
-	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 함체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다.</desc>
+	<desc>이 덩치 큰 빔은 당신의 예상과는 사뭇 다른 기능을 보여줍니다. 선체에 물리적 피해를 주지 못하지만, 적선을 혼돈의 도가니에 빠뜨려 버립니다.</desc>
 	<tooltip>One damage per room beam weapon</tooltip>
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
@@ -18788,7 +18788,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>고대의 함포</title>
 	<short>A. Artillery</short>
-	<desc>함포: 함선 전체를 가로지르며 함체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다.</desc>
+	<desc>함포: 함선 전체를 가로지르며 선체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다.</desc>
 	<tooltip>Artillery: </tooltip>
 	<damage>1</damage>
 	<sysDamage>10</sysDamage>
@@ -18891,7 +18891,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<flavorType>고대 기술</flavorType>
 	<title>고대의 함포</title>
 	<short>Artillery</short>
-	<desc>함포: 함선 전체를 가로지르며 함체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다.
+	<desc>함포: 함선 전체를 가로지르며 선체와 시스템을 박살 내 버리는 강력한 고대의 빔입니다.
 	Base Cooldown: 40</desc>
 	<tooltip>Artillery: A powerful ancient Beam weapon that sweeps across entire ships, decimating their hull and systems.</tooltip>
 	<damage>1</damage>
@@ -19401,7 +19401,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<drone_targetable>1</drone_targetable>
 	<title>소금 발사기</title>
 	<short>Salt</short>
-	<desc>범위 내에 방어막을 관통하며 함체 피해와 함께 높은 선원 피해와 기절 효과를 가하는 두발의 발사체를 발사하는 이상한 무기입니다.</desc>
+	<desc>범위 내에 방어막을 관통하며 선체 피해와 함께 높은 선원 피해와 기절 효과를 가하는 두발의 발사체를 발사하는 이상한 무기입니다.</desc>
 	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
 	<radius>35</radius>
 	<damage>1</damage>
@@ -20869,7 +20869,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <weaponBlueprint name="LOOT_SHELL_1">
 	<type>LASER</type>
 	<tip>loot_shell_1</tip>
-	<title>함체 파괴 레이저 마크 I</title>
+	<title>선체 파괴 레이저 마크 I</title>
 	<short>Hull-L I</short>
 	<desc>특별한 전리품 무기입니다. 보관소 창의 툴팁에서 특수 능력치를 확인하세요.</desc>
 	<tooltip>Fires 2 lasers, 1 damage each and 2x damage in systemless rooms.</tooltip>
@@ -21601,7 +21601,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_missiles</tip>
 	<title>흑요석 미사일</title>
 	<short>Obsidian</short>
-	<desc>이 강력한 미사일은 적선의 함체에 막대한 피해를 입히는 흑요석 외피가 장착되어 있습니다.</desc>
+	<desc>이 강력한 미사일은 적선의 선체에 막대한 피해를 입히는 흑요석 외피가 장착되어 있습니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<damage>6</damage>
 	<missiles>1</missiles>
@@ -21671,7 +21671,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>강철 발사기</title>
 	<short>Steel</short>
 	<tip>tip_flak</tip>
-	<desc>느리지만 함체에 훨씬 큰 피해를 입히는 중금속 무더기를 발사하는 개조된 대공포입니다.</desc>
+	<desc>느리지만 선체에 훨씬 큰 피해를 입히는 중금속 무더기를 발사하는 개조된 대공포입니다.</desc>
 	<tooltip>Boss Loot.</tooltip>
 	<radius>65</radius>
 	<damage>1</damage>
@@ -22533,10 +22533,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<title>안티-바이오 모듈</title>
 	<short>A-Bio Mod.</short>
 	<desc>헥타르 산업(TM) 브랜드의 안티-바이오 상태 모듈입니다. 당신의 모듈식 무기를 완벽한 대인 병기로 개조해 보세요!
-	모든 제품과 호환됩니다. 함체 파괴 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다.
-	레이저 효과: 함체 피해량이 0이 되지만, 각 발사체가 30의 선원 피해를 입힙니다.
-	빔 효과: 함체 피해량이 0이 되지만, 60의 선원 피해를 입힙니다.
-	미사일 효과: 함체 피해량이 0이 되지만, 90의 선원 피해를 입힙니다.</desc>
+	모든 제품과 호환됩니다. 선체 파괴 모듈과 병용할 경우, 선체 피해량이 기본값으로 설정되며 선체 파괴 효과는 적용되지 않습니다.
+	레이저 효과: 선체 피해량이 0이 되지만, 각 발사체가 30의 선원 피해를 입힙니다.
+	빔 효과: 선체 피해량이 0이 되지만, 60의 선원 피해를 입힙니다.
+	미사일 효과: 선체 피해량이 0이 되지만, 90의 선원 피해를 입힙니다.</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -22668,10 +22668,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<type>BEAM</type>
 	<flavorType>속성 모듈</flavorType>
 	<tip>tip_storage</tip>
-	<title>함체 파괴 모듈</title>
+	<title>선체 파괴 모듈</title>
 	<short>Hull Mod.</short>
-	<desc>헥타르 산업(TM) 브랜드의 함체 파괴 속성 모듈입니다. 더 강력한 모듈식 무기로 적함의 함체를 박살내 버리세요!
-	모든 제품과 호환됩니다. 안티-바이오 모듈과 병용할 경우, 함체 피해량이 기본값으로 설정되며 함체 파괴 효과는 적용되지 않습니다.
+	<desc>헥타르 산업(TM) 브랜드의 선체 파괴 속성 모듈입니다. 더 강력한 모듈식 무기로 적함의 선체를 박살내 버리세요!
+	모든 제품과 호환됩니다. 안티-바이오 모듈과 병용할 경우, 선체 피해량이 기본값으로 설정되며 선체 파괴 효과는 적용되지 않습니다.
 	모든 무가의 효과: 무기가 시스템이 없는 선실에 2배의 피해를 입힙니다. 균열을 발생시킬 확률이 10% 증가합니다. [관통 모듈의 균열 발생 확률과 중첩될 수 있습니다]</desc>
 	<tooltip>Storage Weapon</tooltip>
 	<damage>0</damage>
@@ -23471,7 +23471,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	모든 모듈과 호환됩니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴</desc>
+	속성 - 선체 파괴</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
 	<hullBust>1</hullBust>
@@ -23513,7 +23513,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	모든 모듈과 호환됩니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 안티-바이오</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
@@ -23556,7 +23556,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	모든 모듈과 호환됩니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 충전 속도</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
@@ -23599,7 +23599,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	모든 모듈과 호환됩니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 봉쇄</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
@@ -23643,7 +23643,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	모든 모듈과 호환됩니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 관통</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
@@ -23686,7 +23686,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 레이저의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	모든 모듈과 호환됩니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 기절</desc>
 	<tooltip>No modules attached.</tooltip>
 	<damage>1</damage>
@@ -24021,7 +24021,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	봉쇄 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴</desc>
+	속성 - 선체 파괴</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
 	<hullBust>1</hullBust>
@@ -24049,7 +24049,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	봉쇄 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 안티-바이오</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
@@ -24078,7 +24078,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	봉쇄 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 충전 속도</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
@@ -24107,7 +24107,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	봉쇄 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 관통</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
@@ -24136,7 +24136,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 빔의 몸체입니다.  1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	봉쇄 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 기절</desc>
 	<tooltip>Beam weapon, 2 damage per room.</tooltip>
 	<damage>2</damage>
@@ -24831,7 +24831,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	관통 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴</desc>
+	속성 - 선체 파괴</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
 	<missiles>1</missiles>
@@ -24874,7 +24874,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	관통 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 안티-바이오</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
@@ -24918,7 +24918,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	관통 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 충전 속도</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
@@ -24962,7 +24962,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	관통 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 봉쇄</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
@@ -25007,7 +25007,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<desc>헥타르 산업(TM)에서 생산하는 모듈식 미사일의 몸체입니다. 1개의 속성 모듈과 1개의 상태 모듈을 장착할 수 있습니다.
 	관통 모듈과 호환되지 않습니다.
 	----현재 장착된 모듈----
-	속성 - 함체 파괴
+	속성 - 선체 파괴
 	상태 - 기절</desc>
 	<tooltip>Fires 1 missile; does 2 damage; pierces all shields.</tooltip>
 	<damage>3</damage>
@@ -25684,7 +25684,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>헬레이저 [방화]</title>
 	<short>Hell [F]</short>
-	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
+	<desc>[현재 모드: 방화] 방화 모드 또는 선체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25699,9 +25699,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="HELLRAISER_HULL">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>헬레이저 [함체 파괴]</title>
+	<title>헬레이저 [선체 파괴]</title>
 	<short>Hell [H]</short>
-	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
+	<desc>[현재 모드: 선체 파괴] 방화 모드 또는 선체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25719,7 +25719,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_toggle_combat</tip>
 	<title>헬레이저+ [방화]</title>
 	<short>Hell+ [F]</short>
-	<desc>[현재 모드: 방화] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
+	<desc>[현재 모드: 방화] 방화 모드 또는 선체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -25734,9 +25734,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="HELLRAISER_HULL_PLAYER">
 	<type>COMBAT</type>
 	<tip>tip_toggle_combat</tip>
-	<title>헬레이저+ [함체 파괴]</title>
+	<title>헬레이저+ [선체 파괴]</title>
 	<short>Hell+ [H]</short>
-	<desc>[현재 모드: 함체 파괴] 방화 모드 또는 함체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
+	<desc>[현재 모드: 선체 파괴] 방화 모드 또는 선체 파괴 모드로 전환 가능한 강력한 빔 토글 드론입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27029,7 +27029,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_ancient</tip>
 	<title>하빈저 드론 마크 I</title>
 	<short>Harbing. I</short>
-	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 함체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 선체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27046,7 +27046,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <tip>tip_ancient</tip>
     <title>하빈저 드론 마크 II</title>
     <short>Harbing. II</short>
-    <desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 함체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다. 이동속도와 공격 속도가 마크 I보다 빠릅니다.</desc>
+    <desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 선체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다. 이동속도와 공격 속도가 마크 I보다 빠릅니다.</desc>
     <power>4</power>
     <cooldown>1000</cooldown>
     <dodge>0</dodge>
@@ -27493,7 +27493,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<tip>tip_ancient</tip>
 	<title>하빈저 드론 마크 II</title>
 	<short>Harbing. II</short>
-	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 함체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다. 마크 I보다 큰 피해를 가합니다.</desc>
+	<desc>알려져 있는 그 어떤 드론보다도 진보된 드론입니다. 추가적인 시스템 피해와 함께 상당한 선체 피해를 입히는 레이저 기술이 장착된 것으로 보입니다. 마크 I보다 큰 피해를 가합니다.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -27650,9 +27650,9 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 <droneBlueprint name="SHIP_REPAIR">
 	<type>SHIP_REPAIR</type>
 	<tip>tip_drone_hullrepair</tip>
-	<title>함체 수리 드론</title>
+	<title>선체 수리 드론</title>
 	<short>Hull Repair</short>
-	<desc>자동으로 3-5의 함체 피해를 수리합니다. 드론 부품은 수리 즉시 소모됩니다.</desc>
+	<desc>자동으로 3-5의 선체 피해를 수리합니다. 드론 부품은 수리 즉시 소모됩니다.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
