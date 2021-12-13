@@ -433,9 +433,9 @@ Tip: 전투 드론은 전투마다 한 개의 드론 부품을 소모하여 배�
 
 <text name="map_icon_reinforcements">증원</text>
 
-<text name="map_icon_ruins">유적</text>
+<text name="map_icon_ruins">폐허</text>
 
-<text name="map_icon_ruins_dynasty">유적</text>
+<text name="map_icon_ruins_dynasty">폐허</text>
 
 <text name="map_icon_vault">볼트</text>
 
@@ -453,9 +453,9 @@ Tip: 전투 드론은 전투마다 한 개의 드론 부품을 소모하여 배�
 
 <text name="map_icon_anointed">어노인티드 [출구]</text>
 
-<text name="map_icon_delta">델타 부서</text>
-<text name="map_icon_alpha">알파 부서</text>
-<text name="map_icon_omega">오메가 부서</text>
+<text name="map_icon_delta">델타 기지</text>
+<text name="map_icon_alpha">알파 기지</text>
+<text name="map_icon_omega">오메가 기지</text>
 
 <text name="map_icon_body">BODY</text>
 
@@ -553,7 +553,7 @@ R: 215
 G: 255
 B: 200
 -->
-<text name="map_icon_store_generic">상점 [민간]</text>
+<text name="map_icon_store_generic">상점 [민간인]</text>
 <text name="map_icon_store_federation">상점 [연방]</text>
 <text name="map_icon_store_engi">상점 [엔지]</text>
 <text name="map_icon_store_zoltan">상점 [졸탄]</text>
