@@ -78,7 +78,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -104,7 +104,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -131,7 +131,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -158,7 +158,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -288,7 +288,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -317,7 +317,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -407,7 +407,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -435,7 +435,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -463,7 +463,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -490,7 +490,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 	<choice hidden="true" req="LIST_CREW_JERRY">
@@ -542,7 +542,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 무인기로부터 탈출한다.</text>
+		<text>(최고급 엔진) 무인기로부터 탈출한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>
@@ -557,7 +557,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 무인기로부터 탈출한다.</text>
+		<text>(최고급 엔진) 무인기로부터 탈출한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>
@@ -573,7 +573,7 @@
 		<event load="COMBAT_CHECK"/>
 	</choice>
 	<choice hidden="true" req="engines" lvl="6">
-		<text>(고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
+		<text>(최고급 엔진) 엘리트로부터 탈출을 시도한다.</text>
 		<event load="FLEET_ESCAPE"/>
 	</choice>
 </event>
