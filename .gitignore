@@ -2,3 +2,8 @@
 *.xlsx
 /xls_orig
 /xls_targ
+/kor
+/xls
+/orig
+/.old
+/targ
