@@ -4,6 +4,9 @@
 /xls_targ
 /kor
 /xls
+/xls_merged
 /orig
 /.old
 /targ
+/kor_xml
+/__pycache__
