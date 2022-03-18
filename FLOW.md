@@ -10,15 +10,10 @@
 ## generate-xml.py
 원본 xml(/orig)에서 텍스트를 /xls의 kor열의 텍스트로 치환한 것을 /kor에 xml로 저장.
 병합 규칙과 같은 방식으로 치환.
-## update-xlsx.py
-업데이트된 xml(/update)으로 /xls을 갱신해 xls_updated에 저장.
 
 # TODO
-- 파일 자체가 수정된 경우?
-    - 모든 파일을 읽은 후 알맞은 세그먼트 채우기?(TM 구현)
-- crowdin 플랫폼에서 TM, comments 기능 지원 여부 파악
 - 다른 모드와 호환성을 위해 텍스트 치환형 패치?
-- 텍스트 데이터가 없는 xml은 xls 생성하지 않기
+~~- 텍스트 데이터가 없는 xml은 xls 생성하지 않기~~
 
 # FLOW
 
@@ -27,13 +22,6 @@
 1. 원본 xml을 /orig 폴더를 만들어 위치.
 2. generate-xlsx.py를 실행.
 3. /xls에 생성된 파일로 작업 시작.
-
-## 업데이트 하는 경우
-0. 준비해야 할 파일 : **업데이트된** 원본 xml, 작업 xls
-1. 업데이트된 원본 xml을 /update 폴더를 만들어 위치.
-2. 기존 번역물 xls을 /xls에 위치.
-3. update-xlsx.py를 실행.
-4. /xls의 갱신된 파일로 작업 재개.
 
 ## 기존 번역 xml이 있는 경우
 0. 준비해야 할 파일 : 원본 xml, 기존 번역 xml
@@ -54,7 +42,7 @@
 ### 원본 xml 수정사항
 - dlcBlueprints.xml.append xml 태그의 "mod:"를 "mod_"로 치환
 - events_mantis.xml.append: line 500, column 56 주석 삭제
-#### 삭제 파일
+#### 삭제 파일 _검증 필요_
 - achievements.xml
 - animations.xml
 - achievements_unused.xml
@@ -62,6 +50,6 @@
 - bosses.xml.append
 - events_imageList.xml.append
 - sounds.xml.append
-#### names 사용 파일 (검증 필요)
+#### names 사용 파일 _검증 필요_
 - names.xml.append
 - sector_data.xml.append
